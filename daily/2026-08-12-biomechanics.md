@@ -3,6 +3,12 @@
 **Scope: ELITE ONLY. 85 mph hard floor.** Elite HS (PG/showcase, D1-committed) → D1 → MiLB → MLB. Target 90–95+.
 **Full report:** `research/library/biomechanics.md`
 
+> ## ⚠ THIS BRIEF CONTAINS A CLAIM LATER CORRECTED — back-corrected in place 2026-08-17
+> This is a **dated snapshot of what the program believed on 2026-08-12**, not current reference. The original text is preserved verbatim; the correction is inserted inline immediately after the affected passage.
+>
+> **Corrected in this file:**
+> 1. **"Clean win: stride length"** (§ *Four "free" torque reductions*) — stride length is a **MARKER, not a lever.** Two independent experimental manipulations found no velocity gain and one found lengthening made pitchers **slower**. (F-043, F-044, F-045)
+
 ---
 
 ## The one thing to know today
@@ -55,6 +61,8 @@ From two regressions on 523 and 337 elite pitchers:
 
 **Direct conflicts (buy velo, cost torque):** elbow extension velocity · lead-knee extension velocity · trunk lateral tilt at release.
 **Clean win:** stride length (β = 0.334 for velocity, not a torque contributor).
+
+> **⚠ CORRECTED 2026-08-17 — stride length is NOT a "clean win," because it is not a lever at all.** The torque half of the statement stands (stride length does not appear as a varus-torque contributor; Manzi JE et al. 2021, PMID 34240663, n = 315 professional, found no significant difference in elbow varus torque across stride-length quartiles). **The velocity half is cross-sectional and its causal reading is refuted.** Two independent groups manipulated stride length experimentally: **Ramsey, Crotin & White 2014** (*Hum Mov Sci* 38:185-196, PMID 25457417; randomized crossover, ±25%, n = 19) found **hand and ball velocity equivalent across all conditions**, and **Matsuda 2025** (*Front Sports Act Living*, ±20%) found the pitcher's **own normal stride significantly FASTER than a lengthened one.** The %BH normalization is separately disputed (Yanagisawa 2020: %BH r = 0.36, **p = .15, NS**). **A long stride is a marker of a hard thrower, not a lever that makes one.** See `library/velocity-development.md` §4.4, `library/open-disputes.md` #13, and F-043 / F-044 / F-045 in FINDINGS.md.
 
 ## Three claims to stop making
 

@@ -4,6 +4,14 @@
 **Full report:** `library/stuff-and-command.md`
 **Population:** elite, 85 mph floor · **Scope:** performance development only
 
+> ## ⚠ THIS BRIEF CONTAINS A CLAIM LATER CORRECTED — back-corrected in place 2026-08-17
+> This is a **dated snapshot of what the program believed on 2026-08-13**, not current reference. The original text is preserved verbatim; the correction is inserted inline immediately after the affected passage. Current state lives in `library/stuff-and-command.md`.
+>
+> **Corrected in this file:**
+> 1. **The changeup finding was INVERTED** — "spin-axis similarity showed no predictive value … Neither did velocity" (in *Marketing, named*). Velocity **separation** is Rosen 2025's main argued mechanism and he calls it strong; what has no relationship to whiff rate is **ABSOLUTE** changeup velocity. (F-159, F-232)
+>
+> **Not corrections, for the record:** the Bloebaum ρ = 0.22 passage in this file is *already right* — it correctly states the association is with **pitch velocity, not command** — and it is the source of that correction elsewhere in the corpus (F-109).
+
 ---
 
 ## The one-paragraph version
@@ -77,6 +85,8 @@ Baseball coaching education teaches several of these as settled. **They are not.
 - **"Raise your spin rate"** — raw spin explains **~4%** of IVB variance (+0.32 in/100 rpm observed vs +0.57 theoretical). **The gap is efficiency.**
 - **SSW as a service** — the physics is settled (Smith & Smith 2021; ~17.6° axis deviation on sinkers; +3 in run / +4 in drop league-wide; ~9 in at the extremes). But the prescriptive pathway is unsolved, pitch-to-pitch stability unknown, and **Driveline's own data found ~42% of SSW-affected pitches had LOWER Stuff+.** Movement ≠ value.
 - **"Match your changeup's spin axis to your fastball"** — spin-axis similarity showed **no predictive value** for changeup whiff rate (Rosen 2025). Neither did velocity or arm-angle change. **Kill the spin, preserve arm speed, make him early.**
+
+> **⚠ CORRECTED 2026-08-17 — THIS INVERTS THE SOURCE.** Rosen 2025's **main argued chain is velocity SEPARATION → hitters out front → whiffs**, and he calls that relationship **strong**. What has **no** relationship to changeup whiff rate is **ABSOLUTE changeup velocity** — a different variable. The 2026-08-13 text collapsed the two and reversed the conclusion. Additionally, the **spin-axis and arm-angle nulls are single unquantified sentences** in that article — not "published nulls," and they should not be presented as though they carried a tested effect size. The practical cue ("preserve arm speed, make him early") survives — but it survives *because* velocity separation matters, not despite velocity being irrelevant. See `library/stuff-and-command.md` §3.5 and §12, and F-232 / F-159 in FINDINGS.md.
 - **Building around the sweeper in 2026** — RV/100 **−0.94 same-handed vs −0.05 opposite-handed** (worse than an ordinary slider). Whiff% 33.4 → 31.0 → 31.2. Driveline **repriced it downward** in Stuff+ v4. The alpha is gone.
 - **Tunneling** — BP's metric suite was **published with zero outcome validation**; independent test gives **r = 0.07** with run value. What *does* work is **horizontal release-angle overlap** (59% swing prediction vs Stuff+'s 54%; r² = 0.12–0.20 vs 0.001) — a static, trainable property of the delivery, not a sequencing decision.
 - **Optimizing Stuff+** — predicts ERA at **r ≈ .14 for team-switchers** (vs .41 same-team); its discriminating power has compressed **~9% since 2020** as everyone optimizes to it; and the "r² = .996" figure circulating is a curve-fit of bucketed group means, not pitcher-level prediction.

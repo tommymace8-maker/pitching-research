@@ -223,9 +223,9 @@ Six corrections landed in one day. **None was a fabrication.** Every one was a r
 > **(C)** The same scrutiny applies to disconfirming evidence. The coach presented one 19-athlete cohort as multiple independent studies, in the direction he was already arguing, on the same day he accused colleagues of the same error.
 > **(D)** Sample sizes are verified on the paper's own page — never from a search summary, an abstract aggregator, or another paper's citation of it.
 
-### Two live re-import vectors
+### Re-import vectors — one closed 2026-08-17, one still live
 
-1. **The daily briefs were never corrected.** `daily/2026-08-13-velocity.md` still asserts "not one study at 85+," "+1.35 mph," "mean -1.15 mph," the Gdovin removal framing, and stride length as one of "the two free mechanical levers." `daily/2026-08-13-stuff-command.md` still carries the reversed changeup framing. **These are dated snapshots, not current reference.** (F-241)
+1. ~~**The daily briefs were never corrected.**~~ **CLOSED 2026-08-17 — back-correction applied in place.** `daily/2026-08-13-velocity.md` asserted "not one study at 85+," "+1.35 mph," "mean -1.15 mph," the Gdovin removal framing, and stride length as one of "the two free mechanical levers"; `daily/2026-08-13-stuff-command.md` carried the reversed changeup framing. **Every affected brief now carries a ⚠ banner at the top listing which of its claims were later corrected, plus an inline `⚠ CORRECTED 2026-08-17` notice immediately after each superseded assertion**, giving the current number, the design, and the library file and F-ID. **The original text was NOT deleted or rewritten** — these remain dated historical records, and the trail of what the program believed and when is intact (which matters, because that trail is the evidence for F-240). Annotated — 16 inline notices across 5 files: `2026-08-13-velocity.md` (10 notices), `2026-08-13-coach.md` (3 — its §2.2 script, the Kusafuka r = 0.73 label, and its §5 changeup row, which contradicted its own §9), `2026-08-13-stuff-command.md` (1), `2026-08-12-biomechanics.md` (1 — stride length as the "clean win"), `2026-08-12-coach.md` (1 — Bloebaum rho = 0.22 in a command context, F-109). `2026-08-12-anatomy.md` was checked and left untouched. **They are still dated snapshots, not current reference — read the library files for current state.** (F-241)
 2. **Internal inconsistencies not yet resolved** — five figures appear at different values in different files, including the interval-throwing throw count (238,611 vs 111,196), the OpenBiomechanics metric count (81 vs 76), the 2008/2026 league-average velocities, and shoulder IR velocity (5,456-6,149 deg/s from the ASMI table vs "7,000-7,500 deg/s" in the anatomy file, the latter explicitly flagged as unverified). (F-231)
 
 ### Outstanding verification backlog
@@ -275,7 +275,7 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 ### Structural gaps in the corpus's own method
 - **Only two research days exist** (2026-08-12 and 2026-08-13). Everything here is two cycles deep.
 - **Verification is incomplete and known to be incomplete** (F-242).
-- **The daily briefs are not maintained** and contain superseded claims (F-241).
+- **The daily briefs are not maintained** and contain superseded claims — **now annotated in place with dated correction notices (2026-08-17), but not rewritten.** Read them as history, not reference (F-241).
 - **Nothing in the corpus has been tested against a real athlete.** Every protocol is inference from published data.
 
 ---
