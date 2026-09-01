@@ -29,6 +29,7 @@
 | 14 | **Is "keep lifting = floor protection" a real asymmetry or a design artifact?** | Coach vs velocity report | ⬜ **LARGELY RESOLVED, coach's favour, 2026-08-13 — Gdovin is an UNCONTROLLED pre-post, not a removal trial.** Underlying physiology still open |
 | 15 | **Is spin efficiency trainable, and does the industry price the cost honestly?** | Coach vs the pitch-design industry | 🔴 **OPEN — added 2026-08-13** |
 | 16 | **Does release-angle precision have any coachable channel?** | Coach vs stuff/command report | 🔴 **OPEN — added 2026-08-13** |
+| 17 | **Is velocity VARIABILITY a command liability or a timing weapon?** | Command data vs hitter-perception data | 🔴 **OPEN — added 2026-09-01. The same mph is both, in units that can now be compared** |
 
 ---
 
@@ -446,6 +447,32 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 **Strongest evidence for the report.** The number is *true* and it correctly demolishes the release-point-repeatability industry (§6, and the BB/9 null at n = 344). **A finding whose main value is destructive is still valuable** — knowing which twenty years of coaching to stop is worth more than most new drills.
 
 **What would settle it.** **Name a device.** Does any system — Trackman, Hawk-Eye, Rapsodo, or a research rig — report **per-pitch release angle** to a pitcher in a college bullpen at a latency he can use? If yes, the coach is wrong and this becomes the most important number in the document. **If no, it is a beautiful fact about geometry and it should be labeled as one.**
+
+---
+
+## 17. 🔴 Is velocity VARIABILITY a command liability or a timing weapon? — **added 2026-09-01**
+
+**The dispute exists because today put both sides in comparable units for the first time.**
+
+**The command side** (`stuff-and-command.md` §600, `coaching-translation.md` §360, F-171 lineage). Release-speed variability is a **command variable**: ~20 cm of vertical location per 1 m/s of release speed → **1 mph ≈ 9 cm ≈ 3.5 inches of vertical miss.** A pitcher whose fastball ranges 91–95 in an outing carries **~14 inches of vertical scatter from velocity alone**, before any angular error — **larger than the entire elite-to-average command gap (7 in vs 11 in).** This is arithmetic on a verified sensitivity, it is free to measure from a radar log, and dispute #16 concluded it should be **promoted above** the 30 cm/° geometric result as one of the few genuinely actionable command items in the corpus.
+
+**The hitter-perception side** (`hitter-perception.md` §1, §3; F-251, F-252, F-253). The hitter's acceptable timing error is on the order of **±8 ms** (across-hitter range ~2.5–30 ms), and **1 mph is worth 4.3–4.8 ms of flight time.** So the *same* mph of scatter that costs 3.5 inches of command is worth **roughly half of the hitter's entire one-sided allowance** — and it is scatter the hitter cannot anticipate, which per Saijo 2025 (F-255) attacks the process he solves **first and most confidently.** A pitcher throwing 91–95 is not merely miscommanding by 14 inches; he is presenting a ±2 mph timing problem the hitter must re-estimate every pitch.
+
+**Why this is not resolvable by picking a side today.**
+
+1. **The two costs are in different currencies with no exchange rate.** Inches of miss convert to run value through location run-value surfaces the corpus has (F-169/F-170). Milliseconds of hitter timing error convert to run value through **nothing** — the mapping from timing error to contact quality is exactly what F-251's unresolved half-width/full-width ambiguity blocks.
+2. **They may not even be the same variable.** *Within-outing, pitch-to-pitch* velocity scatter is what costs command. What disrupts a hitter's timing is **scatter he cannot predict** — which may be a different, smaller quantity, since some pitch-to-pitch variation is systematic (fatigue drift, count-dependent effort) and therefore partly predictable.
+3. **The direction of intent matters and neither side has data on it.** Nobody has shown a pitcher can *deliberately* vary fastball velocity without also degrading location — which would be the version worth having.
+
+**Strongest evidence for the command side.** The 3.5 in/mph sensitivity rests on Kusafuka 2020, verified clean and not re-checkable-away. The 14-inch consequence is arithmetic. And unlike the timing side, **every number in it has been read at source.**
+
+**Strongest evidence for the timing side.** The 4.3–4.8 ms/mph figure is in-house arithmetic and equally solid. But the denominator it is compared against (±8 ms) is **snippet-level, from a high-school sample and a computational recombination, and carries a factor-of-two ambiguity** (F-259). **The timing side is currently the weaker-evidenced side and should be argued as such.**
+
+**Where the coach lands, provisionally.** With the command side, and not by much. **Reason: the command cost is certain and the timing benefit is conditional on the hitter not re-estimating** — and Saijo/Ranganathan both say the hitter estimates speed early and well. A hitter who re-times each pitch pays nothing for the pitcher's scatter; the pitcher pays 3.5 in/mph regardless. **Asymmetric certainty decides it.** The practical instruction is unchanged from #16: **watch the radar log for within-outing velocity spread and treat it as a command problem.**
+
+**What would settle it.**
+- **The cheap half:** resolve F-251's half-width/full-width ambiguity, and read the two timing-error papers at source. Until then the timing side cannot be quantified at all.
+- **The real test:** an analysis of MLB or NCAA data asking whether, **at fixed mean velocity and fixed command grade**, higher within-outing fastball velocity SD predicts better or worse contact quality against. Statcast has everything needed. **This is computable from public data and nobody appears to have done it** — the same shape as the corpus's own cheapest-high-value study (F-173), and it should be run alongside it.
 
 ---
 

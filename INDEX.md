@@ -1,6 +1,8 @@
 # INDEX — Navigation Map for the Pitching Research Corpus
 
-**Compiled 2026-08-17.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of 244 verified findings.
+**Compiled 2026-08-17. Last updated 2026-09-01.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **259** findings.
+
+> **⚠️ NOTE ON THE 2026-09-01 CYCLE (hitter perception).** That cycle ran with **all external fetch blocked at the network proxy** — WebFetch and curl alike, including every domain the run instructions list as working. **Every empirical magnitude in F-251 and F-254 through F-258 is snippet-level and has NOT been read at source.** F-252 and F-253 are in-house arithmetic and are unaffected. `library/hitter-perception.md` carries the same banner. **Verification backlog and priority order: F-259.**
 Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showcase / D1-committed / draft-followed) -> NCAA D1 -> MiLB -> MLB, chasing 90-95+. Mission is **performance development**, not injury prevention; stress costs are tagged and the work moves on.
 
 **How to use this corpus, in order:**
@@ -20,7 +22,8 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | **`library/anatomy-physiology.md`** | 811 lines / 96 KB | 2026-08-12 | The kinetic chain ground-up; the physiology of a high-intent pitch and outing; the adapted tissue state of the elite thrower; injury mechanisms at tissue tolerance; recovery physiology; coach-facing referral tables | "What is actually resisting valgus load?" "Is this scan normal for a pro?" "What is dead arm?" "How do I structure the week between starts?" "When do I refer?" |
 | **`library/coaching-translation.md`** | 679 lines / 75 KB | 2026-08-13 | Science -> cue -> drill -> what failure looks like on video. Four standing rules; the cue ledger with stress costs; the foot-plant-to-MER deep dive; effort dosing; arm slot; command and variability; constraint heuristics; video protocol; retired cues | "What do I actually SAY to him?" "What drill makes this happen without a cue?" "What am I looking for at 240 fps?" "Which cues have been retired and why?" |
 | **`library/biomechanics.md`** | 716 lines / 64 KB | 2026-08-12 | Six phases and timing landmarks; ASMI professional kinematic and kinetic norms; the kinematic sequence; velocity-vs-torque conflicts; measurement technology | "What are the pro norms?" "How long is each phase?" "What raises torque without raising velocity?" "What can I measure with what I own?" |
-| **`library/open-disputes.md`** | 461 lines / 58 KB | 2026-08-13 | Sixteen unresolved arguments among the anatomist, the biomechanist and the coach, each with both sides, the strongest evidence, and what would settle it. Plus the standing methodological disputes | "Is this settled?" "What would I have to run to find out?" "Where do the three specialists actually disagree?" |
+| **`library/hitter-perception.md`** | new 2026-09-01 | 2026-09-01 | **The opponent-side reference.** The hitter's timing budget (~±8 ms, 12-fold across-hitter range); the commit point and the two constraints the industry fuses; flight-time arithmetic in ms per mph and per foot of extension; velocity-separation saturation; the erodible vs non-erodible taxonomy of pitching edges. **⚠ Snippet-level except §3** | "How much timing error is he allowed?" "What is a mph worth to the hitter?" "How much changeup separation is enough?" "Which of my edges erode as hitters get better?" |
+| **`library/open-disputes.md`** | 461 lines / 58 KB (+#17, 2026-09-01) | 2026-09-01 | **Seventeen** unresolved arguments among the anatomist, the biomechanist and the coach, each with both sides, the strongest evidence, and what would settle it. Plus the standing methodological disputes | "Is this settled?" "What would I have to run to find out?" "Where do the three specialists actually disagree?" |
 | **`library/idea-scouting.md`** | 413 lines / 45 KB | 2026-08-13 | Two field sweeps of what the industry is arguing about right now, each item labelled PROMISING / UNPROVEN / DEBUNKED / MARKETING. Content-farm blocklist and hazard classes | "Is this new thing real?" "What is the industry selling this month?" "What did we look for and NOT find?" |
 | **`src/core/biomech/references.ts`** | 830 lines | — | ~30 structured citations with `EvidenceGrade`, `Population`, `Causality`, caveats and dated `corrected` records. Kinematic and kinetic norm bands, the four "free reductions," the velocity-torque conflict table, and the `MARKERS_NOT_LEVERS` list | "What grade and causality does this citation carry in code?" "Which variables must never be rendered as coachable?" |
 | **`daily/2026-08-12-biomechanics.md`** | 74 lines | 2026-08-12 | Day 1 biomechanics brief | Quick orientation only |
@@ -29,6 +32,8 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | **`daily/2026-08-13-velocity.md`** | 122 lines | 2026-08-13 | Day 2 velocity brief | **CONTAINS UNCORRECTED PRE-CORRECTION TEXT** — see Known Corrections |
 | **`daily/2026-08-13-stuff-command.md`** | 90 lines | 2026-08-13 | Day 2 stuff/command brief | **CONTAINS THE REVERSED CHANGEUP FRAMING** — see Known Corrections |
 | **`daily/2026-08-13-coach.md`** | 518 lines / 67 KB | 2026-08-13 | The single most important document in the corpus for epistemics: the full correction log, the outstanding-verification list, the core-coiling scouting, and the analysis of what six corrections in one day implies | "What did we get wrong and why?" "What is still unverified?" "How should verification work?" |
+| **`daily/2026-08-20-verification-extension.md`** | — | 2026-08-20 | Verification pass on the extension cycle: seven claims checked at source, two corrected | "What did the extension cycle get wrong?" |
+| **`daily/2026-09-01-hitter-perception.md`** | ~330 lines | 2026-09-01 | Hitter perception: the timing budget, the commit point, the flight-time arithmetic, the ABS/IZT/bat-tracking field sweep, four coach questions, four cross-examinations | "When does the hitter commit?" "What is a mph worth in milliseconds?" **⚠ Snippet-level except §3** |
 | **`research/README.md`** | 75 lines | — | Program scope, the three-agent team, how a research day works, ground rules | "What is this program and what is out of scope?" |
 
 **Total corpus:** ~6,500 lines of research across 7 library files, 6 daily briefs, and one structured citation module.
@@ -61,6 +66,18 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | Arsenal construction and tunneling | `stuff-and-command.md` §4.1-4.2 | F-161, F-163, F-164 |
 | Stuff models and their limits | `stuff-and-command.md` §4.3-4.5 | F-165 to F-168, F-233 |
 | Spin-efficiency trainability | `idea-scouting.md` Sweep 2 #5; `open-disputes.md` #15 | F-153, F-235 |
+
+### Hitter perception and the timing budget *(added 2026-09-01)*
+| Sub-topic | Primary file | Findings |
+|---|---|---|
+| The hitter's acceptable timing error, and its 12-fold spread | `hitter-perception.md` §1 | F-251 |
+| Flight-time arithmetic — ms per mph, ms per foot of extension | `hitter-perception.md` §3 | F-252 |
+| Velocity-separation saturation (~4 mph) | `hitter-perception.md` §3.4 | F-253 |
+| The commit point; oculomotor vs visuomotor limits | `hitter-perception.md` §2.1-2.2 | F-254, F-163 |
+| Timing solved first, trajectory last — "deception" is two attacks | `hitter-perception.md` §2.3, §4 | F-255, F-164 |
+| Recognition is trainable in the opponent — erodible vs not | `hitter-perception.md` §4-5 | F-256 |
+| ABS challenge system; Driveline IZT; bat tracking | `hitter-perception.md` §5.2; daily 2026-09-01 §4 | F-257, F-258 |
+| Velocity variability — command liability or timing weapon? | `open-disputes.md` #17 | F-251, F-252 |
 
 ### Command
 | Sub-topic | Primary file | Findings |
@@ -193,6 +210,7 @@ Full argument, both sides, and what would settle each, in `library/open-disputes
 | 14 | Is "keep lifting = floor protection" a real asymmetry or a design artifact? | **LARGELY RESOLVED in the coach's favour, 2026-08-13** — the underlying physiological question stays open |
 | 15 | Is spin efficiency trainable, and does the industry price the cost honestly? | OPEN — added 2026-08-13; ~65% fixed over three years, and the one documented mover bought a delivery change |
 | 16 | Does release-angle precision have any coachable channel? | OPEN — added 2026-08-13; true, geometric, and possibly inert as an instruction |
+| 17 | Is velocity VARIABILITY a command liability or a timing weapon? | OPEN — added 2026-09-01. The same mph costs ~3.5 in of vertical miss and buys ~4.4 ms against a ~±8 ms hitter window. Coach leans command side on asymmetric certainty |
 
 **Standing methodological disputes** (not attributable to one agent): torque values are not comparable across labs; lab velocity is not game velocity so all published kinetics are probably a floor; 60% of normalized elbow torque variance is unexplained by kinematics; every professional norms table is survivorship-selected; verifying a citation is not verifying a claim; and "one experiment, many papers" (the Buffalo stride cohort appears across at least seven publications).
 
@@ -210,6 +228,14 @@ Six corrections landed in one day. **None was a fabrication.** Every one was a r
 | **4** | "There is not a single published controlled training study whose sample mean is at or above 85 mph. Not one." | **Two clear the floor.** Ake 2016 baseline is 87.25 / 86.80 mph (the corpus had recorded it as "not reported") — still null. And Lee/Choi/Jeon 2026 is the **first positive controlled result above 85** | Partially — the structural argument survives, the absolutism does not | F-023, F-024, F-034, F-226 |
 | **5** | "n = 1,163 pitcher-seasons," mean **-1.15 mph** | **Pitcher x pitch-type x consecutive-season PAIRS** — one pitcher can contribute two rows, and the rows are not independent. And **the -1.15 mean is internally inconsistent with the source's own distribution** — probable source error | Caveat, not reversal | F-073 |
 | **6** | Gdovin 2025 called a **"removal experiment"** / "natural-experiment removal design," and named the **#1 highest-confidence recommendation** | It is *"Limiting Access to Resistance Training Equipment During the Off-Season"* — an **uncontrolled 8-week pre-post with NO control group.** PMID, n = 12 and p < .001 are all correct; the **mph magnitude is paywalled and was never obtained.** Recommendation #1 re-justified on the correlational case and demoted below #2b; label moved EMERGING -> WEAK | **YES** | F-039 |
+
+### Correction applied 2026-09-01 — one, and it changes no decision
+
+| # | Was | Is | Reverses a conclusion? | Finding |
+|---|---|---|---|---|
+| **7** | F-250: **7.18 ms per foot** of extension at 95 mph (1 ft ÷ *release* speed), with a note that "with drag at a ~91 mph flight average the true figure is ~7.5 ms" | **7.83 ms per foot.** Both prior figures are the wrong quantity: releasing a foot closer removes the **final** foot of the flight, covered at the ball's **slowest** speed (~87 mph), not a foot at release speed or at the flight average | **NO.** The scale-bar argument (1 ft ≈ 2.2 SD ≈ the whole MLB range) and the absence of any extension intervention both stand untouched | F-250 (annotated), F-252 |
+
+Logged not for its magnitude (+9%) but for its **reasoning pattern: pricing a marginal change at an average rate when the change is removed from one tail of the distribution.** The same pattern produced the +1.35 vs +0.65 mph error (F-072) and the R² = .945 geometric identity (F-248).
 
 **Plus two label fixes:** first author on PMID 34240663 is **Manzi**, not Dowling. And **both Kusafuka 2025 coefficients were mis-described** — r = 0.54 is not an autocorrelation value and r = 0.73 is not a "staying-in-the-same-state" probability; both are correlations *between* a per-pitcher correction statistic and that pitcher's azimuth release-angle SD. The direction of the coaching claim survives; the labels did not.
 
@@ -254,13 +280,16 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **No published accuracy validation of computer-vision seam/axis extraction against Hawk-Eye** (F-149).
 - **No end-of-2025 league-wide kick-change evaluation** — Statcast does not classify it separately, so public tracking is currently impossible (F-160).
 - **No within-pitcher variance published for seam orientation at release**, so SSW pitch-to-pitch stability is unknown (F-149).
-- **No empirical test of within-outing release-speed SD against vertical miss** — the corpus's own cheapest high-value study, computable in an afternoon (F-173).
+- **No empirical test of within-outing release-speed SD against vertical miss** — the corpus's own cheapest high-value study, computable in an afternoon (F-173). **Extended 2026-09-01:** nor against *contact quality allowed*, which is the other half of dispute #17 and computable from the same query.
+- **No public analysis pairing bat-tracking swing length / swing path with per-hitter timing-window width** — i.e. which hitters a mph is worth most against. Computable from public Statcast data (F-251, F-252).
+- **No measured commit point in an individual hitter, at any level** (F-255).
+- **No distribution of hitters' arrival-time estimation error by pitch type** — the quantity the velocity-separation table actually needs (F-253).
 - **No verifiable quantitative HAA-to-whiff study** (F-152).
 - **The dose-response of high-intent throwing on net collagen balance in the UCL specifically** — the 36-72 h window comes from patellar tendon and Achilles work in non-throwers (F-133).
 
 ### Topics the corpus has not researched at all
 - **Pitchability, sequencing and in-game usage.** The README names it as a research priority; nothing in the corpus covers pitch sequencing decisions, count leverage, times-through-the-order, or attacking specific hitters. Stuff models explicitly do not price sequencing (F-168).
-- **Hitter perception and reaction.** Referenced obliquely (attack angle, deception, the 150 ms tunnel-point argument) but never studied directly.
+- ~~**Hitter perception and reaction.**~~ **COVERED 2026-09-01** — `library/hitter-perception.md`, F-251 to F-259. ⚠ Snippet-level except the arithmetic; see the banner at the top of this file. **Still open within the topic:** no measured commit point in an individual hitter; no distribution of hitters' arrival-time estimation error by pitch type; no collegiate replication of the fastball timing window with batters actually facing pitchers.
 - **Catchers, framing and the pitcher-catcher system**, despite framing contaminating command measurement (F-182).
 - **Psychology beyond motor learning** — competitive anxiety, routines, focus under fatigue, the mental side of an outing.
 - **Return-to-throw after injury**, deliberately out of scope, though the interval-throwing modeling paper is logged (F-137).
@@ -273,7 +302,8 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **Sample-level data.** The corpus has no primary dataset of its own; every number is from published literature, industry grey literature, or Statcast queries.
 
 ### Structural gaps in the corpus's own method
-- **Only two research days exist** (2026-08-12 and 2026-08-13). Everything here is two cycles deep.
+- ~~**Only two research days exist** (2026-08-12 and 2026-08-13).~~ **UPDATED 2026-09-01:** dated cycles now exist for 2026-08-12, 08-13, 08-17 (corpus hygiene), 08-19/08-20 (extension + its verification pass) and 09-01 (hitter perception). Still shallow, and **two of those cycles (08-19 and 09-01) ran without source access** — see F-259.
+- **⚠️ SOURCE ACCESS IS NOT RELIABLE IN THIS ENVIRONMENT.** Two of six cycles have now run with external fetch blocked. The 08-19 cycle was not flagged at the time and needed 08-20 as a repair pass; the 09-01 cycle was flagged in full. **Assume any cycle may be snippet-only and check its banner before quoting a number from it.**
 - **Verification is incomplete and known to be incomplete** (F-242).
 - **The daily briefs are not maintained** and contain superseded claims — **now annotated in place with dated correction notices (2026-08-17), but not rewritten.** Read them as history, not reference (F-241).
 - **Nothing in the corpus has been tested against a real athlete.** Every protocol is inference from published data.
