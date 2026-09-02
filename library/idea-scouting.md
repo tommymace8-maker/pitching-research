@@ -2,7 +2,7 @@
 ### What the pitching industry is arguing about right now, with verdicts
 
 **Owner:** pitching coach · **Population:** elite, 85 MPH floor
-**Started:** 2026-08-12 · Newest sweep at top.
+**Started:** 2026-08-12 · **Latest sweep: 2026-09-02 (Sweep 3).** Newest sweep at top.
 
 **Verdict key**
 - **PROMISING** — real evidence or a real mechanism, worth acting on or testing now
@@ -11,6 +11,98 @@
 - **MARKETING** — the underlying claim may be fine; the packaging is a sales instrument and the numbers are selected
 
 *Novelty standard: an item earns a slot only if it is not already in `biomechanics.md` or `anatomy-physiology.md`.*
+
+---
+
+## Sweep 3 — 2026-09-02
+
+### ⚠️ SWEEP CONDITION: SEARCH-ONLY. All direct egress was blocked — `WebFetch` and `curl` returned 403 for every domain attempted, including every domain the run brief lists as working. **No item below was read at source. Every verdict is provisional on that.**
+
+### Headline: the industry has quietly moved from ORDER to USAGE, and the evidence agrees with the move. But the sweep's real product is a NEW HAZARD CLASS — a real paper being cited, correctly, for the reverse of its own conclusion.
+
+---
+
+### 1. ⚠️⚠️ NEW HAZARD CLASS — **DIRECTIONAL INVERSION OF A REAL SOURCE.** The 12.4-million-pitch paper is circulating backwards.
+
+**What is being circulated**, by **atsstats.com** (a sports-betting stats site, NEW to the blocklist) and **mkdcbaseball.com** (**already blocklisted since Sweep 1 — a named repeat offender**):
+
+> "A pitcher with average stuff and elite sequencing outperforms a pitcher with elite stuff and linear sequencing."
+> "Recent academic research analyzing **12.4 million** Statcast pitches identifies pitch sequences as a language-like structure where **the effectiveness of a pitch is defined by the pitches preceding it.**"
+
+**What the cited paper actually reports** (*Structure of Pitch-Pattern Motifs in Major League Baseball*, arXiv:2601.11904, Journal of the Korean Physical Society, DOI 10.1007/s40042-026-01641-5): sequence-diversity entropy **"exhibits less decisive association with conventional performance measures such as ERA or wins,"** and **"the most highly ranked motifs do not contribute to discriminating between HIT and OUT outcomes."**
+
+**The 12.4-million figure is correct. The journal is real. The title is real. The conclusion is reversed.**
+
+**VERDICT: DEBUNKED / MARKETING.**
+
+**Why this is a new class and why it is the most dangerous one yet.** Sweep 1 #12 (content farms) has a tell — unearned precision from a domain nobody has heard of. Sweep 2 #13 (search-summary sample conflation) has no tell but corrupts only a *number*. **This one corrupts the DIRECTION of a conclusion while leaving every verifiable identifier intact.** Anyone who checked the DOI, the title and the n would have passed it. It is structurally identical to **correction #2 of 2026-08-13** — the changeup framing, which also inverted its source — and it is exactly what operating rule (A) exists to catch: *does the source support THIS sentence, a weaker one, or the opposite one?*
+
+**COUNTERMEASURE: check the abstract's own verbs, not the identifier.** A DOI tells you a paper exists. It tells you nothing about which way it points.
+
+**And one further lesson, from the repeat offender.** `mkdcbaseball.com` has been on this blocklist since 2026-08-12 and **the claim still reached this cycle** — through a search summary that paraphrased it without naming the domain. **A blocklist filters what you READ. It does not filter what a search engine PARAPHRASES AT YOU.** (F-258)
+
+---
+
+### 2. Driveline "Paint Mixer" and the **"buyback effect"** — UNPROVEN
+
+Driveline markets a **Paint Mixer** framework producing pitch-usage recommendations from **Arsenal+** plus other metrics, with two stated aims: **break familiar patterns hitters learn over time**, and exploit a **"buyback effect"** where certain secondary pitches make a pitcher's primary offerings more effective.
+
+**VERDICT: UNPROVEN.** The premise — usage and predictability over sequence order — is the one thing this sweep's evidence supports. **But no outcome validation of Paint Mixer or of "buyback" was found.** This is the **F-163 tunneling pattern with a different noun**: named proprietary framework, plausible mechanism, no published test against run values. Treat "buyback" as a hypothesis until somebody publishes a number.
+
+---
+
+### 3. **"Throw your best pitch more"** vs the 2026 shape-diversification counter-move — PROMISING, and they are not actually in conflict
+
+- Best-pitch-more, exemplified: **Clay Holmes threw sinker-followed-by-sinker 365 times in 2025.**
+- Running against it: **Colorado cut four-seam usage from 40.9% to 29.1% in 2026**; **Antonio Senzatela went 57% → 37% four-seams**, redistributing into other fastball shapes. Staffs report pairing **cutters with sweepers** and **four-seams with sinkers** to change eye level.
+- Structural backdrop: **since 2021, more viable primary pitches per arsenal**, four-seam usage down, cutter usage up.
+
+**VERDICT: PROMISING — and note the two trends point the same way.** "Throw your best pitch more" and "carry more distinct shapes" are both moves *away* from a balanced, alternating, predictable mix — which is the one thing Kovash & Levitt (over-alternation), the 2023 Trackman repeat study (repetition not punished) and Brennan's entropy work (≈0.23 bits leaked) independently flag as the actual error. **The industry is converging on usage, not order. This corpus should follow it.** (F-254, F-255)
+
+---
+
+### 4. Prasad, MIT Sloan 2021 — "setup" and "knockout" pitches exist in the clusters. UNPROVEN, and FLAGGED.
+
+*Decoding MLB Pitch Sequencing Strategies via Directed Graph Embeddings.* **~3.5–3.6M pitches, 2015–2019.** **Sequence Graph Transform** embeddings + **Gaussian Mixture Model** clustering. Reports: at-bats cluster into a finite set of universal patterns over pitch type and zone; **a pitcher's sequencing strategy is distinct from his arsenal**; pitchers adjust sequence usage dynamically in-game; and the clusters contain apparent **"setup" and "knockout" pitches.**
+
+**VERDICT: UNPROVEN — FLAGGED FOR THE F-163 FAILURE MODE.** "Setup pitches appear in the clusters" is a **description of structure, not a demonstration of effect.** The tunneling suite shipped the same way — full metric family, zero outcome validation — and tested at **r = 0.07** against run values when someone finally checked. **Do not let "setup pitch" acquire evidential status by repetition.**
+
+---
+
+### 5. Melville et al., MIT Sloan 2023 — the only normative sequencing model, and it takes COMMAND as an input. PROMISING as a framework.
+
+*A Game Theoretical Approach to Optimal Pitch Sequencing.* **William Melville, Jesse Melville, Theo Dawson, Delma Nieves-Rivera, Christopher Archibald, David Grisman** (BYU; also ScholarsArchive thesis #9910). Models the matchup as a **zero-sum game**, solves for equilibrium, proposes the **Stackelberg equilibrium** and a newly defined **"decision point equilibrium."** Includes **a model of pitcher command/accuracy — the probability of actually hitting the target — as an input to the recommendation.**
+
+**VERDICT: PROMISING as a framework, UNPROVEN as a result** (no outcome validation retrievable). **But the command-as-input feature is the right idea and nobody else in this space has it:** a sequencing recommendation that ignores whether the pitcher can execute the location is a recommendation for a different pitcher. Connects to F-171 and the xCTRL work.
+
+---
+
+### 6. Brill, Deshpande & Wyner (JQAS 2023) — the times-through-the-order penalty may not have a discontinuity. PROMISING (as disconfirming evidence).
+
+After adjusting for **batter quality, pitcher quality, handedness and home-field advantage**, **little evidence of a strong discontinuity between times through the order**; existing methods cannot separate continuous within-game decline from discontinuous jumps; **the third time through should not be treated as a special cutoff.**
+
+**VERDICT: PROMISING, and important beyond its own topic.** **Familiarity predicts a discontinuity; fatigue predicts a slope.** Removing the discontinuity removes the cleanest published evidence for the familiarity mechanism — which is the mechanism every sequencing and arsenal-breadth argument leans on. **Same group as the xCTRL paper this corpus already marked verified-clean.** → dispute #18. (F-256)
+
+---
+
+### 7. New content-farm domain for the blocklist
+
+Added this sweep: **atsstats.com**.
+*(Standing blocklist now: accio.com · mlbanalytic.com · sportsorca.com · mkdcbaseball.com **[repeat offender — Sweep 1 and Sweep 3]** · seemagnus.com · sportstrace.com · talksox.com · baseballscouter.com · oreateai.com · afroliterarymagazine.com · baseballmode.com · myzservices.substack.com · atsstats.com.)*
+
+---
+
+### Things I looked for and did NOT find (Sweep 3)
+
+- **No study anywhere manipulating pitch sequence with PROFESSIONAL or D1 hitters.** The only two manipulations in existence are **n = 26 high school** (PLOS ONE 2020) and **n = 6 college-in-VR** (Gray 2002).
+- **No pitch-sequencing analysis controlling for pitcher quality as a confound.** Every observational result in this sweep is contaminated by "good pitchers do X." **Not one exception.**
+- **No published outcome validation of ANY commercial sequencing or pitch-calling product.**
+- **No study of pitch sequencing at the college level at all.** Everything is MLB Statcast or laboratory.
+- **No test of whether a pitcher can be TRAINED to be less predictable.**
+- **No year-over-year stability estimate for per-count pitch-type entropy** — so nobody knows whether predictability is a trait or noise.
+- **No within-pitcher analysis** regressing per-outing run value on that outing's entropy with pitcher fixed effects. **This is the design F-094 says the whole literature should have used, and it is computable from public data in an afternoon.**
+- **Nothing usable from X/Twitter or coaching forums on this topic.** Third sweep running on forums; the standing decision to stop checking them holds.
+- **Nothing new from SportRxiv on sequencing** — the watch item from Sweep 2 produced nothing in this topic area.
 
 ---
 

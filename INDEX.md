@@ -1,6 +1,8 @@
 # INDEX — Navigation Map for the Pitching Research Corpus
 
-**Compiled 2026-08-17.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of 244 verified findings.
+**Compiled 2026-08-17. Last updated 2026-09-02.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **258** findings.
+
+> **⚠️ 2026-09-02 — F-251 to F-258 ARE UNVERIFIED.** That cycle (pitch sequencing) ran with **all direct egress blocked**: `WebFetch` and `curl` returned 403 for every domain attempted, *including every domain the run brief lists as working* (`journals.sagepub.com`, `frontiersin.org`, `pmc.ncbi.nlm.nih.gov`, `ncbi.nlm.nih.gov/pmc`) plus `arxiv.org`, `nber.org`, `tangotiger.net` and a plain `example.com` control. `WebSearch` was the only channel. **Nothing was read at source.** Treat everything in `library/pitchability-sequencing.md` and F-251–F-258 as **leads, not findings**. Verification order is in **F-258** and is the first item of the next cycle. This is the same condition that produced the 2026-08-19 misreads.
 Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showcase / D1-committed / draft-followed) -> NCAA D1 -> MiLB -> MLB, chasing 90-95+. Mission is **performance development**, not injury prevention; stress costs are tagged and the work moves on.
 
 **How to use this corpus, in order:**
@@ -20,7 +22,8 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | **`library/anatomy-physiology.md`** | 811 lines / 96 KB | 2026-08-12 | The kinetic chain ground-up; the physiology of a high-intent pitch and outing; the adapted tissue state of the elite thrower; injury mechanisms at tissue tolerance; recovery physiology; coach-facing referral tables | "What is actually resisting valgus load?" "Is this scan normal for a pro?" "What is dead arm?" "How do I structure the week between starts?" "When do I refer?" |
 | **`library/coaching-translation.md`** | 679 lines / 75 KB | 2026-08-13 | Science -> cue -> drill -> what failure looks like on video. Four standing rules; the cue ledger with stress costs; the foot-plant-to-MER deep dive; effort dosing; arm slot; command and variability; constraint heuristics; video protocol; retired cues | "What do I actually SAY to him?" "What drill makes this happen without a cue?" "What am I looking for at 240 fps?" "Which cues have been retired and why?" |
 | **`library/biomechanics.md`** | 716 lines / 64 KB | 2026-08-12 | Six phases and timing landmarks; ASMI professional kinematic and kinetic norms; the kinematic sequence; velocity-vs-torque conflicts; measurement technology | "What are the pro norms?" "How long is each phase?" "What raises torque without raising velocity?" "What can I measure with what I own?" |
-| **`library/open-disputes.md`** | 461 lines / 58 KB | 2026-08-13 | Sixteen unresolved arguments among the anatomist, the biomechanist and the coach, each with both sides, the strongest evidence, and what would settle it. Plus the standing methodological disputes | "Is this settled?" "What would I have to run to find out?" "Where do the three specialists actually disagree?" |
+| **`library/pitchability-sequencing.md`** | ~200 lines | 2026-09-02 | **⚠️ ENTIRELY UNVERIFIED — see banner above.** Pitch sequencing split into ORDER / PREDICTABILITY / MIX; the only two experimental manipulations and why they disagree; the 12.4M-pitch null; over-alternation and repetition; the ~0.23-bit information leak; times-through-the-order; what is being sold; the count-audit protocol | "Does sequencing matter?" "Should he avoid repeating a pitch?" "Is 'setting him up' real?" "What do I actually audit?" |
+| **`library/open-disputes.md`** | 461 lines / 58 KB | **2026-09-02** | **Eighteen** unresolved arguments among the anatomist, the biomechanist and the coach, each with both sides, the strongest evidence, and what would settle it. Plus the standing methodological disputes | "Is this settled?" "What would I have to run to find out?" "Where do the three specialists actually disagree?" |
 | **`library/idea-scouting.md`** | 413 lines / 45 KB | 2026-08-13 | Two field sweeps of what the industry is arguing about right now, each item labelled PROMISING / UNPROVEN / DEBUNKED / MARKETING. Content-farm blocklist and hazard classes | "Is this new thing real?" "What is the industry selling this month?" "What did we look for and NOT find?" |
 | **`src/core/biomech/references.ts`** | 830 lines | — | ~30 structured citations with `EvidenceGrade`, `Population`, `Causality`, caveats and dated `corrected` records. Kinematic and kinetic norm bands, the four "free reductions," the velocity-torque conflict table, and the `MARKERS_NOT_LEVERS` list | "What grade and causality does this citation carry in code?" "Which variables must never be rendered as coachable?" |
 | **`daily/2026-08-12-biomechanics.md`** | 74 lines | 2026-08-12 | Day 1 biomechanics brief | Quick orientation only |
@@ -31,7 +34,7 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | **`daily/2026-08-13-coach.md`** | 518 lines / 67 KB | 2026-08-13 | The single most important document in the corpus for epistemics: the full correction log, the outstanding-verification list, the core-coiling scouting, and the analysis of what six corrections in one day implies | "What did we get wrong and why?" "What is still unverified?" "How should verification work?" |
 | **`research/README.md`** | 75 lines | — | Program scope, the three-agent team, how a research day works, ground rules | "What is this program and what is out of scope?" |
 
-**Total corpus:** ~6,500 lines of research across 7 library files, 6 daily briefs, and one structured citation module.
+**Total corpus:** ~6,900 lines of research across **8** library files, **8** daily briefs, and one structured citation module.
 
 ---
 
@@ -72,6 +75,20 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | Measuring command / the intent problem | `stuff-and-command.md` §9 | F-182, F-183, F-184 |
 | Training command | `stuff-and-command.md` §11; `coaching-translation.md` §11 | F-173, F-185, F-186 |
 | Value of command vs stuff | `stuff-and-command.md` §1 | F-169, F-170 |
+
+### Pitchability, sequencing and hitter anticipation ⚠️ ALL UNVERIFIED (2026-09-02)
+| Sub-topic | Primary file | Findings |
+|---|---|---|
+| The ORDER / PREDICTABILITY / MIX split — the organizing distinction | `pitchability-sequencing.md` §1 | F-251, F-253, F-254 |
+| The only two experimental manipulations, and why they disagree | `pitchability-sequencing.md` §2; `open-disputes.md` #17 | F-251, F-252 |
+| The 12.4-million-pitch motif null | `pitchability-sequencing.md` §3.1 | F-253 |
+| Over-alternation, and repeating a pitch | `pitchability-sequencing.md` §3.2 | F-254 |
+| How much information sequencing actually leaks (~0.23 bits) | `pitchability-sequencing.md` §3.3 | F-255 |
+| Times through the order — familiarity vs fatigue | `pitchability-sequencing.md` §4; `open-disputes.md` #18 | F-256 |
+| What the industry is selling (Paint Mixer, setup pitches, game-theoretic models) | `pitchability-sequencing.md` §5; `idea-scouting.md` Sweep 3 | F-258 |
+| The count-audit protocol and its sample-size requirement | `pitchability-sequencing.md` §6 | F-255, F-257 |
+| Why the whole literature may be aimed wrong (between- vs within-pitcher) | `pitchability-sequencing.md` §8 | F-257, F-094 |
+| Tunneling — the prior cautionary tale | `stuff-and-command.md` §4.2 | F-163, F-164 |
 
 ### Mechanics and kinematics
 | Sub-topic | Primary file | Findings |
@@ -171,8 +188,9 @@ These are replicated across independent studies, or are undisputed basic mechani
 - **Lab velocity is 5-8 mph below game velocity** (F-208).
 - **Markerless kinematics are good; markerless kinetics are not** (F-199).
 - **Motus/PULSE "Stress" is not elbow varus torque** (F-202).
+- **Tunneling was over-sold** — the metric suite shipped with no outcome validation and tested at r = 0.07 against run values (F-163). *The 2026-09-02 sequencing work found a second framework at the same stage: "setup pitches" in Prasad's clusters (F-258).*
 
-### What is CONTESTED — the sixteen open disputes
+### What is CONTESTED — the eighteen open disputes
 Full argument, both sides, and what would settle each, in `library/open-disputes.md`.
 
 | # | Dispute | Status |
@@ -193,6 +211,8 @@ Full argument, both sides, and what would settle each, in `library/open-disputes
 | 14 | Is "keep lifting = floor protection" a real asymmetry or a design artifact? | **LARGELY RESOLVED in the coach's favour, 2026-08-13** — the underlying physiological question stays open |
 | 15 | Is spin efficiency trainable, and does the industry price the cost honestly? | OPEN — added 2026-08-13; ~65% fixed over three years, and the one documented mover bought a delivery change |
 | 16 | Does release-angle precision have any coachable channel? | OPEN — added 2026-08-13; true, geometric, and possibly inert as an instruction |
+| 17 | **Is pitch-sequence ORDER a lever, a marker, or nothing?** | OPEN — added 2026-09-02; two experimental manipulations at opposite conclusions (n = 26 HS null at lag 1, n = 6 college positive at lag 3) |
+| 18 | **Is the TTO penalty familiarity, and does arsenal breadth protect against it?** | OPEN — added 2026-09-02; the discontinuity fails confounder adjustment, and the breadth interaction was never tested |
 
 **Standing methodological disputes** (not attributable to one agent): torque values are not comparable across labs; lab velocity is not game velocity so all published kinetics are probably a floor; 60% of normalized elbow torque variance is unexplained by kinematics; every professional norms table is survivorship-selected; verifying a citation is not verifying a claim; and "one experiment, many papers" (the Buffalo stride cohort appears across at least seven publications).
 
@@ -257,10 +277,16 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **No empirical test of within-outing release-speed SD against vertical miss** — the corpus's own cheapest high-value study, computable in an afternoon (F-173).
 - **No verifiable quantitative HAA-to-whiff study** (F-152).
 - **The dose-response of high-intent throwing on net collagen balance in the UCL specifically** — the 36-72 h window comes from patellar tendon and Achilles work in non-throwers (F-133).
+- **⚠️ ADDED 2026-09-02 — no pitch-sequence manipulation in PROFESSIONAL or D1 hitters.** The only two manipulations in existence are n = 26 high school (PLOS ONE 2020) and n = 6 college-in-VR (Gray 2002), and **they disagree** (F-251, F-252).
+- **No sequencing analysis anywhere controlling for pitcher quality as a confound.** Every observational result is contaminated by "good pitchers do X" (F-257).
+- **No study of pitch sequencing at the college level at all** — everything is MLB Statcast or laboratory (F-257).
+- **No test of whether a pitcher can be trained to be less predictable**, and **no year-over-year stability estimate for per-count pitch-type entropy** — so nobody knows whether predictability is a trait or noise (F-257).
+- **No within-pitcher sequencing analysis** — per-outing run value on that outing's entropy with pitcher fixed effects. **This is the design F-094 says the whole literature should have used, and it is computable from public data in an afternoon.** Joins F-173 as the corpus's cheapest high-value open study (F-257).
+- **No outcome validation of any commercial sequencing or pitch-calling product**, Driveline's Paint Mixer and the "buyback effect" included (F-258).
 
 ### Topics the corpus has not researched at all
-- **Pitchability, sequencing and in-game usage.** The README names it as a research priority; nothing in the corpus covers pitch sequencing decisions, count leverage, times-through-the-order, or attacking specific hitters. Stuff models explicitly do not price sequencing (F-168).
-- **Hitter perception and reaction.** Referenced obliquely (attack angle, deception, the 150 ms tunnel-point argument) but never studied directly.
+- ~~**Pitchability, sequencing and in-game usage.**~~ **FIRST PASS COMPLETED 2026-09-02** — `library/pitchability-sequencing.md`, F-251 to F-258, disputes #17 and #18. **⚠️ ENTIRELY UNVERIFIED (egress blocked); treat as leads.** Covered: sequence order, predictability/entropy, arsenal mix, times-through-the-order, hitter anticipation, what the industry sells. **STILL NOT COVERED within this topic:** count leverage as a decision problem, attacking specific hitters, and in-game usage plans. Stuff models still do not price sequencing (F-168).
+- **Hitter perception and reaction.** **PARTIALLY OPENED 2026-09-02** via the anticipation literature (F-251, F-252) — but only two small laboratory studies, and the corpus still has nothing on pitch recognition training, occlusion work, or gaze behaviour.
 - **Catchers, framing and the pitcher-catcher system**, despite framing contaminating command measurement (F-182).
 - **Psychology beyond motor learning** — competitive anxiety, routines, focus under fatigue, the mental side of an outing.
 - **Return-to-throw after injury**, deliberately out of scope, though the interval-throwing modeling paper is logged (F-137).
@@ -273,7 +299,8 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **Sample-level data.** The corpus has no primary dataset of its own; every number is from published literature, industry grey literature, or Statcast queries.
 
 ### Structural gaps in the corpus's own method
-- **Only two research days exist** (2026-08-12 and 2026-08-13). Everything here is two cycles deep.
+- **Only four research days exist** (2026-08-12, 2026-08-13, the 2026-08-19/20 extension pair, and 2026-09-02). Everything here is a handful of cycles deep.
+- **⚠️ ADDED 2026-09-02 — THE SANDBOX'S EGRESS ALLOWLIST IS UNRELIABLE AND THE RUN BRIEF'S LIST OF WORKING DOMAINS IS STALE.** A full cycle ran with zero source access while the brief advertised eight working journal domains, four of which were blocked. **A cycle must test egress BEFORE choosing a topic**, and a topic whose evidence base is paywalled or off-allowlist should be deferred rather than researched from snippets. Two of the last four cycles have now been snippet-only.
 - **Verification is incomplete and known to be incomplete** (F-242).
 - **The daily briefs are not maintained** and contain superseded claims — **now annotated in place with dated correction notices (2026-08-17), but not rewritten.** Read them as history, not reference (F-241).
 - **Nothing in the corpus has been tested against a real athlete.** Every protocol is inference from published data.
@@ -287,3 +314,4 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 3. **F-072** — +0.65 mph. The number to say to an 88 mph athlete on day one.
 4. **F-171** — command is an angular problem, and 1 degree is a foot.
 5. **F-240** — six corrections in one day, none a fabrication, all in the same direction. The epistemic finding that should govern how the next cycle reads anything.
+6. **F-258** — added 2026-09-02, and the natural successor to F-240: a real paper, correct DOI, correct 12.4-million-pitch sample, cited for **the reverse of its own conclusion**. **Citation-checking cannot catch this class. Only reading the abstract's verbs can.**

@@ -29,6 +29,8 @@
 | 14 | **Is "keep lifting = floor protection" a real asymmetry or a design artifact?** | Coach vs velocity report | ⬜ **LARGELY RESOLVED, coach's favour, 2026-08-13 — Gdovin is an UNCONTROLLED pre-post, not a removal trial.** Underlying physiology still open |
 | 15 | **Is spin efficiency trainable, and does the industry price the cost honestly?** | Coach vs the pitch-design industry | 🔴 **OPEN — added 2026-08-13** |
 | 16 | **Does release-angle precision have any coachable channel?** | Coach vs stuff/command report | 🔴 **OPEN — added 2026-08-13** |
+| 17 | **Is pitch-sequence ORDER a lever, a marker, or nothing?** | Coach vs Biomech vs Anatomy | 🔴 **OPEN — added 2026-09-02. Two experimental manipulations, opposite results, n = 26 and n = 6** |
+| 18 | **Is the times-through-the-order penalty familiarity, and does arsenal breadth protect against it?** | Lichtman vs Brill/Deshpande/Wyner | 🔴 **OPEN — added 2026-09-02. The discontinuity fails confounder adjustment; the breadth interaction was never tested** |
 
 ---
 
@@ -446,6 +448,56 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 **Strongest evidence for the report.** The number is *true* and it correctly demolishes the release-point-repeatability industry (§6, and the BB/9 null at n = 344). **A finding whose main value is destructive is still valuable** — knowing which twenty years of coaching to stop is worth more than most new drills.
 
 **What would settle it.** **Name a device.** Does any system — Trackman, Hawk-Eye, Rapsodo, or a research rig — report **per-pitch release angle** to a pitcher in a college bullpen at a latency he can use? If yes, the coach is wrong and this becomes the most important number in the document. **If no, it is a beautiful fact about geometry and it should be labeled as one.**
+
+---
+
+## 17. 🔴 Is pitch-sequence ORDER a lever, a marker, or nothing? — **added 2026-09-02**
+
+**⚠️ Both legs of this dispute are SNIPPET-LEVEL.** The 2026-09-02 cycle ran with all direct egress blocked; nothing was read at source. Verification order in F-258.
+
+**The coach's opening position (the folklore he is defending, and he does not defend it hard):** you set a hitter up. You show him the fastball up so the breaking ball beneath it looks like the same pitch for 150 ms. Every staff in college baseball believes this and nobody has ever asked for the evidence.
+
+**The biomechanist's position: the evidence says order carries nothing, and there is more of it than the coach expects.**
+- **Kashiwabara et al., PLOS ONE 2020 (F-251) — an actual manipulation.** n = 26 HS hitters, machine-fed. **The (n−1)th pitch type did NOT affect impact timing, p = 0.338.** In the same experiment, **simply telling the hitter what was coming reduced timing error at p < 0.001.** So the information channel exists; the *sequence* did not use it.
+- **12.4 million pitches (F-253).** Sequence-diversity entropy showed "less decisive association" with ERA or wins, and **the top motifs did not discriminate HIT from OUT.**
+- **Repetition is not punished (F-254).** 2023 Trackman: same pitch twice performs at or above average sequencing in every category except fastball whiffs.
+- **Pitchers already over-alternate (F-254).** Kovash & Levitt, >3M pitches: negative serial correlation in pitch calling.
+
+**The counter-evidence, and it is one study with six subjects (F-252).** Gray 2002, VR, n = 6 college hitters: a two-state Markov expectancy model driven by **the previous three pitches** fit swing accuracy, with reported significant effects of pitch history and count, and **parameters that correlated with playing level.**
+
+**Where the argument actually is.** Not "does order matter" but **at what lag and at what skill level.** Gray built a *state* from three pitches; the PLOS study tested a single lag. **An expectancy that takes three pitches to load is invisible to a lag-1 test.** And Gray's own playing-level correlation, if real, says the machinery *strengthens* with skill — which would make an HS null uninformative about the hitters an SEC pitcher faces.
+
+**The anatomist's mechanism argument, and where it was conceded.** Swing initiation commits ~150–175 ms before contact and the final third of the trajectory is unusable (F-163), so the hitter's anticipatory state is set **before release** — and what sets it should be the delivery and the first ~150 ms of flight, not a pitch thrown ninety seconds ago across an entire between-pitch reset. **The coach defended and won a distinction:** anticipation is not a perceptual process inside 150 ms, it is a **prior loaded before the pitch**, and a Markov state is by definition something that persists *across* pitches; the between-pitch interval is not a reset, it is the only time the hitter has to think. **The anatomist conceded the timescale conflation and kept the magnitude claim.** The biomechanist then challenged the magnitude claim as a mechanism argument predicting an effect size — the move this corpus has repeatedly caught being wrong — and **the anatomist conceded that too**, restating: *the anticipatory channel is real and its bandwidth is bounded by the 150 ms of direct visual evidence the hitter also gets.*
+
+**The strongest evidence each way.**
+- **For "nothing":** an experimental null at p = 0.338 plus a 12.4-million-pitch observational null, converging with two independent findings that repetition is not punished.
+- **For "something":** an experimental positive at three-pitch depth whose effect reportedly scales with skill — in a population one full level above the null study.
+
+**What would settle it.** **A lag-3 replication of the Kashiwabara design in D1 or professional hitters, with contact quality as well as timing error as the outcome.** Failing that, the cheap public-data version: **regress pitch-level run value on the previous 1, 2 and 3 pitch types with pitcher, batter and count fixed effects.** If order matters at lag 3 and not lag 1, both studies are right and the folklore was merely mis-stated.
+
+**Operating position until then.** **Do not coach specific two-pitch combinations, and do not coach against repeating a pitch.** Both instructions currently run ahead of the evidence — in opposite directions.
+
+---
+
+## 18. 🔴 Is the times-through-the-order penalty familiarity, and does arsenal breadth protect against it? — **added 2026-09-02**
+
+**⚠️ SNIPPET-LEVEL on both sides.**
+
+**Why the corpus cares.** The TTO penalty is the **only large-scale natural experiment on hitter familiarity available**, and familiarity is the mechanism every sequencing and arsenal-breadth argument depends on. If familiarity is small, "he's already seen it" stops being a reason to do anything.
+
+**Lichtman's position (SABR / Baseball Prospectus, data 2002–2012):** the penalty is **familiarity, not fatigue**, and **breadth protects** — mostly-fastball pitchers **lose 47 points of wOBA** by the third time through; low-fastball-frequency pitchers **lose only 18**.
+
+**Brill, Deshpande & Wyner's position (JQAS 2023, arXiv:2210.06724):** after adjusting for **batter quality, pitcher quality, handedness and home-field advantage**, there is **little evidence of a strong discontinuity** between times through the order. Existing methods **cannot separate continuous within-game evolution from discontinuous jumps**, and **the third time through should not be treated as a special cutoff** for pulling a starter.
+
+**The distinction that carries the whole dispute, and it is routinely misreported.** Brill et al. do **not** claim pitchers fail to decline over a game. They claim **the jump at each new time through is not well supported.** That matters because **familiarity predicts a discontinuity** — the hitter's information resets upward at each plate appearance — while **fatigue predicts a smooth decline.** Removing the discontinuity removes the cleanest published evidence for the familiarity mechanism.
+
+**Why this is not a contradiction, and why it is still unresolved.** **Both can be true:** no clean discontinuity in the average, plus a real *conditional* advantage for a broad arsenal. **Brill et al. did not test the breadth interaction, and Lichtman did not adjust for confounders.** The two analyses have never met.
+
+**Standing on the challenger.** The corpus already carries Ludwig/Brill/Wyner (arXiv:2508.19184, xCTRL) as verified-clean — same group, same posture of distrusting effects that survive only without confounder adjustment. **That is the posture this program adopted for itself after 2026-08-13 (F-240), so it should not be discounted when it is inconvenient.**
+
+**What would settle it.** **Re-run the Lichtman arsenal-breadth split inside the Brill et al. adjusted framework.** Does the 47-vs-18 gap survive batter- and pitcher-quality adjustment, and does it appear as a *discontinuity* at each new time through or as a *slope* difference over the game? A slope difference is fatigue interacting with arsenal; a discontinuity is familiarity. **Nobody has run it, and the data is public.**
+
+**Operating position until then.** Arsenal breadth has enough independent support elsewhere (F-251's mechanism list; the 2026 industry move toward more distinct shapes) that it does not need the TTO argument to stand up. **Stop using "he'll have seen your stuff by the third time through" as the justification for anything** — that specific claim is the contested one.
 
 ---
 
