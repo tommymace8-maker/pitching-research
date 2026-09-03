@@ -31,6 +31,9 @@
 | 16 | **Does release-angle precision have any coachable channel?** | Coach vs stuff/command report | 🔴 **OPEN — added 2026-08-13** |
 | 17 | **Is pitch-sequence ORDER a lever, a marker, or nothing?** | Coach vs Biomech vs Anatomy | 🔴 **OPEN — added 2026-09-02. Two experimental manipulations, opposite results, n = 26 and n = 6** |
 | 18 | **Is the times-through-the-order penalty familiarity, and does arsenal breadth protect against it?** | Lichtman vs Brill/Deshpande/Wyner | 🔴 **OPEN — added 2026-09-02. The discontinuity fails confounder adjustment; the breadth interaction was never tested** |
+| 19 | **Are elite pitchers exploitably predictable?** | Kovash & Levitt 2009 vs two 2024 reversals | 🔴 **OPEN — added 2026-09-03. The foundational claim is contested and has now been re-tested twice, both times against it** |
+
+> ⚠️ **NUMBERING CONFLICT, 2026-09-03.** The unmerged branch `daily/2026-09-01-hitter-perception` also adds a **#17** — *"Is velocity VARIABILITY a command liability or a timing weapon?"* — different from the #17 above. **Dispute numbers 17 and 18 are ambiguous across branches until the merge is resolved.** See **F-259**.
 
 ---
 
@@ -498,6 +501,47 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 **What would settle it.** **Re-run the Lichtman arsenal-breadth split inside the Brill et al. adjusted framework.** Does the 47-vs-18 gap survive batter- and pitcher-quality adjustment, and does it appear as a *discontinuity* at each new time through or as a *slope* difference over the game? A slope difference is fatigue interacting with arsenal; a discontinuity is familiarity. **Nobody has run it, and the data is public.**
 
 **Operating position until then.** Arsenal breadth has enough independent support elsewhere (F-251's mechanism list; the 2026 industry move toward more distinct shapes) that it does not need the TTO argument to stand up. **Stop using "he'll have seen your stuff by the third time through" as the justification for anything** — that specific claim is the contested one.
+
+---
+
+## 19. 🔴 Are elite pitchers exploitably predictable? — **added 2026-09-03**
+
+> ⚠️ **SNIPPET-ONLY throughout.** One of the two 2024 reversals has **no retrievable author and no identified journal** — only a ScienceDirect PII — and an **attribution risk between the two 2024 papers is logged and unresolved.** Do not cite it by author.
+
+### Why this is separate from #17
+
+Dispute #17 asks whether pitch *order* does anything to a hitter. **This one asks a prior question about the pitcher: is his selection process actually exploitable in the first place?** Order could be inert and usage still be leaking information — which is the position §3.2 and §3.3 of `pitchability-sequencing.md` currently take, and it is the position the whole count-audit recommendation rests on.
+
+### The claim under dispute
+
+**Kovash & Levitt 2009** (NBER WP 15347), **>3,000,000 pitches, 2002–2006** — already registered as F-254. Two claimed minimax violations: **payoffs not equalized** (fastballs yield higher OPS against, so "too many fastballs") and **negative serial correlation** (pitchers alternate more than randomization would produce). Claimed value of correction: **up to two wins per franchise per season.**
+
+### The case against it, which has grown
+
+- **Birnbaum (2009), already on the record here:** OPS computed on plate appearances **that end on a given pitch** is a biased read of that pitch's value; the correct object is all outcomes **on or after** it. If right, **this dissolves the "too many fastballs" leg by itself.**
+- **⚠️ NEW 2026-09-03 — two 2024 papers report the opposite** (F-261): **payoff equality and absence of serial correlation hold for the majority of players.** The deviations they find are elsewhere — batters swing *less* than theory predicts, pitchers throw *inside the zone* more than expected. The papers are the ScienceDirect 2024 "Professionals do play Minimax" (authors unretrievable) and **White DR & Smith BO (2024)**, *American Behavioral Scientist*, DOI 10.1177/00027642241235829.
+
+### The biomechanist's position
+
+**The burden has shifted and this corpus had not registered it.** The over-alternation result entered here as "contested." It is now **directly re-tested twice in one year, both times against.** Treat *"he alternates too much"* as an **unproven diagnosis at the elite level.**
+
+### The coach's position — where he concedes and where he does not
+
+**Conceded on the diagnosis.** He will not tell a pitcher he alternates too much.
+
+**Not conceded on the recommendation.** The count audit (`pitchability-sequencing.md` §6) never depended on Kovash & Levitt: it rests on **Brennan's ~0.23 bits and the count-behaviour result** (F-255), which is a claim about *usage in a given count*, not about serial dependence between adjacent pitches. **Those are different quantities and only one of them has been reversed.**
+
+**And he takes the more useful half of the 2024 work seriously: move the question from pitch TYPE to pitch LOCATION.** A pitcher who throws three pitch types and puts all of them in the same third of the zone is more predictable than his mix suggests, and no pitch-type analysis will ever see it. **Added to the audit as a second row.**
+
+### The empirical point that is NOT in dispute
+
+**Sidle & Tran (2018): naive seven-class baseline 54.38%** across 287 pitchers and ~1.34M pitches (F-262). Both sides accept it as a description of **pitch mix**, not of exploitability. **Its value is that it is a baseline any coach can compute on his own athlete.** Note it is **not poolable** with F-255's binary ~71% or 3-class 61.3% — different label sets, different papers.
+
+### What would settle it
+
+**Kovash & Levitt's two tests re-run on modern Statcast data (2015–2026) with Birnbaum's fix** — outcomes measured on-or-after the pitch rather than on plate appearances that end on it. Nobody appears to have run exactly that.
+
+**Until then, note that the athlete in front of you is n = 1 and no published result on either side tells you anything about him.** Detecting a lag-1 serial correlation of **r = 0.10** at 80% power requires **≈ 790 pitches** — about a starter's full season. Detecting a **70% → 55%** shift in one count's fastball usage requires **≈ 83 pitches in that count** (F-262).
 
 ---
 

@@ -14,6 +14,83 @@
 
 ---
 
+## Sweep 4 — 2026-09-03
+
+### ⚠️ SWEEP CONDITION: SEARCH-ONLY AGAIN — **third consecutive cycle with total egress failure.** `WebFetch` and `curl` returned `EGRESS_BLOCKED` / `403` for all 15 hosts probed, including every domain the run brief lists as working. **No item below was read at source.**
+
+### Headline: **the sweep's real product is not an idea, it is a defect in this program's own plumbing.** The 2026-09-03 cycle picked "pitchability" off the `INDEX.md` gap list, ran a full research pass, and *then* discovered the topic had been covered the previous day — on a branch `main` cannot see. **Three cycles now sit on unmerged branches, and two of them have assigned the same seven F-IDs to different findings.** That is Sweep 4's headline item and it is registered as **F-259**. On the field itself: **thin.** Two genuinely new items, both from outside the sequencing question I went looking for, plus one folklore number killed.
+
+---
+
+### 1. ⚠️⚠️ **THE VAULT IS FRAGMENTING.** Three research cycles, three unmerged branches, seven colliding F-IDs. — **not a verdict item; a defect**
+
+`main` sits at 2026-08-20. `daily/2026-09-01-hitter-perception` and `research/2026-09-02-sequencing` each fork from it and neither is merged. **F-252 through F-258 are assigned to different findings on the two branches** — on 09-01, F-257 is the ABS challenge system; on 09-02, F-257 is "the sequencing literature is entirely between-pitcher." **Both branches also add a #17 dispute, with different content.**
+
+**The mechanism is self-reinforcing:** every unmerged branch makes `main` staler → the next clone's `INDEX.md` is more wrong about what is covered → the next duplication is more likely. **This cycle is the proof: it read an `INDEX.md` still listing pitchability as having "nothing in the corpus covering it."**
+
+**What this cycle did instead of forking a fourth copy:** rebased onto `research/2026-09-02-sequencing`, renumbered its own findings to **F-259+**, deleted everything that merely restated 09-02, and kept only the residue. **Precedent: a cycle that finds its topic already covered stacks on the covering branch and contributes the residue.**
+
+**What was deliberately NOT done autonomously:** merging 09-01, which requires renumbering seven published F-IDs — a violation of the registry's own first rule, and therefore the owner's call. **Until then, F-252 to F-258 must always be cited with their branch.** → **F-259**
+
+---
+
+### 2. The ABS challenge system — **the challenger splits, and one operational rule** — PROMISING (as an instrument) / UNPROVEN (as a coaching input)
+
+⚠️ *The 09-01 branch already has an ABS entry (its F-257) flagging a circulating effect figure as not credible. This is the complementary half — the splits — not a duplicate.*
+
+Live for the **2026** MLB regular season. **Two challenges per team over the first nine innings**, retained on success; only the **pitcher, catcher or batter** may initiate, by tapping the head immediately after the call.
+
+| | Overturn rate |
+|---|---|
+| Triple-A 2025 | **50%** |
+| Spring training | **52%** |
+| **Catchers** | **56%** |
+| **Batters** | **50%** |
+| **Pitchers** | **41%** |
+
+Player sentiment: an Athletic poll of **134 players** — **63.4% opposed, 17.2% in favor.**
+
+**The one actionable item, and it follows from the splits alone: if your conference adopts a challenge system, THE CATCHER OWNS THE CHALLENGE.** Pitchers are the worst challengers at 41% — worst view of the plate, most emotionally invested in the call.
+
+**Why a pitching vault cares beyond the tactic:** F-182 says framing contaminates command measurement, and that confound sits underneath Dispute #12. **This is the first public, umpire-independent ground truth on borderline pitches.** Limit that must travel with it: **challenged pitches are a SELECTED subset** — challenges are spent strategically. → **F-264**
+
+---
+
+### 3. The **"vertical slider"** — PROMISING on physics, UNPROVEN on acquisition cost
+
+Driveline (director of pitching **Connor White**): a hard, gyro-heavy slider with little horizontal movement and meaningful drop — **6–9 inches of additional drop at ~84 mph**, classified as **within 10 mph of the pitcher's own fastball**, so a smaller velocity tax than a conventional breaking ball. **~1% of pitches** currently fall in that window, "early in the adoption phase." **No run values, no whiff rates, no sample size, no acquisition data.**
+
+**The velocity-tax framing is a real arsenal-construction argument, not a marketing line** — and it points the same way as Sweep 3 #3's shape-diversification trend.
+
+**The claim to refuse: that it "isn't especially difficult to acquire."** Nothing published supports it, and this is the class of claim that has been wrong before — spin efficiency was sold as trainable and is ~65% fixed over three years (F-235, F-153). **Do not build an off-season around it.** → **F-265**
+
+---
+
+### 4. ⚠️ Folklore killed and NOT replaced: "3–5 mph by the sixth inning" — **DEBUNKED as sourced**
+
+*"A pitcher sitting 88 in the first inning often dips 3–5 mph by the sixth as he tires."* Traces to a **commercial training blog**, stated about an **88 mph** pitcher. **Three differently-worded searches failed to corroborate it from any analytical source.**
+
+**Note the family resemblance:** this corpus already catches facilities quoting "3–5 mph" as a *training gain* to an 88 mph arm, extrapolated from 15-year-olds (F-072). **The same number, the same strawman, now recycled as a within-start loss.**
+
+**The corpus has NO replacement number and this sweep is not supplying one** — inventing a figure to displace a bad figure is the same error in the other direction. This matters because the within-start decline is **the load-bearing quantity in fatigue-vs-familiarity** (Dispute #18). → **F-266**
+
+---
+
+### 5. Minimax reversed twice in 2024 — see `pitchability-sequencing.md` A2 and Dispute #19
+
+Two 2024 papers report that payoff equality and absence of serial correlation **hold** for most players, against Kovash & Levitt. **VERDICT on "he alternates too much": DEBUNKED as a default diagnosis at elite level.** Does not touch the count audit, which rests on a different quantity. → **F-261**
+
+---
+
+### Things I looked for and did NOT find (Sweep 4)
+
+- **Any new coaching-field argument about sequencing whatsoever.** Searches for what Driveline, Tread and the coaching internet are debating in 2026 returned pitch design and the old Driveline-vs-Tread philosophy argument. **The industry is not currently arguing about sequencing.** Consistent with Sweep 3's read that it has moved to usage.
+- **Any live-pitching or pitcher-avatar VR replication of Gray 2002** — the study that would settle Dispute #17. Searched again; still nothing.
+- **Any count-leverage / run-value-by-count table.** Searches returned only generic run-expectancy explainers. **Still a gap.**
+- **Any within-start velocity-decline figure at any level** (see #4).
+
+---
+
 ## Sweep 3 — 2026-09-02
 
 ### ⚠️ SWEEP CONDITION: SEARCH-ONLY. All direct egress was blocked — `WebFetch` and `curl` returned 403 for every domain attempted, including every domain the run brief lists as working. **No item below was read at source. Every verdict is provisional on that.**

@@ -186,4 +186,69 @@ Absence search 2026-09-02, **against search indexes only** (egress blocked), so 
 
 ---
 
-*Sources for this file: `daily/2026-09-02-sequencing.md`. Findings F-251 to F-258. Disputes #17, #18. **Nothing here was read at source — see the banner at the top.***
+---
+
+# ADDENDUM — 2026-09-03
+
+**The 2026-09-03 cycle selected this topic from `INDEX.md` §5 and only discovered it was already covered after the research pass was complete** — because that cycle cloned `main`, and this file lives on an unmerged branch `main` cannot see. **That is registered as F-259 and it is the most consequential thing the cycle produced.** What follows is the residue: four items the 09-02 sweep did not reach, and one conflict between the two cycles.
+
+## A1. ⚠️ Citation conflict on the PLOS ONE manipulation (F-260)
+
+**The two cycles agree on every identifier, every number and every result of the study in §2.1 — and disagree on its authors.**
+
+| | 2026-09-02 (§2.1) | 2026-09-03 |
+|---|---|---|
+| Authors | **"Kashiwabara et al."** | **Kidokoro S, Matsuzaki Y, Akagi R** |
+| Provenance | search summary | search summary naming a **Shibaura Institute of Technology institutional-repository page**, listing all three with given names |
+
+Everything else matches: PLOS ONE **15(3):e0230385**, PMID **32182276**, n = 26 HS hitters, FB 34.3 ± 1.3 m/s, Continuity 15 / Random 30 / Open 20.
+
+**Neither cycle opened the paper. PLOS ONE is fully open access — this is a one-click fix the moment egress returns, and it is the first thing to resolve.** Both names are recorded and dated; **neither has been overwritten.** The 09-03 provenance is the stronger one, but the 09-02 reading of this paper was otherwise more complete — it retrieved **p = 0.338** and **p < 0.001**, which the 09-03 pass did not.
+
+**Why this matters out of proportion to its size:** it is this corpus's most-repeated lesson at the smallest possible scale. A PMID, a DOI, a sample size and two p-values, all agreed on by two independent passes — **with the author line still in dispute.**
+
+## A2. The minimax leg of §3.2 has been reversed twice in 2024 (F-261)
+
+§3.2 records Kovash & Levitt's over-alternation result as contested. **It is now stronger than contested: two independent 2024 analyses report that payoff equality and the absence of serial correlation HOLD for the majority of players.** Their deviations are elsewhere — batters swing less than theory predicts; pitchers throw inside the zone more than expected.
+
+- ScienceDirect PII **S2773161824000168**, *"Professionals do play Minimax: Revisiting the Nash equilibrium in Major League Baseball"* (2024) — **authors and journal unretrievable.**
+- **White DR & Smith BO (2024)**, *"Changing It Up: Determining the Nash Equilibria for Major League Baseball Pitchers,"* American Behavioral Scientist, **DOI 10.1177/00027642241235829.**
+
+⚠️ **Attribution risk between the two is logged and unresolved.** Now **Dispute #19**.
+
+**What this does and does not touch.** It undercuts *"he alternates too much."* **It does not touch the count audit in §6**, which rests on Brennan's ~0.23 bits and the count-behaviour result — *usage in a given count*, not serial dependence between adjacent pitches. **Different quantities; only one has been reversed.**
+
+**The portable idea, worth taking regardless of who wins: move the question from pitch TYPE to pitch LOCATION.** A pitcher who throws three pitch types and puts all of them in the same third of the zone is more predictable than his mix suggests. **Add a location-by-count row to the §6 audit.**
+
+## A3. The seven-class predictability baseline, and two more sample sizes for §6 (F-262)
+
+**Sidle & Tran (2018)**, Journal of Sports Analytics, DOI 10.3233/JSA-170171. **~1,340,000 pitches, 287 pitchers** with ≥500 pitches in both 2014 and 2015. **Seven-class naive baseline accuracy 54.38%.** Random forests > LDA > SVM. Top features again include **the previous pitch**, alongside pitcher/batter history, pitcher/count history and game score.
+
+⚠️ **Not poolable with §3.3's binary ~71% or 3-class 61.3%** — different label sets, different papers. Quote each with its class count.
+
+**Two sample sizes to sit alongside §6's ±10 pp figure** (which answers *how precisely can I estimate a usage rate*; these answer *how big a change can I detect*):
+
+| Question | Requirement |
+|---|---|
+| Detect a **70% → 55%** shift in one count's fastball usage, 80% power, α = .05 | **≈ 83 pitches in that count** |
+| Detect a lag-1 **serial correlation r = 0.10**, 80% power | **≈ 790 pitches** — a starter's full season |
+
+## A4. The TTOP framing to adopt, and the test that would settle §4 (F-263)
+
+**"The third time through the order" is a BIN BOUNDARY.** Every pre-2023 analysis binned plate appearances by time-through and compared bin means — **a design that cannot distinguish a step from a slope**, because a slope binned into three buckets produces three different bucket means. That *is* Brill/Deshpande/Wyner's stated critique.
+
+**This corpus has been burned by exactly this shape once, in space rather than time:** stride length, a real cross-sectional pattern read as a mechanism that would survive intervention (F-043). F-094 is the general warning. **This is F-043 in the time domain.**
+
+**The test nobody has run, and it is cheap.** F-125 and F-127 hold that under fatigue **command degrades before velocity** and fatigue **neurally inhibits the infraspinatus**. So a fatigue-driven TTOP should appear in **location quality, smoothly, ahead of any outcome signal** — and a familiarity-driven one should not. Computable from public pitch-level data with no new collection. **The cheapest high-value study the 09-03 cycle identified.**
+
+**One thing blocks pricing the fatigue side at all:** the within-start velocity decline in mph is **unknown to this corpus** (F-266). The circulating "3–5 mph by the sixth" is a commercial-blog claim about an **88 mph** pitcher — the same 88 mph strawman F-072 already catches facilities using for training *gains*, now recycled as a within-start *loss*. **Do not quote it, and do not quote a counter-number: there isn't one.**
+
+## A5. The sentence for the athlete
+
+> **"Nothing happens to you when the lineup flips. There's no bell. You get tired on a pitch-count clock, and the clock doesn't care what inning it is."**
+
+Both camps agree the batter gets better across a game. The dispute is about **why**, and therefore about what to do — **fatigue is trainable and familiarity is not.**
+
+---
+
+*Sources for this file: `daily/2026-09-02-sequencing.md`, `daily/2026-09-03-report.md`. Findings F-251 to F-258 (09-02) and F-259 to F-266 (09-03). Disputes #17, #18, #19. **Nothing here was read at source — see the banner at the top.***

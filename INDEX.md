@@ -1,6 +1,27 @@
 # INDEX — Navigation Map for the Pitching Research Corpus
 
-**Compiled 2026-08-17. Last updated 2026-09-02.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **258** findings.
+**Compiled 2026-08-17. Last updated 2026-09-03.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **266** findings *on this branch*.
+
+> # ⚠️⚠️ 2026-09-03 — READ THIS BEFORE SELECTING A TOPIC: THE VAULT IS SPLIT ACROSS UNMERGED BRANCHES
+>
+> **`main` is stale (2026-08-20) and its `INDEX.md` is wrong about what is covered.** Three research cycles now sit on branches that were never merged:
+>
+> | Branch | Adds | Merged? |
+> |---|---|---|
+> | `main` | — (at 2026-08-20) | — |
+> | `daily/2026-09-01-hitter-perception` | **F-252 → F-259**, `library/hitter-perception.md`, a Dispute **#17** | **NO** |
+> | `research/2026-09-02-sequencing` | **F-251 → F-258**, `library/pitchability-sequencing.md`, Disputes **#17, #18** | **NO** |
+> | `research/2026-09-03-pitchability` *(this branch)* | **F-259 → F-266**, Dispute **#19**, Sweep 4 | **NO** |
+>
+> **⚠️ F-252 to F-258 NAME DIFFERENT FINDINGS ON THE 09-01 AND 09-02 BRANCHES — seven colliding IDs. Both branches also add a Dispute #17, with different content.** Always cite those IDs **with their branch** until the merge is resolved.
+>
+> **This is self-reinforcing:** every unmerged branch makes `main` staler → the next clone's index is more wrong → the next duplication is more likely. **The 2026-09-03 cycle is the proof — it ran a full research pass on a topic covered the previous day, because `main`'s index still listed it as uncovered.**
+>
+> **PROCEDURE, ADDED 2026-09-03: list the remote branches BEFORE selecting a topic.** Four seconds. And a cycle that finds its topic already covered **stacks on the covering branch and contributes the residue** — it does not publish a parallel account.
+>
+> **Merging `daily/2026-09-01-hitter-perception` requires renumbering seven published F-IDs, which violates the registry's own first rule. That is the owner's decision and was deliberately not made autonomously.** Full account: **F-259**.
+
+> **⚠️ THREE CONSECUTIVE CYCLES HAVE RUN WITH ZERO SOURCE ACCESS (2026-09-01, 09-02, 09-03).** `WebFetch` and `curl` return 403 / `EGRESS_BLOCKED` for every domain attempted, *including every domain the run brief lists as working*. `WebSearch` is the only channel. **F-251 to F-266 were all written without a single source being opened.** This is no longer an incident; it is the operating condition. See F-259, F-266 and the banner below.
 
 > **⚠️ 2026-09-02 — F-251 to F-258 ARE UNVERIFIED.** That cycle (pitch sequencing) ran with **all direct egress blocked**: `WebFetch` and `curl` returned 403 for every domain attempted, *including every domain the run brief lists as working* (`journals.sagepub.com`, `frontiersin.org`, `pmc.ncbi.nlm.nih.gov`, `ncbi.nlm.nih.gov/pmc`) plus `arxiv.org`, `nber.org`, `tangotiger.net` and a plain `example.com` control. `WebSearch` was the only channel. **Nothing was read at source.** Treat everything in `library/pitchability-sequencing.md` and F-251–F-258 as **leads, not findings**. Verification order is in **F-258** and is the first item of the next cycle. This is the same condition that produced the 2026-08-19 misreads.
 Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showcase / D1-committed / draft-followed) -> NCAA D1 -> MiLB -> MLB, chasing 90-95+. Mission is **performance development**, not injury prevention; stress costs are tagged and the work moves on.
@@ -89,6 +110,14 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | The count-audit protocol and its sample-size requirement | `pitchability-sequencing.md` §6 | F-255, F-257 |
 | Why the whole literature may be aimed wrong (between- vs within-pitcher) | `pitchability-sequencing.md` §8 | F-257, F-094 |
 | Tunneling — the prior cautionary tale | `stuff-and-command.md` §4.2 | F-163, F-164 |
+| **⚠️ Citation conflict — the PLOS ONE author line (Kidokoro vs Kashiwabara)** | `pitchability-sequencing.md` **A1** | **F-260** |
+| **Minimax reversed twice in 2024 — is he exploitably predictable at all?** | `pitchability-sequencing.md` **A2**; `open-disputes.md` **#19** | **F-261** |
+| **The seven-class predictability baseline (54.38%) and detection sample sizes** | `pitchability-sequencing.md` **A3** | **F-262** |
+| **"Third time through" is a BIN BOUNDARY, and the command test that would settle it** | `pitchability-sequencing.md` **A4** | **F-263** |
+| **ABS challenge splits — the catcher owns the challenge** | `idea-scouting.md` Sweep 4 #2 | **F-264** |
+| **The vertical slider** | `idea-scouting.md` Sweep 4 #3 | **F-265** |
+| **The "3–5 mph within-start decline" folklore, and the missing number** | `idea-scouting.md` Sweep 4 #4 | **F-266** |
+| **⚠️ The vault is fragmenting across unmerged branches** | `daily/2026-09-03-report.md` §1; `idea-scouting.md` Sweep 4 #1 | **F-259** |
 
 ### Mechanics and kinematics
 | Sub-topic | Primary file | Findings |
@@ -213,6 +242,9 @@ Full argument, both sides, and what would settle each, in `library/open-disputes
 | 16 | Does release-angle precision have any coachable channel? | OPEN — added 2026-08-13; true, geometric, and possibly inert as an instruction |
 | 17 | **Is pitch-sequence ORDER a lever, a marker, or nothing?** | OPEN — added 2026-09-02; two experimental manipulations at opposite conclusions (n = 26 HS null at lag 1, n = 6 college positive at lag 3) |
 | 18 | **Is the TTO penalty familiarity, and does arsenal breadth protect against it?** | OPEN — added 2026-09-02; the discontinuity fails confounder adjustment, and the breadth interaction was never tested |
+| 19 | **Are elite pitchers exploitably predictable?** | OPEN — added 2026-09-03. Kovash & Levitt is contested by Birnbaum and now **re-tested twice in 2024, both times against**. Does *not* touch the count audit — different quantity |
+
+> ⚠️ **DISPUTE-NUMBER COLLISION:** the unmerged `daily/2026-09-01-hitter-perception` branch also adds a **#17** — *"Is velocity VARIABILITY a command liability or a timing weapon?"* — different from #17 above. **#17 and #18 are ambiguous across branches.** See F-259.
 
 **Standing methodological disputes** (not attributable to one agent): torque values are not comparable across labs; lab velocity is not game velocity so all published kinetics are probably a floor; 60% of normalized elbow torque variance is unexplained by kinematics; every professional norms table is survivorship-selected; verifying a citation is not verifying a claim; and "one experiment, many papers" (the Buffalo stride cohort appears across at least seven publications).
 
@@ -249,6 +281,16 @@ Six corrections landed in one day. **None was a fabrication.** Every one was a r
 2. **Internal inconsistencies not yet resolved** — five figures appear at different values in different files, including the interval-throwing throw count (238,611 vs 111,196), the OpenBiomechanics metric count (81 vs 76), the 2008/2026 league-average velocities, and shoulder IR velocity (5,456-6,149 deg/s from the ASMI table vs "7,000-7,500 deg/s" in the anatomy file, the latter explicitly flagged as unverified). (F-231)
 
 ### Outstanding verification backlog
+
+> ## ⚠️ TOP OF THE BACKLOG, 2026-09-03 — SIXTEEN FINDINGS ACROSS THREE CYCLES, NONE READ AT SOURCE
+> **F-251 to F-266 were all written under a total egress blackout.** Re-verify in this order the moment source access returns:
+> 1. **PLOS ONE 15(3):e0230385 — the author line.** Two cycles searched the same paper and returned different authors ("Kashiwabara et al." vs "Kidokoro S, Matsuzaki Y, Akagi R"), while agreeing on the PMID, the n, the speeds and both p-values. **Fully open access — one click.** (F-260)
+> 2. **Brill/Deshpande/Wyner 2023** — the effect size and credible interval. The TTOP shape claim is unusable to a coach without a magnitude. (F-256, F-263)
+> 3. **The 2024 "Professionals do play Minimax" paper** — it currently has **no retrievable author and no identified journal**, only ScienceDirect PII S2773161824000168, and an **attribution risk against White & Smith 2024 is logged and unresolved.** (F-261)
+> 4. **arXiv:2601.11904** — authors and actual reported statistics. This is the paper a content farm is circulating **backwards**, so the abstract's own verbs matter more than usual. (F-253)
+> 5. **Gray 2002** — any effect size at all, and confirmation of n = 6. (F-252 on the 09-02 branch)
+> 6. **Sidle & Tran 2018** — the model accuracy above the 54.38% baseline, which was never retrieved. (F-262)
+
 Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not treat any claim as vetted merely because it survived 2026-08-13.** Priority order: (1) two items pre-flagged as HIGH fabrication risk that never reached a verifier — the only items still carrying an active fabrication flag; (2) the Bloebaum SportRxiv 871 sample size, which has an actively circulating phantom n; (3) the Gdovin mph magnitude, since the corpus quotes a p-value with no effect size. Also outstanding: Bloebaum 919 effect sizes; the Smith/Smith/Bowman 2017 SABR stride manipulation (grey literature, never independently verified); the Nevada/Reno (Buck) thesis outcomes; and the Baseball America college-to-pro cohort.
 
 ---
@@ -285,7 +327,9 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **No outcome validation of any commercial sequencing or pitch-calling product**, Driveline's Paint Mixer and the "buyback effect" included (F-258).
 
 ### Topics the corpus has not researched at all
-- ~~**Pitchability, sequencing and in-game usage.**~~ **FIRST PASS COMPLETED 2026-09-02** — `library/pitchability-sequencing.md`, F-251 to F-258, disputes #17 and #18. **⚠️ ENTIRELY UNVERIFIED (egress blocked); treat as leads.** Covered: sequence order, predictability/entropy, arsenal mix, times-through-the-order, hitter anticipation, what the industry sells. **STILL NOT COVERED within this topic:** count leverage as a decision problem, attacking specific hitters, and in-game usage plans. Stuff models still do not price sequencing (F-168).
+- ~~**Pitchability, sequencing and in-game usage.**~~ **FIRST PASS COMPLETED 2026-09-02; SECOND PASS 2026-09-03** — `library/pitchability-sequencing.md` (+ ADDENDUM A1–A5), F-251 to F-266, disputes #17, #18, **#19**. **⚠️ ENTIRELY UNVERIFIED (egress blocked, both cycles); treat as leads.** Covered: sequence order, predictability/entropy, arsenal mix, times-through-the-order, hitter anticipation, the game-theory literature and its **two 2024 reversals**, what the industry sells. **STILL NOT COVERED within this topic:** count leverage as a decision problem (searched again 2026-09-03 — returns only generic run-expectancy explainers, no count table retrievable), attacking specific hitters, and in-game usage plans. Stuff models still do not price sequencing (F-168).
+- **⚠️ ADDED 2026-09-03 — no within-start velocity-decline figure exists in this corpus, at any level.** The circulating "3–5 mph by the sixth inning" is a commercial-blog claim about an 88 mph pitcher — the same strawman F-072 already catches being used for training *gains*, recycled as a within-start *loss*. **The corpus has no number for a quantity every coach believes he knows**, and it is the load-bearing quantity in the fatigue-vs-familiarity argument (Dispute #18). Priority for the next cycle (F-266).
+- **⚠️ ADDED 2026-09-03 — no test of the times-through-the-order penalty against a COMMAND metric.** F-125/F-127 predict a fatigue-driven TTOP should show in location quality, smoothly, ahead of any outcome signal. Computable from public data with no new collection. **The cheapest high-value study identified in the 09-03 cycle** (F-263).
 - **Hitter perception and reaction.** **PARTIALLY OPENED 2026-09-02** via the anticipation literature (F-251, F-252) — but only two small laboratory studies, and the corpus still has nothing on pitch recognition training, occlusion work, or gaze behaviour.
 - **Catchers, framing and the pitcher-catcher system**, despite framing contaminating command measurement (F-182).
 - **Psychology beyond motor learning** — competitive anxiety, routines, focus under fatigue, the mental side of an outing.
