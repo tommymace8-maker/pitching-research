@@ -1,6 +1,6 @@
 # INDEX — Navigation Map for the Pitching Research Corpus
 
-**Compiled 2026-08-17.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of 244 verified findings.
+**Compiled 2026-08-17. Updated 2026-09-04.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **259** findings (F-251→F-259 added 2026-09-04; **F-255, F-256 and F-258 are UNVERIFIED leads in quarantine — see §7**).
 Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showcase / D1-committed / draft-followed) -> NCAA D1 -> MiLB -> MLB, chasing 90-95+. Mission is **performance development**, not injury prevention; stress costs are tagged and the work moves on.
 
 **How to use this corpus, in order:**
@@ -21,7 +21,9 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | **`library/coaching-translation.md`** | 679 lines / 75 KB | 2026-08-13 | Science -> cue -> drill -> what failure looks like on video. Four standing rules; the cue ledger with stress costs; the foot-plant-to-MER deep dive; effort dosing; arm slot; command and variability; constraint heuristics; video protocol; retired cues | "What do I actually SAY to him?" "What drill makes this happen without a cue?" "What am I looking for at 240 fps?" "Which cues have been retired and why?" |
 | **`library/biomechanics.md`** | 716 lines / 64 KB | 2026-08-12 | Six phases and timing landmarks; ASMI professional kinematic and kinetic norms; the kinematic sequence; velocity-vs-torque conflicts; measurement technology | "What are the pro norms?" "How long is each phase?" "What raises torque without raising velocity?" "What can I measure with what I own?" |
 | **`library/open-disputes.md`** | 461 lines / 58 KB | 2026-08-13 | Sixteen unresolved arguments among the anatomist, the biomechanist and the coach, each with both sides, the strongest evidence, and what would settle it. Plus the standing methodological disputes | "Is this settled?" "What would I have to run to find out?" "Where do the three specialists actually disagree?" |
-| **`library/idea-scouting.md`** | 413 lines / 45 KB | 2026-08-13 | Two field sweeps of what the industry is arguing about right now, each item labelled PROMISING / UNPROVEN / DEBUNKED / MARKETING. Content-farm blocklist and hazard classes | "Is this new thing real?" "What is the industry selling this month?" "What did we look for and NOT find?" |
+| **`library/hitter-perception.md`** | **NEW 2026-09-04** | 2026-09-04 | **The hitter's decision clock.** Flight time with drag; where the ball is at the commit instant; the linear-vs-quadratic argument that reconciles F-163 with F-159/F-232; the detection asymmetry; a quarantined 7-item verification queue | "How long does he actually have?" "Why does tunneling correlate at 0.07 while velocity gap works?" "What do I tell a pitcher about his changeup, and how would I know it worked?" **⚠️ §1–4 are arithmetic and durable; §5 is unread and quarantined** |
+| **`daily/2026-09-04-report.md`** | **NEW** | 2026-09-04 | Cycle 4 brief. **Ran with all egress blocked** — the run-condition banner is the first thing in it | "What happened on the blocked day, and what is safe to use from it?" |
+| **`library/idea-scouting.md`** | 413 lines / 45 KB | **2026-09-04** | **Three** field sweeps of what the industry is arguing about right now, each item labelled PROMISING / UNPROVEN / DEBUNKED / MARKETING. Content-farm blocklist and hazard classes | "Is this new thing real?" "What is the industry selling this month?" "What did we look for and NOT find?" |
 | **`src/core/biomech/references.ts`** | 830 lines | — | ~30 structured citations with `EvidenceGrade`, `Population`, `Causality`, caveats and dated `corrected` records. Kinematic and kinetic norm bands, the four "free reductions," the velocity-torque conflict table, and the `MARKERS_NOT_LEVERS` list | "What grade and causality does this citation carry in code?" "Which variables must never be rendered as coachable?" |
 | **`daily/2026-08-12-biomechanics.md`** | 74 lines | 2026-08-12 | Day 1 biomechanics brief | Quick orientation only |
 | **`daily/2026-08-12-anatomy.md`** | 55 lines | 2026-08-12 | Day 1 anatomy brief | Quick orientation only |
@@ -61,6 +63,17 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | Arsenal construction and tunneling | `stuff-and-command.md` §4.1-4.2 | F-161, F-163, F-164 |
 | Stuff models and their limits | `stuff-and-command.md` §4.3-4.5 | F-165 to F-168, F-233 |
 | Spin-efficiency trainability | `idea-scouting.md` Sweep 2 #5; `open-disputes.md` #15 | F-153, F-235 |
+
+### Hitter perception and the deception budget — **added 2026-09-04**
+| Sub-topic | Primary file | Findings |
+|---|---|---|
+| Flight time with drag; plate speed; the hitter's budget | `hitter-perception.md` §2.2 | F-251 |
+| The commit instant — where the ball is when the decision is made | `hitter-perception.md` §2.3 | F-252 |
+| Why tunneling fails and velocity gap works — linear vs quadratic | `hitter-perception.md` §3; `open-disputes.md` #17 | F-254 |
+| The BP tunnel-point arithmetic inconsistency | `hitter-perception.md` §3.4 | F-253 |
+| The detection asymmetry (cheap input check, unaffordable outcome check) | `hitter-perception.md` §4.2 | F-257 |
+| The changeup arm-speed tell | `hitter-perception.md` §4.3 | F-256 |
+| **Quarantined leads — occlusion, TTOP, sequencing** | `hitter-perception.md` §5 | F-255, F-258, F-259 |
 
 ### Command
 | Sub-topic | Primary file | Findings |
@@ -193,6 +206,7 @@ Full argument, both sides, and what would settle each, in `library/open-disputes
 | 14 | Is "keep lifting = floor protection" a real asymmetry or a design artifact? | **LARGELY RESOLVED in the coach's favour, 2026-08-13** — the underlying physiological question stays open |
 | 15 | Is spin efficiency trainable, and does the industry price the cost honestly? | OPEN — added 2026-08-13; ~65% fixed over three years, and the one documented mover bought a delivery change |
 | 16 | Does release-angle precision have any coachable channel? | OPEN — added 2026-08-13; true, geometric, and possibly inert as an instruction |
+| 17 | Is deception priced in positional separation at the commit instant, or must it be priced in optical expansion? | NARROWED — added 2026-09-04; the "factor of six" ratio was **withdrawn** the same cycle, the linear-vs-quadratic **ordering** was defended |
 
 **Standing methodological disputes** (not attributable to one agent): torque values are not comparable across labs; lab velocity is not game velocity so all published kinetics are probably a floor; 60% of normalized elbow torque variance is unexplained by kinematics; every professional norms table is survivorship-selected; verifying a citation is not verifying a claim; and "one experiment, many papers" (the Buffalo stride cohort appears across at least seven publications).
 
@@ -260,7 +274,7 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 
 ### Topics the corpus has not researched at all
 - **Pitchability, sequencing and in-game usage.** The README names it as a research priority; nothing in the corpus covers pitch sequencing decisions, count leverage, times-through-the-order, or attacking specific hitters. Stuff models explicitly do not price sequencing (F-168).
-- **Hitter perception and reaction.** Referenced obliquely (attack angle, deception, the 150 ms tunnel-point argument) but never studied directly.
+- ~~**Hitter perception and reaction.**~~ **PARTIALLY OPENED 2026-09-04** — `library/hitter-perception.md`, F-251→F-259. **But opened in a fully egress-blocked cycle, so the GEOMETRY is covered and the PERCEPTUAL LITERATURE is not.** The clock, the commit instant, and the linear-vs-quadratic channel argument are arithmetic and durable. Everything about what hitters actually *see* — occlusion timings, advance-cue use, expert-novice differences — remains a 7-item unread queue (F-259). **Treat this topic as one-third covered.**
 - **Catchers, framing and the pitcher-catcher system**, despite framing contaminating command measurement (F-182).
 - **Psychology beyond motor learning** — competitive anxiety, routines, focus under fatigue, the mental side of an outing.
 - **Return-to-throw after injury**, deliberately out of scope, though the interval-throwing modeling paper is logged (F-137).
@@ -273,7 +287,8 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **Sample-level data.** The corpus has no primary dataset of its own; every number is from published literature, industry grey literature, or Statcast queries.
 
 ### Structural gaps in the corpus's own method
-- **Only two research days exist** (2026-08-12 and 2026-08-13). Everything here is two cycles deep.
+- **Four research days exist** (2026-08-12, 2026-08-13, 2026-08-20 verification pass, 2026-09-04). Most of the corpus is still only two cycles deep.
+- **⚠️ ADDED 2026-09-04 — a whole cycle ran with no source access, and the environment brief's egress list is stale.** All outbound HTTPS returned 403 at the gateway, including every one of the eight domains the standing brief names as WORKING. **The next cycle must PROBE egress before choosing a topic**, rather than planning around the brief's list — topic feasibility now depends on which journals are reachable that day. Full record: F-259.
 - **Verification is incomplete and known to be incomplete** (F-242).
 - **The daily briefs are not maintained** and contain superseded claims — **now annotated in place with dated correction notices (2026-08-17), but not rewritten.** Read them as history, not reference (F-241).
 - **Nothing in the corpus has been tested against a real athlete.** Every protocol is inference from published data.
@@ -287,3 +302,19 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 3. **F-072** — +0.65 mph. The number to say to an 88 mph athlete on day one.
 4. **F-171** — command is an angular problem, and 1 degree is a foot.
 5. **F-240** — six corrections in one day, none a fabrication, all in the same direction. The epistemic finding that should govern how the next cycle reads anything.
+
+---
+
+## 7. ⚠️ QUARANTINE — findings that are NOT findings yet (added 2026-09-04)
+
+The 2026-09-04 cycle ran with **all outbound HTTPS denied (403 on every host)** and could open **no primary source**. It deliberately produced **no source-verified literature finding.** Three registry entries from that cycle are **leads in quarantine** and must not be quoted, compressed, or promoted until someone reads the paper:
+
+| F-ID | What it is | Status |
+|---|---|---|
+| **F-255** | Higuchi et al. 2016 occlusion study (PLOS ONE, PMID 26848742) — reportedly, occluding the final 150 ms does not change mean contact location | **UNVERIFIED — SNIPPET-ONLY. Read this first.** Would independently corroborate F-254 by a wholly different method |
+| **F-256** | "A slowed arm gives the changeup away" | **FOLKLORE with a plausible mechanism.** Universally repeated, never measured. Legitimate to *check on video*; not legitimate to state as known |
+| **F-258** | Brill & Wyner 2022 Bayesian TTOP re-analysis | **UNVERIFIED — SNIPPET-ONLY.** Do not change a third-time-through decision on it |
+
+**The rest of that cycle (F-251, F-252, F-253, F-254, F-257) is arithmetic** — closed-form drag integration and power calculations, computed in-cycle, dependent on no source. Those are safe. **F-252 carries one unverified external input**, a ~150 ms swing duration, and its sensitivity band is stated wherever it is used.
+
+> **The standing rule this adds (F-259): a cycle that cannot read papers must not write table rows.** The corruption this corpus keeps catching happens in the compression from paper → table row → recommendation (F-240). A blocked cycle is that compression with the paper removed entirely — the highest-risk condition this program can run in. **The correct output of a blocked cycle is arithmetic, a quarantined queue, and an explicit statement that nothing was verified.**

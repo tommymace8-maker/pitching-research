@@ -14,6 +14,37 @@
 
 ---
 
+## Sweep 3 — 2026-09-04
+
+### ⚠️ Headline: a thin sweep, run blind. All outbound HTTPS was 403-blocked at the egress gateway for this entire cycle — every host attempted, including all eight domains the standing brief lists as WORKING and including generic controls. Search worked; fetching did not. **Not one item below was read at source.** Two of four are worth carrying forward; none is importable at any magnitude. Full run condition in F-259.
+
+### 1. "Attack angle above expected" as a pitcher-level deception metric — **PROMISING**, unverified
+Bat-tracking work reportedly identifies pitchers whose fastballs induce **steeper-than-expected swings** — named: **Trevor Williams, Andrew Heaney, Tim Hill, Ben Lively.** All soft throwers who still get hitters late. If real, this is the first **public, pitcher-level, outcome-anchored deception metric**, and a direct successor to the tunnel metrics F-163 retired. Source appears to be a Medium post by **Matthew Creally** (blocklisted domain, unread). **Verdict: PROMISING. The single item most worth chasing when egress returns.** No magnitude, no method, no sample retrieved.
+
+### 2. Effective Velocity (Perry Husband) — **UNPROVEN**, and the corpus should now say so explicitly
+Search returns a consistent statement that **no thorough third-party public validation of EV theory exists** in the public realm, despite MLB Network / FanGraphs / SBNation coverage. Coherent with **F-249**, where Driveline's 2019 Aucoin test found perceived velocity beat release speed on swinging strikes but **lost on xwOBACON and projected RA9 — with no sample size and no coefficients published.** A widely circulated *"~50% of home runs and hard-hit balls come from back-to-back pitches within 6 EV mph"* figure surfaced with **no retrievable methodology.** **Verdict: UNPROVEN — not debunked, untested. Do not quote the 50% figure.**
+
+### 3. Bayesian re-analysis of the times-through-the-order penalty — **LEAD, high priority**
+Brill & Wyner, *JQAS* 2022 (`10.1515/jqas-2022-0116`; arXiv:2210.06724). Reportedly finds that after adjusting for batter and pitcher quality, handedness and home field, **there is little evidence of a strong discontinuity between times through the order.** For contrast, the conventional figure that also surfaced (also unverified): starters' OPS allowed rising **.725 → .753 → .792** across the first three trips in 2016. **Note: same Brill whose xCTRL work this corpus has already verified clean** (INDEX §4, arXiv:2508.19184) — a reason to read it first, **not** a reason to believe it unread. Registered F-258.
+
+### 4. Counterfactual pitch-sequence optimisation — **UNPROVEN**, read adversarially
+arXiv 2606.17345 (2026). Transformer on Statcast, swapping the final pitch or the **setup** pitch counterfactually; reportedly claims **">1.0 K/9"** improvement. That is an extraordinary magnitude from a model whose counterfactuals are unvalidated against anything that actually happened. **Do not import the K/9 figure.** Companion lead: Prasad (MIT Sloan), "Decoding MLB Pitch Sequencing Strategies via Directed Graph Embeddings," ~3.6 M pitches 2015–2019, claiming pitchers build sequences from **"setup" and "knockout"** components — would be the first large-N structural evidence that sequencing is even non-random.
+
+### 5. ⚠️ The search-summary conflation hazard fired again — and this time it would have been a 3× error
+A summary asserted: *"The major league average attack angle is 32°, ranging from about 20° (flattest) to near 50° (steepest)."* **Wrong, and a conflation: 32° is league-mean swing path TILT; mean attack angle is roughly 10°.** The same summary then stated, two sentences later, that *"the most productive contact typically happens at attack angles between 5° and 20°"* — **contradicting its own figure inside a single paragraph.** Nothing from it was imported.
+
+This is Sweep 2 #13's hazard class recurring, and it again **required no AI content farm** — only a search engine compressing two adjacent metrics from the same article. **New operating rule: when a summary states a number and a range that are mutually inconsistent within one paragraph, the paragraph is itself the evidence of the error.** No source access is needed to reject it — which mattered this cycle, because there was none.
+
+### Things I looked for and did NOT find (Sweep 3)
+- Any occlusion or VR study manipulating **release extension** at fixed velocity — still absent, as F-250 recorded.
+- **Any study of within-pitcher velocity-gap SD** (the SD of the FB−CH delta) against outcomes. This looks like a genuine hole and a cheap one to fill — computable from Statcast in an afternoon, directly coachable, and a companion to F-173.
+- Any bullpen-to-game transfer study for **sequencing** decisions.
+- Any test of whether a pitcher can deliberately change his velocity gap **without** an arm-speed tell (F-256).
+
+> **Caveat on all four absences: the search itself ran degraded.** These are weaker absence claims than F-250's, which was searched deliberately with working egress. Treat them as "not surfaced," not as "does not exist."
+
+---
+
 ## Sweep 2 — 2026-08-13
 
 ### Headline: a thin sweep for new IDEAS, an excellent one for DISCONFIRMING EVIDENCE. Nobody in the field is offering a genuinely new drill. What is happening is that large-N datasets are starting to check the cross-sectional claims the industry has coached off for a decade, and the checks are going badly for the claims. Five library corrections came out of it, three of which reverse a conclusion — and **none of them was a fabrication.**

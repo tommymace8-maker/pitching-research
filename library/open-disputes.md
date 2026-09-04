@@ -29,6 +29,7 @@
 | 14 | **Is "keep lifting = floor protection" a real asymmetry or a design artifact?** | Coach vs velocity report | ⬜ **LARGELY RESOLVED, coach's favour, 2026-08-13 — Gdovin is an UNCONTROLLED pre-post, not a removal trial.** Underlying physiology still open |
 | 15 | **Is spin efficiency trainable, and does the industry price the cost honestly?** | Coach vs the pitch-design industry | 🔴 **OPEN — added 2026-08-13** |
 | 16 | **Does release-angle precision have any coachable channel?** | Coach vs stuff/command report | 🔴 **OPEN — added 2026-08-13** |
+| 17 | **Is positional separation at the commit instant the right currency for deception, or must it be priced in optical expansion?** | Anatomy vs Biomech | 🟡 **NARROWED — added 2026-09-04, partially conceded same cycle** |
 
 ---
 
@@ -446,6 +447,32 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 **Strongest evidence for the report.** The number is *true* and it correctly demolishes the release-point-repeatability industry (§6, and the BB/9 null at n = 344). **A finding whose main value is destructive is still valuable** — knowing which twenty years of coaching to stop is worth more than most new drills.
 
 **What would settle it.** **Name a device.** Does any system — Trackman, Hawk-Eye, Rapsodo, or a research rig — report **per-pitch release angle** to a pitcher in a college bullpen at a latency he can use? If yes, the coach is wrong and this becomes the most important number in the document. **If no, it is a beautiful fact about geometry and it should be labeled as one.**
+
+---
+
+## 17. 🟡 Is positional separation at the commit instant the right currency for deception, or must it be priced in optical expansion? — **added 2026-09-04**
+
+**The biomechanist's position** (`hitter-perception.md` §3, F-254): the two deception channels have **different exponents in time.** A velocity difference produces a positional discrepancy growing essentially **linearly** in `t`; a movement difference is a roughly constant transverse acceleration, so its separation grows as **`t²`**. The hitter commits at `t/T = 256.4/406.4 = 0.631`, so **only `(t/T)² = 39.8%` of eventual movement separation has appeared** while the velocity channel has delivered nearly all of its own. Worked in feet: at the commit instant a 95-vs-85 mph pair is **42.6 in** apart in position; an 18-inch total movement difference has produced **7.2 in**.
+
+**The anatomist's challenge.** *The visual system does not read absolute position.* It reads **optical expansion** — the rate of growth of the retinal image — and time-to-contact quantities derived from it. Two balls at 34.7 ft and 31.1 ft subtend different visual angles, granted, but the perceptual variable is expansion rate, and **nothing has been shown to map 42.6 inches onto anything a hitter's brain computes.** The number is an engineering quantity wearing a perceptual claim.
+
+**⬜ CONCEDED IN PART, SAME CYCLE.** The biomechanist withdrew the magnitude and kept the ordering:
+
+- **WITHDRAWN:** the ratio. A draft of F-254 said velocity beats movement "by a factor of six." **That is unit-dependent — it compares feet — and it is gone.**
+- **DEFENDED:** the ordering. **Linear versus quadratic is a property of the exponents, not of the units.** Whatever monotone perceptual transform you apply, a channel that has delivered 40% of its signal at the decision instant is behind one that has delivered nearly all of its own. **The ranking survives translation into expansion rate; the number does not.**
+
+**Why this is worth keeping open rather than closing on the concession.** The conceded half is not cosmetic. If deception is properly priced in optical expansion, then **the ordering may hold while the practical gap narrows or widens by a lot** — and the whole coaching implication in `hitter-perception.md` §4 turns on how big the gap is, not merely on its sign. A factor of six justifies a training block. A factor of 1.3 does not.
+
+**Strongest evidence for the biomechanist.** The exponents are not in dispute and require no source. And the ordering makes two independent predictions that the corpus already observed *before* this argument existed: **F-163** (tunnel metrics correlate `r = 0.07` with run value — the back-loaded channel, scored at its weakest moment) and **F-159/F-232** (velocity GAP drives changeup whiffs while absolute changeup velocity does not). **Two findings that previously looked unrelated fall out of one exponent argument.**
+
+**Strongest evidence for the anatomist.** Nothing in the corpus establishes that hitters use positional discrepancy. The relevant perceptual literature — the occlusion and anticipation work in `hitter-perception.md` §5 — **was not read, because the cycle that opened this dispute could not open a single source (F-259).** The anatomist is objecting from a literature the biomechanist also has not read, and is right that the burden sits on the side making the claim.
+
+**What would settle it.**
+1. **Recompute the same comparison in perceptual units** — optical expansion rate `θ̇` and time-to-contact error — rather than feet, and check whether the ordering *and* the approximate magnitude survive. **This needs no new data and no source access. It is arithmetic and it should be the first thing the next cycle does.**
+2. **Read queue item 1** (Higuchi et al. 2016, F-255). If occluding the final 150 ms leaves mean contact location unchanged in the pitcher-to-catcher direction but degrades it in the bat's short axis, that is direct experimental evidence that **timing information is fixed early and vertical information is used late** — which would support the biomechanist's ordering from an entirely independent method.
+3. **Read queue item 2** (Frontiers 2025 VR, `10.3389/fpsyg.2025.1514301`) to replace the unverified ~150 ms swing-duration input. Note the sensitivity already computed: over 130–175 ms the movement fraction spans 46% down to 32%, so **a longer swing makes the movement channel worse.** The dispute is about currency, not about the direction of that sensitivity.
+
+**Coach's note.** *"This one I can wait out. Both sides agree the movement he's throwing shows up late and the speed he's throwing shows up early, and that is the whole of what I say to a pitcher. I am not going to say 'six times' to anybody, and I never was."*
 
 ---
 

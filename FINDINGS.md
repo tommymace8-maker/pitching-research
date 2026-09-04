@@ -3129,4 +3129,118 @@ SEE ALSO: F-150, F-153, F-043, F-247, F-249, F-226
 
 ---
 
-*End of registry. 250 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-251.*
+# 14 — THE HITTER'S DECISION CLOCK (added 2026-09-04)
+
+> **Provenance warning for this whole block.** The 2026-09-04 cycle ran with **all outbound HTTPS blocked at the egress gateway (403 on every host)**. Not one source was opened. F-251 to F-254 and F-257 are **arithmetic performed in-cycle** and depend on no source. F-255, F-256 and F-258 are **snippet-only leads at `EVIDENCE: UNVERIFIED`** and must not be promoted without reading the primary source. See F-259.
+
+### F-251 | The hitter's clock, computed with drag — 406 ms at 95 mph, and the no-drag figure understates it by 19 ms
+TOPIC: flight time, drag, hitter perception, decision time, extension, plate speed, arithmetic, geometry, deception
+CLAIM: Release-to-plate flight time at 95 mph with league-mean extension is ~406 ms, not the ~388 ms a no-drag calculation gives, and the ball arrives at 91% of its release speed.
+NUMBERS: One-dimensional quadratic-drag model: m = 0.145 kg, r = 0.0366 m, A = 4.208e-3 m2, Cd = 0.33, rho = 1.196 kg/m3 (sea level, 20 C) -> k = rho*Cd*A/(2m) = 0.005727 m^-1; t(L) = (exp(kL)-1)/(k*v0); x(t) = ln(1+k*v0*t)/k. AT 95 MPH: extension 6.0 ft (travel 54.5 ft) = 410.4 ms; extension 6.5 ft (54.0 ft, MLB four-seam mean per F-153) = 406.4 ms; 7.0 ft (53.5 ft) = 402.5 ms; 7.5 ft (53.0 ft) = 398.5 ms. AT 6.5 ft EXTENSION: 90 mph = 429.0 ms, 95 mph = 406.4 ms, 100 mph = 386.1 ms. PLATE SPEED = 91.0% OF RELEASE SPEED across the whole range (90.9% to 91.2%). NAIVE NO-DRAG at 95 mph / 54.0 ft = 387.6 ms — drag adds 18.8 ms, about 5%. SENSITIVITY: across Cd 0.30-0.36 and rho 1.06-1.196, the 95 mph / 54.0 ft figure spans 402.7-408.2 ms. EXTENSION DELTA: 54.0 -> 53.0 ft = 406.4 -> 398.5 ms, delta 7.88 ms per foot.
+POPULATION: not applicable — physics, population-independent
+EVIDENCE: ESTABLISHED (closed-form integration of a standard drag model; reproduced in-cycle)
+CAUSALITY: MECHANISM
+SOURCE: Computed 2026-09-04, daily/2026-09-04-report.md §2.2; script /tmp/flight.py as run that cycle. No external source required or used.
+COACHING: USE 406 ms AS THE HITTER'S BUDGET AT 95, AND ROUND TO "FOUR-TENTHS OF A SECOND." Anyone quoting a flight time computed from release speed divided by distance is ~19 ms fast, because the ball loses 9% of its speed on the way. THIS REFINES F-250, IT DOES NOT CORRECT IT — F-250's per-foot extension delta of ~7.5 ms (conservative 7.2) and this cycle's 7.88 ms differ only by the assumed Cd, and both are the same number to the precision either can support.
+CONFIDENCE: high — the model is standard and the sensitivity band is +/- 3 ms
+SEE ALSO: F-250, F-153, F-252, F-150
+
+### F-252 | The decision is made with the ball still ~19 feet away — and the first 100 ms of flight covers only 14 feet
+TOPIC: hitter perception, commit instant, swing decision, reaction time, deception, tunnel point, arithmetic
+CLAIM: Taking the swing itself as ~150 ms, the hitter's last usable information arrives ~256 ms after release, when the ball has travelled 34.7 ft and is 19.3 ft from the plate.
+NUMBERS: At 95 mph, 6.5 ft extension, total flight 406.4 ms (F-251). SWING DURATION 130 ms -> commit at 276.4 ms, ball gone 37.3 ft, 16.7 ft remaining. SWING DURATION 150 ms -> commit at 256.4 ms, ball gone 34.7 ft, 19.3 ft remaining. SWING DURATION 175 ms -> commit at 231.4 ms, ball gone 31.4 ft, 22.6 ft remaining. EARLY FLIGHT: in the first 100 ms the ball covers 13.8 ft and is still 40.2 ft from the plate; at 150 ms it has gone 20.5 ft; at 200 ms, 27.2 ft; at 250 ms, 33.8 ft.
+POPULATION: geometry is population-independent; THE 150 ms SWING-DURATION INPUT IS SNIPPET-ONLY AND UNVERIFIED, and its source population is unknown
+EVIDENCE: ESTABLISHED (the geometry) / UNVERIFIED (the swing-duration input)
+CAUSALITY: MECHANISM
+SOURCE: Computed 2026-09-04, daily/2026-09-04-report.md §2.3. The ~150 ms swing duration is a search-summary figure that could NOT be verified at source this cycle — see F-259 and verification queue item 2 (Frontiers in Psychology 2025, 10.3389/fpsyg.2025.1514301).
+COACHING: SAY THE BAND, NOT THE POINT ESTIMATE: "he has decided about a quarter-second after release, with the ball still fifteen to twenty-five feet away." That sentence is true across the entire 130-175 ms plausible range and does not require defending a number that was never verified. THE SENSITIVITY RUNS THE SAFE WAY — a LONGER swing moves the commit EARLIER and makes the movement channel WORSE (F-254), so every conclusion built on this holds a fortiori at the unfavourable end of the band.
+CONFIDENCE: high on the geometry; the swing-duration input is unverified and is the load-bearing assumption of F-254's timing
+SEE ALSO: F-251, F-254, F-163, F-255
+
+### F-253 | The two Baseball Prospectus tunnel-point figures that circulate together describe points 4.5 feet apart
+TOPIC: tunneling, tunnel point, Baseball Prospectus, number drift, citation hygiene, arithmetic, deception, sequencing
+CLAIM: BP's original tunnel point of 23.8 ft from the plate and its revised 150 ms tunnel point are not the same location, and the superseded distance kept circulating after the time was revised.
+NUMBERS: Run through the F-251 clock at 95 mph / 54.0 ft travel (total flight 406.4 ms): BALL 23.8 FT FROM THE PLATE = 222.6 ms after release = 183.9 ms REMAINING (BP glossed 23.8 ft as "~175 ms"; the 9 ms discrepancy is the assumed Cd and release velocity, and is not material). BALL 19.3 FT FROM THE PLATE = 256.7 ms after release = 149.7 ms REMAINING. So BP's revision from ~175 ms to 150 ms moved the tunnel point 4.5 FEET CLOSER TO THE PLATE. Also computed: 15.0 ft remaining = 116.8 ms left; 10.0 ft remaining = 78.2 ms left.
+POPULATION: not applicable — arithmetic against figures already recorded in F-163
+EVIDENCE: ESTABLISHED (as a statement about the arithmetic of two published figures)
+CAUSALITY: MECHANISM
+SOURCE: Computed 2026-09-04, daily/2026-09-04-report.md §2.5, against the two BP tunnel-point definitions already recorded in F-163. NOTE: the BP articles themselves were NOT re-read this cycle (egress blocked); the figures are taken from F-163 as the corpus already records them.
+COACHING: A "24-FOOT TUNNEL WINDOW" DRAWN WHILE CITING THE 150 ms JUSTIFICATION IS DRAWN IN THE WRONG PLACE — the 150 ms point is 19.3 ft, not 23.8 ft. This is small in outcome terms, because F-254 shows the entire tunnel channel is the weak one, and it is registered mainly as a worked example that some checks need no source at all: this one was caught by arithmetic on numbers the corpus already held.
+CONFIDENCE: high on the arithmetic; medium on the provenance of the BP figures, which were not re-read at source this cycle
+SEE ALSO: F-163, F-251, F-252, F-254
+
+### F-254 | Velocity separation is linear in time and movement separation is quadratic — so at the commit instant only ~40% of movement has happened
+TOPIC: deception, velocity separation, changeup, movement, tunneling, commit instant, sequencing, arithmetic, why tunneling fails
+CLAIM: Because positional separation from a velocity difference grows linearly with flight time while separation from a movement difference grows as its square, the movement channel has delivered under half its eventual separation at the moment the hitter must commit, while the velocity channel has delivered nearly all of its own.
+NUMBERS: At the commit instant t = 256.4 ms of a 406.4 ms flight (F-252), t/T = 0.631. MOVEMENT CHANNEL: induced movement is to first order a constant transverse acceleration, so separation scales as t^2 and (t/T)^2 = 39.8% of eventual plate-level separation has appeared. Total plate separation 6 in -> 2.4 in visible at commit; 12 in -> 4.8 in; 18 in -> 7.2 in; 24 in -> 9.6 in. VELOCITY CHANNEL, positional gap between two pitches released identically at different speeds, at the same instant: 95 vs 92 mph = 12.8 in; 95 vs 88 = 29.8 in; 95 vs 85 = 42.6 in; 95 vs 80 = 64.0 in. SENSITIVITY: over swing durations 130-175 ms the movement fraction spans 46% down to 32% — a LONGER swing makes the movement channel WORSE.
+POPULATION: geometry is population-independent
+EVIDENCE: ESTABLISHED (the exponents and the ordering) / the magnitude ratio is UNIT-DEPENDENT AND WITHDRAWN — see COACHING
+CAUSALITY: MECHANISM
+SOURCE: Computed 2026-09-04, daily/2026-09-04-report.md §2.4 and §6. Challenged by the anatomist and partially conceded by the biomechanist the same cycle; the unresolved half is open-disputes.md Dispute 17.
+COACHING: THE DEFENSIBLE SENTENCE IS THE ORDERING, NOT THE RATIO. A draft of this finding said velocity beats movement "by a factor of six." THAT NUMBER IS WITHDRAWN: it compares feet of positional discrepancy, and the visual system reads optical expansion and time-to-contact, not absolute position (Dispute 17). WHAT SURVIVES TRANSLATION INTO ANY UNITS IS THE EXPONENT — velocity separation is linear in t, movement separation is quadratic in t, and the decision falls at t/T ~ 0.63, so the movement channel is BACK-LOADED PAST THE DECISION and the velocity channel is not. WHAT THIS BUYS THE CORPUS: a mechanism for F-159/F-232 (velocity GAP, not absolute changeup velocity, drives whiffs) AND an explanation for F-163 (tunnel metrics correlate r = 0.07 with run value) that does not require the tunnel window to be imaginary. Tunnel metrics score the weaker channel at the point in flight where that channel has delivered least. NOTHING HERE LICENSES "THROW A BIGGER GAP" AS AN INSTRUCTION — the mechanism is MECHANISM, the outcome link is CROSS_SECTIONAL, and no one has manipulated a pitcher's velocity gap and measured whiffs (F-257).
+CONFIDENCE: high on the exponents and the ordering; the ratio is withdrawn; the perceptual mapping is disputed and open
+SEE ALSO: F-159, F-232, F-163, F-164, F-252, F-257, F-249
+
+### F-255 | LEAD, UNVERIFIED — the occlusion result that would independently corroborate F-254, and it was not read
+TOPIC: hitter perception, occlusion, visual information, ball flight, Higuchi, Nagami, timing, vertical adjustment, LEAD, unverified
+CLAIM: A 2016 PLOS ONE occlusion study reportedly found that blinding batters for the final 150 ms of flight did not change mean ball-bat contact location in any direction, and that extra visible time reduced contact variability only in the bat's short axis.
+NUMBERS: REPORTED BY SEARCH SUMMARY ONLY, NOT READ: n = 10 college baseball position players. Three conditions — NO (no occlusion), R+150 (occluded from 150 ms after release), A-150 (occluded from 150 ms before expected arrival at the plate). Reported result: occlusion did NOT affect the MEAN location of ball-bat contact in the bat's long axis, short axis, or pitcher-to-catcher direction; additional visible time from R+150 to A-150 and NO produced a further decrease in standardised variability ONLY in the bat's short axis. NO effect sizes, NO p-values, NO pitch speeds, NO delivery method retrieved. Author affiliations reported as Waseda, Ritsumeikan, Nara Women's and Fukuoka universities.
+POPULATION: n = 10 COLLEGE POSITION PLAYERS — hitters, not pitchers, and not an 85+ sample. This constrains the hitter side only and is a small sample.
+EVIDENCE: UNVERIFIED — SNIPPET-ONLY. Cited existence is plausible (PMID, PMC ID and DOI all appeared consistently across independent search results), but the paper was NOT opened, because all outbound HTTPS was 403-blocked this cycle (F-259).
+CAUSALITY: unknown — the design is reported as an experimental occlusion manipulation, which would make it INTERVENTION-grade on the perceptual question, but THE DESIGN WAS NOT VERIFIED AND MUST NOT BE INFERRED
+SOURCE: Higuchi T, Nagami T, et al. (2016), "Contribution of Visual Information about Ball Trajectory to Baseball Hitting Accuracy," PLOS ONE 11(2):e0148498, PMID 26848742, PMC4743964. NOT READ. A copy is reported to be hosted at baseball.physics.illinois.edu/EyesWideShut.pdf.
+COACHING: SAY NOTHING TO A PITCHER OFF THIS ENTRY YET. It is registered so the next cycle finds it at the top of the queue, not so it can be quoted. WHY IT IS THE PRIORITY: if "occluding the final 150 ms does not change mean contact location in the pitcher-to-catcher direction" survives contact with the actual paper, it says LATE FLIGHT INFORMATION IS USED FOR VERTICAL ADJUSTMENT AND NOT FOR TIMING — which is F-254's conclusion arriving by a completely independent method, from a real experiment rather than from geometry. If it does not survive, F-254 stands on arithmetic alone, which still supports the coaching line but not the mechanism claim. EITHER WAY, READ IT BEFORE USING IT.
+CONFIDENCE: none on the content; moderate that the citation exists
+SEE ALSO: F-254, F-259, F-252, F-171
+
+### F-256 | FOLKLORE with a plausible mechanism — "a slowed arm gives the changeup away" has never been measured
+TOPIC: changeup, arm speed, tell, deception, folklore, velocity gap, coaching, cue
+CLAIM: The universal coaching claim that a changeup produced by decelerating the arm is read earlier than one produced by the grip is mechanistically plausible and, as far as this cycle could determine, has never been tested.
+NUMBERS: NONE. No occlusion study, no discrimination-latency study, and no measurement of any kind was located comparing hitter recognition of a decelerated-arm changeup against a grip-produced changeup at matched release velocity. Absence searched 2026-09-04 by search only; NOT confirmed by reading any source, and the search itself ran degraded (F-259), so treat the absence claim as weaker than F-250's deliberately-searched absence.
+POPULATION: not applicable — no study located
+EVIDENCE: FOLKLORE (widely repeated; plausible mechanism; no located measurement)
+CAUSALITY: MECHANISM (proposed only)
+SOURCE: daily/2026-09-04-report.md §6, anatomist's challenge conceded and the claim downgraded in-cycle. The mechanism rests on the anticipation literature's general finding that experts read pre-release kinematics — itself unverified in this corpus (F-259 queue item 7).
+COACHING: KEEP IT IN THE DRILL, DROP IT FROM THE CLAIMS. It is legitimate to CHECK, at 240 fps, whether a pitcher's foot-contact-to-release interval and apparent arm speed differ between his fastball and his changeup — that is cheap, it is visible on equipment already in the bag, and if the interval is longer on the changeup he has bought his velocity gap with a tell. IT IS NOT LEGITIMATE to tell him this is established, or to attach a magnitude to it. THE CONFIDENCE PROFILE OF THIS CLAIM — universally repeated, never measured, and pointing in the direction everyone already believes — IS THE EXACT PROFILE OF THE SIX CLAIMS CORRECTED ON 2026-08-13 (F-240).
+CONFIDENCE: high that it is unmeasured; moderate that the mechanism is real
+SEE ALSO: F-240, F-254, F-159, F-164
+
+### F-257 | The detection asymmetry — two bullpens settle whether the input moved; no college season settles whether it bought whiffs
+TOPIC: sample size, statistical power, detection, measurement, velocity gap, whiff rate, coaching check, program design
+CLAIM: For a velocity-gap intervention the mechanical check is affordable inside two bullpens and the outcome check is unaffordable inside a college career, and stating both is the only honest way to sell the work.
+NUMBERS: Two-sided alpha = 0.05, 80% power, computed 2026-09-04. DETECTING A CHANGE IN MEAN FB-CH VELOCITY GAP, n per pitch type: delta 1.0 mph at within-pitcher SD 0.8/1.0/1.2 mph -> 10 / 16 / 23 pitches of EACH type; delta 0.5 mph -> 40 / 63 / 90; delta 1.5 mph -> 4 / 7 / 10; delta 2.0 mph -> 3 / 4 / 6. DETECTING A CHANGE IN WHIFF-PER-SWING, n swings per arm per batter-side: 30% -> 33% = 3,760 swings; 30% -> 35% = 1,374 swings; 30% -> 40% = 353 swings.
+POPULATION: not applicable — power arithmetic; the assumed within-pitcher velocity SD of ~1 mph should be measured on the individual arm rather than assumed
+EVIDENCE: ESTABLISHED (standard power calculation)
+CAUSALITY: MECHANISM
+SOURCE: Computed 2026-09-04, daily/2026-09-04-report.md §5 Q4.
+COACHING: TELL THE PITCHER THE ASYMMETRY UP FRONT, BEFORE THE BLOCK STARTS. "Two bullpens will tell us whether the gap moved. Nothing we can collect this season will tell us whether it bought you whiffs." That sentence prevents the two failure modes that follow every training block: reading a good weekend as proof, and reading a bad one as refutation. GENERALISES BEYOND THIS TOPIC — it is the same shape as the ~200 tracked pitches needed to detect a 2-inch command gain (F-186, F-243): RELEASE-SIDE MECHANICAL QUANTITIES ARE CHEAP TO MEASURE BECAUSE THEIR WITHIN-PITCHER SD IS SMALL; PLATE-SIDE OUTCOME RATES ARE EXPENSIVE BECAUSE BINOMIAL NOISE AT n = 40 INNINGS SWAMPS ANY REALISTIC EFFECT. Coach the input on the mechanism; never promise the outcome and then go looking for it in a sample that cannot contain it.
+CONFIDENCE: high
+SEE ALSO: F-186, F-243, F-173, F-254
+
+### F-258 | LEAD, UNVERIFIED — a Bayesian re-analysis reportedly finds little discontinuity in the times-through-the-order penalty
+TOPIC: times through the order, TTOP, third time through, in-game usage, pitchability, sequencing, Brill, Wyner, LEAD, unverified
+CLAIM: A 2022 Bayesian analysis reportedly finds that once batter quality, pitcher quality, handedness and home-field advantage are adjusted for, there is little evidence of a strong discontinuity in pitcher performance between times through the order.
+NUMBERS: REPORTED BY SEARCH SUMMARY ONLY, NOT READ. NO sample size, NO seasons, NO effect size, NO posterior interval retrieved. For contrast, the conventional figure that also surfaced in search and is ALSO unverified: starters' OPS allowed rising .725 -> .753 -> .792 across the first three trips in the 2016 regular season.
+POPULATION: MLB (implied; not verified)
+EVIDENCE: UNVERIFIED — SNIPPET-ONLY. All outbound HTTPS was 403-blocked this cycle (F-259); arxiv.org, degruyterbrill.com and wsb.wharton.upenn.edu were each attempted and each denied.
+CAUSALITY: CROSS_SECTIONAL (observational re-analysis of game data; nothing manipulated)
+SOURCE: Brill R, Wyner A (2022), "A Bayesian analysis of the time through the order penalty in baseball," Journal of Quantitative Analysis in Sports, DOI 10.1515/jqas-2022-0116; preprint arXiv:2210.06724. NOT READ.
+COACHING: NOTHING YET — DO NOT CHANGE A THIRD-TIME-THROUGH DECISION ON THE STRENGTH OF THIS ENTRY. Registered because of what it would mean if it holds: every third-time-through decision a college staff makes is priced off a penalty this paper reportedly finds little discontinuous evidence for. NOTE THE ONE REASON TO PRIORITISE IT: this is the same Brill whose xCTRL work (arXiv:2508.19184) the corpus has already verified clean (INDEX §4), so the author's prior work has survived this corpus's own checking. THAT IS A REASON TO READ IT FIRST, NOT A REASON TO BELIEVE IT UNREAD.
+CONFIDENCE: none on the content; high that the citation exists
+SEE ALSO: F-259, F-168, F-254
+
+### F-259 | METHODOLOGICAL — a research cycle ran with all egress blocked, and wrote arithmetic and a queue instead of findings
+TOPIC: method, verification, egress, environment, degraded run, epistemics, corpus hygiene, verification queue, standing rule
+CLAIM: The 2026-09-04 cycle could open no primary source at all, and therefore deliberately produced no source-verified literature finding, registering leads in quarantine instead.
+NUMBERS: Every outbound HTTPS host returned 403 at the egress gateway. Confirmed two independent ways: WebFetch returned EGRESS_BLOCKED for arxiv.org, wsb.wharton.upenn.edu, degruyterbrill.com, sabr.org, stat.cmu.edu, ncbi.nlm.nih.gov, frontiersin.org and baseball.physics.illinois.edu; and the proxy's own status endpoint logged "connect_rejected — gateway answered 403 to CONNECT (policy denial)" per host. TEN CONTROL HOSTS ALSO DENIED, including all eight domains the standing brief lists as WORKING (nature.com, frontiersin.org, sportrxiv.org, ncbi.nlm.nih.gov, jstage.jst.go.jp, ijspt.scholasticahq.com, journals.sagepub.com, tandfonline.com) plus example.com and en.wikipedia.org. WebSearch was unaffected. VERIFICATION QUEUE CARRIED FORWARD: 7 items, listed in daily/2026-09-04-report.md §4, priority order Higuchi 2016 occlusion (F-255) -> Frontiers 2025 VR swing-timing decomposition (would supply F-252's unverified 150 ms input) -> Brill and Wyner TTOP (F-258) -> Sloan directed-graph sequencing -> arXiv 2606.17345 counterfactual sequencing -> "attack angle above expected" -> JMLD 2018 pitcher-footage anticipation.
+POPULATION: not applicable — methodological
+EVIDENCE: ESTABLISHED (as a record of the run condition)
+CAUSALITY: MECHANISM
+SOURCE: daily/2026-09-04-report.md, run-condition banner and §4.
+COACHING: THE STANDING RULE THIS CYCLE ADDS. A cycle that cannot read papers must not write table rows. The corpus's founding epistemic finding is that six corrections landed in one day, none a fabrication, and ALL SIX IN THE DIRECTION OF MORE CONFIDENCE THAN THE SOURCE SUPPORTED (F-240) — because the corruption happens in the compression from paper to table row to recommendation. A DEGRADED CYCLE IS THAT COMPRESSION WITH THE PAPER REMOVED ENTIRELY, and it is the highest-risk condition this corpus can run in. THE CORRECT OUTPUT OF A BLOCKED CYCLE IS ARITHMETIC (which needs no source), A QUARANTINED QUEUE, AND AN EXPLICIT STATEMENT THAT NOTHING WAS VERIFIED. ONE MORE THING THIS CYCLE PROVES: THE BLOCKLIST IN THE STANDING BRIEF IS STALE — the eight domains it names as working are all denied, so the next cycle must PROBE egress before planning a topic rather than trusting the brief's list.
+CONFIDENCE: high
+SEE ALSO: F-240, F-241, F-242, F-255, F-258
+
+---
+
+*End of registry. 259 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-260.*
