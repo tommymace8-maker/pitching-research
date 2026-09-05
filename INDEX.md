@@ -1,6 +1,10 @@
 # INDEX — Navigation Map for the Pitching Research Corpus
 
-**Compiled 2026-08-17. Updated 2026-09-04.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **259** findings (F-251→F-259 added 2026-09-04; **F-255, F-256 and F-258 are UNVERIFIED leads in quarantine — see §7**).
+**Compiled 2026-08-17. Updated 2026-09-05.** Companion to [`FINDINGS.md`](FINDINGS.md), the flat registry of **266** findings (F-260→F-266 added 2026-09-05, all source-independent arithmetic; F-251→F-259 added 2026-09-04; **F-255, F-256 and F-258 are UNVERIFIED leads in quarantine — see §7**).
+
+> ### ⚠️ EGRESS HAS NOW FAILED TWICE IN A ROW (2026-09-04 and 2026-09-05)
+> **Zero primary sources opened across two consecutive cycles**, 13+ distinct hosts attempted. **The standing brief's WORKING-domain list is decommissioned — all eight domains it names are denied.** `WebSearch` works; `WebFetch` does not.
+> **PROBE EGRESS BEFORE CHOOSING A TOPIC.** If it is down, pick a gap that physics can close (F-266). If this is a *third* blocked cycle, **escalate rather than absorb** — the unread verification queue now stands at **9 items** and is the corpus's largest structural liability.
 Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showcase / D1-committed / draft-followed) -> NCAA D1 -> MiLB -> MLB, chasing 90-95+. Mission is **performance development**, not injury prevention; stress costs are tagged and the work moves on.
 
 **How to use this corpus, in order:**
@@ -22,7 +26,9 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | **`library/biomechanics.md`** | 716 lines / 64 KB | 2026-08-12 | Six phases and timing landmarks; ASMI professional kinematic and kinetic norms; the kinematic sequence; velocity-vs-torque conflicts; measurement technology | "What are the pro norms?" "How long is each phase?" "What raises torque without raising velocity?" "What can I measure with what I own?" |
 | **`library/open-disputes.md`** | 461 lines / 58 KB | 2026-08-13 | Sixteen unresolved arguments among the anatomist, the biomechanist and the coach, each with both sides, the strongest evidence, and what would settle it. Plus the standing methodological disputes | "Is this settled?" "What would I have to run to find out?" "Where do the three specialists actually disagree?" |
 | **`library/hitter-perception.md`** | **NEW 2026-09-04** | 2026-09-04 | **The hitter's decision clock.** Flight time with drag; where the ball is at the commit instant; the linear-vs-quadratic argument that reconciles F-163 with F-159/F-232; the detection asymmetry; a quarantined 7-item verification queue | "How long does he actually have?" "Why does tunneling correlate at 0.07 while velocity gap works?" "What do I tell a pitcher about his changeup, and how would I know it worked?" **⚠️ §1–4 are arithmetic and durable; §5 is unread and quarantined** |
-| **`daily/2026-09-04-report.md`** | **NEW** | 2026-09-04 | Cycle 4 brief. **Ran with all egress blocked** — the run-condition banner is the first thing in it | "What happened on the blocked day, and what is safe to use from it?" |
+| **`library/environment-air-density.md`** | **NEW 2026-09-05** | 2026-09-05 | **Altitude, temperature and humidity as constraints on pitch shape.** Density by venue (Swayze → Air Force Academy); movement scales with density to within 0.1 pp, invariant to Cd and C_L; the altitude asymmetry; the humidity folklore debunked in sign *and* size; the per-pitch-vs-per-sensor detection split | "How much movement does he lose in Denver?" "Does humid air really make it bite?" "Is his February-to-May IVB drop real?" "What do I tell him before an altitude series?" **All computed in-cycle — no source was opened; ratios are claimed, absolute inches are not** |
+| **`daily/2026-09-05-report.md`** | **NEW** | 2026-09-05 | Cycle 5 brief. **Second consecutive fully-blocked cycle** — chose a topic physics could close | "What can a blocked cycle actually produce?" |
+| **`daily/2026-09-04-report.md`** | | 2026-09-04 | Cycle 4 brief. **Ran with all egress blocked** — the run-condition banner is the first thing in it | "What happened on the blocked day, and what is safe to use from it?" |
 | **`library/idea-scouting.md`** | 413 lines / 45 KB | **2026-09-04** | **Three** field sweeps of what the industry is arguing about right now, each item labelled PROMISING / UNPROVEN / DEBUNKED / MARKETING. Content-farm blocklist and hazard classes | "Is this new thing real?" "What is the industry selling this month?" "What did we look for and NOT find?" |
 | **`src/core/biomech/references.ts`** | 830 lines | — | ~30 structured citations with `EvidenceGrade`, `Population`, `Causality`, caveats and dated `corrected` records. Kinematic and kinetic norm bands, the four "free reductions," the velocity-torque conflict table, and the `MARKERS_NOT_LEVERS` list | "What grade and causality does this citation carry in code?" "Which variables must never be rendered as coachable?" |
 | **`daily/2026-08-12-biomechanics.md`** | 74 lines | 2026-08-12 | Day 1 biomechanics brief | Quick orientation only |
@@ -74,6 +80,16 @@ Population scope: **elite throwers, 85 mph floor** — elite HS prospect (showca
 | The detection asymmetry (cheap input check, unaffordable outcome check) | `hitter-perception.md` §4.2 | F-257 |
 | The changeup arm-speed tell | `hitter-perception.md` §4.3 | F-256 |
 | **Quarantined leads — occlusion, TTOP, sequencing** | `hitter-perception.md` §5 | F-255, F-258, F-259 |
+
+### Environment — air density, altitude, temperature, humidity — **added 2026-09-05**
+| Sub-topic | Primary file | Findings |
+|---|---|---|
+| Density by venue; movement ∝ density, invariant to Cd and C_L | `environment-air-density.md` §2.1, §3.1 | F-260 |
+| The altitude asymmetry — 21% of movement for 4 ms | `environment-air-density.md` §3.2 | F-261 |
+| Humidity folklore — wrong in sign, negligible in size | `environment-air-density.md` §2.4, §4.5 | F-262 |
+| Temperature as the in-season variable (≈0.03 in/°F) | `environment-air-density.md` §2.3, §4.6 | F-263 |
+| Invisible per pitch (0.26 SD), detectable in 6–8 | `environment-air-density.md` §3.3 | F-264 |
+| Reynolds-equivalence — F-148's note confirmed | `environment-air-density.md` §5; `open-disputes.md` #18 | F-265, F-148 |
 
 ### Command
 | Sub-topic | Primary file | Findings |
@@ -207,6 +223,7 @@ Full argument, both sides, and what would settle each, in `library/open-disputes
 | 15 | Is spin efficiency trainable, and does the industry price the cost honestly? | OPEN — added 2026-08-13; ~65% fixed over three years, and the one documented mover bought a delivery change |
 | 16 | Does release-angle precision have any coachable channel? | OPEN — added 2026-08-13; true, geometric, and possibly inert as an instruction |
 | 17 | Is deception priced in positional separation at the commit instant, or must it be priced in optical expansion? | NARROWED — added 2026-09-04; the "factor of six" ratio was **withdrawn** the same cycle, the linear-vs-quadratic **ordering** was defended |
+| 18 | Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches? | OPEN — added 2026-09-05; biomechanist conceded the model has no SSW term. **Cleanest for the pitches it matters least for**; settleable from existing Hawk-Eye data |
 
 **Standing methodological disputes** (not attributable to one agent): torque values are not comparable across labs; lab velocity is not game velocity so all published kinetics are probably a floor; 60% of normalized elbow torque variance is unexplained by kinematics; every professional norms table is survivorship-selected; verifying a citation is not verifying a claim; and "one experiment, many papers" (the Buffalo stride cohort appears across at least seven publications).
 
@@ -271,6 +288,8 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **No empirical test of within-outing release-speed SD against vertical miss** — the corpus's own cheapest high-value study, computable in an afternoon (F-173).
 - **No verifiable quantitative HAA-to-whiff study** (F-152).
 - **The dose-response of high-intent throwing on net collagen balance in the UCL specifically** — the 36-72 h window comes from patellar tendon and Achilles work in non-throwers (F-133).
+- **No published within-pitcher pitch-to-pitch SD of induced vertical break for an 85+ arm** — added 2026-09-05. The corpus does not hold this number, which is why F-264's detection table is bracketed across SD = 1.0/1.5/2.0 in rather than exact. **Computable from any program's own TrackMan in an afternoon**, and a prerequisite for reading any movement change anywhere (F-264).
+- **No test of whether seam-shifted-wake movement scales with air density or non-monotonically with Reynolds number** — added 2026-09-05. Settleable from existing Hawk-Eye data by comparing one pitcher's sinker/sweeper movement at a sea-level and a high-altitude park against the density ratio. No new instrumentation required (Dispute #18, F-260).
 
 ### Topics the corpus has not researched at all
 - **Pitchability, sequencing and in-game usage.** The README names it as a research priority; nothing in the corpus covers pitch sequencing decisions, count leverage, times-through-the-order, or attacking specific hitters. Stuff models explicitly do not price sequencing (F-168).
@@ -282,13 +301,14 @@ Named in `daily/2026-08-13-coach.md` §9b and registered as F-242. **Do not trea
 - **Nutrition, hydration and supplementation** beyond a single protein/fueling entry (F-140).
 - **Female or softball populations.**
 - **Non-fastball workload accounting** — whether a slider-heavy outing loads differently from a fastball-heavy one at equal pitch count.
-- **Environmental effects** beyond the Reynolds-number note (altitude, temperature, humidity, ball construction year to year).
+- ~~**Environmental effects** beyond the Reynolds-number note (altitude, temperature, humidity, ball construction year to year).~~ **THREE OF FOUR CLOSED 2026-09-05** — `library/environment-air-density.md`, F-260→F-265. Altitude, temperature and humidity are now covered and are **source-independent arithmetic**, so unlike most of the corpus they carry no citation risk. **Two limits: (a) no empirical/Statcast validation was possible, so these are model predictions with one unread snippet-level corroboration; (b) the model has NO seam-shifted-wake term, so the clean density ratio is established for four-seams and 12-6 curveballs and is of unknown quality for sinkers and sweepers (Dispute #18).** **`ball construction year to year` remains entirely uncovered.**
 - **The economics of development** — beyond one WAR/FV conversion, nothing on what a velocity or command gain is actually worth to an athlete's contract.
 - **Sample-level data.** The corpus has no primary dataset of its own; every number is from published literature, industry grey literature, or Statcast queries.
 
 ### Structural gaps in the corpus's own method
-- **Four research days exist** (2026-08-12, 2026-08-13, 2026-08-20 verification pass, 2026-09-04). Most of the corpus is still only two cycles deep.
-- **⚠️ ADDED 2026-09-04 — a whole cycle ran with no source access, and the environment brief's egress list is stale.** All outbound HTTPS returned 403 at the gateway, including every one of the eight domains the standing brief names as WORKING. **The next cycle must PROBE egress before choosing a topic**, rather than planning around the brief's list — topic feasibility now depends on which journals are reachable that day. Full record: F-259.
+- **Five research days exist** (2026-08-12, 2026-08-13, 2026-08-20 verification pass, 2026-09-04, 2026-09-05). Most of the corpus is still only two cycles deep.
+- **⚠️ ADDED 2026-09-04, ESCALATED 2026-09-05 — TWO CONSECUTIVE CYCLES RAN WITH NO SOURCE ACCESS.** All outbound HTTPS returns 403 at the gateway, including every one of the eight domains the standing brief names as WORKING. This is now a **persistent condition, not an outage**, and the brief's domain list is **decommissioned** rather than merely stale. **Probe egress before choosing a topic**; if it is down, **pick a gap that physics can close** — 2026-09-05 did exactly that and returned seven findings that need no source. **A third consecutive blocked cycle should escalate rather than absorb.** Full record: F-259, F-266.
+- **⚠️ The unread verification queue is now 9 items and is the corpus's largest structural liability.** F-259's 7 items are entirely untouched after two cycles, plus 2 added 2026-09-05 (Nathan's Denver page; Purple Row's altitude series). **A program that can compute but never read will slowly fill with internally-consistent unvalidated arithmetic** — the 2026-09-05 findings are honest but they are all model, and nothing has checked a model against data in two cycles.
 - **Verification is incomplete and known to be incomplete** (F-242).
 - **The daily briefs are not maintained** and contain superseded claims — **now annotated in place with dated correction notices (2026-08-17), but not rewritten.** Read them as history, not reference (F-241).
 - **Nothing in the corpus has been tested against a real athlete.** Every protocol is inference from published data.

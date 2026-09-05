@@ -30,6 +30,7 @@
 | 15 | **Is spin efficiency trainable, and does the industry price the cost honestly?** | Coach vs the pitch-design industry | 🔴 **OPEN — added 2026-08-13** |
 | 16 | **Does release-angle precision have any coachable channel?** | Coach vs stuff/command report | 🔴 **OPEN — added 2026-08-13** |
 | 17 | **Is positional separation at the commit instant the right currency for deception, or must it be priced in optical expansion?** | Anatomy vs Biomech | 🟡 **NARROWED — added 2026-09-04, partially conceded same cycle** |
+| 18 | **Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-05; hole conceded by the biomechanist the same cycle** |
 
 ---
 
@@ -473,6 +474,28 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 3. **Read queue item 2** (Frontiers 2025 VR, `10.3389/fpsyg.2025.1514301`) to replace the unverified ~150 ms swing-duration input. Note the sensitivity already computed: over 130–175 ms the movement fraction spans 46% down to 32%, so **a longer swing makes the movement channel worse.** The dispute is about currency, not about the direction of that sensitivity.
 
 **Coach's note.** *"This one I can wait out. Both sides agree the movement he's throwing shows up late and the speed he's throwing shows up early, and that is the whole of what I say to a pitcher. I am not going to say 'six times' to anybody, and I never was."*
+
+---
+
+## 18. 🔴 Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?
+
+**Added 2026-09-05. The hole was conceded by the biomechanist the same cycle, but the answer is genuinely unknown, so it opens rather than closes.**
+
+**What is not in dispute.** F-260 establishes that induced vertical break scales with air density to within 0.1 percentage point, invariant to both Cd (0.30–0.36) and the C_L calibration (12–20 in of sea-level IVB). For a **clean Magnus pitch** — a four-seam, a 12-6 curveball — the density ratio can be used directly, with no simulation, as a field tool.
+
+**The coach's challenge.** *"You say the ratio is robust across every parameter. Is it robust to the thing I actually care about — that my guy's slider is not a pure Magnus pitch? F-147/F-148 say seam-shifted wake is a real and separate movement source. Does SSW scale with density the same way?"*
+
+**The biomechanist's concession.** **No, and it should have been stated unprompted.** The model has **no SSW term at all.** SSW is a **separation-point** phenomenon: it depends on where the boundary layer detaches, which is governed by **Reynolds number**, not by density alone. Re = ρvD/μ falls with density — so at 5,000 ft a pitch sits at a *different point on the separation curve* than it does at sea level, and **that relationship is non-linear and can be non-monotonic near the drag crisis.** The clean ratio therefore rests on an assumption that a large fraction of a modern arsenal violates.
+
+**Why this is not a small caveat.** The pitches most likely to live on seam effects — sinkers, sweepers, the whole two-seam family — are exactly the pitches a college staff most often builds an arsenal around, and exactly the ones a pitcher is most likely to notice "not working" on a road trip. **The finding is cleanest for the pitches the question matters least for.**
+
+**Strongest evidence for the ratio extending.** SSW deflection is still a fluid-dynamic force on a ball moving through air, and to zeroth order every such force scales with ρ. The Re change across the full college altitude range is about 21% — large, but not obviously enough to cross a separation regime.
+
+**Strongest evidence against.** F-148/F-265: the corpus already holds that seam effects scale with Re and that **lab results must be Re-matched before being applied.** That note exists precisely because the field learned that Re-mismatched seam results do not transfer. Applying a *density* ratio to a *Reynolds*-governed phenomenon is the same class of error one level up.
+
+**What would settle it.** Either (a) a wind-tunnel or PIV sweep of a seam-oriented ball across the Re range corresponding to 0–6,600 ft at constant speed — the Utah State group's existing apparatus could do it; or (b) far cheaper and available to any program with Hawk-Eye access: **pull the same pitcher's sinker/sweeper movement at a sea-level park and a high-altitude park and compare the observed ratio against the density ratio.** If sinkers track the density ratio like four-seams do, the question closes. **This requires no new instrumentation — only data nobody has looked at this way.**
+
+**Coach's note.** *"Until somebody checks this, I say the ratio for the fastball and the curveball and I say 'less' for the sinker and the sweeper. 'Less' is honest. A number I can't support isn't."*
 
 ---
 
