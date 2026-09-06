@@ -30,7 +30,8 @@
 | 15 | **Is spin efficiency trainable, and does the industry price the cost honestly?** | Coach vs the pitch-design industry | 🔴 **OPEN — added 2026-08-13** |
 | 16 | **Does release-angle precision have any coachable channel?** | Coach vs stuff/command report | 🔴 **OPEN — added 2026-08-13** |
 | 17 | **Is positional separation at the commit instant the right currency for deception, or must it be priced in optical expansion?** | Anatomy vs Biomech | 🟡 **NARROWED — added 2026-09-04, partially conceded same cycle** |
-| 18 | **Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-05; hole conceded by the biomechanist the same cycle** |
+| 18 | **Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-05; hole conceded by the biomechanist the same cycle. REVISITED 2026-09-06: unmoved, and BLOCKED ON EGRESS rather than on reasoning** |
+| 19 | **Is the "more-used pitch should look better" wedge a finding or a model wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-06; the biomechanist conceded the table and kept the critique** |
 
 ---
 
@@ -496,6 +497,32 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 **What would settle it.** Either (a) a wind-tunnel or PIV sweep of a seam-oriented ball across the Re range corresponding to 0–6,600 ft at constant speed — the Utah State group's existing apparatus could do it; or (b) far cheaper and available to any program with Hawk-Eye access: **pull the same pitcher's sinker/sweeper movement at a sea-level park and a high-altitude park and compare the observed ratio against the density ratio.** If sinkers track the density ratio like four-seams do, the question closes. **This requires no new instrumentation — only data nobody has looked at this way.**
 
 **Coach's note.** *"Until somebody checks this, I say the ratio for the fastball and the curveball and I say 'less' for the sinker and the sweeper. 'Less' is honest. A number I can't support isn't."*
+
+**REVISITED 2026-09-06 — NOT MOVED, AND IT COULD NOT HAVE BEEN.** Both settlement paths require data this cycle could not reach: a wind-tunnel/PIV Re sweep, or Hawk-Eye movement for one pitcher at a sea-level and a high-altitude park. The 2026-09-06 cycle ran with **all outbound HTTPS refused at the socket** (F-267, third consecutive). **This dispute is therefore blocked on egress, not on reasoning** — a distinction worth recording, because it means no amount of additional in-cycle thinking will close it. The coach's operating rule stands verbatim.
+
+---
+
+## 19. 🟡 Is the "more-used pitch should look better" wedge a finding, or a model wearing a finding's clothes?
+
+**Added 2026-09-06. Partially conceded by the biomechanist the same cycle, which is why it opens NARROWED rather than OPEN.**
+
+**What is not in dispute.** F-268's optimality condition — that an interior optimum equalises $v_i + p_i v_i'$, the **marginal** run value, and not $v_i$, the average — is a constrained optimisation, not an empirical claim. Both sides accept it. Both sides also accept F-270's noise arithmetic.
+
+**The coach's challenge.** *"You built a four-column table (F-269) telling me how far apart two pitches' run values 'should' sit at a true optimum. That table rests on $D$, a parameter nobody has ever measured, using a linear form you picked because it was easy, assuming equal decay slopes across pitches when a sweeper and a four-seam obviously don't decay the same way. Then you turned around and used it to tell ESPN they're wrong. That is a model wearing a finding's clothes, and this program has a whole file about what happens next."*
+
+**The biomechanist's partial concession.** *"Conceded on the table, and F-269 is marked accordingly — the cell values are a model output and must never be quoted as norms. **Not conceded on the critique of the Nash Score, because that critique does not need the table.** Two objections stand independently:*
+- *(a) the optimality condition equalises $v_i + p_i v_i'$ and the Nash Score equalises $v_i$. Those are different objects for any $v_i' \neq 0$, and $v_i' \neq 0$ is guaranteed by the bare fact that pitchers throw mixes at all — if the slope were zero the optimum would be a corner and everyone would be a one-pitch pitcher.*
+- *(b) the 0.2 R/100 threshold is four to nine times smaller than the standard error of its own inputs. **That follows from F-270 and a square root. It involves no model of anticipation whatsoever, and it is fatal on its own.**"*
+
+**Where it stands.** **The coach accepts (b) unreservedly and holds (a) as "probably right, not yet demonstrated."** His stated reason: *"(b) I can check myself with a calculator. (a) needs me to believe your $v_i'$ story, and I do believe it, but believing it isn't the same as it being measured. Come back when somebody has a number for $D$."*
+
+**Strongest evidence for the wedge being real.** The corner-solution argument is hard to escape: with $v_i' = 0$ the objective is linear and the optimum is 100% of one pitch. Nobody does that. Something is penalising over-use, and whatever it is has a positive slope.
+
+**Strongest evidence against treating it as a finding.** No published estimate of $D$ exists anywhere this corpus can find (F-276). The equal-slopes assumption is almost certainly false. And F-240 is the standing reminder that **every one of this corpus's six corrections ran in the direction of more confidence than the source supported** — a derivation is not immune to that, it just moves the over-reach from the citation to the assumption.
+
+**What would settle it.** The panel regression in `library/pitch-mix-sequencing.md` §6: within pitcher, within season, regress each pitch type's **whiff-per-swing** (not run value — F-270 is the reason) on its trailing usage share, fixed effects for pitcher × pitch type, natural variation from usage drift across starts and times-through-the-order. Pooled across ~80 pitcher-seasons the slope is well-determined. **No new instrumentation. Statcast holds the data. This is probably the single cheapest unanswered question in the corpus right now.**
+
+**Coach's note.** *"I'll say the direction to a staff meeting and I won't say the number to anybody. 'The pitch he throws more should probably look a little better, so don't panic when it does' — that I'll say. 'It should be 0.8 runs per hundred better' — I won't, because we made that up."*
 
 ---
 
