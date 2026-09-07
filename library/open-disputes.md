@@ -32,6 +32,7 @@
 | 17 | **Is positional separation at the commit instant the right currency for deception, or must it be priced in optical expansion?** | Anatomy vs Biomech | 🟡 **NARROWED — added 2026-09-04, partially conceded same cycle** |
 | 18 | **Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-05; hole conceded by the biomechanist the same cycle. REVISITED 2026-09-06: unmoved, and BLOCKED ON EGRESS rather than on reasoning** |
 | 19 | **Is the "more-used pitch should look better" wedge a finding or a model wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-06; the biomechanist conceded the table and kept the critique** |
+| 20 | **Does a MANUFACTURED count train the real count — and is the strike probability $q$ a property of the count or a move in a game?** | Biomech vs Coach; Anatomy vs Biomech | 🔴 **OPEN — added 2026-09-07. Two separate objections to the same model, one conceded by the coach in full** |
 
 ---
 
@@ -523,6 +524,37 @@ There is **no cue, no drill, no feedback channel, and no device in a college pro
 **What would settle it.** The panel regression in `library/pitch-mix-sequencing.md` §6: within pitcher, within season, regress each pitch type's **whiff-per-swing** (not run value — F-270 is the reason) on its trailing usage share, fixed effects for pitcher × pitch type, natural variation from usage drift across starts and times-through-the-order. Pooled across ~80 pitcher-seasons the slope is well-determined. **No new instrumentation. Statcast holds the data. This is probably the single cheapest unanswered question in the corpus right now.**
 
 **Coach's note.** *"I'll say the direction to a staff meeting and I won't say the number to anybody. 'The pitch he throws more should probably look a little better, so don't panic when it does' — that I'll say. 'It should be 0.8 runs per hundred better' — I won't, because we made that up."*
+
+---
+
+---
+
+## 20. 🔴 Does a MANUFACTURED count train the real count — and is $q$ a property of the count or a move in a game? — **added 2026-09-07**
+
+Two distinct objections landed on the count-leverage model (F-278 → F-282) the day it was built. They are filed together because they are the two live limits on the same piece of work, but **they are not the same argument and they have different prospects.**
+
+### 20a — the TRANSFER objection (Biomechanist → Coach). **The coach conceded in full.**
+
+**The claim under attack:** F-282's only executable recommendation — that because a D1 starter throws ~43 full counts a season and detecting a +10-point 3-2 gain in game data would take ≈17 seasons, the count must be **manufactured** in the bullpen to be trained and measured at all.
+
+**The biomechanist's objection.** A manufactured 3-2 is not a 3-2. There is no runner, no crowd, no consequence — and the decisive difference, **the hitter knows it is coming too.** A block of 25 announced full counts may train a bullpen skill that never appears in a game. And this corpus has a hole precisely here: **F-197 — there is no bullpen-to-game command transfer study in baseball, anywhere.** The recommendation therefore rests on an assumption the corpus has already flagged as unsupported.
+
+**The coach's position, conceding the objection and keeping the recommendation.** The objection is correct and he has no counter-evidence. What he has is the alternative: **17 seasons.** An untransferred practice gain is still better information than no information, and the block is the only design a college program can actually execute. He accepts that **the recommendation is contingent on an unproven transfer assumption and must be stated that way to anyone who receives it.**
+
+**What would settle it.** The study named at F-197 and never run: manufactured-count bullpen performance against subsequent same-count game performance, within-pitcher, across a season. It needs no new instrumentation and **it is now the corpus's most load-bearing unanswered applied question**, because today's single actionable output depends on the answer.
+
+### 20b — the EQUILIBRIUM objection (Anatomist → Biomechanist). **Partially defended; the stronger version is untested.**
+
+**The claim under attack:** that the relative-leverage structure of the count follows from a single per-pitch strike probability $q$ (F-278).
+
+**The anatomist's objection.** $q$ is not a property of a count. It is a **choice**, made against a hitter who is choosing simultaneously. A pitcher throws ~78% strikes at 3-0 because he decides to, knowing the hitter is taking. Modelling that as a coin flip models an **equilibrium outcome of a two-player game as an exogenous constant.**
+
+**The biomechanist's defence, and its limit.** The objection is correct in kind and was priced in numerically before it was raised: §3.2(a) re-solves the chain with a full count-specific $q$ vector (nibbling at .48 in 0-2, filling up at .78 in 3-0) and **no count moves more than two places**; 3-2 stays top, 0-2 stays bottom, the 3-2/0-2 ratio falls 18.2× → 11.7×. **But the version tested is weaker than the version raised.** A genuine game-theoretic solution, with a hitter swing-decision model responding to the pitcher's policy, could produce a $q$ vector well outside the one assumed — and nothing in this cycle bounds how far outside.
+
+**What would settle it.** Solving the count tree as a two-player game rather than a Markov chain, with an empirically fitted hitter swing model. Statcast holds the data; nothing in the corpus has attempted it. Short of that, **the empirical count-frequency distribution alone** would test the model's implied one directly and is a single query.
+
+### Where this leaves the model
+The coach's third challenge — that a quantity spanning **4.9× to 18.2×** across defensible specifications **is a direction, not a table row** — was **conceded in full by the biomechanist** and is now written into F-278 and `count-leverage.md` §2 as a standing instruction: **say the extremes, never the middle cells.** Dispute #20 covers what remains: whether the practice design transfers, and whether the one free parameter is a parameter at all.
 
 ---
 

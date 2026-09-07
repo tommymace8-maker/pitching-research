@@ -3457,4 +3457,116 @@ SEE ALSO: F-268, F-269, F-272, F-273, F-171, F-186, F-256, F-198
 
 ---
 
-*End of registry. 276 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-277.*
+### F-277 | FOURTH consecutive fully egress-blocked cycle — the gateway policy denial is confirmed, not intermittent
+TOPIC: run conditions, egress, network policy, verification backlog, program method, escalation
+CLAIM: The 2026-09-07 cycle opened zero primary sources. WebFetch returned EGRESS_BLOCKED on every host tried; raw curl returned HTTP 000 with the agent proxy logging "gateway answered 403 to CONNECT (policy denial or upstream failure)" for every host INCLUDING en.wikipedia.org as a control. This is the fourth consecutive cycle with no source access.
+NUMBERS: Hosts denied this cycle: en.wikipedia.org, www.ncbi.nlm.nih.gov, www.frontiersin.org, sportrxiv.org, www.nature.com, arxiv.org. Proxy self-report: enabled true, selective false, six logged connect_rejected entries, zero relay failures of any other kind. Consecutive blocked cycles: 4 (2026-09-04, -05, -06, -07). Unread verification queue: now 15 items (12 carried + 3 added this cycle).
+POPULATION: not applicable — infrastructure
+EVIDENCE: ESTABLISHED — directly observed, four times, with a control host
+CAUSALITY: not applicable
+SOURCE: This cycle's own probe, daily/2026-09-07-report.md §0. Continues F-259, F-266, F-267.
+COACHING: NOT A COACHING FINDING — a program finding, and it is now the single largest threat to the corpus's validity. FOUR CONSECUTIVE CYCLES HAVE PRODUCED ONLY ARITHMETIC. The corpus is accumulating internally-consistent, externally-unvalidated derivation at a rate of roughly eight findings per cycle while validating none of it. The diagnosis has been stable for two cycles and is not a bug to work around: an empty network allowlist in the remote execution environment REQUIRES A HUMAN TO CHANGE. The standing brief's "WORKING domains" list has now been wrong four times and should be DELETED from the prompt, not amended.
+CONFIDENCE: certain on the observation; the fix is outside this program's control
+SEE ALSO: F-259, F-266, F-267, F-242, F-241
+
+---
+
+### F-278 | The relative leverage of every ball-strike count is determined by ONE parameter — the walk and strikeout run values cancel exactly
+TOPIC: count leverage, ball-strike count, Markov chain, run value, command, derivation, negative binomial
+CLAIM: Modelling the plate appearance as a ball/strike race, the leverage of a pitch in count (b,s) — the plate-appearance value swing between the ball outcome and the strike outcome — is L(b,s) = [u(b+1,s) - u(b,s+1)](W-K), where u is the probability of walking before striking out. In the RATIO L(b,s)/L(0-0) the factor (W-K) cancels completely, so the entire relative-leverage structure of the count follows from the per-pitch strike probability q and NOTHING ELSE. No run-expectancy table and no citation is required.
+NUMBERS: u(b,s) = SUM_{j=0}^{S-1} C(B-1+j, j)(1-q)^B q^j with B = 4-b, S = 3-s. Relative leverage at q=.62 (q=.55 / q=.70 in brackets): 3-2 = 4.74 (3.63/7.56); 3-1 = 2.94 (2.00/5.29); 2-1 = 2.23 (1.80/3.17); 2-0 = 2.08 (1.48/3.33); 3-0 = 1.82 (1.10/3.70); 2-2 = 1.80 (1.63/2.27); 1-0 = 1.58 (1.33/2.00); 1-1 = 1.27 (1.21/1.43); 0-0 = 1.00; 1-2 = 0.68 (0.73/0.68); 0-1 = 0.65 (0.73/0.57); 0-2 = 0.26 (0.33/0.20). ROBUSTNESS, TESTED THREE WAYS: (a) count-varying q (nibble ahead .48 at 0-2, fill up behind .78 at 3-0) — order changes but NO COUNT MOVES MORE THAN 2 PLACES, 3-2/0-2 ratio falls 18.2x -> 11.7x; (b) adding balls in play, BIP rate swept .10-.24 and BIP value swept -0.10 to +0.10 — 3-2 and 3-1 top two in EVERY specification, 0-2 last in EVERY specification, middle reshuffles freely, 3-2/0-2 ratio spans 4.9x-18.2x; (c) 2-strike fouls modelled as self-loops — lengthen 2-strike counts, do not change L.
+POPULATION: not applicable — closed-form arithmetic, no sample
+EVIDENCE: ESTABLISHED as mathematics; the parameter q is an assumption, not a measurement
+CAUSALITY: MECHANISM
+SOURCE: Derived 2026-09-07, library/count-leverage.md §1-§2, daily/2026-09-07-report.md. No source was opened — FOURTH consecutive blocked cycle (F-277).
+COACHING: SAY THE EXTREMES, NEVER THE MIDDLE CELLS. Robust across every specification tried: 3-2 is the highest-leverage count, 0-2 the lowest, and the gap between them is AN ORDER OF MAGNITUDE, NOT A NUMBER — quote it as 5-18x or not at all. NOT robust and must not be quoted: any individual cell value, and the rank order through the middle of the table. This is the F-269 discipline applied by the author to his own model on the day he built it.
+CONFIDENCE: high on the identity and on the extremes; deliberately low on every middle cell
+SEE ALSO: F-279, F-280, F-281, F-282, F-269, F-273, F-171
+
+---
+
+### F-279 | Per-pitch leverage peaks at 3-2, but TOTAL leverage is dominated by 0-0 — and the first pass of this very model got it backwards
+TOPIC: count leverage, first pitch, pitch share, aggregation, self-correction, model error
+CLAIM: The count with the most leverage per pitch (3-2) and the count carrying the largest share of a pitcher's total leverage (0-0) are different counts, because 0-0 occurs once per plate appearance and 3-2 occurs roughly once every eight or nine. A first pass that omitted balls in play produced the opposite headline and was wrong.
+NUMBERS: With balls in play at 17% per pitch (3.47 pitches/PA): 0-0 = 28.8% of pitches and 23.7% of total leverage; 3-2 = 3.1% of pitches and 11.9% of leverage; 2-strike counts 27.8%/27.8%; 3-ball counts 5.8%/17.8%. THE CAUGHT ERROR: the ball/strike-only lattice cannot end a PA early, so it produced 4.92 pitches/PA against a real-world ~3.9 and inflated 3-2 to 20.2% of leverage on 5.8% of pitches. The two runs BRACKET the truth (4.92 too long, 3.47 slightly short); the ordering conclusion holds in the middle.
+POPULATION: not applicable — derivation; the 1,400-pitch season is a D1 starter convention, not a measurement
+EVIDENCE: ESTABLISHED as arithmetic
+CAUSALITY: MECHANISM
+SOURCE: Derived 2026-09-07, library/count-leverage.md §3. Self-caught in-cycle; both the wrong and the corrected version are recorded on purpose.
+COACHING: A coach optimising for total runs should care about the FIRST PITCH more than the full count, and the full count more than any other single count. The deep-count story is per-pitch true and aggregate misleading, and this is exactly the reasoning error the corpus keeps catching in other people's work — recorded here because it happened inside this program, in the first hour of building the model.
+CONFIDENCE: high; the bracketing of pitches-per-PA is what makes it safe
+SEE ALSO: F-278, F-280, F-281, F-240
+
+---
+
+### F-280 | 0-2 is the lowest-leverage count in baseball — the waste-pitch argument is a real argument about a fifth of a run
+TOPIC: count leverage, 0-2, waste pitch, put-away pitch, pitch selection, effect size
+CLAIM: At 0-2 both outcomes are cheap — a strike ends the plate appearance in the pitcher's favour, a ball moves him to 1-2, which is still a good count — so the ball-versus-strike swing is smaller there than in any other count. The perennial "waste it or bury it" argument is therefore an argument over a very small quantity.
+NUMBERS: lambda(0-2) = 0.26 at q=.62 (0.20-0.52 across every specification tested, and LAST in every one). 0-2 is 9.7% of pitches and 2.1% of total leverage. A +5 strike-rate-point gain confined to 0-2 is worth ~0.22 runs over a 1,400-pitch season, against ~1.24 runs for the same gain confined to 3-2 (~43 pitches) and ~10.4 runs for the same gain applied everywhere. ONE UNVERIFIED EMPIRICAL INPUT: (W-K), the walk-minus-strikeout run gap, reconstructed from memory and bracketed 0.55-0.62 runs; every ABSOLUTE run figure scales linearly with it, no RATIO depends on it.
+POPULATION: not applicable — derivation
+EVIDENCE: EMERGING — the ratio arithmetic is established, the absolute runs carry one unverified input
+CAUSALITY: MECHANISM
+SOURCE: Derived 2026-09-07, library/count-leverage.md §3-§4.
+COACHING: STOP SPENDING STAFF MEETING TIME ON 0-2. Whatever he does at 0-2, the season-long consequence is a fraction of a run. The counts worth arguing about are 0-0 (because there are so many) and 3-2 (because each one is worth ~4.7x a first pitch). CAUTION: this is a statement about the BALL-STRIKE outcome only. It does NOT price contact quality, and an 0-2 pitch left over the middle is a different event from an 0-2 ball — the model collapses balls in play into a single count-independent value and that is its weakest joint.
+CONFIDENCE: high on the ordering, moderate on the absolute runs
+SEE ALSO: F-278, F-279, F-281
+
+---
+
+### F-281 | "Getting ahead" pays at the transition, not in the counts you then occupy
+TOPIC: count leverage, first-pitch strike, pitcher-ahead counts, coaching orthodoxy, aggregation
+CLAIM: Pitcher-ahead counts collectively carry far less leverage than their share of pitches, because the value of being ahead is banked at the instant the count changes, not spent in the count that results. Nothing here argues against getting ahead; it argues against the idea that being ahead is where the pitching work happens.
+NUMBERS: Pitcher-ahead counts (0-1, 0-2, 1-2) = 33.8% of pitches, 15.2% of total leverage. Their lambdas are the three lowest in the table: 0-1 = 0.65, 1-2 = 0.68, 0-2 = 0.26. By contrast lambda(0-0) = 1.00 on 28.8% of pitches — the first pitch is high-leverage PRECISELY BECAUSE it is the pitch that decides whether he is ahead.
+POPULATION: not applicable — derivation
+EVIDENCE: ESTABLISHED as arithmetic given the model
+CAUSALITY: MECHANISM
+SOURCE: Derived 2026-09-07, library/count-leverage.md §3.
+COACHING: The orthodoxy "get ahead" survives this analysis intact and arguably strengthened — the first pitch is where a third of the leverage sits. What does NOT survive is the follow-on habit of treating ahead-counts as the high-stakes moments of an at-bat. They are the cheapest pitches he throws. WHAT TO SAY: "The first pitch is the one that matters. Once you're ahead, the next one is nearly free — so stop nibbling like it's a crisis."
+CONFIDENCE: high on the structure; the specific percentages inherit the model's BIP assumption
+SEE ALSO: F-278, F-279, F-280
+
+---
+
+### F-282 | A count-specific training effect is not observable in one athlete's competition data — ever
+TOPIC: detection, statistical power, count leverage, bullpen design, measurement, training validation
+CLAIM: Because a single count supplies too few events per season, no count-targeted intervention can be validated in an individual pitcher's game data. The count must be manufactured in practice to be measured at all.
+NUMBERS: Two-proportion test, alpha .05, 80% power, n per group per arm = 15.70 * pbar(1-pbar)/delta^2. At pbar = .62 (3-2 strike rate): +3.0 pts needs 4,110 per group; +5.0 pts 1,480; +7.5 pts 658; +10.0 pts 370; +15.0 pts 164. A D1 starter throws ~43 full-count pitches in a 1,400-pitch season, so detecting a +10-point 3-2 gain in game data would take approximately 17 SEASONS. THE AFFORDABLE ALTERNATIVE: 25 manufactured full counts per bullpen x 3 bullpens/week x 12 weeks = 900 pitches; split into two 450-pitch halves this detects delta ~ 9 points.
+POPULATION: not applicable — power calculation; the ~43 full counts/season figure follows from the derived count distribution, not from an observed one
+EVIDENCE: ESTABLISHED — standard power arithmetic
+CAUSALITY: not applicable
+SOURCE: Derived 2026-09-07, library/count-leverage.md §5.
+COACHING: THE MOST USABLE RESULT OF THE CYCLE, and it is a measurement instruction, not a mechanics one. If you want to work a count, you must MANUFACTURE it: start the hitter at 3-2 (or call it that way to the catcher) and throw a block of them, so the reps and the measurement arrive together. THE CHECK IS STRIKE RATE IN THE MANUFACTURED BLOCK, NEVER RUN VALUE, and never in-game 3-2 strike rate — he will not throw enough of those in his career. Same structure as F-273 (mix) and F-257 (deception): the thing you want to change is real, and the athlete cannot supply enough events to see it.
+CONFIDENCE: high
+SEE ALSO: F-273, F-257, F-186, F-243, F-276, F-278
+
+---
+
+### F-283 | The ABS challenge is a leverage-allocation problem, and the count term dominates it — FIELD ITEM, EMPIRICS SNIPPET-ONLY
+TOPIC: ABS, automated ball-strike, challenge system, count leverage, in-game decision, 2026 rules
+CLAIM: Under a two-challenge-per-game ABS system, the expected value of spending a challenge in count (b,s) is P(overturn) x L(b,s) minus the option value of holding it. Because L varies 5-18x across counts while overturn probability varies far less, THE COUNT TERM DOMINATES THE CHALLENGE DECISION.
+NUMBERS: DERIVED, SAFE: lambda spans 0.26 (0-2) to 4.74 (3-2) at q=.62, a 5-18x span across specifications. REPORTED, SNIPPET-ONLY, NOT VERIFIED: MLB 2026 gives each team two challenges; only batter, catcher and pitcher may challenge; catchers overturn ~59-60%, batters ~46%; one report names a single reliever as the only pitcher in MLB with more than two challenges on the season; one outlet cites a catcher at 15-for-17. NO ARTICLE WAS OPENED — every empirical figure here is a lead, not a measurement.
+POPULATION: MLB 2026 (reported); applicability to SEC/NCAA play NOT VERIFIED this cycle
+EVIDENCE: the decision rule is ESTABLISHED arithmetic; every empirical input is UNVERIFIED
+CAUSALITY: MECHANISM
+SOURCE: Derived 2026-09-07 (library/count-leverage.md §6) against WebSearch snippets from si.com, theanalyst.com, espn.com, bleacherreport.com and baseball-reference.com/friv/abs-challenges.shtml — NONE FETCHED (F-277).
+COACHING: IF and only if the conference operates an ABS challenge system — unverified for the SEC this cycle — the rule is simple and worth putting on a card: DO NOT BURN A CHALLENGE ON AN 0-2 PITCH. The same challenge on 3-2 is worth roughly an order of magnitude more. The reported near-total absence of pitcher challenges is a lead worth checking, not a finding: if it holds, the pitcher is declining to spend a resource whose value he is best positioned to judge on the pitches he just threw.
+CONFIDENCE: high on the decision rule; the empirical picture is entirely unverified and must be checked before it is repeated to anyone
+SEE ALSO: F-278, F-280, F-182
+
+---
+
+### F-284 | Two more fabrication vectors caught in one sweep — a new content farm inventing ASMI, and a search summariser emitting an unprompted magnitude that could not be corroborated
+TOPIC: fabrication, content farms, AI-generated sources, verification, search summarisers, laundering
+CLAIM: The 2026-09-07 field sweep caught two distinct fabrication events in four searches. One is a new content-farm domain attaching an invented ASMI citation to a real topic. The other is more serious and is a first for this corpus: the SEARCH SUMMARISER ITSELF emitted a specific, unprompted quantitative magnitude that a targeted follow-up search could not corroborate anywhere.
+NUMBERS: (1) afroliterarymagazine.com/how-to-baseball-pitch — asserts "According to research by the American Sports Medicine Institute (ASMI) in 2026, proper sequencing of body movements ... can increase pitch velocity by up to 10% while reducing the risk of injury." NO SAMPLE SIZE, no citation, no study identifiable. Same family as F-274 (accio.com): a fabricated ASMI attribution bolted onto a legitimate topic. NEVER CITE. (2) An unprompted search summary described "Academic research (Park et al., 2026) analyzing 12.4 MILLION Statcast pitches." A targeted follow-up search for that exact magnitude returned nothing supporting it; a real paper (arXiv 2609.03810, already in the corpus's unread queue) does appear to cite a "Park et al. 2026," but the 12.4-million figure attached itself somewhere between the source and the summary. The number is UNVERIFIED and must not be repeated.
+POPULATION: not applicable
+EVIDENCE: ESTABLISHED — both observed directly in this cycle's own searches
+CAUSALITY: not applicable
+SOURCE: This cycle's field sweep, daily/2026-09-07-report.md §2. Extends F-274, F-275.
+COACHING: NOT A COACHING FINDING. The escalation from F-274 matters: that finding described two farm pages citing each other and being read as replication. THIS ONE IS A STEP WORSE — the fabricated magnitude did not come from a page the summariser found, it came from the summariser, unprompted, attached to a real author and a real year. A citation that is real, a year that is real and a number that is invented is the single hardest failure mode to catch, and it is now the corpus's ONLY input channel (F-277). OPERATING RULE, ADDED: in a blocked cycle, a magnitude that appears ONLY in a search summary and not in any quoted snippet is treated as FABRICATED UNTIL A PAGE IS OPENED.
+CONFIDENCE: certain on both observations; the mechanism behind (2) is inferred
+SEE ALSO: F-274, F-275, F-277, F-240, F-259
+
+---
+
+*End of registry. 284 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-285.*

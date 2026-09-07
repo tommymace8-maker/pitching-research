@@ -14,6 +14,32 @@
 
 ---
 
+## Sweep 4 — 2026-09-07
+
+**Run condition: FOURTH consecutive fully egress-blocked cycle (F-277).** `WebSearch` only — summaries, no pages. **Four searches. Two fabrications caught, two real leads queued, one topic confirmed to have nothing new.** Per F-284's new rule, everything below that is a magnitude is treated as fabricated until a page is opened.
+
+### 1. 🚨 `afroliterarymagazine.com` — a NEW content farm inventing an ASMI citation — **DEBUNKED. NEVER CITE.**
+*"According to research by the American Sports Medicine Institute (ASMI) in 2026, proper sequencing of body movements — from the ground up — can increase pitch velocity by up to 10% while reducing the risk of injury."* No sample size, no study, no citation. **Identical in structure to F-274's `accio.com` cluster**: a fabricated ASMI attribution bolted onto a legitimate topic. The topic here is the kinematic sequence, where this corpus's actual finding is that **the textbook sequence is essentially never observed** (F-105, F-106) — so the farm has attached an invented magnitude to a claim the literature contradicts. **Blocklist: `afroliterarymagazine.com`.**
+
+### 2. 🚨🚨 The search summariser emitted an unprompted, uncorroborated magnitude — **DEBUNKED as a number; the citation may be real** (F-284)
+An unprompted summary stated *"Academic research (Park et al., 2026) analyzing **12.4 million** Statcast pitches…"*. The figure was **not in the query**, and a targeted follow-up search found **nothing supporting it**. A real preprint (arXiv 2609.03810, *Unified Pitch Graphs*, already unread in the queue) does appear to cite a "Park et al. 2026." **A real author, a real year, an invented number** — the hardest failure mode to catch, and it originated in the summariser rather than in any page. **This is an escalation from F-274**, where at least the fabrication lived on a findable page. **New operating rule (F-284): in a blocked cycle, a magnitude appearing only in a SUMMARY and never inside a quoted snippet is fabricated until a page is opened.**
+
+### 3. ✅ MLB's 2026 ABS **challenge** system — **PROMISING**, and it is a leverage-allocation problem
+Two challenges per team per game; only batter, catcher and pitcher may challenge. Reported across SI, The Analyst, ESPN, Bleacher Report and `baseball-reference.com/friv/abs-challenges.shtml`: catchers overturn ~59–60%, batters ~46%, and **almost no pitcher challenges at all** — one report names a single reliever as the only MLB pitcher above two challenges on the season. **Standing: every figure is snippet-only; nothing was opened.** **Why it matters here:** the challenge decision is exactly the object F-278 derives. EV = P(overturn) × L(count) − option value; $L$ spans 5–18× across counts while overturn probability spans far less, so **the count term dominates** (F-283). Whether the SEC operates a challenge system was not verifiable this cycle.
+
+### 4. ✅ arXiv **2603.04874** — *Interpretable Pre-Release Pitch Type Anticipation from Broadcast 3D Kinematics* — **UNPROVEN, unread, HIGHEST-VALUE ITEM IN THE QUEUE**
+Directly targets **F-256**, the "slowed arm gives the changeup away" folklore currently in quarantine. If it delivers pre-release cue magnitudes, it moves F-256 out of folklore in either direction. **arxiv.org is blocked; not read.**
+
+### 5. ✅ arXiv **2606.17345** — *Counterfactual Optimization of Baseball Pitch Sequences* — **UNPROVEN, unread**
+Targets the sequencing half of the gap `pitch-mix-sequencing.md` deliberately left open (WHAT NEXT PITCH, as opposed to WHAT MIX). **Blocked; not read.**
+
+### Things I looked for and did NOT find
+- **Nothing new in the Driveline vs. Tread argument.** The 2026 search returned only the same "data-first vs. movement-first" framing the corpus already holds, plus a facility marketing page and a forum thread. **No new claim and no new number — said plainly rather than padded.**
+- **No coaching-side debate about count leverage at all.** Searches for the first-pitch-strike and 0-2-waste-pitch arguments returned hitter-side approach content and general analytics marketing. **The industry does not appear to be arguing about this, which is part of why it was a real gap.**
+- **No published count-frequency distribution or run-expectancy table could be retrieved** to validate F-279's derived pitch shares or F-280's bracketed $(W-K)$. Both are single queries and both are blocked.
+
+---
+
 ## Sweep 3 — 2026-09-04
 
 ### ⚠️ Headline: a thin sweep, run blind. All outbound HTTPS was 403-blocked at the egress gateway for this entire cycle — every host attempted, including all eight domains the standing brief lists as WORKING and including generic controls. Search worked; fetching did not. **Not one item below was read at source.** Two of four are worth carrying forward; none is importable at any magnitude. Full run condition in F-259.
