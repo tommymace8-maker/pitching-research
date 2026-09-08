@@ -558,6 +558,37 @@ The coach's third challenge — that a quantity spanning **4.9× to 18.2×** acr
 
 ---
 
+## 21 — Is the third-time-through decline FAMILIARITY or FATIGUE? (Coach → Anatomist → Biomechanist). **OPEN, and it is the most expensive open question in this file.**
+
+**Added 2026-09-08.**
+
+**Why it is not academic.** The two mechanisms have **opposite training answers**, and a program picks one with its off-season:
+
+- **Familiarity** → the answer is **arsenal**. A fourth pitch, a held-back look, a shape he has not shown. Bought in February, in pitch design.
+- **Fatigue** → the answer is **capacity**. Conditioning, pitch efficiency, the strength base. Bought in the fall, in the weight room.
+
+**The coach's position: it is fatigue, and the corpus already contains the mechanism.** F-127 documents a within-outing degradation sequence — command drift, then breaking-ball finish, then slot, then velocity — and F-125 documents *central* inhibition of the infraspinatus specifically as a consequence of pitching-induced fatigue. F-128 shows load per unit of output *rising* late. "The lineup happens to turn over around pitch 75, which is also where the arm changes. Familiarity is the correlate. Fatigue is the thing."
+
+**The anatomist's position: the physiology does not support a step, and the coach is claiming one.** Nothing in the fatigue literature produces a discontinuity at batter 19. Voluntary-activation deficits accumulate smoothly. **If the coach is right that it is fatigue, then he has also conceded the snippet-level finding that the decline is CONTINUOUS — which means "third time through" is a label with no causal content, and the pull rule should be written in pitch count, not in lineup turns.** He cannot have the fatigue mechanism and keep the lineup-turn heuristic.
+
+**The biomechanist's position: neither of you can answer this and the design is sitting there.** Times-through-the-order and pitch count are near-collinear — the third pass arrives around pitch 70–85 in almost every start — **but not perfectly.** An efficient starter reaches it at pitch 62; a nibbler at pitch 95. That off-diagonal variation identifies the two effects separately: regress per-PA outcome on pitch count and a TTO indicator simultaneously. **If the TTO indicator survives conditioning on pitch count, it is familiarity. If pitch count absorbs it, it is fatigue.**
+
+**What would settle it.** Exactly that regression, on any public Statcast panel. **No new instrumentation.** ⚠️ **This cycle could not establish whether it has already been done** — the snippets describe a Bayesian model testing *stepped vs smooth*, which is a related but different test, and no page was opened (F-285). **Do not record this as a literature gap until someone reads the papers**; the corpus has already been burned once asserting an absence it had not searched properly (Known Correction #4).
+
+**Concession recorded.** The anatomist's objection to the coach was **conceded in full**: the coach agrees he cannot hold the fatigue mechanism and the lineup-turn heuristic at the same time, and has rewritten his own recommendation in pitch count (F-289's monitoring block) rather than in lineup turns.
+
+---
+
+## Revisited 2026-09-08 — did today move anything?
+
+**#19 (the anticipation slope $D$): MOVED, modestly, and in a useful direction.** F-292 argues that the times-through-the-order decline is a **direct measurement of the same class of quantity** — an exposure-decay slope — differing in that exposure is counted in looks at a *pitcher* rather than share of a *pitch*. At the reported magnitude that is **0.87 runs per 100 PA per exposure**. **This does not close #19**: a look at a pitcher is not a look at a pitch, and the aggregation from one to the other is neither obvious nor demonstrated. What changed is the *research posture* — the §6 panel design in `pitch-mix-sequencing.md` should be re-read against the TTOP literature rather than designed from scratch, and that literature moves to the top of the verification queue. **The biomechanist notes, correctly, that this is an analogy being promoted to a lead, and that the corpus has a documented history of analogies hardening into findings during exactly this kind of compression (F-240, F-290). Logged as a lead, not a result.**
+
+**#18 (does the air-density movement ratio extend to seam-shifted-wake pitches): UNMOVED, for the third consecutive cycle, and still blocked on egress rather than on reasoning.** Nothing this cycle bore on it.
+
+**#20a (does a manufactured count train the real count): UNMOVED, but it acquired company.** F-286 establishes that the third-time-through question fails on detection at 790 seasons — the third domain after mix (F-273) and counts (F-282). The transfer question raised at #20a is the *same shape* in every one of them: the corpus can now identify what a coach should train, and in three separate domains cannot verify in games that the training worked. **That is no longer a topic-specific caveat. It is a structural property of the program's outputs, and the missing transfer study (F-197) is the single hole that would close all three at once.**
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**

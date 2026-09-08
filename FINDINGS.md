@@ -3569,4 +3569,130 @@ SEE ALSO: F-274, F-275, F-277, F-240, F-259
 
 ---
 
-*End of registry. 284 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-285.*
+### F-285 | FIFTH consecutive fully egress-blocked cycle — the allowlist is empty and has been for five cycles
+TOPIC: run conditions, egress, network policy, verification, blocked cycle, structural liability
+CLAIM: The 2026-09-08 cycle opened no primary source. Every outbound host was denied at the CONNECT stage by the egress gateway, including a control host with no relationship to the research topic.
+NUMBERS: raw curl to en.wikipedia.org returned "CONNECT tunnel failed, response 403" (HTTP 000); pmc.ncbi.nlm.nih.gov identical. The proxy's own status endpoint logged both as kind "connect_rejected", detail "gateway answered 403 to CONNECT (policy denial or upstream failure)", while reporting enabled: true and selective: false. WebFetch returned EGRESS_BLOCKED at tool level for pmc.ncbi.nlm.nih.gov. WebSearch unaffected across 6 queries. FIVE CONSECUTIVE CYCLES: 2026-09-04, -05, -06, -07, -08. UNREAD VERIFICATION QUEUE NOW 17 ITEMS (+2 this cycle: the Brill/Deshpande/Wyner TTOP paper at DOI 10.1515/jqas-2022-0116 — three separate URLs are known and none is fetchable — and the sportsnaut fatigue-model article).
+POPULATION: not applicable
+EVIDENCE: ESTABLISHED — observed directly, two independent ways, with a control host
+CAUSALITY: not applicable
+SOURCE: This cycle's own probe, run BEFORE topic selection per the INDEX standing instruction. Extends F-266, F-267, F-277.
+COACHING: NOT A COACHING FINDING. The standing instruction to probe egress before choosing a topic WORKED and cost about ninety seconds; keep it. The brief's WORKING-domain list is now wrong for the fifth time and should be deleted from the prompt rather than amended. THE STRUCTURAL POINT IS NO LONGER ABOUT ONE CYCLE: five consecutive arithmetic-only cycles have produced 30-odd findings, essentially all of them internally consistent and NONE of them checked against data. That is exactly the condition F-259 warns about, and the corpus is now deep enough into it that the next cycle with egress should spend itself entirely on the verification queue rather than opening a new topic.
+CONFIDENCE: certain
+SEE ALSO: F-266, F-267, F-277, F-259, F-284
+
+---
+
+### F-286 | An individual pitcher's times-through-the-order penalty cannot be measured in a career — 790 college seasons
+TOPIC: times through the order, TTOP, detection, statistical power, wOBA, individual inference, in-game usage
+CLAIM: The per-plate-appearance outcome noise is so large relative to the reported times-through-the-order effect that no individual pitcher can ever generate enough plate appearances to establish his own penalty, at any career length, even if his true penalty were several times the league average.
+NUMBERS: per-PA wOBA SD = 0.531 (mean 0.329), computed from standard wOBA weights and an ordinary outcome distribution (BB .085, HBP .012, 1B .145, 2B .045, 3B .004, HR .033, outs .676); stable across HR rates 2-5% (SD 0.492-0.576). Two-sample, alpha = .05 two-sided, 80% power: delta = 0.010 wOBA -> 44,200 PA per group; 0.020 -> 11,100; 0.030 -> 4,900; 0.050 -> 1,800; 0.100 -> 440. College starter budget: ~14 starts x ~22 BF = ~308 BF/season, of which ~56 are third-time-through. THEREFORE: the league-average effect needs ~790 college seasons; an effect FIVE TIMES the league average needs ~32 seasons; a tenfold effect still needs ~8.
+POPULATION: college starter, 14 starts, ~22 batters faced per start. Scales directly to any workload — an MLB starter at ~180 third-time PA per season still needs ~245 seasons for the league-average effect.
+EVIDENCE: ESTABLISHED as arithmetic — closed-form power calculation, re-derivable in ten lines. The 0.010 wOBA effect size it is indexed against is SNIPPET-ONLY (see F-290).
+CAUSALITY: not applicable — this is a detection result, not a causal claim
+SOURCE: Derived 2026-09-08, library/times-through-order.md §2. Effect size from search snippets describing Brill, Deshpande & Wyner, JQAS 2023 — NO PAGE OPENED.
+COACHING: When someone brings you a split — "he's .310 the first time and .390 the third time" — the correct response is not to interpret it. It is to note that the split is built on roughly 56 plate appearances a year and could not distinguish a real effect from nothing if he pitched for eight centuries. THIRD IN A SERIES: F-273 (mix, 60,000 pitches), F-282 (full counts, 17 seasons), and now this at 790 seasons — the most extreme yet. The pattern is not a coincidence and it is not pessimism: the quantities a coach most wants to know about ONE athlete are systematically the ones one athlete cannot supply the events to answer.
+CONFIDENCE: high — the arithmetic is elementary and the conclusion survives a factor-of-25 error in the effect size
+SEE ALSO: F-273, F-282, F-257, F-287, F-243
+
+---
+
+### F-287 | Over HALF of the third-time-through gap in a coach's own scorebook is lineup-slot composition, not the pitcher
+TOPIC: times through the order, TTOP, selection bias, composition bias, lineup slot, scorebook, confound
+CLAIM: A starter's first and second times through the order are complete passes through all nine lineup slots, but his third time through is TRUNCATED at whatever batter he is pulled on — so the third-time sample is drawn disproportionately from the top of the order, where the best hitters are. The naive third-time-versus-first-time comparison therefore contains a large positive bias that has nothing to do with the pitcher, and that bias is larger than the entire reported effect.
+NUMBERS: with a plausible college lineup talent profile by slot (wOBA .345 .350 .355 .350 .330 .315 .300 .290 .275; full-lineup mean .3233), the talent of the TTO3 sample when the starter is pulled after k batters is: k=1 .3450 (+.0217), k=2 .3475 (+.0242), k=3 .3500 (+.0267), k=4 .3500 (+.0267), k=5 .3460 (+.0227), k=6 +.0175, k=7 +.0117, k=8 +.0060, k=9 exactly 0. TYPICAL k = 3-5 -> BIAS +0.025 wOBA. The reported league TTOP is ~0.010 wOBA per cycle, so THE ARTEFACT IS ~2.5x THE REAL EFFECT. Combined: a true two-cycle effect of 0.020 plus a bias of 0.025 produces an OBSERVED gap of 0.045, of which 56% IS LINEUP SLOT.
+POPULATION: any starter pulled mid-lineup on his third pass — i.e. nearly all of them. The bias vanishes only for a starter who completes the third time through exactly (k=9).
+EVIDENCE: ESTABLISHED as arithmetic. The lineup talent profile is illustrative, but the SIGN is structural and the MAGNITUDE is robust: any lineup ordered best-to-worst produces a positive bias of roughly the top-of-order-minus-average gap.
+CAUSALITY: not applicable — this is a bias identification
+SOURCE: Derived 2026-09-08, library/times-through-order.md §3.
+COACHING: THE MOST USABLE RESULT OF THE CYCLE. This is NOT an attack on the published literature — Brill/Deshpande/Wyner and any competent analysis adjust for batter quality. It is an attack on THE CALCULATION THAT ACTUALLY REACHES A DUGOUT: the season split, the scorebook tally, the broadcast graphic. THE CRITICAL PROPERTY: this is bias-in-expectation, NOT noise. It does not average out across more starts. Fourteen more starts give you the same +.025, estimated more precisely — MORE DATA MAKES THIS ERROR MORE CONFIDENT, NOT LESS, which is the opposite of every instinct a coach has about sample size. THE FIX IS FREE: compare the third time through only against THE SAME LINEUP SLOTS the first and second times through — slots 1-4 versus slots 1-4. That removes the entire bias, and also removes most of the sample, which returns you to F-286.
+CONFIDENCE: high
+SEE ALSO: F-286, F-288, F-290, F-094, F-240
+
+---
+
+### F-288 | The pull decision is a talent-gap comparison, and the whole question is worth about one run a season
+TOPIC: times through the order, pull decision, bullpen, run value, in-game usage, decision rule, cost of the question
+CLAIM: Whether to let a starter face the order a third time does not depend on establishing that a times-through-the-order penalty exists. It depends on whether the penalty exceeds the talent gap to the fresh arm replacing him — and at the reported magnitude, the break-even talent gap is large enough that in a typical college bullpen the starter should usually stay in.
+NUMBERS: leaving the starter in is correct whenever his current penalty (delta) is smaller than the fresh reliever's talent deficit (G). At the reported ~10 wOBA points per cycle, delta at the third time through ~ 0.020 wOBA, SO THE BREAK-EVEN IS A ~20-wOBA-POINT TALENT GAP. Converting at the standard ~1.15 runs per PA per unit wOBA: 10 wOBA pts/cycle = 0.87 runs per 100 PA per exposure; the cost of an EQUAL-TALENT starter facing 4 batters a third time rather than a fresh EQUAL-TALENT arm = 0.070 runs per start = ~1.0 RUN OVER A 14-START COLLEGE SEASON.
+POPULATION: college starter, ~14 starts, ~4 batters into the third pass. The magnitude imports the snippet-only 10-wOBA-point figure and scales linearly with it; the STRUCTURE of the decision rule does not.
+EVIDENCE: the decision rule is ESTABLISHED arithmetic; the magnitude rests on ONE UNVERIFIED EMPIRICAL INPUT
+CAUSALITY: not applicable
+SOURCE: Derived 2026-09-08, library/times-through-order.md §4.
+COACHING: SAY THIS OUT LOUD IN THE DUGOUT: "who is coming in, and is he twenty points of wOBA worse?" In a college program the sixth arm out of the pen is very often far more than twenty points worse than a tiring Friday starter, and in that case THE PENALTY IS REAL AND LEAVING HIM IN IS STILL RIGHT. Compare F-280 (0-2 count optimisation, ~0.2 runs a season): both are arithmetically confirmed, both are real, and BOTH ARE TOO SMALL TO SPEND A COACHING WEEK ON. The corollary is the useful part — a college program's third-time-through problem is a BULLPEN-DEPTH problem wearing a pitching-mechanics costume, and the leverage is in G, not in delta.
+CONFIDENCE: high on the rule; medium on the magnitude, which is snippet-dependent
+SEE ALSO: F-286, F-287, F-280, F-272
+
+---
+
+### F-289 | Within an outing, a 1 mph velocity drop is visible in sixteen fastballs and an outcome decline is invisible in 790 seasons
+TOPIC: fatigue, within-outing monitoring, detection asymmetry, velocity, pull decision, measurement
+CLAIM: The inputs to an outing and the outcomes of an outing sit roughly four orders of magnitude apart in detectability, so any within-outing decision must be made on inputs and never on outcomes.
+NUMBERS: fastballs needed PER BUCKET to detect a within-outing velocity drop (two-sample, alpha = .05, 80% power). At SD = 0.8 mph: 0.5 mph drop -> 40, 1.0 -> 10, 1.5 -> 5, 2.0 -> 3. At SD = 1.0 mph (the corpus working assumption): 0.5 -> 63, 1.0 -> 16, 1.5 -> 7, 2.0 -> 4. At SD = 1.2 mph: 0.5 -> 90, 1.0 -> 23, 1.5 -> 10, 2.0 -> 6. AGAINST F-286's 44,200 PA per group for a 10-wOBA-point outcome change. Ratio between the two detection budgets ~ 10,000 starts.
+POPULATION: not applicable — power arithmetic. The within-outing fastball SD of ~1.0 mph is a CORPUS ASSUMPTION and should be measured on the individual arm; it is already in every radar log.
+EVIDENCE: ESTABLISHED as arithmetic
+CAUSALITY: not applicable
+SOURCE: Derived 2026-09-08, library/times-through-order.md §6.
+COACHING: A 1 mph decline between the first two innings and the fifth is a REAL, DETECTABLE, SINGLE-OUTING observation with about 16 fastballs at each end — a Friday starter supplies that without any special effort. A change in how hitters are doing against him is not observable in his career. THE HARD CAVEAT, AND IT CUTS AGAINST THE RECOMMENDATION: F-127 puts velocity LAST in the fatigue hierarchy, after command drift, breaking-ball finish and slot. So the cheapest instrument watches the LATEST-ARRIVING signal. The earlier signals are exactly the ones the corpus cannot yet put a detection threshold on, because the study named at F-173 — within-outing release-speed SD against vertical miss — has still not been run by anybody, and it remains computable in an afternoon from data every program already owns.
+CONFIDENCE: high
+SEE ALSO: F-257, F-273, F-286, F-127, F-173, F-131
+
+---
+
+### F-290 | CORRECTION to F-258 — the TTOP finding is "continuous, not stepped," which is a different claim with an opposite training answer
+TOPIC: times through the order, TTOP, correction, familiarity, fatigue, Brill, Deshpande, Wyner, citation error
+CLAIM: F-258 records the Bayesian TTOP re-analysis as finding "little evidence of a strong batter learning effect," which reads as the penalty being absent. Three independent search snippets this cycle describe something materially different: a decline that is REAL and roughly 10 wOBA points per time through the order, but CONTINUOUS in cumulative exposure rather than STEPPED at the lineup turn. Additionally, the corpus's citation for this work omits an author and misstates the year.
+NUMBERS: CITATION CORRECTED 2026-09-08 — the work is Brill, DESHPANDE & Wyner, Journal of Quantitative Analysis in Sports, 2023, DOI 10.1515/jqas-2022-0116 (arXiv preprint 2210.06724, 2022). The corpus recorded "Brill & Wyner 2022"; DESHPANDE WAS OMITTED. Corroborated by the second author's own publications page (skdeshpande91.github.io/publications/2023-05-17-TTOP). REPORTED, SNIPPET-ONLY: batters improve ~10 wOBA points per time through the order; expected wOBA rises "steadily over the course of the game"; the DISCONTINUITY parameters have posteriors "covering both positive and negative values and mostly centred around 0"; games where the starter was pulled before the third time through were REMOVED, conditioning results on surviving the second pass in order to balance the sample on pitcher quality.
+POPULATION: MLB, per the reported design. Sample size NOT OBTAINED — no page was opened, and per operating rule (D) a sample size is never taken from a search summary.
+EVIDENCE: the CITATION correction is ESTABLISHED (two independent snippets, one authoritative). The SUBSTANCE remains UNVERIFIED and F-258 stays in quarantine.
+CAUSALITY: CROSS_SECTIONAL / observational as reported
+SOURCE: WebSearch snippets 2026-09-08, three separate queries. NO PAGE OPENED (F-285). library/times-through-order.md §1, §5.
+COACHING: DO NOT COACH OFF THIS YET — it is still quarantined. But understand why the distinction is worth the entry: STEPPED means the lineup turning over is the event, and you pull him before the third time through regardless of pitch count. CONTINUOUS means the lineup turn is a CLOCK, not a cause, and the decision variable is cumulative exposure. Those are opposite instructions from the same paper, and the corpus's one-line summary preserved the wrong one. THE DEEPER POINT, WHICH IS THE PROGRAM'S RECURRING FAILURE MODE (F-240): the error was not a wrong number or a wrong citation, it was a COMPRESSION — a nuanced result flattened into a one-line verdict that reversed its practical meaning. That is the fifth time this corpus has caught itself doing that, and every previous instance also happened in the paper-to-table-row step.
+CONFIDENCE: high on the citation correction; the substance is unverified and must not be repeated as fact
+SEE ALSO: F-258, F-240, F-291, F-292
+
+---
+
+### F-291 | A 1.5 mph inning-to-inning velocity drop is a four-sigma signal, so a "41% false-alarm rate" cannot be measuring the instrument — FIELD ITEM, UNPROVEN
+TOPIC: fatigue detection, velocity drop, machine learning, false alarm, field sweep, measurement noise, verdict UNPROVEN
+CLAIM: A currently-indexed article argues that velocity-drop thresholds are a flawed fatigue signal because they produce frequent false alarms. The arithmetic says the threshold in question is far outside measurement noise, so whatever the reported false-alarm rate is measuring, it is not instrument error — and the article's headline does not follow from its own number.
+NUMBERS: REPORTED, SNIPPET-ONLY: sportsnaut.com, "Predicting Pitcher Fatigue: Why Velocity Drops Are Flawed" — Statcast 2023-2026, requiring >= 15 pitches in an inning, from the fourth inning onward; "pulling a pitcher just because their velocity has dropped 1.5 mph triggers a false alarm 41% of the time." DERIVED: with a within-inning fastball SD of 1.0 mph and 15 pitches per inning, the SE of an inning-to-inning mean difference is 0.365 mph, so a 1.5 mph drop is 4.1 SD and the probability under pure noise is ~2 x 10^-5. Across SD 0.8-1.2 mph and n 15-25 the range is 3.4 to 6.6 SD, i.e. a noise probability between 3 x 10^-4 and 2 x 10^-11.
+POPULATION: MLB starters 2023-2026 as reported; not verified
+EVIDENCE: the arithmetic objection is ESTABLISHED and needs no source. The 41% claim is UNVERIFIED, SNIPPET-ONLY, and must not be repeated.
+CAUSALITY: not applicable
+SOURCE: WebSearch 2026-09-08. Page NOT opened (F-285). library/times-through-order.md §7.
+COACHING: VERDICT: UNPROVEN, and the headline is not supported by the arithmetic. Noise produces a 1.5 mph inning-to-inning drop roughly once in fifty thousand innings, so if the 41% figure is real it is measuring one of two OTHER things: (a) STRATEGIC PACING — the velocity genuinely fell and genuinely came back because the pitcher was managing effort, which is a real and interesting finding about INTENT rather than a criticism of the radar gun; or (b) a CIRCULAR LABEL — "false alarm" requires a ground truth for fatigue, THERE IS NO GROUND-TRUTH FATIGUE LABEL IN STATCAST, and if the label is defined by subsequent performance then the metric is being validated against precisely the quantity F-286 shows is unmeasurable. The instrument is fine. The interpretation is unproven. DO NOT REPEAT THE 41%.
+CONFIDENCE: high on the objection; the claim itself is unverified
+SEE ALSO: F-289, F-286, F-284, F-202
+
+---
+
+### F-292 | The times-through-the-order decline is the nearest existing measurement of the corpus's most-wanted missing parameter
+TOPIC: anticipation slope, D, pitch mix, sequencing, times through the order, exposure decay, research design
+CLAIM: F-276 and pitch-mix-sequencing.md §6 name the anticipation slope D — the decay in a pitch's effectiveness per point of usage share — as unmeasured anywhere and the cheapest unanswered question in the corpus. The times-through-the-order literature measures the same class of quantity, with exposure counted in looks at a PITCHER rather than share of a PITCH.
+NUMBERS: at the reported ~10 wOBA points per time through the order, the decay is 0.0087 runs per PA per additional exposure = 0.87 RUNS PER 100 PA PER EXPOSURE; across three times through, ~2.6 runs per 100 PA. That is a directly estimated exposure-decay slope of the kind D is supposed to be.
+POPULATION: MLB as reported; the magnitude is snippet-dependent and unverified
+EVIDENCE: EMERGING as a research direction; the underlying magnitude is UNVERIFIED
+CAUSALITY: MECHANISM / analogy — this is an argument that two quantities are the same TYPE, not a demonstration that they are equal
+SOURCE: Derived 2026-09-08, library/times-through-order.md §8, against pitch-mix-sequencing.md §6 and F-276.
+COACHING: NOT A COACHING FINDING — it is a research-priority finding, and it reorders the queue. THIS DOES NOT CLOSE THE GAP: a look at a PITCHER is not a look at a PITCH, and the aggregation from one to the other is not obvious and may not be clean. What it does mean is that the TTOP literature is the nearest existing empirical handle on the parameter every public sequencing metric assumes and none states, and that the panel design in pitch-mix-sequencing.md §6 should be re-read with these papers in hand rather than designed from scratch. WHEN EGRESS RETURNS THIS IS THE TOP QUEUE ITEM, ahead of the seven carried from 2026-09-04.
+CONFIDENCE: medium — the analogy is sound, the equivalence is not established, and the magnitude is unverified
+SEE ALSO: F-276, F-268, F-290, F-285
+
+---
+
+### F-293 | Field sweep 2026-09-08 — a training-business trend piece with no denominators, and a summariser inventing narrative detail
+TOPIC: field sweep, idea scouting, fabrication, content quality, college pitching trends, arsenal, verdict UNPROVEN
+CLAIM: This cycle's sweep produced one substantive industry claim worth tracking and one further instance of the F-284 failure mode, in which the search summariser supplied specific factual-sounding detail that appears in no snippet.
+NUMBERS: (1) UNPROVEN — "College Pitching Trends 2025-2026," ParadigmPDS, self-published on Medium (August 2026), asserts that "two-thirds of college arms now carry two fastball shapes," that "breaking ball usage is at an all time high," that "supination-biased pitchers are on the rise," and that "the new market inefficiency is in pitch design and selection, not in raw stuff." NO SAMPLE, NO DATA SOURCE, NO DENOMINATOR for any of the four, and the author is a pitching-development business publishing about the market it sells into. Direction is plausible and consistent with F-157 (the sweeper alpha is gone) and F-160; the MAGNITUDES ARE UNSUPPORTED. medium.com is unfetchable, so this cannot be checked. (2) FABRICATED NARRATIVE DETAIL — an unprompted search summary rendered a bolded section heading "Modern Information Asymmetry (2026)" and asserted that "a 2026 hitter has already reviewed pitch sequencing data on the dugout iPad between at-bats." No snippet contains this; it is a plausible-sounding scene presented in the register of a research finding. (3) MARKETING — treadathletics.com/2026-update reports "21 draft picks & 50+ signs" and "over 7,000 pitchers"; the denominator problem of F-074 applies unchanged.
+POPULATION: not applicable
+EVIDENCE: ESTABLISHED that these were observed in this cycle's searches; every substantive claim within them is UNVERIFIED
+CAUSALITY: not applicable
+SOURCE: This cycle's field sweep, six WebSearch queries, 2026-09-08. No page opened (F-285).
+COACHING: The ParadigmPDS direction is worth TRACKING and not worth QUOTING — if two-thirds of college arms really do carry two fastball shapes that is a live competitive fact for an SEC staff, but the number has no denominator behind it and came from a business with an interest in the claim. The second item is the one that matters for method: F-284 recorded a summariser attaching an invented MAGNITUDE to a real author; this one is a summariser attaching invented NARRATIVE, complete with a prop. It is softer and therefore easier to absorb, because nobody fact-checks a scene. EXTENSION TO THE F-284 OPERATING RULE: in a blocked cycle, treat as fabricated not only unquoted magnitudes but any concrete factual DETAIL that appears in a summary and in no snippet.
+CONFIDENCE: certain on the observations; the industry claims are unverified by design
+SEE ALSO: F-284, F-274, F-275, F-157, F-160, F-074
+
+---
+
+*End of registry. 293 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-294.*

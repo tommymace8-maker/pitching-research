@@ -468,3 +468,30 @@ Blames velocity, "stuff" optimization, and max-effort pitching. Notes average ML
 - **No intervention trial on any of the four "free" torque reductions.** Still zero.
 - **Nothing genuinely new on seam-shifted wake physics.** SSW is now mainstream application, not frontier research. The frontier moved to *measuring* seam orientation cheaply (#8).
 - **No useful signal from Reddit/forums on this sweep.** Search results were dominated by MLB.com syndication and content farms.
+
+
+---
+
+# Sweep 5 — 2026-09-08
+
+**Six WebSearch queries. Fifth consecutive fully egress-blocked cycle — no page was opened, so every item below is a LEAD and none is a measurement.** Honest summary: **little that is genuinely new.** Three items worth recording rather than a padded list.
+
+### 5.1 "The new market inefficiency is pitch design and selection, not raw stuff" — **UNPROVEN**
+**Source:** "College Pitching Trends 2025–2026: What Your Program Needs to Know," **ParadigmPDS**, self-published on Medium, August 2026. `medium.com` is unfetchable.
+**Who is claiming it and their standing:** a pitching-development business, publishing about the market it sells into.
+**Claims:** *"the arms race for fastball velocity has slowed heading into 2027"*; *"two-thirds of college arms now carry two fastball shapes"*; *"breaking ball usage is at an all time high"*; *"supination-biased pitchers are on the rise."*
+**Verdict: UNPROVEN.** The *direction* is plausible and coheres with material the corpus already holds — F-157 (the sweeper alpha is gone) and F-160 (the kick-change snapshot is selection-biased). **But there is no sample, no data source and no denominator on any of the four claims**, and the author has a commercial interest in the conclusion. **Track it; do not quote the two-thirds.** For an SEC staff the underlying question — *are we behind on second fastball shapes?* — is answerable from your own TrackMan in an hour and does not require trusting this article.
+
+### 5.2 "Velocity drops are a flawed fatigue signal — 41% false alarms" — **UNPROVEN, killed on arithmetic**
+**Source:** `sportsnaut.com`, "Predicting Pitcher Fatigue: Why Velocity Drops Are Flawed." Statcast 2023–2026, ≥15 pitches/inning, fourth inning onward.
+**Verdict: UNPROVEN, and the headline does not follow from the article's own number.** With a within-inning fastball SD of 1.0 mph and 15 pitches, the SE of an inning-to-inning mean difference is **0.365 mph** — a 1.5 mph drop is **4.1 SD**, and across the plausible SD range it is **3.4–6.6 SD**. **Noise produces that drop about once in fifty thousand innings, so a 41% false-alarm rate cannot be measuring the instrument.** Either it is measuring **strategic pacing** (real, interesting, and an argument about intent rather than about the radar gun) or it rests on a **circular fatigue label**, since there is no ground-truth fatigue variable in Statcast and defining it by subsequent performance validates against precisely the quantity F-286 shows is unmeasurable. **The instrument is fine. Do not repeat the 41%.** Full treatment: F-291, `times-through-order.md` §7.
+
+### 5.3 Facility results marketing — **MARKETING**, unchanged
+`treadathletics.com/2026-update`: *"21 draft picks & 50+ signs," "over 7,000 pitchers."* **F-074's denominator problem applies without modification**: a facility training thousands will always be able to publish a hundred transformations, and the denominator is the fraction who did not gain.
+
+### 5.4 ⚠️ Method event — the summariser invented a scene (F-293)
+A search summary rendered a bolded section heading, **"Modern Information Asymmetry (2026)"**, and asserted that *"a 2026 hitter has already reviewed pitch sequencing data on the dugout iPad between at-bats."* **No snippet contains this.** It is a plausible scene delivered in the register of a research finding.
+
+**This is the fourth cycle in four to catch a fabrication, and the vector keeps moving upstream:** F-274 was a content farm citing itself; F-275 was a press release over-reading a real thesis; F-284 was a summariser attaching an invented **magnitude** to a real author; this is a summariser attaching invented **narrative**. **Narrative is the hardest of the four to catch, because nobody fact-checks a scene** — a number invites verification and a story does not.
+
+**Blocklist unchanged** (`accio.com`, `afroliterarymagazine.com`). **Rule extended:** in a blocked cycle, treat as fabricated not only an unquoted magnitude but **any concrete factual detail appearing in a summary and in no snippet.**
