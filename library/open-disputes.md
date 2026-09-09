@@ -33,6 +33,7 @@
 | 18 | **Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-05; hole conceded by the biomechanist the same cycle. REVISITED 2026-09-06: unmoved, and BLOCKED ON EGRESS rather than on reasoning** |
 | 19 | **Is the "more-used pitch should look better" wedge a finding or a model wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-06; the biomechanist conceded the table and kept the critique** |
 | 20 | **Does a MANUFACTURED count train the real count — and is the strike probability $q$ a property of the count or a move in a game?** | Biomech vs Coach; Anatomy vs Biomech | 🔴 **OPEN — added 2026-09-07. Two separate objections to the same model, one conceded by the coach in full** |
+| 22 | **Is the sequencing detection asymmetry a finding, or two different statistical tests wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-09; the ratio conceded, the direction defended. Two sub-disputes: the scouting-capability conditional (#22b) and the F-284 retraction (#22c)** |
 
 ---
 
@@ -576,6 +577,53 @@ The coach's third challenge — that a quantity spanning **4.9× to 18.2×** acr
 **What would settle it.** Exactly that regression, on any public Statcast panel. **No new instrumentation.** ⚠️ **This cycle could not establish whether it has already been done** — the snippets describe a Bayesian model testing *stepped vs smooth*, which is a related but different test, and no page was opened (F-285). **Do not record this as a literature gap until someone reads the papers**; the corpus has already been burned once asserting an absence it had not searched properly (Known Correction #4).
 
 **Concession recorded.** The anatomist's objection to the coach was **conceded in full**: the coach agrees he cannot hold the fatigue mechanism and the lineup-turn heuristic at the same time, and has rewritten his own recommendation in pitch count (F-289's monitoring block) rather than in lineup turns.
+
+---
+
+## #22 — Is the sequencing detection asymmetry a finding, or two different statistical tests wearing a finding's clothes?
+**Parties:** Coach vs Biomechanist · **Status:** 🟡 NARROWED — added 2026-09-09
+
+**The claim under attack (F-295).** Detecting that a pitcher HAS a sequencing tendency costs ~47 observations of the conditioning event (a one-sample proportion test). Detecting whether CHANGING it helped costs 3,832–245,277 per group (a two-sample run-value test). The ratio spans **81× to 5,208×**, and the conclusion drawn is that **an opposing advance report rests on firmer statistical ground than a program's own evaluation of its own pitcher.**
+
+**The coach's challenge.** *"You've compared a one-sample proportion test against a two-sample run-value test and called the ratio a discovery. Those are different tests of different quantities. Change either convention and your headline number moves. I think you've dressed up 'frequencies are easier to measure than run values' as a finding, and every coach already knows that."*
+
+**The biomechanist — CONCEDED IN PART.** The **ratio** is convention-dependent and must not be quoted as a quantity. It spans two orders of magnitude purely on the unmeasured $D$ and would move again under different power conventions. **The cell values go the way of F-269's magnitude table and F-278's λ table: say the direction, never the number.** F-295's registry entry is written to reflect this.
+
+**The biomechanist — DEFENDED on direction and order of magnitude.** These do not come from the test conventions. They come from the quantities: **a proportion has variance bounded at 0.25, while a per-pitch run value has SD 0.20–0.30 runs against effects of order 0.002–0.016 runs.** The signal-to-noise ratios differ by orders of magnitude *before any test is chosen*. **To collapse the asymmetry, $D$ would have to be near 100 R/100** — roughly forty times the largest bracketed value, and it would mean a pitch thrown 100% of the time is worth about a run per pitch more than one thrown never.
+
+**Where it rests.** The coach **accepts the defence and holds the objection to the specific numbers.** What survives is a direction: *the opponent can measure this and you cannot.* What does not survive is any ratio.
+
+**What would settle it.** Measuring $D$ — Dispute #19, the panel design in `pitch-mix-sequencing.md` §6. **Every quantitative disagreement in this dispute reduces to that one unmeasured parameter.**
+
+### #22b — Is the SEC-vs-midweek conditional a rescue of a dead finding? (F-299)
+**Biomechanist to coach:** *"You've built a program-dependent recommendation on a claim about opposing analytics staffs you have not measured and cannot measure. You don't know whether any given staff runs transition matrices. You've invented a scouting-capability gradient to rescue a finding the equilibrium argument would otherwise kill."*
+
+**Coach — DEFENDED, and the defence is accepted as BOUNDING rather than ESTABLISHING.** The argument requires only that capability is **not uniform**, and the direction follows from the ordering alone, not the levels: *if all opponents were maximally analytical, the equilibrium argument bites everywhere and the answer is "don't bother"; if none were, the tendency is unexploited and the answer is "don't bother" for the opposite reason.* **The recommendation only has force in the middle, and the middle is obviously where college baseball is.**
+
+**Conceded within that:** the coach cannot say *which* opponents. **The SEC/midweek split is an illustration, not a measurement**, and he will not name a conference threshold. **Adopted at the biomechanist's insistence:** state it as a question to your own analyst, never as a fact about a named opponent.
+
+### #22c — Did the F-284 retraction re-import the thing the rule was built to exclude? (F-303)
+**Anatomist to biomechanist:** *"You've withdrawn a fabrication verdict on the strength of an arithmetic plausibility check and a URL appearing in a search result. That is a lower bar than the one you used to issue the verdict — and you'd have done it because the number flattered a paper you wanted to exist."*
+
+**Biomechanist — CONCEDED IN PART; the retraction was narrowed on the spot.** The arithmetic check establishes **only** that 12.4M is the right order of magnitude for 18 MLB seasons, which is weak — any competent confabulation about MLB pitch counts would also land there. The reappearance establishes **only** that the figure now has a candidate identifier. **Neither establishes that arXiv 2601.11904 exists, that it used 12.4M pitches, or that "Park et al." wrote it.**
+
+**Retained.** The original verdict was **FABRICATED**, a *positive* claim that no such number exists in any source. **That claim is no longer supportable, and leaving it standing would be its own error.** Correct status: **UNVERIFIED with a candidate source** — weaker than the original verdict in both directions.
+
+**Both agree on the general lesson:** a defensive rule has a false-positive rate, and **a corpus that only ever audits its credulity will never find them.** Registered F-303.
+
+**What would settle all three sub-disputes at once.** Opening arXiv 2601.11904. It is one page.
+
+---
+
+## Revisited 2026-09-09 — did today move anything?
+
+**#19 (the anticipation slope $D$): UNMOVED, but its cost went up sharply.** $D$ now scales the magnitudes in **three separate topic areas** — mix (F-272), the predictability tax (F-296) and the detection asymmetry (F-295). Every quantitative disagreement in the new Dispute #22 reduces to it. **It is now unambiguously the single most load-bearing unmeasured parameter in the corpus**, and the estimation design still requires no new instrumentation.
+
+**#20a (does a manufactured skill transfer to games): ESCALATED, not moved — and it has stopped being a caveat.** This is the **third consecutive cycle** whose single executable recommendation rests on F-197, a transfer study that does not exist: F-282's manufactured full count, then the times-through-order monitoring block, and now the transition-matrix audit. **The anatomist's challenge — *at what point does flagging it stop being honesty and start being a habit?* — was CONCEDED IN FULL**, and the coach changed the recommendation in response rather than merely noting the objection: **§8 of `pitch-sequencing.md` is downgraded from a training intervention to a MEASUREMENT protocol.** Steps 1–5 describe the athlete and assume nothing about changing him; only step 6 assumes transfer, and is labelled as an assumption. **The audit is worth running even if transfer is zero** — it tells you what the opposing report says about your pitcher, which is a fact about the world regardless of whether he can act on it. **F-197 is no longer a topic-specific gap; it is the binding constraint on this program's ability to recommend anything.**
+
+**#21 (familiarity vs fatigue): UNMOVED, but one route to answering it is now CLOSED.** If the third-time-through decline were **familiarity**, it should appear as a *sequencing* effect — a hitter exploiting an observed within-game pattern. **F-295 shows that effect is undetectable in an individual's game data**, so the sequencing route is shut and the pitch-count regression in `times-through-order.md` remains the only design. **A negative result, and worth recording: it stops a future cycle spending itself on a dead end.**
+
+**#18 (does the air-density ratio extend to seam-shifted-wake pitches): UNMOVED for a FOURTH consecutive cycle.** Nothing this cycle bore on it. Still blocked on egress rather than on reasoning.
 
 ---
 
