@@ -33,7 +33,8 @@
 | 18 | **Does the air-density movement ratio extend to seam-shifted-wake pitches, or only to clean Magnus pitches?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-05; hole conceded by the biomechanist the same cycle. REVISITED 2026-09-06: unmoved, and BLOCKED ON EGRESS rather than on reasoning** |
 | 19 | **Is the "more-used pitch should look better" wedge a finding or a model wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-06; the biomechanist conceded the table and kept the critique** |
 | 20 | **Does a MANUFACTURED count train the real count — and is the strike probability $q$ a property of the count or a move in a game?** | Biomech vs Coach; Anatomy vs Biomech | 🔴 **OPEN — added 2026-09-07. Two separate objections to the same model, one conceded by the coach in full** |
-| 22 | **Is the sequencing detection asymmetry a finding, or two different statistical tests wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-09; the ratio conceded, the direction defended. Two sub-disputes: the scouting-capability conditional (#22b) and the F-284 retraction (#22c)** |
+| 22 | **Is the sequencing detection asymmetry a finding, or two different statistical tests wearing a finding's clothes?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-09-09; the ratio conceded, the direction defended. Two sub-disputes: the scouting-capability conditional (#22b) and the F-284 retraction (#22c). ⚠️ GENERALISED 2026-09-10 INTO A STANDING METHODOLOGICAL RULE — see the revisit below** |
+| 23 | **Is the college catcher-assignment artifact worth acting on, given that the only clean fix is unavailable?** | Coach vs Biomech | 🔴 **OPEN — added 2026-09-10** |
 
 ---
 
@@ -612,6 +613,96 @@ The coach's third challenge — that a quantity spanning **4.9× to 18.2×** acr
 **Both agree on the general lesson:** a defensive rule has a false-positive rate, and **a corpus that only ever audits its credulity will never find them.** Registered F-303.
 
 **What would settle all three sub-disputes at once.** Opening arXiv 2601.11904. It is one page.
+
+---
+
+## #23 — Is the college catcher-assignment artifact (F-308) worth acting on, or is it inert? — **added 2026-09-10**
+
+**Biomechanist's position: the finding is real but inert.** F-308 establishes that on a two-catcher
+staff the catcher's framing is collinear with pitcher identity, producing a 1–6 pp systematic
+artifact in any called-strike command metric. Granted. **But you cannot randomise catcher assignment
+— no program will trade battery chemistry for a cleaner spreadsheet column — so the only available
+action is "stop using the metric."** And F-307 already required exactly that, on variance grounds
+alone, before the catcher was considered at all. **F-308 is therefore redundant in practice: it
+changes no decision that F-307 has not already changed.**
+
+**Coach's position: the two findings fail differently and the difference is the whole point.**
+**Noise makes you uncertain. Bias makes you confidently wrong.** A staff told only "your sample is
+too small" will reach for the obvious fix — pool three seasons, pool the whole staff, wait for more
+innings. **Every one of those moves shrinks the F-307 noise term and leaves the F-308 artifact
+exactly where it was, so the number gets tighter around the wrong answer.** The coach's claim is
+that F-308 is precisely the finding that stops a well-intentioned staff from "fixing" F-307 into a
+worse state, and that this is a real decision, not a redundant one.
+
+**Where each side concedes.** The biomechanist grants that the pooling failure mode is real and that
+he would not have predicted it from F-307 alone. The coach grants that if a program simply deletes
+the metric — the recommendation both agree on — then F-308 never becomes operative, and its value is
+entirely in preventing a repair nobody should attempt.
+
+**Neither has yielded.** The disagreement is about whether a finding whose only function is to
+forbid a repair counts as actionable.
+
+**What would settle it.** Observation rather than analysis: **take any college program that has
+tried to build an in-house command metric and see which repair it reached for when the numbers
+looked noisy.** If pooling is the common instinct, the coach is right and F-308 is load-bearing. If
+programs simply abandon the metric, the biomechanist is right and F-308 is a footnote to F-307.
+**This is answerable by asking three pitching coordinators and requires no data at all.**
+
+**Note the family resemblance.** This is the same argument shape as the corpus's F-287 finding —
+a bias that does not shrink with sample — and it is the second time in three cycles that the
+program has had to argue about whether "more data makes it worse" is a usable statement or merely
+a true one.
+
+---
+
+## Revisited 2026-09-10 — did today move anything?
+
+**#22 (is a detection asymmetry a finding or two tests in one coat): MOVED, AGAINST THE CORPUS, AND
+NOW GENERALISED OUT OF SEQUENCING ENTIRELY.** The anatomist raised the identical objection against
+**F-310** — a brand-new finding, in a different topic, reached by a different route — one cycle
+after it was first raised against F-295. F-310's naive 107× compares a continuous t-test on inches
+against a binomial on percentage points, and its exact value is an artefact of choosing to pair
+"2 inches" with "5 pp."
+
+**Two independent instances is a pattern, not a coincidence.** Dispute #22 is therefore **promoted
+from a sequencing-specific complaint to a standing methodological rule** governing everything of
+this shape, past and future:
+
+> **WHENEVER THIS PROGRAM COMPUTES A DETECTION RATIO BETWEEN TWO VARIABLES MEASURED IN DIFFERENT
+> UNITS, THE ORDERING IS THE OUTPUT AND THE RATIO IS NOT.** Say "several-fold fewer pitches," never
+> the multiplier. This now binds **F-295, F-310**, and anything that follows.
+
+**One thing was defended, and it is new.** F-306 supplies something F-295 never had: **a conversion
+rate between the two units** (~14 pp per inch). That lets the comparison be made in one unit — 5 pp
+*is* ~0.36 in, needing ~6,000 pitches by the input route against ~21,000 by the outcome route.
+**A ~3.5× residual survives the conversion and is real**, arising because a binomial at p = 0.5
+discards nearly all the information in a continuous location. **So the direction is not merely a
+unit artefact — but the headline number was, twice, and the rule above is the correction.**
+
+**#20a (does a manufactured skill transfer to games): ESCALATED AGAIN — FOURTH CONSECUTIVE CYCLE.**
+The declared-target miss log in `catcher-framing-command.md` §4 is the fourth consecutive cycle
+whose single executable recommendation rests on **F-197, a transfer study that does not exist.**
+The biomechanist's objection this cycle was sharper than a caveat: **§4's protocol has the catcher
+hold a static target until release, which is not what a game target does**, so it buys internal
+validity by spending ecological validity — the exact trade F-182 already flags against declared-
+target methods.
+
+**CONCEDED IN PART, and the protocol was NOT changed.** The coach accepted the objection in full on
+its merits and declined to alter the protocol, on the grounds that **the alternative is not a better
+measurement but no measurement**: the game-realistic version is the called-strike route, which needs
+~21,000 pitches (F-310). **The protocol is now labelled in the library file as measuring a bullpen
+quantity, justified because it is measurable and explicitly NOT because transfer is established.**
+
+**F-197 has now been the binding constraint on four consecutive cycles' recommendations. It is no
+longer a gap in the literature; it is the reason this program cannot convert any of its measurement
+work into a training claim.**
+
+**#19 (the anticipation slope $D$): UNMOVED.** Nothing this cycle bore on it.
+
+**#18 (does the air-density ratio extend to seam-shifted-wake pitches): UNMOVED for a FIFTH
+consecutive cycle.** Still blocked on egress rather than on reasoning.
+
+**#21 (familiarity vs fatigue): UNMOVED.** Nothing this cycle bore on it.
 
 ---
 
