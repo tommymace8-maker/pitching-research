@@ -637,6 +637,28 @@ The coach's third challenge — that a quantity spanning **4.9× to 18.2×** acr
 
 ---
 
+## #23 — Is the framing-contamination result a finding, or a Gaussian pitch-location model wearing a finding's clothes?
+**ADDED 2026-09-11 (cycle 10). NARROWED ON THE SPOT.**
+
+**The claim under attack (F-307, F-309).** That a catcher's presentation is worth ~7 called strikes per 100 taken pitches per inch of shift (f₀ = 7.38%/in), and that at the scale of a realistic one-season command gain the catcher term (3.69 pts) is 0.82× the command term (4.52 pts) — i.e. the same size.
+
+**The anatomist's challenge.** *"f₀ comes from a 2-D Gaussian pitch distribution with σ_p = 10 in, calibrated to remembered league zone and swing rates, in a cycle that read nothing. The whole head-to-head comparison is two model outputs divided by each other. That is a model wearing a measurement's clothes."*
+
+**CONCEDED ON THE VALUE.** f₀ is a model output and is now labelled so everywhere: **"about 7 per 100 per inch," never "7.38."** It scales with the assumed location scatter — a pitcher who lives on the edges has a materially higher f₀ than one who works the middle, and the corpus holds **no** measured location distribution for an 85+ college arm.
+
+**DEFENDED ON THE STRUCTURE, and the defence is specific about what survives:**
+1. **The σ_u cancellation (F-307) is an identity**, not an estimate: ∫[Φ((d+δ)/σ) − Φ(d/σ)]dd = δ for any σ. No calibration touches it.
+2. **The 0.82 ratio is more robust than either of its halves.** Numerator and denominator are both computed against the same boundary density, so a mis-specified f₀ moves them together and partially cancels. The *order* survives; the second decimal does not.
+3. **The bias-not-noise argument (F-309) does not depend on any magnitude at all.** It depends only on catcher assignment being non-random, which is a fact about how a pitching staff is run, not a modelling choice.
+
+**#23b — THE SUB-DISPUTE THAT IS GENUINELY OPEN.** The anatomist's second challenge, to the *fix* rather than the measurement: F-310 recommends zone rate as a framing-immune command metric, and zone rate is not command — a pitcher deliberately working off the plate has a low zone rate and good command. The coach **conceded in part** and narrowed F-310 on the spot to *within-pitcher, at similar usage, never ranking two pitchers.* **The stronger version is unresolved: if usage drifts WITH command — a pitcher who commands better attacks the zone differently — then even the within-pitcher comparison is contaminated, and the "free fix" is not free.** Nothing in the corpus bounds the usage-command coupling.
+
+**What would settle all of it.** One query against any program's own pitch log: the share of taken pitches within ±1 in of the called-zone line (settles f₀), boundary-band called-strike rate split by catcher (settles the catcher term, ~2,500 taken pitches each), and zone rate against tracked miss distance across seasons (settles #23b). **All three are in data every Division I program already owns, and none has been published for any population.**
+
+**#22c note.** Compare the discipline here with F-269, F-278 and F-296: this is the fourth time the corpus has produced a quantity whose *direction* is safe and whose *cells* are not. That is now a recognised pattern rather than a recurring surprise.
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**
