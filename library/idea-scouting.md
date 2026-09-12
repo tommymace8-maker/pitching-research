@@ -495,3 +495,34 @@ A search summary rendered a bolded section heading, **"Modern Information Asymme
 **This is the fourth cycle in four to catch a fabrication, and the vector keeps moving upstream:** F-274 was a content farm citing itself; F-275 was a press release over-reading a real thesis; F-284 was a summariser attaching an invented **magnitude** to a real author; this is a summariser attaching invented **narrative**. **Narrative is the hardest of the four to catch, because nobody fact-checks a scene** — a number invites verification and a story does not.
 
 **Blocklist unchanged** (`accio.com`, `afroliterarymagazine.com`). **Rule extended:** in a blocked cycle, treat as fabricated not only an unquoted magnitude but **any concrete factual detail appearing in a summary and in no snippet.**
+
+---
+
+## Sweep 5 — 2026-09-12 (the running game). EIGHTH consecutive blocked cycle; `WebSearch` only.
+
+**Narrower than usual, because the topic is narrow. Five items, one of them a null.**
+
+### 5.5 Baseball Savant pitcher running-game-prevention leaderboard — **PROMISING**
+`mlb.com/news/baseball-savant-metric-pitcher-stolen-base-prevention`. Reported: first-to-second attempts with no other runners, each assigned a success probability from runner distance from second, runner speed, pitch location, handedness and pitchout/delayed-steal awareness; the write-up reportedly states **a pitcher's quickness to the plate is more influential than a catcher's arm.**
+**Verdict: PROMISING, and unusual for this corpus** — a quantity that is actually *published* rather than sitting unmeasured in everybody's private data. **Snippet-only, page not opened.** F-325 reproduces the pitcher-over-catcher conclusion from spread arithmetic alone and then states, against interest, why that agreement is not corroboration.
+
+### 5.6 Double-A cuts the disengagement limit from two to one for 2026 — **PROMISING (a rules fact)**
+`blogs.fangraphs.com/exclusive-mlb-to-implement-experimental-minor-league-rule-changes-for-2026/`; Baseball America. Reported as expected to raise stolen bases sharply. **The clearest signal yet that the pickoff throw is being legislated out as a tactic**, which would leave the delivery clock as the pitcher's only remaining instrument (F-322).
+
+### 5.7 NCAA two-disengagement experiment — **UNPROVEN AS STATED**
+`ncaa.org/committees-propose-playing-and-technology-rule-changes-in-baseball/`. Snippet: conferences in all three divisions **could receive approval to experiment** with two disengagements per batter, a third being a balk unless the pickoff records an out. ⚠️ **The summary's added sentence — "approved by the NCAA for implementation in the 2026-27 academic year" — appears in no quoted snippet and falls under the F-284/F-293 rule.** Treat the proposal as reported and the approval as unverified. Same posture as F-311's ABS specifics: confirm with compliance before anything goes on a card.
+
+### 5.8 Disengagement-conditional steal rates — **UNPROVEN, and a marker-vs-lever trap**
+Reported: 83.9% success after the first disengagement, 90% after the second, versus 78.9% at zero; MLB success 80.2% (2023) → 77.8% (2025). **Do not repeat these numbers** — snippet-level, F-284 texture. **And even if exactly right they are not what they look like:** a cross-sectional conditional produced by both a genuine mechanical effect *and* selection (a pitcher throws over twice precisely when a fast runner with a big lead is on). Both push the same way, so the figure is an **upper bound** on the mechanical effect. F-322's rule rests on none of it.
+
+### 5.9 The only peer-reviewed slide-step comparison — **REAL, SAMPLE MISMATCH**
+PMID 22487194. **88 pitches, 10 pitchers (6 collegiate, 4 HS), mean age 17.60 ± 2.63**, 76.2 vs 74.5 mph. Full treatment at F-323. *"The science says the slide step costs 1.7 mph" is a statement about ten teenagers* — and the paper's own reported null at foot contact argues against its own headline under F-088.
+
+### 5.10 ⚠️ What was searched for and NOT found — and why the null is the finding
+- **Nothing from Driveline or Tread on holding runners, time to plate, or the running game.** Searched directly. The development industry does not appear to be arguing about this at all (F-325). **The one pitching quantity that is cheap to measure, directly manipulable and verifiable inside a single session is the one nobody sells** — and F-169 already named the mechanism, except that here the measurement asymmetry runs in the *favourable* direction and the industry still is not there.
+- **No NCAA stolen-base rate data of any kind.** Every attempt-count in F-319 is assumed.
+- **No lead-length response to a pickoff attempt, for any population** (F-324).
+- **Queued unread:** Driveline, February 2026, *"The Interaction of Biomechanics and Command"* — domain blocked on `WebFetch`.
+
+### 5.11 Method note — **no fabrication was caught this cycle**
+Four consecutive cycles caught one (F-274, F-275, F-284, F-293, F-314). This one did not. **Recorded because an absence is evidence of nothing and must not be read as an improvement:** the sweep was narrower than usual, and a topic the content farms have not colonised is a topic they have not colonised — not a cleaner internet. **Blocklist unchanged** (`accio.com`, `afroliterarymagazine.com`).

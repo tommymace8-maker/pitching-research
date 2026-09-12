@@ -659,6 +659,22 @@ The coach's third challenge — that a quantity spanning **4.9× to 18.2×** acr
 
 ---
 
+## #24 — Is the slide step free in an 85+ arm, and does the F-069 wind-up/stretch prior transfer to it?
+**Added 2026-09-12. CONCEDED IN PART ON THE SPOT; GENUINELY OPEN ON THE MAGNITUDE.**
+
+**The anatomist's position.** The velocity worry is folklore. F-069 establishes that wind-up and stretch produce statistically similar velocity and kinematics in professionals, replicated twice (Fleisig 2024; Escamilla 2026 dirt-mound replication). **You can delete an entire wind-up from a professional and he throws the same.** Shortening the last part of a leg lift is a smaller subtraction than that. The one peer-reviewed manipulation (F-323) reports 1.7 mph — in a sample averaging **76 mph and 17.6 years of age**, with no test reported — and reports **no kinematic differences at front foot contact or ball release**, which is the landmark F-088 says decides the delivery. The grey-literature "2–4 mph" has no sample size anywhere.
+
+**The coach's challenge.** *Those are not the same subtraction.* Wind-up → stretch removes a rocker step and a turn **before** the leg lift. The slide step removes the lift **itself** and compresses the time into foot contact. If the lift's job is to deliver momentum and a stretched front side **at** foot contact — which is the anatomist's own stated mechanism — then the slide step attacks the mechanism and the wind-up does not. **You are borrowing the authority of a replicated result for a different operation.**
+
+**CONCEDED IN PART.** The two subtractions are genuinely different and the corpus will not treat F-069 as settling the slide step. **What survives:** the manipulated study's reported null at foot contact and release is direct evidence — in the wrong sample — that the slide step does not attack the mechanism. **What does not survive:** any claim that the slide step is free at 85+. **Nobody has measured it in this population, ever.**
+
+**What would settle it.** Two routes, and the corpus can only take the second. (a) Anyone at all running the within-subject comparison in a sample whose mean velocity clears 85 mph — twenty pitchers, one session, and the question is closed for the field. **It has never been done.** (b) **One bullpen per athlete** (F-321): 25 fastballs each way, radar plus two hand-timers, which detects a 1.0 mph cost at 23 fastballs and a 0.15 s delivery change at 5 timings. **The dispute is settled for one pitcher in forty minutes and is not settled for anybody else at all** — which is an unusual and worth-noting shape for a disagreement in this corpus, where the individual answer is normally the unattainable one.
+
+### #24b — the distraction channel
+**GENUINELY OPEN, AND UNQUANTIFIED ANYWHERE.** Whether a runner on first costs a pitcher more through degraded pitch selection, command and velocity than through the steal itself. **Asserted constantly by coaches; measured by nobody.** If real it could exceed everything in F-319, which prices only the base-advancement channel at 0.4–1.7 runs a season. Note the measurement problem is severe: separating a genuine distraction effect from the selection effect that puts runners on first against a pitcher who is already pitching badly that day requires a within-outing design nobody has published.
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**
