@@ -526,3 +526,43 @@ PMID 22487194. **88 pitches, 10 pitchers (6 collegiate, 4 HS), mean age 17.60 ±
 
 ### 5.11 Method note — **no fabrication was caught this cycle**
 Four consecutive cycles caught one (F-274, F-275, F-284, F-293, F-314). This one did not. **Recorded because an absence is evidence of nothing and must not be read as an improvement:** the sweep was narrower than usual, and a topic the content farms have not colonised is a topic they have not colonised — not a cleaner internet. **Blocklist unchanged** (`accio.com`, `afroliterarymagazine.com`).
+
+---
+
+# SWEEP 6 — 2026-09-13 — THE PITCH CLOCK AND INTER-PITCH TEMPO
+
+**Run condition: NINTH consecutive fully egress-blocked cycle (F-326). `WebSearch` only; no page opened. Every item below is a lead.**
+
+### 6.1 The headline result — the industry is not selling tempo work at all **(F-335)**
+Direct searches aimed at **Driveline**, **Tread Athletics** and the wider coaching field for pitch-clock conditioning, tempo training or fast-tempo bullpen protocols returned **company landing pages and general development marketing**. **No protocol, no dataset, no claim, no magnitude.** Recorded as a finding rather than padded over, per the standing brief.
+
+**⚠️ This is the SECOND CONSECUTIVE CYCLE with this exact null.** Sweep 5 found the same for the running game (F-325). The two topics share a property: **cheap to measure, directly manipulable, verifiable inside one session.** F-169 named the asymmetry running the other way — a pitch-design win is provable in ten pitches, which is why that industry exists. **Two cycles of counter-examples suggest the selection is not about measurability but about whether a thing can be packaged as a product. A stopwatch is not a product.**
+
+### 6.2 Statcast Pitch Tempo leaderboard — **PROMISING** *(snippet-only)* **(F-334)**
+`baseballsavant.mlb.com/leaderboard/pitch-tempo`. Median seconds **release-to-release**, split **bases empty / runners on**; buckets **"Fast" ≤ 15 s**, **"Slow" > 30 s**. **The first tempo norm source the corpus has identified, and it is free.**
+⚠️ **The inclusion rule is the catch: only pitches following a TAKE, to the same batter.** Roughly half of all pitches are excluded, and the excluded ones are those following contact — where tempo is most disrupted. It also inherits a count-composition tilt (F-312, F-298, F-287). **Do not benchmark a college stopwatch figure against it; they are different quantities.** **Queued.**
+
+### 6.3 "Pitchers who cut 5+ seconds of tempo lost velocity" — **UNPROVEN** **(F-333)**
+Baseball America (*"Do Pitch Clocks Reduce Velocity?"*) and Pitcher List (*"It's Time: How Did the Pitch Clock Affect Pitchers in 2023?"*). Reported: **22 of 26 (85%)** big tempo-cutters lost velocity vs **65%** of the rest. Checked in-cycle: **z = 2.10, p ≈ .036** — marginal, on an **analyst-chosen cutpoint**, in a group **selected on the prior variable** (2022's slowest workers, plausibly older), against a **baseline that was also treated**. **DO NOT REPEAT 85% vs 65%.** It is the most shareable number in the topic.
+
+### 6.4 "Less rest → cumulative fatigue → lost velocity late" — **DEBUNKED IN SHAPE** **(F-327)**
+Universal broadcast and player consensus. The recovery deficit **plateaus by pitch ~5** and is flat thereafter, so the clock cannot generate a progressive late-outing decline. **The direction may survive; the mechanism does not.** Note this is folklore with a *plausible* mechanism — the F-256 hazard class — and plausibility is why nobody checked the arithmetic.
+
+### 6.5 "Tempo" as a motor-preference construct — **MARKETING**
+`baseballactionid.com`, offering tempo as a coordination/motor-preference category. **Unrelated to the inter-pitch interval.** Per **F-314**, a site whose only credibility signal is self-generated is not assessed — and no independent citation of it appeared anywhere. **Not blocklisted** (nothing fabricated was observed); **not usable either.**
+
+### 6.6 Injury-side, logged and not pursued
+`PMC12569362` (pitch clock and UCL surgery rates), `PMC12858762` (pitch counts and injury incidence under the clock), **PMID 42001115** — *Arthroscopy* 2026 editorial commentary, *"Time Between Pitches Matters: Faster Pitch Pace and the Risk to the Throwing Arm."* **All unread. All injury-side; one line per the mission.** ⚠️ **An editorial commentary is a third-party paraphrase of a primary paper — the exact hazard class that put a wrong claim into this corpus once already.** If any of these is ever read, **read the paper it comments on, not the commentary.**
+
+### 6.7 The rule documents — **UNFETCHABLE, and one specific warning**
+NCAA *Clock Operation Guide* (January 2026) and *2025–26 Baseball Rules Changes* both surfaced in search as PDFs on `ncaaorg.s3.amazonaws.com`. **Neither is fetchable.** ⚠️ **The search summary asserted the 20-second limit applies both with bases empty and with runners on WITHOUT any quoted snippet supporting the both-situations claim** — the **F-293** texture exactly (a concrete factual detail appearing in a summary and in no snippet). **Treated as unverified. Verify with compliance and umpiring contacts.**
+
+### 6.8 Gaps confirmed absent this sweep
+- **No per-pitch phosphagen depletion measurement** in the throwing musculature, any population (F-336). Blocks every magnitude in the recovery model.
+- **No within-pitcher SD of inter-pitch tempo at 85+** (F-336). One stopwatch, one start.
+- **No within-pitcher SD of clock margin at 85+** (F-336). Gates the cycle's only executable recommendation.
+- **No test of the 15–18 s band** used by MLB — between the one manipulated study's safe arm (20 s) and its harm arm (12 s), and tested by nobody (F-329).
+- **No study of the clock's effect on COMMAND**, despite F-127 putting command degradation *ahead* of velocity in the fatigue sequence. **Every empirical claim in circulation measures the slowest-moving variable.**
+
+### 6.9 Method note — **no fabrication was caught this cycle either**
+**Second consecutive cycle with none.** Per Sweep 5's note and **F-325**, this is **evidence of nothing**: the sweep was narrow and the topic is not one the content farms have colonised. **Blocklist unchanged** (`accio.com`, `afroliterarymagazine.com`).

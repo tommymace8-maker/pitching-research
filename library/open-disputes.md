@@ -675,6 +675,37 @@ The coach's third challenge — that a quantity spanning **4.9× to 18.2×** acr
 
 ---
 
+## #25 — Is the steady-state plateau a physiological finding, or a model artifact? *(added 2026-09-13)*
+
+**The claim under attack (F-327).** Modelling per-pitch depletion `d` with exponential resynthesis gives **D\* = d/(e^(T/τ) − 1)**, reached within 4–7 pitches at NCAA intervals. The corollary is strong and contradicts the whole industry narrative: **the pitch clock cannot produce a progressive late-outing fatigue effect, because the deficit stops accumulating inside the first inning.**
+
+**THE BIOMECHANIST'S CHALLENGE.** *The plateau is an assumption wearing a result's clothes.* It requires three things, and at least one is false. **(a) `d` constant across the outing** — almost certainly not: a fatiguing muscle is less mechanically efficient, so late pitches plausibly cost more phosphagen than early ones. If `d` rises with pitch number the fixed point drifts upward and the "plateau" becomes a slow ramp — **which is the cumulative story the finding claims to have killed.** **(b) A single exponential** — resynthesis is standardly bi-exponential, and F-132 itself describes a fast phase *and* a near-complete phase at 3–5 min; collapsing both into one τ is a choice. **(c) That phosphagen is the binding resource at all.** If the real constraint is neural, the entire model is answering a question nobody asked.
+
+**THE ANATOMIST'S REPLY — CONCEDED IN PART, DEFENDED ON THE TIMESCALE.**
+
+- **(a) CONCEDED that `d` is not constant.** But the defence is a separation of timescales, not a denial: the plateau is reached in **4–7 pitches** while an outing is **100**. Any drift in `d` operates two orders of magnitude more slowly than the equilibration. **The interval `T` therefore sets a LEVEL and the fatigue process sets a SLOPE, and they are separable.** The finding as stated — *the clock shifts the level, it does not steepen the slope* — survives a drifting `d`. **What does not survive is any claim that the deficit is literally flat.**
+- **(b) CONCEDED AND NOTED AS CONSERVATIVE.** A second, slower component would make recovery *less* complete at every interval, raising all deficits — but it raises them at 25 s and at 20 s alike, and §2.2's output is a **ratio**. The ratios already proved near-invariant across the full 20–30 s half-time bracket (1.33–1.38× for NCAA). **Adding a slow component moves the common factor, not the comparison.**
+- **(c) NOT CONCEDED, AND THE CORPUS'S OWN EVIDENCE IS THE ARGUMENT.** F-127 puts posterior-cuff **voluntary activation** loss at pitches 60–90 and velocity decline LAST. That is a description of a **neural** cumulative process — so the corpus already believes the binding late-outing constraint is not phosphagen. **The model is not claiming PCr explains late fatigue; it is claiming PCr cannot explain the CLOCK'S contribution to it.** Those are different sentences and the second is the one registered.
+
+**THE COACH'S POSITION.** Unbothered either way, for a reason worth recording: **both readings give the same instruction.** If the plateau is real the clock costs a level shift too small to see; if `d` drifts the clock costs a slightly steeper ramp, still bounded by §3.1's ≈0.02 mph/s. **No version of this dispute changes what anyone does on Tuesday.** He flags it as a case where the corpus should resist spending further cycles.
+
+**WHAT WOULD SETTLE IT.** Two routes, and this program can take neither today. (a) Measure `d` — ³¹P-MRS in the throwing musculature, which may be undoable on a mound (F-336). (b) **Read PMID 27434082.** Yang's design — three intervals, 105 pitches each, within-subject — produces exactly the output/pitch-number curves that distinguish a level shift from a ramp. **The experiment that settles this dispute has already been run and this program has not read it.** Queue item #1.
+
+### #25b — does the clock-margin instrument measure fatigue, or game state?
+
+**GENUINELY OPEN, AND THE COACH RAISED IT AGAINST HIS OWN RECOMMENDATION.**
+
+F-331 proposes **seconds remaining at first movement** as an uncensored fatigue tell, detectable in 31 charted pitches. **The coach's objection: margin is confounded by traffic.** A pitcher works quickly with nobody on and slowly in trouble — and late innings carry more traffic. **So "margin drops late" may be pure composition, with no fatigue in it at all.**
+
+**And the confound's sign is the problem.** ⚠️ **Note the asymmetry this program should generalise:** in §3.1 a same-sign confound was *helpful*, because it converted an estimate into a clean upper bound. **Here the same structural fact is harmful, because an instrument is wanted to fire on one cause only, and a same-sign confound manufactures false positives.** *Whether a same-sign confound helps or hurts depends entirely on whether you are bounding a quantity or identifying a cause* — and this corpus has been treating same-sign confounds as uniformly convenient.
+
+**The fix, and its price.** Compare **within base state** — bases-empty pitches early versus bases-empty pitches late. At ~55% of pitches bases-empty, a 100-pitch start yields roughly **17 per bucket** against the **16** that σ = 3 s requires. **It just barely fits, and it fails outright if σ is 4 s.** Unlike F-298, where the unconfounded estimator missed the budget by 3–6×, here the clean version is *nearly* free — but "nearly" is doing real work and the margin is one bad assumption wide.
+
+**What would settle it:** chart margin against base state and pitch count on twenty starts and fit both terms. **One volunteer, one season, no instrumentation.** Until then F-331 is a lead a staff may chart, **not a basis for removing anybody from a game.**
+
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**
