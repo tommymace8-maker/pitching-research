@@ -706,6 +706,67 @@ F-331 proposes **seconds remaining at first movement** as an uncensored fatigue 
 
 ---
 
+## #26 — Does the opposite-hand weapon really die BEFORE velocity, or has an EMERGING hierarchy been promoted into a detection protocol? *(added 2026-09-14)*
+
+**COACH → ANATOMIST.** F-348 predicts that fastball-minus-changeup velocity separation erodes within an outing *before* any velocity decline shows on the gun, and then puts a coach in the dugout charting numbers on the strength of it.
+
+**The coach's objection.** F-127's own grade is **EMERGING** *as a formal hierarchy*. Promoting a fatigue ordering into a same-night measurement protocol is the move that produced several of this corpus's retired cues. The anatomist has taken a plausible ordering and generated a table of sample sizes from it, and sample-size tables read as far more established than the claim underneath them.
+
+**The anatomist's defence.** F-127's grade **splits**: EMERGING as a formal *ordering*, **ESTABLISHED** that command and secondaries degrade before velocity. F-348 uses only the established half. The mechanism is specific rather than hand-waved: a changeup's effect rests on a velocity/spin differential held by *forearm and wrist positioning*, which is fine motor control, not gross force output — and fine motor control is precisely what the established half of F-127 says goes first.
+
+**What both sides concede.** The prediction is **directional and untested**. Nobody has charted FB−CH separation by pitch number in an 85+ arm and reported it.
+
+**WHY THIS DISPUTE IS UNUSUALLY CHEAP TO SETTLE — and why it was logged rather than waved through.** The protocol **can kill itself inside one season for the price of a clipboard.** If separation does not erode before velocity does, the mechanism is wrong and the finding comes out. That is a better position than most of this corpus occupies, and it is the reason the finding survived cross-examination at medium-high confidence rather than being struck.
+
+**WHAT WOULD SETTLE IT.** One season of TrackMan on one starter: FB and CH release speed by pitch number, bucketed 1–40 vs 60+, against fastball velocity in the same buckets. **If separation erodes while fastball velocity holds, F-348 and F-127's hierarchy both gain real support. If they erode together, F-348 is redundant. If velocity goes first, F-127 has a problem.** Already in every program's data. **Nobody has published it — the eighth instance of that pattern (F-348).**
+
+**STATUS: OPEN.** Revisit against real charts; do not quietly assume it correct.
+
+---
+
+### #26b — Every league constant in the platoon file is MLB. Does any of it survive at 85 mph college? *(added 2026-09-14)*
+
+**BIOMECHANIST → COACH, and the coach conceded in full.** This is the platoon cycle's largest weakness and it is recorded rather than smoothed over.
+
+**The objection.** The corpus's hard constraint is an **85 mph floor and a college population**. Every empirical constant in `library/platoon-splits.md` is MLB-derived:
+- Cross's 1,670 / 570 harmonic-PA regression constants — **MLB**
+- σ_PA = 0.531 — **MLB-weighted outcome distribution**
+- the ~27-point league-average platoon effect — **MLB**
+- the 30–50 pt spread of overall pitcher quality — **MLB, and illustrative even there**
+
+**The corpus has been burned on exactly this before.** F-323 caught the field's most-quoted slide-step number resting on a sample averaging **76 mph and 17.6 years**. The same failure mode is available here and nobody has checked.
+
+**Which way it could break, and nobody knows.**
+- **SHRINK the effect:** college left-handed hitters are less selected than MLB ones, so the platoon advantage they carry may be smaller.
+- **WIDEN the effect:** college arsenals are less developed and more slider-heavy, and F-346 associates lateral movement with *larger* splits. A staff without changeups should show bigger splits, not smaller.
+- These point in **opposite directions**. Direction unknown, magnitude unknown.
+
+**WHAT SURVIVES THE CONCESSION, AND IT IS MOST OF THE FILE.** The **detection** results are population-free in the sense that matters: the 61-point SE, the 8% reliability, the one-in-three reverse-split rate and the −296-point requirement all scale with **σ_PA**, which is an *outcome-distribution* quantity rather than a *talent* quantity. College outcome distributions are not wildly different from MLB ones — more walks, more strikeouts, similar variance. A factor-of-2 error in σ_PA would change the SE by √2 and would not move any conclusion.
+
+**What does NOT survive:** every number that depends on **σ_true** or on the **27-point league constant** — which is F-341's LHP/RHP ratio, F-343's decision rule, and the posterior means in F-340.
+
+**OPERATING RULE ADOPTED: quote the detection arithmetic freely; bracket every league constant and name it as MLB-derived.**
+
+**WHAT WOULD SETTLE IT.** A platoon-split estimate from any college conference's own play-by-play. **No NCAA platoon estimate exists in this corpus or, as far as this cycle could find, anywhere public.** One query against a conference pitch log, pooled across ~40 pitcher-seasons, and the whole file gets its own population. **Ninth entry in the pattern.**
+
+**STATUS: OPEN, and it gates the quantitative half of the topic.**
+
+---
+
+## Revisited 2026-09-14 — did today move anything?
+
+- **#18 (SSW and air density), #19 (the anticipation slope *D*), #20a (bullpen-to-game command transfer), #21 (familiarity vs fatigue), #23 (the Gaussian location model), #25 (the steady-state plateau)** — **NOT MOVED.** All require either egress to a journal or a dataset. The one channel that opened today (object stores) serves governing-body PDFs, not analytics.
+- **#20b (the game-theoretic count)** — **NOT MOVED, but the queue improved.** The NCAA ABS approval surfaced again this cycle and remains the item most likely to move it. **Still unread.**
+- **#21 (familiarity vs fatigue)** — **INDIRECTLY STRENGTHENED, for the first time in six cycles.** F-348 supplies something the dispute has lacked: an **input-side instrument** that distinguishes the two mechanisms without needing outcome data. If a starter's FB−CH separation collapses late while his fastball velocity holds, that is a fatigue signature the *familiarity* account does not predict. **It does not settle #21 — it gives it a measurement it did not have.** Worth noting that the instrument arrived from an entirely different topic.
+- **#24 (is the slide step free at 85+)** — **NOT MOVED**, but note it shares #26b's structure exactly: a peer-reviewed number resting on a population mismatch. **That is now twice in three cycles.** The pattern is worth naming: *the corpus's recurring vulnerability is not fabrication, it is population drift in honest sources.*
+- **#22c / the F-303 retraction lineage** — **NOT MOVED.**
+
+**NEW THIS CYCLE: #26, #26b.**
+
+**METHODOLOGICAL NOTE, added to the standing list below:** the egress diagnosis carried in this file's sibling documents for ten cycles ("an empty allowlist") was **wrong**, and being wrong about it **suppressed probing for ten days** (F-345). A stated cause that nobody re-tests becomes a reason not to look. **Re-probe assumptions about the run environment, not just assumptions about pitching.**
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**

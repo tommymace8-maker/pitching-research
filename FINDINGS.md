@@ -4222,4 +4222,203 @@ SEE ALSO: F-264, F-289, F-307, F-295, F-320, F-327, F-331
 
 ---
 
-*End of registry. 336 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-337.*
+# 26 — THE PLATOON SPLIT: HANDEDNESS, RELIABILITY, AND THE ARSENAL *(added 2026-09-14)*
+
+### F-337 | A college pitcher's season platoon split carries ~61 wOBA points of pure noise — more than twice the effect it is measuring
+TOPIC: platoon, handedness, splits, detection, reliability, wOBA, sample size, measurement error
+CLAIM: The standard error of a college starter's observed single-season platoon split is roughly 61 wOBA points, which exceeds the entire league-average platoon effect by more than a factor of two, and the figure is near-invariant to the handedness composition of the lineups he faces.
+NUMBERS: per-PA wOBA SD = 0.531 (F-286; independently recomputed this cycle as 0.5269 from a different weight set — agreement to 0.8%). College weekend starter budget ~308 BF/season (F-286). Var(split) = sigma^2/n_opp + sigma^2/n_same. SE BY OPPOSITE-HANDED SHARE: 40% (123/185, harmonic 148) -> 61.8 pts; 45% (139/169, harmonic 152) -> 60.8; 50% (154/154) -> 60.5; 55% (169/139) -> 60.8. AGAINST a league-average platoon effect of ~20-35 wOBA points. Ratio of noise to effect ~2.3x.
+POPULATION: NCAA D1 weekend starter, 14 starts, ~22 BF/start. Scales to any workload. The per-PA SD is MLB-outcome-derived (see F-350 caveat and Dispute #26b).
+EVIDENCE: ESTABLISHED as arithmetic — closed-form, re-derivable in fifteen lines
+CAUSALITY: not applicable — detection result
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §2; per-PA variance from F-286
+COACHING: When a coach, an analyst or a recruiting service hands you a pitcher's platoon line, the first number to compute is not the split — it is the denominator. At a full college season the measurement error is bigger than the entire phenomenon. The robustness across lineup composition matters practically: you do not need to know your opponents' handedness mix to know the number is unusable.
+CONFIDENCE: high — elementary arithmetic; the conclusion survives a factor-of-4 error in the per-PA SD
+SEE ALSO: F-338, F-339, F-340, F-342, F-350, F-286, F-273
+
+---
+
+### F-338 | An independent derivation reproduces the published platoon regression constant to within 4% — a plausibility screen, NOT a replication
+TOPIC: platoon, regression to the mean, reliability, shrinkage, verification, methodology
+CLAIM: The publicly circulated regression constants for pitcher platoon splits imply a true platoon-skill spread of 18.4 wOBA points for right-handers and 31.5 for left-handers, and an independent derivation from the corpus's own per-PA variance reproduces those constants to within 4%.
+NUMBERS: Reported constants — RHP regress by adding ~1,670 HARMONIC plate appearances; LHP ~570. Harmonic PA is the correct unit because Var(split) = 2*sigma^2/H. Inverting c = 2*sigma_PA^2/sigma_true^2 with sigma_PA = 0.531: c=1670 -> sigma_true = 0.0184 (18.4 pts); c=570 -> sigma_true = 0.0315 (31.5 pts). FORWARD, with no reference to the published figures: sigma_true .015 -> c=2506; .018 -> c=1741 (vs published 1670, +4.3%); .020 -> c=1410; .025 -> c=902; .031 -> c=587 (vs published 570, +3.0%).
+POPULATION: MLP/MLB (Cross's model). The corpus's own population constraint is NOT satisfied by this source — see Dispute #26b.
+EVIDENCE: WEAK as a citation (SNIPPET-ONLY, page never opened) / ESTABLISHED as the arithmetic relating the two quantities
+CAUSALITY: not applicable
+SOURCE: Jared Cross, "Forecasting Pitcher Platoon Splits," The Hardball Times, 14 Aug 2015 — https://tht.fangraphs.com/forecasting-pitcher-platoon-splits/ and https://sabr.org/latest/cross-forecasting-pitcher-platoon-splits/ . ⚠️ BOTH HOSTS REFUSED BY THE EGRESS PROXY. Two independent WebSearch retrievals returned identical figures and attribution. NO PAGE WAS OPENED. Derivation: 2026-09-14, library/platoon-splits.md §3.
+COACHING: ⚠️ READ THE LIMIT BEFORE USING THE NUMBER. The check is NOT circular in one direction and IS in the other. Non-circular content: sigma_PA = 0.531 is computed from wOBA weights with no reference to Cross, so his constants implying a true-skill spread of 18-31 points is a real PLAUSIBILITY SCREEN — a fabricated or mis-stated constant would generally imply an absurd spread. Circular content: sigma_true was itself derived FROM his constant, so the forward table cannot independently confirm it. What this genuinely validates is the CORPUS's per-PA variance (F-286, F-289), which just survived an outside check. The Cross page stays in the verification queue at full priority.
+CONFIDENCE: medium for the implied spreads; high for the arithmetic relation; LOW for the citation until the page is opened
+SEE ALSO: F-337, F-341, F-286, F-274, F-284, F-293
+
+---
+
+### F-339 | One in three of your pitchers will show an apparent reverse split every season — and it will be a different one in three next year
+TOPIC: platoon, reverse split, false positives, detection, roster management, wOBA
+CLAIM: Given the sampling noise on a college-season platoon split, roughly a third of pitchers with entirely ordinary true splits will display a negative (reverse) observed split in any given season, and the identity of that third turns over essentially at random year to year.
+NUMBERS: SD(observed split) = sqrt(var_noise + sigma_true^2) = sqrt(0.0036923 + 0.000339) = 0.0635 (63.5 pts). P(observed < 0) = Phi(-mu/0.0635): true league split 20 pts -> 0.376; 25 -> 0.347; 27 -> 0.335; 30 -> 0.318; 35 -> 0.291. ON A 12-MAN STAFF: 3.5 to 4.5 pitchers per season.
+POPULATION: NCAA D1, 308 BF/season per starter; scales with workload
+EVIDENCE: ESTABLISHED as arithmetic
+CAUSALITY: not applicable — detection result
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §4.2
+COACHING: THE CHEAPEST DEMONSTRATION IN THIS ENTIRE CORPUS, and the one to run on a skeptical staff. Pull two seasons of your own game logs and list the pitchers who showed a reverse split each year. If the lists barely overlap, the statistic is noise and everyone in the room can see it in five minutes. Costs one afternoon, needs no new instrumentation, and settles an argument that otherwise recurs every season.
+CONFIDENCE: high — the arithmetic is elementary and the rate moves only from 38% to 29% across the whole plausible range of the league constant
+SEE ALSO: F-337, F-340, F-342, F-350
+
+---
+
+### F-340 | No college right-hander can EVER establish a reverse platoon split — the required observation is 5.1 SD out
+TOPIC: platoon, reverse split, detection, statistical power, Bayes, individual inference
+CLAIM: The posterior probability that a pitcher truly possesses a reverse platoon split remains below one-third even after a 200-wOBA-point observed reverse split over a full season, and the observed split required to reach even odds is so extreme that it will not occur in a program's history.
+NUMBERS: Reliability of a one-season split r = 0.084; prior mean +27 pts, sigma_true 18.4 pts; posterior mean = mu + r(obs - mu), posterior SD = sigma_true*sqrt(1-r) = 17.6 pts. OBSERVED -100 pts -> posterior mean +16.4 pts, P(truly reversed) = 0.176. OBSERVED -150 -> +12.2 pts, P = 0.244. OBSERVED -200 -> +8.0 pts, P = 0.324. FOR A 50/50 CALL you must observe -296 pts, which is 5.1 SD below the mean: p = 1.9e-7 per pitcher-season, or 0.00001 expected occurrences on a 12-man staff over four years.
+POPULATION: NCAA D1 right-handed pitcher, 308 BF/season, 4-year career
+EVIDENCE: ESTABLISHED as arithmetic
+CAUSALITY: not applicable
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §4.3
+COACHING: The correct response to "he's got a reverse split" is not skepticism about that pitcher — it is that the claim is ARITHMETICALLY UNAVAILABLE at this level. Even a pitcher who was 200 points better against same-handed hitters across a whole season is most likely to have an ORDINARY platoon split of about +8 points. FOURTH IN THE SERIES: F-273 (mix, 60,000 pitches), F-282 (full counts, 17 seasons), F-286 (TTO, 790 seasons), and now this — the only one of the four where the requirement is not long, but impossible. NOTE THE ASYMMETRY WITH F-341: this applies to right-handers. A four-year left-hander is the one exception on the roster.
+CONFIDENCE: high — survives large errors in every input; at sigma_true = 31 pts (the LHP value) the -100 pt case still returns only P = 0.33
+SEE ALSO: F-339, F-341, F-342, F-286, F-273, F-282
+
+---
+
+### F-341 | A left-hander's platoon split is roughly three times faster to learn than a right-hander's — and he is the only pitcher on the staff whose split is ever worth reading
+TOPIC: platoon, handedness, reliability, LHP, roster management, arsenal variance
+CLAIM: True platoon-skill spread among left-handed pitchers is about 1.7 times that among right-handers, so a left-hander's observed split reaches 50% reliability in roughly a third of the plate appearances, placing it just inside a four-year college career while the right-hander's remains permanently out of reach.
+NUMBERS: sigma_true(split) = 18.4 pts RHP vs 31.5 pts LHP (F-338), a ratio of 1.71. Harmonic PA for r = 0.50: RHP 1,670; LHP 570. College starter accrues ~152 harmonic PA/season. SEASONS TO r = 0.50: RHP 11.0; LHP 3.7. RELIABILITY BY SAMPLE, RHP: 1 season (152 harmonic PA) r = 0.084; 2 seasons r = 0.154; 3 seasons r = 0.215; 4-year career (610) r = 0.267.
+POPULATION: MLB for the spread estimate; NCAA D1 workload for the season conversion. ⚠️ The 1.71 ratio has NOT been tested at the college level.
+EVIDENCE: EMERGING — the ratio rests entirely on the snippet-level constants of F-338
+CAUSALITY: CROSS_SECTIONAL
+SOURCE: Derived 2026-09-14 from F-338's constants, library/platoon-splits.md §3.3
+COACHING: THE ONE ACTIONABLE ROSTER DISTINCTION IN THIS TOPIC. Pool a senior left-hander's four years, compute harmonic PA, shrink with r = H/(H+570), and you have an estimate worth something. Do the same for every right-hander and throw the column away. HYPOTHESIS, EXPLICITLY UNTESTED: the larger lefty spread may be ARSENAL variance rather than handedness — a left-hander facing a mostly right-handed world is selected on having SOMETHING for opposite-handed hitters, and the ways of having it (changeup, cutter, high slot, crossfire) differ a lot, while right-handers face a mixed diet and converge. If that is right, the split is partly a readout of arsenal construction and becomes a development variable rather than a roster note. Nobody has tested it.
+CONFIDENCE: medium — the arithmetic is sound, the input constants are snippet-only, and the mechanism is speculation
+SEE ALSO: F-338, F-340, F-346, F-071
+
+---
+
+### F-342 | The split is SEVEN TIMES less reliable than overall quality from the very same plate appearances — so estimate quality and assume a league-average split
+TOPIC: platoon, reliability, shrinkage, deployment, doctrine, wOBA
+CLAIM: From an identical set of plate appearances, a pitcher's overall quality is recovered with roughly seven times the reliability of his platoon split, so all estimation effort belongs on the overall number and every pitcher should be assigned the league-average split.
+NUMBERS: RELIABILITY AT ~250-308 PA. Overall quality q (sigma_true 30-50 wOBA pts): r = 0.44 (30 pts, 250 PA), 0.59 (40 pts, 250), 0.64 (40 pts, 308), 0.73 (50 pts, 308) — call it ~0.6. Platoon split s (sigma_true 18.4 pts, and noise DOUBLED by the difference structure): r = 0.084. RATIO ~7.1x.
+POPULATION: NCAA D1 through MLB; the quality spread bracket is illustrative and bracketed
+EVIDENCE: ESTABLISHED as arithmetic, given the bracketed sigma_true inputs
+CAUSALITY: not applicable
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §5
+COACHING: THE DOCTRINE FOR THE WHOLE TOPIC, and it is one sentence: spend your estimation effort on q, hand every pitcher the league-average s, and move on. Splitting a sample does not reveal hidden information — it destroys the information you had. This generalises past platoon: the same argument applies to every split a coach is handed.
+CONFIDENCE: high for the ratio's order of magnitude; medium for the exact 7x, which moves with the bracketed quality spread
+SEE ALSO: F-337, F-343, F-350, F-286
+
+---
+
+### F-343 | The handedness matchup is worth ~27 wOBA points and 1.3-2.6 runs a season — and the term you can actually estimate dominates the one you cannot
+TOPIC: platoon, bullpen deployment, matchup, decision rule, run value, leverage
+CLAIM: Substituting a reliever for the handedness matchup is worth approximately the league-average platoon effect in wOBA for the affected plate appearance, so the switch is correct unless the incoming pitcher is worse in overall quality by more than that amount, and the season-long value of getting every such decision right is a small number of runs.
+NUMBERS: Write performance as q +/- s/2. Facing an opposite-handed hitter the switch gains (q_out - q_in) + s. DECISION RULE: make the switch unless the quality gap exceeds s ~ 27 wOBA points (bracket 20-35). RUN CONVERSION at wOBA scale 1.25: 27 pts = 0.0216 runs/PA. SEASON VALUE: 40 decisions x 1.0-2.0 PA -> 0.86-1.73 runs; 60 decisions -> 1.30-2.59; 80 decisions -> 1.73-3.46. CENTRAL ESTIMATE ~1.3-2.6 runs/season.
+POPULATION: NCAA D1 staff. ⚠️ The 27-point league constant is MLB-derived and has no NCAA counterpart anywhere (Dispute #26b).
+EVIDENCE: ESTABLISHED as arithmetic on a bracketed empirical constant
+CAUSALITY: not applicable — decision arithmetic
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §6
+COACHING: Build the reliever depth chart on OVERALL QUALITY in December and apply league-average splits on top of it; never rebuild it from in-season handedness numbers (F-337, F-339). Because q is ~7x better estimated than s (F-342), the quality gap is the term you can know and the split is the term you must assume. FIFTH TACTICAL QUESTION THE CORPUS HAS PRICED, AND THE FOURTH TO LAND BETWEEN 1 AND 3 RUNS A SEASON (running game F-319, times-through-order, count leverage, now this). These decisions are real, roughly equal to each other, and none of them is where a season is won. AUDIT THE DECISIONS AGAINST THE RULE, NOT THE OUTCOMES — 60 decisions a year at 0.02 runs each is invisible forever (F-273).
+CONFIDENCE: medium-high — the structure is exact, the league constant is bracketed and population-mismatched
+SEE ALSO: F-342, F-344, F-319, F-273, F-282
+
+---
+
+### F-344 | NCAA baseball has NO three-batter minimum — the matchup lever is fully available to a college coach, and a proposal to remove it is live
+TOPIC: platoon, rules, NCAA, deployment, matchup, pitching changes, rule changes
+CLAIM: The NCAA rulebook contains no three-batter minimum, so a college coach may change pitchers for a single batter without restriction, and a three-batter minimum is currently proposed as a conference-level experimental rule for 2026-27 alongside the two-disengagement limit this corpus already registered.
+NUMBERS: Full-text search of the source-verified 2025/2026 rules-changes document for "three batter", "3 batter" and "disengage" returned ZERO HITS. Proposed 2026-27 experimental rules (snippet-level): (a) a pitcher entering the game must face at least three batters unless the inning ends; (b) pitchers limited to two disengagements per batter, a third being a balk unless an out is recorded.
+POPULATION: NCAA Divisions I, II, III
+EVIDENCE: ESTABLISHED for the ABSENCE (verified by full-text search of the primary document — a negative verification, and a real one) / WEAK for the proposal's existence and status (SNIPPET-ONLY)
+CAUSALITY: not applicable — rules fact
+SOURCE: ✅ NCAA, "2025 and 2026 Baseball Rules Changes," Baseball Rules Committee / Playing Rules Oversight Panel — https://ncaaorg.s3.amazonaws.com/championships/sports/baseball/rules/2025-26PRMBA_RulesChanges.pdf — DOWNLOADED AND READ IN FULL 2026-09-14 (130,493 bytes). Proposal status from https://www.ncaa.org/committees-propose-playing-and-technology-rule-changes-in-baseball/ — NOT OPENED, snippet-only. QUEUED.
+COACHING: F-343's decision rule is fully exercisable today: the matchup buys ~27 wOBA points across ONE plate appearance. If a three-batter minimum is adopted by the SEC, it buys the same 27 points but commits you across three batters, and the rule must be re-derived — the switch would then have to beat the quality gap across a mixed-handedness sequence, which will kill most one-batter moves. ⚠️ CORPUS SELF-CATCH: the running-game cycle (F-322) logged the two-disengagement proposal from the SAME PACKAGE and missed the three-batter minimum entirely. Read rule proposals as packages, not as single items.
+CONFIDENCE: high for the absence; medium for the proposal status
+SEE ALSO: F-343, F-322, F-345
+
+---
+
+### F-345 | CORRECTED — the egress allowlist is NARROW, not empty; an object-store host serves, and the between-inning break IS governed by the clock
+TOPIC: methodology, egress, verification, run conditions, NCAA rules, pitch clock, between-innings, corrections
+CLAIM: The diagnosis carried in this corpus for ten consecutive cycles — that the remote environment has an empty network allowlist — is wrong; object-store hosts serve, and reading one primary document through that channel immediately corrected a claim made in the previous cycle.
+NUMBERS: PROBE RESULTS 2026-09-14. REFUSED (CONNECT tunnel failed, 403): en.wikipedia.org (control), pmc.ncbi.nlm.nih.gov, www.frontiersin.org, sabr.org. WebFetch refused en.wikipedia.org with {"error_type":"EGRESS_BLOCKED"}. SERVED: ncaaorg.s3.amazonaws.com -> HTTP 200, 130,493 bytes, full text extracted and read. SOURCE-VERIFIED NCAA CLOCK FACTS: pitch clock 20 s; batter must be alert with 8 s remaining (amended down from 10); BETWEEN INNINGS 120 s with UNLIMITED warm-up pitches (Rule 9.2.i); RELIEF PITCHER 150 s, unlimited warm-ups, timer starts when he crosses the warning track; mound visit 30 s with the umpire proceeding at 9 s, and on expiry the 20-second pitch clock commences; between batters 30 s (permissive by conference rule).
+POPULATION: not applicable — run-condition and rules fact
+EVIDENCE: ESTABLISHED — primary document downloaded and read
+CAUSALITY: not applicable
+SOURCE: ✅ NCAA, "2025 and 2026 Baseball Rules Changes" — https://ncaaorg.s3.amazonaws.com/championships/sports/baseball/rules/2025-26PRMBA_RulesChanges.pdf — READ IN FULL 2026-09-14
+COACHING: ⚠️ CORRECTED 2026-09-14 — INDEX.md §5 and daily/2026-09-13-report.md recorded the between-inning break as "uncovered, dominates the recovery budget, AND THE CLOCK DOES NOT TOUCH IT." The final clause is WRONG. The interval is capped at 120 seconds (150 for a reliever), and the 2025 change converted the warm-up allowance from a PITCH COUNT to a TIME BUDGET. WHY IT WAS WRONG, SO IT CANNOT BE RE-IMPORTED: it was asserted in a fully-blocked cycle from the reasonable prior that a "pitch clock" governs only the interval between pitches; the rulebook governs the whole dead-ball economy. WHY IT MATTERS: F-330 argued the clock removes the CHEAPEST seconds; the 120 s cap is the opposite case, a hard ceiling on the longest and most valuable recovery interval a starter gets — and the pitcher now chooses how to spend that fixed budget. METHOD RULE EARNED TODAY: when probing egress, ALWAYS probe an object store (*.s3.amazonaws.com, *.cloudfront.net, storage.googleapis.com, *.blob.core.windows.net). Governing bodies, journals and federations park PDFs there. Ten cycles of banner text suppressed this by asserting a cause that was never tested.
+CONFIDENCE: high — directly observed
+SEE ALSO: F-326, F-330, F-336, F-344, F-277, F-304, F-315
+
+---
+
+### F-346 | Lateral movement is a same-handed weapon and buys nothing the other way — three vault findings and an outside model agree, and all of it is CROSS-SECTIONAL
+TOPIC: platoon, arsenal construction, pitch design, movement, changeup, sweeper, sinker, marker vs lever
+CLAIM: Pitches with predominantly lateral movement are associated with larger platoon splits and pitches with predominantly vertical movement with smaller or reverse splits, a pattern that the corpus reached independently from pitch-level run values, but no one has ever manipulated an arsenal and measured the resulting change in a split.
+NUMBERS: OUTSIDE (snippet-only): pitchers with small or reverse splits throw more changeups and curveballs and fewer sliders; more vertical movement -> smaller/reverse splits; more lateral -> larger; sidearm right-handers show especially large wOBA gaps and higher slots smaller ones. CORPUS, INDEPENDENTLY: F-157 sweeper RV/100 RHP->RHB -0.94 vs RHP->LHB -0.05, where the ORDINARY slider is -0.35 (i.e. against opposite-handed hitters the sweeper is the WORST pitch in the comparison); F-158 RHP sinker usage to LHB collapsed 21% -> 9.7%; F-071 lower arm angle performs better same-handed, worse opposite-handed.
+POPULATION: MLB throughout
+EVIDENCE: EMERGING — convergent across independent data sources, but every strand is observational
+CAUSALITY: CROSS_SECTIONAL. ⚠️ NO INTERVENTION EXISTS. Nobody has added a pitch and measured a split change.
+SOURCE: Snippet-level from Cross (F-338) and FanGraphs arm-angle work (F-071); corpus strands F-157, F-158, F-071. NO PAGE OPENED 2026-09-14.
+COACHING: ⚠️ NEVER PHRASE THIS AS A LEVER AND NEVER ATTACH A MAGNITUDE. "Adding a changeup will shrink your split by X points" is the stride-length error (F-043/F-044/F-045) transplanted into arsenal design, and it is exactly how this corpus lost stride length and extension. WHAT IS SAFE TO SAY: "your sweeper is a right-handed weapon and will never be anything else" (F-157's table is a pitch-level run value, not a between-pitcher correlation) and "you need one pitch that goes toward a left-hander's hands." WHAT RESCUES IT FROM BEING ONLY A MARKER: the mechanism is forward-derivable geometry — where a pitch moves relative to a barrel path is a trajectory, not an association — which is a stronger footing than stride length ever had. THE MEASURABLE CHECK IS COMPLIANCE ONLY (F-347). COMMON FAILURE MODE: the pitcher "fixes" it by dropping his slot, which per F-071 makes the platoon problem WORSE while raising elbow varus torque (F-070).
+CONFIDENCE: medium — strong convergent mechanism, zero intervention evidence
+SEE ALSO: F-157, F-158, F-071, F-070, F-347, F-043, F-044, F-045, F-168
+
+---
+
+### F-347 | A changeup-usage shift against opposite-handed hitters is detectable in 120 pitches; its benefit is never detectable at all
+TOPIC: platoon, usage, compliance, detection, arsenal, pitch mix, verification
+CLAIM: A deliberate increase in opposite-hand-weapon usage can be verified to a few percentage points inside four starts, while the run-value benefit of that change is permanently undetectable in the individual athlete, so the recommendation must be audited on compliance and never on outcome.
+NUMBERS: n PER GROUP to detect a usage shift from 9% to 22% against opposite-handed hitters (alpha .05, 80% power): 120 opposite-handed pitches — roughly four starts. USAGE PRECISION (95% CI): at 22% true usage, n=200 -> +/-5.7 pts; n=400 -> +/-4.1; n=600 -> +/-3.3. At 15% true usage, n=400 -> +/-3.5. AGAINST F-273: detecting the run-value benefit of a 20 pp usage correction needs 61,319-137,969 pitches, and of a 10 pp correction, 981,110-8,829,990. A college season is ~1,600 pitches.
+POPULATION: NCAA D1 through MLB
+EVIDENCE: ESTABLISHED as arithmetic (binomial power; F-273's run-value SD is bracketed)
+CAUSALITY: not applicable — detection result
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §7
+COACHING: VERIFY HE THREW IT. NEVER TRY TO VERIFY IT WORKED. This is F-273's doctrine applied to the one arsenal change platoon reasoning actually licenses, and the gap between the two budgets here is roughly three orders of magnitude. Four starts buys you certainty about compliance; a career buys you nothing about effect. A coach who audits outcome will conclude the intervention failed or succeeded at random and will thrash.
+CONFIDENCE: high — elementary binomial power arithmetic
+SEE ALSO: F-273, F-346, F-270, F-264
+
+---
+
+### F-348 | The opposite-hand weapon is the FIRST thing fatigue takes — and a large collapse is visible inside one start
+TOPIC: platoon, fatigue, changeup, velocity separation, detection, within-outing, anatomy, mechanism
+CLAIM: Because the opposite-hand weapon is almost always a changeup or splitter whose effect depends on a velocity and spin differential held by forearm and wrist positioning rather than on gross force output, the fatigue hierarchy predicts that a pitcher's platoon disadvantage widens within an outing BEFORE any velocity decline is visible on the radar gun.
+NUMBERS: CHANGEUPS NEEDED PER EARLY/LATE BUCKET to detect a loss of fastball-minus-changeup velocity separation (two-sample, alpha .05, 80% power). At within-pitcher release-speed SD = 0.8 mph: 0.5 mph loss -> 40; 1.0 -> 10; 1.5 -> 4; 2.0 -> 3. At SD = 1.0 mph (corpus working assumption, F-289): 0.5 -> 63; 1.0 -> 16; 1.5 -> 7; 2.0 -> 4. At SD = 1.2 mph: 0.5 -> 90; 1.0 -> 23; 1.5 -> 10; 2.0 -> 6. AGAINST a college starter's ~12-18 changeups per start, i.e. ~6-9 per bucket.
+POPULATION: NCAA D1 through MLB starters, 85+ mph. ⚠️ The within-pitcher SD of FB-CH SEPARATION is NOT held by this corpus and the table is bracketed across the F-289 range instead.
+EVIDENCE: EMERGING as a hierarchy claim (inherits F-127's split grade: EMERGING as a formal ordering, ESTABLISHED that command and secondaries degrade before velocity) / ESTABLISHED as detection arithmetic
+CAUSALITY: MECHANISM
+SOURCE: Derived 2026-09-14 from F-127 and F-289, library/platoon-splits.md §8
+COACHING: When a starter gets hit by opposite-handed hitters the third time through, the outcome data cannot tell you whether it is his split or his fatigue — per F-286 that needs 790 seasons. THE INPUT CAN, AND CHEAPLY. Chart FB and CH release speed by pitch number and bucket early (1-40) against late (60+). A separation loss of 1.5 mph or more is detectable in a SINGLE START; a 0.5 mph drift needs ~60 per bucket, about eight starts pooled. What you tell the pitcher: "your changeup gets FASTER when you get tired, and that's what they're hitting — it isn't the lefties, it's pitch 70." Video tell: shortened changeup arm action, the F-256 arm-speed tell, the finish coming off it. THIRD FAST INSTRUMENT THE CORPUS OWNS, beside F-320 (five pitches) and F-331. AND IT IS FALSIFIABLE INSIDE ONE SEASON: if separation does NOT erode before velocity does, the mechanism is wrong.
+CONFIDENCE: medium-high — the detection arithmetic is solid, the mechanism is an untested directional prediction (Dispute #26)
+SEE ALSO: F-127, F-289, F-256, F-320, F-331, F-286, F-346
+
+---
+
+### F-349 | DEBUNKED — the circulating "100 plate appearances makes a split reliable" rule is wrong by a factor of about seventeen
+TOPIC: platoon, fabrication, content quality, reliability, field sweep, debunked
+CLAIM: The rule of thumb circulating in fantasy and betting analytics — that roughly 100 plate appearances against a given handedness is enough to treat a pitcher's split as reliable — understates the true requirement by more than an order of magnitude.
+NUMBERS: Claimed threshold ~100 PA. Actual reliability at H = 100 harmonic PA, using the published RHP regression constant of 1,670: r = 100/(100+1670) = 0.056, i.e. 5.6% signal and 94.4% noise. The threshold for r = 0.50 is 1,670 harmonic PA. ERROR FACTOR ~16.7x. Even for left-handers (c = 570) the 100-PA threshold yields r = 0.149.
+POPULATION: stated for MLB by the sources; the error is population-independent
+EVIDENCE: ESTABLISHED that the claim is wrong (arithmetic) / WEAK as to attribution (snippet-only)
+CAUSALITY: not applicable
+SOURCE: Circulating on fantasy/betting analytics pages, e.g. https://gagesports.com/blog/posts/how-platoon-splits-tell-you-when-a-hitter-is-likely-to-struggle and https://mlbbest-bet.com/articles/pitcher-splits/ — NOT OPENED, surfaced via WebSearch summary 2026-09-14. Refutation derived in-cycle.
+COACHING: This is not a fabrication in the F-274 sense — no invented citation, no fake institution — and that is precisely why it is more dangerous. It is an honest-looking rule of thumb, stated without a derivation, that a coach can act on immediately and that fails by 17x. HAZARD CLASS, NEW: the plausible-threshold heuristic. A round number with no stated derivation is a lead, never a threshold. If a source gives you a sample-size rule and does not show you the variance calculation behind it, compute it yourself — it takes ten minutes and this one took five.
+CONFIDENCE: high for the refutation; medium for who exactly is saying it
+SEE ALSO: F-274, F-275, F-284, F-293, F-314, F-338, F-337
+
+---
+
+### F-350 | THE SPLIT-OF-A-SPLIT PRINCIPLE — every split statistic doubles its noise while shrinking its signal, and F-286 is a special case
+TOPIC: methodology, splits, reliability, detection, generalisation, times through the order, platoon
+CLAIM: Any statistic formed as the difference between two subsamples of a player's own performance is far less reliable than the statistic it splits, because the sampling variance is the SUM of two variances while the true between-player spread of the split is much smaller than the true spread of overall performance, and this single structure explains every detection wall this corpus has derived.
+NUMBERS: Var(split) = sigma^2/n_1 + sigma^2/n_2 = 2*sigma^2/H (H the harmonic mean). Signal: sigma_true(platoon split) 18.4 pts vs sigma_true(overall quality) 30-50 pts. NET RELIABILITY at ~300 PA: split 0.084 vs overall ~0.6, a 7x penalty (F-342). THREE INDEPENDENT DERIVATIONS OF THE SAME WALL: F-273 (usage, 60,000+ pitches), F-286 (times through the order, 790 college seasons), F-337/F-340 (platoon, arithmetically unavailable). APPLIES EQUALLY AND UNTESTED TO: home/road, count splits, RISP, first-half/second-half, day/night, and any "since the All-Star break" claim.
+POPULATION: not applicable — general statistical structure
+EVIDENCE: ESTABLISHED as arithmetic
+CAUSALITY: not applicable
+SOURCE: Derived 2026-09-14, library/platoon-splits.md §2.1. Generalises F-286 and F-273.
+COACHING: THE ONE SENTENCE TO CARRY OUT OF THIS TOPIC: splitting a sample does not reveal hidden information, it destroys the information you had. When anyone hands you any split — platoon, times through the order, home/road, RISP — the reliability is worse than the parent statistic by roughly the ratio of the true spreads, and the parent statistic was probably already marginal. F-286's 790 seasons is not a fact about times through the order; it is this principle with one set of numbers plugged in. The practical rule: ASK FOR THE PARENT STATISTIC, NEVER THE SPLIT, and if someone insists the split matters, ask them for its standard error.
+CONFIDENCE: high — the structure is exact; the magnitudes depend on the true-spread inputs, which are bracketed
+SEE ALSO: F-286, F-273, F-337, F-342, F-282, F-094
+
+---
+
+*End of registry. 350 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-351.*
+
