@@ -767,6 +767,39 @@ F-331 proposes **seconds remaining at first movement** as an uncensored fatigue 
 
 ---
 
+## #27 — Is the between-innings bullpen A/B a DECISION test or an EXISTENCE test? *(added 2026-09-15)*
+
+**BIOMECHANIST → COACH.** The recommended bullpen A/B (120 s sit vs 120 s sit + re-warm-up, paired within-pitcher) detects **0.8 mph in 8–18 pitch-pairs and 0.5 mph in 21–46** (F-363). But the coach's own §3b says the thermal cost of a two-minute break is **~1% of lower-body power** — and F-004 forbids converting that to mph at all. **The test may be powered an order of magnitude above the effect it is aimed at.**
+
+**COACH — CONCEDED IN FULL, ON THE SPOT.** It is the sharpest objection of the cycle. The consequence is stated rather than argued away:
+
+- **A null from one bullpen means "not worth changing his routine for," NEVER "the effect does not exist."**
+- The design is a **decision test**, not an **existence test**, and the two must never be reported in each other's language.
+- The existence version would need either a measured muscle-temperature-to-velocity conversion for a throwing arm (which does not exist in any population) or a sample far beyond one program.
+
+**WHY IT IS A DISPUTE RATHER THAN A CONCESSION.** The anatomist argues the distinction generalises and should become a standing rule: **most of this corpus's "how would I know it worked" protocols are decision tests being described in existence-test language** — F-321's slide-step bullpen, F-348's FB−CH charting, F-331's clock-margin instrument. The coach argues the decision framing is the *correct* one for a practitioner and that relabelling them all would cost clarity for no practical gain. **Unresolved.**
+
+**WHAT WOULD SETTLE IT:** re-read F-320, F-321, F-331, F-348 and F-363 asking of each, *what does a NULL from this protocol license?* If the answer is "stop doing it" the protocol is a decision test; if it is "the mechanism is wrong" it is an existence test. **An afternoon of self-audit, no data required.** ⚠️ Note the structural echo of Dispute #25b, which found the corpus treating same-sign confounds as uniformly convenient: **this is the same class of error — a habit of description, not a wrong number.**
+
+---
+
+## Revisited 2026-09-15 — did today move anything?
+
+**The run condition changed, and that is the headline for this file: seven of these disputes were parked on egress and are now research tasks rather than blocked ones** (F-351).
+
+- **#23 (the Gaussian location model / f₀)** — ✅ **NARROWED, for the first time since it opened.** The boundary-band share that f₀ was calibrated against is now **MEASURED at 31.6%** of called pitches (F-352, 209,976 / 663,901). And the F-309 correction was deliberately reformulated to avoid f₀ altogether: catcher dispersion **1.13 pp of boundary-band calls** × **31.6%** = **0.357 pp of called-strike rate per SD**, with no model anywhere. **f₀ remains a model output for the INCH conversion; it is no longer load-bearing for the contamination result.**
+- **#23b (does usage drift WITH command?)** — **NOT MOVED, and newly more interesting.** F-353 establishes a *second* within-pitcher drift on the same metric — count composition — running in the **opposite** direction: better command → more two-strike counts → a smaller umpire zone → observed called-strike rate understates the gain. **Two coupled within-pitcher drifts, both small, opposite signs.** Whether they cancel is unknown and nobody has looked.
+- **#25 (the steady-state plateau)** — ⚠️ **NEWLY SETTLEABLE, AND THE EXCUSE EXPIRED.** #25 states it is settled by reading PMID 27434082 (Yang 2016) — *"the experiment that distinguishes a level shift from a ramp HAS ALREADY BEEN RUN and this program has not read it."* **As of today that is no longer a statement about the network.** First task next cycle.
+- **#26 (does the opposite-hand weapon die before velocity?)** — **NOT MOVED.** A source-verified counter-example arrived (PMC6028199: velocity fell significantly, accuracy did not) and was **disqualified on power** — 9 pitches per pitcher per inning gives SE ≈ 5 pp against a ~7 pp observed drop (F-364). **Recorded rather than scored: the dispute sits exactly where it sat.**
+- **#24 (is the slide step free at 85+)** — **NOT MOVED**, but F-361 promotes its defect from an instance to a **pattern**: *every* manipulated between-innings or recovery study in existence fails the 85 mph floor (76 / 81 / ~70 / ~67 mph, and one unreported). **The corpus's recurring vulnerability is confirmed as population drift in honest sources, not fabrication.**
+- **#18, #19, #20a, #20b, #21, #22** — **NOT MOVED, but no longer BLOCKED.** Every one was parked on egress. They are now ordinary research tasks and should stop being reported as environmental casualties.
+
+**NEW THIS CYCLE: #27.**
+
+**METHODOLOGICAL NOTE.** For the second consecutive cycle a correction to this program's own run-condition belief produced more than a correction: F-345 widened the egress probe by one host and got a primary source; today widened it by two more and got the open-access biomedical literature. **Yesterday's note — *re-probe assumptions about the run environment, not just assumptions about pitching* — was worth exactly one more cycle of compounding. Keep probing; the current belief is also provisional.**
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**

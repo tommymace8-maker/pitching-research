@@ -4420,5 +4420,201 @@ SEE ALSO: F-286, F-273, F-337, F-342, F-282, F-094
 
 ---
 
-*End of registry. 350 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-351.*
+### F-351 | ✅ THE BLOCKADE IS OVER — the entire PMC Open Access subset and the arXiv bulk corpus are readable through object stores
+TOPIC: methodology, egress, verification, run conditions, PMC, arXiv, infrastructure, corrections
+CLAIM: Extending the 2026-09-14 object-store rule by two hosts opened full-text access to the open-access biomedical literature and to arXiv, ending eleven cycles in which this corpus could compute but not read.
+NUMBERS: PROBE RESULTS 2026-09-15. SERVED (HTTP 200): `pmc-oa-opendata.s3.amazonaws.com` — the NIH PMC Open Access subset, PUBLICLY LISTABLE, keyed `PMC<id>.<version>/` and containing per-article `.txt`, `.xml`, `.pdf` AND supplementary data files (e.g. `PMC11608975.1/Datasheet1.csv`, 1,248,300 bytes of the source's own raw data); `storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/<yymm>/<id>v1.pdf` — the arXiv bulk corpus on Google Cloud Storage, which served the verification-queue head `2609.03786` as a 522,721-byte PDF; `ncaaorg.s3.amazonaws.com` (confirmed again). STILL REFUSED (socket never opens, HTTP 000): `en.wikipedia.org` (control), `arxiv.org`, `export.arxiv.org`, `eutils.ncbi.nlm.nih.gov`, `www.ncaa.org`, `d1.awsstatic.com`. SIX FULL TEXTS RETRIEVED AND READ THIS CYCLE. Working retrieval pattern: WebSearch to obtain a PMCID or arXiv ID (NCBI E-utilities is blocked, so there is no search API), then fetch from the object store by key.
+POPULATION: not applicable — run-condition fact
+EVIDENCE: ESTABLISHED — six primary documents downloaded, text-extracted and read in this cycle
+CAUSALITY: not applicable
+SOURCE: Probed in-cycle 2026-09-15. Extends F-345.
+COACHING: Not a coaching finding. THE METHOD LESSON, and it is the same one as F-345 one cycle later: the constraint was never "the network is blocked," it was "we stopped probing." F-345 widened the probe by ONE host and got one PDF; this cycle widened it by TWO more and got the open-access biomedical literature. ⚠️ THE STANDING BRIEF'S WORKING-DOMAIN LIST IS STILL WRONG — every journal host on it (`pubmed`, `frontiersin.org`, `nature.com`, `pmc.ncbi.nlm.nih.gov`) is refused; the material arrives through the object stores instead. ⚠️ AND THE OBLIGATION FLIPS: F-259's rule ("a cycle that cannot read papers must not write table rows") no longer excuses anything. THE VERIFICATION QUEUE IS NOW WORK, NOT A LIABILITY.
+CONFIDENCE: high — directly observed, repeatedly
+SEE ALSO: F-345, F-277, F-267, F-259, F-259
+
+---
+
+### F-352 | ✅ SOURCE-VERIFIED — the human strike zone IS count-dependent, by 17 points, and F-312 comes out of quarantine intact
+TOPIC: umpire bias, count, called strike, KBO, ABS, confound, verification, command measurement
+CLAIM: The queue-head paper was downloaded and read in full. Every figure F-312 carried on snippet authority is correct, the design is what the snippet described, and the named fabrication hazard did not materialise.
+NUMBERS: Lee K & Ko J (2026), "Auditing Contextual Bias in Human Ball-Strike Calls Using KBO's Automated Umpiring Transition," arXiv:2609.03786v1 [cs.HC], 3 Sep 2026, Yonsei University. SAMPLE: 1,216,246 pitch rows (Naver Sports KBO records, 2021–partial 2026); 663,901 called (taken) pitches; 209,976 in the main boundary band, defined as within 0.25 ft (3 in) of the nearest rule-zone boundary; 3,987 games. Human baseline 2022–2023, ABS benchmark 2024+. Logistic model with a boundary-aligned basis expansion of the called-strike surface plus pitch-type, speed, stance, handedness and season fixed effects; average marginal effects in percentage points with FDR-adjusted q-values. HUMAN-PERIOD RESULT, boundary band, relative to 0-0: 0-2 = **−17.17 pp**; 1-2 = **−14.92**; 2-2 = **−11.94**; 3-2 = **−10.49**; 3-0 = **+6.61**; 2-0 = **+5.14**; 1-0 = **+1.80**; 3-1 ≈ 0 and not significant. All two-strike effects survive FDR. Under ABS the same contrasts are near zero and do not survive FDR. NEW NUMBER THE CORPUS DID NOT HOLD: **the boundary band is 31.6% of all called pitches** (209,976 / 663,901) — the first measured value for the quantity F-307 had to model.
+POPULATION: KBO, 2022–2026. ⚠️ A KOREAN UMPIRING ENVIRONMENT, not NCAA. The finding is about umpires, not pitchers, so the 85 mph floor does not bite — but the transfer to NCAA umpires is assumed, not shown.
+EVIDENCE: ESTABLISHED for KBO — full text read, large sample, pre-specified FDR correction, an automated benchmark as the control condition
+CAUSALITY: CROSS_SECTIONAL with a natural-experiment benchmark. The authors are explicit that the ABS transition was NOT randomised and they interpret it diagnostically, not causally.
+SOURCE: arXiv:2609.03786v1, retrieved via `storage.googleapis.com/arxiv-dataset/` 2026-09-15 and read in full.
+COACHING: On 0-2 the umpire is calling a zone about three inches smaller than the one he called on 0-0. That is real and it is large. It does NOT become a coaching instruction — see F-313, which survives this verification untouched, and F-353, which shows the confound it implies is much smaller than this headline suggests. ⚠️ RECORDED AGAINST INTEREST: F-312 flagged "0-2 tightens, 3-0 widens" as long-standing folklore that a confabulating summariser would find easy to produce, and warned that two-decimal precision is F-284's texture. The caution was correct to raise and the numbers were real. **A defensive flag firing on a true claim is the F-303 lesson arriving a second time.**
+CONFIDENCE: high for KBO; medium for transfer to NCAA
+SEE ALSO: F-312, F-313, F-305, F-307, F-309, F-283, F-303, F-311
+
+---
+
+### F-353 | ⚠️ CORRECTED 2026-09-15 — count composition does NOT outrank the catcher as a command-metric confound; F-312's headline speculation is WITHDRAWN
+TOPIC: command, measurement, confound, count, catcher, correction, contamination, skeptical correction
+CLAIM: F-312 registered that IF the count effect were real it would be "a ~4x larger confound on the same metric" than the catcher. The effect is real (F-352) and the inference is wrong: the count effect lives only in the boundary band and a realistic between-pitcher difference in count composition is far too small to exploit it.
+NUMBERS: COMPUTED 2026-09-15 from F-352's verified inputs. The count effect applies to boundary-band pitches, **31.6%** of called pitches (VERIFIED), and is ~0 elsewhere. Mean two-strike effect ≈ −14 pp. A pitcher who reaches two-strike counts 8 percentage points more often than another therefore differs in observed called-strike rate by 0.08 × 14 × 0.316 = **0.35 pp**; at 5 pp, **0.22 pp**; at 3 pp, **0.13 pp**. Against F-309's catcher term recomputed on measured data (F-354): **0.38 pp** for one SD of catcher. RATIO ≈ 0.6–0.9×, NOT 4×. THE MAXIMUM AVAILABLE, a counterfactual pitcher whose every pitch moved from 0-0 to 0-2, is 17.17 × 0.316 = 5.4 pp, and no pitcher is within an order of magnitude of it.
+POPULATION: derivation over F-352's KBO inputs and F-309's model
+EVIDENCE: ESTABLISHED as arithmetic, conditional on the count effect being confined to the boundary band (which the paper's design assumes by construction)
+CAUSALITY: not applicable — arithmetic
+SOURCE: Derived in-cycle 2026-09-15 from arXiv:2609.03786v1.
+COACHING: THE SIGN IS THE USABLE PART, AND IT IS COUNTER-INTUITIVE: because two-strike counts carry a SMALLER umpire zone, a pitcher who improves his command gets ahead more often and therefore has more of his pitches judged by a tighter zone. **Count composition MASKS a real command gain rather than manufacturing a fake one.** Magnitude ≈ 0.1–0.2 pp against a ~4.5 pp gain, i.e. it hides about 3–4% of the improvement. Real, signed, and too small to correct for. ⚠️ THE METHOD LESSON: the paper that motivated eleven cycles of queue-head priority, when finally read, SHRANK the claim that put it at the head of the queue. **This is the second correction this program has issued in the skeptical direction (after F-303), and the first to be issued against its own hype rather than against a source's.**
+CONFIDENCE: high — the dilution factor is measured, not modelled
+SEE ALSO: F-312, F-352, F-309, F-354, F-303, F-287
+
+---
+
+### F-354 | ⚠️ CORRECTED 2026-09-15 — the first MEASURED catcher framing dispersion says the catcher contaminates a command number about TEN TIMES less than this corpus registered
+TOPIC: framing, catcher, command, measurement, confound, correction, contamination, skeptical correction
+CLAIM: F-309's headline — that at the scale of a realistic one-season command gain the catcher term is 0.82x the command term — rests on an ASSUMED presentation difference of 0.5 inches. A measured, shrinkage-adjusted catcher dispersion is now available and implies roughly a tenth of that.
+NUMBERS: MEASURED INPUT (F-352, arXiv:2609.03786v1, Table 2): among 39 eligible KBO catchers (≥100 boundary-band called pitches), human period, **shrinkage-adjusted residual SD = 1.13 percentage points**, heterogeneity p = 2.24e−15; under ABS the same dispersion is **0.00 pp** and unsupported. Figure-eligible catchers span **roughly 5 pp** most-negative to most-positive. CONVERSION using F-307's f0 ≈ 7 calls per 100 taken pitches per inch and F-352's verified 31.6% band share: 1 SD of catcher = 1.13 × 0.316 = 0.357 pp per taken pitch = **0.051 inches** of effective presentation shift; the best-to-worst spread = 1.58 pp = **0.226 inches**. RECOMPUTED F-309 HEAD-TO-HEAD: catcher term = **0.38 pp** at 1 SD and **1.67 pp** at the full best-to-worst extreme, against a realistic one-season command gain of 4.52 pp. RATIO **0.08** (1 SD) and **0.37** (extreme), NOT 0.82. F-308's BACKWARD CHECK RE-EXAMINED: it inferred 0.35–0.70 in for the MLB best-to-worst spread from an assumed ±15–20 R framing value; the measured KBO spread is **0.226 in**, so F-308's inferred range is **1.5–3x too large**, and running it forward gives ~6 R best-to-worst (~±3 R) rather than ±15–20 R.
+POPULATION: KBO catchers, 2022–2023. ⚠️ NOT MLB AND NOT NCAA. KBO catcher quality spread, umpire behaviour and pitch-tracking are all assumed comparable, and none of that is shown.
+EVIDENCE: EMERGING — the dispersion is measured and well-identified; the inch conversion runs through f0, which remains a MODEL OUTPUT (Dispute #23)
+CAUSALITY: CROSS_SECTIONAL with an ABS benchmark — catcher identity explains residual called-strike variation under human umpires and stops doing so under ABS, which is the pattern receiving would produce
+SOURCE: arXiv:2609.03786v1 Table 2, read in full 2026-09-15. Conversion derived in-cycle against F-307/F-308/F-309.
+COACHING: WHAT SURVIVES F-309 UNCHANGED, and it is the important half: **called-strike rate is still a two-person statistic, and the catcher term is still a BIAS rather than noise**, because catcher assignment is not random and more data therefore makes the error more confident (the F-287 structure). WHAT DOES NOT SURVIVE: the size. Changing from an average catcher to a one-SD-better one moves a pitcher's called-strike rate by about **0.4 points**, roughly **8%** of a realistic one-season command gain — not 82%. The practical consequence is a DOWNGRADE of F-308's roster claim: half an inch of framing is not ~8 runs a college season because half an inch is not available; the whole measured spread is a quarter of an inch. ⚠️ **F-310's recommendation is unaffected and gets stronger: measure tracked location, which is framing-immune by construction and now also count-immune.**
+CONFIDENCE: medium-high — a real measurement replacing an assumption, but through a modelled conversion and from a different league
+SEE ALSO: F-309, F-308, F-307, F-306, F-352, F-310, F-287, F-314
+
+---
+
+### F-355 | THE BETWEEN-INNING BREAK HAS TWO CHANNELS THAT POINT IN OPPOSITE DIRECTIONS — and one of them saturates while the other does not
+TOPIC: between innings, recovery, warm-up, thermal, phosphagen, derivation, mechanism, pitch clock
+CLAIM: Sitting between innings recovers phosphagen (longer is better) and loses muscle temperature (longer is worse). The metabolic channel is roughly an order of magnitude faster than the thermal one, so their ratio falls monotonically across the break: a crossover beyond which extra sitting is net negative must EXIST and be unique, even though its location cannot be computed.
+NUMBERS: DERIVED IN-CYCLE. Metabolic benefit per second = (1/tau_m)e^(−t/tau_m) with tau_m = 28.9–43.3 s (F-132's 20–30 s fast-phase half-time, as used by F-327). Thermal cost per second = (A/tau_T)e^(−t/tau_T) with tau_T of order 300–1800 s, calibrated so that the drop at 900 s equals the 1.5 °C measured over a soccer half-time (SOURCE-VERIFIED, below). THE RATIO of metabolic benefit to thermal cost falls by a factor of **11x to 59x across the first 120 seconds** (11–15x at the slow end of tau_m, 43–59x at the fast end), and the fall is monotonic for every parameter pair in the bracket. ⚠️ THE CROSSOVER TIME ITSELF IS NOT COMPUTABLE, because the two channels are denominated in different units — fraction of an unmeasured per-pitch depletion `d` (F-336) versus percent of lower-body power — and nothing converts between them.
+POPULATION: population-independent derivation; the thermal calibration is from soccer players
+EVIDENCE: ESTABLISHED as arithmetic, conditional on both processes being monoexponential
+CAUSALITY: MECHANISM — derivation
+SOURCE: Derived in-cycle 2026-09-15. library/between-inning-break.md §2.
+COACHING: This is the shape argument, not a magnitude — the same move F-327 made against the pitch clock and the same limitation. WHAT IT LICENSES: the question "how long should he sit?" has an interior answer rather than a monotone one, so "more rest is always better between innings" is FOLKLORE on structure alone. WHAT IT DOES NOT LICENSE: any statement about where the crossover is. ⚠️ THE MISSING NUMBER IS THE SAME ONE AS LAST CYCLE — `d`, the per-pitch phosphagen depletion, unmeasured in any population. That gap now blocks two topics.
+CONFIDENCE: high for the monotone ratio; the crossover location is unknown and stated as unknown
+SEE ALSO: F-327, F-330, F-336, F-132, F-356, F-357
+
+---
+
+### F-356 | The 120-second break costs a QUARTER of a half-time's cooling in a SEVENTH of the time — the temperature drop is front-loaded
+TOPIC: between innings, thermal, muscle temperature, re-warm-up, derivation, scaling, soccer
+CLAIM: The re-warm-up literature that everyone quotes measures a 15-minute half-time. Scaling its measured temperature drop to a 120-second inning break through an exponential decay shows the break captures a disproportionate share of the cooling — but the absolute cost is still small.
+NUMBERS: SOURCE-VERIFIED INPUTS: a passive 15-minute half-time induces a muscle-temperature drop of **~1.5 °C** (González Fernández et al. 2023, Biol Sport 40(2):335–344, PMC10108754, read in full, citing Mohr et al.); **~3% reduction in lower-body power output per 1 °C of muscle-temperature reduction** (Marques-Jiménez et al., as reported and read in PMC10535876). DERIVED SCALING, with the decay calibrated so that dT(900 s) = 1.5 °C: at tau_T = 300 s, dT(120 s) = **0.52 °C** (34.7% of the half-time drop); 600 s → **0.35 °C** (23.3%); 1800 s → **0.25 °C** (16.4%); linear limit → **0.20 °C** (13.3%). RANGE **0.20–0.52 °C**, best estimate ~0.30–0.35 °C, i.e. **15–35% of a half-time's cooling in 13% of the time**. AT 3%/°C: **0.6–1.6% of lower-body power**, best estimate ~1.0%. For a 150-second relief-pitcher interval (F-345): 0.28–0.62 °C.
+POPULATION: ⚠️ THE THERMAL INPUTS ARE FROM SOCCER PLAYERS AND MEASURE LOWER-BODY POWER. No muscle-temperature measurement exists for a pitching arm between innings, in any population.
+EVIDENCE: EMERGING — two source-verified empirical inputs, one derived scaling, and a transfer across sports that nobody has tested
+CAUSALITY: the inputs are from MANIPULATED designs (see F-358); the SCALING to 120 s is derivation
+SOURCE: PMC10108754 and PMC10535876, both downloaded from `pmc-oa-opendata.s3.amazonaws.com` and read 2026-09-15. Scaling derived in-cycle.
+COACHING: The honest sentence is "about a third of a degree, worth about one percent of lower-body power, and we do not know what one percent of lower-body power is worth in mph." ⚠️ **F-004 FORBIDS THE OBVIOUS CONVERSION**: jump height does not predict fastball velocity (r = 0.07 NS), so a percentage of lower-body power CANNOT be converted into mph by this corpus or by anybody else. Anyone who hands you a mph figure derived this way has done arithmetic the literature does not support.
+CONFIDENCE: medium — the 1.5 °C and 3%/°C inputs are verified as reported in a read source, but both are that source's citation of an older primary study which was not itself opened
+SEE ALSO: F-355, F-358, F-004, F-345, F-330
+
+---
+
+### F-357 | The last thirty seconds of an inning break are worth about a TWENTIETH of the first thirty — the 120-second cap is nearly free
+TOPIC: between innings, pitch clock, recovery, marginal value, derivation, PCr, NCAA rules
+CLAIM: Applying F-330's exponential-marginal-value result to the between-inning interval rather than the inter-pitch interval makes it far more extreme, and it says the NCAA's 120-second cap truncates almost nothing of metabolic value.
+NUMBERS: DERIVED IN-CYCLE, tau = 28.9–43.3 s (F-132/F-327 bracket). FRACTIONAL FAST-PHASE RECOVERY by elapsed break time: 30 s → **50.0–64.6%**; 60 s → **75.0–87.5%**; 90 s → **87.5–95.6%**; **120 s → 93.7–98.4%**; 150 s → 96.9–99.4%; 180 s → 98.4–99.8%. MARGINAL VALUE: the first 30 seconds buy **50.0–64.6** points of recovery; the last 30 (90→120 s) buy **2.9–6.3**. RATIO **8.0x–22.5x**, against F-330's inter-pitch ratio of only 1.60x. ⚠️ **THE FRACTION RECOVERED IS INDEPENDENT OF `d`** — an F-307-class invariance. The unmeasured per-pitch depletion scales the absolute deficit but cancels out of the fraction, so this table is usable where F-327's cells are not. 95% recovery is reached at **86–130 seconds**, which brackets the NCAA's 120-second cap almost exactly.
+POPULATION: population-independent derivation
+EVIDENCE: ESTABLISHED as arithmetic, conditional on the monoexponential fast phase
+CAUSALITY: MECHANISM — derivation
+SOURCE: Derived in-cycle 2026-09-15. library/between-inning-break.md §3.
+COACHING: THE ANSWER TO "IS THE 120-SECOND CAP HURTING HIM?" IS NO, on the metabolic channel, and the margin is not close. By 120 seconds he is 94–98% recovered and the seconds the rule removes are worth about a twentieth of the seconds it leaves him. ⚠️ AND THE SAME ARITHMETIC RUNS THE OTHER WAY: the 120 s of a normal break are almost entirely spent buying nothing after the first minute, which is what makes room for F-355's thermal channel to matter and for the warm-up-pitch decision to be about temperature and rhythm rather than about rest.
+CONFIDENCE: high — the invariance to `d` is exact and the bracket is the corpus's own
+SEE ALSO: F-330, F-327, F-345, F-355, F-132, F-307
+
+---
+
+### F-358 | ⚠️ THE ONE THING RE-WARM-UP RELIABLY IMPROVES IS THE ONE QUALITY THIS CORPUS HAS ESTABLISHED DOES NOT PREDICT VELOCITY
+TOPIC: re-warm-up, intervention, meta-analysis, jump height, velocity, transfer, marker vs lever, soccer
+CLAIM: The re-warm-up literature is a genuine intervention literature — randomised, crossover, controlled — which this corpus almost never gets. Its pooled benefit sits on countermovement jump and NOT on sprint, and jump performance is a registered NULL for pitch velocity.
+NUMBERS: SOURCE-VERIFIED. González Fernández FT, Sarmento H, Infantes-Paniagua Á, Ramirez-Campillo R, González-Víllora S, Clemente FM (2023), "Effects of re-warm-up protocols on the physical performance of soccer players: a systematic review with meta-analysis," Biology of Sport 40(2):335–344, PMID 37077775, PMC10108754, read in full. From 892 records, **4 studies reviewed, 3 meta-analysed**. VERTICAL JUMP HEIGHT: **ES = 0.66, p = 0.001, I² = 0.0%** (moderate, homogeneous). LINEAR SPRINT TIME: **ES = 0.19, p = 0.440, I² = 38.4%** (trivial, not significant). RISK OF BIAS: one study "some concerns," two "high," one "some concerns" — no study rated low. AGAINST THIS CORPUS: F-004, bilateral vertical jump height has NO significant relationship with fastball velocity; F-005, power per kilogram r = 0.19 NS; F-003, it is CMJ concentric IMPULSE (r = 0.71) and absolute output that carry the signal, not jump height.
+POPULATION: ⚠️ SOCCER PLAYERS, outcomes CMJ and linear sprint. No pitching outcome is measured anywhere in this literature. DIRECTIONAL ONLY for an 85+ arm.
+EVIDENCE: EMERGING — the meta-analysis is real and the designs are controlled, but k = 3, no study is at low risk of bias, and the population and outcome both mismatch
+CAUSALITY: **INTERVENTION** for the soccer outcomes — the variable was manipulated with a control condition, which is the rarest causality tag in this registry. **NOT AN INTERVENTION FOR ANYTHING THIS PROGRAM CARES ABOUT.**
+SOURCE: PMC10108754, downloaded from `pmc-oa-opendata.s3.amazonaws.com` and read in full 2026-09-15.
+COACHING: This is the cycle's sharpest warning and it cuts against the intervention, not for it. The between-innings re-warm-up argument will arrive in your program wearing the strongest credential in sports science — "randomised, controlled, meta-analysed" — and the outcome it moves is the one this corpus spent its first week establishing is unrelated to throwing a baseball hard. **A real intervention on the wrong outcome is not weaker evidence than a cross-sectional study on the right one; it is a different error, and it is harder to see, because the design looks impeccable.** ⚠️ Note also which half moved: jump (a vertical, bilateral, largely elastic expression) improved; sprint (a horizontal, cyclic, whole-body expression, and the closer analogue to a delivery) did not.
+CONFIDENCE: high that this is what the meta-analysis reports; high that F-004 says what it says; the JOIN between them is the corpus's own inference and is stated as such
+SEE ALSO: F-004, F-005, F-003, F-355, F-356, F-359, F-361
+
+---
+
+### F-359 | 117 maximum-effort pitches did not move squat-jump power AT ALL — a second, independent reason the re-warm-up channel may not transfer
+TOPIC: fatigue, jump power, lower extremity, simulated game, velocity decline, intervention, null
+CLAIM: In a source-verified simulated nine-inning game, every squat-jump variable was unchanged after 117 maximal pitches while ball velocity fell and hip strength fell — so the physical quality the re-warm-up literature moves is the quality that the pitching stimulus itself does not touch.
+NUMBERS: SOURCE-VERIFIED. Yanai/Jobu University group (2018), J Exerc Rehabil, PMC6028199, read in full. n = 18 collegiate male pitchers (12 RH / 6 LH; age 19.9 ± 0.7 y; 177.8 ± 4.8 cm; 75.9 ± 4.9 kg), 117 pitches over 9 innings (13/inning, 1 per 15 s), **5-minute rest between innings**, all fastballs at maximal effort. BALL VELOCITY: 1st inning 130.3 ± 6.2 km/h; 7th 128.4 ± 5.7 (P = 0.026, d = 0.32); 9th 127.8 ± 6.8 (P = 0.001, d = 0.38) — a decline of **2.5 km/h = 1.55 mph**. SQUAT JUMP, pre vs post, ALL NON-SIGNIFICANT: height 0.41 ± 0.04 → 0.42 ± 0.04 m (d = 0.25); mean power 2,714.9 ± 548.0 → 2,704.8 ± 572.9 W (d = 0.02); peak power 6,084.2 ± 956.4 → 6,291.9 ± 1,205.6 W (d = 0.19); mean velocity 1.61 → 1.59 m/s; peak velocity 3.17 → 3.20 m/s. ISOMETRIC HIP STRENGTH DID FALL: abduction 450.2 → 426.7 N (P = 0.009, d = 0.41); adduction 450.7 → 421.4 N (P = 0.001, d = 0.47), and the 9th-inning velocity loss correlated with the adduction loss (r = 0.583, P = 0.011).
+POPULATION: ⚠️ **SAMPLE MISMATCH — DIRECTIONAL ONLY. Mean first-inning velocity 130.3 km/h = 80.96 mph**, four mph below this corpus's floor. Japanese collegiate.
+EVIDENCE: ESTABLISHED for that sample — a real repeated-measures design, read in full
+CAUSALITY: CROSS_SECTIONAL over time within a session (a fatigue protocol, not a manipulation of the between-inning interval, which was fixed at 5 minutes)
+SOURCE: PMC6028199, downloaded from `pmc-oa-opendata.s3.amazonaws.com` and read in full 2026-09-15.
+COACHING: Two things to carry. (1) **The jump test is blind to pitching fatigue.** 117 max-effort pitches, a measurable velocity loss, a measurable hip-strength loss — and not one squat-jump variable moved, two of them in the wrong direction. Anybody proposing to monitor a starter's between-innings readiness with a jump mat is proposing to watch the one instrument this study says does not respond. (2) It compounds F-358 from the other end: the re-warm-up literature moves jump, and jump does not respond to pitching. **Both halves of the transfer chain are broken independently.** ⚠️ The hip adduction/abduction result is the interesting live end of this paper and is NOT today's topic — flagged for a future cycle.
+CONFIDENCE: high for what the paper reports; the 81 mph mean is the binding limitation
+SEE ALSO: F-358, F-004, F-127, F-289, F-361, F-364
+
+---
+
+### F-360 | The between-innings intervention that HAS been tested on pitchers is COOLING, not warming — and it reverses when it hurts
+TOPIC: between innings, cooling, ergogenic aid, intervention, velocity, RPE, field sweep, crossover
+CLAIM: Two crossover studies have manipulated what a pitcher does during the between-innings interval, and both cooled rather than re-warmed. The newer one, read in full, finds the effect flips sign depending on whether the cooling is painful.
+NUMBERS: (a) SOURCE-VERIFIED. Journal of Human Kinetics (2025), PMC12360938, read in full: **n = 22** university Division II male baseball athletes, **5 sets x 10 maximum-speed throws**, 3-minute recovery with intermittent **palm cooling in 10 °C water** vs no cooling, crossover. Post hoc split by pain report: NO-PAIN group (n = 10) mean throw velocity **107.9 ± 9.9 vs 106.9 ± 10.2 km/h** (+1.0 km/h = **+0.62 mph**), max **112.5 ± 9.0 vs 111.2 ± 9.8** (+0.81 mph), accuracy and arousal also higher; PAIN group (n = 12) mean **101.0 ± 11.1 vs 105.2 ± 10.5 km/h** (−4.2 km/h = **−2.61 mph**), max **105.0 vs 108.7** (−2.30 mph), both p < 0.05. RPE lower under cooling in both groups. (b) EXISTENCE VERIFIED, SUBSTANCE SNIPPET-ONLY: Bishop SH et al. (2016), "The Effect of Intermittent Arm and Shoulder Cooling on Baseball Pitching Velocity," J Strength Cond Res 30(4):1027–1032, doi 10.1519/jsc.0000000000000256 — reported n = 8 college-aged pitchers, 12 pitches/inning at 1 per 20 s x 5 innings, 6-minute recovery with 4 minutes of local cooling to deltoid and forearm vs none; reported mean velocity **31.2 ± 2.1 vs 30.6 ± 2.1 m/s** (+0.6 m/s = **+1.34 mph**), significant in innings 4 and 5, with lower RPE.
+POPULATION: ⚠️ **SAMPLE MISMATCH, SEVERE, IN BOTH. (a) mean throw velocity 107.9 km/h = 67.0 mph, and these are throws at a target, not mound pitches. (b) 31.2 m/s = 69.8 mph.** Both are 15–18 mph below this corpus's floor.
+EVIDENCE: (a) EMERGING — real crossover design read in full, but the responder split is POST HOC on a variable measured after treatment, with n = 10 and n = 12, which is exactly the design that manufactures subgroup differences. (b) WEAK — article not opened; journal is paywalled and not in PMC.
+CAUSALITY: **INTERVENTION** in both — the between-innings activity was manipulated with a within-subject control. The corpus's second and third intervention tags this cycle.
+SOURCE: PMC12360938, read in full 2026-09-15. Bishop 2016 existence corroborated across PubMed, the journal's own table of contents, Ovid and Wikidata; substance from search snippet only.
+COACHING: **DO NOT ACT ON THIS YET, and be ready for it to arrive in your clubhouse anyway** — an industry Substack is currently circulating the Bishop result as "four minutes of ice might save your sixth inning," with the magnitude stated and the 70 mph sample not. What is genuinely interesting is the direction: the industry's instinct between innings is to STAY WARM (jacket, keep moving), and the only manipulated pitching evidence points the other way. What makes it unusable is the population: a 67 mph thrower's limiting factor between efforts is not an 88 mph starter's. ⚠️ AND NOTE THE ASYMMETRY IN (a): the harm arm (−2.6 mph) is **four times larger** than the benefit arm (+0.6 mph). If you were to try this, the downside is bigger than the upside and the discriminator is subjective pain.
+CONFIDENCE: medium for (a) as reported; low for (b); very low for transfer to 85+
+SEE ALSO: F-355, F-358, F-361, F-329, F-323
+
+---
+
+### F-361 | ⚠️ EVERY MANIPULATED BETWEEN-INNINGS STUDY IN EXISTENCE RUNS BELOW THE 85 MPH FLOOR — four consecutive cycles, four population failures
+TOPIC: methodology, sample mismatch, population, intervention, structural gap, between innings
+CLAIM: This topic is the corpus's rare case of a genuine intervention literature, and not one study in it is run on the population this program exists to serve. The pattern is now four cycles old and is a structural fact about who gets studied, not an accident.
+NUMBERS: THE LADDER, all verified this cycle or last: F-323, the field's most-quoted slide-step study — **76 mph, mean age 17.6**. F-329, Yang 2016, the only manipulation of the inter-pitch interval — **mean velocity NOT REPORTED ANYWHERE**, n = 7 Taiwanese intercollegiate. F-359, the nine-inning simulated-game study — **80.96 mph**, n = 18 Japanese collegiate. F-360(b), Bishop 2016 cooling — **~69.8 mph**, n = 8. F-360(a), palm cooling — **~67.0 mph**, n = 22 D-II, and throws rather than pitches. F-358, the re-warm-up meta-analysis — **soccer players, no throwing outcome at all.** MEDIAN SAMPLE SIZE ACROSS THE PITCHING STUDIES: **n = 13**. NOT ONE clears 85 mph; the closest is 4 mph short.
+POPULATION: not applicable — this is a statement about the literature
+EVIDENCE: ESTABLISHED — each sample velocity is read from the source (except F-329, whose absence is itself the finding)
+CAUSALITY: not applicable
+SOURCE: Assembled in-cycle 2026-09-15 across PMC6028199, PMC12360938, PMID 22487194, PMID 27434082 and JSCR 30(4).
+COACHING: THE OPERATING RULE THIS FORCES: on this topic, **the causality tag and the population tag point in opposite directions, and the population tag wins.** An INTERVENTION at 67 mph is not better evidence for an 88 mph starter than a CROSS_SECTIONAL study at 92 — it is differently wrong, and the strong design makes it more persuasive than it deserves to be. ⚠️ This is the mirror image of the corpus's founding error: F-043/F-044/F-045 was a cross-sectional finding sold as a lever. **This is a lever, correctly identified as a lever, measured on somebody else's arm.** The recurring vulnerability named in the 2026-09-14 disputes file — *population drift in honest sources* — is now the single most common defect in everything this program reads.
+CONFIDENCE: high
+SEE ALSO: F-323, F-329, F-359, F-360, F-358, F-043, F-240
+
+---
+
+### F-362 | WHEN he throws his warm-ups barely matters; the whole between-innings decision is small in EVERY channel
+TOPIC: between innings, warm-up pitches, NCAA rules, timing, derivation, effect size
+CLAIM: The 2025 NCAA change to a 120-second time budget with unlimited warm-up pitches created a real decision variable, and working both channels through says the decision is worth very little however it is made.
+NUMBERS: DERIVED IN-CYCLE against F-345's verified rule (120 s between innings, unlimited warm-ups; 150 s for a relief pitcher). METABOLIC COST OF THROWING LATE: a warm-up pitch thrown at t leaves (120 − t) s to repay its own depletion `d`. At t = 40 s, **84–94% repaid**; t = 60 s, **75–87%**; t = 80 s, **60–75%**; t = 100 s, **37–50%**; t = 110 s, **21–29%**. Worst case — moving the last warm-up from t = 40 to t = 110 — leaves roughly **0.6 of ONE pitch's depletion** unpaid, against a steady-state inter-pitch deficit at 20 s tempo of **1.0–1.7 x d** (F-327). So the entire timing decision is worth about **35–60% of the deficit he already carries on every pitch of the outing anyway**. THERMAL BENEFIT OF THROWING LATE, over the same 70-second shift: **0.1–0.3 °C**, i.e. **0.3–0.9% of lower-body power** (F-356), which F-004 forbids converting to mph.
+POPULATION: NCAA, 85+; the derivation is population-independent but the rule is NCAA
+EVIDENCE: EMERGING — sound arithmetic over one verified rule and two bracketed physiological inputs
+CAUSALITY: MECHANISM — derivation
+SOURCE: Derived in-cycle 2026-09-15 against F-345, F-327, F-356. library/between-inning-break.md §4.
+COACHING: **The recommendation is to stop having this argument.** Both channels say the routine break is worth a fraction of one pitch and a fraction of one percent, and they partly cancel. Coach the warm-up count for RHYTHM and for the catcher's throw-down, which is what it is actually for, and spend the attention elsewhere. ⚠️ THE ONE ASYMMETRY WORTH KEEPING: throwing LATE is weakly better on both channels once he is past the first minute — the metabolic cost of a late pitch is small because he is already 94%+ recovered (F-357) and the thermal benefit is monotone. So if a pitcher wants a rule, it is **"take the break, then warm up at the end of it," not "throw early and sit."** That is a tiebreaker, not a lever, and it should be presented as one.
+CONFIDENCE: medium-high for the ordering; the magnitudes inherit `d`
+SEE ALSO: F-345, F-327, F-357, F-355, F-356, F-004
+
+---
+
+### F-363 | The LONG half-inning is where the half-time literature actually applies — and it is measurable at the STAFF level in one season
+TOPIC: between innings, long inning, re-warm-up, detection, power analysis, staff-level, lever
+CLAIM: The soccer re-warm-up evidence is calibrated to a 15-minute interval, which is not the 120-second break — it is the long half-inning your own offence produces. That is the case where a re-warm-up could plausibly matter, and unlike most questions in this corpus it can be checked inside one season by pooling the staff.
+NUMBERS: DERIVED IN-CYCLE. OUTCOME: first-fastball velocity of each half-inning, split by the duration of the preceding offensive half-inning. Two-sample, alpha .05, 80% power, at within-pitcher release-speed SD = 1.0 mph (F-289's working value): detect **0.3 mph → 175 per group; 0.5 → 63; 0.8 → 25; 1.0 → 16**. At SD = 0.8: 112 / 41 / 16 / 11. At SD = 1.2: 252 / 91 / 36 / 23. SUPPLY: ONE STARTER produces ~6 innings x 12 starts = **72 first-pitches a season**, of which ~15–20% follow a long half-inning = **11–14** — five seasons short of a 0.5 mph test. THE WHOLE STAFF produces ~55 games x ~9 half-innings = **~495 first-pitches**, of which **74–99** follow a long half-inning — **enough for 0.5 mph in ONE SEASON.** THE BULLPEN A/B IS CHEAPER STILL: paired within-pitcher, 120 s sit vs 120 s sit plus a re-warm-up, detects **0.8 mph in 8–18 pitch-pairs and 0.5 mph in 21–46** — one to two sessions.
+POPULATION: NCAA D1, 85+ mph
+EVIDENCE: ESTABLISHED as a power calculation; the SD input is bracketed because the corpus does not hold a measured within-outing velocity SD for an 85+ arm
+CAUSALITY: the DESIGN is an intervention; the finding is the detection arithmetic
+SOURCE: Derived in-cycle 2026-09-15. library/between-inning-break.md §5.
+COACHING: THE PATTERN THIS CORPUS KEEPS FINDING, arriving again: the question is unanswerable about one pitcher and answerable about the staff (F-273, F-286, F-342), and the LEVER is far cheaper to measure than the OUTCOME (F-320, F-321). **Do not try to learn this from your Friday starter. Pool every arm on the roster, or settle it in one bullpen.** ⚠️ The observational version is confounded: long half-innings mean his team is scoring, which changes score margin, leverage, and who is at the plate. The bullpen A/B has none of that and costs one session — prefer it.
+CONFIDENCE: high for the arithmetic; medium for the supply estimates, which assume a college schedule
+SEE ALSO: F-320, F-321, F-289, F-273, F-342, F-355, F-358
+
+---
+
+### F-364 | The one source-verified "command held while velocity fell" result is UNDERPOWERED BY CONSTRUCTION — F-127 survives, and Dispute #26 does not move
+TOPIC: fatigue, command, velocity, F-127, power analysis, against interest, hierarchy
+CLAIM: A read paper reports the opposite of this corpus's fatigue ordering — velocity declined significantly across nine innings while accuracy did not. Its accuracy measure cannot resolve a command change, so it is not evidence against F-127.
+NUMBERS: SOURCE-VERIFIED (PMC6028199, F-359). Accuracy was the proportion of **9 fastballs per inning** passing through the strike zone: 1st inning 53.1% ± 21.1%, 2nd 46.9% ± 24.3%, 3rd 48.1% ± 18.7%, declining without significance. Velocity fell significantly by the 7th (P = 0.026) and 9th (P = 0.001). THE POWER OBJECTION, computed in-cycle: with 9 pitches per pitcher per inning and n = 18, the standard error of an inning's mean strike rate is **~5 pp** given the reported between-pitcher SDs of 19–24 pp. The observed 1st-to-late drop of ~7 pp is therefore **~1.4 SE** — nowhere near significance, and the design could not have detected a change of the size F-127 predicts. **A binomial outcome on 9 trials per subject per inning is the least powerful command instrument available.**
+POPULATION: as F-359 — Japanese collegiate, 80.96 mph
+EVIDENCE: ESTABLISHED as an arithmetic objection; the underlying null is real but uninformative
+CAUSALITY: not applicable
+SOURCE: Computed in-cycle 2026-09-15 against PMC6028199.
+COACHING: RECORDED AGAINST INTEREST, and the recording matters more than the verdict. The corpus went looking for between-innings evidence and found a source-verified result pointing the wrong way on F-127, the finding that underwrites F-348 and half of Dispute #26. It does not survive a power check — but **an absence of evidence produced by a weak instrument is not evidence of absence, and this program should expect to meet this exact shape again**, because strike rate on a handful of pitches is how almost everyone measures command in a lab. ⚠️ **Dispute #26 is NOT moved by this.** The coach's challenge to F-348 stands where it stood; today supplied a candidate counter-example and then disqualified it on power, which leaves the dispute exactly where it was and is worth saying plainly rather than scoring.
+CONFIDENCE: high for the power objection
+SEE ALSO: F-127, F-348, F-359, F-310, F-182
+
+---
+
+*End of registry. 364 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-365.*
 
