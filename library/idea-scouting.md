@@ -566,3 +566,33 @@ NCAA *Clock Operation Guide* (January 2026) and *2025–26 Baseball Rules Change
 
 ### 6.9 Method note — **no fabrication was caught this cycle either**
 **Second consecutive cycle with none.** Per Sweep 5's note and **F-325**, this is **evidence of nothing**: the sweep was narrow and the topic is not one the content farms have colonised. **Blocklist unchanged** (`accio.com`, `afroliterarymagazine.com`).
+
+
+---
+
+## Sweep 5 — 2026-09-16 (Cycle 15): the pitcher's mental game
+
+**HONEST SUMMARY FIRST: very little is genuinely new, and this sweep's main product is two hazards rather than two ideas.** The public conversation about the pitcher's mental game is dominated by service providers, and the search channel returned almost nothing with a testable claim attached. Recorded as a near-null rather than padded.
+
+| # | Item | Source | Standing | Verdict |
+|---|---|---|---|---|
+| 1 | **"Interpret arousal as excitement rather than threat"** — reappraisal, now the default industry framing; Tread Athletics sells a *Mental Skills 101* course built partly on it | courses.treadathletics.com/mental-skills-101 | Tread is a legitimate, well-regarded remote-training operation | **UNPROVEN AT THIS POPULATION.** The underlying science is real (Jamieson's line) and the meta-analysis is real. But **d = 0.14 after publication-bias correction, prediction interval [−0.18, 0.65], and NO motor-skill subgroup exists** (F-371). Not marketing — oversold relative to its own evidence in every instance found. |
+| 2 | **HRV biofeedback / resonance-frequency breathing for baseball** | Su et al. 2025, JFMK 10(1):65, PMC11843864 | Peer-reviewed, indexed, read in full | **DEBUNKED AS A PERFORMANCE CLAIM, PROMISING AS AN ANXIETY CLAIM.** The control group gained +6.8 batting-score points with no intervention (F-373). Anxiety and breathing-rate effects stand. |
+| 3 | **"The yips is a mechanics problem"** (coach-side folklore) | Widespread | — | **DEBUNKED.** No synergy or phase-timing difference between yips and control throwers; only 3 of 25 non-psychologically-triggered cases had a mechanics change as trigger (F-368, F-370). |
+| 4 | **"The yips is an anxiety problem"** (mental-skills-industry framing) | treadathletics.com/yips, peaksports.com, benfoodman.com | Providers | **DEBUNKED AS A UNIVERSAL CLAIM, TRUE FOR A MINORITY.** 38.8% psychological trigger; state anxiety p = 0.865, trait p = 0.460 (F-368, F-369). **True for roughly two in five, sold as true for all.** |
+| 5 | **Task-oriented / constraint-led training as yips treatment** | Frontiers in Sports and Active Living 2025, `10.3389/fspor.2025.1636650` | Journal legitimate | **UNVERIFIED — COULD NOT BE READ.** Not in the PMC OA subset today; frontiersin.org refused. Appears to be a **case report**. To the verification queue. A case report is not evidence for a magnitude. |
+
+### 🚨 HAZARD CLASS ADDED — THE CONFABULATED ATTRIBUTION ON A TRUE CLAIM (F-375)
+
+A search summariser emitted, unprompted and with **no supporting link in its own result set**, an attribution to *"The Athletic's 2026 report on the yips."* Nothing retrieved it; this corpus has no route to check it.
+
+**What makes this the worst instance in the blocklist's history is that the claim is probably TRUE.** It is a near-perfect paraphrase of what Aoyama et al. (2024) actually found — read independently at source the same cycle. **A fabricated citation attached to a correct claim survives every check a careful reader runs on the content**, and content-checking is the defence that caught all 16 previously-logged fabrications.
+
+> **STANDING RULE ADDED: an attribution is a SEPARATE CLAIM from the proposition it carries, and must be verified separately. A correct fact does not launder its citation.** When a search summary names a source that does not appear as a link in its own result set, that attribution is **UNVERIFIED regardless of whether the claim is right**, and may not be written into a finding as a source.
+
+### Blocklist additions — 2026-09-16, on search-result signature
+*(None was fetched; all egress except the two object stores is refused. These are flagged on URL and framing pattern only.)*
+
+- **`sports-today.top`** — `.top` TLD, generic aspirational slug (`/article/mental-edge-2026-elite-athletes-training-minds`), year-stamped listicle framing.
+- **`sportspsychology.org/articles/…-YYYY-MM-DD/`** — date-stamped auto-generated slug pattern (observed: `yips-in-sports-2026-08-16`).
+- **`mindandmuscle.ai`** — AI-branded content site returning generically-worded "mental training" claims with no attached numbers.

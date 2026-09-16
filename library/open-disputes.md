@@ -794,7 +794,31 @@ F-331 proposes **seconds remaining at first movement** as an uncensored fatigue 
 - **#24 (is the slide step free at 85+)** — **NOT MOVED**, but F-361 promotes its defect from an instance to a **pattern**: *every* manipulated between-innings or recovery study in existence fails the 85 mph floor (76 / 81 / ~70 / ~67 mph, and one unreported). **The corpus's recurring vulnerability is confirmed as population drift in honest sources, not fabrication.**
 - **#18, #19, #20a, #20b, #21, #22** — **NOT MOVED, but no longer BLOCKED.** Every one was parked on egress. They are now ordinary research tasks and should stop being reported as environmental casualties.
 
-**NEW THIS CYCLE: #27.**
+**NEW THIS CYCLE: #27 IS NOW OPENED IN FULL — see below.**
+
+---
+
+## Dispute #27 — Is the command tax under pressure ESTABLISHED, or only PREDICTED?
+**Opened 2026-09-16 (Cycle 15). Anatomist vs Biomechanist. Unresolved.**
+
+**The claim in dispute:** that psychological pressure degrades a pitcher's command, and does so through the same neural event that raises his velocity.
+
+### The ANATOMIST's position — it is a mechanism strong enough to act on
+Force output and force *variability* scale together. Signal-dependent noise in motor output means that raising the drive raises the variance of the drive, so a system running at higher recruitment and higher firing rate has larger trial-to-trial endpoint scatter. **The velocity gift and the command tax are one neural event seen at two scales — you cannot take one without the other.** The Oshikawa kinematics are consistent with this: what changed under pressure was the *timing* of the swing phase (−17.6%, F-366) while the already-saturated obliques did not change at all (F-367). Transposed to a thrower, that is an early trunk with an arm that cannot answer — a release-point shift, hence a command miss.
+
+### The BIOMECHANIST's position — it is an import, and it has no magnitude
+**Not one of the six primary texts read in Cycle 15 measured throwing accuracy under a pressure manipulation.** Oshikawa's task was a dry practice swing with **no accuracy outcome at all** (§1.4 of `pressure-arousal-yips.md`). Signal-dependent noise is well established in laboratory isometric and small-amplitude aiming tasks; its magnitude at a 95 mph whole-body release is unmeasured anywhere. **"Well-established in general" is precisely the move this corpus exists to catch** — it is the same structure as importing a mixed-level correlation into an all-85+ population. And the population argument runs the same way: a pitcher who has reached a D1 roster at 90 mph **has already been selected on the ability to execute while nervous** (F-372), so whatever the effect is in an unselected sample, it is smaller here by an unknown factor.
+
+### What was conceded
+The anatomist **conceded the evidence grade** and kept the prior: the claim is downgraded to **MECHANISM**, and §2 of `library/pressure-arousal-yips.md` is explicitly labelled a prediction rather than a finding. The biomechanist **accepts the mechanism as plausible** and denies only that it has a usable magnitude. *This is not a compromise — the two positions remain incompatible about whether a coach should act on it.*
+
+### What would settle it
+A within-subject bullpen with **manufactured leverage** and **release-point SD** as the outcome — not zone rate. Release-point scatter is continuous, carries far more information per pitch than a binary in/out call, is uncontaminated by the catcher (F-309), and **is already in every TrackMan log**. Zone rate cannot pay for itself: ~392 pitches per condition for a 10-percentage-point difference (F-374).
+
+### Why it matters
+If the anatomist is right, the command tax is a real and priced cost of high-leverage pitching and the coaching response (F-374 §4.2 — give the extra output somewhere to go, middle third rather than the corner) is warranted. If the biomechanist is right, the corpus has just written a coaching recommendation on an imported laboratory principle, which is exactly what killed stride length and extension.
+
+**⚠️ THIS DISPUTE HAS THE CHEAPEST SETTLING EXPERIMENT OF ANY IN THIS FILE.** It needs a TrackMan unit, a catcher, and two bullpens. *Sixth entry in the pattern of F-264, F-289, F-295, F-307 and F-320: the data is already in every program's own system and nobody has published it.*
 
 **METHODOLOGICAL NOTE.** For the second consecutive cycle a correction to this program's own run-condition belief produced more than a correction: F-345 widened the egress probe by one host and got a primary source; today widened it by two more and got the open-access biomedical literature. **Yesterday's note — *re-probe assumptions about the run environment, not just assumptions about pitching* — was worth exactly one more cycle of compounding. Keep probing; the current belief is also provisional.**
 
