@@ -824,8 +824,52 @@ If the anatomist is right, the command tax is a real and priced cost of high-lev
 
 ---
 
+## Dispute #28 — Is the pitcher/position-player hip abduction gap a DEFICIENCY or a SELECTION SIGNATURE? *(added 2026-09-17)*
+
+**Status: 🔴 OPEN. Nothing cross-sectional can settle it, and the industry states one side without evidence.**
+
+### The fact both sides accept (F-377)
+
+In the only on-population hip-strength dataset in the corpus (Zipser 2021, PMC8016437, read in full: n = 68 MiLB pitchers vs 50 MiLB position players, same organisation, same week, same strapped dynamometer), **pitchers produced 15% less hip abduction torque raw, 22% less per kg, and 25% less per kg·m — despite being 8.4 kg heavier and 5.9 cm taller.** d = 0.64 (lead leg) and 0.79 (trail leg); both t-tests computed in-cycle because the authors never made the comparison. Direction replicates in a second professional sample (Laudner 2010, ⚠️ snippet-only).
+
+**There is no velocity variable anywhere in the study.**
+
+### The anatomist's position — DEFICIENCY
+
+Pitchers do not sprint, cut, or decelerate laterally the way position players do. A position player accumulates hundreds of high-rate frontal-plane exposures a week; a pitcher accumulates a hundred pitches and some distance running. **The gap is a training-history artifact, and a trainable hole.** Supporting: the ArmCare hypothesis (F-387) names exactly this mechanism — pitchers do not load the adductors at high rates of force with short ground contacts. Supporting from the other direction: link 1 of F-383 shows the tissue responds enormously to 8 weeks of loading (+35.7% EHAD), which is what an under-trained tissue does.
+
+### The biomechanist's position — SELECTION SIGNATURE
+
+**The quality the field says drives pitching velocity is a quality at which pitchers — the throwing specialists, selected over fifteen years for throwing hard — are measurably worse than their own teammates.** If frontal-plane hip capacity were load-bearing for ball speed, selection has had every opportunity to find it and has instead produced a group deficit of 0.64–0.79 SD. Supporting: F-378, in the same dataset, shows hip abduction torque predicts essentially nothing about how these athletes move. Supporting: F-004, F-013, F-015 — this corpus's graveyard of plausible strength qualities that turned out to be null against velocity.
+
+### Why it cannot be settled with what exists
+
+Both positions predict the identical cross-section. They differ only in the counterfactual — what happens to the pitcher **when you close the gap** — and **no study has ever closed it and measured anything** (F-383, link 6). This is the marker/lever problem in its purest available form: a large, replicated, on-population association with **no manipulation anywhere in its literature.**
+
+### What would settle it
+
+**A Copenhagen Adduction block in pitchers with velocity outcomes.** n ≈ 24 per arm, 8 weeks, randomised against usual training, outcomes = peak velocity, within-outing retention (F-385's protocol), and eccentric hip adduction strength as the manipulation check. **The manipulation check is guaranteed to work** — Ishøi's +35.7% against a ~10% MDC. **The velocity outcome is the entire question and it has never been collected.**
+
+⚠️ **AND THE HONEST COST NOTE:** F-384 prices the retention half of the prize at **under one run a season**, so the study is worth running for the *peak velocity* outcome and for its own sake, not because the retention answer will change a season. It is cheap — a dynamometer, a radar gun, and a block a strength coach would run anyway on groin-injury grounds.
+
+### Why it matters
+
+Because the deficiency reading is currently being asserted as fact by a peer-reviewed clinical review (F-382) on the strength of a citation about a different leg and a different variable. **If the biomechanist is right, an entire strand of pitcher lower-body programming is chasing a group difference that selection already priced.** If the anatomist is right, it is the largest untouched trainable hole on the list — and either way, the same eight-week block answers it.
+
+---
+
+## Revisited 2026-09-17 — did today move anything?
+
+- **#27 (the command tax under pressure).** ✅ **MOVED slightly, toward the biomechanist.** F-386 supplies a **fourth independent instance** of the velocity/command detection asymmetry, and the first one observed *inside a single dataset*: on the same 18 athletes in one session, the continuous variable (velocity) reached p = .001 while the binary one (strike rate) had **11–30% power after the authors' own correction**. The asymmetry is no longer only an arithmetic prediction. **The substantive dispute — whether the command tax is real — is untouched.**
+- **#21 (familiarity vs fatigue, third time through).** ⬜ **Not moved, and a candidate handle was removed.** Had the hip channel held up it would have been the first tissue-level marker on the fatigue side. F-379 and F-381 removed it.
+- **#24 (is the slide step free at 85+?).** ⬜ **Unmoved; the population pathology deepens.** F-323's 76 mph sample and F-381's 3-metre-throw sample are the same disease in two topics.
+- **#25, #26, #26b, #19, #22, #23.** ⬜ Untouched this cycle.
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
+- **⚠️ ADDED 2026-09-17 — a correct citation can support a claim about a DIFFERENT LIMB and a DIFFERENT VARIABLE, and still pass every check.** F-382: a 2025 peer-reviewed clinical review supports a **drive-leg hip abduction STRENGTH** claim by citing a **stride-leg GROUND REACTION FORCE** study in **recreational** adults, then converts the association into "increases pitch velocity." Journal real, authors real, citation correctly formatted, cited paper exists — every fabrication defence passes. **The 2026-08-13 operating rule (*does the source support this sentence, or a weaker one?*) needs a companion: *does the source measure the same QUANTITY on the same BODY PART in the same POPULATION?*** Related: F-380, where a paper's prose was more anatomically specific than its own instrument — **when the discussion is finer-grained than the measurement, the specificity came from the reference list.**
 - **Torque values are not comparable across labs.** 64 vs 100 vs 120 N·m for the same population. Now partly explained by sampling/filter frequency (Dowling, Slowik & Fleisig 2026). **Operating rule adopted: a torque number without its sampling rate and filter cutoff is not a number.**
 - **Lab velocity ≠ game velocity.** Published kinetics likely *under*-represent competitive load, so every torque figure in this library is probably a floor.
 - **60% of normalized elbow torque variance is unexplained by kinematics.** Nobody knows what's in there. Until somebody does, every mechanics-based stress claim in this library is a claim about the minority of the problem.

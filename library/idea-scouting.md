@@ -596,3 +596,30 @@ A search summariser emitted, unprompted and with **no supporting link in its own
 - **`sports-today.top`** — `.top` TLD, generic aspirational slug (`/article/mental-edge-2026-elite-athletes-training-minds`), year-stamped listicle framing.
 - **`sportspsychology.org/articles/…-YYYY-MM-DD/`** — date-stamped auto-generated slug pattern (observed: `yips-in-sports-2026-08-16`).
 - **`mindandmuscle.ai`** — AI-branded content site returning generically-worded "mental training" claims with no attached numbers.
+
+---
+
+# SWEEP 5 — THE FRONTAL-PLANE HIP (2026-09-17)
+
+⚠️ **RUN CONDITION: every item below is SNIPPET-ONLY. WebFetch is blocked at the proxy** (`blog.armcare.com` returned an explicit `EGRESS_BLOCKED`), so **not one page was opened.** Five queries. Treat every item as a lead, never a magnitude (F-277, F-375).
+
+| # | Idea | Source / standing | Verdict |
+|---|---|---|---|
+| 1 | **"Pitchers don't sprint enough."** Pitchers fail to load the adductors at high rates of force with short ground contacts, unlike position players, and the deficit is a training-history artifact. | ArmCare blog, *Hip Injuries are a Gateway to Tommy John Surgery* — commercial arm-care platform | **PROMISING** — the only mechanistic hypothesis on offer for the F-377 gap, and it is testable. It is also exactly one side of Dispute #28, asserted without evidence. |
+| 2 | **~20% of hip-related baseball injuries come from pitching; ~40% are groin-related; a 2021 "rash of hip adductor strains" remains unexplained.** | same | **UNPROVEN** — no citation surfaced in the snippet; numbers not verifiable through current egress. Do not repeat the percentages. |
+| 3 | **Yanai's r = 0.583 restated as "ball velocity decreases and hip adduction weakness were STRONGLY correlated."** | ArmCare blog **and — more seriously — the peer-reviewed IJSPT 2025 clinical review (PMC11698006)** | **DEBUNKED AS STATED (F-379).** One of up to 14 tests, n = 18, 81 mph sample, CI r ∈ [0.16, 0.82], a correlation between two change scores on an instrument that squeezes both legs at once. ⚠️ **The laundering channel here is not a content farm — it is a peer-reviewed clinical commentary.** |
+| 4 | **"Drive leg hip abduction strength increases pitch velocity."** | IJSPT 2025 review, PMC11698006 — three university PT faculty | **DEBUNKED AS CITED (F-382).** Supported by a **stride-leg GRF** study in **recreational** adults. Wrong leg, wrong variable, association→causation, wrong population — four defects, one sentence. **This is where the cue in your building came from.** |
+| 5 | "The Top 12 Reasons For Velocity Fluctuations"; "5 Ways to Strengthen Your Adductors" | Tread Athletics; Elite Baseball Performance | **MARKETING** — not pejorative; training content with no data attached. |
+| 6 | **Copenhagen Adduction in baseball** | Trial-registry search | ⚠️ **THE NULL IS THE FINDING.** At least six active Copenhagen trials surfaced (NCT03684200, NCT04508192, NCT05970003, NCT05589623, NCT07314671, NCT04673903) plus two in female footballers. **NOT ONE IN BASEBALL, anywhere.** |
+
+### What we looked for and did NOT find
+- Any baseball-specific Copenhagen Adduction result, from anyone, ever.
+- Any facility publishing pre/post hip dynamometry around an outing at 85+.
+- Any public argument about **which leg** loses frontal-plane capacity — the question F-380 shows the field's most-cited paper cannot answer.
+- Any genuinely new idea, technology or argument in the topic that the corpus does not already hold. **Saying so rather than padding.**
+
+### The pattern worth naming
+**Second consecutive topic whose sweep output is an absence** (after F-362, the 120-second warm-up budget). And the reason is now visible: **the industry's content follows the literature's population, and in this topic the literature's population is soccer.** The Copenhagen exercise arrived in baseball as a borrowed drill carrying a borrowed evidence base. A facility with fifty pitchers, a dynamometer and eight weeks would own the first baseball dataset in the world.
+
+### Hazard class added this sweep
+**PEER-REVIEWED LAUNDERING.** Previous sweeps logged content farms (F-274), press releases (F-275) and search summarisers (F-277, F-375) as the channels by which a weak result becomes a prescription. **Sweep 5 found the same conversion happening inside a peer-reviewed clinical review in a real journal (F-382, F-387 item 3).** The practical consequence: **a PubMed-indexed citation is not a credibility check.** It was never supposed to be, and this program has now watched it fail at the top of the stack rather than the bottom.
