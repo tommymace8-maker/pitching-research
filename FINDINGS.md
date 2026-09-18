@@ -4944,5 +4944,159 @@ SEE ALSO: F-362, F-379, F-383, F-274, F-275
 
 ---
 
-*End of registry. 387 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-388.*
+### F-388 | ✅ METHOD — the PMC object store IS reachable; the key layout is `PMC{id}.{version}/` at the bucket root
+TOPIC: method, egress, retrieval, object store, S3, verification, run condition, correction
+CLAIM: F-376's rule ("probe buckets, not journals") is correct and was decisive today. Its secondary clause — that a paper was "absent from the PMC object store at every version key" — used a key layout the bucket does not use. The bucket stores ONE DIRECTORY PER ARTICLE AT THE ROOT, not `oa_comm/xml/all/`.
+NUMBERS: **CONFIRMED BLOCKED this cycle:** `pmc.ncbi.nlm.nih.gov`, `www.ncbi.nlm.nih.gov`, `www.mdpi.com`, `www.tandfonline.com`, `www.frontiersin.org`, `cdn.clinicaltrials.gov` (`connect_rejected`). **CONFIRMED SERVED:** `pmc-oa-opendata.s3.amazonaws.com`, `ncaaorg.s3.amazonaws.com`. **WORKING KEY LAYOUT:** `https://pmc-oa-opendata.s3.amazonaws.com/PMC{id}.{v}/PMC{id}.{v}.txt` (also `.xml`, `.pdf`, `.json`, plus figure JPEGs). List with `?list-type=2&prefix=PMC{id}.{v}/`. The `oa_comm|oa_noncomm|author_manuscript` × `txt|xml` × `all/` paths return **404 at every combination**. **THREE FULL TEXTS RETRIEVED IN UNDER A MINUTE** (PMC9572449, PMC7464361, PMC13302302); a non-existent version key returns 404 with a 322-byte error body, so absence is cleanly distinguishable from refusal.
+POPULATION: not applicable — a method finding
+EVIDENCE: ESTABLISHED (direct observation)
+CAUSALITY: not applicable
+SOURCE: Probed in-cycle 2026-09-18. `daily/2026-09-18-report.md` §0.
+COACHING: **⚠️ CORRECTED 2026-09-18 — F-376's "absent from the PMC object store at every version key" was tested against a key layout that does not exist in this bucket, so it does NOT establish that Kageyama 2014 (PMC4234942) is absent. RE-TEST IT at `PMC4234942.{v}/` before repeating the absence claim.** ⚠️ **AND CORRECT THE STANDING BRIEF: its "WORKING on WebFetch" list (nature.com, frontiersin.org, sportrxiv.org, ijspt.scholasticahq.com, tandfonline.com, journals.sagepub.com) is STALE — every one tested was refused.** Only WebSearch and specific object stores work. **SECOND LIMIT, LEARNED TODAY: retrieval and extraction are different failures.** The NCAA 2026-27 banned-substances PDF was retrieved from S3 (112 KB) and could NOT be parsed — `pdftotext` absent, `pypdf` and `pdfminer.six` both dead on import via `pyo3_runtime.PanicException` in this container's `cryptography` package. **A retrieved-but-unparsed document is not a verified source and must be labelled snippet-only.**
+CONFIDENCE: high
+SEE ALSO: F-376, F-351, F-277, F-267
+
+---
+
+### F-389 | ✅ THE CAFFEINE "THROWING VELOCITY" META-ANALYSIS: ONE OF ITS TEN STUDIES THREW A BALL OVERHEAD
+TOPIC: caffeine, ergogenic aid, supplements, meta-analysis, population, task specificity, velocity
+CLAIM: The pooled result in circulation — caffeine improves throwing velocity, SMD 0.24 — is built almost entirely on bench press throws, medicine ball throws and shot put in resistance-trained non-throwers. It is a real result about ballistic upper-body output; it is not a result about overhead throwing.
+NUMBERS: **SOURCE-VERIFIED, read in full.** Main effect **SMD 0.19; 95% CI 0.05–0.33; p = 0.007; I² = 62%.** Throwing-velocity subgroup **SMD 0.24; 95% CI 0.10–0.37; p = 0.0006; I² = 28%.** Ten studies, **n = 151** (111 M / 40 F), median 13 per study. **TASK BREAKDOWN FROM TABLE 1: medicine ball throw ×4 (2, 5, 9 kg); bench press throw ×3 (bare 17 kg bar or 30% 1RM); shot put ×2; handball throw ×1.** Populations: **6 resistance-trained, 2 shot putters, 2 handball.** Doses 2–12 mg/kg, plus one 100 mg gum and one 75 mg gel. **RISK OF BIAS: all ten "some concerns"** (no allocation concealment, not pre-registered). **NO PUBLICATION-BIAS ASSESSMENT WAS PERFORMED — no Egger's test, no funnel plot, no trim-and-fill.** ⚠️ **EVERY FAILING SUBGROUP WAS RESCUED BY REMOVING ONE POST-HOC-IDENTIFIED OUTLIER:** throwing distance p = 0.22 → 0.007; doses >3 mg/kg p = 0.19 → <0.0001; the outlier was chosen by "visual inspection of the forest plot."
+POPULATION: ⚠️ **SAMPLE MISMATCH — no baseball, and only 31 of 151 participants threw anything overhead.** A 9 kg medicine ball is **62× the mass of a baseball**; a bench press throw is bilateral, horizontal and trunk-supported. Opposite ends of the force–velocity curve.
+EVIDENCE: ESTABLISHED as a meta-analysis of ballistic upper-body output; **WEAK-to-inapplicable as evidence about overhead throwing velocity**
+CAUSALITY: INTERVENTION (pooled randomised crossovers) — the design is clean; the **task** is the problem, not the causality
+SOURCE: Grgic J., Varovic D. (2022), *Nutrients* 14(19):4155, PMCID PMC9572449, PMID 36235804, doi:10.3390/nu14194155. Read in full 2026-09-18. `daily/2026-09-18-report.md` §1.
+COACHING: **THIS IS STANDING-BRIEF CHECK #3 — does the number measure what the sentence says it measures? — AND THE ANSWER IS NO.** The authors never say "baseball"; the failure is downstream, in how the abstract is quoted. **Do not carry SMD 0.24 to a pitched baseball.** The registry's on-task evidence is F-390 and F-391, and it points the other way.
+CONFIDENCE: high for the extraction (read in full); high for the task-mismatch criticism
+SEE ALSO: F-390, F-391, F-393, F-094, F-274
+
+---
+
+### F-390 | ⚠️ THE ONE OVERHEAD-THROWING CAFFEINE STUDY RAN FOUR THROW TESTS AND ONE REACHED SIGNIFICANCE
+TOPIC: caffeine, handball, throwing velocity, multiplicity, habituation, population
+CLAIM: The single study behind every "caffeine improves throwing velocity" claim that involves an actual overhead ball throw tested four throws and found one significant, with no reported multiplicity correction across eight performance outcomes — and its authors scope the result to athletes with low caffeine habituation.
+NUMBERS: **SOURCE-VERIFIED, read in full.** n = 31 professional handball (16 M, 15 F). **3 mg/kg, 60 min pre**, crossover, placebo-controlled. Radar test-retest **CV = 3.5%**; max of 3 throws. **THROW 9 m (no keeper): 82.55 ± 7.64 → 84.90 ± 7.32 km/h, p = 0.008 ✅, ES = 0.31.** **Throw 9 m + keeper: 83.72 → 85.59, p = 0.093 ✗.** **Throw 7 m: 82.69 → 84.03, p = 0.065 ✗.** **Throw 7 m + keeper: 81.97 → 82.62, p = 0.492 ✗.** Also CMJ +3.9% (p = .001), 30 m sprint −2.6% (p = .022), handgrip p = .054 ✗, agility p = .686 ✗. **Eight performance outcomes, no multiplicity correction reported.** The significant gain is **+2.85%**. ⚠️ **HABITUAL CAFFEINE INTAKE: 60 ± 25 mg/day.**
+POPULATION: ⚠️ **SAMPLE MISMATCH, TWO AXES.** 82.55 km/h = **51.3 mph**, with a **~425–475 g handball** vs a 145 g baseball. Professional handball, not baseball.
+EVIDENCE: EMERGING at best — one positive subtest of four, uncorrected
+CAUSALITY: INTERVENTION (randomised crossover) — causality is clean; the **inference** is what fails
+SOURCE: Muñoz A. et al. (2020), *Genes (Basel)* 11(8):933, PMCID PMC7464361, PMID 32823594. Read in full 2026-09-18. `daily/2026-09-18-report.md` §2. (The meta-analysis lists it only as "Muñoz et al. 2020"; it is in *Genes*, not *Nutrients*.)
+COACHING: **REFUSE THE PERCENTAGE TRANSFER.** Naively scaling +2.85% to a 90 mph fastball gives **+2.6 mph** — the number a supplement seller would quote and which nothing here supports. **This corpus dismantled a headline on the same multiplicity ground eight days ago (F-379); the same discipline applies to a result pointing in the direction we might like.** The authors' own conclusion is explicitly scoped to *"players with low habituation to caffeine"* and warns of *"progressive tolerance to the ergogenic benefit of caffeine with chronic ingestion."*
+CONFIDENCE: high for the extraction; low that the effect generalises to an 85+ arm
+SEE ALSO: F-389, F-391, F-392, F-379, F-094
+
+---
+
+### F-391 | ✅✅ THE CLEANEST RESULT IN THE TOPIC — A CAFFEINE NULL ON THROWING VELOCITY WITH ITS POSITIVE CONTROLS FIRING IN THE SAME SESSION
+TOPIC: caffeine, throwing velocity, null, positive control, task specificity, dose-response
+CLAIM: In a double-blind three-arm crossover, caffeine at 3 and 6 mg/kg moved intermittent-running performance by ~23–29% and reaction time by ~18.5%, and moved maximal throwing velocity by essentially nothing, in the same athletes on the same day. The dose was demonstrably bioactive; the throw did not respond.
+NUMBERS: **SOURCE-VERIFIED, read in full.** n = 20 trained female handball; randomised, **double-blind**, placebo-controlled, three-way crossover (PLA / 3 / 6 mg/kg), 72 h washout. **THROWING VELOCITY: F = 0.04, p = 0.961, η²p = 0.004.** PLA **73.79 ± 6.05**; 3 mg/kg **73.95 ± 6.49**; 6 mg/kg **73.71 ± 6.60 km/h.** **Mean difference 3 mg/kg vs PLA: +0.16 km/h [−1.82, +2.15]** (= **+0.10 mph, ±1.24 mph**); 6 mg/kg vs PLA −0.08 [−1.96, +1.80]. **POSITIVE CONTROLS IN THE SAME SESSION: Yo-Yo IRT-1 +227 m [+88.6, +365.5] at 3 mg/kg and +280 m [+110.0, +450.0] at 6 mg/kg (~+23.5% and +29.0%, η²p = 0.415); Flanker overall RT −136.6 ms [−209.0, −64.1] at 6 mg/kg (~18.5%, η²p = 0.486).** **A SECOND INDEPENDENT HANDBALL NULL:** Yildirim U.C. (2023), *Int. J. Disabil. Sports Health Sci.* 6:107–115 — ⚠️ **SNIPPET-ONLY**, title/abstract conclusion only.
+POPULATION: ⚠️ **SAMPLE MISMATCH AND IT IS SEVERE — 73.79 km/h = 45.9 mph, size-2 handball, trained female handball players.** This is FURTHER from an 85+ arm than F-390's sample. **The null carries the same population penalty as the positive result. See cross-examination ② (`daily/2026-09-18-report.md` §11).**
+EVIDENCE: ESTABLISHED that a bioactive caffeine dose does not move maximal throwing velocity **in this population and task**; NOT established for an 85+ arm
+CAUSALITY: INTERVENTION — randomised, double-blind, placebo-controlled crossover
+SOURCE: *Life* (2026) 16(6):954, PMCID PMC13302302, doi:10.3390/life16060954. Read in full 2026-09-18. `daily/2026-09-18-report.md` §3.
+COACHING: **A NULL FLANKED BY TWO LARGE CONFIRMED EFFECTS IN THE SAME DESIGN IS WORTH FAR MORE THAN A BARE NULL** — it rules out the standard escapes (dose too low, sample too small, athletes non-responders, bad day). **What generalises here is the statement about TASK TYPE, not the magnitude:** caffeine moves effort-limited and vigilance-limited outputs and does not move a technique-limited maximal throw. **TALLY ACROSS ALL THREE OVERHEAD STUDIES: roughly ONE positive subtest out of six or seven.** The correct summary for an 85+ arm is **"unmeasured at 85+, near-zero wherever measured"** — not "zero."
+CONFIDENCE: high for the extraction and the internal logic; the extrapolation to 85+ is explicitly NOT made
+SEE ALSO: F-389, F-390, F-392, F-393
+
+---
+
+### F-392 | MECHANISM — caffeine is an effort-perception drug, which predicts it should be a velocity-RETENTION agent and not a peak-velocity agent. NOBODY HAS TESTED THAT.
+TOPIC: caffeine, mechanism, adenosine, voluntary activation, ceiling, within-outing retention, gap
+CLAIM: At sporting doses caffeine works centrally, by adenosine-receptor antagonism that lowers perceived effort and raises arousal. In a maximal single-effort ballistic task performed by an expert there is no recruitment reserve for it to unlock — which explains the observed pattern exactly, and predicts that caffeine's effect on a pitcher would appear in the sixth and seventh innings, where it has never been measured.
+NUMBERS: The prediction is derived, not measured. It is consistent with the full observed pattern in F-391: **effort-limited task +29% (Yo-Yo), vigilance-limited task −18.5% (Flanker RT), technique-limited task η²p = 0.004 (the throw).** The meta-analysis proposes the peripheral RFD/motor-unit route (F-389 SOURCE, §4); the direct peripheral effects require concentrations above those achieved by an oral sporting dose. **The *Life* authors reach the same conclusion independently: caffeine's arousal effects "may not directly translate to the fine motor control, muscle activation sequence, and technical calibration processes that determine throw speed... throwing technique is often optimized near the individual performance ceiling."**
+POPULATION: mechanism — applies in principle to an 85+ arm, untested there
+EVIDENCE: MECHANISM. **NOT a finding and NOT a recommendation.**
+CAUSALITY: MECHANISM
+SOURCE: Derived in-cycle from F-389/F-390/F-391. `daily/2026-09-18-report.md` §4 and cross-examination ①/③.
+COACHING: ⚠️ **THIS IS EXPLICITLY NOT ADVICE, AND THE COACH'S DRAFT RECOMMENDATION BUILT ON IT WAS WITHDRAWN UNDER CROSS-EXAMINATION ③** — promoting a mechanism to a prescription is what cost this corpus stride length and extension. **What it IS: the cheapest unrun experiment in the topic.** Every caffeine-and-throwing study in existence measures **fresh, maximal, single throws** — the one condition the mechanism says caffeine should do least for. **The literature has systematically measured caffeine where its own mechanism predicts failure.** The outcome to use is F-384/F-385's within-outing retention. **FALSIFICATION TEST (per cross-examination ①): the ceiling claim predicts caffeine's throwing effect SHRINKS as expertise, freshness and velocity rise; a positive peak-velocity effect in fresh expert high-velocity throwers would refute it.**
+CONFIDENCE: low as a claim about pitchers; medium-high as an explanation of the existing pattern
+SEE ALSO: F-384, F-385, F-391, F-127, F-043
+
+---
+
+### F-393 | ⚠️ NOT ONE STUDY IN THE CAFFEINE-AND-THROWING LITERATURE MEASURED ACCURACY — and the dexterity signal points the wrong way
+TOPIC: caffeine, command, accuracy, dexterity, tremor, dose, gap, risk
+CLAIM: Command is at least half of what an 85+ arm is paid for, and no study in this entire topic collected a throwing-accuracy outcome. The thin, old literature that does exist on caffeine and fine motor control suggests a dose-dependent cost beginning around the doses that might help ballistic output.
+NUMBERS: **ZERO of the ten meta-analysed studies (F-389), and zero of the three overhead studies, measured accuracy.** Muñoz and the *Life* study both measured velocity into an open goal. ⚠️ **SNIPPET-ONLY AND NOT VERIFIED AT SOURCE — DO NOT QUOTE THESE NUMBERS:** a review ("Caffeine: benefits and drawbacks for technical performance", ScienceDirect S0266435623000426, refused by the proxy) is summarised as reporting **~2.5 mg/kg may induce fine hand tremor and ~5 mg/kg worsened dexterity**, partially mitigated by tolerance — caffeine "may increase speed at the expense of dexterity." Primary sources appear to be **Jacobson et al. (1991, 1992), *Perceptual and Motor Skills*** — old, small, non-athlete.
+POPULATION: ⚠️ non-athletes, decades old, snippet-level. **SAMPLE MISMATCH — directional at best.**
+EVIDENCE: **ESTABLISHED for the ABSENCE** (no accuracy outcome anywhere in the topic); **WEAK / UNVERIFIED for the dexterity cost**
+CAUSALITY: unknown — design not verified
+SOURCE: `daily/2026-09-18-report.md` §6. Absence established by reading F-389 in full plus both overhead studies.
+COACHING: **THE RISK IS ASYMMETRIC FOR A PITCHER AND THE EVIDENCE BASE IS EMPTY.** No population in this literature plays a precision sport, so nobody has had a reason to look. A 3–6 mg/kg dose that buys ~0 mph (F-391) and costs any fine-motor precision is a bad trade for a pitcher. **Keep caffeine off command days until measured, and measure with release-point SD (F-374) — continuous, uncontaminated by the catcher (F-309), and far cheaper per pitch than strike rate.** On video the failure looks like quick tempo, rushing the delivery, misses arm-side and up.
+CONFIDENCE: high for the absence; low for the dexterity magnitude (unverified)
+SEE ALSO: F-374, F-309, F-186, F-391, F-392
+
+---
+
+### F-394 | ⚠️ NO RANDOMISED TRIAL OF CREATINE WITH A THROWING-VELOCITY OUTCOME EXISTS, IN BASEBALL OR ANY THROWING SPORT
+TOPIC: creatine, supplements, velocity, lean mass, gap, absence, marketing
+CLAIM: Creatine is sold into baseball as a throwing-velocity aid. No trial has ever manipulated creatine and measured throwing velocity in any throwing population. Its plausible route to a pitcher is indirect and slow — training tolerance, then lean mass, then velocity — and that chain has never been tested end to end.
+NUMBERS: ⚠️ **SNIPPET-ONLY THROUGHOUT — none of these were read at source.** Ferrauti et al. (2003), *Eur J Sport Sci*, doi:10.1080/17461390300073309 — review reporting only **~5 articles** investigating creatine under ballgame-designed conditions, 18 PubMed hits, one softball. Creatine loading in trained female softball players (PMID 14767409): **20 g/day × 1 week improved mean strength and endurance of repeated contractions but NOT maximal static strength or dynamic peak torque — no throwing outcome.** In soccer players (PMC6520963 meta-analysis) creatine did **not** improve phosphagen-system tests (strength, single jump, single sprint, agility).
+POPULATION: not a throwing population in any case with a velocity outcome
+EVIDENCE: **ESTABLISHED for the ABSENCE** (searched, none found); ESTABLISHED (general literature) that creatine raises intramuscular phosphocreatine and aids repeated high-intensity work and training-mediated lean mass
+CAUSALITY: the absence is the finding. **No INTERVENTION with a throwing-velocity outcome exists.**
+SOURCE: `daily/2026-09-18-report.md` §7. Field sweep + targeted search, 2026-09-18.
+COACHING: **BODY MASS IS THE STRONGEST CORRELATE OF VELOCITY IN THIS ENTIRE CORPUS (F-001, F-002), which is exactly why the creatine pitch sounds plausible — and exactly why the untested link matters.** The route runs training tolerance → lean mass → velocity, over months, and **the corpus already records that no mass-gain intervention with a velocity outcome exists at all** (INDEX §5). Creatine is a reasonable training-phase supplement on general grounds; **it is not a velocity intervention, and anyone selling it as one is extrapolating across a gap nobody has measured.** A trycreate.co blog asserting creatine improves "bat speed, sprinting, and throwing velocity" is **MARKETING**.
+CONFIDENCE: high for the absence; medium for the snippet-level specifics
+SEE ALSO: F-001, F-002, F-023, F-140, F-395
+
+---
+
+### F-395 | ⚠️ NO STUDY OF HYDRATION AND PITCHING EXISTS — and the search returned a live laundering event instead
+TOPIC: hydration, dehydration, command, content farm, laundering, gap, method
+CLAIM: There is no primary study of hydration status and pitching performance, for any population. Searching for one returns content farms, and a search summariser handed back a fabricated-specificity claim about command as if it were a measurement.
+NUMBERS: **The search returned Baseball Egg, baseballtips.com, getvari.app and an ArmCare blog — no primary study.** ⚠️ **THE LAUNDERING EVENT, VERBATIM FROM THE SUMMARISER, WITH NO CITATION ATTACHED:** *"dehydrated players show decreased fine motor control, reducing throwing accuracy and pitching command by measurable margins."* **NO SUCH MEASUREMENT EXISTS.** **What is real, and is SAMPLE MISMATCH — directional only, ⚠️ snippet-only:** Baker et al. (2007), PMID 17596779 — progressive dehydration degraded basketball skill performance, significance reached at **~2% body-mass loss**, randomised six-trial design, **17 male basketball players aged 17–28**. **AND A CONTRADICTING RESULT, ⚠️ snippet-only:** in elite basketball, three-point shooting success was **not** significantly reduced at **2.1% body-mass loss**, authors noting kinematics were robust enough to maintain scoring.
+POPULATION: ⚠️ basketball. **No throwing, no overhead athlete, no pitcher, anywhere in this topic.**
+EVIDENCE: **ESTABLISHED for the ABSENCE**; WEAK for the 2% threshold (two snippet-level studies that disagree)
+CAUSALITY: the basketball work is INTERVENTION (dehydration manipulated); the pitching claim has no study at all
+SOURCE: `daily/2026-09-18-report.md` §7. Field sweep, 2026-09-18.
+COACHING: **2% body-mass loss is a reasonable operational guardrail imported from another sport, and nothing more. It is not a pitching finding and must never be quoted as one.** ⚠️ **THIRD INSTANCE OF THE CONTENT-FARM LAUNDERING VECTOR after F-274 and F-275, and the most dangerous yet: the fabricated specificity ("by measurable margins") attached to COMMAND, this corpus's most load-bearing outcome, in a domain where no measurement exists to contradict it.** The pattern to name: **where the literature is empty, the content farms are loudest, and the summariser fills the vacuum with confident prose.** An absence is the easiest thing in the world to launder into a finding.
+CONFIDENCE: high for the absence and for the laundering event; low for the 2% magnitude
+SEE ALSO: F-274, F-275, F-387, F-362, F-393
+
+---
+
+### F-396 | The caffeine velocity question is PRICED AND CLOSED — 8 to 42 paired sessions to detect an effect the evidence says is near zero
+TOPIC: detection, power, caffeine, velocity, session-to-session SD, protocol, cost
+CLAIM: A program can price the caffeine-velocity question on its own mound, and the price is high enough — against an effect bounded near zero — that the test is not worth running. The arithmetic's value is that it closes the question rather than opening a protocol.
+NUMBERS: **COMPUTED IN-CYCLE.** Paired crossover, session mean fastball velocity, 80% power, α = .05 two-sided. With σ_p = 1.0 mph (F-289 bracket) over n = 30 fastballs, **σ_p/√n = 0.18 mph — negligible; the binding term is σ_s, the session-to-session SD of an athlete's mean velocity.** Paired sessions required: **σ_s = 0.3 → 2 pairs (1.0 mph) / 8 pairs (0.5 mph); σ_s = 0.5 → 5 / 18; σ_s = 0.8 → 11 / 42.** **Read against F-391's CI of ±1.24 mph, the realistic target is the 0.5 mph column: 8–42 paired sessions per pitcher.**
+POPULATION: an 85+ arm. ⚠️ **σ_s has never been measured for any population — ELEVENTH entry in the "already in every program's radar log, gating a whole topic's detection arithmetic, published by nobody" pattern** (after F-264, F-289, F-295, F-307, F-320, F-336, F-348, F-363, F-374, F-385).
+EVIDENCE: ESTABLISHED as arithmetic, conditional on the σ_s bracket
+CAUSALITY: not applicable — a detection threshold
+SOURCE: Computed in-cycle. `daily/2026-09-18-report.md` §9.
+COACHING: **DON'T RUN IT.** A season of bullpens to chase an effect the best evidence puts at +0.10 mph [−1.24, +1.24] is a bad trade, and the table exists to say so with a number rather than a shrug. ⚠️ **AND ANY SELF-RUN VERSION WOULD NEED BLINDING THAT IS PRACTICALLY UNACHIEVABLE: caffeine is felt.** Capsules or decaf-vs-caf, randomised, pitcher and radar-holder both blind — otherwise the test measures expectancy, not caffeine. **A pitcher who says he threw harder on a pre-workout has run an unblinded n-of-1 with no placebo.**
+CONFIDENCE: high for the arithmetic; σ_s is assumed and stated
+SEE ALSO: F-289, F-385, F-374, F-391, F-363
+
+---
+
+### F-397 | ⚠️ HABITUATION IS THE VARIABLE THAT DECIDES WHETHER ANY CAFFEINE RESULT APPLIES — and withdrawal on start day is an unmodelled decrement
+TOPIC: caffeine, habituation, tolerance, withdrawal, placebo contamination, population, gap
+CLAIM: The one positive overhead-throwing result came from athletes consuming under one cup of coffee a day, and its authors scope it to low habituation. A habituated pitcher is a different pharmacological subject, and one who abstains on start day is not at baseline — he is in withdrawal.
+NUMBERS: **SOURCE-VERIFIED:** Muñoz's sample habitually consumed **60 ± 25 mg/day**; the authors conclude for *"players with low habituation to caffeine"* and warn of *"progressive tolerance to the ergogenic benefit of caffeine with chronic ingestion, together with a progressive increase in the prevalence of side effects."* The *Life* study (F-391) likewise recruited trained athletes and mandated abstinence. ⚠️ **SNIPPET-ONLY / general knowledge:** a 16 oz energy drink is **160–300 mg**, and multiple daily servings are ordinary among US college athletes. **⚠️ THIS CORPUS HOLDS NO MEASURED CAFFEINE-INTAKE DISTRIBUTION FOR COLLEGE PITCHERS, AND THE SWEEP FOUND NONE PUBLISHED ANYWHERE.**
+POPULATION: the gap is precisely at this corpus's population — habituated 85+ arms
+EVIDENCE: ESTABLISHED (the scoping and the tolerance warning are the authors' own); **the withdrawal-contamination argument is MECHANISM**
+CAUSALITY: MECHANISM for the withdrawal effect; the habituation scoping is a stated limit of an INTERVENTION study
+SOURCE: PMC7464361 read in full; `daily/2026-09-18-report.md` §5.
+COACHING: **TWO CONSEQUENCES, AND THE SECOND IS THE ONE NOBODY ACCOUNTS FOR.** (a) The honest prior for a habituated arm is **smaller than the already-near-zero effect measured in unhabituated throwers.** (b) **Every study in this topic mandated 48 h abstinence — which MANUFACTURES WITHDRAWAL in a habituated subject and would bias his placebo trial downward, inflating the apparent caffeine effect.** In a habituated athlete, a "caffeine benefit" may be nothing but withdrawal relief. **This is free to measure and it is the only thing this cycle actually recommends doing: a 7-day intake log on every arm.** It is a measurement, not an intervention, and it decides whether the topic is live for a given pitcher.
+CONFIDENCE: high for the scoping; medium for the withdrawal-contamination argument, which is reasoned not measured
+SEE ALSO: F-390, F-391, F-392, F-396
+
+---
+
+### F-398 | FIELD SWEEP — the development industry is silent on this topic, the supplement layer is loud and evidence-free, and the one relevant trial is unreachable
+TOPIC: field sweep, idea scouting, caffeine, creatine, hydration, marketing, absence, verification queue
+CLAIM: Five queries found no public R&D output on caffeine, creatine or hydration from any serious pitching-development group, a consumer supplement layer making claims with no trials behind them, and one directly relevant registered trial that this environment cannot reach. Third consecutive cycle whose sweep output is mainly an absence.
+NUMBERS: ⚠️ **SNIPPET-ONLY THROUGHOUT — nothing below was opened.** **(a) NOTHING from Driveline, Tread Athletics or any development group** on these topics as they bear on velocity or command; searched directly. **Given how much these groups publish, the silence is informative.** **(b) MARKETING:** trycreate.co asserting creatine improves "bat speed, sprinting, and throwing velocity" (no trial exists, F-394); hydration blogs asserting command effects never measured (F-395). **(c) GENUINELY NEW — the 2026 caffeine literature has pivoted to SIDE EFFECTS and YOUTH SAFETY:** *Sports Medicine* (2026) "Caffeine Use in Sport: A Systematic Review and Meta-analysis of Acute Side Effects and Implications for Athlete Health and Safety", doi:10.1007/s40279-026-02441-4 — first systematic quantification of acute side-effect incidence, noting these are usually reported only as secondary outcomes; and a three-level meta-analysis in adolescent athletes (PMID 42588143, *Nutrients* 18:2520) concluding **adverse-event reporting is inconsistent and evidence is insufficient to support routine caffeine use in youth sport.** **(d) THE HIGHEST-VALUE UNREAD ITEM IN THE TOPIC: NCT06079996, "Caffeinated Gum Softball Performance"** — crossover, **24 trained female softball players**, 2 × 100 mg caffeine gum chewed 10 min, **with PITCHING and hitting outcomes.** The closest design in existence to this corpus's question. **`cdn.clinicaltrials.gov` is refused by the proxy (F-388).**
+POPULATION: not applicable — a sweep
+EVIDENCE: ESTABLISHED for the absence; WEAK for every individual snippet
+CAUSALITY: not applicable
+SOURCE: WebSearch ×5, 2026-09-18. `daily/2026-09-18-report.md` §10.
+COACHING: **VERDICTS.** Caffeine-as-velocity → **DEBUNKED** for overhead throwing at studied doses. Caffeine-as-alertness/repeatability → **PROMISING**, well supported, wrong outcome for a radar gun. Creatine-as-velocity → **UNPROVEN** (absence of trial, not evidence of absence). Hydration-as-command → **MARKETING**; no measurement exists. Caffeine-as-retention (F-392) → **UNPROVEN, untested, the best idea in the cycle.** ⚠️ **THIRD CONSECUTIVE CYCLE WHOSE SWEEP OUTPUT IS AN ABSENCE (after F-362 and F-387) — and the pattern named in F-387 holds again: the industry's content follows the literature's population, and here the literature has no baseball population at all, so the vacuum fills with supplement marketing instead.**
+CONFIDENCE: medium for the absence; low for every individual snippet
+SEE ALSO: F-387, F-362, F-274, F-275, F-394, F-395
+
+---
+
+*End of registry. 398 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-399.*
 

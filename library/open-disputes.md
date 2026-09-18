@@ -867,6 +867,46 @@ Because the deficiency reading is currently being asserted as fact by a peer-rev
 
 ---
 
+## Dispute #29 — Is "caffeine does not raise throwing velocity" a FINDING, or a null imported across a 40 mph population gap? *(added 2026-09-18)*
+
+**PITCHING-COACH's challenge.** The cycle's headline rests on a 20-person double-blind null in **female handball players throwing 45.9 mph with a size-2 ball** (F-391). That sample is *further* from an 85+ arm than the positive result it is being used to overturn (F-390, professional handball men at 51.3 mph). **This corpus flags exactly this move in everyone else** — F-323's 76 mph slide-step sample, F-381's 3-metre-throw sample, F-386's 81 mph Japanese collegiate sample. Why is a null exempt from the population rule that disqualifies positives?
+
+**BIOMECHANIST's defence, partly conceding.** It is not exempt, and the registry records the mismatch on the null as explicitly as on the positive. Three things survive the objection and only these three are claimed:
+- **(a) The meta-analytic case is refuted on DESIGN, not population.** Nine of ten studies behind "caffeine improves throwing velocity" threw a medicine ball, a shot or a barbell (F-389). That criticism is immune to who was throwing.
+- **(b) The null's value is its internal positive controls.** A bioactive dose moved Yo-Yo +29% and Flanker RT −18.5% **in the same athletes on the same day** that it moved the throw by η²p = 0.004. That is a within-session contrast about **task type**, and task-type claims travel across populations far better than magnitudes do.
+- **(c) No claim of a zero effect at 90 mph is made.** The registered summary is **"unmeasured at 85+, near-zero wherever measured."**
+
+**ANATOMY-PHYSIOLOGY sides with the biomechanist, on mechanism.** The ceiling argument (F-392) predicts the effect should be *smaller*, not larger, as expertise and velocity rise — so if the population gap biases anything, it biases toward *over*-stating the effect for an 85+ arm.
+
+**WHAT WOULD SETTLE IT.** A double-blind crossover, 3 mg/kg vs placebo, in pitchers whose mean fastball clears 85 mph, with **both** peak velocity and release-point SD as outcomes. Per F-396 this costs 8–42 paired sessions per pitcher for the velocity arm, which is why **the honest resolution may be that this dispute stays open permanently on the velocity side and gets settled on the command side instead** — where the evidence base is empty rather than null, and where F-374's continuous outcome makes detection affordable.
+
+**STATUS: OPEN.** The coach's objection is conceded on magnitude and rejected on the design criticism. **Practically the dispute does not block anything**, because both readings produce the same instruction — don't use caffeine for velocity — and differ only on whether the reason is "it doesn't work" or "nobody has checked at your velocity."
+
+---
+
+## Dispute #30 — Is the caffeine-as-RETENTION hypothesis a promising gap, or the stride-length error being made again in a new topic? *(added 2026-09-18)*
+
+**ANATOMY-PHYSIOLOGY proposed it** (F-392): caffeine works by lowering perceived effort, every existing study measured **fresh, maximal, single throws**, and the mechanism therefore predicts the effect should appear in the sixth and seventh innings — the within-outing retention quantity F-384/F-385 opened the day before.
+
+**ANATOMY-PHYSIOLOGY also challenged its own coach for trying to act on it**, and the challenge was upheld: *"You want to recommend caffeine for late-inning retention on the strength of a mechanism and no data. That is precisely the move — a mechanism promoted to a prescription — that cost this corpus stride length and extension."* **The draft recommendation was withdrawn inside the cycle.**
+
+**BIOMECHANIST's residual doubt.** The hypothesis is attractive partly *because* it rescues a topic that otherwise ships nothing, and that is a motivated reason to believe something. It also inherits every population problem in Dispute #29, plus a new one: within-outing velocity retention at 85+ has itself never been measured (INDEX §5), so the hypothesis proposes to test a drug against an outcome whose baseline variability is unknown.
+
+**WHAT WOULD SETTLE IT.** A double-blind crossover across full-length outings with velocity tracked by inning. **It is cheap by this corpus's standards and nobody has run it.** Until then the claim is registered as MECHANISM with CONFIDENCE low.
+
+**STATUS: OPEN, and deliberately NOT acted on.** The cycle's position is that this is the best idea it produced and that saying so is not the same as recommending it.
+
+---
+
+## Revisited 2026-09-18 — did today move anything?
+
+- **#27 (the command tax under pressure).** ⬜ **Not moved, but reinforced from a new direction.** F-393 supplies a **fifth** instance of the pattern behind it: an entire topic's literature collected velocity and **never once collected accuracy**, in a domain where the theorised risk (fine-motor/tremor cost) runs *against* command specifically. The recurring finding is not about pressure or caffeine — **it is that the field measures the convenient variable and this corpus's most load-bearing outcome keeps going uncollected.**
+- **#28 (hip abduction gap — deficiency or selection signature).** ⬜ Untouched.
+- **#29, #30.** New today.
+- **#21, #22, #23, #24, #25, #26, #26b, #19.** ⬜ Untouched this cycle.
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **⚠️ ADDED 2026-09-17 — a correct citation can support a claim about a DIFFERENT LIMB and a DIFFERENT VARIABLE, and still pass every check.** F-382: a 2025 peer-reviewed clinical review supports a **drive-leg hip abduction STRENGTH** claim by citing a **stride-leg GROUND REACTION FORCE** study in **recreational** adults, then converts the association into "increases pitch velocity." Journal real, authors real, citation correctly formatted, cited paper exists — every fabrication defence passes. **The 2026-08-13 operating rule (*does the source support this sentence, or a weaker one?*) needs a companion: *does the source measure the same QUANTITY on the same BODY PART in the same POPULATION?*** Related: F-380, where a paper's prose was more anatomically specific than its own instrument — **when the discussion is finer-grained than the measurement, the specificity came from the reference list.**
