@@ -907,6 +907,68 @@ Because the deficiency reading is currently being asserted as fact by a peer-rev
 
 ---
 
+## Dispute #31 — Is the skill-versus-power dissociation a PHYSIOLOGICAL fact, or a DENOMINATOR? *(added 2026-09-19)*
+
+**BIOMECHANIST → ANATOMIST.**
+
+### The fact both sides accept (F-400, source-verified, PMC9584849 read in full)
+Under acute sleep loss, pooled %Δ: **skill −20.9% (−27.0 to −14.9)**, anaerobic power −6.26% (−9.10 to −3.41), strength −2.85% (−4.47 to −1.23). Skill pool: 9 studies, n = 146, 13 outcomes, I² = 94.1.
+
+### The BIOMECHANIST's position — it may be arithmetic
+Craven's primary outcome is **percentage change of each task's own score**, and the task scores are not commensurable. Wingate peak power baselines near **700 W**. Free-throw and serve-accuracy tasks baseline near **35–70%**. Cook's rugby pass plateaus at **9.0/10**. A fixed absolute decrement produces a far larger %Δ on a low-baseline percentage score than on a watts score. **Part or all of the 20.9 : 6.26 gap could be a denominator rather than a physiology.** I² = 94.1 on the skill pool is consistent with a metric behaving differently across tasks. This is the same class of error as the R² = .945 geometric identity this corpus caught earlier: real arithmetic, sold as a finding.
+
+### The ANATOMIST's position — the direction does not depend on the denominator
+Two supports that survive the objection intact:
+- **Cook 2011 (F-403)** is a single study, single metric, single sample, elite professionals, one manipulated night, significant accuracy fall on both sides at p < 0.001 — **with no power measure in the comparison to inflate against.**
+- **Craven's early-restriction cell (F-401) is a PRECISE null, not a small number on a big scale.** Anaerobic power −0.50% with **I² = 0.04** across 11 outcomes; strength −1.16% with **I² = 0.02** across 26. The literature is measuring an absence tightly, while the same protocol produces skill −23.9%.
+
+### What was conceded
+**The anatomist PARTIALLY CONCEDED.** **The ratio 20.9 : 6.26 is withdrawn as a quantity and must not be quoted.** The direction — sleep loss costs accuracy more than it costs peak output — stands on Cook and on the early-restriction cell, neither of which routes through the pooled %Δ.
+
+### What would settle it
+Re-express all 13 skill outcomes as **within-subject standardised effects (Hedges' g)** and re-pool against the power categories. If the gap survives standardisation it is physiology. **Craven reports no standardised effects in the retrieved text**, and the per-study data are not in it, so this cannot be settled from what was read.
+
+### Why it matters
+F-406's structural argument — that sleep's defensible claim for a pitcher is a command claim — **does not depend on the magnitude of the gap, only on its sign.** So #31 constrains what may be quoted, not what may be concluded. Register it so nobody later re-imports "three times" as a finding.
+
+---
+
+## Dispute #32 — Does the early/late restriction split reflect WHICH SLEEP was lost, or only HOURS AWAKE at test time? *(added 2026-09-19)*
+
+**ANATOMIST → BIOMECHANIST.** Opened by the biomechanist's deflation; **partially withdrawn inside the cycle.**
+
+### The fact both sides accept (F-401, F-402, source-verified)
+**Early restriction (late bedtime):** anaerobic power −0.50% (−2.00 to +1.00), I² = 0.04; strength −1.16% (−2.57 to +0.25), I² = 0.02; **skill −23.9% (−33.6 to −14.2)**.
+**Late restriction (early wake):** anaerobic power −7.47% (−11.1 to −3.85); skill has only 1 outcome.
+**Meta-regression on hours awake:** all categories, restriction −0.36%/h (−0.52 to −0.19); late restriction −0.55%/h (−0.82 to −0.28); early restriction −0.10 (−0.27 to +0.09) NS. **Skill: −0.03 (−0.57 to +0.51), p = 0.896.**
+
+### The BIOMECHANIST's position — it is hours awake, not sleep architecture
+An athlete who wakes early has been awake **longer** at a fixed test time. Craven's own regression shows power degrading with hours awake and barely caring which end of the night was lost. **That is the simpler explanation and the paper's own data support it over any SWS-versus-REM story.** No sleep-stage mechanism is needed.
+
+### The ANATOMIST's position — the deflation does not reach the skill data
+It works for power. **It fails completely for skill:** the skill decrement is **−0.02%/h, p = 0.975** — a flat line — while skill under early restriction is −23.9%. **If hours awake explained the pattern, skill should scale with it, and it does not at all.** There are two phenomena here and the biomechanist has deflated one of them.
+
+### What was conceded
+**The biomechanist CONCEDED for skill and HOLDS for power.** The time-awake explanation is offered for the power dissociation only, where the regression supports it. For skill it is withdrawn. **Neither agent can explain why skill decrements are independent of hours awake** — that is the open part.
+
+### What would settle it
+A study crossing **sleep timing** (early vs late restriction) with **test timing** (hours awake held fixed) on the same accuracy task. **It does not exist.** Failing that, Craven's per-study data re-analysed with hours awake as a covariate inside each restriction type.
+
+### Why it matters
+It decides which sentence the coach says. If it is hours awake, the lever is **time of first pitch relative to wake** and it is generic. If it is which sleep was lost, the lever is **sleep timing** and it is specific. **F-401's wake-time recommendation is safe either way, which is why it was kept while the mechanism stays open** — and F-402's coaching note says so explicitly.
+
+---
+
+## Revisited 2026-09-19 — did today move anything?
+
+- **#30 (caffeine-as-RETENTION: promising gap, or the stride-length error again?).** 🟢 **MOVED, and RELOCATED.** F-411: Cook 2011 (PMC3049131, read in full) is the first source-verified evidence that caffeine's benefit in elite athletes appears **where a decrement exists to rescue** — 1 and 5 mg/kg both prevented a sleep-loss accuracy fall, p < 0.001, significant sleep × treatment interaction, n = 10 professional rugby backs. **That is structurally the retention hypothesis.** ⚠️ **But the preserved quantity is ACCURACY, not velocity; F-392's velocity version remains untested; the rescue magnitude is figure-only and unretrievable; and whether caffeine helped RESTED athletes cannot be resolved from the text.** The hypothesis is better-founded than yesterday **and still has no number.**
+- **#29 (caffeine velocity null imported across a 40 mph population gap).** ⬜ **Untouched.** Nothing today bears on velocity.
+- **#27 (is the command tax under pressure ESTABLISHED or only PREDICTED?).** 🟡 **INDIRECTLY STRENGTHENED, and the corpus should notice the pattern rather than the instance.** **Two consecutive cycles have now produced a channel that degrades command while leaving peak output alone** — arousal/pressure (F-365→F-375) and sleep loss (F-400, F-403). **Both were argued from off-population construct matches. Both need the same measurement — release-point and location SD split by condition — and neither has it.** That single unmeasured quantity is now blocking two topic areas. F-408 prices it at **five bullpens per condition** with a continuous outcome.
+- **#28 (hip abduction gap), #21, #22, #23, #24, #25, #26, #26b, #19, #20.** ⬜ Untouched this cycle.
+- **#31, #32.** New today.
+
+---
+
 ## Standing methodological disputes (not attributable to one agent)
 
 - **⚠️ ADDED 2026-09-17 — a correct citation can support a claim about a DIFFERENT LIMB and a DIFFERENT VARIABLE, and still pass every check.** F-382: a 2025 peer-reviewed clinical review supports a **drive-leg hip abduction STRENGTH** claim by citing a **stride-leg GROUND REACTION FORCE** study in **recreational** adults, then converts the association into "increases pitch velocity." Journal real, authors real, citation correctly formatted, cited paper exists — every fabrication defence passes. **The 2026-08-13 operating rule (*does the source support this sentence, or a weaker one?*) needs a companion: *does the source measure the same QUANTITY on the same BODY PART in the same POPULATION?*** Related: F-380, where a paper's prose was more anatomically specific than its own instrument — **when the discussion is finer-grained than the measurement, the specificity came from the reference list.**
@@ -918,3 +980,6 @@ Because the deficiency reading is currently being asserted as fact by a peer-rev
   **The sixth is the sharpest illustration: a correct PMID, a correct n, and a correct p-value, attached to a design that does not exist.** Two further label errors landed the same day (first-authorship on PMID 34240663 — Manzi, not Dowling; and two Kusafuka 2025 coefficients described as an autocorrelation and a state probability when both are correlations *between* a correction statistic and azimuth variability). **A number can be right, its citation can be right, and the sentence around it can still be false.**
   **Operating rules adopted:** (a) the verification pass asks a second question — *does the source support this sentence, or a weaker one?* — **and a third: *what was the actual design, and is there a control group?*** Never infer a design from a p-value; (b) **any claim promoted to a numbered recommendation gets re-read against the primary source before it ships**, because those are the ones quoted to an athlete; (c) **sample sizes are verified on the paper's own page**, never from a search summary — an ordinary search summary was observed manufacturing a phantom sample size with no bad actor in the chain; (d) **the same scrutiny applies to disconfirming evidence** — the coach presented one 19-athlete cohort as multiple independent studies, in the direction he was already arguing, on the same day he accused colleagues of the same error. Full analysis in `daily/2026-08-13-coach.md` §11.
 - **⚠️ ADDED 2026-08-13 — "one experiment, many papers."** The Ramsey/Crotin Buffalo stride cohort (n = 19) is reported across at least **seven** papers. Before treating multiple citations by one group as independent replication, **check whether it is one dataset.**
+
+- **⚠️ ADDED 2026-09-19 — a `KeyCount 0` in an open-access object store is NOT evidence that a paper does not exist.** The PMC OA bucket holds the **open-licence subset only**. PMC3119836 (Mah 2011, *Sleep*), PMC5402441 and PMC5402407 (the PNAS jet-lag letter and reply) all exist in PMC and all return KeyCount 0. **F-376 made the mirror-image error — inferring absence from a wrong key layout — and was corrected the next day (F-388). The corpus must not now infer absence from a correct key layout over an incomplete corpus.** Operating rule: a bucket miss downgrades a source to UNRETRIEVED, never to ABSENT.
+- **⚠️ ADDED 2026-09-19 — a result that lives only in a FIGURE is a verified direction with an UNAVAILABLE magnitude.** Cook 2011 (PMC3049131) reports its sleep-deprivation skill decrement and its caffeine/creatine rescue **only in Figures 1 and 2**, which this environment cannot read. The p-values, F-statistics and design are all in the text. **Record such a result as direction-verified/magnitude-unavailable and do NOT fill the gap from a secondary paraphrase** — that is precisely the route by which this program inherited its one wrong claim.
