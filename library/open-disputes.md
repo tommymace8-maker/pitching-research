@@ -983,3 +983,71 @@ It decides which sentence the coach says. If it is hours awake, the lever is **t
 
 - **⚠️ ADDED 2026-09-19 — a `KeyCount 0` in an open-access object store is NOT evidence that a paper does not exist.** The PMC OA bucket holds the **open-licence subset only**. PMC3119836 (Mah 2011, *Sleep*), PMC5402441 and PMC5402407 (the PNAS jet-lag letter and reply) all exist in PMC and all return KeyCount 0. **F-376 made the mirror-image error — inferring absence from a wrong key layout — and was corrected the next day (F-388). The corpus must not now infer absence from a correct key layout over an incomplete corpus.** Operating rule: a bucket miss downgrades a source to UNRETRIEVED, never to ABSENT.
 - **⚠️ ADDED 2026-09-19 — a result that lives only in a FIGURE is a verified direction with an UNAVAILABLE magnitude.** Cook 2011 (PMC3049131) reports its sleep-deprivation skill decrement and its caffeine/creatine rescue **only in Figures 1 and 2**, which this environment cannot read. The p-values, F-statistics and design are all in the text. **Record such a result as direction-verified/magnitude-unavailable and do NOT fill the gap from a secondary paraphrase** — that is precisely the route by which this program inherited its one wrong claim.
+
+---
+
+## Dispute #33 — 🔴 Is "it is really a COMMAND effect" a finding, or this corpus's house style? *(added 2026-09-20)*
+
+**Raised by: BIOMECHANIST, against the COACH and against the corpus's own recent method.**
+
+### The charge
+On **2026-09-19** the sleep cycle ended: *a short night does not take his fastball, it takes his strike zone* (F-406). On **2026-09-20** the pre-game warm-up cycle ended with all three physiological channels dead on velocity and the surviving channel identified as **motor calibration** — command again. **Two consecutive topics, two unrelated literatures, the same escape hatch.**
+
+The pattern is suspicious for a specific reason: **command is this corpus's least-measured outcome.** That makes it the cheapest possible place to relocate a hypothesis you do not want to abandon, because nothing there can contradict you. **F-013 (stride length) and the extension findings both died because a plausible story outran a measurement.** "It is really a command effect" is a plausible story with, so far, no measurement behind it in either cycle.
+
+### Evidence that it is a real finding
+- The sleep case rests on an actually-measured accuracy outcome: **Craven 2022 (PMC9584849), skill −20.9% vs anaerobic power −6.26% vs strength −2.89%**, across dart throwing, tennis serving, rugby passing, free throws and rifle shooting (F-400). The construct match to pitching is an argument, but **the accuracy measurement is real.**
+- The physiological reasoning is independent in the two cycles: sleep argues from a *measured* skill/power dissociation; the warm-up argues from *elimination* of the capacity channels.
+- The corpus's transfer null (F-004, jump vs velocity r ≈ 0.07; F-358; F-359) is not an ad hoc rescue — it was registered long before either cycle and it is what closes the velocity channel in both.
+
+### Evidence that it is a house style
+- 🚨 **Not one of the six primary texts read on 2026-09-20 measured where the ball went.** Williams measured velocity; Shin & Choi velocity and EMG; Rappelt jump height; Krzysztofik bench-throw velocity; Zaremski and Erickson counted pitches. **The command channel in the warm-up cycle is an inference from the absence of everything else** — the weakest possible support.
+- The corpus holds **no measured correspondence between a skill-accuracy decrement and pitch-location SD in any sport** (registered as a gap 2026-09-19). The same missing link is load-bearing in both cycles.
+- A conclusion that cannot be wrong is not a finding. **"The channel nobody has measured is the channel that matters" is unfalsifiable until somebody measures it.**
+
+### Resolution status — **CONCEDED IN SUBSTANCE, OPEN AS A METHOD QUESTION**
+The coach conceded within cycle. **F-419's command claim is graded WEAK, not EMERGING**, and the report's wording is **"the only channel nobody has falsified"** rather than "the channel that matters."
+
+### What would settle it
+**The discriminating evidence is cheap and already specified.** F-421's audit and F-420's instrument both record **velocity and location SD simultaneously** on the same pitches. The thermal/capacity hypothesis predicts movement in the velocity column; the calibration hypothesis predicts movement in the scatter column; F-004's transfer null predicts neither moves. **The first programme to run either design settles this for the warm-up topic**, and the design generalises to the sleep topic unchanged.
+
+### ⚠️ Standing flag for future cycles
+**If a third topic ends by relocating to command without a measured accuracy outcome, the pattern is method, not physiology.** Record the count at the top of each cycle's report.
+
+---
+
+## Dispute #34 — 🟡 Does the 8-pitch mound warm-up erase the pre-game thermal gap? *(added 2026-09-20)*
+
+**Raised by: BIOMECHANIST and COACH jointly, against the ANATOMIST's derivation (F-419).**
+
+### The claim under dispute
+F-419 derives that the pre-game bullpen-to-first-pitch interval costs **0.9–1.9 °C of muscle temperature ≈ 3–6% of lower-body power**, i.e. **2–4× the 120-second inning break**, and identifies the visiting starter's extra half-inning as the measurable part.
+
+### The objection
+**Both starters throw eight warm-up pitches on the game mound immediately before the first inning.** Those pitches are themselves a re-warm-up delivered at the end of the gap, and **F-362 already found that when a pitcher throws his warm-ups inside a break barely matters.** If eight mound pitches restore most of the deficit, the derived 3–4% is an upper bound on an upper bound and the measurable residual may be near zero.
+
+### Evidence for the objection
+- F-362 is the corpus's own finding and it was derived on both the metabolic and thermal channels.
+- Eight maximal-intent pitches is a substantial re-warm-up dose relative to a 15-minute soccer half-time re-warm-up protocol.
+- The whole quantity is then multiplied by a transfer coefficient the corpus believes is near zero (F-004), so the residual is a small fraction of a small fraction.
+
+### Evidence against the objection
+- Muscle temperature rises over **5–15 minutes** of activity; eight pitches spanning ~60–90 seconds is well short of that time course. Re-warming is not instantaneous even if the intent is maximal.
+- F-362's finding concerns *timing within* a 120-second break where the deficit was already small. It does not establish that eight pitches can repay a 10-minute deficit.
+- The derivation's **ordering** claim (pre-game gap ≫ inning break) is arithmetic and is unaffected by the objection. Only the residual magnitude is in dispute.
+
+### Resolution status — **PARTIALLY CONCEDED, OPEN**
+The anatomist accepts that the mound warm-up is a damper the model does not include and that the derived range is an upper bound. **The report and `library/pre-game-warmup.md` §3 both state this.** The size of the damper is unknown.
+
+### What would settle it
+**F-420, run with velocity as the outcome.** If eight mound pitches fully repay the gap, first-inning velocity is flat against top-of-the-first pitch count. If they do not, there is a slope. **The same data answers Dispute #33 in the other column.** One instrument, two disputes.
+
+---
+
+## Revisited 2026-09-20 — did today move anything?
+
+- **Dispute #31 (skill vs power dissociation — physiology or denominator?). MOVED, and ESCALATED.** It is now the shared premise of two consecutive cycles' conclusions, which raises its price. It should not be carried a third time without being tested.
+- **F-004 / F-358 / F-359 (the jump-height transfer null). STRENGTHENED, and now over-loaded.** It killed a fourth channel today (the pre-game thermal channel), and Rappelt 2024 independently shows that even the jump outcome does not move for PAPE. ⚠️ **This null is the single most-used result in the corpus and is doing more work than any one finding should. It deserves a dedicated verification cycle ahead of any new topic.**
+- **Dispute #27 (between-innings bullpen A/B — decision test or existence test?). MOVED.** F-421's pre-game audit is the analogue and is an **existence** test by construction with its sample size stated. It is roughly 20× cheaper than the between-innings version — one number per outing versus a randomised protocol — **which argues for running the pre-game one first.**
+- **F-049 (open pelvis at foot contact), flagged in INDEX as sitting where stride length sat. NOT TOUCHED. Still flagged.**
+- **Dispute #8 (weighted implements in a mature 85+ arm). ADJACENT MOVEMENT ONLY.** F-413 concerns *acute warm-up* ball weight, not training. It does not bear on the training dispute, and should not be cited there.
