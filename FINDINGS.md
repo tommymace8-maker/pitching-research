@@ -5461,6 +5461,162 @@ COACHING: **Measure the pre-game routine with a radar gun and a location chart, 
 CONFIDENCE: high for the structure; medium for the magnitude
 SEE ALSO: F-287, F-285, F-420, F-421, F-309
 
+### F-425 | ⭐ Finger–ball friction is a MANIPULATED, within-athlete lever on spin rate — the first one this corpus has registered
+TOPIC: friction, rosin, spin rate, grip, ball-hand interface, manipulation, lever, release
+CLAIM: Altering the coefficient of friction between fingertip and leather changes ball spin rate within the same pitcher in the same session — a genuine manipulation, not an association. The effect is established in the DESTRUCTIVE direction (removing friction); the additive direction is near-inert (see F-427).
+NUMBERS: n = 6 semiprofessional pitchers, within-subject, 4 randomised conditions x 5 pitches, washout between. Ball angular velocity at release (omega_ball_max): WATER 160.6 +/- 27.9 rad/s = **1,534 +/- 266 rpm**; ROSIN 225.7 +/- 10.2 rad/s = **2,155 +/- 97 rpm**; PINE RESIN 225.7 +/- 19.4 rad/s = **2,155 +/- 185 rpm**. Water is **-28.8% vs rosin (p = 0.005)** and -28.9% vs pine resin (p = 0.005). Friedman chi2(3) = 16.200, p = 0.001, N = 6, W = 0.900. **rpm conversion (x 60/2pi) is this corpus's, not the authors' — they report rad/s only.**
+POPULATION: 6 Japanese company-league ("semiprofessional") pitchers, age 29.8 +/- 5.8, ALL THROWING AT AN INSTRUCTED 130 km/h = **80.8 mph**. ⚠️ SAMPLE MISMATCH — below the 85 floor and velocity-constrained by instruction (F-428)
+EVIDENCE: EMERGING (design is strong, n is 6, population is off)
+CAUSALITY: **INTERVENTION** — friction manipulated within-subject in randomised order
+SOURCE: Yamaguchi T et al. (2025), "Impact of slip distance between fingertips and ball on baseball pitching performance under different friction conditions," Sci Rep 15:9514, PMCID PMC11950353, PMID 40148381, DOI 10.1038/s41598-025-93632-y. **READ IN FULL 2026-09-21** via the PMC OA bucket.
+COACHING: 🚨 **DO NOT QUOTE -28.8% AS ROSIN'S UPSIDE. IT IS THE PENALTY FOR A SOAKED HAND, NOT THE BONUS FOR A CHALKED ONE.** The no-application condition sat between water and rosin, and F-427 shows rosin adds little to a DRY hand. The usable content is that friction is a **floor you can fall below**, not a resource you can stockpile — and that the fall is large and fast. Direction: trust it. Magnitude in an 85+ arm: unknown.
+CONFIDENCE: high for direction; LOW for magnitude in this program's population
+SEE ALSO: F-426, F-427, F-428, F-431, F-434, F-436
+
+### F-426 | The mechanism — friction changes what the BALL does, not what the FINGER does
+TOPIC: friction, slip distance, seam catch, release, mechanism, spin, high-speed video
+CLAIM: Under low friction the ball slips continuously across the fingertip through release and never catches a seam; under adequate friction the finger hooks a seam and slip arrests mid-release. Critically, the fingertip's own motion relative to the ball centre is UNCHANGED by friction condition — the athlete's contribution is invariant.
+NUMBERS: Total slip distance of ball across index fingertip (2000 fps video): **WATER 21.6 +/- 5.3 mm; ROSIN 8.9 +/- 3.5 mm (p = 0.022); PINE RESIN 8.2 +/- 2.2 mm (p = 0.002)** — water is 142.3% and 163.8% larger respectively. Friedman chi2(3) = 15.000, p = 0.002, W = 0.833. **omega_fc (fingertip motion relative to ball centre) NOT affected: chi2(3) = 0.200, p = 0.978.** Delta-omega_fb_max: water 156.0 +/- 36.9 rad/s vs rosin 91.4 +/- 24.0 (p = 0.010).
+POPULATION: as F-425 — 6 pitchers, 80.8 mph, index finger only (middle finger not analysable)
+EVIDENCE: EMERGING
+CAUSALITY: **INTERVENTION** (mechanism observed under manipulation)
+SOURCE: Yamaguchi T et al. (2025), Sci Rep 15:9514, PMC11950353. **READ IN FULL 2026-09-21.**
+COACHING: **This is the cleanest separation in the corpus between what the athlete does and what the interface permits.** The finger does the same thing every time; whether the ball comes with it is the equipment question. Two consequences: (1) a slipping pitcher is NOT making a mechanical error, so do not coach his hand; (2) **seam catch is a binary event and has never been studied as a trainable skill** — the most interesting unopened question in the release phase.
+CONFIDENCE: high for the decomposition; the seam-catch-as-skill claim is UNSTUDIED, not supported
+SEE ALSO: F-425, F-427, F-433
+
+### F-427 | ⚠️ ROSIN DOES NOT RELIABLY INCREASE FRICTION ON A DRY HAND — it reduces its VARIANCE
+TOPIC: rosin, friction coefficient, grip aid, variance, folklore correction, bench test
+CLAIM: The sport's model of rosin — "it makes your hand grippier" — is not what the only direct measurement shows. On a dry finger, rosin did not reliably raise the friction coefficient at all. Its replicated effects are to make friction LESS dependent on normal force and LESS variable between individuals, and to raise friction only when the hand is WET.
+NUMBERS: n = 10 young adult males, index finger slid across baseball leather bonded to a force sensor. Verbatim: *"For most participants, the friction coefficient was **not necessarily increased** by the presence of rosin powder... **under dry conditions**. However, **under wet conditions**, rosin powder application increased the friction coefficient compared with the non-powdered condition in the large normal force condition."* And: *"rosin powder application **stabilizes** friction... **less dependence of the friction coefficient on the normal force and less variation in the friction coefficient among individuals.**"*
+POPULATION: ⚠️ **10 young adult males, NOT PITCHERS.** The authors state in their own abstract that this *"was not a real baseball pitching situation."* Bench tribology, not throwing.
+EVIDENCE: ESTABLISHED for the bench measurement; the transfer to pitching is UNTESTED
+CAUSALITY: **INTERVENTION** (powder applied/not applied within-subject) — on a bench task
+SOURCE: Yamaguchi T, Yamakura N, Murata S, Fukuda T, Nasu D (2020), "Effects of rosin powder application on the frictional behavior between a finger pad and baseball," Front Sports Act Living 2:30, PMCID PMC7739770, PMID 33345022, DOI 10.3389/fspor.2020.00030. **READ IN FULL 2026-09-21.**
+COACHING: 🚨 **ROSIN IS A THERMOSTAT, NOT GRIP JUICE.** Tell the pitcher: on a dry day it does nothing for your spin; on a humid night it is the difference between the slider and a hanger. **THE OUTCOME VARIABLE THIS CHANGES: test rosin on the SD of spin and release angle, never on the mean.** A mean-spin rosin A/B on dry hands is predicted NULL by this finding — if the mean moves, be suspicious.
+CONFIDENCE: high for the bench result; MEDIUM-LOW for transfer to a pitched ball (never tested)
+SEE ALSO: F-425, F-429, F-430, F-436
+
+### F-428 | ⚠️ EVERY PITCHING-SIDE FRICTION NUMBER IN EXISTENCE COMES FROM TWO 80.8 MPH COHORTS WITH VELOCITY INSTRUCTED CONSTANT
+TOPIC: sample mismatch, population, instruction confound, friction, methodology, restriction
+CLAIM: Both experiments that manipulated friction during actual pitching used overlapping Japanese company-league cohorts throwing at a target velocity deliberately set below game speed, with participants INSTRUCTED to hold velocity constant. This voids the velocity findings and bounds everything else.
+NUMBERS: Both studies: target **130 km/h = 80.8 mph**, chosen *"in consideration of the physical burden on the participants"* and described by the authors as *"slightly slower than in actual games."* n = 6 and n = 8. The authors themselves note: *"the upper limb motion changes observed in the present study may be more pronounced when throwing at higher velocities,"* because centrifugal force scales with v-squared.
+POPULATION: Japanese company-league pitchers, ages 28.6–29.8. ⚠️ **SAMPLE MISMATCH — DIRECTIONAL ONLY**
+EVIDENCE: ESTABLISHED (this is a design fact, read at source)
+CAUSALITY: n/a — a methodological constraint
+SOURCE: PMC11950353 and PMC12310948, both read in full 2026-09-21.
+COACHING: 🚨 **NEVER QUOTE THE BALL-VELOCITY RESULTS FROM THESE PAPERS.** A man told to throw 130 km/h who feels the ball slipping will throw 125 — that is compliance with an instruction, not a capacity effect. The SPIN and SLIP results are not voided by this (they were not the instructed variable). **And the effect may be LARGER in Tommy's population, not smaller**, since centrifugal force at 92 mph is ~30% higher than at 80.8 — the authors say so explicitly. That direction is a reason to take the topic seriously, not a reason to import the numbers.
+CONFIDENCE: high
+SEE ALSO: F-425, F-426, F-429, F-431
+
+### F-429 | Pitchers compensate for a slipping ball by lengthening the arm path, not by gripping harder
+TOPIC: friction, kinematics, pitching radius, centrifugal force, compensation, SPM, arm path
+CLAIM: Under low finger–ball friction, pitchers enlarge the radius of the hand's motion path and slow the hand, reducing the centrifugal force trying to pull the ball out of the fingers. The adjustment is partly conscious.
+NUMBERS: n = 8, 39-marker OptiTrack at 360 fps, SPM1D paired t-tests, foot contact to release. **Pitching radius significantly GREATER under low friction at 38–52% (p = 0.006) and 62–90% (p < 0.001)** of normalised time. **Centrifugal index (v_hand^2/R) significantly LOWER at 14–16% (p = 0.029) and 70–84% (p < 0.001).** Hand velocity trended lower but was **not significant anywhere (p > 0.05)**. No difference in MER timing (p = 0.674). Ball speed and spin both significantly lower under water (both p = 0.012, r = 0.630). Exit questionnaire: *"some participants answered that they pitched the ball by pushing their arms forward in the low-friction condition."*
+POPULATION: 8 Japanese company-league pitchers, 80.8 mph instructed. ⚠️ SAMPLE MISMATCH (F-428)
+EVIDENCE: EMERGING
+CAUSALITY: **INTERVENTION** — friction manipulated, kinematics measured
+SOURCE: Yamaguchi T, Suzuki S, Suzuki S, Nishi T, Fukuda T, Nasu D (2025), "Effect of finger–ball friction on upper limb movement during fastball pitching in baseball," Sci Rep 15:27759, PMCID PMC12310948, PMID 40739159, DOI 10.1038/s41598-025-12298-8. **READ IN FULL 2026-09-21.**
+COACHING: **ON VIDEO THE FAILURE IS A LONG, PUSHED ARM PATH.** If a pitcher's arm suddenly gets long and his misses go up-and-arm-side on a humid night, **check his hand before you touch his mechanics** — you are looking at a grip compensation, not a delivery flaw, and cueing the delivery will make it worse. Note the honest limit: hand velocity did NOT reach significance, so "he slows his arm down" is a trend, not a result. The radius change is the significant one.
+CONFIDENCE: medium — real manipulation, n = 8, off-population, one lab
+SEE ALSO: F-425, F-430, F-428
+
+### F-430 | Low friction throws the ball UP and ARM-SIDE — and rosin produced the best control in the study
+TOPIC: friction, command, pitch location, release angle, rosin, control, direction of miss
+CLAIM: Losing finger–ball friction degrades control in a specific, diagnosable direction via the ball release angle, and the rosin condition produced the most accurate pitches of any condition tested.
+NUMBERS: Friedman tests — horizontal ball arrival location chi2(3) = 12.200, p = 0.007; horizontal release angle chi2(3) = 10.400, p = 0.015; vertical release angle chi2(3) = 12.600, p = 0.006. **Vertical ARRIVAL location was NOT significant (chi2(3) = 4.600, p = 0.204).** Rosin was significantly closer to target horizontally than water (p = 0.005). Correlations with total slip distance: vertical release angle rs = +0.478 (p < 0.001); vertical arrival rs = +0.316; spin rate rs = -0.523 (p < 0.001, and 4 of 6 individuals showed rs > 0.800).
+POPULATION: as F-425 — 6 pitchers, 80.8 mph. ⚠️ SAMPLE MISMATCH
+EVIDENCE: EMERGING
+CAUSALITY: **INTERVENTION**
+SOURCE: Yamaguchi T et al. (2025), Sci Rep 15:9514, PMC11950353. **READ IN FULL 2026-09-21.**
+COACHING: The signature to look for is **up and to the arm side.** ⚠️ **TWO HONEST LIMITS.** (1) The vertical ARRIVAL location — the thing a catcher actually sees — was **not** significant, only the release angle was; the authors' own "thrown upward" language outruns their vertical arrival test. (2) The paper measured **bias only, never variability** — it says so in its limitations ("due to the small number of pitches, the variability of the ball arrival location was not evaluated"). **So this is NOT evidence that friction widens the location scatter**, which is the quantity that matters for command (cf. F-309, and the standing gap on release-point SD).
+CONFIDENCE: medium for the direction of bias; the variance question is UNMEASURED
+SEE ALSO: F-427, F-429, F-433, F-436
+
+### F-431 | Finger strength and spin: a MARKER, in a 77.9 mph sample — and gross grip strength was NULL
+TOPIC: finger strength, pinch, grip strength, RFD, spin rate, marker not lever, multiple comparisons, sample mismatch
+CLAIM: The only study relating finger characteristics to spin rate is cross-sectional, drawn from a sample averaging 77.9 mph, reports ~13 correlations none of which survives multiple-comparison correction, and finds NO relationship for hand grip strength — the quality the commercial grip-training market sells.
+NUMBERS: n = 21 pitchers, Taiwan, mean age 20, 9 yr training. **Table 1, read at source: fastball velocity 125.33 +/- 6.49 km/h = 77.9 +/- 4.0 mph, range 113.5–138.5 km/h = 70.5–86.1 mph. Spin rate 1,751 +/- 171 rpm (range 1,422–2,056)** — against an MLB four-seam mean of 2,313 (F-143). Significant correlations r = 0.49–0.58, ALL p between 0.01 and 0.05: finger length discrepancy (spin r = 0.58; velo r = 0.53), two-point pinch (spin r = 0.51), three-point pinch (velo r = 0.49), index RFD (spin 0.53, velo 0.55), middle-finger max force (spin 0.50, velo 0.58), middle-finger impulse (spin 0.56, velo 0.55), middle RFD (velo 0.53), force discrepancy (spin 0.52). **HAND GRIP STRENGTH: no significant correlation with either outcome.** Three-point pinch 10.07 +/- 1.94 kg vs a cited MLB 12.0 +/- 1.9 kg and HS 7.6 +/- 1.4 kg.
+POPULATION: ⚠️ **77.9 mph mean. SAMPLE MISMATCH — DIRECTIONAL ONLY.** This is the corpus's standing warning made literal: "collegiate" here means 77.9 mph.
+EVIDENCE: WEAK
+CAUSALITY: **CROSS_SECTIONAL** — nobody has ever trained finger strength in a pitcher and measured spin
+SOURCE: Yeh M-C et al. (2024), "Using a sensor-embedded baseball to identify finger characteristics related to spin rate and pitching velocity in pitchers," Sensors 24:3523, PMCID PMC11175286, PMID 38894314, DOI 10.3390/s24113523. **READ IN FULL 2026-09-21.**
+COACHING: 🚨 **DO NOT BUY THE GRIP TRAINERS, AND THE BEST ARGUMENT AGAINST THEM IS INSIDE THE STUDY THAT SELLS THEM.** Three kills: (1) **every p-value lands in 0.01–0.05 across 20+ tested pairings** — at n = 21, r = 0.49 is p ~ 0.024, while Bonferroni for 10 tests needs r ~ 0.62; **not one survives**. (2) **Restriction of range runs BACKWARDS and inflates** — an SD of 4.0 mph is far wider than any 85+ staff, so per Luera 2020 (r = .17–.29 in n = 149 pros) these should collapse toward zero in this population. (3) The abstract calls finger measures "dependent variables" and spin "independent" — **backwards**, and a tell about care. The single useful item is the **grip-strength null**.
+CONFIDENCE: high that this is a marker; the correlations themselves are LOW confidence
+SEE ALSO: F-425, F-432, F-143, F-159
+
+### F-432 | Pinch strength falls 22–24% by pitch 100 in collegiate arms — but the velocity correlation is age-confounded
+TOPIC: pinch strength, FDS, within-outing fatigue, pitch count, collegiate, conference abstract, confound
+CLAIM: Finger pinch strength — the tissue supplying the normal-force term in spin generation — declines substantially within a single outing in collegiate pitchers, beginning inside the first 20 pitches. The reported association between that decline and velocity/spin is, on the evidence presented, confounded with age.
+NUMBERS: 15 elementary (age 12), 15 high school (17), **10 collegiate (19)**, Teikyo University, 2021–2024, prospective. Elementary threw 70 fastballs; older cohorts 100. Pinch measured every 10 pitches. **ELEMENTARY: no significant change through 70. HIGH SCHOOL: decline from ~60 pitches, pulp -16% / tip -14% at 100. COLLEGIATE: decline evident by 10–20 pitches, pulp -22% / tip -24% at 100.** Group x pitch-count interaction p < 0.01. Exploratory: velocity vs pulp decline r = -0.61 (p < 0.001), tip r = -0.49 (p = 0.001); spin vs pulp r = -0.64 (p < 0.001), tip r = -0.50. **Muscle stiffness, fatigue VAS and Borg scale correlated with NOTHING.**
+POPULATION: ⚠️ Japanese collegiate/HS/elementary. **NO VELOCITY VALUE IS REPORTED ANYWHERE IN THE ABSTRACT.** The comparable Taiwanese collegiate sample (F-431) threw 77.9 mph. Mixed-age, and two-thirds of it is out of scope by the 85 floor.
+EVIDENCE: WEAK-to-EMERGING. ⚠️ **CONFERENCE ABSTRACT — no full paper exists.** Per standing rule, an abstract is not evidence for a magnitude.
+CAUSALITY: the DECLINE is a repeated-measures within-athlete observation (strong); the velocity/spin association is **CROSS_SECTIONAL and confounded**
+SOURCE: Yasui Y, Tsukada K, Yonezawa K, Hagihara T, Nakagawa T, Kawano H, Miyamoto W (2026), "Paper 58. Pitch Count Alone Is Not Enough...", Orthop J Sports Med 14(8 suppl 6), AOSSM Annual Meeting 2026, PMCID PMC13530651, DOI 10.1177/2325967126S00315. **READ IN FULL 2026-09-21 — and "in full" means the abstract, because that is all there is.**
+COACHING: 🚨 **THE HEADLINE "HARDER THROWERS FATIGUE THEIR FINGERS MORE" IS NOT ESTABLISHED BY THIS DESIGN.** The abstract says "exploratory correlation analyses" and **never states they were run within-group.** Pooled across three cohorts, the slowest throwers are also the non-decliners and the fastest are the steepest decliners — **so r = -0.64 is an age gradient wearing a velocity label.** The within-collegiate correlation, the only one that speaks to this population, is not reported. **What survives is valuable and enough:** in a collegiate cohort, the normal-force term decays ~a fifth to a quarter across 100 pitches, starting early. That is a measured within-athlete decay of a term in the spin equation — and it sets up F-433.
+CONFIDENCE: medium for the decline; **the velocity/spin correlation is NOT ACCEPTED**
+SEE ALSO: F-433, F-425, F-431
+
+### F-433 | 🚨 THE PREDICTION NOBODY HAS TESTED — does the friction-dependent part of spin decay within an outing?
+TOPIC: spin decay, within-outing, fatigue, friction, humidity, prediction, coverage gap, free measurement
+CLAIM: Spin is the product of the friction coefficient and the normal force the fingers apply. F-432 measures the normal-force term falling 22–24% across 100 pitches in collegiate arms. F-425/F-426 establish that spin is friction-limited. Together they predict that spin rate should decay across an outing, and decay faster in humid conditions where the friction coefficient is already compromised. **THIS HAS NEVER BEEN MEASURED IN ANY SPORT.**
+NUMBERS: **DERIVED IN-CYCLE, not observed.** Inputs: pinch decline -22% pulp / -24% tip at 100 pitches (F-432); spin falls 28.8% when friction is destroyed (F-425); slip distance rises 142% under a wet hand (F-426); rosin raises friction only under WET conditions (F-427). **No magnitude is claimed for the predicted decay — the mapping from pinch-dynamometer kgf to normal force at release is unknown, and it is probably not linear.**
+POPULATION: the prediction is aimed at 85+; every input is off-population (F-428, F-431, F-432)
+EVIDENCE: **UNTESTED PREDICTION — this is not a finding and must not be cited as one**
+CAUSALITY: MECHANISM (a chain of three findings, two of them manipulations)
+SOURCE: Derived 2026-09-21 from F-425, F-426, F-427, F-432. `daily/2026-09-21-report.md` §3 Q4.
+COACHING: **DO NOT CUE THIS. CHART IT.** Spin rate by pitch number, split by game-day humidity, across a season — the data is already in every program's TrackMan/Rapsodo log and costs nothing but an analyst afternoon. **If spin decays with pitch count and the decay steepens on humid nights, that is a real finding a college program could publish. If it is flat, F-433 dies and the corpus is better for it.** ⚠️ Note the corpus's own bias risk: this is the THIRD consecutive cycle to relocate a velocity/capacity null into a variance-or-decay claim (Dispute #33, #36).
+CONFIDENCE: OPEN — a well-motivated prediction, zero direct evidence
+SEE ALSO: F-432, F-425, F-427, F-436, Dispute #36
+
+### F-434 | The 2021 MLB enforcement is the largest friction manipulation ever run — and this corpus has only read snippets of it
+TOPIC: foreign substance, sticky stuff, 2021 enforcement, natural experiment, spin rate, league-level, snippet-only
+CLAIM: MLB's June 2021 foreign-substance enforcement functioned as an abrupt, league-wide, involuntary removal of grip-enhancing friction from thousands of elite arms — an interrupted time series with a sharp discontinuity, and the only friction manipulation in existence on an 85+ population.
+NUMBERS: ⚠️ **SNIPPET-ONLY. NO PRIMARY SOURCE OPENED. DO NOT TREAT AS VERIFIED.** Reported league four-seam spin **2,308 rpm pre-enforcement (Opening Day–20 Jun 2021) -> 2,248 rpm post (21 Jun–season end) = -60 rpm, -2.6%**. A separate summarised figure gives *"fastball spin rates dropped by approximately 4%."* **The two do not agree and the corpus cannot reconcile them.** Also reported: pitches at 3,000+ rpm fell from 1-in-75 to 1-in-176 in the first enforcement week. The peer-reviewed literature cites this era via **NEWSPAPER interactives, not papers** — PMC12310948 ref 16 is Katz, Quealy & Kepner, NYT, 19 Jul 2021; ref 17 is Sarris & Woo, The Athletic, 21 Jul 2021.
+POPULATION: **MLB — the only on-population friction evidence that exists**
+EVIDENCE: **UNVERIFIED at source.** The design is strong; this corpus's access to it is not.
+CAUSALITY: NATURAL_EXPERIMENT (interrupted time series; not randomised, and confounded with midseason trend, ball changes and behavioural adaptation)
+SOURCE: WebSearch snippets only; nytimes.com and blogs.fangraphs.com are egress-blocked. Cited secondhand in PMC12310948 (read in full) as refs 16–17.
+COACHING: **Note the direction of the discrepancy with F-425.** A league-wide -2.6% (or -4%) is an order of magnitude smaller than the lab's -28.8%, and that is exactly as it should be: the lab contrast is *soaked hand vs rosin*, while the league contrast is *illegal tack vs legal rosin*. **The two numbers together bound the effect: destroying friction costs ~29%, removing an illegal enhancer costs ~3%. The legal margin a college pitcher can move is closer to the small number than the large one — probably much closer to zero.** ⚠️ **VERIFICATION QUEUE: obtain a primary analysis of the 2021 discontinuity.**
+CONFIDENCE: LOW for the magnitudes; high that the natural experiment exists and is the right design
+SEE ALSO: F-425, F-427, F-437
+
+### F-435 | A SECOND r = .945 in this corpus that is not a finding — this one is instrument agreement
+TOPIC: measurement, instrument agreement, high-speed video, TrackMan, RMSE, statistics, not-a-finding
+CLAIM: PMC11950353 reports r = 0.945 between camera-derived and radar-derived spin rate. Like the corpus's other .945 (F-248, the VAA geometric identity), this is not a discovery — it is two instruments measuring the same physical quantity, and the informative number is the error, not the correlation.
+NUMBERS: **r = 0.945, p < 0.001** between spin rate computed from high-speed-video omega_ball_max and spin rate measured by TrackMan — **with RMSE = 136.2 rpm.** That RMSE is the number that matters: the video method carries ~136 rpm of error, which is larger than most spin differences the industry chases and comparable to the entire reported league-wide 2021 enforcement drop (-60 rpm, F-434).
+POPULATION: n = 6, 80.8 mph (F-428)
+EVIDENCE: ESTABLISHED (a reported validation statistic)
+CAUSALITY: n/a — measurement
+SOURCE: Yamaguchi T et al. (2025), Sci Rep 15:9514, PMC11950353, Supplementary Fig. S2. **READ IN FULL 2026-09-21.**
+COACHING: **A high correlation between two measurements of the same thing is expected, not impressive** — the same lesson F-248 taught about VAA, now arriving from a completely different direction. **The transferable rule: when a paper reports r for an instrument comparison, read the RMSE instead.** And note the practical bound: **136 rpm of method error means no friction study using this technique can resolve a small effect** — which is precisely the size of effect a legal grip aid is likely to produce (F-434).
+CONFIDENCE: high
+SEE ALSO: F-248, F-425, F-434, F-436
+
+### F-436 | ⚠️ AN IMPOSSIBLE EFFECT SIZE, SELF-REPORTED AND UNCORRECTED IN A PEER-REVIEWED PAPER
+TOPIC: statistics, effect size, error, peer review, methodology, standing rule
+CLAIM: PMC11950353 repeatedly reports correlation-type effect sizes greater than 1, which is mathematically impossible. The authors acknowledge it in their limitations without correcting or explaining it.
+NUMBERS: Reported effect sizes include **r = -1.369, r = 1.461, r = 1.187, r = 1.278** across the Dunn post-hoc comparisons. Authors' own limitation, verbatim: *"There were instances where the effect size r exceeded 1, indicating substantial differences between conditions. However, such a large effect size might result from the small sample size, which also limits the generalizability of our findings."* **That is a restatement, not an explanation.** The standard Wilcoxon/Dunn effect size is r = Z/sqrt(N); obtaining r > 1 means N in the denominator was the participant count (6) while Z was computed over a larger set of observations.
+POPULATION: n/a — a statistical error
+EVIDENCE: ESTABLISHED (read at source, and self-acknowledged)
+CAUSALITY: n/a
+SOURCE: Yamaguchi T et al. (2025), Sci Rep 15:9514, PMC11950353, Discussion/Limitations. **READ IN FULL 2026-09-21.**
+COACHING: 🚨 **STANDING RULE: FROM PMC11950353, READ THE p-VALUES AND THE DIRECTION. NEVER QUOTE AN EFFECT SIZE.** The ranking of conditions and the significance tests are unaffected; the magnitudes of the standardised effects are not usable. **Generalised lesson, and it is the one worth keeping:** this paper is real, indexed, peer-reviewed, open-access, correctly cited, and its authors are real — **every fabrication defence this corpus owns passes it.** What caught this was reading the limitations section. Cf. F-373 (a control group that improved, buried under an abstract) and F-379.
+CONFIDENCE: high
+SEE ALSO: F-425, F-426, F-430, F-373, F-435
+
+### F-437 | Rubbing mud works, and it is the one part of the interface a coach does not control
+TOPIC: rubbing mud, ball preparation, adhesion, tribology, equipment, out-of-scope lever
+CLAIM: MLB's Rubbing Mud measurably alters the ball side of the friction interface — roughly doubling adhesion and raising the friction coefficient — establishing that the BALL, not just the hand, is a real variable in this system.
+NUMBERS: Mudded baseball leather showed **average adhesive force ~20 nN vs ~10 nN for clean leather** (atomic force measurement), and a friction coefficient that **rises with sliding speed** up to the point where embedded sand grains shear off. Squalene-dipped PDMS sphere against leather at imposed F_N = 10 N. Authors' summary: the mud *"spreads like skin cream, and grips like sandpaper."*
+POPULATION: n/a — materials testing, no human pitchers
+EVIDENCE: ESTABLISHED (for the material property)
+CAUSALITY: **INTERVENTION** (mud applied/not applied) — on a bench, not a pitcher
+SOURCE: Pradeep S et al. (2024), "Soft matter mechanics of baseball's Rubbing Mud," PNAS 121:e2413514121, PMCID PMC11588067, PMID 39495943, DOI 10.1073/pnas.2413514121. **READ IN FULL 2026-09-21.**
+COACHING: **Not a lever for this program** — ball preparation is not in a college pitching coach's control, and this corpus has NOT verified what, if anything, is applied to NCAA game balls. ⚠️ **Recorded as UNKNOWN, not as "nothing."** The reason it earns an entry is the third open question it raises: **if ball-to-ball variation in leather finish is larger than the effect of a legal grip aid, every friction A/B in this topic — including the screen recommended in `daily/2026-09-21-report.md` §6 — is underpowered for a reason nobody has priced.**
+CONFIDENCE: high for the material property; the NCAA ball-prep question is UNKNOWN
+SEE ALSO: F-425, F-427, F-434
+
 ---
 
-*End of registry. 424 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-425.*
+*End of registry. 437 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-438.*

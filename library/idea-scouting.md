@@ -623,3 +623,18 @@ A search summariser emitted, unprompted and with **no supporting link in its own
 
 ### Hazard class added this sweep
 **PEER-REVIEWED LAUNDERING.** Previous sweeps logged content farms (F-274), press releases (F-275) and search summarisers (F-277, F-375) as the channels by which a weak result becomes a prescription. **Sweep 5 found the same conversion happening inside a peer-reviewed clinical review in a real journal (F-382, F-387 item 3).** The practical consequence: **a PubMed-indexed citation is not a credibility check.** It was never supposed to be, and this program has now watched it fail at the top of the stack rather than the bottom.
+
+---
+
+## 2026-09-21 — THE BALL–HAND INTERFACE (friction, rosin, grip aids, finger training)
+
+⚠️ **THIN CYCLE, AND SAYING SO RATHER THAN PADDING.** The friction conversation peaked in 2021–22 around the MLB enforcement and the industry has largely moved on. What remains circulating is mostly product. Four items scouted, **zero PROMISING**.
+
+| Idea | Who is claiming it / standing | Verdict |
+|---|---|---|
+| **"Pinch strength (FDS/FCU) explains 40% of the variance in fastball spin EFFICIENCY; wrist EXTENSION drives breaking-ball spin"** | `velouniversity.com` blog post ("The Pinch Strength Paradox"), **read via search snippet only**. Appears to paraphrase a Louisiana Tech MS thesis (Watson C, `digitalcommons.latech.edu`) — **NOT READ, host unreachable from this sandbox.** | **UNPROVEN, and flagged as a LIVE RE-IMPORT VECTOR.** The claim has drifted in transmission: the peer-reviewed study on this question (F-431) measured spin **RATE**, not spin **EFFICIENCY**, and found **no grip-strength relationship at all**. A blog paraphrasing an unread thesis, substituting a different outcome variable, is exactly the chain this program has already been burned by once. **Do not quote the 40%.** |
+| **"Grip adjustments of 2–3 mm change a pitch's movement profile by up to 2 inches of break"** — attributed to Driveline R&D | `pitching.dev`, a **third-party site**. No Driveline primary document located; `drivelinebaseball.com` is egress-blocked. | **UNVERIFIED. DO NOT IMPORT.** ⚠️ This is *precisely* the failure mode the standing brief names — a third-party paraphrase of a source nobody read. The magnitude is also implausibly large on its face against F-146 (spin explains ~4% of IVB variance cross-sectionally). **Do not quote the 2 inches.** |
+| **Commercial finger/grip trainers marketed to pitchers** (e.g. FlexPro Grip, "change pitchers' careers with innovative grip strengthening") | Vendor sites | **MARKETING.** The cleanest refutation is inside the study the category leans on: **hand grip strength correlated with neither spin rate nor velocity** even in a permissive 70–86 mph sample (F-431). |
+| **The perennial "Driveline vs Tread" methodology debate** | `pitching.dev` | **NOT NEW, AND NOT ABOUT THIS TOPIC.** No content bearing on the interface. Logged only to record that it was checked. |
+
+**What the field is NOT talking about, and should be.** Nothing in the scouted material mentions the two results that actually matter from this cycle's reading: (1) **rosin does not raise friction on a dry hand** (F-427), and (2) **friction sensitivity is a large individual trait measurable in twenty pitches** (F-425, participant f vs b/d). **The industry is selling grip strength, which is null, while ignoring a free screen that works.**

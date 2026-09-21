@@ -1051,3 +1051,64 @@ The anatomist accepts that the mound warm-up is a damper the model does not incl
 - **Dispute #27 (between-innings bullpen A/B — decision test or existence test?). MOVED.** F-421's pre-game audit is the analogue and is an **existence** test by construction with its sample size stated. It is roughly 20× cheaper than the between-innings version — one number per outing versus a randomised protocol — **which argues for running the pre-game one first.**
 - **F-049 (open pelvis at foot contact), flagged in INDEX as sitting where stride length sat. NOT TOUCHED. Still flagged.**
 - **Dispute #8 (weighted implements in a mature 85+ arm). ADJACENT MOVEMENT ONLY.** F-413 concerns *acute warm-up* ball weight, not training. It does not bear on the training dispute, and should not be cited there.
+
+---
+
+## Dispute #35 — 🟡 Is friction a "LEVER" when every pitching measurement of it is n ≤ 8 at 80.8 mph? *(added 2026-09-21)*
+
+**Biomechanist → Anatomist.** The anatomist called finger–ball friction *"the only true lever in the spin literature."* The biomechanist's challenge: **that word is doing work the data cannot support.** Both pitching experiments are n = 6 and n = 8, on overlapping cohorts from one Japanese company league, at an **instructed 130 km/h = 80.8 mph** — below this program's floor — with velocity held constant by instruction.
+
+**PARTIALLY CONCEDED, DEFENDED ON DESIGN.**
+
+**Conceded, and immediately:**
+- n = 6 / n = 8 from a single lab is not a base for a magnitude.
+- The population is off-floor (F-428).
+- 🚨 **The velocity results are voided by the instruction.** A man told to throw 130 km/h who feels the ball slipping will throw 125. That is compliance, not capacity. **The ball-velocity numbers from both papers must never be quoted.**
+- The effect sizes are unusable independently of all this (F-436).
+
+**Defended:**
+- "Lever" attaches to the **causal structure**, not the magnitude. The variable was **manipulated within-subject in randomised order with washout between conditions.** This corpus almost never sees that design, and it is the whole reason the topic earned a cycle.
+- The **direction** is triangulated three ways that do not share a failure mode: the pitching manipulation (F-425), an independent bench tribology measurement on different people with different equipment (F-427), and a league-scale natural experiment on an on-population sample (F-434).
+- The spin and slip outcomes were **not** the instructed variable, so the instruction confound does not reach them.
+
+**Where it rests:** **Direction — high confidence. Magnitude in an 85+ arm — unknown, and −28.8% must never be quoted as applying to this population.** Note the authors' own argument cuts *toward* relevance: centrifugal force scales with v², so at 92 mph the effect should be *larger*, not smaller. That is a reason to take the topic seriously, not a licence to import the number.
+
+**WHAT WOULD SETTLE IT:** the same within-subject wet/rosin manipulation on 20–30 arms at ≥ 88 mph with **no velocity instruction** and **location variability** (not just bias) as an outcome. Every piece of that is available to a D1 program with a Rapsodo and a water bottle. **This is among the cheapest settleable disputes in the file.**
+
+---
+
+## Dispute #36 — 🔴 Third consecutive cycle to relocate a null into a variance claim — is this Dispute #33 recurring? *(added 2026-09-21)*
+
+**Anatomist → Coach**, and, as with #33, **against the corpus's own method.**
+
+**The challenge.** The coach's executable recommendation is a rosin protocol whose own source predicts the mean effect is **null** (F-427). The anatomist: *"You are handing Tommy a test that you expect to fail, and then telling him to look at the variance instead. That is the third time in three cycles."* The pattern:
+
+| Cycle | Velocity/capacity result | Where it was relocated |
+|---|---|---|
+| 2026-09-19 | Sleep loss does not cost peak velocity | → command / release scatter (F-406) |
+| 2026-09-20 | No pre-game routine adds velocity | → command / motor calibration (F-419) |
+| **2026-09-21** | **Rosin adds no friction on a dry hand** | **→ variance of friction, then spin decay (F-427, F-433)** |
+
+**CONCEDED AS A METHOD CONCERN. DEFENDED ON THIS INSTANCE.**
+
+**Defended, on one specific ground:** in the two prior cases the corpus *inferred* a command effect the source did not measure. **Here the variance claim is IN THE SOURCE.** Yamaguchi 2020 directly measured between-individual and normal-force-dependent variation in μ and reported reduced variance as its primary replicated result. The coach is reporting the source's own finding, not relocating a null into a friendlier outcome.
+
+**Conceded, and it is the larger point:** three cycles is a pattern regardless of whether each instance is individually defensible. **Variance and command are this corpus's soft landing** — they are the outcomes nobody has measured, so nothing can refute a claim made about them. The structural hazard is that **an unfalsifiable relocation feels like a finding.**
+
+⚠️ **The tell to watch for, recorded so it can be checked later:** F-433 predicts within-outing spin decay and **is explicitly labelled UNTESTED, with no magnitude claimed.** If a future cycle quotes F-433 as though it were measured, this dispute has been lost.
+
+**WHAT WOULD SETTLE IT:** a cycle whose headline recommendation is a **mean** test on a **capacity** outcome that the corpus expects to *succeed* — or an honest count, run across all 19 cycles, of how many ended in a variance/command claim versus how many started there. **The second is arithmetic on this corpus's own files and nobody has done it.**
+
+**Status: OPEN, and it is a supervisory dispute over #33 rather than a rival to it.**
+
+---
+
+## Revisited 2026-09-21 — did today move anything?
+
+- **Dispute #33 (is "it is really a command effect" a finding or a house style?). MOVED — and worsened.** A third consecutive instance (see #36). The defence that this cycle's variance claim sits *in the source* rather than in the corpus's inference is real and was accepted, but **the pattern is now three-for-three and needs the arithmetic audit #36 specifies.**
+- **Dispute #15 (is spin efficiency trainable, and does the industry price the cost honestly?). MOVED, in the skeptical direction.** The field sweep surfaced a claim that pinch strength explains **40% of variance in spin EFFICIENCY**, which would be a major re-opening — but it traces to a blog paraphrasing an unread MS thesis, and the peer-reviewed study on the adjacent measure (F-431) found **no grip-strength relationship at all** and measured spin **rate**, not efficiency. **Downgraded to UNPROVEN and logged as a live re-import vector.** F-159's ~two-thirds-fixed figure is unchallenged.
+- **Dispute #21 (is the third-time-through decline FAMILIARITY or FATIGUE?). ADJACENT MOVEMENT, and it is the most interesting.** F-432 supplies a **measured, physiological, within-athlete decay** (pinch strength −22% by pitch 100, starting inside 20 pitches) that is unambiguously fatigue and unambiguously not familiarity. **It does not settle #21** — nobody has shown that pinch decline reaches an outcome — but **F-433 is the first concrete, free, falsifiable test this corpus has proposed that could put a fatigue term on a measurable scale.**
+- **Dispute #16 (does release-angle precision have any coachable channel?). MOVED SLIGHTLY, in the coach's favour.** F-430 shows release angle responding to a manipulation the pitcher can feel and a coach can control in one second — which is closer to a *channel* than anything previously offered. ⚠️ **Heavily qualified:** the vertical ARRIVAL location was not significant (p = 0.204), and the study measured bias only, never variability.
+- **Dispute #26b (every league constant is MLB — does any of it survive at 85 mph college?). REINFORCED, third instance in eight cycles.** F-431's sample is **77.9 mph** and F-432 reports **no velocity at all**. The corpus's standing warning — *"collegiate has meant 78 mph"* — was literally true again today.
+- **F-049 (open pelvis at foot contact), flagged in INDEX as sitting where stride length sat. NOT TOUCHED. Still flagged.**
+- **Dispute #8 (weighted implements). NOT TOUCHED.** Nothing in this cycle bears on training load.
