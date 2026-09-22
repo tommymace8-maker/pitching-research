@@ -1112,3 +1112,40 @@ The anatomist accepts that the mound warm-up is a damper the model does not incl
 - **Dispute #26b (every league constant is MLB — does any of it survive at 85 mph college?). REINFORCED, third instance in eight cycles.** F-431's sample is **77.9 mph** and F-432 reports **no velocity at all**. The corpus's standing warning — *"collegiate has meant 78 mph"* — was literally true again today.
 - **F-049 (open pelvis at foot contact), flagged in INDEX as sitting where stride length sat. NOT TOUCHED. Still flagged.**
 - **Dispute #8 (weighted implements). NOT TOUCHED.** Nothing in this cycle bears on training load.
+
+---
+
+## Dispute #37 — 🔴 Does correcting F-004's USE reopen the four killed channels, or only downgrade them? *(added 2026-09-22)*
+
+**Biomechanist → Anatomist**, on the day's headline (F-441).
+
+**The anatomist's position.** F-004 is a between-athlete, mass-varying, single-session correlation with a 95% CI of **[−0.280, +0.404]** (F-438). All four channels it has been used to close — re-warm-up (F-358), mid-outing fatigue (F-359), sleep (F-406), pre-game thermal (F-419) — are **within-athlete, constant-mass, acute state changes**. Within an athlete at constant mass, jump height and concentric impulse are the same measurement up to a constant, and **+2 inches of vertical is +3–4% of impulse**, the r = 0.71 variable (F-442). **The dismissals were built on the wrong quantity.**
+
+**The biomechanist's challenge.** *"Your √h argument proves that jump height and impulse move together within an athlete. It does not prove either one moves velocity. You have upgraded a broken chain to a chain with one measured link and one unmeasured link, and then written it up as progress."*
+
+**CONCEDED, FULLY, AND ON THE RECORD.**
+- **The within-athlete impulse→velocity slope has never been measured.** Not in F-003 (between-subject, and itself mass-loaded at r = 0.71/0.81 for mass vs impulse), not anywhere.
+- Today's result is **negative**: it removes a false certainty and adds no positive evidence.
+- **The four channels move from `FALSIFIED` to `UNMEASURED`, and no further.** Neither this dispute nor F-441 licenses a magnitude for any of them.
+
+**WHERE THE DISAGREEMENT ACTUALLY SITS — and it is not resolved.** The two agents agree on the logic and disagree on what a coach should do with it.
+
+- **Anatomist:** *unmeasured* is an invitation. Four cheap acute channels were closed on a statistical artifact; reopening them is the whole point of catching the artifact.
+- **Biomechanist:** *unmeasured* is a queue position, not a licence. Four channels with no measured transfer step are four channels, not four interventions — and the corpus has been burned exactly this way before (stride length, extension, F-049).
+- **Coach, siding with the biomechanist on practice and the anatomist on language:** nothing in the program changes this week. What changes is the **sentence** (F-442) and the **status** of the four channels in the registry.
+
+**⚠️ THE ASYMMETRY THE FLOOR FLAGGED AND DID NOT RESOLVE.** The same cycle that widened two nulls on power grounds (F-004 at n = 33, F-359 at n = 18) promoted a **positive** finding at **n = 8** to the top of the verification queue (F-444, PMID 42423608). The stated defence — that it goes to the queue as a *design to read* and not a *result to cite*, with no number quotable until read at source — was accepted **as a procedure**, not as a principle. **If the n ≥ 97 rule (F-439) applies to nulls, the symmetric question of what n a positive within-athlete finding needs has not been answered by this corpus.** That question is left open here deliberately.
+
+**WHAT WOULD SETTLE IT:** F-449's design. Pair CMJ sessions with radar-logged bullpens, regress within-athlete deviations, record body mass every session. **~85 paired observations detects a within-athlete r = 0.30 at 80% power — roughly 7 sessions across 12 arms, one fall block**, with ~1.5–2× budgeted for clustering. **A positive within-athlete slope would be the first evidence in the literature that lower-body output is a velocity LEVER at this level. A flat one at adequate n would be the first honest null on the question — which, per F-439, this corpus does not currently possess.**
+
+**Note this is the cheapest settleable dispute now on the file, and it is cheaper than Dispute #35.** The equipment is already in the building.
+
+---
+
+### Revisited 2026-09-22 — **Dispute #36** (*third consecutive cycle to relocate a null into a variance claim*)
+
+**MOVED, AND AGAINST THE CORPUS.** The pattern the corpus suspected in **itself** now has an **external instance**: PMID 42423608 reports no mean-velocity effect of CMJ performance and reports a **velocity-variance** effect instead — on **n = 8**, with two jump metrics carrying **opposite signs** on that same variance outcome (F-444).
+
+**This raises the prior that the move is a general artifact of underpowered mean-tests rather than a real physiological structure.** A mean-test at low n fails; the variance parameter, estimated from many more observations than clusters, returns a small p-value; the paper reports the second. **That is a mechanism for producing variance findings from nothing, and it does not require anyone to be acting in bad faith.**
+
+**Dispute #36 is ESCALATED, not resolved.** ⚠️ It now has a concrete test attached: **when PMID 42423608 is read, check whether it reports the power it had on the mean.** If mean-velocity power was ~15%, the paper is Dispute #36 in print, and the corpus's own three instances should be re-read in that light.

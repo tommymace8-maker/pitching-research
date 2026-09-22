@@ -109,7 +109,15 @@ CAUSALITY: CROSS_SECTIONAL
 SOURCE: King BW et al. (2025), JSCR, PMID 39446825
 COACHING: An athlete who added two inches to his vertical moved a variable with r = 0.07. Say that. Jump height is a mass-normalized quantity in disguise — height is set by takeoff velocity, not momentum.
 CONFIDENCE: high — a clean null, and it resolves the apparent conflict in the jump-testing literature
-SEE ALSO: F-003, F-005, F-006
+SEE ALSO: F-003, F-005, F-006, F-438, F-439, F-440, F-441, F-442
+
+> 🚨 **CORRECTED 2026-09-22 — THE NUMBER STANDS, THE COACHING LINE IS WITHDRAWN, AND THE EVIDENCE GRADE IS DOWNGRADED.**
+> **What was wrong:** this finding was graded `ESTABLISHED` and used across four subsequent cycles as though `r = 0.07` were a measured zero. **It is not a zero; it is an uninformative interval.** The 95% CI on the population correlation is **[−0.280, +0.404]**, an upper bound at which jump height would explain **16.3% of fastball-velocity variance** (**F-438**). At n = 33 the study **could not have reported any true correlation below r = 0.344 as significant**, and had **~20% power at r = 0.20 and ~40% at r = 0.30** (**F-439**). Correcting for restriction of range moves the estimate **up**, not down (**F-440**).
+> **Why it went wrong:** the corpus grades nulls by what a study *reported* rather than by what it could have *detected*. **A null bounds a correlation inside ±0.20 only at n ≈ 97** (F-439). This one has 33.
+> **The deeper error, and the reason this matters beyond one finding:** F-004 is a **between-athlete, mass-varying, single-session** correlation, and it has been used as a **within-athlete transfer coefficient** to close four channels (F-358, F-359, F-406, F-419) — **every one of which is a within-athlete, constant-mass, acute state change.** Those are not the same quantity, and the mechanism says they diverge in a known direction: **jump height is body mass divided out of impulse, and body mass is the strongest single correlate of velocity in this very sample (F-001, r = 0.58).** Within an athlete at constant mass, **+2 inches of vertical is +3–4% of CMJ concentric impulse — the r = 0.71 variable** (**F-441**, **F-442**).
+> **COACHING LINE WITHDRAWN:** *"An athlete who added two inches to his vertical moved a variable with r = 0.07. Say that."* **Do not say that.** It is correct only for an athlete who added the two inches by **losing body mass**. See **F-442** for the replacement cue, both clauses mandatory.
+> **EVIDENCE regrade: `ESTABLISHED` → `UNDERPOWERED NULL — uninformative at n = 33`.** The four channels it closed move from **FALSIFIED to UNMEASURED**, which is a different instruction and licenses **no** magnitude for any of them (**F-441**).
+> **What is NOT corrected:** King 2025's number, its significance test, and its reporting. Nothing here impugns the study. The error is this corpus's reading of it.
 
 ### F-005 | NULL — Power expressed per kilogram of body mass does not predict velocity
 TOPIC: velocity, relative power, per-kilogram, normalization, null, refuted, force plate
@@ -5620,3 +5628,177 @@ SEE ALSO: F-425, F-427, F-434
 ---
 
 *End of registry. 437 entries. Numbering is stable — never reuse or renumber an F-ID. New findings append from F-438.*
+
+---
+
+# 2026-09-22 — THE JUMP-HEIGHT NULL AUDIT (F-438 → F-449)
+
+⚠️ **FULLY EGRESS-BLOCKED CYCLE — ZERO PRIMARY TEXTS READ.** Every journal host returned a gateway 403 policy denial. All arithmetic below is computed in-cycle on numbers the corpus already holds and is reproducible from them. Every EXTERNAL citation new to the corpus today is labelled **SNIPPET-ONLY** and is a lead, not a magnitude.
+
+---
+
+### F-438 | ⭐ F-004 IS NOT A NULL — ITS 95% CI RUNS [−0.280, +0.404], AN UPPER BOUND OF 16.3% OF VELOCITY VARIANCE
+TOPIC: velocity, jump height, null, confidence interval, statistical power, underpowered, F-004, correction, method
+CLAIM: The corpus's most-cited null is an uninformative interval being read as a zero. At n = 33 the reported r = 0.07 is compatible with jump height explaining anywhere from ~0% to 16.3% of fastball-velocity variance.
+NUMBERS: **DERIVED IN-CYCLE, reproducible.** Inputs from F-004 (r = 0.07, n = 33, NCAA D1; King BW, Snow TK, Millard-Stafford M 2025, JSCR, PMID 39446825). Fisher z = arctanh(0.07) = 0.0701; SE = 1/√30 = 0.18257; 95% CI in z = 0.0701 ± 0.3578 → **r ∈ [−0.2800, +0.4036]**. **R² at the upper bound = 16.3%**; at the lower bound = 7.8%. **For comparison, in the SAME 33 pitchers King reports absolute CMJ peak power r = 0.43 (p = .014) and Wingate absolute peak power r = 0.44 (p = .011) as significant findings** (F-005, F-007). ⚠️ **STATED HONESTLY: 0.404 < 0.43, so the interval does not literally contain them.** A formal test of the difference between two dependent correlations (Steiger) requires r(jump height, CMJ peak power), which the vault does not hold and a blocked cycle cannot retrieve. **The claim is that the two are INDISTINGUISHABLE at this n, not that they are equal.**
+POPULATION: NCAA_D1 (the input sample); the arithmetic is population-free
+EVIDENCE: ESTABLISHED (the interval is arithmetic on a number the corpus already accepts)
+CAUSALITY: n/a — this is a precision audit, not a causal claim
+SOURCE: `daily/2026-09-22-report.md` §1.1; `library/jump-transfer-audit.md` §1. Input: F-004.
+COACHING: 🚨 **CORRECTED 2026-09-22 — F-004's COACHING LINE IS WITHDRAWN AS WRITTEN.** It read: *"An athlete who added two inches to his vertical moved a variable with r = 0.07. Say that."* **Do not say that.** See F-441 and F-442 for what to say instead. F-004's NUMBER stands and is not in question; the INSTRUCTION built on it does not.
+CONFIDENCE: high — this is arithmetic, and it is checkable in one line of any statistics package
+SEE ALSO: F-004, F-439, F-440, F-441, F-442, F-003, F-005
+
+---
+
+### F-439 | ⭐ STANDING METHOD — a registered NULL is usable only when n ≥ ~97; below that it is a detection floor, not an absence
+TOPIC: method, null, statistical power, sample size, evidence grading, corpus method, audit rule
+CLAIM: This corpus grades nulls by what a study REPORTED rather than by what it could have DETECTED. A minimum-n rule fixes that and, unlike a blanket scepticism, it discriminates between the corpus's good nulls and its bad ones.
+NUMBERS: **DERIVED IN-CYCLE.** (a) **DETECTION FLOOR at n = 33**, α = .05 two-tailed, df = 31, t_crit = 2.0395: **r_crit = 0.344 (R² = 11.8%)**. Any true correlation below that was guaranteed in advance to be reported "NS." (b) **POWER at n = 33**: r = 0.15 → **13%**; r = 0.20 → **20%**; r = 0.25 → 29%; r = 0.30 → **40%**; r = 0.344 → 50%; r = 0.40 → 64%; r = 0.43 → 71%. (c) **n REQUIRED to bound the population r at 95%**: within ±0.25 → **62**; within ±0.20 → **97**; within ±0.15 → **172**; within ±0.10 ("near zero") → **385**. **THE RULE: a null bounds a correlation inside ±0.20 only at n ≈ 97.** APPLIED TO THIS CORPUS: **F-004 (n = 33) FAILS. F-359 (n = 18) FAILS.** F-192 (guidance hypothesis, k = 75, N = 2,228) **PASSES**. F-190 (bias-corrected OPTIMAL nulls, k = 52, N = 2,061) **PASSES**. F-196's speed–accuracy null (n = 30) **FAILS** and should be re-graded.
+POPULATION: n/a — a method rule
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-22-report.md` §1.2, §1.3, §6; `library/jump-transfer-audit.md` §2.
+COACHING: Not a coaching finding — a reading rule. **When a source says "no significant relationship," ask for n before you ask for r.** Below n ≈ 97 the sentence means "we could not have found this," not "this is not there." ⚠️ **The rule was challenged on the floor as a universal solvent and defended because it discriminates**: it kills two of this corpus's nulls and clears two others.
+CONFIDENCE: high for the arithmetic; the ±0.20 threshold is a stated convention, not a fact of nature, and a program may set it tighter
+SEE ALSO: F-438, F-443, F-004, F-359, F-196, F-192, F-190
+
+---
+
+### F-440 | Range restriction makes F-004 WORSE, not better — r = 0.07 is a floor on the association, not a ceiling
+TOPIC: velocity, jump height, restriction of range, correction, elite sample, method
+CLAIM: This program's own standing restriction-of-range constraint, applied to F-004, corrects the observed correlation UPWARD — so the corpus has been quoting the most deflated estimate available as though it were the true one.
+NUMBERS: **DERIVED IN-CYCLE.** Thorndike Case II: r_u = r_r·U / √(1 + r_r²(U² − 1)), U = SD_unrestricted/SD_restricted. From r_r = 0.07: **U = 1.5 → r = 0.105; U = 2.0 → r = 0.139; U = 2.5 → r = 0.173.** Standing constraint for reference: Luera 2020, n = 149 professionals, r = .17–.29 across an all-hard-throwing sample. ⚠️ **THE CORRECTION IS DIRECTIONAL ONLY**: this corpus holds no measured fastball-velocity SD for an NCAA D1 pitching staff (an open gap since 2026-09-08, F-289), so U is assumed, not known, and the corrected values are illustrative of SIGN and rough SIZE, not estimates.
+POPULATION: NCAA_D1
+EVIDENCE: EMERGING — the direction is secure, the magnitude depends on an unmeasured U
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-22-report.md` §1.4. Inputs: F-004, F-289, the standing Luera 2020 constraint.
+COACHING: Nothing to say to a pitcher. **What it kills is a rhetorical move**: "it's only 0.07 and that's in a selected sample, so really it's less." It is the opposite. Selection deflates; correcting for it pushes the estimate up.
+CONFIDENCE: medium-high for the sign, low for any specific corrected value
+SEE ALSO: F-438, F-004, F-289
+
+---
+
+### F-441 | 🚨 THE STRUCTURAL ERROR — a between-subject NULL is not the absence of a within-athlete LEVER, and this corpus has made that error four times in six cycles
+TOPIC: method, marker vs lever, null, transfer, between-subject, within-athlete, corpus method, correction
+CLAIM: The program's founding rule has a mirror image that was never written down, and every channel F-004 has been used to close is a within-athlete acute state change — the exact case where a between-athlete, mass-varying correlation does not apply.
+NUMBERS: **THE RULE, stated for the first time:** the corpus enforces *"you may not read a cross-sectional ASSOCIATION as a within-athlete LEVER"* (stride length, extension, F-049). **THE SYMMETRIC RULE: you may not read a cross-sectional NULL as the ABSENCE of a within-athlete lever.** **THE FOUR CHANNELS CLOSED WITH F-004, with the design of each closed effect:** **F-358** (2026-09-15, re-warm-up raises CMJ ES = 0.66) — *within-athlete, constant mass, acute*; **F-359** (2026-09-15, 117 pitches move no jump variable) — *within-athlete, constant mass, acute*; **F-406** (2026-09-19, sleep loss −6.26% power) — *within-athlete, constant mass, acute*; **F-419** (2026-09-20, pre-game cooling 0.3–0.9% power) — *within-athlete, constant mass, acute*. **F-004 is between-athlete, mass-varying, single-session.** ⚠️ **F-359 additionally carries an INDEPENDENT argument that does not run through F-004** (the pitching stimulus itself did not move squat jump) — but see F-443, which finds that argument underpowered on its own terms.
+POPULATION: n/a — a method finding about this registry
+EVIDENCE: ESTABLISHED as a logical point; the mechanism that makes the two quantities diverge here is F-442
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-22-report.md` §3; `library/jump-transfer-audit.md` §3.
+COACHING: 🚨 **THE FOUR CHANNELS MOVE FROM `FALSIFIED` TO `UNMEASURED`, AND THAT IS A DIFFERENT INSTRUCTION.** Falsified means stop. Unmeasured means nobody has looked and the channel is cheap to test. **This finding licenses NO magnitude for any of the four and produces none.** It is a negative result: it removes a false certainty and adds no positive evidence. ⚠️ Anyone citing this finding as support for re-warm-ups, nap protocols or thermal management has inverted it.
+CONFIDENCE: high that the two quantities are distinct; high that all four channels are the within-athlete case; the corpus's own inference, stated as such
+SEE ALSO: F-442, F-438, F-443, F-358, F-359, F-406, F-419, F-049
+
+---
+
+### F-442 | ⭐ THE MECHANISM — jump height is body mass divided out of impulse, and body mass is the strongest correlate of velocity in the SAME sample
+TOPIC: velocity, jump height, impulse, countermovement jump, body mass, suppression, normalization, mechanism, cue
+CLAIM: Jump height's between-subject null is not a weak relationship; it is a strong one with the signal deliberately divided out — and within an athlete at constant mass the division is a constant, so jump height and concentric impulse converge.
+NUMBERS: **DERIVED IN-CYCLE.** Net vertical CMJ impulse **J = m·v_takeoff**; **h = v²/2g** → **J = m·√(2gh)**. Jump height is the mass-free half of impulse. **THE SUPPRESSION:** in King 2025's same n = 33, **body mass r = 0.58, p = .0004 (F-001)** and **lean mass r = 0.52 (F-002)** are the two strongest correlates of velocity — so a between-subject jump-height comparison removes the strongest predictor from itself. **WITHIN AN ATHLETE at constant m, J ∝ √h:** vertical **24→26 in = +4.1% impulse**; 28→30 = +3.5%; 30→32 = +3.3%; 32→34 = +3.1%; **24→26 in WITH 200→205 lb = +6.7%**. **And concentric impulse is the highest jump-test correlate of velocity in the literature: r = 0.71 (F-003, Sakurai 2024, n = 19 D1, PMID 38900174).** ⚠️ **THE CHAIN HAS ONE MEASURED LINK AND ONE UNMEASURED LINK.** Height→impulse within an athlete is arithmetic. **Impulse→velocity within an athlete has never been measured** — F-003's r = 0.71 is between-subject and is itself mass-loaded (F-003 reports lean/body mass vs CMJ concentric impulse at r = 0.71/0.81).
+POPULATION: NCAA_D1 for the correlational inputs; the impulse arithmetic is population-free
+EVIDENCE: ESTABLISHED for the physics and the suppression structure; the transfer to velocity is UNMEASURED
+CAUSALITY: MECHANISM
+SOURCE: `daily/2026-09-22-report.md` §2; `library/jump-transfer-audit.md` §4. Inputs: F-001, F-002, F-003, F-004.
+COACHING: **THE REPLACEMENT CUE, and both clauses are mandatory:** *"Two inches on your vertical at the same body weight is about four percent more impulse into the ground — that's the number that tracks velocity across pitchers. What nobody has measured, us included, is what four percent of impulse is worth in mph."* ⚠️ **IF THE SECOND CLAUSE GETS DROPPED THE CUE IS WORSE THAN THE SENTENCE IT REPLACED**, because "r = 0.07" at least erred toward doing nothing. **ON VIDEO / ON THE SCALE THE FAILURE LOOKS LIKE:** a vertical that rises while body weight falls. **That is the one case where F-004's between-subject frame is the right one, and it is a warning, not a win.** Training instruction is UNCHANGED: train absolute impulse, not height; treat height as a readout at constant mass.
+CONFIDENCE: high for the physics and the suppression; the corpus's own inference for the join, stated as such; ZERO for any mph conversion
+SEE ALSO: F-441, F-438, F-003, F-001, F-002, F-006, F-448
+
+---
+
+### F-443 | The SECOND pillar of "jump doesn't matter" is also an underpowered null — and its two effect sizes are not on a comparable scale
+TOPIC: fatigue, squat jump, null, statistical power, minimum detectable effect, effect size, F-359, audit
+CLAIM: F-359's "117 pitches moved no squat-jump variable" could only have detected a large effect, and the contrast it draws between a moving velocity and a static jump rests on effect sizes computed against different standard deviations.
+NUMBERS: **DERIVED IN-CYCLE** on F-359's reported values (Yanai group 2018, J Exerc Rehabil, PMC6028199, n = 18 Japanese collegiate, source-verified 2026-09-15). **MINIMUM DETECTABLE EFFECT, paired t, n = 18, 80% power, α = .05: d = 0.660.** **LARGEST OBSERVED JUMP EFFECT: d = 0.25** (height), approximate power **~15%**; peak power d = 0.19, power ~10%. **The study was built to detect a LARGE effect and reported the absence of a large effect.** 🚨 **THE SCALE PROBLEM:** F-359's velocity decline is reported at **d = 0.32, P = 0.026** and **d = 0.38, P = 0.001**. At n = 18 paired, d = 0.38 carries only **~31% power** — those p-values are not reachable from those d's on a common SD. **The near-certain explanation is that the velocity d uses the BETWEEN-SUBJECT SD (±6.2 km/h, reported) while the significance comes from a WITHIN-subject comparison, whereas the jump d's are pre/post pairs.** ⚠️ **THIS IS AN INFERENCE, NOT A READ.** The within-subject SDs are not in the vault and egress was blocked today.
+POPULATION: ⚠️ SAMPLE MISMATCH retained from F-359 — mean first-inning velocity 130.3 km/h = **80.96 mph**, four mph below this corpus's floor
+EVIDENCE: ESTABLISHED for the MDE arithmetic; EMERGING for the scale-mismatch inference
+CAUSALITY: n/a — a precision audit
+SOURCE: `daily/2026-09-22-report.md` §3.1. Input: F-359.
+COACHING: F-359's practical line — *"anybody monitoring a starter's readiness with a jump mat is watching the one instrument that does not respond"* — **is now UNSUPPORTED rather than supported.** The correct statement is that **nobody has measured whether a jump test responds to pitching fatigue with enough precision to know.** The mat is unproven, not disproven. It is still not worth buying for that purpose, because the burden of proof sits with the instrument.
+CONFIDENCE: high for the MDE; medium for the scale inference, which needs the paper's within-subject SDs to confirm
+SEE ALSO: F-359, F-439, F-441, F-127, F-289
+
+---
+
+### F-444 | 🚨 SNIPPET-ONLY — the first longitudinal within-athlete CMJ→velocity study in collegiate pitchers exists, and it is n = 8
+TOPIC: velocity, countermovement jump, longitudinal, within-athlete, workload, velocity variance, collegiate, verification queue
+CLAIM: A 2026 JSCR paper ran the exact within-athlete design this corpus has been asking for — weekly CMJ across a full season against fastball velocity — and reports that CMJ relates to velocity STABILITY rather than mean velocity, on eight athletes.
+NUMBERS: ⚠️ **SNIPPET-ONLY — NOT READ. NO NUMBER BELOW MAY BE QUOTED AS A MAGNITUDE.** "Longitudinal Modeling of Pitching Workload and Countermovement Jump Performance as Determinants of Fastball Velocity and Consistency in Collegiate Baseball Pitchers," **JSCR 2026, PMID 42423608, doi 10.1519/JSC.0000000000005602.** Reported via search summary: **n = 8 collegiate pitchers, weekly CMJ, 15-week / 53-game season.** CMJ metrics: jump height (JH), RSI-modified, peak braking force, peak propulsive force normalised to body mass. **WORKLOAD↔VELOCITY (repeated-measures correlation):** innings **r = −0.15, p = 0.11**; total pitches **r = −0.18, p = 0.05**; FSFB pitches **r = −0.18, p = 0.05**. **SCALE MODEL: JH γ = −0.060, p = 0.001** (predicts REDUCED velocity variance); **RSImod γ = +3.800, p < 0.001** (predicts INCREASED variance). Stated conclusion: *"CMJ performance related to velocity stability rather than mean velocity."* 🚨 **THREE REASONS IT CANNOT CARRY A MAGNITUDE: (1) n = 8 — eight clusters cannot support a mixed-model SCALE parameter, whose variance estimate is unstable below ~30 clusters; (2) two jump metrics with OPPOSITE SIGNS on the same outcome in the same eight men is an instability signature, not a dissociation; (3) it is a null on the mean relocated into a variance claim — DISPUTE #36 exactly, now with an external instance.**
+POPULATION: NCAA collegiate (division and mean velocity both UNKNOWN to this corpus — neither was retrievable)
+EVIDENCE: UNVERIFIED — a real journal record with a plausible DOI, but unread
+CAUSALITY: **LONGITUDINAL / WITHIN-ATHLETE observational** — not an intervention; nothing was manipulated
+SOURCE: WebSearch summary, 2026-09-22. `pubmed.ncbi.nlm.nih.gov` and `ovid.com` both egress-blocked.
+COACHING: **Nothing yet. Do not use this with a pitcher.** It goes to the queue as a **DESIGN TO READ**, not a result to cite. ⚠️ The floor's own challenge was conceded: this paper is being promoted because it has the design the corpus wants, and had it reported a null it would have been discarded on n = 8 alone. **The symmetry is enforced: no number from PMID 42423608 may be quoted until read at source.** **TOP OF THE VERIFICATION QUEUE.**
+CONFIDENCE: medium that the paper exists as described; ZERO for every magnitude
+SEE ALSO: F-438, F-441, F-449, F-003, Dispute #36, Dispute #37
+
+---
+
+### F-445 | SNIPPET-ONLY — force-plate braking force and body height explain 43.3% of velocity variance in JUNIOR-HIGH pitchers, and it is a body-size model
+TOPIC: velocity, countermovement jump, braking force, force plate, adolescent, sample mismatch, body size
+CLAIM: An adolescent force-plate study finds strong CMJ correlates of velocity, and its structure corroborates this corpus's size-confound reading rather than contradicting the jump-height null.
+NUMBERS: ⚠️ **SNIPPET-ONLY — NOT READ.** "Countermovement Jump Analysis as a Predictor of Overhead Pitching Velocity in Adolescent Baseball Pitchers," **J Human Kinetics 2025/26, PMID 42211802, PMC13215227.** **n = 32 adolescent male pitchers from JUNIOR HIGH SCHOOL teams.** Kistler force plate at 2,500 Hz; 3 CMJs; 5 fastballs from a custom mound; pocket radar. **Positively correlated with ball velocity:** braking force, peak force, braking RFD, braking impulse, propulsive impulse, peak power, rate of power development, leg stiffness. **REGRESSION: absolute braking force + body height = 43.3% of velocity variance.** Braking force alone reported at ~36%. **MEAN BALL VELOCITY: NOT RETRIEVED — unknown to this corpus.**
+POPULATION: ⚠️ **SAMPLE MISMATCH — DIRECTIONAL ONLY, AND HARD.** Junior high school. Far below the 85 mph floor; mean velocity unknown but certainly 25–35 mph beneath it.
+EVIDENCE: UNVERIFIED (unread) and off-population
+CAUSALITY: CROSS_SECTIONAL
+SOURCE: WebSearch summary, 2026-09-22. `pmc.ncbi.nlm.nih.gov` and `johk.pl` both egress-blocked.
+COACHING: **No norm, no magnitude, no drill.** What it contributes is **structural corroboration**: the predictors are **ABSOLUTE braking force** and **BODY HEIGHT** — in a junior-high sample those are substantially a proxy for how physically mature the athlete is. **This is the same size confound King 2025 shows in D1 (F-001, F-002, F-005) appearing again at a different age.** The pattern across both: **absolute, mass-carrying metrics correlate; mass-normalised ones do not.** That is F-442's thesis, arriving from a sample this program otherwise excludes.
+CONFIDENCE: medium that the paper reports this; ZERO for transfer to an 85+ arm
+SEE ALSO: F-442, F-001, F-005, F-446
+
+---
+
+### F-446 | SNIPPET-ONLY — bilateral BROAD jump correlates with fastball velocity at r ≈ 0.59 in D1 pitchers, where vertical jump HEIGHT is r = 0.07
+TOPIC: velocity, broad jump, horizontal jump, jump testing, countermovement jump, normalization, metric choice
+CLAIM: In the same population and the same literature, a horizontal distance jump correlates with fastball velocity roughly eight times as strongly as vertical jump height — which locates the null in the METRIC, not in jumping.
+NUMBERS: ⚠️ **SNIPPET-ONLY — NOT READ.** "The Relationship Between Various Jump Tests and Baseball Pitching Performance: A Brief Review," **Strength & Conditioning Journal 46(5), October 2024, doi 10.1519/SSC.0000000000000832.** Reported: in **NCAA D1 baseball pitchers**, bilateral broad jump vs **max fastball velocity r = 0.589**, vs **mean fastball velocity r = 0.587**. The same review restates F-003's CMJ concentric impulse **r = 0.71** and peak power **r = 0.68**, corroborating that pair from an independent editorial source. The review's own recommendation: because pitching is unilateral, use **unilateral jumps** to expose stride/drive-leg asymmetry. **Underlying primary study, sample size and mean velocity: NOT RETRIEVED.**
+POPULATION: NCAA_D1 as reported; the primary source behind the r = 0.589 is unidentified in this corpus
+EVIDENCE: UNVERIFIED (unread); the broad-jump figure has not been traced to its primary study
+CAUSALITY: CROSS_SECTIONAL
+SOURCE: WebSearch summary, 2026-09-22. `journals.lww.com`, `ovid.com` and `researchgate.net` egress-blocked.
+COACHING: **The sentence this supports:** *"It isn't that jumping doesn't matter — it's that jump HEIGHT is the one jump number with the body weight divided out."* **Broad jump distance is not mass-normalised the way height is, and it is horizontal** — the closer analogue to a delivery. ⚠️ **Note the sequencing risk:** this is exactly the shape of the stride-length and extension errors. **r = 0.589 is a MARKER. Nobody has trained broad jump distance in pitchers and measured mph.** Do not convert this into a broad-jump program.
+CONFIDENCE: medium that the review reports it; low until the primary study, its n and its sample velocity are identified
+SEE ALSO: F-442, F-003, F-004, F-006, F-445
+
+---
+
+### F-447 | 🚨 SNIPPET-ONLY — Driveline's own jump/strength velocity model has MAE 2.7 mph, and a third-party aggregator restates it as "1 to 1.5 mph"
+TOPIC: velocity, prediction model, force plate, industry, measurement error, laundering, marketing, Driveline
+CLAIM: The industry's best-known jump-to-velocity prediction model publishes an error larger than the velocity gain a training block aims for, and a secondary site has halved that error in the retelling.
+NUMBERS: ⚠️ **SNIPPET-ONLY — BOTH SOURCES EGRESS-BLOCKED.** **VENDOR'S OWN FIGURE:** Driveline Baseball, *Predicted Velocity Through Jump and Strength Testing* (2021), reports **R² = 0.54** and **mean absolute error = 2.7 mph**, from multi-linear regression with a 75/25 train/test split, with multicollinearity and residual diagnostics stated. Most heavily weighted features: **squat jump peak power (W)**, **RSI-modified from the CMJ**, and **reactive strength index (flight time / ground contact time)**. **THIRD-PARTY RESTATEMENT:** `pitching.dev` describes this class of model as carrying *"a margin for error between 1 and 1.5 mph."* **That is roughly a 2× understatement of the vendor's own published error.** 🚨 **WHAT MAE = 2.7 mph MEANS: the model's error is LARGER than the velocity gain a fall block is trying to produce, and larger than any plausible within-athlete seasonal swing.** It sorts a population; **it cannot resolve an individual.** And R² = 0.54 is computed across a client base spanning high school to professional — **a maximally range-UNrestricted sample, so R² is inflated relative to an 85+ staff by exactly the mechanism F-440 describes in reverse.** ⚠️ Also flagged: the same organisation's 2016 post is reported to have found "virtually no correlation" between jump force and velocity. **An apparent internal contradiction five years apart — UNRESOLVED, both posts unread.**
+POPULATION: Driveline client base — mixed HS through professional, composition unknown
+EVIDENCE: UNVERIFIED (both pages unread); the vendor figure is plausible and self-critical, the third-party figure is not
+CAUSALITY: CROSS_SECTIONAL — a prediction model, not a lever. Knowing that more powerful athletes throw harder does not establish that raising squat-jump peak power raises velocity.
+SOURCE: WebSearch summaries, 2026-09-22. `drivelinebaseball.com` egress-blocked (standing), `pitching.dev` not attempted.
+COACHING: **Verdict on the vendor model: honest and useless at the individual level.** Verdict on the aggregator: **DEBUNKED — do not cite `pitching.dev` for a number.** ⚠️ **The practical line for a recruit or a parent waving a predicted-velo report:** *"That model is on average within about three miles an hour. Your whole season's gain is one or two. It can tell a room apart; it can't tell you apart from yourself in March."*
+CONFIDENCE: medium for the vendor numbers; high that a ~2× discrepancy exists between the two public statements
+SEE ALSO: F-440, F-442, F-006, F-274, F-275
+
+---
+
+### F-448 | 🚨 THE MISSING NUMBER — no jump/power study of pitchers publishes the regression SLOPE or the velocity SD, so NOBODY can convert a power gain into mph
+TOPIC: velocity, transfer, effect size, regression slope, reporting gap, method, gap
+CLAIM: Every jump-to-velocity result this corpus holds is reported as a correlation, and a correlation cannot be converted into mph without the outcome's standard deviation or the raw slope — neither of which appears anywhere in the corpus.
+NUMBERS: **King 2025 (n = 33, PMID 39446825)** and **Sakurai 2024 (n = 19, PMID 38900174)** both report **r without b, and without the fastball-velocity SD.** So do F-006 (Wong 2023, R² only) and F-007. **CONSEQUENCE: Δmph per unit of impulse, per watt, or per inch of vertical is NOT COMPUTABLE from any source in this registry.** This is a distinct gap from the missing within-athlete slope (F-442): even the **cross-sectional** conversion is unavailable. ⚠️ **It compounds an open gap already on the books: no within-outing or between-outing fastball velocity SD has ever been published for an 85+ arm** (F-289, open since 2026-09-08), which is the same missing quantity from the other direction.
+POPULATION: n/a
+EVIDENCE: ESTABLISHED as an absence within this corpus; **stated as a corpus-level absence, not a literature-wide one** — egress was blocked and a proper search was impossible
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-22-report.md` §5 Q4. Inputs: F-003, F-004, F-005, F-006, F-007, F-289.
+COACHING: 🚨 **ANYONE WHO HANDS YOU AN MPH-PER-UNIT-OF-POWER FIGURE HAS MANUFACTURED IT.** F-004's original coaching line was right to forbid the conversion and **wrong about the reason**: the conversion is **UNAVAILABLE**, not **ZERO**. Say: *"Nobody has published the number that would let you turn a power gain into miles per hour — not the labs, not the vendors, not us."* ⚠️ **And it is cheap to fix**: any program with a season of radar and a force plate can publish both the velocity SD and the slope. **Seventh entry in the pattern of F-264, F-289, F-295, F-307, F-320 and F-374: already in every program's own data and nobody has published it.**
+CONFIDENCE: high for the corpus-level absence; medium for the literature-wide claim, which a reading cycle must confirm
+SEE ALSO: F-442, F-289, F-374, F-320, F-307, F-295, F-264
+
+---
+
+### F-449 | ⭐ THE IN-PROGRAM DESIGN — a within-athlete CMJ↔velocity slope needs ~85 paired observations at r = 0.30, and one fall block supplies them
+TOPIC: velocity, countermovement jump, detection, sample size, study design, within-athlete, measurable check, fall block
+CLAIM: The within-athlete impulse-to-velocity slope that nobody has measured is measurable by a D1 program in a single fall block, with equipment it already owns.
+NUMBERS: **DERIVED IN-CYCLE.** **DESIGN:** pair each CMJ test session with a radar-logged bullpen; regress **within-athlete deviations** (each man's session value minus his own season mean) — which deletes body mass and between-athlete talent in one step, and is the step that separates this from F-004. **SAMPLE SIZE, 80% power, α = .05 two-tailed:** within-athlete **r = 0.40 → 47 paired observations**; **r = 0.30 → 85**; **r = 0.20 → 194**. **With 12 arms: ~4 sessions each for r = 0.40, ~7 for r = 0.30, ~16 for r = 0.20.** ⚠️ **THESE ARE FLOORS, NOT BUDGETS.** Repeated measures within athletes are **clustered**; treating them as independent inflates significance. **Budget ~1.5–2× or fit a mixed model with athlete as a random effect.** ⚠️ **NOISE FLOOR:** session-to-session fastball SD is bracketed at **0.8–1.2 mph** (F-289) and is itself unmeasured for this population — **one session proves nothing; this is a block measurement.** **OUTCOME VARIABLE:** use **CMJ concentric impulse** (F-003's r = 0.71 variable), not jump height, and record body mass at every session so the normalisation can be tested rather than assumed.
+POPULATION: designed for NCAA D1, 85+ mph
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: the design yields **LONGITUDINAL WITHIN-ATHLETE observational**, not INTERVENTION. ⚠️ **To get a lever you must MANIPULATE the training load and randomise or counterbalance it.** The observational version is a large improvement on F-004 and is still not a lever.
+SOURCE: `daily/2026-09-22-report.md` §5 Q3; `library/jump-transfer-audit.md` §5.
+COACHING: **THE ONE THING TO USE THIS WEEK.** Force plate is already in the weight room and the radar is already at the bullpen — the only new cost is **logging the two on the same day and writing body mass next to both.** **HOW HE'D KNOW IT WORKED:** after ~7 paired sessions per arm, plot each pitcher's own session-to-session impulse deviation against his own velocity deviation. **A positive within-athlete slope would be the first evidence in the literature that lower-body output is a velocity LEVER at this level; a flat one at adequate n would be the first honest null** — which, per F-439, is something this corpus does not currently possess.
+CONFIDENCE: high for the arithmetic; the clustering inflation is a stated approximation, not a computed design effect
+SEE ALSO: F-442, F-438, F-439, F-444, F-289, F-003, F-197
