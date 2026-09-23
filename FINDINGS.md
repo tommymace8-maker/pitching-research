@@ -5802,3 +5802,233 @@ SOURCE: `daily/2026-09-22-report.md` §5 Q3; `library/jump-transfer-audit.md` §
 COACHING: **THE ONE THING TO USE THIS WEEK.** Force plate is already in the weight room and the radar is already at the bullpen — the only new cost is **logging the two on the same day and writing body mass next to both.** **HOW HE'D KNOW IT WORKED:** after ~7 paired sessions per arm, plot each pitcher's own session-to-session impulse deviation against his own velocity deviation. **A positive within-athlete slope would be the first evidence in the literature that lower-body output is a velocity LEVER at this level; a flat one at adequate n would be the first honest null** — which, per F-439, is something this corpus does not currently possess.
 CONFIDENCE: high for the arithmetic; the clustering inflation is a stated approximation, not a computed design effect
 SEE ALSO: F-442, F-438, F-439, F-444, F-289, F-003, F-197
+
+---
+
+### F-450 | ⭐ 🚨 THE QUIET-EYE CRITERION IS TWICE AS WIDE AS THE ENTIRE STRIKE ZONE — the measure does not resolve what it is named for
+TOPIC: gaze, quiet eye, command, visual angle, measurement, construct validity, geometry, skill acquisition
+CLAIM: The standard quiet-eye definition fixes a 3° angular tolerance that does not scale with task distance. Transplanted from its near-field flagship tasks to a pitcher's mound, it admits a gaze region wider than the catcher, and it is twice the angular width of the whole strike zone — so a "quiet eye duration" measured on a mound is not the same measurement as the one the literature's effect sizes were estimated on.
+NUMBERS: **DERIVED IN-CYCLE.** Standard definition (two independent snippets): final fixation **within 3° of visual angle** for **≥100 ms** before movement initiation. Subtended width `s = 2D·tan(1.5°) = 0.05241·D`. **AT 60.5 ft (18.44 m) THE 3° WINDOW IS 96.6 cm = 38.0 in.** WINDOW ÷ TARGET WIDTH: golf putt (0.9 m, 10.8 cm hole) **0.44**; darts (2.4 m, 34 cm board) **0.37**; basketball free throw (4.4 m, 45.7 cm rim) **0.51**; **PITCHING to the 17-in zone 2.24**; **PITCHING to a ~12-in mitt 3.2**. ANGULAR BUDGET OF THE PITCH ITSELF, ball travel 54.5 ft = 654 in (`hitter-perception.md` §2 convention, 6.0 ft extension): 1 in of lateral miss = `atan(1/654)` = **0.0876° = 5.26 arcmin**; 6-in miss = **0.53°**; **the ENTIRE strike zone subtends 1.489° from release and 1.341° from the eyes at 60.5 ft.** **3° tolerance ÷ 1.3–1.5° zone = 2.0–2.2×.** To be as demanding, relative to its target, as putting's 3° is, a pitching criterion would need to be ≈ **0.75°** — inside the ~2° fovea and at the edge of field eye-tracker resolution.
+POPULATION: n/a — geometry, applies to any pitcher at regulation distance
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: n/a — a measurement-validity result, not a causal claim
+SOURCE: `daily/2026-09-23-report.md` §3; `library/gaze-aiming-target.md` §2. The 3° / 100 ms definition is ⚠️ SNIPPET-ONLY but appears identically in two independent search summaries (Kuchmaner IJES abstract; Lebeau-lineage summaries). The arithmetic is the corpus's own.
+COACHING: 🚨 **DO NOT IMPORT A QUIET-EYE EFFECT SIZE INTO PITCHING.** Whatever `d = 0.84` means in putting, the same construct on a mound is measured under a constraint **4–6× looser relative to the target**. A pitcher satisfies the textbook criterion while his gaze wanders across the glove, the mask, both of the catcher's shoulders and a foot of dirt either side. **This does NOT prove gaze is irrelevant — it cuts both ways: the published pitcher-side nulls are weak for the same reason.** The defensible position is AGNOSTIC, as F-192 concluded for feedback frequency. Say to the pitcher: *nothing here tells you to stop looking at the glove, and nothing tells you that looking harder is a training block.*
+CONFIDENCE: high for the arithmetic; high that it invalidates cross-task effect-size import; medium for the ~15% approximation in eye-to-target distances
+SEE ALSO: F-451, F-452, F-453, F-456, F-189, F-192, F-094
+
+---
+
+### F-451 | 🚨 AT 60 FEET THE EYES CANNOT TELL A PITCHER HOW FAR AWAY THE TARGET IS — quiet eye's proposed mechanism has no input here
+TOPIC: gaze, quiet eye, optics, vergence, stereoacuity, command, mechanism, depth perception
+CLAIM: Binocular depth information about the catcher's mitt is at or below the stereo threshold at pitching distance, so the pitcher's aiming problem is two-dimensional and angular. Quiet eye's proposed mechanism — parameterising the movement from a precise target localisation — has depth input in every flagship task and effectively none on a mound.
+NUMBERS: **DERIVED IN-CYCLE.** IPD ≈ 6.3 cm; vergence `θ = 2·atan(IPD/2D)`. **0.9 m (putt): 4.009° = 240.5 arcmin. 4.4 m (free throw): 0.820° = 49.2 arcmin. 18.44 m (60.5 ft): 0.196° = 11.7 arcmin.** SENSITIVITY `dθ/dD = −IPD/D²`: **a 1-ft depth change at 60.5 ft alters vergence by 0.194 arcmin = 11.6 ARCSEC**, against a good-observer stereoacuity threshold of **20–30 arcsec** that degrades further with distance. At putting distance a 1-cm depth change gives **2.67 arcmin = 160 arcsec**, hugely suprathreshold.
+POPULATION: n/a — optics, applies to any pitcher at regulation distance
+EVIDENCE: ESTABLISHED (arithmetic, given the cited stereoacuity threshold which is ⚠️ from general knowledge and NOT source-verified this cycle)
+CAUSALITY: MECHANISM
+SOURCE: `daily/2026-09-23-report.md` §3; `library/gaze-aiming-target.md` §3.
+COACHING: **The distance to the plate is a constant he KNOWS, not one he SEES.** This is why the high/low miss is not an aiming problem: vertical command is dominated by release TIMING, and the eyes supply nothing about it. Practical consequence: **stop treating vertical misses as target-focus failures.** A pitcher who is missing up is not looking in the wrong place; he is releasing early. ⚠️ The independent stereoacuity threshold is asserted, not verified — if it is materially worse than 20–30 arcsec the conclusion strengthens, never weakens.
+CONFIDENCE: high for the vergence arithmetic; medium for the stereoacuity threshold, which was not verified at source
+SEE ALSO: F-450, F-452, F-456
+
+---
+
+### F-452 | THE ONLY PITCHER-SPECIFIC QUIET-EYE STUDY IS n = 3, IS A CONFERENCE ABSTRACT, AND ITS ONE REPORTED NUMBER IS PROBABLY A MIS-PARAPHRASE
+TOPIC: gaze, quiet eye, command, sample size, conference abstract, clustering, verification, re-import vector
+CLAIM: The entire pitcher-side quiet-eye evidence base located this cycle is one conference abstract on three pitchers, and the magnitude circulating from it does not survive inspection.
+NUMBERS: ⚠️ **SNIPPET-ONLY, NOTHING READ AT SOURCE.** **n = 3 elite pitchers**, 30 pitches each to live hitters: 15 SET-TARGET (catcher flashes and holds the glove at the intended target right after the call) and 15 NON-SET (catcher does not move until after release). A search summary reports *"a significant difference in fixation duration in the set versus non-set targeted conditions (1126.88 ms)."* **THREE REASONS THIS IS NOT A MAGNITUDE: (1)** conference abstract with no retrievable sample — the corpus's standing rule excludes it; **(2)** a **1,127 ms DIFFERENCE** in fixation duration is implausible and is far more likely the **mean fixation duration in the set condition** — flagged **UNVERIFIED**; **(3) the athlete-level n is THREE.** 90 pitches is not 90 independent observations; analysed at pitch level without a random intercept the p-value is uninterpretable, and F-439's n ≥ 97 rule never gets a chance to apply.
+POPULATION: "elite pitchers," velocity NOT REPORTED and unknown to this corpus
+EVIDENCE: WEAK — treat as a lead only
+CAUSALITY: the set/non-set contrast IS a manipulation of the TARGET, not of gaze; at n = 3 it establishes nothing either way
+SOURCE: Kuchmaner JI, *Identifying the Quiet Eye — Duration and Target Acquisition Significance in Pitching*, International Journal of Exercise Science: Conference Proceedings 16(2) art. 21, `digitalcommons.wku.edu/ijesab/vol16/iss2/21`. ⚠️ UNREAD — egress blocked.
+COACHING: 🚨 **IF ANYONE QUOTES YOU A QUIET-EYE NUMBER FOR PITCHERS, IT CAME FROM THREE MEN.** Say so. The interesting half of this abstract is not the gaze result — it is the **manipulation**: whether the catcher SETS the target before the pitch or not is a coach-controllable variable, it was actually manipulated, and **nobody has run it at a usable n.**
+CONFIDENCE: high that the evidence base is this thin; high that the 1126.88 ms figure should not be imported
+SEE ALSO: F-450, F-453, F-439, F-247
+
+---
+
+### F-453 | THE QUIET-EYE META-ANALYSIS RESTS ON NINE INTERVENTION ARTICLES AND HAS THE EXACT PROFILE THAT COLLAPSED FOR EXTERNAL FOCUS AND OPTIMAL THEORY
+TOPIC: gaze, quiet eye, meta-analysis, publication bias, motor learning, marker vs lever, evidence grading
+CLAIM: Quiet eye's headline effects are overwhelmingly cross-sectional; the single intervention estimate rests on nine articles, and the bias re-analysis that destroyed two neighbouring motor-learning literatures has not been run on it.
+NUMBERS: ⚠️ **SNIPPET-ONLY.** Lebeau et al. 2016: **NON-INTERVENTION synthesis, 27 studies / 38 effect sizes** — expert-vs-novice QE difference **d = 1.04**; within-individual successful-vs-unsuccessful **d = 0.58**. **INTERVENTION synthesis, 9 ARTICLES** — QE period **d = 1.53**, performance **d = 0.84**. COMPARISON PROFILE: Wulf external focus went from naive **g = 0.26 (performance) / 0.58 (retention)** to robust-Bayesian bias-corrected **g = 0.01 / 0.15** (F-189); OPTIMAL self-controlled practice went from **g = 0.44** to **g = 0.107**, "not currently distinguishable from zero" (F-190). ⚠️ A further snippet reports QE *"effect sizes were more resistant to publication bias than performance effect sizes"* — i.e. **the MEDIATOR is better supported than the OUTCOME**, the wrong way round for a training claim; attributed to no specific paper and **not usable**.
+POPULATION: n/a — mixed novice/expert lab and field tasks; no pitchers
+EVIDENCE: EMERGING / CONTESTED — contested by ANALOGY to F-189/F-190, not by a located re-analysis
+CAUSALITY: **d = 1.04 and d = 0.58 are CROSS_SECTIONAL — MARKERS. Only d = 0.84 is INTERVENTION, and it is k = 9.**
+SOURCE: Lebeau JC, Liu S, Sáenz-Moncaleano C, Sanduvete-Chaves S, Chacón-Moscoso S, Becker BJ, Tenenbaum G (2016), J Sport Exerc Psychol 38(5):441–457, PMID 27633956. ⚠️ UNREAD.
+COACHING: **d = 1.04 is experts-vs-novices — the single design F-094 says is the wrong denominator.** Elite pitchers differ from novices in a hundred ways; a longer final fixation is a *correlate of being good*, not a route to it. **d = 0.58 is within-individual and still observational**: the long look on the made putt is as consistent with "a calm system precedes a good shot" as with "a long look causes one." **NEVER phrase d = 1.04 as an instruction.**
+CONFIDENCE: high for the marker/lever split; medium for the numbers (snippet-only); the bias critique is explicitly an ANALOGY and is labelled as such
+SEE ALSO: F-450, F-454, F-189, F-190, F-192, F-094
+
+---
+
+### F-454 | THE ONE MANIPULATED QUIET-EYE RESULT IN A THROWING TASK MOVED THE MEDIATOR AND NOT THE OUTCOME
+> **⚠️ CORRECTED 2026-09-23, SAME DAY — this finding was drafted SNIPPET-ONLY and the paper was then READ IN FULL (PMC7739699, via `pmc-oa-opendata.s3.amazonaws.com`). The original NUMBERS block below said "SAMPLE SIZE, SKILL LEVEL AND POWER ARE ALL UNKNOWN." All three are now known and TWO OF THEM CHANGE THE READING. Retained below so the snippet-era version cannot be re-imported; the verified block follows it.**
+TOPIC: gaze, quiet eye, darts, throwing accuracy, intervention, dissociation, marker vs lever
+CLAIM: In the only located intervention that manipulated quiet eye and measured throwing accuracy, quiet-eye duration changed and accuracy did not.
+NUMBERS: ⚠️ **SNIPPET-ONLY.** Training of perception-specific focus of attention in **dart throwing**: *"ANCOVA showed no significant group differences or interactions for throwing accuracy"*, while QE duration DID move — and moved in **opposite directions** for visually-instructed vs kinesthetic groups (visual ↑, kinesthetic ↓), which the authors read as perceptual and motor learning being asynchronous. **SAMPLE SIZE, SKILL LEVEL AND POWER ARE ALL UNKNOWN.**
+POPULATION: darts, skill level unknown — SAMPLE MISMATCH on its face; directional only
+EVIDENCE: WEAK as a null — under F-439 an unknown-n null is a **detection floor, not an absence**
+CAUSALITY: **INTERVENTION** — and it is the only one in this topic that touched a throwing outcome
+SOURCE: *Looking to Learn Better — Training of Perception-Specific Focus of Attention Influences Quiet Eye Duration but Not Throwing Accuracy in Darts*, Frontiers in Sports and Active Living (2020), 10.3389/fspor.2020.00079, PMID 33345070. ⚠️ UNREAD.
+COACHING: **A MANIPULATED DISSOCIATION IN A THROWING TASK: the mediator moved, the outcome did not.** That is the single most relevant intervention result in this topic and it is NEGATIVE — but it is snippet-only and its n is unknown, so it is a **lead, not a null.** **TOP OF THIS TOPIC'S VERIFICATION QUEUE**: the first thing a cycle with egress should do is read this paper and record its n.
+CONFIDENCE: medium that the dissociation is real as described; high that it cannot yet be graded as a null
+SEE ALSO: F-453, F-450, F-439, F-462
+
+**✅ SOURCE-VERIFIED BLOCK, added 2026-09-23 — supersedes the NUMBERS and COACHING above.**
+**DESIGN:** **n = 36 dart NOVICES**, randomised after pretest into four groups — internal-visual (n = 10, *"concentrate on your eye"*), external-visual (n = 9, *"concentrate on the bullseye"*), internal-kinesthetic (n = 7, *"concentrate on your hand"*), external-kinesthetic (n = 10, *"concentrate on the dart"*); 4 dropouts. **Pretest 30 throws → 3 training days × 50 → posttest, ~7 days.** **2.37 m, WDF board 34 cm, bullseye 1.73 m.** QE by SMI glasses at **60 Hz**; accuracy = **radial distance from bullseye (cm)**.
+**QE (TRAINABLE):** 574 → 747 ms, **F(1,32) = 6.93, p = 0.01, f = 0.43.** **Test × perception-focus interaction F(1,32) = 15.31, p < 0.01, f = 0.69** — visual groups UP (498→867; 499→946), kinesthetic groups DOWN (618→579; 686→565).
+**ACCURACY (NULL):** 8.7 ± 3.3 → 8.2 ± 3.2 cm, **F(1,32) = 1.13, p = 0.30, f = 0.13.** Group ANCOVA **F(1,31) = 3.35, p = 0.08, f = 0.33.**
+🚨 **(1) THE ASSOCIATION RUNS BACKWARDS.** Authors' own discussion: *"the kinesthetic-external group showed the highest improvement in throwing accuracy"* — and that is the group whose QE **fell** most (686→565). The group that gained most QE (external-visual, 499→946) **got worse** (6.6→6.7 cm). **Within this experiment QE gain and accuracy gain are NEGATIVELY associated.**
+🚨 **(2) AND (1) IS CONFOUNDED BY A HUGE BASELINE IMBALANCE.** Pretest accuracy differed **F(1,32) = 20.75, p < 0.01, f = 1.47** — visual 6.6–6.8 cm vs kinesthetic 10.8–11.0 cm. With 7–10 per group, randomisation produced a gap bigger than any target effect; **regression to the mean alone predicts the pattern in (1).** ⚠️ **DO NOT REVERSE THIS INTO "LONG QUIET EYE IS BAD."**
+🚨 **(3) THE REPORTED POWER IS NOT ACHIEVABLE.** The paper attaches **1 − β = 0.95** to nearly every null, beside effect sizes as small as **f = 0.03**. **RECOMPUTED (2×2 ANOVA, N = 36, df 1,32, α = .05): power is 11.6% at the observed f = 0.13 and 48.8% at f = 0.33.** 80% would need **N ≈ 465** and **N ≈ 72** respectively. **Reported power is off by a factor of eight** — an a-priori target reported as achieved power. **This is precisely the failure F-439 exists to catch, and it is in print.**
+**REGRADE: the accuracy null is a DETECTION FLOOR, NOT AN ABSENCE. The TRAINABILITY result (f = 0.43) is solid and is not in dispute.** **What does NOT exist anywhere is evidence that quiet-eye training improves throwing accuracy — and this is the only manipulated test of it.**
+**COACHING, REVISED:** *"They can make you hold your eyes still. Nobody has shown that holding your eyes still makes you more accurate — and the one study that tried was 36 beginners throwing darts, and its own numbers lean the wrong way."*
+
+---
+
+### F-455 | THE REGISTERED TRIAL CALLED "QUIET EYE DURATION IN BASEBALL" IS A HITTER STUDY — recorded so no cycle mistakes it for pitcher evidence
+TOPIC: gaze, quiet eye, verification, registry, hitter perception, corpus hygiene
+CLAIM: The one clinicaltrials.gov entry whose title suggests pitcher-side quiet-eye data is a batter-perception experiment on video.
+NUMBERS: ⚠️ **SNIPPET-ONLY — clinicaltrials.gov is egress-blocked.** **NCT04289376**, Ohio State, PI **Nicklaus Fogt**. **n = 20**, ages 18–40: **10 with baseball/softball experience at HS level or above within 10 years, 10 without.** Subjects **watch videos of a pitcher throwing** while gaze is tracked, testing for anticipatory eye movement toward the predicted release location. Primary outcome: quiet-eye duration. Visual acuity and stereoacuity measured at entry.
+POPULATION: lab subjects watching video — NOT pitchers; SAMPLE MISMATCH for this program on two counts
+EVIDENCE: n/a — recorded as a registry fact
+CAUSALITY: CROSS_SECTIONAL (experienced vs inexperienced)
+SOURCE: NCT04289376, `clinicaltrials.gov/study/NCT04289376`. ⚠️ UNREAD.
+COACHING: Nothing to do. **The value of this entry is negative-space:** it is the closest thing to a registered pitcher gaze trial and it is not one. **There is no registered pitcher gaze trial.**
+CONFIDENCE: high
+SEE ALSO: F-452, F-461
+
+---
+
+### F-456 | ⭐ 🚨 A GAZE EFFECT ON COMMAND IS NOT DETECTABLE AT COLLEGE-PROGRAM SCALE — one bullpen has 2–4% power
+TOPIC: gaze, command, detection, sample size, study design, measurable check, location SD, bullpen
+CLAIM: Under any plausible location SD, detecting a 2-inch command improvement takes over a thousand tracked pitches once session clustering is accounted for — so no bullpen, and no fall block, can see a gaze effect of realistic size.
+NUMBERS: **DERIVED IN-CYCLE.** Conventions per F-289/F-449: α = .05 two-sided, power .80, `(z+z)² = 7.849`; DEFF = `1+(m−1)ρ` with m = 30 pitches/bullpen, ρ = .05 → **DEFF = 2.45**. **(A) 2-INCH MEAN RADIAL-MISS SHIFT**, `n = 2·7.849·σ²/Δ²` per condition, then ×DEFF: **σ = 6 in → 141 → 346/condition → 692 total; σ = 8 in → 251 → 615 → 1,230 total ≈ 41 BULLPENS; σ = 10 in → 392 → 961 → 1,922 total.** **(B) CHANGE IN LOCATION SD**, two-group on `ln s`, `Var(ln s) ≈ 1/2(n−1)`: **10% SD reduction → 708/condition raw → 1,735 → 3,470 total, NOT AFFORDABLE; 20% SD reduction → 159 → 390 → 780 total ≈ 26 bullpens.** **(C) POWER OF ONE 30-PITCH BULLPEN against a 2-in shift at σ = 8: ≈ 2–4%.**
+POPULATION: designed for NCAA D1, 85+ mph
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: n/a — a design result
+SOURCE: `daily/2026-09-23-report.md` §5 Q2; `library/gaze-aiming-target.md` §6.
+COACHING: 🚨 **ANYONE WHO TELLS YOU HE SAW A TARGET-FOCUS EFFECT IN A BULLPEN IS READING NOISE.** Give him this number: a 30-pitch pen has **2–4% power**. **WHAT THIS LICENSES:** refusing a quiet-eye block on cost grounds alone, without needing the literature to be wrong. **ONLY AN ENORMOUS EFFECT (≥20% cut in location SD) is testable in a semester**, and nothing in this topic predicts one. ⚠️ **σ IS BRACKETED BECAUSE THE CORPUS DOES NOT HOLD IT** — see F-457.
+CONFIDENCE: high for the arithmetic; the ρ = .05 clustering assumption is stated, not measured, and is the single soft input
+SEE ALSO: F-457, F-458, F-289, F-449, F-197
+
+---
+
+### F-457 | THE TWELFTH DETECTION TABLE BLOCKED BY A NUMBER THAT IS ALREADY IN EVERY PROGRAM'S TRACKMAN LOG
+TOPIC: method, structural gap, location SD, detection, corpus liability, measurable check
+CLAIM: F-456's detection table is bracketed rather than exact because the corpus still holds no within-pitcher pitch-location SD for an 85+ arm — the twelfth instance of the same failure.
+NUMBERS: **DERIVED IN-CYCLE (a count).** The pattern now runs **F-264** (IVB SD) → **F-289** (within-outing velocity SD) → **F-295** (transition matrix) → **F-307** (location distribution) → **F-320** (time-to-plate SD) → **F-336** (inter-pitch tempo SD / clock margin) → **F-348** (FB−CH separation SD) → **F-363** (within-outing velocity SD, third table) → **F-385** (session-to-session retention SD) → **F-396** (session-to-session mean-velocity SD) → **friction cycle** (four-seam spin-rate SD) → **F-456 (within-pitcher location SD).** In F-456 the bracket spans **σ = 6/8/10 in**, which moves the required sample by a factor of **2.8** (692 → 1,922 pitches).
+POPULATION: NCAA D1, 85+ mph — the population whose data nobody publishes
+EVIDENCE: ESTABLISHED as a corpus-level absence
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-23-report.md` §5; `INDEX.md` §5, gap open since 2026-09-11.
+COACHING: **TWELVE TIMES NOW, the binding constraint on a design has been a dispersion statistic that a D1 program already owns and nobody computes.** Practical instruction, unchanged and now twelve times over: **compute and post the within-pitcher SD of every tracked quantity you log — location, velocity, spin, release point, tempo.** It costs one analyst afternoon and it unblocks a third of this corpus's open designs. **The means are published everywhere and the SDs are published nowhere, and the SDs are what decide whether a study is affordable.**
+CONFIDENCE: high
+SEE ALSO: F-456, F-264, F-289, F-307, F-396
+
+---
+
+### F-458 | ⭐ THE THING TO ACTUALLY DO — a gaze/head TIPPING check costs 80 freeze-frames, 15–45× less than the cheapest command test
+TOPIC: gaze, tipping, deception, detection, measurable check, pitch type, coaching protocol, video
+CLAIM: The gaze question that IS affordable is not whether looking longer helps command, but whether where the pitcher looks gives the pitch away — and that is a binary classification test detectable in two to four bullpens of phone video.
+NUMBERS: **DERIVED IN-CYCLE.** Blind freeze-frame classification, `n = 7.849·p(1−p)/(p−0.5)²`. **TWO PITCH TYPES (chance 50%): detect 60% → 189 frames; detect 65% → 80 FRAMES; detect 70% → 42 frames.** THREE PITCH TYPES (chance 33.3%), detect 50% → **71 frames**. **COMPARISON: the cheapest command test in F-456 needs 692–3,470 pitches. The ratio is 15× to 45×.**
+POPULATION: designed for NCAA D1, 85+ mph
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: the TEST is diagnostic, not causal. ⚠️ **Detecting a tell does not establish that the tell is USED by hitters** — see F-459.
+SOURCE: `daily/2026-09-23-report.md` §4; `library/gaze-aiming-target.md` §6.3.
+COACHING: **THE ONE THING TO USE THIS WEEK.** **WHAT:** two bullpens, phone on a tripod behind/beside the mound at hitter's-eye height, ~100 pitches, pitch type logged by the catcher. **HOW:** cut a still at the SAME event every pitch (max leg lift is easiest to find by eye; foot contact is better and harder), strip the labels, hand 80–100 stills to an assistant who does not know the pitch order, and have him call fastball/offspeed. **ON VIDEO THE FAILURE LOOKS LIKE:** head or eye line drifting toward the glove-side on the breaking ball, or the head settling earlier on the fastball. **HOW HE'D KNOW IT WORKED:** the grader is at **chance (50% ± 10% on 80 frames)**. **IF THE GRADER HITS 65%+, YOU HAVE A TELL** — and then read F-459 before you try to fix it, because the fix may not be the eyes.
+CONFIDENCE: high for the arithmetic; medium that a human grader is the right instrument (a grader who is TOO good may be reading grip or glove, not head — log what he says he used)
+SEE ALSO: F-459, F-460, F-456, F-256
+
+---
+
+### F-459 | HEAD/EYE ORIENTATION CARRIES 19.0% OF THE PRE-RELEASE PITCH-TYPE SIGNAL IN 119,561 PITCHES — SOURCE-VERIFIED, and the search summary had the ranking backwards
+> **⚠️ CORRECTED 2026-09-23, SAME DAY. Drafted SNIPPET-ONLY with CONFIDENCE: LOW, then arXiv 2603.04874v1 was DOWNLOADED FROM THE ARXIV BULK CORPUS AND READ IN FULL — closing the corpus's highest-value unread item, open since 2026-09-07. The numbers are confirmed; the snippet's INTERNAL INCONSISTENCY is resolved and the summariser, not the paper, was wrong; ONE of the cycle's four warnings is now DEAD and TWO are SHARPER. Original text retained below; verified block follows.**
+TOPIC: gaze, tipping, deception, pitch type, machine learning, feature importance, broadcast pose, verification queue
+CLAIM: The queue's highest-value unread paper reportedly assigns head/eye orientation a double-digit share of pre-release pitch-type predictive signal from broadcast video — which, if it survives a primary read, relocates gaze from a command topic to a deception topic.
+NUMBERS: ⚠️ **SNIPPET-ONLY, UNREAD, arxiv.org EGRESS-BLOCKED. Two independent searches returned identical figures.** **119,561 professional pitches; 80.4% pitch-type accuracy from body kinematics alone; upper body 64.9% vs lower body 35.1% of predictive signal; trunk lateral tilt the most discriminative single biomechanical feature; wrist position 14.8%; HEAD/EYES 19.0%; 229 kinematic features; empirical ceiling ≈80% because four-seam vs two-seam is NOT separable from pose.** **FOUR WARNINGS: (1) INTERNAL INCONSISTENCY** — the same summary calls wrist *"the most informative joint group"* at 14.8% while giving head/eyes 19.0%; those cannot both hold as stated, so **use the order of magnitude and NOT the ranking**; this is the exact summariser corruption that produced the fabricated *"Park et al., 12.4 million pitches."* **(2) FEATURE IMPORTANCE IS NOT A CHANNEL** — importance shares in a gradient-boosted ensemble over 229 correlated features; head orientation is mechanically coupled to trunk lateral tilt, **which the same paper names its top feature**, so the 19.0% may be entirely inherited (Dispute #38). **(3) A CLASSIFIER IS NOT A HITTER** — 229 features, full pre-release sequences, hindsight labels, versus a hitter's ~150 ms and no labels; the paper bounds what is PRESENT, not what is USABLE. **(4) IT IS BROADCAST POSE** — which makes it worse for the pitcher, not better: whatever it recovers is recoverable by any opponent with a laptop.
+POPULATION: professional (MLB broadcast) — ON-POPULATION, and the largest n in this topic by four orders of magnitude
+EVIDENCE: UNVERIFIED — promising, unread, and flagged with a live paraphrase hazard
+CAUSALITY: CROSS_SECTIONAL / predictive. **NOT a lever. Nobody manipulated a pitcher's head position and measured hitter performance.**
+SOURCE: Bright J, Lu M, Zelek J (University of Waterloo), *Interpretable Pre-Release Baseball Pitch Type Anticipation from Broadcast 3D Kinematics*, **arXiv 2603.04874**. Already named the HIGHEST-VALUE UNREAD ITEM in `library/idea-scouting.md` §4 since 2026-09-07. **STILL UNREAD.**
+COACHING: 🚨 **DO NOT TELL A PITCHER HIS EYES ARE TIPPING HIM ON THE STRENGTH OF THIS.** What it licenses is running the CHECK (F-458), which costs nothing and is agnostic about mechanism. **If the check comes back positive, the fix is probably NOT the eyes** — head orientation rides on trunk tilt and glove-arm deceleration, so the intervention lives in the delivery, not in where he stares. This is also the first thing located that speaks to **F-256** (the quarantined "slowed arm gives the changeup away" folklore): the paper says grip-defined variants are NOT readable from pose, which is a partial constraint on that folklore in the direction of skepticism.
+CONFIDENCE: medium for the existence and headline accuracy; **LOW for the 19.0% specifically**, which is internally inconsistent in the only source available
+SEE ALSO: F-458, F-460, F-256, F-462, Dispute #38
+
+**✅ SOURCE-VERIFIED BLOCK, added 2026-09-23 — supersedes the four warnings above.**
+**DESIGN:** broadcast video → diffusion 3D-pose backbone → **17 joints incl. nose and both eyes** → automatic detection of **foot plant / MER / release** → 154 raw-pose + 45 biomechanical + 30 temporal-delta features → **XGBoost, 8 classes.** **119,561 pitches**, stratified 80/20 (95,648 / 23,913).
+**NUMBERS, CONFIRMED:** overall **80.4%** (RHP 80.6% / LHP 79.9%) against a **32.3% majority-class (FF) baseline**. Raw poses 76.5% → +biomech 78.9% → +temporal 80.4%. Event-based vs evenly-spaced sampling **76.5% vs 63.2%** on identical feature counts. **Upper:lower = 64.9% : 35.1%. Arms 40.5%. HEAD JOINTS (both eyes + nose) 19.0%. BOTH WRISTS 14.8%. TRUNK 5.3%.** Importance spread near-uniformly across the three events (release 35.9%). **FF↔FT is the dominant confusion — grip-defined variants are NOT separable from pose.**
+✅ **THE SNIPPET'S RANKING WAS INVERTED.** The search summary called wrist *"the most informative joint group."* **The paper says head joints** *"collectively contribute 19.0%, higher than any single limb group."* The cycle's instruction — *use the magnitude, never the ranking* — was right, and the ranking it refused was wrong. **Third documented search-summary corruption in this corpus.**
+✅ **THE TIPPING FRAME IS THE AUTHORS' OWN:** the pipeline is presented as *"enabling interpretable importance rankings as batter-visible 'tells' for anticipation training."*
+❌ **WARNING 2 IS DEAD IN ITS ORIGINAL FORM.** The trunk-inheritance objection assumed head orientation proxies trunk lateral tilt. **Trunk joints carry 5.3%; head joints 19.0% — a 3.6× gap.** Conceded on the record (Dispute #38).
+⚠️ **WARNING 2, AMENDED, IS NOW THE PRINCIPAL OBJECTION.** Importance is **XGBoost GAIN**, the measure most prone to splitting arbitrarily among correlated predictors — and the paper's ablations are **by feature CATEGORY only (raw pose / biomech / temporal), never by joint. THERE IS NO LEAVE-ONE-JOINT-OUT ABLATION, so the head's 19.0% is never tested by removing it.**
+⚠️ **NEW, AND NOT DISCUSSED BY THE PAPER: NO HELD-OUT-PITCHER EVALUATION.** The 80/20 split is over **pitches**, so the same pitcher appears in train and test; the only generalisation check is across handedness (<1%). **The result does NOT establish a league-wide "pitchers tip with their heads" phenomenon — it is consistent with 119,561 pitches' worth of INDIVIDUAL tells averaged.** ⭐ **This makes F-458's check MORE necessary, not less: the paper cannot tell you about your pitcher.**
+⚠️ **MEASUREMENT CAVEAT THE PAPER UNDERSELLS.** Event detection validated on 156 pitches / 13 pitchers: **release mean error 9.6 ms (90.7% within ±10 ms), but FOOT PLANT 46.9 ms (22.1%) and MER 46.5 ms (31.4%).** Two of three events are located ~47 ms off on average. Direction is conservative (noise works against the finding), but **do not read the per-event breakdown finely.**
+⚠️ **UNCHANGED: A CLASSIFIER IS NOT A HITTER.** 229 features, hindsight labels, a workstation, versus ~150 ms and no labels. **The paper bounds what is PRESENT; nothing bounds what a hitter extracts.** That absence is F-461 #6 and survives the read intact.
+**F-256 IMPLICATION:** grip-defined variants (FF vs FT) are **not** separable from pose — a genuine constraint on the quarantined "slowed arm gives the changeup away" folklore, in the skeptical direction, though CH is a separate class here and is separable.
+**CONFIDENCE, REVISED: HIGH for every number; HIGH that head/eye position carries real attributed gain; MEDIUM that it is an independent channel (no joint ablation); LOW that it generalises to an unseen pitcher (never tested).**
+
+---
+
+### F-460 | ⭐ xCTRL — THE FIRST SERIOUS PUBLIC ATTEMPT TO RECOVER PITCHER INTENT STATISTICALLY, AND IT MAY BE PARTLY CIRCULAR
+TOPIC: command, measurement, intent, pitch location, metric, field sweep, Gaussian mixture, circularity
+CLAIM: A Wharton-authored preprint infers each pitcher's intended target from his own historical location distribution and scores command as distance to it — attacking the corpus's central command-measurement problem, with a structural objection the corpus should raise before importing it.
+NUMBERS: ⚠️ **SNIPPET-ONLY, arxiv.org EGRESS-BLOCKED.** **METHOD:** fit a Gaussian mixture to each pitcher's historical location data, **separately by pitcher × pitch type × batter handedness × season**, to learn where he tends to aim; score each pitch by the **posterior-weighted distance between actual location and inferred target**. **CLAIM:** xCTRL is *"more stable and more predictive of FIP, IP, BB/9 and WHIP than Location+."* **STATED PREMISE:** *"it is impossible to directly observe where a pitcher was trying to throw a given pitch"*, and existing metrics *"grade every pitcher against a league-wide 'optimal' target zone, which penalizes pitchers who deliberately use different locations."* **NO sample size, season range, component count or validation-against-known-target was retrieved.**
+POPULATION: MLB — ON-POPULATION for the elite end
+EVIDENCE: UNVERIFIED (unread preprint), PROMISING
+CAUSALITY: n/a — a measurement method
+SOURCE: Ludwig M, Brill RS, Wyner AJ (26 Aug 2025), *Separating Intent from Execution: A Probabilistic Approach to Pitch Location Accuracy*, **arXiv 2508.19184**. Brill and Wyner are Wharton statisticians; standing high. ⚠️ UNREAD.
+COACHING: **WHY IT MATTERS HERE:** the corpus deprecated glove-tagging/CommandF/x because the glove moves pre-pitch and the target may be a zone rather than a point, and `catcher-framing-command-measurement.md` (F-305→F-314) is built on intent being unobservable. **This is the first credible public attack on that.** 🚨 **TWO OBJECTIONS TO CHECK ON A PRIMARY READ. (1) PARTIAL CIRCULARITY:** the target is inferred FROM the pitcher's own location distribution and the deviations are measured AGAINST that same distribution — a wild pitcher gets WIDE mixture components, so his distance-to-nearest-component can come out SMALL. Depending on how component count is selected, **the metric may reward the scatter it claims to penalise.** The component-count sensitivity analysis is the first thing to look for. **(2) NEAR-TAUTOLOGY:** predicting **BB/9** from a location metric is close to definitional — a walk IS four out-of-zone pitches; **WHIP** inherits it. **The FIP and IP results are the ones that would mean something.**
+CONFIDENCE: high that the paper exists and the method is as described; **the circularity objection is this corpus's own and is UNTESTED — it may be answered inside the paper**
+SEE ALSO: F-459, F-305, F-306, F-309, F-310, F-197, F-462
+
+**✅ SOURCE-VERIFIED BLOCK, added 2026-09-23 — arXiv 2508.19184v1 read in full. THE CIRCULARITY OBJECTION SURVIVES.**
+**DATA:** Statcast via `pybaseball`, **every regular-season pitch 2008–2023**; comparison against Stuff+/Location+ on **2021–2023** (2020 excluded, COVID). Bins are **pitcher × pitch type × batter handedness × season**, **minimum 250 pitches per bin.**
+**METHOD:** Gaussian mixture by EM per bin, each component *"a unique target the pitcher likes to aim at"*, weights = how often he goes there. **K is NOT fixed: `K = K(x)`, tuned over K ∈ {1,…,6} by VALIDATION-SET LOG-LIKELIHOOD.** Location outliers removed by **1.5·IQR before fitting** but still **scored** after. xCTRL = **posterior-weighted distance from observed location to inferred target centres**; the posterior update uses the actual location, which is what yields per-pitch rather than per-bin intent.
+🚨 **THE CIRCULARITY OBJECTION IS NOT ANSWERED.** Validation log-likelihood selects the K that best **DESCRIBES the location cloud** — the same quantity the command score is built on. **It optimises the loop rather than breaking it.** **No simulation study and no validation against a KNOWN target** (tagged catcher setups, or a bullpen with a declared target) appears in the paper.
+✅ **ONE POINT IN THE PAPER'S FAVOUR THAT THIS CORPUS DID NOT ANTICIPATE:** the **1.5·IQR pre-fit trim** means the wildest pitches do not widen the components, which partially mitigates the objection. **It does not close it** — the rule trims the tail, not the bulk.
+⚠️ **THE NEAR-TAUTOLOGY STANDS.** Reported as more predictive of FIP, IP, **BB/9** and **WHIP**. A walk **is** four out-of-zone pitches; WHIP inherits it. **FIP and IP are the informative comparisons.**
+**TWO NAMED CHECKS FOR ANYONE USING IT:** (a) how does xCTRL behave on a **simulated** pitcher whose scatter is widened with intent held fixed? (b) does it beat Location+ **on FIP alone**, with BB/9 and WHIP set aside?
+**VERDICT, REVISED: PROMISING and source-verified — the most useful measurement advance located in months, with one unclosed structural objection.**
+
+---
+
+### F-461 | GAZE IN PITCHING — WHAT DOES NOT EXIST, said plainly
+TOPIC: gaze, quiet eye, structural gap, absence, corpus hygiene, field sweep
+CLAIM: After a full cycle of searching, the pitcher-side gaze literature consists of one n = 3 conference abstract and one unidentified thesis, and the industry is not arguing about it either.
+NUMBERS: **ABSENCES, established at the corpus level and NOT claimed literature-wide** (egress was blocked; a reading cycle must confirm). **(1) NO gaze study on any pitcher above the n = 3 abstract** — not in baseball, not in handball, not in cricket bowling. **(2) NO bias-corrected quiet-eye meta-estimate anywhere.** The critique literature located is mechanistic (*"Say it quietly, but we still do not know how Quiet Eye training works"*; *"The Quiet Eye: Origins, Controversies, and Future Directions"*) — **the robust-Bayesian re-analysis run on external focus (F-189) and OPTIMAL theory (F-190) HAS NOT BEEN RUN ON QUIET EYE.** **(3) NO registered pitcher gaze trial** — the one with the right name is a hitter study (F-455). **(4) NO 2026 industry argument about pitcher gaze.** Driveline carries **three** articles on HITTERS' gaze and **none** on pitchers'; searches returned batter-side content, vision-training marketing and youth coaching pages. **(5) NO measured link anywhere between a pitcher's gaze and pitch-location SD.** **(6) NO test of whether a pre-release head/eye tell is USED by hitters** — F-459 bounds what is present in the signal and says nothing about what a hitter extracts in 150 ms.
+POPULATION: n/a
+EVIDENCE: ESTABLISHED as a corpus-level absence; ⚠️ **stated as a corpus-level absence, not a literature-wide one** — egress was blocked and a proper search was impossible
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-23-report.md` §2, §6; `library/gaze-aiming-target.md` §8.7.
+COACHING: **The field is not debating pitcher gaze. That is part of why it was a gap — and part of why it is a small one.** The honest summary for a pitcher: *"Where you look has never been studied on anyone like you. What we can check cheaply is whether it gives your pitch away, so that is what we are going to check."* **Absence #6 is the one worth a cycle**: the whole tipping case currently rests on a classifier, and a classifier is not a hitter.
+CONFIDENCE: high for the corpus-level absences; medium for the literature-wide claim, which a reading cycle must confirm
+SEE ALSO: F-450, F-452, F-455, F-458, F-459, F-277
+
+---
+
+### F-462 | ⭐ 🚨 STANDING METHOD — "WebFetch is blocked" is NOT "this cycle cannot read papers." PROBE THE OBJECT STORES, NOT THE JOURNALS.
+TOPIC: method, egress, retrieval, corpus method, verification, run condition, self-correction
+CLAIM: This cycle declared a total reading blockade after probing journal websites, and was wrong. The two object stores the corpus has documented since 2026-09-15 were serving the whole time, and probing them mid-cycle converted a snippet-only day into a three-primary-text reading day.
+NUMBERS: **ESTABLISHED IN-CYCLE BY DIRECT PROBE, 2026-09-23.** **REFUSED — WebFetch denied, `curl` returns HTTP 000:** `pmc.ncbi.nlm.nih.gov`, `www.ncbi.nlm.nih.gov`, `europepmc.org`, `frontiersin.org`, `mdpi.com`, `arxiv.org`, `semanticscholar.org`, `tandfonline.com`, `journals.sagepub.com`, `thescholarship.ecu.edu`, `perceptionaction.com`, **and `en.wikipedia.org` as a control.** **SERVED — HTTP 200:** **`pmc-oa-opendata.s3.amazonaws.com`** (listable via `?list-type=2&prefix=PMC<id>.`, serving `.txt`/`.xml`/`.pdf`) and **`storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/<yymm>/<id>v1.pdf`**. **THREE PRIMARY TEXTS READ IN FULL** as a direct result: **PMC7739699** (the darts intervention, F-454), **arXiv 2603.04874** (F-459 — *the corpus's named HIGHEST-VALUE UNREAD ITEM, open since 2026-09-07*) and **arXiv 2508.19184** (xCTRL, F-460). ⚠️ **TOOLING NOTE:** `pdftotext` is absent from the sandbox and `pypdf` fails on a broken `_cffi_backend`; **`pypdfium2` (pip-installable with `--no-deps`) extracts arXiv PDFs cleanly** — 10 pages / 37k chars and 33 pages / 63k chars respectively.
+POPULATION: n/a — a method rule
+EVIDENCE: ESTABLISHED (direct probe)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-23-report.md` §0 and §8; `library/gaze-aiming-target.md` header correction. Supersedes nothing in F-277 and F-351 — it corrects how they are APPLIED.
+COACHING: 🚨 **THE RULE, AND THE CORPUS HAS NOW CONFLATED THESE TWO PROPOSITIONS AT LEAST TWICE.** *"The journals are blocked"* is a fact about WebFetch. *"This cycle cannot read papers"* is a different claim and requires probing **the object stores**. **F-351's pre-topic probe must henceforth hit, IN THIS ORDER: (1) `pmc-oa-opendata.s3.amazonaws.com`, (2) `storage.googleapis.com/arxiv-dataset`, (3) `openalex.s3.amazonaws.com`, (4) `ncaaorg.s3.amazonaws.com`. A journal-host probe is diagnostic of nothing and must never again be the basis for declaring a blind cycle.** **THE RETRIEVAL PATTERN:** WebSearch to obtain a PMCID or arXiv ID, then fetch the store by key. ⚠️ **AND THE COST OF GETTING THIS WRONG IS NOT HYPOTHETICAL:** the highest-value item in the verification queue sat unread for **sixteen days** behind a bucket that was answering 200 the entire time.
+CONFIDENCE: high
+SEE ALSO: F-277, F-351, F-454, F-459, F-460, F-463
+
+---
+
+### F-463 | ⭐ A PUBLISHED NULL REPORTED ITS POWER AS 0.95 WHEN ITS ACTUAL POWER WAS 0.12 — F-439's rule, caught in print
+TOPIC: method, statistical power, null, post-hoc power, publication practice, evidence grading, quiet eye
+CLAIM: The only manipulated quiet-eye-and-throwing-accuracy study attaches `1 − β = 0.95` to nulls whose recomputed power is an eighth of that — the first instance this corpus has verified at source of the exact error F-439 was written to catch.
+NUMBERS: **DERIVED IN-CYCLE from a source-verified paper.** PMC7739699, 2×2 ANOVA, **N = 36**, df = (1, 32), α = .05. The paper reports **`1 − β = 0.95`** beside observed effect sizes of **f = 0.03, 0.04, 0.05, 0.08, 0.11, 0.13, 0.30, 0.33**. **RECOMPUTED POWER (Monte-Carlo, noncentral F, λ = f²N): f = 0.13 → 11.6%; f = 0.33 → 48.8%.** **N REQUIRED FOR 80% POWER: N ≈ 465 at f = 0.13; N ≈ 72 at f = 0.33.** **The reported figure overstates actual power by a factor of ≈ 8.** The value is an **a-priori target reported as achieved power** — post-hoc power at an observed effect size is a monotone function of p and can never be 0.95 beside p = 0.30.
+POPULATION: n/a — a method finding about a specific paper and a general practice
+EVIDENCE: ESTABLISHED (arithmetic, against source-verified inputs)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-23-report.md` §8; `library/gaze-aiming-target.md` §4.4. Paper: Frontiers in Sports and Active Living 2:79 (2020), PMID 33345070, PMC7739699, read in full.
+COACHING: 🚨 **A PRINTED `1 − β` IS NOT EVIDENCE OF POWER AND MUST BE RECOMPUTED.** F-439 established that a registered NULL is usable only when it could have detected something; this is the first case where the corpus has verified, at source, that **a paper's own power claim is the thing misleading the reader.** **OPERATING RULE ADDED: when a null reports `1 − β`, recompute it from N and the OBSERVED effect size before grading. If the reported figure exceeds the recomputed one by more than ~2×, the null is a DETECTION FLOOR and the paper's power statement goes in the hazard log.** ⚠️ **AND THE STRUCTURAL ITEM THIS FEEDS:** `INDEX.md` §5 has carried *"run the n ≥ 97 rule across the whole registry"* as its **top structural item since 2026-09-22**. **It is still unrun.** Today shows the rule catches things that the papers themselves actively conceal.
+CONFIDENCE: high for the recomputation; high that the reported 0.95 cannot be achieved power at these effect sizes
+SEE ALSO: F-439, F-454, F-462, F-004, F-359, F-196

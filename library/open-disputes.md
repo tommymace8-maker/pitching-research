@@ -1149,3 +1149,104 @@ The anatomist accepts that the mound warm-up is a damper the model does not incl
 **This raises the prior that the move is a general artifact of underpowered mean-tests rather than a real physiological structure.** A mean-test at low n fails; the variance parameter, estimated from many more observations than clusters, returns a small p-value; the paper reports the second. **That is a mechanism for producing variance findings from nothing, and it does not require anyone to be acting in bad faith.**
 
 **Dispute #36 is ESCALATED, not resolved.** ⚠️ It now has a concrete test attached: **when PMID 42423608 is read, check whether it reports the power it had on the mean.** If mean-velocity power was ~15%, the paper is Dispute #36 in print, and the corpus's own three instances should be re-read in that light.
+
+---
+
+## Dispute #38 — 🔴 Is head/eye orientation a TIPPING CHANNEL, or a correlate of trunk lateral tilt wearing the head's clothes? *(added 2026-09-23)*
+
+**Biomechanist → Coach**, on F-459 and the whole reframe of F-458.
+
+**The fact both sides accept.** ⚠️ **Snippet-only, unread.** Bright/Lu/Zelek (arXiv 2603.04874) reportedly achieve **80.4%** pre-release pitch-type accuracy from broadcast 3D pose over **119,561 professional pitches**, with **229 kinematic features**, upper body carrying **64.9%** of predictive signal, **trunk lateral tilt** named the most discriminative single biomechanical feature, and **head/eyes 19.0%**.
+
+**The biomechanist's challenge.** *"You have taken a feature-importance share out of a gradient-boosted ensemble over 229 correlated inputs and called it a channel. It is not a channel. The head does not float: its orientation is mechanically driven by trunk lateral tilt, which this same paper names its single best feature. A tree ensemble that has already split on trunk tilt will happily hand a redundant proxy a large share, and importance measures are known to spread arbitrarily across correlated predictors. The 19.0% may be 19.0% of trunk tilt, re-labelled. And note the snippet contradicts itself: it calls wrist position 'the most informative joint group' at 14.8% while giving head/eyes 19.0%. Those cannot both be true as written. You are building a coaching recommendation on a number whose only available source is internally inconsistent."*
+
+**The anatomist's partial defence.** *"The head is not a passive rider. The vestibulo-ocular and cervicocollic reflexes actively stabilise the head against trunk rotation — that is their function, and it is why a pitcher's head stays comparatively level through a violent trunk action. A structure under active stabilisation is partially DECOUPLED from the segment beneath it, which means head orientation can carry information trunk tilt does not. Whether it does here is an empirical question. But 'it must be inherited' is not the safe default it sounds like."*
+
+**The coach's position — and it splits the question in two.** *"For the CHECK, I do not care. If a blind grader calls the pitch off a freeze-frame at 65%, the pitcher is tipping, and whether the information technically lives in his neck or his eyeballs changes nothing about the fact. F-458 is agnostic and stays. For the FIX, the biomechanist's objection is the whole ballgame: **you cannot fix a trunk-tilt tell by telling a man to move his eyes.** If I coach the eyes and the signal lives in the tilt, I have spent a block making a pitcher self-conscious about the one thing in his delivery he was not thinking about — which is the classic route to making command worse, not better."*
+
+**WHAT WAS CONCEDED.**
+- **The coach concedes fully on the fix**, and F-459's COACHING line now says so explicitly: *do not tell a pitcher his eyes are tipping him on the strength of this.*
+- **The biomechanist concedes that the check is unaffected**, because the check is a diagnostic over the whole pre-release picture and makes no claim about which segment carries the signal.
+- **Both concede the 19.0% is not usable as a ranking.** It is graded CONFIDENCE: LOW in F-459 for that reason.
+
+**WHAT WOULD SETTLE IT.** Read arXiv 2603.04874 and look for **(a)** an ablation with head/eye features removed — if accuracy falls materially with trunk features retained, the head carries independent signal; **(b)** conditional or permutation importance rather than split-gain importance; **(c)** the correlation matrix among head orientation, trunk lateral tilt and arm slot. **Any one of the three closes this.** The paper is free, on arXiv, and has been the corpus's named highest-value unread item since 2026-09-07.
+
+**WHY IT MATTERS.** It decides whether "gaze" is a topic at all or whether today's cycle has just rediscovered trunk kinematics with a more interesting name.
+
+---
+
+## Dispute #39 — 🟡 Does F-450's geometry kill pitcher quiet eye, or only its SPATIAL half? *(added 2026-09-23)*
+
+**Biomechanist → Anatomist and Coach**, on the cycle's headline.
+
+**The claim under dispute.** F-450: the 3° quiet-eye criterion subtends **38.0 in** at 60.5 ft — **2.2× the width of the strike zone** and **3.2× the width of a mitt** — against **0.37–0.51×** the target's own width in putting, darts and free throws. Therefore pitcher-side quiet-eye measurements cannot inherit the literature's effect sizes.
+
+**The objection.** *"The geometry is airtight and it is also narrower than you are using it. It bears on the SPATIAL criterion only. Quiet eye's measured effects in the literature are carried by DURATION — how long the final fixation lasts and when it onsets relative to movement — and duration is a clock, not an angle. A clock does not care how far away the catcher is. You have shown that the 3° window is loose at 60 ft. You have not shown that a pitcher's 800 ms final fixation means less than a putter's 800 ms final fixation."*
+
+**The response, from the coach and the anatomist together.** *"A duration is a duration OF something. The 3° criterion is what defines which samples count as the fixation in the first place — it is the gate, not a separate measurement. Loosen the gate to 38 inches and the thing you are timing is no longer 'looking at the target'; it is 'looking approximately at the catcher.' A pitcher staring at the chest protector and a pitcher burning a hole in the glove's pocket score the SAME quiet eye. That does not make the duration meaningless — it makes it a noisier proxy for the construct, and classical attenuation says a noisier measure of the mediator biases any true effect TOWARD ZERO."*
+
+**RESOLUTION STATUS — PARTIALLY CONCEDED, OPEN.**
+- **Conceded to the biomechanist:** F-450 does NOT show that pitcher quiet-eye duration is meaningless, and the finding's own COACHING line says so — *this does not prove gaze is irrelevant; it cuts both ways.*
+- **Conceded to the coach and anatomist:** the gate defines the construct, so widening the gate degrades the construct, and the degradation is not symmetric — it attenuates.
+- **Not resolved:** how much. Nobody has measured how much of a pitcher's 3°-qualifying fixation time is actually spent within, say, 0.75° of the intended target.
+
+**WHAT WOULD SETTLE IT.** Re-analyse any pitcher gaze dataset at a **distance-scaled criterion** (≈0.75° at 60.5 ft, to match putting's demand relative to target) and report what fraction of 3°-qualifying quiet-eye time survives. **The Kuchmaner data would do it and is n = 3 (F-452); the unidentified ECU thesis (F-452 SEE ALSO / `gaze-aiming-target.md` §4.2) might do it and cannot currently be read.**
+
+**WHY IT MATTERS.** If most 3° time is also 0.75° time, the construct is fine at 60 ft and only the cross-task comparison breaks. If it is not, every pitcher quiet-eye number ever recorded is measuring something closer to head alignment than to aim.
+
+---
+
+### Revisited 2026-09-23 — **Dispute #33** (*is "it is really a COMMAND effect" a finding, or this corpus's house style?*)
+
+**MOVED, AND AGAINST THE CORPUS. A SELF-CHARGE IS FILED.**
+
+Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fails to move, relocate the effect into **command**, which nobody measured, and call it a finding.
+
+**Today ran the same move in reverse, and it should be named as such.** The cycle opened a **command** topic, found the command effect neither mechanistically promising (F-451) nor detectable at program scale (F-456), and **relocated the topic's value into a TIPPING/deception claim (F-458, F-459) that nobody has measured either.** The destination changed; the move did not.
+
+**The defence, such as it is — and each part is weaker than it looks:**
+1. The relocation is **not** where the finding's confidence sits. F-450, F-451, F-456 and F-457 are arithmetic and stand alone; the tipping reframe is graded **UNVERIFIED** with **LOW** confidence on its central number.
+2. The destination has a **119,561-pitch dataset** behind it rather than a hypothesis — but that dataset is **unread**, and Dispute #38 argues its key number may be a statistical artifact.
+3. The destination came with a **cheap test** (F-458, 80 frames) rather than a promise. **This is the only part of the defence the corpus should actually credit**, and it is a defence of the RECOMMENDATION, not of the RELOCATION.
+
+**STATUS: Dispute #33 is ESCALATED. This is the FOURTH cycle in which a topic's value migrated from the outcome that was measured to one that was not** (after #33's original instances, #36, and #37's asymmetry flag).
+
+**⚠️ STANDING FLAG, STRENGTHENED.** A future cycle that ends by relocating its topic's value into an unmeasured outcome must state, in the daily report, **what the topic would have concluded if relocation were forbidden.** For today the answer is available and is recorded here: **"Gaze is not a usable command lever for an 85+ arm, the reason is geometric and optical rather than empirical, and the cycle produced no positive recommendation."** That is a legitimate result and the cycle should have been willing to stop there.
+
+---
+
+### Revisited 2026-09-23 — **Dispute #35** (*is friction a "LEVER" when every pitching measurement of it is n ≤ 8 at 80.8 mph?*) and **Dispute #36**
+
+**NOT MOVED.** Today produced no friction data and no new variance-relocation instance beyond the self-charge above. Both carry forward unchanged. **Dispute #36's attached test — read PMID 42423608 and check its power on the mean — remains unrun, and egress was blocked again today.**
+
+---
+
+### ⚠️ CORRECTED / AMENDED 2026-09-23, SAME DAY — **Dispute #38** after arXiv 2603.04874 was READ IN FULL
+
+**Disputes #38 and #39 above were written while the cycle believed it could not read papers. It could (F-462). The paper was then downloaded from the arXiv bulk corpus and read. This amends #38; #39 is unaffected and stands as written.**
+
+**❌ THE BIOMECHANIST'S ORIGINAL OBJECTION IS DEAD, AND IS CONCEDED ON THE RECORD.** The charge was that head-orientation importance is inherited from **trunk lateral tilt**. **At source: head joints (both eyes + nose) carry 19.0% of total joint importance; the TRUNK carries 5.3%.** The head group is **3.6× the trunk group**, and the paper explicitly states head joints contribute *"higher than any single limb group."* **The trunk-inheritance story does not survive its own arithmetic.** The anatomist's VOR/cervicocollic decoupling argument — that a head under active stabilisation can carry information the trunk does not — was the better prior and is **upheld**.
+
+**⚠️ THE OBJECTION SURVIVES IN AN AMENDED AND NARROWER FORM, AND IT IS STILL THE PRINCIPAL ONE.**
+
+*"Fine — not the trunk. But the measure is still **XGBoost gain-based importance**, which is the measure most known to distribute arbitrarily among correlated predictors, and head orientation correlates with arm slot and shoulder position, not only with the trunk. **And the paper's §5.6 ablations are by feature CATEGORY — raw pose / biomechanical metrics / temporal deltas — never by joint or region. There is no leave-one-joint-out ablation anywhere in it. The head's 19.0% is never tested by removing the head.** A share of attributed gain is not a demonstrated channel."*
+
+**CONCEDED BY BOTH OTHER AGENTS. The amended objection is not answered by the paper.**
+
+**⚠️ AND A NEW OBJECTION THE PRIMARY READ OPENED, WHICH THE PAPER DOES NOT DISCUSS AT ALL.** The 80/20 split is **stratified over pitches**, so the same pitcher appears in training and test; the only generalisation check reported is across **handedness** (<1% difference), which is a different question. **So the result does not establish a league-wide phenomenon. It is fully consistent with 119,561 pitches' worth of INDIVIDUAL, pitcher-specific tells averaged together.**
+
+**THE COACH TAKES THIS AS A WIN, AND HE IS RIGHT TO.** *"If it does not generalise across pitchers, then reading the paper tells me nothing about my guy — which is exactly what F-458 says. The check was already the recommendation. Now it is the only thing that could possibly work."* **F-458 is strengthened, not weakened, by the paper's weakest property.**
+
+**STATUS: PARTIALLY RESOLVED. The mechanism question (is head/eye an independent channel?) is OPEN and is now precisely specified.**
+
+**WHAT WOULD SETTLE IT — and it is narrower than yesterday's version:** a **leave-one-joint-group-out ablation** (drop the three head joints, retrain, report Δaccuracy), plus **permutation rather than gain importance**, plus **a held-out-pitcher split**. The pipeline is described in enough detail to reproduce. **Until then, F-458's check stays DIAGNOSTIC and no gaze coaching follows from a positive result.**
+
+---
+
+### ⚠️ Dispute #37 and the standing F-439 flag — **MOVED 2026-09-23, and in the corpus's favour**
+
+**F-463 is the first case this corpus has verified AT SOURCE of a published null whose own printed power statement overstates its actual power by a factor of eight** (`1 − β = 0.95` reported; **11.6%** recomputed at the observed f = 0.13, N = 36, df 1,32).
+
+**This strengthens the anatomist's side of #37 and the n ≥ 97 rule generally**: the corpus's problem is not only that it graded nulls by what was reported rather than what could be detected — it is that **the reported power figures are themselves unreliable**, so re-grading cannot be done by reading the papers' own claims. **Operating rule added in F-463: recompute every printed `1 − β` from N and the observed effect size before grading a null.**
+
+⚠️ **`INDEX.md`'s top structural item — run the n ≥ 97 rule across the whole registry — is now also a `1 − β` audit, and it is still unrun after two days.**
