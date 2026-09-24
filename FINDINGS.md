@@ -6032,3 +6032,129 @@ SOURCE: `daily/2026-09-23-report.md` §8; `library/gaze-aiming-target.md` §4.4.
 COACHING: 🚨 **A PRINTED `1 − β` IS NOT EVIDENCE OF POWER AND MUST BE RECOMPUTED.** F-439 established that a registered NULL is usable only when it could have detected something; this is the first case where the corpus has verified, at source, that **a paper's own power claim is the thing misleading the reader.** **OPERATING RULE ADDED: when a null reports `1 − β`, recompute it from N and the OBSERVED effect size before grading. If the reported figure exceeds the recomputed one by more than ~2×, the null is a DETECTION FLOOR and the paper's power statement goes in the hazard log.** ⚠️ **AND THE STRUCTURAL ITEM THIS FEEDS:** `INDEX.md` §5 has carried *"run the n ≥ 97 rule across the whole registry"* as its **top structural item since 2026-09-22**. **It is still unrun.** Today shows the rule catches things that the papers themselves actively conceal.
 CONFIDENCE: high for the recomputation; high that the reported 0.95 cannot be achieved power at these effect sizes
 SEE ALSO: F-439, F-454, F-462, F-004, F-359, F-196
+
+---
+
+### F-464 | ⭐ THE MOUND IS A GENUINE LEVER — randomised, within-subject, ~+2.0 mph over flat ground. In a 76.5 mph sample.
+TOPIC: mound, flat ground, velocity, manipulation, intervention, lever, mound height, distance, high school
+CLAIM: Mound-versus-flat-ground is one of the few variables in this entire corpus that has been RANDOMISED WITHIN ATHLETE with ball velocity as the outcome. The mound wins by about 2 mph at regulation distance.
+NUMBERS: **SOURCE-VERIFIED — PMC7734513 read in full 2026-09-24.** n = 21 high school varsity pitchers (age 16.2 ± 1.3 y; 73.6 ± 11.0 kg; 181.3 ± 6.4 cm). 5 fastballs at each of 4 conditions — mound/flat × 60.5 ft/50.5 ft — and **"the order of the throwing conditions was randomized for each pitcher, to eliminate any bias related to testing order"** (quoted at source). Regulation-height 10 in mound. **BALL VELOCITY, Table 1 raw means: mound 60.5 ft = 34.2 ± 1.9 m/s; flat 60.5 ft = 33.3 ± 1.8 m/s; mound 50.5 ft = 33.9 ± 1.9; flat 50.5 ft = 33.2 ± 1.9.** **MOUND OVER FLAT AT REGULATION DISTANCE = +0.9 m/s = +2.0 mph** (at 50.5 ft, +0.7 m/s = +1.6 mph). No significant effect of mound vs flat on elbow varus torque, arm speed or arm rotation; **arm slot +3.0° (95% CI 0.4, 5.5; P = .02) higher on the mound.**
+POPULATION: ⚠️ **SAMPLE MISMATCH — SEVERE. 34.2 m/s = 76.5 mph. "High school varsity" here means a 76 mph fastball, ~9 mph below this corpus's floor.** Off-population, directional only. Fourth instance of the F-023 pattern: the label says the level, the number says otherwise.
+EVIDENCE: EMERGING
+CAUSALITY: **INTERVENTION** — randomised order, within-subject, every pitcher served as his own control. **This is a LEVER, not a marker.** ⚠️ The paper states no power analysis was performed and that "nonsignificant results could be due to lack of power"; the velocity result is significant so this bites the nulls, not the positive.
+SOURCE: Dowling B, McElheny KD, Camp CL, Ling DI, Dines JS (2020), *Orthop J Sports Med* 8(12):2325967120969245, PMID 33354584, **PMC7734513, READ IN FULL**. ⚠️ Conflict of interest declared at source: first author is a former employee of Motus Global, manufacturer of the sensor used.
+COACHING: **THE MOUND IS WORTH ABOUT TWO MILES AN HOUR AND IT IS ONE OF THE FEW THINGS IN THIS FILE THAT WAS ACTUALLY MANIPULATED.** Practical reading: **flat-ground work is not velocity work.** A guy whose flat-ground number looks soft is not necessarily down — he is on flat ground. ⚠️ **DO NOT QUOTE +2 mph TO AN 85+ ARM AS HIS NUMBER.** It was measured on 76 mph high schoolers and whether it survives to this population is Dispute #40.
+CONFIDENCE: high that the design is a real manipulation; high on the arithmetic; **low that the magnitude transfers to 85+**
+SEE ALSO: F-465, F-466, F-467, F-468, F-469, F-023, F-137
+
+---
+
+### F-465 | ⭐ THE NUMBER EVERYONE QUOTES FROM THE MOUND LITERATURE IS IN THE WRONG UNITS — caught by arithmetic against the paper's own Table 1
+TOPIC: mound, flat ground, velocity, unit error, published error, abstract, hazard, verification
+CLAIM: Dowling 2020's Table 2 prints its ball-speed row in MILES PER HOUR under a header reading "m/s", and its arm-speed row in RPM under a header reading "deg/s". The abstract's "+0.7 m/s" is therefore +0.7 **mph**, and it is the DISTANCE contrast, not the mound contrast.
+NUMBERS: **DERIVED IN-CYCLE from a source-verified paper; the diagnosis is exact.** Table 2's coefficients should be the Table 1 cell differences. **THREE OF FIVE ROWS REPRODUCE EXACTLY:** arm slot (+2.9 vs +3.0; +1.0 vs +1.0), arm rotation (−1.4 vs −1.4; −0.5 vs −0.5), elbow torque (−1.0 vs −0.9; +0.3 vs +0.3). **TWO DO NOT, AND BOTH ARE EXACT UNIT CONVERSIONS.** **Ball speed:** raw 0.70/0.90/0.10/0.30 m/s × **2.23694** = 1.57/2.01/0.22/0.67, printed as **1.6/2.0/0.3/0.7** — the m/s→mph factor, to the last digit. **Arm speed:** raw 30.6/80.4/−38.4/11.4 deg/s **÷ 6** = 5.1/13.4/−6.4/1.9, printed as **5.2/14.2/−6.4/2.6** — the deg/s→rpm factor. **CONSEQUENCE: the printed 95% CIs (1.2–1.9 and 1.7–2.3 "m/s") EXCLUDE the paper's own Table 1 differences (0.7 and 0.9 m/s).** Read as printed, the mound is worth 3.6–4.5 mph; read correctly, 1.6–2.0 mph. **A factor of 2.24.**
+POPULATION: n/a — a method finding about a specific paper
+EVIDENCE: ESTABLISHED (arithmetic, against source-verified inputs)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-24-report.md` §3; `library/the-mound.md` §2. Paper: PMC7734513, read in full.
+COACHING: 🚨 **TWO SEPARATE ERRORS STACK, AND A SEARCH SUMMARISER FELL INTO BOTH THIS CYCLE.** (1) The abstract reads *"Pitches thrown from the mound displayed significantly faster ball velocity compared with flat-ground pitches at both distances, with pitches at 60.5 ft having higher velocity (+0.7 m/s)."* The **+0.7 is the 60.5-vs-50.5 contrast WITHIN the mound condition**, not the mound-vs-flat contrast — and it is **0.7 mph (= 0.31 m/s)**, not 0.7 m/s. (2) A WebSearch summary this cycle reported "+0.7 m/s" as the mound-over-flat-ground effect: **wrong contrast AND wrong unit, a 4.5× error, from a correctly-cited real paper.** **NEW HAZARD CLASS: THE UNIT-MISLABELLED TABLE.** Every fabrication defence passes — journal real, DOI resolves, open access, data internally consistent in three of five rows. **THE ONLY THING THAT CAUGHT IT WAS DIFFERENCING THE PAPER'S OWN TABLE 1 AND COMPARING.** **OPERATING RULE ADDED: when a paper prints both cell means and model contrasts, difference the cells and check. It takes one minute and it caught a published unit error today.** Cf. F-382 (peer-reviewed laundering), F-373 (abstract contradicted by its own table), F-375 (a fabricated citation on a true claim).
+CONFIDENCE: high — the conversion factors reproduce to the printed digit in 6 of 8 cells, and the two that do not are the two smallest, rounding-dominated differences
+SEE ALSO: F-464, F-373, F-382, F-375, F-353, F-354
+
+---
+
+### F-466 | THE FLAGSHIP MOUND-VS-FLAT-GROUND PAPER PUT TWO MARKERS ON THE BALL TO MEASURE VELOCITY AND NEVER REPORTED IT
+TOPIC: mound, flat ground, velocity, missing outcome, selective reporting, publication practice, youth
+CLAIM: Nissen 2013 — the most-cited mound-versus-flat-ground biomechanics paper — states in its Methods that ball markers were placed "to calculate the ball velocity" and then reports no ball velocity anywhere in the paper.
+NUMBERS: **SOURCE-VERIFIED — PMC3806183 read in full 2026-09-24.** Methods: *"Two markers were placed on the ball to calculate the ball velocity and aid in the inverse dynamic calculations for upper extremity joint kinetics."* **A full-text search for "ball velocity", "ball speed", "m/s" and "mph" returns the Methods sentence and nothing else.** Not in the abstract, not in Tables 1–4, not in Results, not in the Discussion. **What IS reported, and both favour the mound:** maximum GH internal-rotation velocity **3560 ± 500 vs 3396 ± 400 deg/s (P = .05)** and maximum elbow-extension velocity **1808 ± 192 vs 1742 ± 206 deg/s (P = .01)** — the two angular velocities most proximate to ball speed, **+4.8% and +3.8% on the mound.** Also at source: *"A power analysis was not performed at the start of the investigation."* n = 15, **3 trials per pitcher** (fewer for 3 of them).
+POPULATION: ⚠️ **SAMPLE MISMATCH — SEVERE. Mean age 12.7 ± 1.3 y, inclusion 9–14 y, mean mass 54 kg (range 31–84 kg).** Youth. Directional at absolute best; **its 33.6/31.7 N·m torque numbers must never be quoted for an 85+ arm** and are currently circulating in search summaries without the age attached.
+EVIDENCE: ESTABLISHED (the absence is verified by full-text search)
+CAUSALITY: n/a — a reporting finding
+SOURCE: Nissen CW, Solomito M, Garibay E, Õunpuu S, Westwell M (2013), *Sports Health* 5(6):530–536, PMID 24427428, **PMC3806183, READ IN FULL**.
+COACHING: **THIS IS WHY THE MOUND-VS-FLAT VELOCITY QUESTION LOOKED CONTESTED WHEN IT IS MOSTLY UNMEASURED.** Dowling 2020 (F-464) attributes its disagreement with Nissen to age and experience — *"our study population was older and more experienced"* — but **Nissen did not report a ball velocity to disagree with.** The disagreement in the literature is partly an artefact of a missing table row. **OPERATING RULE: when a paper says it measured your outcome, grep the full text for it before accepting a secondary source's account of what it found.** The two angular velocities it did report both point the same way as Dowling.
+CONFIDENCE: high on the absence; medium on the inference that the unreported velocity favoured the mound (the angular velocities are consistent with it but are not ball speed)
+SEE ALSO: F-464, F-465, F-467, F-439, F-463
+
+---
+
+### F-467 | MOUND HEIGHT ITSELF WAS MANIPULATED ACROSS 15/20/25/30 cm IN COLLEGIATE PITCHERS AND MOVED NOTHING — and the corpus cannot read the paper
+TOPIC: mound height, manipulation, randomised, velocity, spin, break, null, collegiate, verification queue
+CLAIM: Twenty collegiate pitchers threw from four mound heights in randomised order; no significant differences in ball velocity, spin or break, and the kinematic differences that reached significance were mostly under 2°.
+NUMBERS: ⚠️ **SNIPPET-ONLY — THE PAPER WAS NOT READ. NO SOURCE WAS OPENED.** n = 20 collegiate pitchers, 5 fastballs and 5 curveballs from **15, 20, 25 and 30 cm** mound heights, **randomised order**, ball tracking plus 11-camera optical motion capture. Reported: **no significant differences in ball movement (velocity, spin, break)**; 7 significant kinematic differences for fastballs, 8 for curveballs, **most joint angles changing by less than 2°**. **THE SAMPLE'S ACTUAL MEAN VELOCITY IS UNKNOWN TO THIS CORPUS** and "collegiate" has meant 78 mph here before.
+POPULATION: NCAA collegiate, ⚠️ **mean velocity UNKNOWN — the first of this corpus's four checks cannot be run on this paper.**
+EVIDENCE: **UNVERIFIED at source** — the design is reported consistently across three independent search summaries, the magnitudes are not usable
+CAUSALITY: **INTERVENTION (as described)** — a randomised within-subject manipulation of the exact variable, and therefore, if it reads as advertised, **the single most valuable paper on this topic.**
+SOURCE: Diffendaffer AZ, Fleisig GS, et al. (2019), *J Sci Med Sport* 22(7):810–813 (approx.), PMID 30733141, DOI via S1440-2440(18)31068-5. ⚠️ **EGRESS: `jsams.org`, `sciencedirect.com`, `doi.org` and a `foreonline.org` PDF mirror all returned HTTP 000 on 2026-09-24. Not in the PMC OA bucket.**
+COACHING: **PROVISIONAL AND NOT TO BE QUOTED AS A MAGNITUDE.** If it holds, it separates two things coaches conflate: **the mound's HEIGHT is not the active ingredient over the 15–30 cm range, while the mound's EXISTENCE is worth ~2 mph over flat ground (F-464).** That combination is coherent — a step change at zero with a flat response above it — and it is exactly what F-468's energy accounting predicts. **TOP OF THIS TOPIC'S VERIFICATION QUEUE.** ⚠️ And a null at n = 20 without a reported power analysis is a **detection floor** under F-439/F-463 until someone reads the paper and recomputes it.
+CONFIDENCE: medium on the design; **low on everything else — nothing here is source-verified**
+SEE ALSO: F-464, F-468, F-439, F-463, F-351, F-376
+
+---
+
+### F-468 | ⭐ THE MOUND HANDS THE DELIVERY ~100 JOULES AND THE BALL KEEPS ABOUT 5% OF IT
+TOPIC: mound, energy, potential energy, kinetic energy, transfer efficiency, arithmetic, mechanism
+CLAIM: The extra downhill drop a regulation mound provides is worth roughly as much energy as the ball's entire kinetic energy at 90 mph — and the measured velocity gain accounts for about a twentieth of it.
+NUMBERS: **DERIVED IN-CYCLE. Pure arithmetic; no source required; re-derivable in ten lines.** Rule geometry: rubber top **10 in** above the plate; from 6 in in front of the rubber the mound falls **1 in per foot for 6 ft**. So a lead foot landing `s` ft in front of the rubber sits at `10 − (s − 0.5)` in. **NET EXTRA DOWNHILL vs FLAT GROUND: 4.4 in at a 4.9 ft stride, 4.75 in at 5.25 ft, 5.5 in at 6.0 ft, 6.0 in at 6.5 ft.** **FREE POTENTIAL ENERGY `mgΔh`:** 73.6 kg × 4.4 in = **80.7 J**; 73.6 kg × 6.0 in = **110.0 J**; 90 kg × 4.75 in = **106.5 J**; 90 kg × 6.0 in = **134.6 J**. **BALL KINETIC ENERGY** (0.145 kg): **117.4 J at 90 mph**; 84.8 J at 34.2 m/s. **WHAT THE BALL ACTUALLY KEEPS:** Dowling's measured mound-over-flat gain is 84.8 − 80.4 = **4.40 J**, against 80.7–110.0 J available → **4.0–5.5%.** For a 90 kg arm, **+2 mph from 90 costs 5.27 J** against 89.7–134.6 J available → **3.9–5.9%.** **THE TWO EFFICIENCIES COINCIDE, at populations 14 mph apart.**
+POPULATION: n/a — mechanics. The 73.6 kg mass is Dowling's measured sample; the 90 kg case is an illustrative 85+ college arm and is labelled as such.
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: MECHANISM
+SOURCE: `library/the-mound.md` §4. Rule geometry from the regulation mound specification; ball mass 0.145 kg; masses from PMC7734513 Table of participants.
+COACHING: **TWO THINGS A COACH SHOULD TAKE FROM THIS, AND ONE HE SHOULD NOT.** (1) **An energy argument cannot be used to dismiss the mound.** The downhill supplies more joules than the ball ever carries; anyone saying "ten inches can't matter" is wrong on the physics. (2) **An energy argument also cannot be used to sell it.** 95% of the free energy goes into eccentric absorption at the lead leg, braking and heat — it is not sitting there waiting to be harvested by a cue. (3) ⚠️ **DO NOT TURN THIS INTO A DRILL.** "Use the mound," "fall down the hill," "get more out of the slope" all propose to raise a transfer efficiency **nobody has ever measured within an athlete**, and F-063 already found that *"get down the mound faster"* is mostly wrong. **This is filed as MECHANISM and deliberately generates no prescription** — the F-392 posture.
+CONFIDENCE: high on the arithmetic; the 5% figure is a ratio of two measured quantities, not an estimate of anything trainable
+SEE ALSO: F-464, F-467, F-469, F-063, F-392, F-004, F-449
+
+---
+
+### F-469 | ⭐ THE MOUND'S BIGGEST EFFECT ON THE PITCH IS PLANE, NOT SPEED — ~0.40° of VAA, ≈ 4.3 inches of IVB-equivalent
+TOPIC: mound, flat ground, VAA, vertical approach angle, release height, pitch design, measurement hazard, arithmetic
+CLAIM: Relative to flat ground the mound raises the release point about 4.5 inches, which by this corpus's own VAA regression is worth ~0.40° of approach angle — roughly 0.8 SD of VAA-above-average and the equivalent of about 4.3 inches of induced vertical break. Flat-ground data therefore mis-grades a four-seamer.
+NUMBERS: **DERIVED IN-CYCLE against F-151.** Residual mound height under the release point (≈ 0.5–1 ft beyond the lead foot) = **4.0–5.5 in**. **TWO INDEPENDENT ROUTES AGREE:** (a) raw trigonometry over the 16.8 m release-to-plate path → **0.35°/0.39°/0.48°** for 4.0/4.5/5.5 in; (b) **F-151's regression** (|VAA| = 9.069 − 1.084·plate_ht + 1.055·rel_ht − 0.0927·IVB − 0.0630·velo, n = 6,110, R² = 0.999) → 1.055 × (4.5/12) = **0.396°**. **TRANSLATION VIA F-152:** +1 SD of VAA-above-average = 0.5°, so the mound ≈ **0.79 SD**. **TRANSLATION VIA F-151's own exchange rate** (half a foot of release height = 0.53° = 5.7 in of IVB): the mound ≈ **4.3 inches of IVB-equivalent.** ⚠️ **AND A MEASURED, NOT ASSUMED, CONTRIBUTION:** Dowling found **arm slot +3.0° higher on the mound** (P = .02, source-verified), so the release-height change is not purely geometric — posture moves too, in the same direction.
+POPULATION: the VAA regression is **MLB four-seam** (n = 6,110); the geometry is population-invariant; the arm-slot term is from a 76.5 mph HS sample
+EVIDENCE: ESTABLISHED (arithmetic on an established regression)
+CAUSALITY: MECHANISM / geometric identity. ⚠️ **It is a GEOMETRIC consequence of release height, not a discovered effect — check #4. Registered as such and not as a finding about pitching.**
+SOURCE: `library/the-mound.md` §5. F-151, F-152; arm slot from PMC7734513 Table 2, read in full.
+COACHING: 🚨 **THE ACTIONABLE PIECE IS A MEASUREMENT WARNING, AND IT IS THE ONE COACHES BREAK.** **Never grade a four-seamer's VAA, ride or "flatness" from flat-ground data.** On flat ground the same delivery produces an approach angle **~0.4° flatter** — which on F-152's benchmark reads as nearly a full standard deviation of "flat fastball," for free, from the surface. A pitcher who looks like a ride-and-flat guy in a flat-ground session and ordinary off the mound has not changed; **the floor did.** Same warning applies in reverse to a steep-VAA sinker. **WHAT TO SAY: "flat ground tells you about your arm, not about your pitch."**
+CONFIDENCE: high on the geometry and the two-route agreement; medium on the IVB-equivalence, which inherits F-151's exchange rate
+SEE ALSO: F-151, F-152, F-464, F-470, F-150
+
+---
+
+### F-470 | A BULLPEN MOUND THAT IS OFF BY AN INCH MOVES THE PITCH AN INCH — the command-transfer contaminant nobody measures
+TOPIC: mound, command, bullpen transfer, location, measurement contamination, geometry, detection
+CLAIM: With the delivery unchanged, an error in mound height translates one-for-one into vertical location error at the plate — so a bullpen mound that differs from the game mound injects a fixed vertical bias into every command number taken off it.
+NUMBERS: **DERIVED IN-CYCLE. Geometric identity.** Release height error `δ` with launch angle unchanged → arrival height error `δ` at the plate, to first order (the trajectory translates; it does not rotate). **0.5 in mound error → 0.5 in; 1 in → 1 in; 2 in → 2 in.** For scale against this corpus's own command work: **F-309's realistic one-season command gain is 4.52 points of zone rate and its catcher-contamination term is 3.69 points at δ = 0.5 in of glove movement.** A mound-height discrepancy is the **same order of magnitude as both**, and unlike catcher assignment it is **constant, unidirectional and free to eliminate**. ⚠️ **NO STUDY ANYWHERE HAS MEASURED IT** (F-471).
+POPULATION: n/a — geometry, applies at any level
+EVIDENCE: ESTABLISHED (geometric identity) for the mapping; **UNMEASURED** for the size of the discrepancy in any real program
+CAUSALITY: MECHANISM
+SOURCE: `library/the-mound.md` §6. F-309, F-310 for the comparison scale.
+COACHING: **THE CHEAPEST THING IN THIS ENTIRE CYCLE: PUT A LEVEL AND A TAPE ON YOUR OWN BULLPEN MOUNDS AND COMPARE THEM TO THE GAME MOUND.** Height at the rubber, and the drop at 5 ft and 6 ft out. **It costs twenty minutes once and it removes a bias, not a noise term** — which, per F-309, is the class of error that gets *more* confident with more data. ⚠️ **HONEST LIMIT: this bounds what is geometrically AVAILABLE and says nothing about whether the pitcher's own adjustment already absorbs it** — a pitcher who has thrown 300 pens on a low mound has adapted to it, and the adaptation is exactly what fails to transfer. That is the open half, and it is Dispute #40b.
+CONFIDENCE: high on the geometry; **unknown on whether real mound-to-mound discrepancies in a D1 program are 0.2 in or 2 in — nobody has published it**
+SEE ALSO: F-309, F-310, F-469, F-197, F-471
+
+---
+
+### F-471 | NOBODY HAS MANIPULATED THE MOUND — HEIGHT, SLOPE OR SURFACE — WITH A COMMAND OUTCOME, IN ANY POPULATION
+TOPIC: gap, mound, command, accuracy, location, surface, traction, cleats, absence
+CLAIM: Every mound manipulation in the literature measures velocity, spin, break or joint load. Not one measures where the ball went.
+NUMBERS: **SEARCHED THIS CYCLE, CONFIRMED ABSENT in everything reachable.** Mound height manipulated (F-467): outcomes velocity/spin/break/kinematics/kinetics. Mound vs flat ground manipulated (F-464, F-466): outcomes ball velocity, arm slot, arm rotation, elbow torque, joint moments. **ZERO ACCURACY OR LOCATION OUTCOMES.** Dowling's pitchers were instructed to *"aim down the middle of the strike zone"* — **a target was declared and the miss was never scored.** **AND THE SURFACE LITERATURE IS NOT A LITERATURE:** a sweep for mound firmness, clay composition, landing-area stability and cleat traction returns groundskeeping vendors and a subjective **1-to-10 daily rating sheet**. No instrumented measurement of traction, no performance outcome.
+POPULATION: n/a
+EVIDENCE: ESTABLISHED (absence, within reachable sources — labelled as such)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-24-report.md` §6; `library/the-mound.md` §7.
+COACHING: **THIRTEENTH ENTRY IN THIS CORPUS'S MOST PERSISTENT PATTERN** — after F-264, F-289, F-295, F-307, F-320, F-336, F-348, F-363, F-374, F-385, F-396, F-457: **the measurement is trivially available and nobody takes it.** Here it is more damning than usual, because **the experiment is already built.** Dowling's protocol — 4 randomised conditions, 5 pitches each, a catcher, a declared target — needed **one extra column: miss distance in inches.** ⚠️ **AND THE ARITHMETIC SAYS WHY IT IS NOT DONE:** 5 pitches per condition detects nothing about location. Against this corpus's σ = 6/8/10 in bracket (F-457), separating a 1-inch mean shift needs **hundreds** of pitches per condition, not five. **The mound's command effect is not unmeasured because nobody thought of it; it is unmeasured because it is expensive and velocity is cheap.**
+CONFIDENCE: high that it is absent from reachable sources; **medium that it is absent full stop** — `jsams.org`, ScienceDirect and `doi.org` were all egress-blocked today (F-376 posture: "not in the bucket" never licenses "does not exist")
+SEE ALSO: F-457, F-374, F-307, F-320, F-464, F-467, F-470
+
+---
+
+### F-472 | FIELD SWEEP 2026-09-24 — THE MOUND IS AN INFRASTRUCTURE TOPIC, AND THE INDUSTRY IS NOT ARGUING ABOUT IT
+TOPIC: field sweep, industry, mound, idea scouting, negative result
+CLAIM: Four sweeps across coaching, R&D and league-rules sources returned no live development argument about the mound. Recorded as a negative result rather than padded.
+NUMBERS: **SWEEPS RUN:** mound quality / bullpen-vs-game mound / landing-area firmness (Driveline, Tread, coaching); MLB mound-lowering and mound-distance proposals; mound surface, clay and cleat traction; mound-height biomechanics. **WHAT CAME BACK:** groundskeeping vendors and portable-mound retailers (**MARKETING**); the 2021 Atlantic League 61 ft 6 in experiment, historical (**real but old, and a DISTANCE change, not a mound change**); assorted "should MLB lower the mound" opinion (**UNPROVEN — it is a league-offense argument, not a development one**). **ONE ITEM WORTH KEEPING, AND IT IS NOT VERIFIED:** a vendor page states MLB checks mound and **bullpen** slope with a slope gauge roughly monthly (~every 14 home dates). ⚠️ **UNVERIFIED, single vendor source, no league document seen.** If true it is the only evidence anyone treats mound-to-mound consistency as measurable. **VERDICT: UNPROVEN, and worth one email to a groundskeeper rather than a cycle.**
+POPULATION: n/a
+EVIDENCE: WEAK / FOLKLORE throughout
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-24-report.md` §2; `library/idea-scouting.md`.
+COACHING: **SAY THE NEGATIVE RESULT OUT LOUD.** The mound is the one piece of equipment in baseball that nobody in player development is currently arguing about, and that is itself informative: **it is treated as a constant, which is precisely the assumption F-470 says is worth twenty minutes to check.** The absence of an industry argument is not evidence that the mound is constant; it is evidence that nobody has looked.
+CONFIDENCE: high that the sweep was genuinely thin; medium that the thinness is real rather than an artefact of WebSearch being the only channel (F-266)
+SEE ALSO: F-470, F-471, F-266, F-274

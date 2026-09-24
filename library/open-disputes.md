@@ -1250,3 +1250,33 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **This strengthens the anatomist's side of #37 and the n ≥ 97 rule generally**: the corpus's problem is not only that it graded nulls by what was reported rather than what could be detected — it is that **the reported power figures are themselves unreliable**, so re-grading cannot be done by reading the papers' own claims. **Operating rule added in F-463: recompute every printed `1 − β` from N and the observed effect size before grading a null.**
 
 ⚠️ **`INDEX.md`'s top structural item — run the n ≥ 97 rule across the whole registry — is now also a `1 − β` audit, and it is still unrun after two days.**
+
+---
+
+### **#40 (added 2026-09-24) — DOES THE MOUND'S ~2 mph SURVIVE TO AN 85+ ARM?** (biomechanist vs coach vs anatomist; **OPEN, and it is the whole topic**)
+
+**THE CLAIM AT ISSUE — F-464.** Dowling 2020, randomised within-athlete, mound beats flat ground by **+0.9 m/s = +2.0 mph** at regulation distance. This is a genuine **LEVER**, one of very few in this corpus.
+
+**🔴 THE BIOMECHANIST'S OBJECTION.** *"The sample throws **76.5 mph**. This corpus's standing rule (Luera 2020, n = 149 pros, r = .17–.29) is that in all-hard-throwing samples, relationships collapse. But the deeper problem is not restriction of range — it is that **the mound's contribution is an energy-transfer efficiency, and an 85+ arm is by definition already better at transferring energy.** A 76 mph high schooler has more headroom in that efficiency than a 93 mph college arm does. **The direction of the transfer error is not neutral: it is more likely to shrink than to grow.**"*
+
+**🟡 THE COACH'S REPLY, AND IT IS THE STRONGER ONE ON GEOMETRY.** *"The four-and-a-half inches of downhill do not care how hard you throw. **F-468's free potential energy scales with body mass, and an 85+ arm is HEAVIER** — 90 kg against 73.6 kg, so he is handed 106 J where the high schooler is handed 81. And F-469's plane effect is a pure geometric identity; it is exactly 0.40° at 76 mph and at 96 mph. **Two of the three channels get larger or stay identical at this population. Only the efficiency is in doubt.**"*
+
+**🔵 THE ANATOMIST SPLITS IT, AND BOTH OTHERS ACCEPT THE SPLIT.** *"You are arguing about different quantities. **The PLANE effect (F-469) is settled and population-invariant — it is trigonometry and nobody disputes it. The VELOCITY effect (F-464) is the contested one, and it is contested for exactly the reason the biomechanist says.** Note that the efficiency figure lands at **4.0–5.5%** in the measured 76 mph sample and the SAME 3.9–5.9% band is what a 90 kg arm would need for +2 mph. **That coincidence is the coach's best evidence and it is also not evidence — it is an arithmetic consequence of mass and drop both scaling, and it would look identical if the true effect at 85+ were zero.**"*
+
+**STATUS: OPEN. PARTIALLY DECOMPOSED — this is the movement.** The plane channel is conceded settled by all three. The velocity channel is open and now precisely specified: **is the mound-to-flat energy-transfer efficiency higher, lower or equal in an 85+ arm?**
+
+**WHAT WOULD SETTLE IT — and it is cheap.** Dowling's exact protocol on an 85+ roster: **mound / flat ground at regulation distance, order randomised within pitcher, 5+ fastballs each, one radar gun.** Nothing but a portable mound and an afternoon. ⚠️ **AND THE DETECTION ARITHMETIC IS FRIENDLY FOR ONCE:** at F-289's bracketed within-pitcher velocity SD of 0.8–1.2 mph, a 2 mph within-athlete difference is detectable in **a handful of pitches per condition per man** — this is the F-320 structural-outlier shape again, a lever visible almost immediately. **The corpus should say plainly that this is one of the cheapest unanswered questions it holds.**
+
+---
+
+### **#40b (added 2026-09-24) — IS THE BULLPEN-MOUND DISCREPANCY HARVESTABLE, OR HAS HE ALREADY ADAPTED TO IT?** (coach vs biomechanist; **OPEN**)
+
+**F-470** shows a mound-height error maps **one-for-one** into vertical location error, and that the size involved (0.5–2 in) is **the same order as F-309's entire one-season command gain (4.52 pts) and its catcher-contamination term (3.69 pts)**.
+
+**🔴 THE BIOMECHANIST.** *"Geometrically available ≠ harvestable. A pitcher who has thrown three hundred bullpens on a low mound has **adapted** to it, and his adaptation shows up as a delivery change, not as a 1-inch miss. **What F-470 actually predicts is a transfer failure on the day he moves to the game mound, not a standing bias in his bullpen numbers.** Those are different claims with different fixes."*
+
+**🟡 THE COACH CONCEDES THE MECHANISM AND KEEPS THE RECOMMENDATION.** *"Granted, and it makes the recommendation **better**, not worse. If it is an adaptation, then **every bullpen he throws on the wrong mound is rehearsing the wrong delivery** — which is worse than a measurement bias, because a bias I can subtract. Either way the fix is the same twenty minutes with a level."*
+
+**🔵 THE ANATOMIST.** *"Both are right and the disagreement is about **what you'd measure to detect it**, which is the useful part. A standing bias shows as a mean vertical offset in bullpen miss-distance. An adaptation shows as a **first-inning** location shift on the game mound that washes out. **Those are distinguishable and nobody has looked for either.**"*
+
+**STATUS: OPEN. The ACTION is agreed by all three and does not wait on the resolution** — measure your own mounds. **The DIAGNOSIS is open and is worth stating because it changes what you'd expect to see:** standing bullpen offset (bias) vs first-inning-only drift on the game mound (adaptation). **This is the same shape as F-306** — bounding what is available while saying nothing about whether it can be harvested.
