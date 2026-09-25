@@ -6158,3 +6158,143 @@ SOURCE: `daily/2026-09-24-report.md` §2; `library/idea-scouting.md`.
 COACHING: **SAY THE NEGATIVE RESULT OUT LOUD.** The mound is the one piece of equipment in baseball that nobody in player development is currently arguing about, and that is itself informative: **it is treated as a constant, which is precisely the assumption F-470 says is worth twenty minutes to check.** The absence of an industry argument is not evidence that the mound is constant; it is evidence that nobody has looked.
 CONFIDENCE: high that the sweep was genuinely thin; medium that the thinness is real rather than an artefact of WebSearch being the only channel (F-266)
 SEE ALSO: F-470, F-471, F-266, F-274
+
+---
+
+### F-473 | ⭐ 🚨 NEW HAZARD CLASS — THE STANDARDIZED-EFFECT IMPORT FALLACY. A POOLED `d` IS A DIRECTION, NOT A MAGNITUDE.
+TOPIC: method, meta-analysis, effect size, Cohen's d, import, hazard class, restriction of range, standardization, imagery
+CLAIM: Importing a pooled standardized effect size from one population and multiplying it by THIS population's SD is not a unit conversion — it silently assumes the raw benefit is proportional to the receiving population's scatter, which nothing licenses. Meta-analyses discard the raw units, so the number needed to do it properly is unrecoverable from the pooled figure.
+NUMBERS: **DERIVED IN-CYCLE. THE REDUCTIO:** Simonsmeier 2020 pooled imagery effect **d = 0.431, 95% CI [0.298, 0.563]** (SNIPPET-ONLY) x this corpus's within-pitcher miss-distance SD of **10 in** (F-186) = **4.31 inches of command**, which at F-170's **0.3 FIP/inch** = **1.29 FIP**. That is the largest effect in a 472-finding registry — more than 4x a one-SD Stuff+ gain (F-170), from sitting in a chair 15 min three times a week. **SECOND REDUCTIO, from detection:** a 4.31-in effect needs only **42 tracked pitches** to establish at 80% power (F-476) — two bullpens — so it would have been rediscovered independently by every pitching coach who ever lived. It has not been. **THE ALGEBRA:** `d = D/sigma`, so importing `d` from A to B requires `D_A/sigma_A = D_B/sigma_B` — i.e. that a group with 3x the scatter gets 3x the raw benefit. **Nobody has claimed this, let alone tested it.**
+POPULATION: n/a — method, applies to every meta-analytic `d` in any topic
+EVIDENCE: ESTABLISHED (algebraic identity + reductio); the imported `d` itself is SNIPPET-ONLY and unverified
+CAUSALITY: MECHANISM (methodological)
+SOURCE: `library/motor-imagery-mental-practice.md` §2. Simonsmeier, Androniea, Buecker & Frank (2020), *International Review of Sport and Exercise Psychology* 14(1), DOI 10.1080/1750984X.2020.1780627 — **UNREAD, EGRESS-BLOCKED 2026-09-25**.
+COACHING: **OPERATING RULE: WHEN YOU MEET A POOLED `d`, ASK WHAT THE RAW UNITS WERE BEFORE STANDARDIZATION. IF YOU CANNOT RECOVER THEM, YOU HAVE A DIRECTION AND NOT A MAGNITUDE — SAY SO, AND NEVER MULTIPLY.** Standardization destroys exactly the number you need. This is the mirror of the corpus's usual failure: not a marker sold as a lever, but a real lever whose SIZE cannot be transported.
+CONFIDENCE: high on the algebra and both reductios; the specific d = 0.431 is unverified and could be wrong without affecting the rule
+SEE ALSO: F-465, F-382, F-373, F-013, F-170, F-186, F-474, F-476
+
+---
+
+### F-474 | ⭐ A NEW EVIDENCE CATEGORY THE CORPUS NEEDED — "VERIFIED LEVER, UNPRICED"
+TOPIC: method, marker vs lever, taxonomy, intervention, imagery, evidence grading
+CLAIM: Motor imagery is one of the few genuine LEVERS this corpus has met — the literature is overwhelmingly randomised intervention with control groups — and yet its magnitude in an 85+ population is unknown and unobtainable. The corpus's marker/lever axis has no slot for this and needs one.
+NUMBERS: **The corpus runs ~30:1 cross-sectional to intervention.** Imagery inverts that ratio: the pooled analyses (Driskell 1994 k = 35; Simonsmeier 2020) are built from assigned-condition, control-group designs. **But every one of those levers was pulled in the wrong population** — largely undergraduates and novices, no velocity floor anywhere, and **zero studies on any pitcher above 85 mph** (F-482). Per F-473 the magnitude does not import.
+POPULATION: literature is mixed novice/student/sub-elite; the receiving population is 85+ and has never been studied
+EVIDENCE: ESTABLISHED that the designs are interventions; UNKNOWN on magnitude in this population
+CAUSALITY: INTERVENTION (in the source literature) — **magnitude NOT transportable**
+SOURCE: `library/motor-imagery-mental-practice.md` §1, §2.
+COACHING: **SAY IT IN THIS ORDER: "It works, we do not know how much, and in your population nobody has ever looked."** The corpus's standing failure mode is calling an association an instruction. The opposite failure — refusing a real intervention because its size is unknown — is also a failure, and F-481 gives the decision rule that resolves it. **DO NOT phrase this cross-sectionally and DO NOT phrase it as a promised gain.**
+CONFIDENCE: high that the design class is intervention; high that the magnitude is unavailable
+SEE ALSO: F-473, F-476, F-481, F-482, F-013
+
+---
+
+### F-475 | THE ENTIRE BASEBALL-PITCHING IMAGERY LITERATURE IS ONE SINGLE-SUBJECT STUDY WITH n = 6
+TOPIC: imagery, baseball, pitching, accuracy, sample size, thin source, gap
+CLAIM: Searched across every available channel, the only imagery intervention on baseball pitchers with a throwing-accuracy outcome is a single-subject master's-thesis design with six total participants, no velocity data, and no retrievable inferential basis.
+NUMBERS: *The Effects of Video and Cognitive Imagery on Throwing Performance of Baseball Pitchers: A Single Subject Design* (Georgia Southern ETD #100; also *The Sport Journal*). **30 pitchers screened on the Movement Imagery Questionnaire-Revised; participants drawn from the highest and lowest 20%; 4 in intervention conditions, 2 constituting the control; 3-week program; high-school and college, southeastern Georgia.** **NO VELOCITY REPORTED ANYWHERE. No 85 mph floor.** Reported result — "both intervention groups had significantly higher throwing accuracy than the no-intervention control" — is **SNIPPET-ONLY**; thesportjournal.org was EGRESS-BLOCKED 2026-09-25.
+POPULATION: ⚠️ **SAMPLE MISMATCH — DIRECTIONAL ONLY.** Unselected HS/college, velocity unknown and unreported.
+EVIDENCE: WEAK
+CAUSALITY: INTERVENTION (control group present) — but at n = 6, and unverified
+SOURCE: `library/motor-imagery-mental-practice.md` §7.
+COACHING: **DO NOT QUOTE THIS STUDY FOR A MAGNITUDE.** By this program's own rule — a source with no retrievable sample is not evidence for a magnitude — n = 6 in a single-subject design is a direction and nothing more. Its real value is negative: **it establishes that baseball has never actually tested this.**
+CONFIDENCE: high that this is the only baseball-specific study retrievable; medium that none exists outside the searched channels (fully blocked cycle)
+SEE ALSO: F-474, F-482, F-266
+
+---
+
+### F-476 | ⭐ A COLLEGE PROGRAM CANNOT DETECT AN IMAGERY EFFECT ON COMMAND SMALLER THAN ~1.4 INCHES — AND REALISTICALLY NOT BELOW ~2.6
+TOPIC: command, detection, power analysis, imagery, affordability threshold, clustering, ICC, design effect
+CLAIM: Inverting F-186's power form gives the minimum detectable command effect for a realistic season budget, and it sits above every plausible imagery effect — so the experiment cannot be run, and the recommendation must be justified some other way.
+NUMBERS: **DERIVED IN-CYCLE.** `n = (z.975+z.80)^2 * sigma^2 / D^2 = 7.849 * sigma^2 / D^2`, sigma = 10 in (F-186). **PITCHES PER CONDITION:** D = 4.31 in -> **42**; D = 2.0 in -> **196** (✅ reproduces F-186's ~200 exactly, confirming the form); D = 1.0 in -> **785**; D = 0.5 in -> **3,140**. **INVERTED at a realistic n = 400 tracked declared pitches per condition: MDE = 10*sqrt(7.849/400) = 1.40 inches.** **CLUSTERING CORRECTION:** pitches within a bullpen are not independent; design effect `1+(m-1)rho`, at m = 25 and rho = 0.10 gives **DE = 3.4**, so n_eff = 117.6 and **MDE = 2.58 inches**. ⚠️ **rho for pitch location within a bullpen has NEVER been published in any population — 0.10 is an assumption, stated as one.**
+POPULATION: n/a — arithmetic on the corpus's own registered sigma; applies to any 85+ program
+EVIDENCE: ESTABLISHED (standard power arithmetic, validated against F-186)
+CAUSALITY: MECHANISM (derivation)
+SOURCE: `library/motor-imagery-mental-practice.md` §3.
+COACHING: **THIS IS THE CYCLE'S HARDEST RESULT AND IT ARGUES AGAINST RUNNING THE EXPERIMENT.** Do not build a fall around A/B-ing imagery on command — you will not be entitled to the answer. **AND THE CLUSTERING TERM REACHES FURTHER THAN THIS TOPIC: F-186's ~200, quoted throughout this corpus, assumes independent pitches. If rho > 0 it is an UNDERESTIMATE and every command detection threshold in the registry is optimistic.**
+CONFIDENCE: high on the arithmetic; **unknown on rho, which is now a registered gap (F-482 item 7)**
+SEE ALSO: F-186, F-170, F-481, F-482, F-197
+
+---
+
+### F-477 | IMAGERY FACILITATES THE CORTICOSPINAL TRACT IN PITCHERS — IN A THUMB MUSCLE, ACUTELY, DURING THE IMAGERY
+TOPIC: mechanism, motor imagery, corticospinal excitability, TMS, MEP, neurophysiology, anatomy
+CLAIM: Motor imagery of pitching raises corticospinal excitability in a muscle-specific way, which establishes that imagery engages the motor system — and establishes nothing about velocity, and nothing about training adaptation.
+NUMBERS: **SNIPPET-ONLY.** *Pitching-specific facilitation of upper-limb corticospinal excitability during motor imagery of sports motor skills*, **Experimental Brain Research (2026), PMID 41557017** — TMS over M1, motor-evoked potential amplitudes. **Baseball MI facilitated APB (abductor pollicis brevis); MI WITH A MODEL VIDEO additionally facilitated FCR (flexor carpi radialis); other recorded muscles not facilitated vs rest.** ⚠️ **n, stimulus intensity and effect magnitudes UNKNOWN — the paper was EGRESS-BLOCKED 2026-09-25.**
+POPULATION: unknown — competition level and velocity not retrievable
+EVIDENCE: EMERGING for the facilitation; the inferential leap to training benefit is WEAK
+CAUSALITY: MECHANISM — **acute state during imagery, NOT a training adaptation**
+SOURCE: `library/motor-imagery-mental-practice.md` §6.
+COACHING: **THREE DEFLATIONS, IN ORDER. (1) This is measured DURING the imagery. MEP facilitation under motor imagery has been reproducible for thirty years and has never by itself predicted a performance gain. (2) APB IS A THUMB MUSCLE — its contribution to ball velocity is nil; its only plausible pitching relevance is the ball-hand interface (`library/ball-hand-friction.md`), which is an interesting lead and not a velocity result. (3) The muscles that actually make a pitch — lats, pecs, subscap, the hip/trunk chain — WERE NOT SHOWN TO BE FACILITATED, partly because TMS reaches distal representations easily and proximal ones poorly.** Do not let anyone show you this paper and call it a velocity mechanism.
+CONFIDENCE: medium that the facilitation result is as reported (snippet-only); **high that it does not support a velocity or training claim**
+SEE ALSO: F-473, F-478, F-480, ball-hand interface findings (2026-09-21)
+
+---
+
+### F-478 | THE COGNITIVE-TASK MODERATOR PUTS IMAGERY'S HEADROOM IN THE DECISION LAYER, NOT THE DELIVERY — AND THIS IS AN EXTRAPOLATION, NOT A FINDING
+TOPIC: imagery, cognitive load, sequencing, count strategy, automaticity, decision layer, skill acquisition
+CLAIM: Mental practice is reported to work better the more cognitive the task; an 85+ arm's delivery is automatized and therefore the low-cognitive case, while his pitch selection, count strategy and situational decisions are not — so the mechanism-consistent place to aim imagery is the decision layer.
+NUMBERS: **SNIPPET-ONLY.** Driskell, Copper & Moran (1994), *J Applied Psychology* 79(4):481-492 — **k = 35, overall d = 0.53**; mental practice more effective the more the task involved cognitive components, reported **r = 0.44**. **DECISION-LAYER TARGETS ALREADY HELD BY THIS CORPUS:** sequencing (F-294->F-303), count leverage (F-278->F-283), the runner-on-first decision set (F-316->F-325), times through the order (F-286->F-292).
+POPULATION: Driskell's k = 35 spans mixed motor and cognitive tasks, largely non-elite; the application to an 85+ arm is unstudied
+EVIDENCE: WEAK — graded deliberately low
+CAUSALITY: MECHANISM (hypothesis about where to look)
+SOURCE: `library/motor-imagery-mental-practice.md` §5.
+COACHING: ⚠️ **THE OBJECTION IS CORRECT AND IS RECORDED RATHER THAN BURIED: Driskell's moderator is measured ACROSS TASKS (a card-sort vs a dart throw), not ACROSS LAYERS WITHIN ONE TASK. Applying it to a within-task decomposition of pitching is structurally the same move F-473 condemns.** The coach does not get to condemn the standardized-effect import and then perform an analogous extrapolation. **This is a hypothesis about where to aim, kept on COST (F-481), not on evidence.** See Dispute #42.
+CONFIDENCE: low-medium. The Driskell numbers are unverified; the within-task application is explicitly an extrapolation
+SEE ALSO: F-473, F-481, F-294, F-278, F-286, F-316
+
+---
+
+### F-479 | THE IMAGERY DOSE LITERATURE CONVERGES ON 15-21 MINUTES — AND ITS DECAY CURVE MUST BE REFUSED
+TOPIC: imagery, dose response, session duration, retention, decay, cross-domain import, sample mismatch
+CLAIM: Three independent dose sources converge on roughly a 15-21 minute session, which is the only part worth carrying; the widely quoted decay profile comes from a holistic-nursing meta-analysis of health outcomes and must not be imported as a pitching retention curve.
+NUMBERS: **ALL SNIPPET-ONLY.** (a) **Paravlic et al. (2018), *Sports Medicine* 48, PMID 29541965** — motor imagery on **muscle strength** in healthy adults: 4 weeks, 3x/week, 2-3 sets, 25 reps/set, **15 min/session**. (b) **Driskell 1994** — optimum session **~20.8 min**. (c) **Van Kuiken (2004), *J Holistic Nursing*, DOI 10.1177/0898010104266066** — effect rises over **5-7 weeks**, **decreased at 18 weeks**.
+POPULATION: (a) healthy adults, strength outcome; (b) mixed tasks; (c) ⚠️ **NURSING/HEALTH OUTCOMES — NOT ATHLETES, NOT A MOTOR SKILL, NOT A PERFORMANCE OUTCOME**
+EVIDENCE: EMERGING for the session duration; the decay curve is **REFUSED, not graded**
+CAUSALITY: INTERVENTION in the source literatures; **NOT TRANSPORTABLE to pitching**
+SOURCE: `library/motor-imagery-mental-practice.md` §8.
+COACHING: **USE 15 MINUTES. THAT IS ALL YOU MAY TAKE FROM THIS TABLE.** ⚠️ **REFUSE THE 5-7 WEEK RISE / 18-WEEK DECAY — it is guided imagery on health outcomes in a nursing journal, and importing it as the pitching decay curve is exactly the cross-domain transfer this corpus exists to catch. THE RETENTION PROFILE OF AN IMAGERY EFFECT ON A THROWING TASK IS UNKNOWN.** ⚠️ **ALSO DO NOT QUOTE PARAVLIC'S 4-WEEK/25-REP PROTOCOL AS A PITCHING PROTOCOL — it is optimised for muscle strength, an outcome this corpus's own transfer nulls (F-004, F-358, F-359) say does not reach pitch velocity.**
+CONFIDENCE: medium on the 15-21 min convergence (three unverified sources agreeing); **high on the refusal**
+SEE ALSO: F-004, F-358, F-359, F-473, F-482
+
+---
+
+### F-480 | FIELD SWEEP 2026-09-25 — THE MENTAL-GAME SPACE IS THE MOST CONTENT-FARM-POLLUTED TOPIC THIS CORPUS HAS SWEPT
+TOPIC: field sweep, industry, idea scouting, content farms, fabrication risk, marketing, negative result
+CLAIM: The imagery/mental-game sweep returned a higher proportion of AI-generated and marketing content than any previous cycle's sweep, and the one legitimate new item in the space overreaches its own source.
+NUMBERS: **SWEEPS RUN:** coach/industry mental practice; Driveline/Tread current arguments; visualization and bullpen routines; motor-imagery neuroscience. **POLLUTION MARKERS FOUND:** `mindandmuscle.ai/research/2026-mental-training-report` ("2026 Baseball Mental Training Report: What Actually Works"), `accio.com/biz-sportshealth/how-to-improve-baseball-pitching-accuracy-in-2026-the-evidence-based-practice-routine` (a B2B commerce domain publishing "evidence-based" pitching content), `blog.attackletics.com/...-2026-guide`. **UNSOURCED MAGNITUDE CLAIM CAUGHT:** "Visualization of game situations is the highest-ROI activity based on the research" — no research named, and F-473/F-476 show no such ROI is computable. **LEGITIMATE ITEMS:** ABCA *Inside Pitch* "Ground Rules: Mental Practice" (Sept/Oct 2024) — real trade standing, practitioner opinion, not evidence. **Velou Substack, "Your Brain Throws the Pitch Before Your Arm Does" (24 Jun 2026)** — correctly reports PMID 41557017, then writes that vivid negative imagery is "the nervous system rehearsing failure": **a leap from an acute TMS state measure to a training-adaptation claim. VERDICT: mechanism PROMISING, coaching inference UNPROVEN.** **INDUSTRY ARGUMENT CHECK:** the live Driveline-vs-Tread dispute remains weighted balls, tech density and rapid-velocity-gain safety. **Nobody in pitching development is arguing about imagery at all.**
+POPULATION: n/a
+EVIDENCE: n/a — sweep record
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-25-report.md` §2; `library/idea-scouting.md`.
+COACHING: **SAY THE NEGATIVE RESULT OUT LOUD, AND SAY WHY IT IS DIFFERENT FROM 2026-09-24's.** The mound was quiet because it is treated as infrastructure. **The mental game is not quiet — it is LOUD and almost entirely commercial.** All 30 MLB clubs employ mental-performance staff, so there is money in the claim and no measurement discipline attached to it. **When a topic has high commercial volume and zero measurement, treat every magnitude you meet in it as marketing until a primary source says otherwise.**
+CONFIDENCE: high that the sweep was genuinely polluted; medium that no serious practitioner argument exists outside the searched channels (fully blocked cycle, F-266)
+SEE ALSO: F-472, F-266, F-274, F-477, F-473
+
+---
+
+### F-481 | ⭐ THE FREE-RIDER DECISION RULE — WHEN AN INTERVENTION CANNOT BE PRICED AND CANNOT BE MEASURED, DECIDE ON COST
+TOPIC: decision rule, method, imagery, cost, opportunity cost, adoption, coaching
+CLAIM: An intervention with a verified direction, an unobtainable magnitude, and a near-zero cost should be adopted on cost rather than on evidence — and must then never be counted as a development win, because the same arithmetic that made it cheap makes its effect unprovable.
+NUMBERS: **DERIVED IN-CYCLE.** The magnitude is unobtainable (F-473) and the effect is undetectable below **~1.4 in, realistically ~2.6 in** (F-476), so the question "is it proven?" has no available answer. **COST LEDGER FOR IMAGERY: arm/throw count ZERO; money ZERO; practice-plan time 15 min and displaceable to travel, treatment table or pre-sleep; opportunity cost NEAR-ZERO because it does not compete for throws; downside risk ONE plausible channel only (negative rehearsal, F-477, itself UNPROVEN).**
+POPULATION: n/a — decision rule; the cost ledger is specific to imagery
+EVIDENCE: ESTABLISHED as a decision rule given F-473 and F-476
+CAUSALITY: n/a
+SOURCE: `library/motor-imagery-mental-practice.md` §4.
+COACHING: **THE SENTENCE TO SAY: "We're doing this because it costs nothing and the direction is real, not because I can promise you inches. And when you have a good fall, I am not going to give this the credit — because I won't have earned the right to."** ⚠️ **THE TRAP: "free" is not "large." A program that adopts imagery and then attributes a good fall to it has learned nothing and will carry a false lever forward into next year — which is precisely how F-013 (stride length) and the extension findings entered this corpus in the first place.**
+CONFIDENCE: high on the rule; high on the cost ledger; **the magnitude remains unknown and that is the point**
+SEE ALSO: F-473, F-474, F-476, F-013, F-186
+
+---
+
+### F-482 | MOTOR IMAGERY IN PITCHING — WHAT DOES NOT EXIST, said plainly
+TOPIC: gap, imagery, mental practice, literature absence, ICC, mental bullpen, negative imagery
+CLAIM: Seven specific absences in the imagery literature as it touches pitching, one of which reaches back into every command power calculation this corpus has ever run.
+NUMBERS: **(1) NO imagery intervention on any pitcher above 85 mph, anywhere.** (2) **NO imagery study in baseball with a pitch-location outcome in inches** — the corpus's own command currency (F-170, F-186) has never been the outcome. (3) **NO imagery study reporting a VELOCITY outcome in pitchers. Not one.** (4) **NO test of the "mental bullpen" as a workload substitute** — the trade-press claim that mental reps are throws without arm cost is the most testable and most commercially loaded claim in the topic, and nobody has measured whether they carry any training benefit. (5) **NO dose-response curve for imagery on any throwing accuracy outcome** (F-479's doses are borrowed from strength and from nursing). (6) **NO study of negative/failure imagery against a throwing outcome**, despite it being the field's most repeated coaching claim. (7) 🚨 **NO published intraclass correlation for pitch location within a bullpen.**
+POPULATION: n/a
+EVIDENCE: n/a — absence record. ⚠️ Established by WebSearch only; the cycle was fully egress-blocked
+CAUSALITY: n/a
+SOURCE: `library/motor-imagery-mental-practice.md` §9.
+COACHING: **ITEM 7 IS THE ONE WITH REACH BEYOND THIS TOPIC AND IT SHOULD BE ESCALATED. F-186's ~200-pitch threshold — quoted throughout this corpus as the price of a 2-inch command claim — ASSUMES INDEPENDENT PITCHES. If the within-bullpen ICC is greater than zero, ~200 is an UNDERESTIMATE and every command detection threshold in the registry is optimistic.** At m = 25 and rho = 0.10 the inflation factor is 3.4x. **This is computable from any program's existing tracked-bullpen data with no new instrumentation.**
+CONFIDENCE: medium-high on items 1-6 (blocked cycle, search-only); **high that item 7 is unpublished and high that it matters**
+SEE ALSO: F-186, F-476, F-197, F-266, F-473

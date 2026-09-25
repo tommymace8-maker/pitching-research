@@ -1280,3 +1280,50 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **🔵 THE ANATOMIST.** *"Both are right and the disagreement is about **what you'd measure to detect it**, which is the useful part. A standing bias shows as a mean vertical offset in bullpen miss-distance. An adaptation shows as a **first-inning** location shift on the game mound that washes out. **Those are distinguishable and nobody has looked for either.**"*
 
 **STATUS: OPEN. The ACTION is agreed by all three and does not wait on the resolution** — measure your own mounds. **The DIAGNOSIS is open and is worth stating because it changes what you'd expect to see:** standing bullpen offset (bias) vs first-inning-only drift on the game mound (adaptation). **This is the same shape as F-306** — bounding what is available while saying nothing about whether it can be harvested.
+
+---
+
+### **#41 (added 2026-09-25) — IF THE MAGNITUDE CANNOT BE IMPORTED AND CANNOT BE MEASURED, IS "ADOPT IT ANYWAY" A FINDING OR AN ESCAPE HATCH?** (biomechanist vs coach; **OPEN, and it is the cycle's central question**)
+
+**THE CLAIM AT ISSUE — F-481.** Imagery has a verified direction (F-474: the designs are genuine interventions), an unobtainable magnitude (F-473: standardized effects do not transport), and an undetectable effect at program scale (F-476: MDE ~1.4 in, realistically ~2.6 in). The coach's rule: **decide on cost, adopt it, and never count it as a win.**
+
+**🔴 THE BIOMECHANIST'S OBJECTION.** *"Read F-481 back slowly. It says: the effect cannot be sized, cannot be detected, and will never be credited — and therefore we should do it. **That is a recommendation constructed so that no observation can ever bear on it.** Dispute #33's standing charge against this corpus was that 'it is really a command effect' is unfalsifiable until somebody measures it. **F-481 is worse: it is unfalsifiable BY CONSTRUCTION, and the cycle says so proudly.** Strip the cost ledger away and what is left is 'we believe in this and have arranged for nothing to contradict us.' The corpus has a name for that shape and it is FOLKLORE."*
+
+**🟡 THE COACH'S REPLY.** *"The shape is the same; the cost is not, and the cost is the whole argument. F-013 and the extension findings were expensive — they bought delivery changes and they cost command and reps, so being wrong about them was catastrophic. **Imagery costs zero throws.** The asymmetry is the finding: for a zero-cost intervention with a verified direction, 'unprovable' is not a reason to decline, because declining is also a decision made without evidence, and it is the one that forgoes a real intervention. **And F-481 pays for the privilege with the strongest anti-attribution clause in the corpus** — I am explicitly forbidden from crediting it. That is the opposite of an escape hatch. An escape hatch lets you claim the win."*
+
+**🔵 THE ANATOMIST SPLITS IT, AND THE SPLIT IS THE MOVEMENT.** *"You are arguing about two different objects again. **The ADOPTION decision is defensible and the biomechanist has not actually attacked it** — nobody thinks a 15-minute chair session needs an RCT before a coach may use it. **The FINDING STATUS is what is indefensible.** F-481 is registered as ESTABLISHED, and what is established is the *decision rule*, not that imagery does anything. **If the corpus is going to hold a rule whose defining property is that no evidence can touch it, it must be fenced off from the findings that evidence CAN touch** — otherwise it will be cited in three months as though imagery were a demonstrated lever, which is exactly the F-013 mechanism."*
+
+**STATUS: OPEN. PARTIALLY RESOLVED — all three accept the anatomist's split.** The adoption decision stands. **The grading is conceded to be the exposed surface: F-481 is ESTABLISHED as a DECISION RULE and asserts NOTHING about imagery's effect**, and the finding's text now says so.
+
+**WHAT WOULD SETTLE IT.** Nothing available to a college program (F-476). The only thing that would move it is a **multi-site study pooling tracked declared pitches across programs** to get n into the thousands — which requires the ICC in F-482 item 7 first, because without it the required n is unknown.
+
+⚠️ **STANDING FLAG.** **If a future cycle cites F-481 as evidence that imagery works, rather than as a rule about how to decide under unobtainable magnitudes, the biomechanist's charge is upheld retrospectively.**
+
+---
+
+### **#42 (added 2026-09-25) — DID THE CYCLE COMMIT THE VERY FALLACY IT REGISTERED, ONE SECTION LATER?** (biomechanist vs coach; **CONCEDED IN SUBSTANCE, OPEN AS A METHOD QUESTION**)
+
+**THE CLAIM AT ISSUE — F-478.** Driskell 1994's moderator (mental practice works better the more cognitive the task, r = 0.44) is used to argue that imagery's headroom in an 85+ arm lies in the **decision layer** (sequencing, counts, situational rehearsal) rather than the **execution layer** (the delivery, which is automatized).
+
+**🔴 THE BIOMECHANIST.** *"F-473 is the best thing this cycle produced: you may not take a statistic estimated in one population and apply it to a different unit of analysis. **Five sections later the coach takes a moderator estimated ACROSS TASKS — a card-sort versus a dart throw — and applies it ACROSS LAYERS WITHIN A SINGLE TASK.** Driskell's studies never decomposed one skill into a cognitive part and a motor part; they ranked whole tasks. There is no evidence that a task's internal layers behave like separate tasks on that moderator. **This is the standardized-effect import with the labels changed.**"*
+
+**🟡 THE COACH CONCEDES THE STRUCTURE.** *"Conceded, without qualification, and it is why F-478 is graded **WEAK** rather than EMERGING and is worded as a hypothesis about where to aim rather than a finding. I will not defend it as evidence. I defend only that it is **a better-motivated place to spend a free 15 minutes than the alternative**, and F-481 is what licenses spending it at all."*
+
+**🔵 THE ANATOMIST, AGAINST BOTH.** *"There is a mechanism argument neither of you made and it cuts the coach's way, partly. **Automaticity is the reason to expect the execution channel to be small** — and that is not borrowed from Driskell, it is the standard motor-learning account and it is consistent with this corpus's own population constraint. So the DIRECTION of F-478 has independent support. **The MAGNITUDE has none, and the r = 0.44 should simply be deleted from the argument** — it is doing no work except lending false precision to a claim that is really just 'his delivery is already automatic.'"*
+
+**STATUS: CONCEDED IN SUBSTANCE. The r = 0.44 is retained in F-478's NUMBERS only as a record of what was searched, and is explicitly NOT the basis of the claim.** The anatomist's reframing — automaticity, not Driskell — is accepted by the coach as the honest support.
+
+**WHAT WOULD SETTLE IT.** An imagery intervention with **two arms**: one rehearsing the delivery, one rehearsing sequencing and count decisions, with separate outcomes (miss distance in inches vs. a decision-quality measure). **Nobody has run a two-arm imagery study in any sport with layers of the same task as the arms.**
+
+---
+
+## Revisited 2026-09-25 — did today move anything?
+
+**Dispute #33 (🔴 "is 'it is really a COMMAND effect' this corpus's house style?") — ITS STANDING FLAG WAS CHECKED, AND TODAY RUNS THE OTHER WAY. THE COUNT DOES NOT ADVANCE.**
+#33's standing instruction reads: *"If a third topic ends by relocating to command without a measured accuracy outcome, the pattern is method, not physiology. Record the count at the top of each cycle's report."* **Today is a topic that could trivially have been relocated to command — imagery is sold as a command intervention everywhere in the trade press — and the cycle did the opposite.** F-473 **kills** the command import by reductio; F-476 shows the command channel is the one a program **cannot** measure; F-478 argues the execution/command layer is where imagery should work **least**. ⚠️ **The count of command-relocations remains at 2 (2026-09-19, 2026-09-20). Today is not a third.**
+
+**Dispute #36 (🔴 "third consecutive cycle to relocate a null into a variance claim") — NOT ADVANCED.** No null was relocated today; the cycle's central result is a refusal to convert a positive pooled effect into a magnitude at all.
+
+**Dispute #40 / #40b (the mound) — NOT MOVED.** Fully egress-blocked cycle; no mound work possible. Both remain open exactly as left on 2026-09-24.
+
+**The standing F-439 / n >= 97 audit — NOT RUN, now four days outstanding, and today gave it a new dimension.** F-476's clustering correction means the registry's power arithmetic is wrong in a **second** way: not only were nulls graded by reported power rather than detectable effect (F-463), but **every command-side threshold assumes independent pitches**. ⚠️ **The audit is now a `1-beta` audit AND an independence audit.**
