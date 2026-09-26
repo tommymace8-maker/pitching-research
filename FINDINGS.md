@@ -2258,7 +2258,8 @@ CAUSALITY: CROSS_SECTIONAL
 SOURCE: Driveline Baseball (Feb 2026), "The Interaction of Biomechanics and Command" — winner of the 2025 SABR Dr. Mike Marshall Pitching Biomechanics Research Award
 COACHING: The cue this supports: "different every time on the way there, same every time when the foot lands." DRILL: variable leg-lift / variable-tempo bullpens converging to one FC position — slow lift, fast lift, no lift, slide-step, exaggerated drift, all required to arrive at the same front-foot position and trunk angle at FC. HONEST ASSESSMENT: no per-variable correlation table published, no sample miss-distance values published, no ANOVA (authors state n was too small, which is why they pivoted to the SD/dampening analysis). With n = 27 and many features screened at |r| > 0.5, MULTIPLE-COMPARISONS INFLATION IS A REAL RISK. The task is also a non-competitive bullpen aiming at one location at submaximal intent. IF THE DAMPENING RESULT REVERSES ON A HELD-OUT SAMPLE, THE CUE LOSES ITS ONLY DIRECT COMMAND EVIDENCE — the other two supports (F-176 between-subject posture, F-109 a velocity paper) are not command findings.
 CONFIDENCE: low-medium — hypothesis-generating, already converted into a drill
-SEE ALSO: F-109, F-176, F-177
+⚠️ **AMENDED 2026-09-26 — A NEW METHODOLOGICAL OBJECTION, NOT A CORRECTION.** Nothing in F-179 was wrong, and its claim stands as graded. But the glove-arm cycle re-examined it and found a coupling its own caveats do not name: **both sides of the correlation are computed from the same pitches.** An athlete's kinematic SD and his mean miss distance are each inflated by the same handful of wild pitches, so a shared-outlier path can generate the association with no causal link between repeatability and command. **This is a mechanical coupling, not a finding**, and it is separate from the multiple-comparisons risk already recorded. What would separate them: compute the kinematic SD on odd-numbered pitches and the mean miss distance on even-numbered pitches from the same session. If the correlation survives the split, the coupling is not the explanation. **It is a re-analysis of data Driveline already holds and it costs nothing.** Cf. F-487, F-491.
+SEE ALSO: F-109, F-176, F-177, F-487, F-490, F-491
 
 ### F-180 | Reconciling the apparent conflict — stable proximal base, adaptive arm chain
 TOPIC: command, variability, trunk, UCM, reconciliation, foot plant, proximal, arm chain
@@ -6298,3 +6299,199 @@ SOURCE: `library/motor-imagery-mental-practice.md` §9.
 COACHING: **ITEM 7 IS THE ONE WITH REACH BEYOND THIS TOPIC AND IT SHOULD BE ESCALATED. F-186's ~200-pitch threshold — quoted throughout this corpus as the price of a 2-inch command claim — ASSUMES INDEPENDENT PITCHES. If the within-bullpen ICC is greater than zero, ~200 is an UNDERESTIMATE and every command detection threshold in the registry is optimistic.** At m = 25 and rho = 0.10 the inflation factor is 3.4x. **This is computable from any program's existing tracked-bullpen data with no new instrumentation.**
 CONFIDENCE: medium-high on items 1-6 (blocked cycle, search-only); **high that item 7 is unpublished and high that it matters**
 SEE ALSO: F-186, F-476, F-197, F-266, F-473
+
+---
+
+### F-483 | THE GLOVE ARM IS NOT IN THE ELITE PITCHING MODEL AT ALL
+TOPIC: glove arm, front side, non-throwing arm, ASMI, normative model, structural absence, measurement gap
+CLAIM: The canonical biomechanical model of elite pitching does not contain a single glove-arm variable, which is why there are no glove-arm norms for any population above 85 mph.
+NUMBERS: **ASMI/BioPitch (McCutcheon, Slowik & Fleisig 2025, PMC11789100, READ IN FULL): 523 pitchers (425 professional, 98 collegiate), age 21.2 +/- 2.3 yr, 21 kinematic variables enumerated in Methods — ZERO glove-arm variables.** The only glove-SIDE variable is *trunk contralateral tilt* at ball release, which is a trunk variable. **KinaTrax in-game NCAA D1 set (PMC13519164, READ IN FULL): also ZERO.** **Driveline OpenBiomechanics: FOUR (all glove SHOULDER, no glove elbow) out of 81 columns — the only elite glove-arm data in existence.** POPULATION CHECK #1 ON THE LARGEST ELITE DATASET THERE IS: ASMI's 523 pitchers throw **37.1-38.0 m/s = 83.0-85.0 mph**; the D1 in-game set throws **40.2-40.4 m/s = 89.9-90.4 mph**; OpenBiomechanics full set **84.70 +/- 4.72 mph** (range 69.5-94.4).
+POPULATION: professional_and_collegiate (n=523); NCAA D1 in-game; OBP mixed college/indy/MiLB/HS
+EVIDENCE: ESTABLISHED — absence verified by enumerating the variable lists of three datasets at source
+CAUSALITY: n/a — structural
+SOURCE: PMC11789100 Methods (read in full); PMC13519164 (read in full); OpenBiomechanics poi_metrics.csv header (81 columns, downloaded 2026-09-26). `library/glove-arm-front-side.md` §2.
+COACHING: **This is why the oldest cue in pitching has no evidence base at this level: nobody measures the variable.** It also records, on the largest elite dataset in existence, that **"425 professional pitchers" average ~84 mph in the lab.** Do not accept "professional sample" as a population match without the number.
+CONFIDENCE: high — the variable lists were read, not inferred
+SEE ALSO: F-484, F-487, F-489, F-496, F-013
+
+---
+
+### F-484 | A FLAGSHIP PAPER CLAIMS A PERFORMANCE RESULT IN ITS CONCLUSION THAT ITS OWN LIMITATIONS SECTION SAYS IT DID NOT MEASURE
+TOPIC: glove arm, marker vs lever, hedge decay, Barfield 2018, missing outcome, hazard class
+CLAIM: The only dedicated glove-arm paper in baseball never measured ball velocity, states so in its Limitations, and asserts a performance conclusion anyway — with the hedge decaying across three sections of one paper.
+NUMBERS: **Barfield, Anz, Andrews & Oliver 2018 (OJSM 6(7), PMC6047254, READ IN FULL). No ball velocity appears in the abstract, Table 1, Results, Discussion or Conclusion** — yet Methods analysed *"the fastest fastball delivered by each participant"* and Limitations lists *"examining only the fastest fastball per pitcher,"* so **pitch speed WAS measured and ranked, and never printed.** **THE HEDGE DECAY, verbatim: Abstract — "COULD PROVE TO BE more advantageous"; Discussion — "COULD BE more advantageous"; Conclusion — "IS more advantageous to performance."** And the Limitations, two paragraphs earlier: *"Our study determined only that a relationship exists... future studies should consider... glove arm kinematic variations on ball velocity to determine the glove arm's influence on PERFORMANCE."* The performance outcome actually used was **humerus angular velocity in deg/s.**
+POPULATION: youth — age 13.6 +/- 2.0 yr, n=33. **SAMPLE MISMATCH — directional only.**
+EVIDENCE: the absence and the three quotations are ESTABLISHED (read at source); the paper's own inference is WEAK
+CAUSALITY: CROSS_SECTIONAL sold as prescription
+SOURCE: PMC6047254, lines read in full. `library/glove-arm-front-side.md` §3, §7.
+COACHING: **SECOND INSTANCE OF F-466's PATTERN — a paper that measured the outcome and never printed it — and the first where the paper's own Limitations section contradicts its own Conclusion.** The industry quotes the Conclusion. **OPERATING RULE EARNED: READ THE LIMITATIONS BEFORE THE CONCLUSION, AND WHEN THEY DISAGREE, THE LIMITATIONS ARE THE FINDING.**
+CONFIDENCE: high — all four passages read at source
+SEE ALSO: F-466, F-013, F-373, F-382, F-485
+
+---
+
+### F-485 | BARFIELD 2018's TWO HEADLINE CORRELATIONS SIT EXACTLY AT ITS OWN DETECTION FLOOR, AMONG 26+ UNCORRECTED TESTS
+TOPIC: glove arm, statistical power, multiplicity, winner's curse, n>=97 rule, Barfield 2018
+CLAIM: A study powered to detect only very large effects, running dozens of uncorrected tests, reported exactly two effects just above its own detection floor — the signature of the winner's curse, not of a finding.
+NUMBERS: **n = 33. 80%-power detectable r = 0.471 (R2 = 22.2%).** The two headline results are **rs = -0.52 (glove elbow flexion vs elbow valgus force, P=.002)** and **rs = +0.52 (glove horizontal abduction vs humerus velocity, P=.002)** — i.e. **0.52 against a floor of 0.471.** **Table 2 alone is 2 predictors x 13 outcomes = 26 tests; Tables 2-4 together are ~78. Bonferroni at 78 tests: alpha = .00064, requiring |rs| ~ 0.57. NEITHER headline survives.** Expected false positives at uncorrected alpha=.05 across 78 tests: **~3.9**; the paper reported ~6 significant. **95% CI on rs = 0.52 at n = 33: 0.215 to 0.733 — R2 anywhere from 4.6% to 53.7%.** Companion softball study n=39 (detectable r >= 0.436); Murata 2001 **n=9 (detectable r >= 0.816, R2 = 66.5%)**.
+POPULATION: youth (n=33); college softball (n=39); mixed (n=9)
+EVIDENCE: ESTABLISHED arithmetic on source-verified inputs
+CAUSALITY: n/a — methodological
+SOURCE: PMC6047254 Tables 1-4 (read in full); power and CI derived in-cycle via Fisher z. `library/glove-arm-front-side.md` §3.
+COACHING: **What this paper established is "somewhere between 4.6% and 53.7% of the variance," which is not a coaching instruction.** F-439's n>=97 rule applied to positives: every prior study in this topic fails it by 2.5x to 11x.
+CONFIDENCE: high
+SEE ALSO: F-439, F-463, F-484, F-492, F-013
+
+---
+
+### F-486 | THE YOUTH GLOVE-ARM VARIANCE IS 2.6x TO 5.8x THE ELITE VARIANCE, SO THE YOUTH CORRELATIONS CANNOT TRANSFER
+TOPIC: glove arm, restriction of range, sample mismatch, developmental heterogeneity, variance ratio
+CLAIM: The spread of glove-arm positions in the 13-year-old sample is several times the spread in an 85+ sample, so its correlations describe developmental heterogeneity rather than technique choice.
+NUMBERS: **Barfield 2018 glove-arm SDs at MER: horizontal abduction 38.65 deg, elbow flexion 47.25 deg** (means 23.04 and 77.43 — the SD exceeds the mean in one case and is 61% of it in the other), across an age band of roughly **11.6 to 15.6 years**. **Every glove-arm SD in the >=85 mph OpenBiomechanics sample: 8.14 to 14.85 deg.** **Ratios: 38.65/14.85 = 2.60 up to 47.25/8.14 = 5.80.**
+POPULATION: youth n=33 (13.6 +/- 2.0 yr) vs elite n=53 (88.05 mph)
+EVIDENCE: ESTABLISHED — both SDs read/computed at source
+CAUSALITY: n/a — measurement
+SOURCE: PMC6047254 Table 1 (read in full); OpenBiomechanics, computed in-cycle. `library/glove-arm-front-side.md` §5.
+COACHING: **A quantitative statement of what "SAMPLE MISMATCH" costs, for once, instead of a label.** No partial correlation on age is reported anywhere in Barfield 2018, and with that age band every kinematic and body-mass-normalized kinetic variable scales with maturation. The plausible reading is that older, bigger boys both extend the glove arm more and rotate faster.
+CONFIDENCE: high on the ratio; medium-high on the age-confound reading (untestable without their raw data)
+SEE ALSO: F-485, F-487, F-013
+
+---
+
+### F-487 | ⭐ PRIMARY DATA: GLOVE-SHOULDER POSITION DOES NOT PREDICT FASTBALL VELOCITY IN AN 85+ POPULATION
+TOPIC: glove arm, front side, velocity, null, OpenBiomechanics, primary data, restriction of range
+CLAIM: Across four glove-shoulder variables in the only elite dataset that measures them, none is associated with fastball velocity once the sample is restricted to 85 mph and above.
+NUMBERS: **THE CORPUS'S FIRST PRIMARY-DATA ANALYSIS.** Driveline OpenBiomechanics, downloaded and analysed 2026-09-26: **411 fastballs, 100 pitchers** (314 college / 42 independent / 23 MiLB / 32 HS pitches), **84.70 +/- 4.72 mph, range 69.5-94.4**. Pitcher-level means, fastballs only. **>=85 MPH SUBSET: n = 59 pitchers, 88.05 +/- 2.21 mph, range 85.0-93.8.** r vs pitch_speed_mph: **horizontal_abduction_fp -0.100 (p=.451); abduction_fp -0.007 (p=.957); external_rotation_fp +0.112 (p=.400); abduction_mer -0.020 (p=.882).** **LARGEST |r| = 0.112, R2 = 1.3%, 95% CI -0.148 to +0.358.** Bonferroni threshold for 16 tests at n=59: |r| = 0.376. **FULL SAMPLE (n=100, meets F-439's n>=97 floor): |r| 0.057-0.215; the single nominal hit (external_rotation_fp, r=-0.215, p=.031) FLIPS SIGN to +0.112 in the >=85 subset — textbook restriction of range (Luera 2020).** Disattenuated for measurement error using ICC=0.932 (F-490): 0.112 -> 0.116, i.e. attenuation cannot rescue it.
+POPULATION: **elite_85plus — 59 pitchers at 88.05 mph mean. THE CORPUS'S TARGET POPULATION, exactly.**
+EVIDENCE: EMERGING->ESTABLISHED for the n=100 null (passes the n>=97 floor); **the n=59 on-population null is UNDERPOWERED by the corpus's own F-439 standard** — it excludes r >= 0.358 at 80% power but cannot exclude r ~ 0.15-0.25
+CAUSALITY: CROSS_SECTIONAL — a null, so the marker/lever distinction does not arise, but note it also cannot exclude a within-athlete effect
+SOURCE: Driveline OpenBiomechanics Project, `baseball_pitching/data/poi/poi_metrics.csv` + `metadata.csv`, both HTTP 200 on 2026-09-26. Script: `library/scripts/glove-arm-obp-analysis.py`. `library/glove-arm-front-side.md` §4.
+COACHING: **STOP SPENDING TRAINING BLOCKS ON THE FRONT SIDE IN PURSUIT OF VELOCITY, AND STOP LETTING A PITCHER BELIEVE HIS GLOVE ARM IS WHERE HIS MISSING 2 MPH LIVES.** ⚠️ **SCOPE LIMIT, conceded in Dispute #43: this tests glove-shoulder POSITION at two discrete instants. The coached construct is a glove-ELBOW MOTION, and no elite dataset holds a glove elbow variable (81 columns checked; 4 contain "glove", all shoulder).**
+CONFIDENCE: high that the four tested variables are null at 85+; medium that this generalises to the full coached construct
+SEE ALSO: F-488, F-489, F-490, F-483, F-439, Dispute #43
+
+---
+
+### F-488 | ⭐ AND THE CHAIN'S SECOND LINK IS BROKEN TOO — TRUNK ROTATIONAL VELOCITY BUYS NOTHING AT 85+
+TOPIC: trunk rotation, torso rotational velocity, restriction of range, velocity, kinetic chain, null
+CLAIM: Peak torso rotational velocity predicts fastball velocity in a mixed-velocity sample and stops predicting it entirely once the sample is restricted to 85+, so the glove-arm mechanism has no surviving pathway to ball speed regardless of the first link.
+NUMBERS: Same dataset, pitcher-level means. **max_torso_rotational_velo vs pitch_speed_mph: r = +0.328 (n=100, p=.0008, R2 = 10.8%) -> r = +0.108 (n=59 at >=85, p=.417, R2 = 1.2%).** **max_shoulder_internal_rotational_velo: +0.292 (p=.0030, R2=8.5%) -> +0.086 (p=.517, R2=0.7%).** max_pelvis_rotational_velo: +0.013 -> +0.194 (p=.142, ns both). **Peak torso rotational velocity at >=85 mph: 1074.44 +/- 82.55 deg/s — a between-pitcher SD of 7.7% of the mean.** THE ONE ROBUST GLOVE-ARM SIGNAL, which is to the trunk and not to the ball: **glove_shoulder_external_rotation_fp vs max_torso_rotational_velo, r = -0.525 (n=100) and -0.465 (n=59), both p<.0005, Spearman -0.467/-0.470 — survives Bonferroni in BOTH samples (crit 0.291 and 0.376) and survives restriction of range.** Weak echo of Barfield's direction: glove_shoulder_abduction_mer vs shoulder IR velocity r = +0.269 at >=85 (Barfield's youth analogue rs = +0.52), does not survive correction, and reaches ball speed at r = -0.020.
+POPULATION: elite_85plus (n=59) and mixed 69.5-94.4 mph (n=100)
+EVIDENCE: ESTABLISHED for the collapse across the split (same variables, same instrument, one sample)
+CAUSALITY: CROSS_SECTIONAL
+SOURCE: OpenBiomechanics, computed in-cycle. `library/glove-arm-front-side.md` §4.
+COACHING: **THIS IS THE FINDING WITH REACH BEYOND THE TOPIC. Any cue justified by "it increases trunk rotational velocity" is justified by a variable that explains 1.2% of velocity variance in this population.** That covers a large fraction of the cueing industry. **And it is the cleanest demonstration of Luera-2020 restriction of range this corpus holds — computed on new data, same variables, one sample split at the 85 mph floor.** The marker propagates exactly one link down the chain and then dies.
+CONFIDENCE: high on the collapse; high that the -0.525 trunk association is real; high that it is a dead end for velocity
+SEE ALSO: F-487, F-013, F-003, Luera 2020 (restriction-of-range note in INDEX)
+
+---
+
+### F-489 | ⭐ THE FIRST GLOVE-ARM NORMS FOR AN 85+ POPULATION
+TOPIC: glove arm, norms, normative values, OpenBiomechanics, elite, measurement
+CLAIM: Glove-shoulder normative values at foot plant and maximum external rotation for pitchers averaging 88 mph, which have never been published for any population above 85 mph.
+NUMBERS: **53 pitchers with >=2 fastballs at >=85 mph; pitcher-mean 88.05 mph.** Mean (between-pitcher SD): **glove_shoulder_horizontal_abduction_fp 37.6 deg (13.08); glove_shoulder_abduction_fp 76.3 deg (9.60); glove_shoulder_external_rotation_fp -43.3 deg (14.85); glove_shoulder_abduction_mer 35.5 deg (8.14).** Context from the same rows: **max_torso_rotational_velo 1074 deg/s (82.55); arm_slot 40.8 deg (7.22); stride_length 0.84 x height (0.06); throwing-side shoulder_horizontal_abduction_fp 46.4 deg (10.84).**
+POPULATION: **elite_85plus — 53 pitchers, 88.05 mph mean**
+EVIDENCE: ESTABLISHED as descriptive statistics on primary data
+CAUSALITY: n/a — descriptive
+SOURCE: OpenBiomechanics, computed in-cycle. `library/glove-arm-front-side.md` §5.
+COACHING: ⚠️ **SIGN CONVENTIONS ARE OPENBIOMECHANICS', NOT ASMI's AND NOT BARFIELD's. DO NOT CROSS-COMPARE ABSOLUTE VALUES WITH PUBLISHED PAPERS** — that is exactly how F-465's unit error propagated. Use these to place one of your own pitchers in the elite distribution, not to declare a target. **And note there is no target: F-487 says none of these four values predicts velocity.**
+CONFIDENCE: high on the numbers; the population is 85+ but skews college
+SEE ALSO: F-487, F-490, F-483
+
+---
+
+### F-490 | ⭐ GLOVE-ARM POSITION IS A HIGHLY RELIABLE INDIVIDUAL SIGNATURE (ICC 0.91-0.95) — WHICH IS WHAT MAKES THE NULL CREDIBLE AND A CHANGE CHEAP TO AUDIT
+TOPIC: glove arm, reliability, ICC, measurement error, attenuation, detection cost
+CLAIM: Glove-arm position is one of the most repeatable things a pitcher does, so the velocity null cannot be blamed on measurement noise — and a deliberate change to it is verifiable in a handful of pitches.
+NUMBERS: One-way random-effects ICC(1) on the >=85 mph subset, 53 pitchers, m = 3.68 fastballs each. **glove_shoulder_horizontal_abduction_fp ICC = 0.929 (within-pitcher SD 3.59 deg vs between 13.08); glove_shoulder_abduction_fp 0.925 (2.74 vs 9.60); glove_shoulder_external_rotation_fp 0.932 (4.08 vs 14.85); glove_shoulder_abduction_mer 0.950 (1.80 vs 8.14).** Comparators: max_torso_rotational_velo 0.928, arm_slot 0.912, stride_length 0.952. **DISATTENUATION: correcting F-487's largest r for ICC=0.932 moves 0.112 to 0.116.** **PITCHES PER CONDITION FOR 80% POWER ON A DELIBERATE CHANGE (paired, within-SD above): 5 deg at abduction_mer = 2 pitches; 3 deg at abduction_mer = 6; 5 deg at abduction_fp = 5; 5 deg at horizontal_abduction_fp = 8; 5 deg at external_rotation_fp = 11.**
+POPULATION: elite_85plus (n=53)
+EVIDENCE: ESTABLISHED
+CAUSALITY: n/a — measurement property
+SOURCE: OpenBiomechanics, computed in-cycle. `library/glove-arm-front-side.md` §5, §10.
+COACHING: **THE TWO FACTS TOGETHER ARE THE FINDING: the glove arm is the cheapest thing in the delivery to verify you changed — call it 10 pitches against ~200 for a 2-inch command claim (F-186) or ~85 paired observations for the impulse->velocity slope (F-449) — and per F-487 the thing least likely to pay you for changing it.** A variable that is trivially easy to audit and has no established return is a trap for a coach who likes measurable progress: you will see the change, every time, and it will mean nothing.
+CONFIDENCE: high — ICC computed on primary data; the detection table is arithmetic on those SDs
+SEE ALSO: F-487, F-186, F-449, F-491
+
+---
+
+### F-491 | ⭐ F-476's DESIGN EFFECT VALIDATED ON REAL DATA — AND COUNTING PITCHES AS INDEPENDENT MANUFACTURED A SIGNIFICANT RESULT
+TOPIC: independence, design effect, ICC, clustering, F-476, statistical hazard, pseudo-replication
+CLAIM: Treating multiple pitches from the same pitcher as independent observations produced a significant correlation that disappears under the correct pitcher-level analysis, and F-476's design-effect formula predicts the effective sample size almost exactly.
+NUMBERS: `glove_shoulder_external_rotation_fp` vs `pitch_speed_mph`, >=85 mph fastballs. **NAIVE PITCH-LEVEL: n = 217 pitches, r = +0.135, p = .047 — SIGNIFICANT. CORRECT PITCHER-LEVEL: n = 59 pitchers, r = +0.112, p = .400 — NOT SIGNIFICANT.** **DE = 1 + (m-1)rho with m = 3.68 and rho = 0.93 -> DE = 3.49 -> predicted effective n = 62.2, against an observed pitcher-level n = 59.** For contrast, at rho = 0.10 the same m gives DE = 1.27 and effective n = 171.
+POPULATION: elite_85plus
+EVIDENCE: ESTABLISHED — a measured instance, not an algebraic worry
+CAUSALITY: n/a — methodological
+SOURCE: OpenBiomechanics, computed in-cycle. `library/glove-arm-front-side.md` §6.
+COACHING: **THE FIRST TIME THIS CORPUS HAS VALIDATED F-476's CORRECTION ON MEASURED DATA, and it did so by catching a false positive it would otherwise have registered.** ⚠️ **WHAT IT DOES NOT DO: supply rho for pitch LOCATION.** A postural angle (ICC ~0.93, a stable signature) and a pitch's location (an outcome with a large trial-to-trial component) will not share an ICC, so **F-186's ~200-pitch threshold is still un-audited and the location-ICC item (F-482 item 7) stands open, now five days outstanding.** ⚠️ **AND IT IS A WARNING ABOUT EVERY INDUSTRY BIOMECHANICS CLAIM: a lab reporting "n = 400 pitches" from 100 pitchers has an effective n near 100.**
+CONFIDENCE: high
+SEE ALSO: F-476, F-482, F-186, F-463, F-439
+
+---
+
+### F-492 | THE FULCRUM THEORY'S ORIGIN IS n = 9, AND IT COULD ONLY HAVE DETECTED AN EFFECT EXPLAINING TWO-THIRDS OF THE VARIANCE
+TOPIC: glove arm, fulcrum, Murata 2001, statistical power, skilled vs unskilled, origin of a cue
+CLAIM: The "the glove shoulder is a fulcrum and skilled pitchers keep it still" claim that underwrites the modern glove-arm literature comes from a nine-pitcher study with a coach-assigned grouping.
+NUMBERS: **Murata 2001, J Biomech 34(12):1643-1647. n = 9 total, split into 4 "skilled" and 5 less-skilled BY AN EXPERIENCED COACH'S RATING.** Skilled fastball **38.22 +/- 1.02 m/s = 85.5 mph**; less-skilled **35.96 +/- 1.45 m/s = 80.4 mph** (difference 5.1 mph). Two cameras, 200 Hz, one marker on the non-throwing acromion, motion normalized to body height, stride foot contact to ball release. Result: skilled group showed less non-throwing shoulder movement in all directions; reduced x-axis movement associated with higher fastball velocity and rated skill. **80%-power detectable r at n = 9: 0.816 (R2 = 66.5%).** **This is the only prior sample in the topic reaching the corpus's 85 mph floor — and it is n = 4.**
+POPULATION: mixed, 80.4-85.5 mph, n=9. **SAMPLE MISMATCH on size, not on velocity.**
+EVIDENCE: WEAK. ⚠️ **SNIPPET-ONLY, AND WORSE — the numbers come from a third-party review's account, not from Murata.** sciencedirect.com and pubmed egress-blocked 2026-09-26; PMC3778685 (the review) is absent from the PMC open-access bucket.
+CAUSALITY: CROSS_SECTIONAL, and the grouping variable is a subjective rating by an observer who could see the arm action being measured
+SOURCE: PMID 11716867; numbers via a third-party account retrieved by WebSearch. `library/glove-arm-front-side.md` §3.
+COACHING: **DO NOT QUOTE THE 38.22/35.96 FIGURES AS VERIFIED.** This corpus has already inherited one wrong claim from a third-party paraphrase of a source nobody read; this is the same shape. What is safe to say: the fulcrum theory's empirical base is nine pitchers, the skill grouping is confounded with the measurement, and at n=9 only an effect explaining two-thirds of the variance was detectable.
+CONFIDENCE: medium that the reported numbers are accurate; high that n=9 cannot support the claim
+SEE ALSO: F-485, F-484, F-375, F-459
+
+---
+
+### F-493 | THE ONLY MANIPULATION IN THE TOPIC HAS TWO CONTRADICTORY ACCOUNTS, AND ONE OF THEM IS IN A PAPER READ AT SOURCE
+TOPIC: glove arm, manipulation, Ishida & Hirano 2004, contradiction, verification queue, intervention
+CLAIM: The single study that ever manipulated the non-throwing arm is reported as finding a ball-velocity decrease by one account and no torso-velocity difference by another, and the corpus cannot currently read it.
+NUMBERS: **Ishida K & Hirano Y (2004), Int J Sport Health Sci 2:119-128, "Effects of Non-throwing Arm on Trunk and Throwing Arm Movements in Baseball Pitching." Conditions: non-throwing arm RESTRICTED vs FREE — a genuine within-athlete manipulation.** **ACCOUNT A (Barfield 2018, PMC6047254, READ IN FULL, verbatim): "These authors did not find a difference in torso rotational velocity between a fixed glove arm and a free glove arm but did find that a fixed glove arm advances the torso rotation in the pitching sequence."** **ACCOUNT B (WebSearch summary of the J-STAGE record): "demonstrated a decrease in torso rotation and ball velocity when the nonthrowing arm was restricted compared with a nonrestricted throw."** **A says NULL on magnitude with a TIMING shift; B says a DECREASE in both rotation and ball velocity.** Sample size, competitive level and mean velocity: **UNKNOWN to this corpus.** No magnitude for either account.
+POPULATION: UNKNOWN
+EVIDENCE: UNVERIFIED — the paper is open access and free and was not readable today
+CAUSALITY: **INTERVENTION (within-athlete manipulation) — which is why it matters more than everything else in the topic combined**
+SOURCE: [J-STAGE](https://www.jstage.jst.go.jp/article/ijshs/2/0/2_0_119/_article) — **jstage.jst.go.jp EGRESS_BLOCKED via WebFetch and HTTP 000 via curl, 2026-09-26; absent from the PMC bucket (not a PMC journal).** `library/glove-arm-front-side.md` §3. Dispute #44.
+COACHING: **NEW TOP OF THE VERIFICATION QUEUE.** It is the only manipulation in the topic, it is free, and the two accounts disagree on whether the intervention moved ball speed — which is the entire question. One of these accounts is wrong and the corpus does not know which. ⚠️ **Note the asymmetry that should make you suspicious of Account B: A is a direct quotation from a paper read in full whose authors had the text in front of them and were arguing AGAINST their own interest by reporting a null; B is a search summary.** Provisionally weight A, quote neither.
+CONFIDENCE: high that the contradiction exists; **no confidence in either magnitude**
+SEE ALSO: F-459, F-462, F-374, F-492, Dispute #44
+
+---
+
+### F-494 | THREE ARITHMETIC PROBLEMS IN ONE PEER-REVIEWED PARAGRAPH, CAUGHT BY DIFFERENCING THE CELLS
+TOPIC: measurement, arithmetic error, identity, percentage base, ASMI, F-465 rule, elbow torque
+CLAIM: A paper's three headline comparisons contain one percentage wrong by a factor of 2.4, one computed on an undeclared base, and one that is an algebraic function of the other two.
+NUMBERS: **PMC11789100, READ IN FULL. Text: "the high-torque group had a 1% higher velocity (mean, 38.0 vs 37.1 m/s) but 28% higher normalized torque (0.0637 vs 0.0461)."** **(1) VELOCITY: (38.0-37.1)/37.1 = 2.43%, not 1% — WRONG BY 2.4x.** **(2) TORQUE: (0.0637-0.0461)/0.0461 = 38.2%. The printed 28% is 0.0176/0.0637 — the difference over the LARGER value, an undeclared base inconsistent with the sentence's own "higher than."** **(3) EFFICIENCY: the third significant row, 601 +/- 55 vs 810 +/- 71, is ball velocity / normalized torque: 38.0/0.0637 = 597 and 37.1/0.0461 = 805. It is an IDENTITY of the two rows above it; its p<.001 carries no independent information.** **THE CORRECTED SUBSTANTIVE RESULT: the 174 highest-torque pitchers of 523 throw 0.9 m/s = 2.0 mph harder than the 174 lowest and pay 38% more normalized elbow varus torque for it.**
+POPULATION: 523 pitchers (425 pro, 98 collegiate), 83.0-85.0 mph
+EVIDENCE: ESTABLISHED — all cells read at source and differenced
+CAUSALITY: CROSS_SECTIONAL, between-subject, top vs bottom half by torque. **NOT A LEVER.**
+SOURCE: PMC11789100 Table 2 and Results (read in full). `library/glove-arm-front-side.md` §8.
+COACHING: **F-465's RULE — "when a paper prints both cell means and model contrasts, difference the cells and check" — HAS NOW CAUGHT A PRINTED ERROR ON TWO CONSECUTIVE READINGS OF ASMI-LINEAGE PAPERS.** It costs one minute. **The usable number, and it is a good one: 2.0 mph of velocity is associated with 38% more elbow varus torque between subjects.** That is the price list for the velocity chase, on-population — but it is a between-pitcher association, so it does not say what happens when THIS pitcher adds 2 mph.
+CONFIDENCE: high
+SEE ALSO: F-465, F-382, F-373, F-483
+
+---
+
+### F-495 | FIELD SWEEP 2026-09-26 — ONE REAL LEAD, ONE PROBABLE FABRICATION, AND A SUMMARISER THAT LAUNDERED IT
+TOPIC: field sweep, fabrication, content farm, AI slop, Saberseminar, Driveline, search summariser
+CLAIM: The glove-arm field sweep produced one genuinely new lead, one industry position statement already known, and one fabricated statistic that a search summariser asserted as fact before admitting it could not find the source.
+NUMBERS: **(1) REAL LEAD, SNIPPET-ONLY: Saberseminar 2026 (via FanGraphs, "Five Things I Learned"): "one trait jumped out as a marker of reduced injury risk but not reduced velocity: off-arm momentum generated" — pitchers generating MORE glove-arm momentum saw reduced injury incidence WITHOUT velocity decline.** Verdict **PROMISING** — it is the first glove-arm claim with an injury outcome and a stated velocity null, and it is the only field item pointing at a *rate* rather than a static angle (the exact gap in F-496 item 3). blogs.fangraphs.com EGRESS_BLOCKED; **no sample size, no population, no magnitude, no paper.** It is NOT the segmental-momentum paper PMC13519164, which was read in full this cycle and contains no glove-arm content. **(2) DEBUNKED / PROBABLE FABRICATION: accio.com ("biz-sportshealth") — "a 2026 biomechanics study confirmed consistent arm slot reduces peak valgus torque by 27%" and separately "NCAA injury data shows a 27% reduction in elbow stress with consistent release angles."** Same number attached to two different claims, no citation, on a B2B commerce domain publishing titles of the form "What 2026 Youth Baseball Pitching Coaches Now Measure First." **Verdict MARKETING/FABRICATED — UNVERIFIED, do not import.** ⚠️ **AND THE LAUNDERING VECTOR FIRED AGAIN: the search summariser opened with "A 2026 biomechanics study confirmed consistent arm slot reduces peak valgus torque by 27%" as a flat statement of fact, then closed by admitting "I was unable to locate the specific study citation."** **(3) ALREADY KNOWN: Driveline's "Why We Don't Teach Equal and Opposite (or Firm Front Side)" (position statement, no data in the snippet, EGRESS_BLOCKED) and "The Interaction of Biomechanics and Command" — the latter is ALREADY REGISTERED AS F-179 and is NOT new.**
+POPULATION: n/a
+EVIDENCE: item 1 UNVERIFIED lead; item 2 FOLKLORE/fabricated; item 3 already registered
+CAUSALITY: n/a
+SOURCE: WebSearch only; all three domains egress-blocked. `library/glove-arm-front-side.md` §12, `library/idea-scouting.md`.
+COACHING: **HONEST SWEEP VERDICT: the field produced ONE new idea this cycle, and it is a conference-talk paraphrase with no numbers.** That is worth saying plainly rather than padding. **17th named fabrication candidate.** The recurring pattern is now unmistakable: the summariser asserts the fabricated number in its first sentence and disclaims it in its last, so anyone reading only the top line imports it.
+CONFIDENCE: high that item 2 is unsourced; high that item 1 is real but unusable as a magnitude
+SEE ALSO: F-274, F-275, F-179, F-496
+
+---
+
+### F-496 | THE GLOVE-ARM LITERATURE — WHAT DOES NOT EXIST, said plainly
+TOPIC: gap, glove arm, front side, literature absence, verification queue
+CLAIM: Seven specific absences in the glove-arm literature, two of which are closable with data already downloaded.
+NUMBERS: **(1) NO glove-arm variable in ANY elite normative model** except OpenBiomechanics' four shoulder angles (F-483) — ASMI's 21-variable model on 523 pitchers has none. **(2) NO glove-arm ELBOW measurement in any sample above 85 mph** — Barfield's own headline variable. ⚠️ **CLOSABLE: the raw C3D files in OpenBiomechanics carry the markers, so glove-elbow flexion is DERIVABLE, not absent.** **(3) NO measurement of the glove arm's RATE of adduction at any level, in any population.** Every study measures static angles at discrete events; the cue is about a motion. This is the gap the Saberseminar "off-arm momentum" lead points at (F-495). **(4) NO manipulation of the glove arm with a readable ball-velocity outcome** — one exists and its accounts conflict (F-493); a second (a glove-weight thesis, 4 conditions: no glove / normal / 0.68 kg / 1.36 kg, etd.auburn.edu EGRESS_BLOCKED) reportedly also omits ball velocity. **(5) NO glove-arm study with a COMMAND outcome** other than F-179's variability analysis. **(6) NO test of whether glove-arm position is COACHABLE** — no before/after on any population, at any level. Given ICC = 0.95 (F-490), a pitcher's glove-arm position is a near-fixed signature, and whether it can be moved at all is unknown. **(7) The within-bullpen ICC for pitch LOCATION remains unpublished** (F-482 item 7); F-491 validated the formula on kinematics and did not supply the location value.
+POPULATION: n/a — absence record
+EVIDENCE: n/a. Items 1, 2, 3 established by enumerating variable lists at source; items 4-6 by WebSearch
+CAUSALITY: n/a
+SOURCE: `library/glove-arm-front-side.md` §11.
+COACHING: **ITEM 6 IS THE ONE THAT SHOULD EMBARRASS THE FIELD. The oldest cue in pitching instruction, taught for a century in two mutually contradictory versions, and nobody has ever measured whether a pitcher can change his glove arm when told to.** F-490 says the audit would cost about ten pitches. **ITEM 2 IS THE CHEAPEST REAL RESEARCH PROJECT THIS CORPUS HAS EVER IDENTIFIED: the data is downloaded, free, and public.**
+CONFIDENCE: high on items 1-3; medium-high on 4-6 (search-established absences, and Known Correction #4 warns about asserting absence)
+SEE ALSO: F-483, F-487, F-490, F-493, F-495, F-482

@@ -1317,6 +1317,56 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 
 ---
 
+### **#43 (added 2026-09-26) — IS THE GLOVE ARM A NULL, OR AN UNMEASURED VARIABLE WEARING A NULL'S CLOTHES?** (biomechanist vs coach; **PARTIALLY CONCEDED — and the concession is the finding**)
+
+**THE CLAIM AT ISSUE — F-487.** Four glove-shoulder variables, 59 pitchers at 88.05 mph, primary data: every |r| against fastball velocity is ≤ 0.112. The biomechanist wants this graded as **the topic's answer**: the glove arm does not buy velocity in this population, and ICC = 0.93 (F-490) means measurement error cannot rescue it — disattenuation moves 0.112 to 0.116.
+
+**🔴 THE BIOMECHANIST.** *"This is the strongest null in the registry and it should be treated as one. It is on-population — 88 mph mean, not 76, not 13-year-olds. It is primary data, so no paraphrase sits between us and the number. The reliability is 0.93, so the usual escape hatch — 'your measurement was too noisy to find it' — is closed arithmetically. And Link 2 is dead independently (F-488): torso rotational velocity itself explains 1.2% of velocity variance here, so even a perfect glove-arm→trunk pathway terminates in nothing. **Three independent reasons, one of them not even about the glove arm.** Grade it ESTABLISHED and move the training block."*
+
+**🟡 THE COACH'S OBJECTION, AND IT LANDS.** *"You tested four numbers: shoulder angles at two frozen instants, foot plant and MER. **Nobody has ever coached a static glove-shoulder angle.** The cue — every version of it, 'pull the glove,' 'firm front side,' 'chest to glove' — is about the **elbow** and about a **motion**: how the elbow folds, and how fast the arm closes on the ribs through acceleration. Your dataset has no glove-elbow variable — you checked, 81 columns, four say glove, all shoulder. And a position at t=FP and t=MER cannot encode a rate between them. **You have falsified a claim nobody makes and left the claim everybody makes untouched.** Barfield's own headline variable was glove-arm elbow flexion; your null does not contain it."*
+
+**🔵 THE ANATOMIST SPLITS IT, AGAINST THE COACH ON MECHANISM AND WITH HIM ON SCOPE.** *"The coach is right about scope and wrong to take comfort in it. Right: F-487 tests position, not rate, and the constructs are genuinely different — that belongs in the finding text, and it now does. **But the rate version is in worse shape than the position version, not better.** Arm acceleration lasts ~30–50 ms and electromechanical delay is the same order, so a consciously initiated glove pull cannot act inside the window it is sold as acting in; whatever the glove arm does there was set before foot contact — which is to say, it is a **position** variable after all, and the biomechanist measured position. **And the inertial mechanism is real and large** — order 0.6–1.0 kg·m² against a trunk-plus-head 1–2 kg·m². A mechanism that big yielding r ≈ 0 does not mean we mismeasured; it means **the system compensates**, almost certainly through the ground-reaction torque the skater analogy ignores. The honest reading is not 'unmeasured,' it is 'measured, large mechanism, zero net transfer.'"*
+
+**STATUS: PARTIALLY CONCEDED, and the concession is written into F-487.** All three accept that the tested construct (glove-shoulder position at two events) is **narrower** than the coached construct (glove-elbow motion and rate). F-487 is therefore graded **high confidence for the four tested variables, medium that it generalises to the full coached construct.** The coach accepts that this does not license continuing to sell the front side as a velocity lever, because **no version of the claim has ever had support at this level** and Link 2's independent death (F-488) constrains all versions at once.
+
+**WHAT WOULD SETTLE IT.** **Derive glove-elbow flexion and the glove-shoulder adduction RATE from the OpenBiomechanics raw C3D files and re-run F-487's correlations.** The markers are in the files, the files are free and public, and nobody has done it. This is the cheapest decisive study this corpus has ever specified: **no athletes, no instrumentation, no IRB — a download and an afternoon.** With n = 59 at ≥85 it can exclude r ≥ 0.358; pooling the full 100 gets the floor to 0.277 and passes F-439.
+
+⚠️ **STANDING FLAG.** **If a future cycle quotes F-487 as "the glove arm does not matter" rather than "glove-shoulder position at FP and MER does not predict velocity," the coach's objection is upheld retrospectively.**
+
+---
+
+### **#44 (added 2026-09-26) — WHICH ACCOUNT OF THE ONLY MANIPULATION IN THE TOPIC IS TRUE?** (all three agents; **OPEN, UNRESOLVABLE TODAY, AND IT IS THE TOPIC'S REAL QUESTION**)
+
+**THE CLAIM AT ISSUE — F-493.** Ishida & Hirano 2004 restricted the non-throwing arm and compared it with free — the one genuine within-athlete manipulation of the glove arm in existence. **Account A**, quoted verbatim from Barfield 2018 read in full: *"did not find a difference in torso rotational velocity between a fixed glove arm and a free glove arm but did find that a fixed glove arm advances the torso rotation in the pitching sequence."* **Account B**, a WebSearch summary of the J-STAGE record: *"a decrease in torso rotation and ball velocity when the nonthrowing arm was restricted."* A says null-plus-timing; B says ball speed fell.
+
+**🔴 THE BIOMECHANIST.** *"Weight A, and not because it suits the null. **A is a direct quotation from authors who had the paper open and who were building an argument that the glove arm matters — reporting a null in their key antecedent runs against their own interest, which is the strongest kind of testimony.** B is a summariser, and this cycle watched a summariser assert a fabricated 27% as fact and disclaim it four paragraphs later (F-495). But 'weight A' is not 'know A.' Both accounts are compatible with a third possibility neither states: torso rotation ANGLE fell while torso rotational VELOCITY did not, which is exactly the confusion a paraphrase makes. Quote neither."*
+
+**🟡 THE COACH.** *"If B is right, this topic has a lever and I am being told to stand down on a null built from four correlations. If A is right, the one manipulation found a **timing** effect — the fixed glove arm made rotation happen EARLIER — and timing is the one thing in this whole topic I would actually expect to be coachable and would actually care about. **Note that both accounts agree the glove arm changed something.** They disagree only about whether the ball noticed."*
+
+**🔵 THE ANATOMIST.** *"Both accounts are mechanistically plausible and that is why the contradiction cannot be resolved by reasoning. Restricting the arm raises rotational inertia, which predicts B. It also removes a degree of freedom the athlete will immediately compensate for, which predicts A. **A twenty-two-year-old open-access paper is deciding the direction of a century-old coaching cue and nobody in this argument has read it.**"*
+
+**STATUS: OPEN. NO MAGNITUDE MAY BE QUOTED FROM EITHER ACCOUNT.**
+
+**WHAT WOULD SETTLE IT.** Reading the paper. `jstage.jst.go.jp` returned EGRESS_BLOCKED on WebFetch and HTTP 000 on curl on 2026-09-26; it is not a PMC journal so it is absent from the open-access bucket. **NEW HEAD OF THE VERIFICATION QUEUE** — it is free, it is open access, it is eight pages, and it outranks everything behind it because it is the only intervention in the topic.
+
+---
+
+## Revisited 2026-09-26 — did today move anything?
+
+**Dispute #37 / the standing F-439 `n ≥ 97` audit — MOVED, PARTLY, AND FOR THE FIRST TIME BY MEASUREMENT RATHER THAN ARGUMENT.** Today's on-population null (F-487) sits at **n = 59** and is graded as failing F-439's floor *in the finding text*, while the n = 100 mixed-sample null passes it — so the rule was applied prospectively to the corpus's own new result rather than retrospectively to someone else's. **The symmetric open question — what n a POSITIVE within-athlete finding needs — is untouched.** The registry-wide audit itself is **still unrun, now five days outstanding.**
+
+**F-476's clustering correction — VALIDATED ON REAL DATA (F-491), and it caught a false positive.** `DE = 1 + (m−1)ρ` predicted an effective n of 62.2 against an observed 59, and the naive pitch-level analysis produced a significant r = +0.135 (p = .047) that the correct pitcher-level analysis returns as p = .400. ⚠️ **It does NOT supply ρ for pitch LOCATION**, which is the number F-186's ~200 actually needs; a postural angle at ICC ≈ 0.93 and a pitch's location will not share an ICC. **F-482 item 7 stands open.**
+
+**Dispute #33 (🔴 "is 'it is really a COMMAND effect' this corpus's house style?") — CHECKED, AND TODAY RUNS THE OTHER WAY AGAIN. THE COUNT DOES NOT ADVANCE.** This topic had the easiest available relocation in the corpus's history: F-179 already registers a glove-arm→command association, so the cycle could have ended "the glove arm is really a command variable" and claimed a positive. **It did not.** F-487 and F-488 are reported as velocity nulls, F-179 is explicitly flagged as *already registered and not new*, and the only command-side claim made is the negative one in §10 — use the glove arm for positioning, on the strength of a finding that was already in the registry. **Two consecutive cycles have now declined the relocation.**
+
+**Dispute #36 (🔴 "relocating a null into a variance claim") — ⚠️ AT RISK, AND IT SHOULD BE FLAGGED RATHER THAN DISMISSED.** Today produced a velocity null (F-487) and then reported an ICC and a within-pitcher SD (F-490) as the topic's usable product. **That is formally the shape #36 objects to.** The defence: the variance result is not offered as a substitute *effect*, it is offered as (a) the reason the null cannot be blamed on noise and (b) a **cost** figure, and the accompanying coaching line is explicitly *"the thing least likely to pay you for changing it."* **Accepted as a defence, recorded as a near miss. If a future cycle quotes F-490's detection table as a reason to work on the glove arm, #36 is upheld.**
+
+**Dispute #40 / #40b (the mound) — NOT MOVED.** No mound work this cycle.
+
+**Dispute #41 / #42 (imagery) — NOT MOVED.** No imagery work this cycle.
+
+---
+
 ## Revisited 2026-09-25 — did today move anything?
 
 **Dispute #33 (🔴 "is 'it is really a COMMAND effect' this corpus's house style?") — ITS STANDING FLAG WAS CHECKED, AND TODAY RUNS THE OTHER WAY. THE COUNT DOES NOT ADVANCE.**
