@@ -1327,3 +1327,53 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **Dispute #40 / #40b (the mound) — NOT MOVED.** Fully egress-blocked cycle; no mound work possible. Both remain open exactly as left on 2026-09-24.
 
 **The standing F-439 / n >= 97 audit — NOT RUN, now four days outstanding, and today gave it a new dimension.** F-476's clustering correction means the registry's power arithmetic is wrong in a **second** way: not only were nulls graded by reported power rather than detectable effect (F-463), but **every command-side threshold assumes independent pitches**. ⚠️ **The audit is now a `1-beta` audit AND an independence audit.**
+
+---
+
+### **#43 (added 2026-09-27) — IS F-486 THE F-473 FALLACY WEARING PHYSICAL UNITS?** (biomechanist vs anatomist vs coach; **PARTIALLY CONCEDED, OPEN**)
+
+**THE CLAIM AT ISSUE — F-486.** A torque–velocity exponent of 2.12, estimated by manipulating *effort within the fastball* in 24 professional pitchers, is extrapolated *across pitch types* to conclude that a curveball carries 22–30 percentage points more elbow torque than its ball speed predicts.
+
+**🔴 THE BIOMECHANIST.** *"Two days ago this corpus registered F-473 — its newest hazard class — for exactly this move: taking a parameter estimated in one population or on one unit of analysis and applying it to another. Today the coach estimates an exponent on **submaximal fastballs thrown by the same arm** and applies it to **a different pitch thrown by different arms in a different lab**. The fact that the units are N·m and m/s rather than Cohen's d does not change the structure of the error; it only makes it harder to see. **A curveball is not a slow fastball — that is the whole premise of the finding — so why would its torque–velocity function be the fastball's?** If the curveball's grip, forearm orientation and release change the moment arm, the exponent is simply a different number and the entire 22–30 point gap could be an artefact of using the wrong curve."*
+
+**🟡 THE COACH CONCEDES THE STRUCTURE AND DEFENDS THE FRAMING.** *"Conceded that it is an extrapolation and that it is the same species of move. Two things make it survivable where F-473's was not. **First, nothing is standardised.** F-473's fatal step was `d = Δ/σ`, which requires assuming the two populations' SDs scale together — an untestable assumption about dispersion. Here both quantities are raw physical measurements and the only assumption is about **functional form**, which is stated in the finding and is directly testable by anyone with a motion lab. **Second, I am not reporting a magnitude as a result; I am reporting a prediction that failed.** The finding's content is not '22–30 points' — it is 'if the breaking ball were a slower fastball, its torque would be ~70% of a fastball's; it is 97%.' That gap is so large that it survives any plausible re-estimate of the exponent."*
+
+**🔵 THE ANATOMIST, FOR THE COACH ON MECHANISM AND AGAINST HIM ON ONE WORD.** *"The direction is mechanically expected and the coach undersells his own case. Peak varus torque occurs at maximum external rotation, **before the grip and the wrist have done anything pitch-specific**. The arm gets to the same place in the cocking phase whether the fingers are going to stay behind the ball or come around it; the ball speed difference is manufactured **later**, at and after release, by the hand. **So there is no reason to expect peak varus torque to track ball speed across pitch types at all — the two are generated at different instants.** That is a stronger argument than the coach's arithmetic and it does not need the poster's numbers. **But it also undercuts his framing:** if torque and ball speed are generated at different instants, then a 'prediction' built on a velocity exponent was never the right null in the first place. The honest statement is **'peak elbow torque is largely indifferent to pitch type because it is set before the pitch becomes a pitch'** — which is a cleaner finding and needs no extrapolation."*
+
+**🟡 THE COACH ACCEPTS THE REFRAME.** *"Taken. F-486's usable content is the anatomist's sentence, and the arithmetic is the demonstration rather than the evidence."*
+
+**STATUS: PARTIALLY CONCEDED.** F-486 is retained at **EMERGING** with the extrapolation flagged **inside the finding's own CAUSALITY field**, and the anatomist's mechanism recorded as the stronger support. The biomechanist does not withdraw the objection to the 22–30 point number specifically.
+
+**WHAT WOULD SETTLE IT.** A single motion-capture session in which one professional throws **fastballs at 100%, 85% and 70% effort AND curveballs at 100% effort**, with peak varus torque and ball speed on every pitch. **If the curveballs sit off the fastball's own torque–velocity curve, F-486 is confirmed within the athlete and the extrapolation is unnecessary.** ⚠️ **Roughly thirty pitches and one afternoon. This corpus keeps finding questions of this price.**
+
+⚠️ **STANDING FLAG.** F-484 already records that F-486's ratios come from a conference poster. **If the AJSM full text (Hodakowski 2025, 53(3)) reports a materially different CB/FB torque ratio, F-486 and F-487 are both withdrawn with a dated CORRECTED notice.**
+
+---
+
+### **#44 (added 2026-09-27) — IS THE SLIDER'S FOREARM ACCELERATION CLIPPED BY THE SENSOR?** (biomechanist vs anatomist; **OPEN, UNRESOLVABLE FROM PUBLISHED DATA**)
+
+**THE CLAIM AT ISSUE — F-490.** Agresta 2022's forearm peak resultant acceleration for the slider is **1840.5 ± 82.0 m/s²**, against a stated accelerometer range of **±200 g = 1962 m/s² per axis**.
+
+**🔴 THE BIOMECHANIST.** *"The slider mean sits at 94% of a single axis's full scale and carries **the smallest SD of any forearm cell in the table** — 82.0, against 184.1 for the fastball and 243.5 for the curveball. Variance compression at the top of a sensor's range is the textbook signature of clipping. If the resultant is dominated by one axis at those instants, the values at the top of the distribution are censored, which biases means **down** and shrinks SDs. **Every large number in this table is the one most at risk of being wrong.**"*
+
+**🔵 THE ANATOMIST, AGAINST.** *"The resultant of three axes each capable of ±1962 m/s² can reach 3398; 1840 is 54% of that and unremarkable. And there is a mundane explanation for the SD that requires no instrumentation failure: **the slider column is five pitches from ONE pitcher** (F-491), while the fastball column is 184 pitches from ten. **Between-pitcher variance is absent from the slider cell by construction.** The curveball's SD is larger than the fastball's precisely because the curveball is the more variable pitch across ten arms. You are diagnosing a sensor when the answer is a sample."*
+
+**🔴 THE BIOMECHANIST, PARTIALLY CONCEDING.** *"The one-pitcher point is well made and probably accounts for most of the SD gap. It does not account for the **mean**. The curveball's mean plus two SDs is 1938 — at the rail on a single-axis reading. **I will narrow the objection: I no longer claim the slider SD is evidence of clipping; I claim the paper does not report whether any channel saturated, and for a signal this close to full scale that is a reporting omission, not a nitpick.**"*
+
+**STATUS: OPEN, and it cannot be resolved from what is published.** It requires the raw traces or a per-axis saturation count, neither of which appears in the paper or its supplement (which contains only the Rapsodo user manual). **F-490 carries the flag as a question, not as a finding.**
+
+**WHAT WOULD SETTLE IT.** Per-axis peak distributions, or a saturation-flag count, from the authors. **Failing that: any future forearm-IMU study on this population should report its sensor range alongside its peaks, and none of the ones read this cycle does.**
+
+---
+
+## Revisited 2026-09-27 — did today move anything?
+
+**Dispute #27 (🔴 "the field measures the instrument's favourite variable, not the athlete's") — ADVANCED, AND IT IS NOW THE MOST-CONFIRMED PATTERN IN THIS FILE.** F-493 item 3 records the **sixth venue**: the entire pitch-type workload literature — five kinetics studies and two wearable studies — contains **zero accuracy outcomes.** After the mound (F-471), the pre-game warm-up (F-423), caffeine (F-398), sleep, and friction. ⚠️ **Six independent literatures, six times the same absence. This is no longer an observation about baseball research; it is a prediction. The corpus should now expect any new topic to arrive with a velocity or torque outcome and no command outcome, and should say so in advance.**
+
+**Dispute #33's standing flag (🔴 "is 'it is really a COMMAND effect' this corpus's house style?") — CHECKED, AND TODAY DOES NOT ADVANCE IT.** #33's instruction is to record the count whenever a cycle relocates a null to command without a measured accuracy outcome. **Today did not relocate anything to command.** F-493 records the accuracy absence as a *gap in the literature*, and the cycle's recommendation (F-493 COACHING) is measured in **mph of within-outing velocity fade**, not inches. **The count does not advance.**
+
+**The standing F-439 / n ≥ 97 audit — NOT RUN, now six days outstanding, and today added TWO more failing nulls.** F-488's trunk null is n = 10 and is labelled an underpowered null **inside the finding**, as the rule requires. F-491 records a slider "finding" at **n = 1 athlete**. ⚠️ **The audit is now the longest-outstanding structural item in the corpus and each cycle adds to its backlog.**
+
+**Dispute #40 / #40b (the mound) — NOT MOVED.**
+
+**F-303's anatomist caveat — CLOSED, IN F-303's FAVOUR.** The 2026-09-09 cycle shipped the arsenal shift as "the only lever in this corpus with zero tissue cost" with an explicit caveat that a shift beyond ~15 points toward breaking balls left the free regime into "an area the corpus records as entirely uncovered." **That area was covered today and the caveat does not hold at the elbow: a 15-point shift moves mean per-pitch peak varus torque by −0.43% (F-487).** ⚠️ **Closed only at the elbow, only on peak torque, and only on a poster-abstract magnitude (F-484).**
