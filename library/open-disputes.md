@@ -1377,3 +1377,61 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **Dispute #40 / #40b (the mound) — NOT MOVED.**
 
 **F-303's anatomist caveat — CLOSED, IN F-303's FAVOUR.** The 2026-09-09 cycle shipped the arsenal shift as "the only lever in this corpus with zero tissue cost" with an explicit caveat that a shift beyond ~15 points toward breaking balls left the free regime into "an area the corpus records as entirely uncovered." **That area was covered today and the caveat does not hold at the elbow: a 15-point shift moves mean per-pitch peak varus torque by −0.43% (F-487).** ⚠️ **Closed only at the elbow, only on peak torque, and only on a poster-abstract magnitude (F-484).**
+
+---
+
+## 🚨 FILE INTEGRITY NOTICE — added 2026-09-28
+
+**This file stops at Dispute #40. Disputes #41, #42, #43 and #44 exist in `INDEX.md` and in the 2026-09-25 and 2026-09-27 daily reports and were never merged into this file.** Known references: **#43** (the anatomist's reframe of why peak elbow varus torque should not track ball speed across pitch types, 2026-09-27) and **#44** (reported sensor-saturation in forearm-IMU pitching studies — Agresta 2022's slider forearm mean at 94% of a single axis's ±200 g full scale, 2026-09-27).
+
+**Flagged in place, not reconstructed today.** Whoever runs the next cycle should back-fill #41–#44 from those two daily reports before adding anything new. Today's entries take #45 and #46 so that no number is reused.
+
+---
+
+## Dispute #45 | Is in-season mass loss a PITCHER problem at all?
+**Parties:** Coach vs Biomechanist vs Anatomist · **Status:** 🟡 **NARROWED — added 2026-09-28, and it moved the same day**
+
+**COACH CLAIMS:** every year guys come off the scale lighter in May than in January, and the private-development industry puts a number on it — "as much as 10 mph, almost always accompanied by a weight drop of 6–10 lbs" (F-505).
+
+**BIOMECHANIST CHALLENGES:** the magnitude is uncited, the domain carrying it is unreadable (EGRESS_BLOCKED, not read), and **10 mph is roughly ten times this corpus's start-to-start fastball velocity SD bracket** (F-289, 0.8–1.2 mph) — it would be the largest in-season effect in a 507-finding registry by an order of magnitude. Meanwhile the only NCAA D1 seasonal data split by role says the decline sits with **position players**, with pitchers showing no significant change (F-503). And no mph-per-pound coefficient exists anywhere (F-504), so pairing the two numbers is rhetoric.
+
+**ANATOMIST SUPPORTS THE DIRECTION OF THE BIOMECHANIST'S POINT, ON MECHANISM:** a position player plays five games a week; a starter throws one outing. The weekly energy expenditure gap is large and in the right direction. **A position-player-weighted seasonal mass loss is exactly what the energetics predict**, independent of the statistics.
+
+**ANATOMIST THEN CHALLENGES THE BIOMECHANIST IN TURN:** you quoted "pitchers did not demonstrate significant changes" approvingly, **in the same cycle in which you wrote F-496 about a confidence interval of ±4.4 kg and invoked F-439's n ≥ 97 rule.** That null is in roughly fifteen men. It is consistent with pitchers holding mass and equally consistent with the study being blind to a 4 kg loss.
+
+**→ BIOMECHANIST CONCEDES, fully and in-cycle.** F-503 is graded a **lead, not a finding**, and its confidence line now records that the pitcher null is uninformative at roster size. The mechanism argument survives on its own and is what carries the claim.
+**→ COACH CONCEDES THE MAGNITUDE, DEFENDS THE DIRECTION.** Drops "10 mph." Keeps the concern.
+
+**WHAT WOULD SETTLE IT:** one season of daily morning weights on a fifteen-man pitching staff, split starters vs relievers, against the same staff's radar log. **A scale and a spreadsheet. Free.** It would also produce F-507 item 6 — the within-athlete SD of in-season weekly body mass for a college pitcher — which nobody has published and which this corpus has now been blocked on sixteen times in different guises.
+
+**NARROWED TO:** not *"do pitchers lose weight"* but *"how much, with what within-athlete SD, and does an individual's own loss track his own velocity."* The last clause is F-504 and is unanswerable from the literature.
+
+---
+
+## Dispute #46 | Is "low energy availability" a meaningful category for a pitcher, or a denominator artifact?
+**Parties:** Anatomist vs Biomechanist vs Coach · **Status:** 🔴 **OPEN — added 2026-09-28**
+
+**ANATOMIST CLAIMS:** below some intake the endocrine and recovery consequences are real and mechanistically obligate. The LEAM-Q validation data itself shows the case/control contrasts that separate — RMR 130.8 vs 120.1 kJ/kg FFM, RMR-ratio 1.05 vs 0.95, total testosterone 21.2 vs 17.3 nmol/L, all p < 0.0001 at n = 310 (F-502). Something real is being detected, even if the questionnaire cannot detect it.
+
+**BIOMECHANIST CHALLENGES ON THREE GROUNDS (F-500, F-501, F-502):**
+1. The 30 kcal/kg FFM/day threshold is from short-term lab studies in regularly menstruating women, and the 2026 review surveying it says in its own summary table to use EA *"as a conceptual tool, not a diagnostic cut-off value."* Male induction work has used 15 kcal/kg FFM for 4–6 days. **There is no validated male threshold and none for a power athlete above 90 kg.**
+2. **EA falls on hard training days by construction** — `∂EA/∂EEE = −1/FFM` identically — and empirically *"the number of LEA days were associated with higher EEE."* **A starter's bullpen day is an LEA day by arithmetic.** This is the geometric-identity hazard in a new costume.
+3. In the one dataset with complete 7-day records, ***"none of the body composition nor any of the other physiological measures were associated with the number of LEA days"*** and ***"no participant had clinically low levels of testosterone"*** — though at n = 19 that is an uninformative null and is registered as one.
+
+**COACH:** I cannot act on either position. There is no test I can run on a Tuesday, no validated instrument for my athletes, and no baseball player has ever been studied for energy availability at all.
+
+**NOBODY CONCEDES.** The anatomist's mechanism is not refuted by the construct's measurement problems, and the biomechanist's measurement objections are not refuted by the mechanism.
+
+**WHAT WOULD SETTLE IT:** an EA study in male power-sport athletes above 90 kg with **fixed energy intake and manipulated exercise energy expenditure**, so that the denominator artifact is separated from the physiology. Nobody has run one and it is not cheap.
+
+**WHAT THE PROGRAM DOES IN THE MEANTIME, and all three agree on this:** stop using energy availability. Use **body-mass trend** and **performance**, which are free, directly interpretable, and carry no borrowed threshold. Do not buy a screening instrument.
+
+---
+
+## Carried-forward disputes — status as of 2026-09-28
+
+- **Dispute #13 (stride length: marker or lever?) — STRENGTHENED, not moved.** Body mass is a structurally identical and much larger case (F-504). The three biggest correlates in the velocity file — mass, stride length, extension — have **zero within-athlete manipulations between them.**
+- **Dispute #27 (nobody measures accuracy outcomes) — a SEVENTH venue.** After the mound (F-471), the pre-game warm-up (F-423), ergogenic aids, the pitch clock (F-336), pitch-type workload (F-493) and gaze. **No nutrition, body-composition or energy-availability study in any population has ever used a command outcome** (F-507 item 3). The pattern is now a fact about sports science, not about any one topic.
+- **Dispute #40 / #40b (the mound) — NOT MOVED.**
+- **Dispute #44 (IMU sensor saturation) — NOT MOVED.**
+- **The standing F-439 / n ≥ 97 audit — STILL NOT RUN, now seven days outstanding.** Today added **two** more underpowered nulls (F-496 at n = 12 with a CI of ±4.4 kg; F-501's physiological null at n = 19) and flagged a third (F-503, roster-sized). **This is the largest unpaid debt in the corpus's own method.**
