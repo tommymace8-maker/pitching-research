@@ -1435,3 +1435,46 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 - **Dispute #40 / #40b (the mound) — NOT MOVED.**
 - **Dispute #44 (IMU sensor saturation) — NOT MOVED.**
 - **The standing F-439 / n ≥ 97 audit — STILL NOT RUN, now seven days outstanding.** Today added **two** more underpowered nulls (F-496 at n = 12 with a CI of ±4.4 kg; F-501's physiological null at n = 19) and flagged a third (F-503, roster-sized). **This is the largest unpaid debt in the corpus's own method.**
+
+---
+
+## Dispute #47 — 🔴 Is the glove arm a TOPIC, or an epiphenomenon of the trunk wearing the arm's clothes? *(added 2026-09-29)*
+
+**THE CLAIM UNDER DISPUTE:** that glove-arm position is a variable a coach should address at all, as opposed to a visible consequence of trunk rotation that would change on its own if the trunk changed.
+
+**BIOMECHANIST CHALLENGES THE PITCHING-COACH.** Every association in the only dedicated glove-arm study (F-508) is between a glove-arm angle and a **trunk or pelvis** quantity: glove elbow flexion × trunk axial rotation (rs = −0.41), glove elbow flexion × pelvic rotational velocity (rs = −0.45), glove horizontal abduction × torso rotational velocity (rs = +0.40), glove horizontal abduction × pelvis axial rotation at BR (rs = +0.52). **The glove arm is rigidly attached to the trunk.** A pitcher who rotates further will, by geometry alone, present a differently-positioned glove arm at the same instant. **These correlations may contain no information about the glove arm whatsoever** — they may be trunk rotation, measured twice, once badly. This is Check #4 in a new costume: not a geometric identity restated as an R², but a **near-identity restated as a coaching target.**
+
+**PITCHING-COACH DEFENDS, PARTIALLY.** Conceded for the *passive* case. Not conceded in general, because the glove arm is one of a very small number of things a pitcher can consciously place. Trunk rotation is not directly instructable — "rotate your torso 8° further at release" is not a coachable sentence, whereas "finish with your glove over your front knee" is. **If the glove arm is a handle on the trunk, its being downstream is the whole point, not an objection.** The coach's interest is in what can be *grabbed*, and the trunk cannot be.
+
+**ANATOMY-PHYSIOLOGY, ON THE MECHANISM, AGAINST BOTH.** There is a real mechanism and it is not the one either is arguing. The glove arm is roughly 5% of body mass held at a long radius; pulling it toward the axis reduces the trunk-plus-arms moment of inertia, and conservation of angular momentum does the rest. That is Barfield's own stated rationale and it is sound physics. **But the magnitude is the question and nobody has computed it.** A rough order-of-magnitude: for a 90 kg pitcher, moving a ~4 kg arm from a 0.35 m radius to 0.15 m changes that segment's contribution by roughly `4 × (0.35² − 0.15²)` ≈ 0.4 kg·m² against a trunk-plus-arms inertia on the order of 1–2 kg·m². **That is not negligible — but it is also not obviously worth a mile an hour, and it is the sort of thing a free-body model would settle in an afternoon and a coaching argument will not settle in a decade.**
+
+**WHAT WOULD SETTLE IT:** the within-athlete experiment in F-518 item 1. If a glove-arm cue moves velocity or location within an athlete, the glove arm is a lever regardless of what it correlates with. If it moves nothing, the coach's handle argument dies with it. **Twelve arms, a radar gun, one afternoon.**
+
+**STATUS: OPEN.** ⚠️ Note the asymmetry: the biomechanist's objection and the coach's defence both **predict the same null** in a badly-run version of that experiment, so the study must record trunk rotation as well as ball velocity, or it cannot distinguish them.
+
+---
+
+## Dispute #48 — 🟡 Is the front-side CONSISTENCY result the real finding, or Dispute #36 recurring for the fourth time? *(added 2026-09-29)*
+
+**THE CLAIM UNDER DISPUTE:** F-515 — Driveline's report that the *consistency* of glove-shoulder abduction at foot plant correlates with miss distance.
+
+**BIOMECHANIST CHALLENGES, CITING THIS CORPUS AGAINST ITSELF.** **Dispute #36 flagged three consecutive cycles that relocated a dead mean-effect into a variance claim**, and Dispute #33 asked whether "it is really a COMMAND effect" is a finding or this corpus's house style. **F-515 is both patterns at once**: a topic with no velocity effect (F-508, F-517) producing a variance-flavoured command claim instead. **The corpus should be at its most suspicious here, not its most excited.** Worse, the reported result is internally odd: *consistent* glove-shoulder abduction at foot plant is said to help, while *variable* throwing-shoulder horizontal abduction at MER and *variable* pronation rate at release are also said to help. **A result in which both more consistency and more variability improve command, at different joints and instants, needs a sample size before it needs an interpretation — and the n is not published.**
+
+**PITCHING-COACH DEFENDS.** The direction is not arbitrary and the coach would have guessed it. Foot plant is the last instant before the delivery becomes ballistic; variability before that point is correctable, variability after it is not. A pitcher whose front side arrives in a different place each pitch has to solve a different throwing problem each pitch. **And the distal-variability half is exactly what the motor-learning literature would predict** — functional variability in the terminal degrees of freedom is how a skilled performer hits a target, not a defect.
+
+**ANATOMY-PHYSIOLOGY, CONCEDING TO THE BIOMECHANIST ON PROCEDURE.** The mechanism story is plausible and cheap to tell, which is precisely the problem: it would have been equally tellable had the result come out the other way. **Register it as a lead, not a finding.** Its most useful property right now is not its direction but the fact that it is the **first accuracy outcome in eight venues of Dispute #27** — and that it came from a training facility rather than a journal is itself the finding worth keeping.
+
+**WHAT WOULD SETTLE IT:** the n, the population's mean velocity, and the coefficient, none of which are retrievable while `drivelinebaseball.com` is blocked. Failing that, an independent replication on an 85+ staff. ⚠️ **AND F-518 item 5 blocks it first:** no reliability estimate exists for any glove-arm angle in any pitching study, because the one study measured a single pitch per pitcher. **An SD-against-miss-distance correlation cannot be interpreted without the measurement's own SD** — the observed variability could be the marker system.
+
+**STATUS: OPEN, and deliberately parked.** Top of this topic's verification queue; **no coaching action taken on it this cycle** (F-512's recommendation is a constraint cue graded UNPROVEN, not an application of F-515).
+
+---
+
+## Revisiting carried-forward disputes — 2026-09-29
+
+- **Dispute #13 (stride length: marker or lever?) — STRENGTHENED AGAIN, and now with a worse case attached.** F-517 registers the front side as the fourth and weakest member of the family. Stride length, extension and body mass each had a **velocity correlation** to collapse. **The glove arm has never had one**, because the only study of it did not measure velocity (F-508). **The corpus's most-coached variable is the one with the least evidence behind it.**
+- **Dispute #27 (nobody measures accuracy outcomes) — an EIGHTH venue, AND THE FIRST EXCEPTION.** After the mound (F-471), the pre-game warm-up (F-423), ergogenic aids, the pitch clock (F-336), pitch-type workload (F-493), nutrition (F-507) and gaze. ⚠️ **But for the first time the absence is not total** — F-515 exists, unpublished and unverifiable, from a training facility. **The pattern's exception did not come from sports science. Note that.**
+- **Dispute #33 (is "it is really a COMMAND effect" a finding or a house style?) and Dispute #36 (relocating nulls into variance claims) — BOTH DIRECTLY ENGAGED,** see Dispute #48. **This cycle declined to make the move it was warned about**, and registered F-515 as a lead with no coaching action attached. **Recorded so a later cycle can check whether the restraint held.**
+- **Dispute #37 / the F-439 n ≥ 97 audit — STILL NOT RUN, now EIGHT days outstanding.** Today added another: **PMC13431036's entire null table at n = 19, against its own a priori requirement of 42** (F-514). **The largest unpaid debt in the corpus, and it grows every cycle.**
+- **Dispute #44 (IMU sensor saturation) — NOT MOVED.**
+- **Dispute #45 / #46 (in-season mass, energy availability) — NOT MOVED.**
