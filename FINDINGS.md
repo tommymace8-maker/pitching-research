@@ -215,7 +215,8 @@ COACHING: Directionally suggestive only — the sample throws ~79.5 mph. There i
 CONFIDENCE: low-medium — sample mismatch; third independent confirmation of height as a predictor
 SEE ALSO: F-010, F-038
 
-### F-013 | NULL — Grip strength does not predict velocity in the best population-matched sample available
+### F-013 | ⚠️ WITHDRAWN AS WRITTEN 2026-09-30 — NULL — Grip strength does not predict velocity in the best population-matched sample available
+🚨 **CORRECTED 2026-09-30 — THE DEPENDENT VARIABLE IS WRONG. DO NOT RE-IMPORT THIS ENTRY AS WRITTEN.** Barrack et al. (2024) was read in full from the PMC OA bucket this cycle (PMC11590131). The paper's outcome variable is **ELBOW VARUS TORQUE**, not ball velocity; ball velocity is a **covariate**. Its only grip sentence reads *"No grip strength variables were significantly associated with **EVT** in univariate analysis."* **The paper never regressed grip strength on ball velocity.** The n = 87 and the 84.83 mph population match below are CORRECT and are why this error was load-bearing. **The claim, the EVIDENCE grade of ESTABLISHED, the CONFIDENCE of "high", and the coaching line are all withdrawn. "Does grip strength predict velocity at D1?" reverts to UNTESTED, not null.** See **F-465** (the correction), **F-466** (the positive grip finding the paper actually reports), **F-471** (Type C — wrong-outcome null). Original text retained below unaltered so the error cannot be re-imported.
 TOPIC: velocity, grip strength, forearm, null, refuted, hand strength
 CLAIM: No significant univariate association exists between any grip-strength variable and ball velocity in D1 pitchers averaging almost exactly the 85 mph floor.
 NUMBERS: n = 87 NCAA D1 pitchers, mean age 19.6, mean ball velocity 37.87 m/s = 84.83 mph; all grip variables non-significant
@@ -595,7 +596,8 @@ COACHING: NEVER phrase this as an instruction. Display it as a description of ho
 CONFIDENCE: high for the association, refuted for the causal reading — see F-044, F-045
 SEE ALSO: F-044, F-045, F-046, F-047, F-048
 
-### F-044 | MANIPULATED NULL — plus/minus 25% stride change produced equivalent ball velocity
+### F-044 | ⚠️ CORRECTED 2026-09-30 — MANIPULATED NULL — plus/minus 25% stride change produced equivalent ball velocity
+🚨 **CORRECTED 2026-09-30 — THE COMPARISON NAMED IN THIS CLAIM WAS NEVER RUN. DO NOT RE-IMPORT THIS ENTRY AS WRITTEN.** The Buffalo crossover pitched **two** game conditions, over-stride and under-stride. **There was no normal/desired-stride game condition** — desired stride was measured in warm-up only. "Equivalent across conditions" therefore means **over-stride equalled under-stride**, and cannot mean either equalled the pitcher's own stride. Verified twice independently this cycle: Crotin & Ramsey 2021 (PMC8486408, same n = 19 cohort) states as an explicit limitation *"the inability for comparing desired stride length data with the ± 25% stride conditions"* and *"responses seen between stride length extremes also cannot infer changes occurring from desired stride length"*; Matsuda et al. 2025 (PMC12011807) cites this study as finding no difference *"between the over-stride length and under-stride length conditions."* ⚠️ **AND IT IS NOT A POWER PROBLEM — at n = 19 this study had 90.2% power to detect the effect F-045 found (d = 0.79).** It had the power and lacked the condition. **F-045 supplies the missing midpoint and it sits 3.18 mph ABOVE both extremes.** The practical instruction (do not move his stride) is unchanged and better supported; the reason has inverted. See **F-467**, **F-468**, **F-469**, **F-470**, **F-471** (Type B — missing-comparison null). Original text retained below unaltered.
 TOPIC: stride length, manipulation, null, refuted, crossover, randomized, velocity
 CLAIM: In a randomized crossover, pitchers threw at +/-25% of self-selected stride and hand and ball velocity were equivalent across conditions despite stride differing significantly.
 NUMBERS: n = 19 (15 collegiate, 4 elite HS), ~73-81 mph; two 80-pitch simulated games, 72 h washout; 8-camera mocap at 240 Hz + 2 force plates + radar; stride differed p <= .001; hand and ball velocity EQUIVALENT
@@ -6032,3 +6034,198 @@ SOURCE: `daily/2026-09-23-report.md` §8; `library/gaze-aiming-target.md` §4.4.
 COACHING: 🚨 **A PRINTED `1 − β` IS NOT EVIDENCE OF POWER AND MUST BE RECOMPUTED.** F-439 established that a registered NULL is usable only when it could have detected something; this is the first case where the corpus has verified, at source, that **a paper's own power claim is the thing misleading the reader.** **OPERATING RULE ADDED: when a null reports `1 − β`, recompute it from N and the OBSERVED effect size before grading. If the reported figure exceeds the recomputed one by more than ~2×, the null is a DETECTION FLOOR and the paper's power statement goes in the hazard log.** ⚠️ **AND THE STRUCTURAL ITEM THIS FEEDS:** `INDEX.md` §5 has carried *"run the n ≥ 97 rule across the whole registry"* as its **top structural item since 2026-09-22**. **It is still unrun.** Today shows the rule catches things that the papers themselves actively conceal.
 CONFIDENCE: high for the recomputation; high that the reported 0.95 cannot be achieved power at these effect sizes
 SEE ALSO: F-439, F-454, F-462, F-004, F-359, F-196
+
+---
+
+### F-464 | ⭐⭐ THE REGISTRY-WIDE NULL AUDIT IS RUN — 8 days late, and it found three error types, only one of which is a power problem
+TOPIC: method, null, statistical power, audit, corpus method, evidence grading, n>=97, structural
+CLAIM: `INDEX.md` has carried "run the n ≥ 97 rule across the whole registry" as its top structural item since 2026-09-22 and it is now run. The rule works, but it is NOT sufficient: two of the three load-bearing errors found today are invisible to it.
+NUMBERS: **DERIVED IN-CYCLE, reproducible.** Registry parsed at **463 findings**. Regex over title + CLAIM + EVIDENCE + CAUSALITY for null-language returned **57 null-bearing candidates**; **36 carry an explicit NULL/REFUTED tag**. Of the candidates, **38 have an extractable `n`** and **31 of those 38 (82%) fail F-439's n ≥ 97 threshold**. Detection floors recomputed: **F-004 n = 33 → r_crit 0.344 (R² 11.8%)**; **F-005 n = 33 → same floor, 95% CI on r = 0.19 is [−0.164, +0.501], upper-bound R² 25.1%**; **F-015 n = 30 → r_crit 0.361 (R² 13.0%)**; **F-431 n = 21 → r_crit 0.433 (R² 18.7%)**; **F-013 n = 87 → r_crit 0.211 (R² 4.4%)** — the best-powered correlational null in the registry and still short of the rule. Paired MDEs at 80% power: **F-044 n = 19 → d = 0.680**; **F-045 n = 20 → d = 0.660**; **F-035 n = 17 → d = 0.724**; **F-415 n = 18 → d = 0.701**; **F-413 n = 12 → d = 0.889**; **F-391 n = 20 → d = 0.660**. Two-group: **F-024 (35 v 21) → d = 0.787**, which at a pooled velocity SD of 2.0 mph means **the SEC weighted-implement null could not have detected anything smaller than ~1.6 mph.** **F-026 (n = 17, no control group) has no MDE worth printing — a single-arm pre/post has no counterfactual at any n.**
+POPULATION: n/a — a method finding about this corpus
+EVIDENCE: ESTABLISHED (arithmetic on the registry's own recorded values)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-30-report.md` §1; `library/null-audit.md`. Script and outputs reproducible from `FINDINGS.md` alone.
+COACHING: Not a coaching finding — a reading rule. ⚠️ **THE RESULT THAT MATTERS IS NEGATIVE: the rule this corpus spent two cycles escalating would have caught NEITHER of today's two biggest errors.** F-013 has n = 87 and the right population; F-044 had 90% power. **They are wrong for reasons power cannot see.** See F-471 for the taxonomy.
+CONFIDENCE: high for the arithmetic; the 57-candidate sweep is regex-based and will have both false positives (positive findings caught by null-language) and false negatives — it is a floor on the count, not a census
+SEE ALSO: F-439, F-438, F-443, F-463, F-465, F-467, F-470, F-471
+
+---
+
+### F-465 | 🚨🚨 CORRECTION — THE GRIP-STRENGTH NULL'S OUTCOME VARIABLE IS ELBOW TORQUE, NOT BALL VELOCITY. F-013 IS WITHDRAWN AS WRITTEN.
+TOPIC: grip strength, velocity, null, correction, outcome variable, claim-source mismatch, method, hazard
+CLAIM: F-013 states "no significant univariate association exists between any grip-strength variable and BALL VELOCITY." The paper it cites never regressed grip strength on ball velocity. Ball velocity is a **covariate**; the dependent variable throughout is **elbow varus torque**.
+NUMBERS: **SOURCE-VERIFIED — Barrack et al. (2024) read in full this cycle** (PMC11590131, `.txt` from the PMC OA bucket). The paper's only grip sentence: *"**No grip strength variables were significantly associated with EVT in univariate analysis.**"* Design: **57 modifiable physical-measure variables entered univariately into mixed-effects models with EVT as the outcome and ball velocity as a covariate.** The sample IS as good as F-013 says — **n = 87 NCAA D1, mean ball velocity 37.87 ± 1.55 m/s = 84.83 ± 3.47 mph**, the closest population match in the registry. **The population was right and the dependent variable was wrong.** ⚠️ Also uncorrected in the source: **57 univariate tests, no multiplicity adjustment stated.** The paper's own a-priori power statement targets **R² ≥ 0.16 with 5 predictors, minimum n = 80** — powered for a large effect on EVT, never aimed at velocity at all.
+POPULATION: NCAA_D1, 84.83 mph — on-population, which is exactly why the error was load-bearing
+EVIDENCE: **ESTABLISHED that F-013's claim is not in its source.** The status of "does grip strength predict velocity?" reverts to **UNTESTED in this population**, NOT null.
+CAUSALITY: n/a — a citation/claim audit
+SOURCE: `daily/2026-09-30-report.md` §2. Paper: Barrack AJ, Sakurai M, Wee CP, Diaz PR, Stocklin C, Karduna AR, Michener LA (2024), *Orthop J Sports Med* 12(11):23259671241296496, PMID 39600416, PMC11590131, **read in full**.
+COACHING: 🚨 **CORRECTED 2026-09-30. F-013's COACHING LINE — "Stop selling grip work as velocity work" — IS WITHDRAWN AS EVIDENCED.** It may still be true; this corpus no longer holds evidence for it. **What to say instead: "Nobody has tested whether grip strength predicts velocity in a D1 sample. The one thing grip strength IS associated with is elbow torque — and it is asymmetry, not weakness, that goes the wrong way (F-466)."** ⚠️ **AND THE DOWNSTREAM: `library/ball-hand-friction.md` answers "Should I buy grip trainers?" with "No — grip strength is null." That answer is now unsupported by F-013 and rests only on F-431 (n = 21, 77.9 mph, r_crit = 0.433).** The practical recommendation survives on weak grounds; the certainty does not.
+CONFIDENCE: high — the paper's sentence, its title, its stated purpose and its statistical section all agree, and the word "velocity" appears in F-013's claim where the paper says "EVT"
+SEE ALSO: F-013, F-218, F-431, F-382, F-466, F-471
+
+---
+
+### F-466 | The positive finding hiding inside the withdrawn null — grip strength ASYMMETRY predicts higher elbow varus torque
+TOPIC: grip strength, asymmetry, elbow varus torque, injury constraint, forearm, flexor pronator
+CLAIM: In the same 87-pitcher sample, grip strength symmetry entered the final multivariate model as a significant predictor of INCREASED elbow varus torque, controlling for ball velocity.
+NUMBERS: **SOURCE-VERIFIED.** **+0.27 N·m EVT per +1 N of grip asymmetry (dominant − non-dominant), 95% CI 0.07 to 0.48, P = .008**, in a backward-elimination mixed-effects model adjusting for ball velocity. Median grip asymmetry in sample: **552.3 N (IQR 497.4–596.5)**. Mean EVT 58.63 ± 12.64 N·m. **Individual-arm grip strength was NOT significant univariately and did NOT enter the model — only the asymmetry did.** The authors themselves flag the interpretive problem: *"The relevance of grip strength on the nondominant arm is unclear, making interpretation difficult."*
+POPULATION: NCAA_D1, 84.83 ± 3.47 mph — on-population
+EVIDENCE: EMERGING. One sample, one model, **selected by backward elimination out of a 27-variable pool reduced from 57** — a garden of forking paths, and the authors do not report a multiplicity correction. The CI's lower bound (0.07) is close to zero.
+CAUSALITY: CROSS_SECTIONAL — nobody has trained grip symmetry and re-measured torque
+SOURCE: `daily/2026-09-30-report.md` §2. Barrack et al. (2024), PMC11590131, read in full, Table 3.
+COACHING: One line, per the injury-as-constraint rule: **a large dominant/non-dominant grip gap is associated with more elbow torque at the same velocity.** It is a screen, not a program, and it is one model in one sample. **Do NOT convert this into "train the non-dominant hand"** — that is the exact inference this corpus has been burned by, and asymmetry entering a model without either arm entering it is more likely a statistical artifact of the reduction procedure than a tissue fact.
+CONFIDENCE: low-medium — the number is real and read at source; the model that produced it is heavily selected
+SEE ALSO: F-465, F-013, F-114, F-431
+
+---
+
+### F-467 | 🚨🚨 CORRECTION — THE CORPUS'S FLAGSHIP MANIPULATED NULL NEVER TESTED THE CONDITION ITS CLAIM NAMES. F-044 HAD NO NORMAL-STRIDE CONDITION.
+TOPIC: stride length, manipulation, null, correction, study design, missing comparison, method, hazard
+CLAIM: F-044 reads: "pitchers threw at **+/-25% of self-selected stride** and hand and ball velocity were **equivalent across conditions**." The Buffalo crossover ran exactly two game conditions — over-stride and under-stride. **The self-selected stride was measured in warm-up and never pitched as a condition.** "Equivalent across conditions" means over-stride equalled under-stride. It does not, and cannot, mean either equalled normal.
+NUMBERS: **SOURCE-VERIFIED TWICE, INDEPENDENTLY, THIS CYCLE.** (1) **Crotin & Ramsey (2021)**, reporting the same n = 19 Buffalo cohort (PMC8486408, read in full), states the design as *"two 80-pitch simulated games...1) at 25% increased stride (OS), and 2) at 25% reduced stride (US) from desired stride length"* and lists as an explicit limitation: *"**The disadvantage of this methodological design was the inability for comparing desired stride length data with the ± 25% stride conditions**"* and *"**Responses seen between stride length extremes also cannot infer changes occurring from desired stride length**."* (2) **Matsuda et al. (2025)** (PMC12011807, read in full) cites the same study as its reference 13 and describes it as: *"there was no significant difference in ball velocity **between the over-stride length and under-stride length conditions**."* Reported stride values: OS **1.40 ± 0.15 m (0.76 %BH)**, US **0.95 ± 0.14 m (0.52 %BH)**, desired **1.24 ± 0.17 m**.
+POPULATION: NCAA_D1 + 4 elite HS, ~73–81 mph — below the 85 mph floor, as F-044 already recorded
+EVIDENCE: **ESTABLISHED that the claim's comparison was not run.** The underlying observation (OS = US) is real and unchallenged.
+CAUSALITY: MANIPULATED — but the manipulation compared two extremes to each other, never to the athlete's own baseline
+SOURCE: `daily/2026-09-30-report.md` §3. Crotin RL & Ramsey DK (2021), *Int J Sports Phys Ther* 16(5):1330-1337, PMID 34631254, PMC8486408, read in full. Matsuda R et al. (2025), PMC12011807, read in full. Original: Ramsey DK, Crotin RL, White S (2014), *Hum Mov Sci* 38:185-196, PMID 25457417 — **still unread; `Hum Mov Sci` is Elsevier and absent from the PMC OA bucket.**
+COACHING: 🚨 **CORRECTED 2026-09-30.** F-044 is **not** evidence that moving a pitcher's stride off his own optimum is free. It is evidence that **−25% and +25% are equally far from wherever the optimum is.** F-045 supplies the missing point and it is **3.2 mph above both** (F-468). The practical instruction — *don't move his stride* — is **unchanged and now better supported**, but the reason has inverted: not "stride doesn't matter," but "**it matters, symmetrically, and he is already at the top of the curve.**"
+CONFIDENCE: high — two independent sources, one of them the same research group describing its own design as a limitation
+SEE ALSO: F-043, F-044, F-045, F-046, F-047, F-048, F-468, F-469, F-470, F-471
+
+---
+
+### F-468 | ✅ SOURCE-VERIFIED IN FULL — the one stride manipulation that included a normal condition found it 3.2 mph faster than BOTH extremes
+TOPIC: stride length, manipulation, velocity, inverted U, self-optimization, source-verified
+CLAIM: Matsuda et al. (2025) instructed three stride conditions including normal, and normal beat both over- and under-stride by an identical, large, adequately powered margin.
+NUMBERS: **EVERY FIGURE READ AT SOURCE (PMC12011807, full text).** n = 20 male college pitchers, age 19.9 ± 1.1, height 173.2 ± 5.8 cm, mass 71.8 ± 6.4 kg. Conditions ±20% of normal. Stride: **US 1.08 ± 0.13 m (62.52 ± 6.99 %BH), NS 1.35 ± 0.12 m (78.20 ± 5.70 %BH), OS 1.56 ± 0.13 m (89.86 ± 6.58 %BH)**. **Ball velocity: US 32.48 ± 1.72, NS 33.90 ± 1.86, OS 32.48 ± 1.70 m/s.** One-way ANOVA **p < 0.01, η² = 0.36 (large)**. Tukey HSD: **NS > US (p = 0.03, d = 0.78); NS > OS (p = 0.03, d = 0.79); US vs OS p = 1.00, d < 0.01.** **The difference is 1.42 m/s = 3.18 mph in BOTH directions, to two decimal places identical.** ⚠️ **POWER CHECK, DERIVED IN-CYCLE:** at n = 20 paired the MDE at 80% power is **d = 0.660**; the observed d = 0.79 carries **91.8% achieved power.** **This study was adequately powered for what it found** — the rare case in this registry.
+POPULATION: ⚠️ **SAMPLE MISMATCH — NS mean velocity 33.90 m/s = 75.8 mph, nine mph below this corpus's floor**, in a 173 cm / 71.8 kg Japanese collegiate sample. **Directional only.** Additional constraints read at source and NOT previously recorded in F-045: **flat ground in an indoor laboratory, not a mound**, and **thrown to a target, not a catcher** — both named by the authors as limitations.
+EVIDENCE: ESTABLISHED for the direction and the symmetry; **EMERGING for the 3.2 mph magnitude**, which is off-population, acute and instructed
+CAUSALITY: **MANIPULATED — genuinely, with the baseline condition included.** The rarest design in this registry.
+SOURCE: `daily/2026-09-30-report.md` §3. Matsuda R, Hirano Y, Umakoshi J, Kimura A (2025), *Front Sports Act Living* 7:1534596, PMID 40264933, PMC12011807, DOI 10.3389/fspor.2025.1534596, **read in full**.
+COACHING: **This is the number to carry: 20% off his own stride, in either direction, cost 3.2 mph acutely in a 76 mph sample.** Scale it down for an 85+ arm — nobody has measured it there — but the SIGN and the SYMMETRY are the durable parts. **The instruction to a pitcher is "your stride is already solved; we are not touching it," and now you can say why.**
+CONFIDENCE: high for the figures (read at source); medium for transfer to 85+
+
+---
+
+### F-469 | ⭐ THE SYNTHESIS — stride length is an inverted U with a sharp vertex at the self-selected value, and the two manipulations agree perfectly
+TOPIC: stride length, inverted U, self-optimization, synthesis, marker vs lever, velocity
+CLAIM: F-044 and F-045 have been carried as two nulls pointing the same way. Read at source they are one curve seen twice: both studies found the two extremes indistinguishable from each other, and only one of them had the middle point.
+NUMBERS: **Buffalo (n = 19, ±25%): OS = US, no significant difference. Matsuda (n = 20, ±20%): OS = US, p = 1.00, d < 0.01 — AND both 3.18 mph below NS, d ≈ 0.78, η² = 0.36.** The two designs replicate each other exactly on the comparison they share, and diverge only where one of them has no data. ⚠️ **AND THE %-BODY-HEIGHT CROSS-CHECK RUNS THE SAME WAY:** Matsuda's fastest condition was **78.20 %BH**; its 89.86 %BH condition was 3.2 mph slower. The industry's circulating prescription is **"80–85% of body height"** (field sweep, snippet-only). **The only manipulation that tested a long stride against a normal one found the long stride worse.** Cf. F-047, which already records that the %-body-height normalisation is contradicted twice.
+POPULATION: both samples below the 85 mph floor (73–81 mph and 75.8 mph). **SAMPLE MISMATCH — directional only.**
+EVIDENCE: EMERGING for the inverted-U as a general form; ESTABLISHED that the two studies do not conflict and that neither supports "stride length does not matter"
+CAUSALITY: MANIPULATED (both), with the vertex supplied by only one
+SOURCE: `daily/2026-09-30-report.md` §3; `library/null-audit.md` §3. Inputs: F-044 (corrected by F-467), F-468.
+COACHING: **"So what I tell the pitcher is: your stride found its own optimum and it is sharper than you think — 20% either way costs about three miles an hour. The drill is no drill; we measure it and leave it alone. On video the failure looks like a stride that MOVES between innings, not one that is the wrong length. And here's how we know: %BH from two camera frames, first inning vs last, ~25 pitches per bin."** ⚠️ **The one legitimate reason to touch a stride is F-048 — a shorter stride cut heart rate 11.1 bpm at no velocity cost in the SAME Buffalo cohort. That is a stamina trade, not a velocity trade, and F-467's correction does not touch it because it is an OS-vs-US comparison, which is the comparison that study can actually make.**
+CONFIDENCE: medium-high for the shape; low for the magnitude at 85+
+SEE ALSO: F-043, F-044, F-045, F-046, F-047, F-048, F-467, F-468, F-473
+
+---
+
+### F-470 | ⭐⭐ THE POWER RULE WOULD NOT HAVE CAUGHT THIS — F-044 had 90% power. Its problem was a missing condition, not a small sample.
+TOPIC: method, statistical power, null, missing comparison, audit, n>=97, corpus method
+CLAIM: The n ≥ 97 rule and the MDE arithmetic are necessary and not sufficient. Applied to F-044 they return "underpowered, discount it" — which is the wrong diagnosis and would have left the actual error in place.
+NUMBERS: **DERIVED IN-CYCLE.** F-044, n = 19 paired. **Power to detect d = 0.79 (the effect F-045 actually found) = 90.2%.** Power by n at d = 0.79: **n = 12 → 70.3%; n = 15 → 81.2%; n = 19 → 90.2%; n = 20 → 91.8%; n = 25 → 96.6%.** **The Buffalo study was better than adequately powered to detect the normal-vs-extreme difference. It simply never ran that contrast.** Its MDE of d = 0.680 is a true statement about a comparison it did make (OS vs US) and says nothing about one it did not. ⚠️ **Symmetrically, F-013 (F-465) has n = 87, the best population match in the registry, and a detection floor of r_crit = 0.211 — respectable. Its error is that the dependent variable is elbow torque.**
+POPULATION: n/a — method
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-30-report.md` §1, §4; `library/null-audit.md` §2.
+COACHING: 🚨 **STANDING METHOD, ADDED TO F-439 RATHER THAN REPLACING IT. Before computing power on a null, answer two prior questions: (1) WHAT WAS THE DEPENDENT VARIABLE? (2) WHICH CONTRASTS WERE ACTUALLY RUN?** A null can only be underpowered for a comparison that exists. **Power is the third check, not the first** — and this corpus escalated it to a top structural item for eight days without noticing that the two errors sitting underneath it were not power errors at all.
+CONFIDENCE: high
+SEE ALSO: F-439, F-463, F-464, F-465, F-467, F-471
+
+---
+
+### F-471 | ⭐ THE TAXONOMY — three ways a registered null fails, and only one of them is about sample size
+TOPIC: method, null, evidence grading, audit, taxonomy, corpus method
+CLAIM: The audit produced a three-way classification of failed nulls. Each requires a different check, and the corpus previously had a procedure for only one of them.
+NUMBERS: **TYPE A — UNDERPOWERED NULL.** The contrast was run on the right variable and the study could not have detected a meaningful effect. Caught by F-439's n ≥ 97 / MDE arithmetic. **Registry count: 31 of the 38 null-bearing findings with an extractable n.** Examples: F-004 (n=33), F-005 (n=33), F-015 (n=30), F-431 (n=21), F-024 (35v21, MDE 1.6 mph), F-413 (n=12). **TYPE B — MISSING-COMPARISON NULL.** The study had adequate power but never ran the contrast the corpus attributes to it. **Invisible to power arithmetic.** Registry count today: **1 confirmed (F-044, 90.2% power).** Detection: read the DESIGN section and enumerate the conditions, then check each against the claim's wording. **TYPE C — WRONG-OUTCOME NULL.** The study ran a well-powered analysis on a DIFFERENT dependent variable than the claim names. **Invisible to power arithmetic and to citation checking.** Registry count today: **1 confirmed (F-013, grip → elbow varus torque, not velocity).** Detection: locate the sentence in the source and check its object noun. ⚠️ **Types B and C are the same failure as F-382 (peer-reviewed laundering) with the direction reversed: there a journal miscarried a citation; here THIS CORPUS miscarried one. The defence that has caught 16 fabrications — does the source exist, is it real, is the number right — passes cleanly on both.**
+POPULATION: n/a — method
+EVIDENCE: ESTABLISHED as a classification; the registry counts for Types B and C are **lower bounds from a two-paper spot check, not a census**
+CAUSALITY: n/a
+SOURCE: `daily/2026-09-30-report.md` §4; `library/null-audit.md` §2.
+COACHING: 🚨 **THE HONEST READING OF TODAY: two papers were read at source and BOTH contained a Type B or Type C error in the corpus's own entry. That is a 2-for-2 hit rate on a non-random sample of two, and it is the strongest available argument that the remaining 55 null-bearing candidates have NOT been checked.** The audit is begun, not finished. **Type A is now mechanised; Types B and C need a paper read each and there are ~55 to go.**
+CONFIDENCE: high for the taxonomy; the hit rate is 2/2 on a deliberately selected pair and must not be extrapolated as a population estimate
+SEE ALSO: F-439, F-464, F-465, F-467, F-470, F-382, F-245
+
+---
+
+### F-472 | THE MECHANISM UNDER F-469 — stride length changes what the lower body GENERATES and not what the trunk RECEIVES
+TOPIC: stride length, energy flow, kinetic chain, mechanism, lower half, transfer, anatomy
+CLAIM: In the same manipulation that found a 3.2 mph velocity penalty, total energy outflow from the lower torso to the trunk was statistically invariant to stride length — so the velocity difference is not explained by how much energy the legs made.
+NUMBERS: **SOURCE-VERIFIED (PMC12011807, read in full).** **Total energy outflow, lower torso → trunk joint, summed over the stride and arm-cocking phases: p = 0.59, η² = 0.02 (negligible)** across US/NS/OS. Meanwhile the inputs moved hard: lower-torso mechanical energy at stride-foot contact **OS > US, d = 1.23**; at MER **US > NS d = 1.65, US > OS d = 1.00**; stride-hip negative work **US < NS d = 1.86, US < OS d = 2.66**; trunk-joint positive work **OS > US d = 2.85**. **The phase TIMING of the outflow shifted with stride; the TOTAL did not.** The authors' own conclusion: *"altering stride length might not lead to changes in total energy outflow from the lower torso to the trunk joint, implying difficulties in explaining ball velocity only by the lower extremity mechanics."*
+POPULATION: ⚠️ SAMPLE MISMATCH — 75.8 mph, flat ground, indoor, to a target
+EVIDENCE: EMERGING — one sample, n = 20, and the energy model is a rigid-body linked-segment computation, not a measurement of muscle work
+CAUSALITY: MECHANISM (measured inside a genuine manipulation)
+SOURCE: `daily/2026-09-30-report.md` §3.3. Matsuda et al. (2025), PMC12011807, read in full, §4.3 and Figure 8.
+COACHING: **The anatomist's line: the legs are not the gate.** Making the lower half produce more energy did not deliver more energy to the trunk — it changed WHEN the energy arrived. ⚠️ **AND THE HONEST GAP THE PAPER LEAVES OPEN: if total trunk inflow was invariant, this model does NOT explain why NS was 3.2 mph faster. The velocity effect is real and its mechanism is unaccounted for.** Do not close this loop on the paper's behalf. **Candidate explanations this corpus cannot currently separate: a timing/sequencing effect the summed-work measure integrates away, a distal (trunk-to-arm) transfer difference the study did not measure, or the novelty confound in F-473.**
+CONFIDENCE: medium for the invariance result; the mechanism for the velocity difference is UNKNOWN and the paper says so
+SEE ALSO: F-468, F-469, F-473, F-003, F-441, F-442
+
+---
+
+### F-473 | 🚨 THE CONFOUND THAT SITS UNDER EVERY STRIDE MANIPULATION EVER RUN — "optimal" is perfectly confounded with "uninstructed"
+TOPIC: stride length, method, confound, novelty, attention, external focus, manipulation, study design
+CLAIM: In every instructed-stride study in the literature, the normal condition is the only condition in which the pitcher is not executing a conscious instruction. The velocity advantage of "normal" may be the advantage of being unconstrained, not of being at a mechanical optimum.
+NUMBERS: **DERIVED IN-CYCLE, no source disputes it because no source addresses it.** Matsuda (n = 20): NS is the habitual, uninstructed delivery; US and OS both require the pitcher to consciously hit a stride target. **NS beat both by an identical 1.42 m/s** — a symmetry that is equally well explained by "both instructed conditions cost the same attentional tax" as by "the optimum is in the middle." **The corpus already holds the machinery for this objection: F-192 (guidance hypothesis, k = 75, N = 2,228 — PASSES the n ≥ 97 rule) and the external-focus literature both say that directing attention to the body degrades skilled motor output.** ⚠️ **NO STRIDE STUDY IN THE LITERATURE CONTAINS A SHAM-INSTRUCTION CONDITION** — a trial where the pitcher is told to hit a stride target that equals his own normal stride. **The design costs one extra condition and would separate the two explanations completely.**
+POPULATION: applies to all instructed-manipulation designs, on any population
+EVIDENCE: **ESTABLISHED that the confound is present and unaddressed.** WEAK/UNKNOWN as to which explanation is correct — that is the point.
+CAUSALITY: n/a — a design critique
+SOURCE: `daily/2026-09-30-report.md` §3.4, §6. Raised by the biomechanist, conceded by the coach and the anatomist. Filed as Dispute #40.
+COACHING: **This does NOT change what you do this week** — under either explanation, telling a pitcher to change his stride mid-delivery costs velocity, which is the practical result. **It changes what you can claim.** You may say "instructing a stride change costs about 3 mph acutely." You may NOT say "his current stride is mechanically optimal" — that requires the sham condition nobody has run. ⚠️ **And it sharpens the real question, which is about TRAINED change, not instructed change: no study anywhere has moved a pitcher's habitual stride over a training block and re-measured. Every stride manipulation in existence is acute.**
+CONFIDENCE: high that the confound exists; the corpus takes no position on which explanation wins
+SEE ALSO: F-468, F-469, F-472, F-192, F-044, F-045
+
+---
+
+### F-474 | NEW FROM THE FIELD, SOURCE-VERIFIED — grip strength falls ~14x more than radar velocity across 75 pitches
+TOPIC: fatigue, grip strength, monitoring, within-outing, velocity decline, instrument sensitivity
+CLAIM: Across a simulated 75-pitch outing, dominant-arm grip strength declined by an order of magnitude more than ball velocity, making it a far more responsive candidate fatigue instrument than a radar gun.
+NUMBERS: **SOURCE-VERIFIED (PMC11877241, read in full).** n = 30 recruited, **n = 26 analysed**, 5 blocks of 15 fastballs, 5 min rest between blocks, Rapsodo 2.0, turf mound at 18.44 m. **Dominant grip 55.67 ± 12.32 → 48.62 ± 12.25 kg, −12.66%, F(5) = 10.246, p < 0.001, ηp² = 0.299.** **Pitching velocity 119.87 ± 8.00 → 118.75 ± 6.90 km/h, −0.93%, F(4) = 3.701, p = 0.039, ηp² = 0.142.** Perceived soreness, dominant forearm flexors **1.65 → 4.19** (p = 0.005). **Pressure pain threshold: NOTHING significant anywhere** (forearm flexors −7.33%, p = 0.060). **Velocity was NOT monotonic — block 2 (120.35) exceeded block 1 (119.87) before declining.** Naive responsiveness ratio **12.66 / 0.93 ≈ 13.6 : 1** — ⚠️ **see F-475, which cuts this roughly in half.**
+POPULATION: ⚠️⚠️ **SEVERE SAMPLE MISMATCH. "High-level amateur," but age 21.43 ± 8.86, RANGE 13–50 years, and mean velocity 119.87 km/h = 74.5 mph — ten mph below this corpus's floor, in a sample containing children and middle-aged men.** Pitch count chosen from a **13U federation guideline**. Indoor, off-season, to a nine-pocket target net, not a hitter. **Directional only; no magnitude from this study may be used as a norm.**
+EVIDENCE: EMERGING for the direction; **the magnitude is not usable for an 85+ arm**
+CAUSALITY: INTERVENTION on workload (pitches were actually thrown and the outcome tracked) — but **no no-pitch control session exists**, which is what F-475 exploits
+SOURCE: `daily/2026-09-30-report.md` §5. Tremblay M, Anderson Sirois S, Abboud J, Descarreaux M (2025), *BMJ Open Sport Exerc Med* 11(1):e002146, PMID 40041680, PMC11877241, DOI 10.1136/bmjsem-2024-002146, **read in full**.
+COACHING: **Converges with Crotin & Ramsey 2021 (F-467's source), read the same cycle: 1.9 kg / 45.1 kg = −4.2% dominant grip across 80 pitches, p = 0.017, d = 0.28.** Two independent samples, two countries, same direction. ⚠️ **AND THE LIMIT THE AUTHORS STATE THEMSELVES: "this study did not directly evaluate the effects of a gradual decline in grip strength, and we were therefore unable to evaluate the relationship between the decrease in grip strength, muscle soreness perception and pitch count."** **Nothing links grip decline to any outcome you care about.** It is a responsive instrument with no validated criterion — which is better than radar (provably unresponsive, and F-082 says in-season velocity RISES) but is not yet a decision rule.
+CONFIDENCE: medium for the direction; low for any threshold. **There is no evidence anywhere for a grip-loss number that should remove a pitcher from a game**, and the authors explicitly call establishing one future work.
+SEE ALSO: F-475, F-127, F-082, F-013, F-465, F-386
+
+---
+
+### F-475 | 🚨 THE NON-DOMINANT ARM IS AN UNINTENDED CONTROL AND IT MOVED TOO — the grip-fatigue signal is roughly half what it is reported as
+TOPIC: fatigue, grip strength, monitoring, measurement reactivity, control condition, method, hazard
+CLAIM: In the 75-pitch study, the arm that did not throw also lost grip strength. The authors attribute this to glove weight and cross-education. The parsimonious explanation — that six repeated maximal isometric grip efforts are themselves fatiguing — is never considered, and it discounts the headline by about half.
+NUMBERS: **SOURCE-VERIFIED from Table 2 (PMC11877241).** **Dominant arm −12.66% (p < 0.001). NON-DOMINANT arm 53.81 ± 12.08 → 49.94 ± 11.86 kg, −7.19%** (rANCOVA p = 0.073, but the paper's own planned polynomial contrast reports **a significant negative linear trend, p = 0.029**). **The non-dominant arm threw zero pitches.** It held a glove and performed **six maximal 3-second isometric grip efforts** over the session, exactly as the dominant arm did. **THROWING-ATTRIBUTABLE GRIP DECLINE = 12.66 − 7.19 ≈ 5.5 percentage points, not 12.66.** **CORRECTED RESPONSIVENESS RATIO ≈ 5.5 / 0.93 ≈ 5.9 : 1, not 13.6 : 1.** ⚠️ Note also the reporting asymmetry: the abstract highlights the dominant-arm decline and the significant non-dominant *soreness* increase, while the non-dominant *grip* decline (p = 0.073 in the primary test) is reported as "no difference" in the results text and as a significant linear trend in the contrast paragraph.
+POPULATION: as F-474 — ⚠️ 74.5 mph, ages 13–50, directional only
+EVIDENCE: **ESTABLISHED that the non-dominant arm declined and that no no-pitch control session exists.** The attribution of that decline to test reactivity rather than cross-education is **an inference, not a read** — the study cannot distinguish them and neither can this corpus.
+CAUSALITY: n/a — a measurement-validity audit
+SOURCE: `daily/2026-09-30-report.md` §5.2. Tremblay et al. (2025), PMC11877241, Table 2, read in full. Objection raised by the biomechanist; the anatomist offered cross-education as a competing account and it is NOT dismissed.
+COACHING: 🚨 **IF YOU USE GRIP DYNAMOMETRY AS A FATIGUE MONITOR, TEST BOTH HANDS AND TRACK THE DIFFERENCE, NOT THE DOMINANT VALUE.** The non-dominant arm is a free within-session control for everything that is not throwing — test reactivity, time, arousal, hydration — and it costs three extra seconds. **This is the cheapest methodological upgrade in the topic and neither published study made it the primary outcome.** ⚠️ **Symmetrically: a program already using dominant-hand grip loss as a pull threshold is over-reading it by roughly 2x.**
+CONFIDENCE: high that the non-dominant arm declined; medium for the ~5.5 pp throwing-attributable estimate, which assumes the two arms share the same non-throwing decline
+SEE ALSO: F-474, F-127, F-466, F-380
+
+---
+
+### F-476 | 🚨 LEAD, SNIPPET-ONLY, HIGH PRIORITY — an in-game study reports that the within-pitcher kinetics/velocity relationship is neither strong NOR stable across outings
+TOPIC: within-athlete, between-athlete, kinetics, velocity, in-game, markerless, method, verification queue
+CLAIM: A 2025 in-game markerless study of 183 college pitchers reports that the intrapitcher relationship between throwing-arm kinetics and ball velocity is weak and does not hold constant across multiple outings — which, if true, is a direct problem for this corpus's own proposed within-athlete measurement designs.
+NUMBERS: ⚠️ **SNIPPET-ONLY. NOT ONE FIGURE HAS BEEN READ AT SOURCE.** Reported via search summary: **183 college pitchers**, retrospective in-game markerless motion capture, **multilevel models** for the velocity/kinetics relationship and **ICCs** for the intrapitcher relationship across outings. Summary statements, quoted as leads and NOT as findings: *"Pitch velocity and in-game throwing arm kinetics did not have a strong intrapitcher relationship, which is different than the results of previous laboratory analyses"*; *"The intrapitcher relationship between throwing arm kinetics and ball velocity did not remain constant across multiple outings"*; *"The inclusion of random slopes did not meaningfully reduce intrapitcher throwing arm kinetic variance."* **No n per pitcher, no ICC value, no effect size, no confidence interval is in this corpus's hands.**
+POPULATION: college pitchers, in-game — **mean velocity UNKNOWN**, which under this corpus's own first check disqualifies every magnitude
+EVIDENCE: **UNVERIFIED.** `thieme-connect.com` and `digitalscholar.lsuhsc.edu` both refused (HTTP 000, proxy `connect_rejected`) on 2026-09-30; not in the PMC OA bucket.
+CAUSALITY: CROSS_SECTIONAL / observational, per the description
+SOURCE: Giordano K, Nebel AR, Lerch B, Oliver GD (2025), *Int J Sports Med*, DOI 10.1055/a-2640-8863, PMID 40541236. **UNREAD — new head of the verification queue.**
+COACHING: **Nothing follows for a pitcher today.** ⚠️ **What follows for the corpus is a live challenge to F-449**, which proposes measuring the within-athlete impulse→velocity slope from **~85 paired observations over one fall block**. If an intrapitcher kinetics/velocity relationship genuinely fails to hold constant across outings, then **pooling observations across outings estimates a slope that may not exist as a stable quantity**, and F-449's design would return a number with no referent. **This does not refute F-449 — it is a snippet — but it is the first external evidence bearing on Dispute #37 and it points AGAINST the corpus's own proposal.** Filed as Dispute #41.
+CONFIDENCE: **zero for any magnitude; the existence of the paper and its authors is confirmed by three independent indexes.** The claim direction is a lead requiring the full text.
+SEE ALSO: F-449, F-441, F-094, F-003, F-004, Dispute #37
+
+---
+
+### F-477 | The "80–85% of body height" stride prescription is a cross-sectional norm restated as a target, and the one manipulation that tested it went the other way
+TOPIC: stride length, body height normalization, field sweep, marker vs lever, folklore, prescription
+CLAIM: The stride-length figure in industry circulation is a descriptive range from cross-sectional professional samples, presented to coaches as a target to train toward. The only manipulation that compared a long stride to a normal one found the long stride slower.
+NUMBERS: **Field sweep, SNIPPET-ONLY for the prescription** (recurring across coaching-facing sources; representative phrasing: *"the ideal stride length for professional pitchers is between 80% and 85% of body height, though collegiate pitchers on average have even shorter stride lengths"*). **AGAINST IT, SOURCE-VERIFIED:** Matsuda 2025's fastest condition was **78.20 ± 5.70 %BH**; its **89.86 ± 6.58 %BH** condition was **3.18 mph slower** (F-468). The paper's own framing: 78.20 %BH *"was consistent with previous literature reporting a range of stride length from 70% to 88% body height."* ⚠️ Cf. **F-047**, already in the registry: the %-body-height normalisation is contradicted twice by critiques the corpus holds.
+POPULATION: prescription is aimed at HS→pro; the contradicting manipulation is 75.8 mph Japanese collegiate. **SAMPLE MISMATCH on the evidence, not on the claim.**
+EVIDENCE: **FOLKLORE** as a prescription — the word "ideal" does no work that the underlying cross-sectional data supports. The descriptive range is real.
+CAUSALITY: CROSS_SECTIONAL, sold in the imperative voice — the exact failure mode F-043→F-045 exists to document
+SOURCE: `daily/2026-09-30-report.md` §7 (field sweep). Contradicting evidence: F-468, Matsuda et al. (2025), PMC12011807, read in full.
+COACHING: **Do not stride a pitcher toward a percentage.** A %BH figure is a description of what fast pitchers happen to do, and the two groups who moved the variable got nothing (F-467) or got worse (F-468). **Measure his %BH so you can detect DRIFT — first inning vs last — and ignore it as a target.**
+CONFIDENCE: high that the prescription is cross-sectional in origin; medium for the contradicting magnitude (off-population, acute)
+SEE ALSO: F-043, F-047, F-467, F-468, F-469

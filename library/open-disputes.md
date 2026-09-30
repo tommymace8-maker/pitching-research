@@ -1250,3 +1250,68 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **This strengthens the anatomist's side of #37 and the n ≥ 97 rule generally**: the corpus's problem is not only that it graded nulls by what was reported rather than what could be detected — it is that **the reported power figures are themselves unreliable**, so re-grading cannot be done by reading the papers' own claims. **Operating rule added in F-463: recompute every printed `1 − β` from N and the observed effect size before grading a null.**
 
 ⚠️ **`INDEX.md`'s top structural item — run the n ≥ 97 rule across the whole registry — is now also a `1 − β` audit, and it is still unrun after two days.**
+
+---
+
+## Dispute #40 — 🔴 Is the self-selected stride a MECHANICAL OPTIMUM, or just the only condition with no instruction attached? *(added 2026-09-30)*
+
+**Parties:** Biomechanist vs Coach vs Anatomist
+**Status:** 🔴 OPEN — and it is cheap to settle, which is why it is annoying that nobody has.
+
+**The trigger.** F-468 (source-verified): Matsuda 2025 found normal stride **3.18 mph faster than both ±20% conditions**, by an *identical* margin (d = 0.78 and 0.79, η² = 0.36, US vs OS p = 1.00).
+
+**The COACH claims:** the pitcher's delivery self-organised around an optimum over thousands of reps, and the symmetry of the penalty is exactly what an inverted U predicts. **Coach the pitcher accordingly: don't touch the stride.**
+
+**The BIOMECHANIST claims:** the symmetry is *equally* predicted by a completely different mechanism. **In every instructed-stride design ever run, the normal condition is the only one in which the pitcher is not consciously executing an instruction.** Both instructed conditions would carry the same attentional tax, producing the same identical-margin symmetry, with no mechanical optimum required.
+- **Strongest evidence for the biomechanist:** **F-192 — the guidance hypothesis, k = 75, N = 2,228, which PASSES the n ≥ 97 rule** and is one of the best-evidenced things in this registry. Directing attention to the body degrades skilled motor output. That is not a speculative mechanism; it is a large, replicated literature.
+- **And F-472 strengthens it:** Matsuda's own energy model found **total energy outflow to the trunk invariant across conditions (p = 0.59, η² = 0.02).** If the legs delivered the same energy to the trunk in all three conditions, the mechanical story has no obvious channel for a 3.2 mph difference — and an attentional story does not need one.
+
+**The ANATOMIST's position:** concedes that the confound is real and unaddressed, but notes the two accounts make **divergent predictions about time course.** A mechanical optimum should persist however long the pitcher trains at the new stride; an attentional tax should **decay with practice.** Nobody has run a stride manipulation longer than a session, so this cannot currently discriminate.
+
+**What would settle it — and it costs ONE extra condition.** A **sham-instruction** trial: tell the pitcher to hit a stride target that *equals his own normal stride*, and measure velocity against the uninstructed normal condition.
+- If sham ≈ normal → **the optimum is mechanical.** Coach wins.
+- If sham ≈ the extremes → **the entire effect is the instruction.** Biomechanist wins.
+- Anything in between partitions it.
+
+**No study in the literature contains this condition.** It requires no new instrumentation, adds ~20 pitches, and would resolve a question that three studies and ~60 subjects have failed to touch.
+
+⚠️ **What is NOT in dispute:** under *either* account, telling a pitcher to change his stride mid-delivery costs velocity. **The practical instruction is unaffected.** What is affected is the *sentence* — "his stride is optimal" is not currently sayable.
+
+**Ninth entry in the pattern of F-264, F-289, F-295, F-307, F-320, F-374, F-448 and F-449: a decisive measurement that needs no new equipment and nobody has made it.**
+
+---
+
+## Dispute #41 — 🔴 If within-pitcher kinetics/velocity relationships aren't stable across outings, does F-449's design measure anything? *(added 2026-09-30)*
+
+**Parties:** Biomechanist vs the corpus's own proposal
+**Status:** 🔴 OPEN — **and blocked on a paper this cycle could not retrieve.**
+
+**The trigger.** F-476 (⚠️ **SNIPPET-ONLY, nothing read at source**): Giordano, Nebel, Lerch & Oliver (2025), *Int J Sports Med*, **183 college pitchers**, in-game markerless capture, multilevel models + ICCs. Reported via search summary as finding that *"pitch velocity and in-game throwing arm kinetics did not have a strong intrapitcher relationship, which is different than the results of previous laboratory analyses,"* and that the relationship *"did not remain constant across multiple outings."*
+
+**The CHALLENGE.** **F-449** — the corpus's own flagship proposal, and the answer it hands to Dispute #37 — specifies measuring the **within-athlete impulse→velocity slope** from **~85 paired observations over one fall block**, using equipment every D1 program owns. If an intrapitcher kinetics/velocity relationship genuinely **fails to hold constant across outings**, then pooling observations across a block estimates **a slope that may not exist as a stable quantity**. F-449 would return a number with no referent, and it would return it with a confidence interval that looks reassuring.
+
+**The DEFENCE, offered and not yet tested:**
+1. **It is a snippet.** No n per pitcher, no ICC value, no effect size, no CI is in this corpus's hands. **Under this corpus's own rules a snippet is a lead, not a magnitude** — and this corpus has now been burned three separate times by search-summary corruption (F-459, F-274, and the exit-velocity conflation logged in `null-audit.md` §9).
+2. **The sample's mean velocity is UNKNOWN**, which under the first of the four standing checks disqualifies every magnitude before the design is even discussed.
+3. **Different quantity.** Giordano measures *arm kinetics* (torque); F-449 proposes *ground-reaction impulse*. Instability in one does not entail instability in the other.
+4. ⚠️ **But the defence is weak where it matters.** "Different quantity" cuts both ways — nobody has shown the impulse slope IS stable either, and **the burden sits with the proposal, not the objection.** F-449 has never been run.
+
+**What would settle it:** read the paper. `thieme-connect.com` and `digitalscholar.lsuhsc.edu` both refused (HTTP 000, `connect_rejected`) on 2026-09-30, and it is not in the PMC OA bucket. **It is the new head of the verification queue.**
+
+**Failing that, F-449's own design answers it internally at no extra cost:** fit the slope **per outing** as well as pooled, and report the between-outing variance of the slope. **If the per-outing slopes scatter widely, the pooled slope is an artifact — and you learn this from data you were already collecting.** This should be written into F-449's protocol regardless of whether the Giordano paper is ever read.
+
+---
+
+## Revisited 2026-09-30 — did today move anything?
+
+**Dispute #37 (does correcting F-004's USE reopen the four killed channels?) — 🔴 MOVED, in both directions at once.**
+- **Toward reopening:** the audit found **three MORE nulls failing the same test** (F-005 n = 33, F-015 n = 30, F-431 n = 21), and **F-024's weighted-implement null cannot detect below ~1.6 mph.** The class of "channels closed on a detection floor" is larger than the jump-transfer cycle established.
+- **Against the corpus's proposed remedy:** **Dispute #41** is new and it argues that the within-athlete measurement F-449 offers as the fix may not have a stable target. **The disease is worse and the cure is now also in question.**
+
+**Dispute #33 (🔴 is "it is really a COMMAND effect" this corpus's house style?) — NOT moved, and today did not commit the offence.** The stride result is a **velocity** finding and was kept as one; no command reinterpretation was attempted. Recorded because three consecutive cycles previously did.
+
+**Dispute #36 (🔴 third consecutive cycle relocating a null into a variance claim) — NOT moved, and today did not commit the offence either.** F-465 and F-467 withdraw two nulls **without** substituting a variance claim for either. F-465 returns grip/velocity to **UNTESTED** and stops; F-467 replaces a null with a **positive, manipulated, source-verified** result (F-468). ✅ **This is the first cycle in four to withdraw a null and NOT reach for variance to fill the hole.**
+
+**Dispute #35 (🟡 is friction a "LEVER" at n ≤ 8, 80.8 mph?) — WEAKLY MOVED, against.** F-465 removes F-013 as support for the grip-strength half of the friction file's conclusions. The file's answer to *"should I buy grip trainers?"* now rests on **F-431 alone** (n = 21, 77.9 mph, `r_crit` = 0.433). **The recommendation survives; the evidence behind it is thinner than the file states.**
+
+**Standing methodological disputes — one NEW entry.** *Is a power audit sufficient to grade a null?* **Answered: no, and by the audit itself.** See **F-470** and **F-471**: two of the three failure modes are invisible to power arithmetic, and both of today's load-bearing errors were of those two types. **The order is now: (1) dependent variable, (2) contrasts actually run, (3) power.**
