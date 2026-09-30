@@ -1253,18 +1253,246 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 
 ---
 
-## Dispute #40 — 🔴 Is the self-selected stride a MECHANICAL OPTIMUM, or just the only condition with no instruction attached? *(added 2026-09-30)*
+### **#40 (added 2026-09-24) — DOES THE MOUND'S ~2 mph SURVIVE TO AN 85+ ARM?** (biomechanist vs coach vs anatomist; **OPEN, and it is the whole topic**)
+
+**THE CLAIM AT ISSUE — F-464.** Dowling 2020, randomised within-athlete, mound beats flat ground by **+0.9 m/s = +2.0 mph** at regulation distance. This is a genuine **LEVER**, one of very few in this corpus.
+
+**🔴 THE BIOMECHANIST'S OBJECTION.** *"The sample throws **76.5 mph**. This corpus's standing rule (Luera 2020, n = 149 pros, r = .17–.29) is that in all-hard-throwing samples, relationships collapse. But the deeper problem is not restriction of range — it is that **the mound's contribution is an energy-transfer efficiency, and an 85+ arm is by definition already better at transferring energy.** A 76 mph high schooler has more headroom in that efficiency than a 93 mph college arm does. **The direction of the transfer error is not neutral: it is more likely to shrink than to grow.**"*
+
+**🟡 THE COACH'S REPLY, AND IT IS THE STRONGER ONE ON GEOMETRY.** *"The four-and-a-half inches of downhill do not care how hard you throw. **F-468's free potential energy scales with body mass, and an 85+ arm is HEAVIER** — 90 kg against 73.6 kg, so he is handed 106 J where the high schooler is handed 81. And F-469's plane effect is a pure geometric identity; it is exactly 0.40° at 76 mph and at 96 mph. **Two of the three channels get larger or stay identical at this population. Only the efficiency is in doubt.**"*
+
+**🔵 THE ANATOMIST SPLITS IT, AND BOTH OTHERS ACCEPT THE SPLIT.** *"You are arguing about different quantities. **The PLANE effect (F-469) is settled and population-invariant — it is trigonometry and nobody disputes it. The VELOCITY effect (F-464) is the contested one, and it is contested for exactly the reason the biomechanist says.** Note that the efficiency figure lands at **4.0–5.5%** in the measured 76 mph sample and the SAME 3.9–5.9% band is what a 90 kg arm would need for +2 mph. **That coincidence is the coach's best evidence and it is also not evidence — it is an arithmetic consequence of mass and drop both scaling, and it would look identical if the true effect at 85+ were zero.**"*
+
+**STATUS: OPEN. PARTIALLY DECOMPOSED — this is the movement.** The plane channel is conceded settled by all three. The velocity channel is open and now precisely specified: **is the mound-to-flat energy-transfer efficiency higher, lower or equal in an 85+ arm?**
+
+**WHAT WOULD SETTLE IT — and it is cheap.** Dowling's exact protocol on an 85+ roster: **mound / flat ground at regulation distance, order randomised within pitcher, 5+ fastballs each, one radar gun.** Nothing but a portable mound and an afternoon. ⚠️ **AND THE DETECTION ARITHMETIC IS FRIENDLY FOR ONCE:** at F-289's bracketed within-pitcher velocity SD of 0.8–1.2 mph, a 2 mph within-athlete difference is detectable in **a handful of pitches per condition per man** — this is the F-320 structural-outlier shape again, a lever visible almost immediately. **The corpus should say plainly that this is one of the cheapest unanswered questions it holds.**
+
+---
+
+### **#40b (added 2026-09-24) — IS THE BULLPEN-MOUND DISCREPANCY HARVESTABLE, OR HAS HE ALREADY ADAPTED TO IT?** (coach vs biomechanist; **OPEN**)
+
+**F-470** shows a mound-height error maps **one-for-one** into vertical location error, and that the size involved (0.5–2 in) is **the same order as F-309's entire one-season command gain (4.52 pts) and its catcher-contamination term (3.69 pts)**.
+
+**🔴 THE BIOMECHANIST.** *"Geometrically available ≠ harvestable. A pitcher who has thrown three hundred bullpens on a low mound has **adapted** to it, and his adaptation shows up as a delivery change, not as a 1-inch miss. **What F-470 actually predicts is a transfer failure on the day he moves to the game mound, not a standing bias in his bullpen numbers.** Those are different claims with different fixes."*
+
+**🟡 THE COACH CONCEDES THE MECHANISM AND KEEPS THE RECOMMENDATION.** *"Granted, and it makes the recommendation **better**, not worse. If it is an adaptation, then **every bullpen he throws on the wrong mound is rehearsing the wrong delivery** — which is worse than a measurement bias, because a bias I can subtract. Either way the fix is the same twenty minutes with a level."*
+
+**🔵 THE ANATOMIST.** *"Both are right and the disagreement is about **what you'd measure to detect it**, which is the useful part. A standing bias shows as a mean vertical offset in bullpen miss-distance. An adaptation shows as a **first-inning** location shift on the game mound that washes out. **Those are distinguishable and nobody has looked for either.**"*
+
+**STATUS: OPEN. The ACTION is agreed by all three and does not wait on the resolution** — measure your own mounds. **The DIAGNOSIS is open and is worth stating because it changes what you'd expect to see:** standing bullpen offset (bias) vs first-inning-only drift on the game mound (adaptation). **This is the same shape as F-306** — bounding what is available while saying nothing about whether it can be harvested.
+
+---
+
+### **#41 (added 2026-09-25) — IF THE MAGNITUDE CANNOT BE IMPORTED AND CANNOT BE MEASURED, IS "ADOPT IT ANYWAY" A FINDING OR AN ESCAPE HATCH?** (biomechanist vs coach; **OPEN, and it is the cycle's central question**)
+
+**THE CLAIM AT ISSUE — F-481.** Imagery has a verified direction (F-474: the designs are genuine interventions), an unobtainable magnitude (F-473: standardized effects do not transport), and an undetectable effect at program scale (F-476: MDE ~1.4 in, realistically ~2.6 in). The coach's rule: **decide on cost, adopt it, and never count it as a win.**
+
+**🔴 THE BIOMECHANIST'S OBJECTION.** *"Read F-481 back slowly. It says: the effect cannot be sized, cannot be detected, and will never be credited — and therefore we should do it. **That is a recommendation constructed so that no observation can ever bear on it.** Dispute #33's standing charge against this corpus was that 'it is really a command effect' is unfalsifiable until somebody measures it. **F-481 is worse: it is unfalsifiable BY CONSTRUCTION, and the cycle says so proudly.** Strip the cost ledger away and what is left is 'we believe in this and have arranged for nothing to contradict us.' The corpus has a name for that shape and it is FOLKLORE."*
+
+**🟡 THE COACH'S REPLY.** *"The shape is the same; the cost is not, and the cost is the whole argument. F-013 and the extension findings were expensive — they bought delivery changes and they cost command and reps, so being wrong about them was catastrophic. **Imagery costs zero throws.** The asymmetry is the finding: for a zero-cost intervention with a verified direction, 'unprovable' is not a reason to decline, because declining is also a decision made without evidence, and it is the one that forgoes a real intervention. **And F-481 pays for the privilege with the strongest anti-attribution clause in the corpus** — I am explicitly forbidden from crediting it. That is the opposite of an escape hatch. An escape hatch lets you claim the win."*
+
+**🔵 THE ANATOMIST SPLITS IT, AND THE SPLIT IS THE MOVEMENT.** *"You are arguing about two different objects again. **The ADOPTION decision is defensible and the biomechanist has not actually attacked it** — nobody thinks a 15-minute chair session needs an RCT before a coach may use it. **The FINDING STATUS is what is indefensible.** F-481 is registered as ESTABLISHED, and what is established is the *decision rule*, not that imagery does anything. **If the corpus is going to hold a rule whose defining property is that no evidence can touch it, it must be fenced off from the findings that evidence CAN touch** — otherwise it will be cited in three months as though imagery were a demonstrated lever, which is exactly the F-013 mechanism."*
+
+**STATUS: OPEN. PARTIALLY RESOLVED — all three accept the anatomist's split.** The adoption decision stands. **The grading is conceded to be the exposed surface: F-481 is ESTABLISHED as a DECISION RULE and asserts NOTHING about imagery's effect**, and the finding's text now says so.
+
+**WHAT WOULD SETTLE IT.** Nothing available to a college program (F-476). The only thing that would move it is a **multi-site study pooling tracked declared pitches across programs** to get n into the thousands — which requires the ICC in F-482 item 7 first, because without it the required n is unknown.
+
+⚠️ **STANDING FLAG.** **If a future cycle cites F-481 as evidence that imagery works, rather than as a rule about how to decide under unobtainable magnitudes, the biomechanist's charge is upheld retrospectively.**
+
+---
+
+### **#42 (added 2026-09-25) — DID THE CYCLE COMMIT THE VERY FALLACY IT REGISTERED, ONE SECTION LATER?** (biomechanist vs coach; **CONCEDED IN SUBSTANCE, OPEN AS A METHOD QUESTION**)
+
+**THE CLAIM AT ISSUE — F-478.** Driskell 1994's moderator (mental practice works better the more cognitive the task, r = 0.44) is used to argue that imagery's headroom in an 85+ arm lies in the **decision layer** (sequencing, counts, situational rehearsal) rather than the **execution layer** (the delivery, which is automatized).
+
+**🔴 THE BIOMECHANIST.** *"F-473 is the best thing this cycle produced: you may not take a statistic estimated in one population and apply it to a different unit of analysis. **Five sections later the coach takes a moderator estimated ACROSS TASKS — a card-sort versus a dart throw — and applies it ACROSS LAYERS WITHIN A SINGLE TASK.** Driskell's studies never decomposed one skill into a cognitive part and a motor part; they ranked whole tasks. There is no evidence that a task's internal layers behave like separate tasks on that moderator. **This is the standardized-effect import with the labels changed.**"*
+
+**🟡 THE COACH CONCEDES THE STRUCTURE.** *"Conceded, without qualification, and it is why F-478 is graded **WEAK** rather than EMERGING and is worded as a hypothesis about where to aim rather than a finding. I will not defend it as evidence. I defend only that it is **a better-motivated place to spend a free 15 minutes than the alternative**, and F-481 is what licenses spending it at all."*
+
+**🔵 THE ANATOMIST, AGAINST BOTH.** *"There is a mechanism argument neither of you made and it cuts the coach's way, partly. **Automaticity is the reason to expect the execution channel to be small** — and that is not borrowed from Driskell, it is the standard motor-learning account and it is consistent with this corpus's own population constraint. So the DIRECTION of F-478 has independent support. **The MAGNITUDE has none, and the r = 0.44 should simply be deleted from the argument** — it is doing no work except lending false precision to a claim that is really just 'his delivery is already automatic.'"*
+
+**STATUS: CONCEDED IN SUBSTANCE. The r = 0.44 is retained in F-478's NUMBERS only as a record of what was searched, and is explicitly NOT the basis of the claim.** The anatomist's reframing — automaticity, not Driskell — is accepted by the coach as the honest support.
+
+**WHAT WOULD SETTLE IT.** An imagery intervention with **two arms**: one rehearsing the delivery, one rehearsing sequencing and count decisions, with separate outcomes (miss distance in inches vs. a decision-quality measure). **Nobody has run a two-arm imagery study in any sport with layers of the same task as the arms.**
+
+---
+
+## Revisited 2026-09-25 — did today move anything?
+
+**Dispute #33 (🔴 "is 'it is really a COMMAND effect' this corpus's house style?") — ITS STANDING FLAG WAS CHECKED, AND TODAY RUNS THE OTHER WAY. THE COUNT DOES NOT ADVANCE.**
+#33's standing instruction reads: *"If a third topic ends by relocating to command without a measured accuracy outcome, the pattern is method, not physiology. Record the count at the top of each cycle's report."* **Today is a topic that could trivially have been relocated to command — imagery is sold as a command intervention everywhere in the trade press — and the cycle did the opposite.** F-473 **kills** the command import by reductio; F-476 shows the command channel is the one a program **cannot** measure; F-478 argues the execution/command layer is where imagery should work **least**. ⚠️ **The count of command-relocations remains at 2 (2026-09-19, 2026-09-20). Today is not a third.**
+
+**Dispute #36 (🔴 "third consecutive cycle to relocate a null into a variance claim") — NOT ADVANCED.** No null was relocated today; the cycle's central result is a refusal to convert a positive pooled effect into a magnitude at all.
+
+**Dispute #40 / #40b (the mound) — NOT MOVED.** Fully egress-blocked cycle; no mound work possible. Both remain open exactly as left on 2026-09-24.
+
+**The standing F-439 / n >= 97 audit — NOT RUN, now four days outstanding, and today gave it a new dimension.** F-476's clustering correction means the registry's power arithmetic is wrong in a **second** way: not only were nulls graded by reported power rather than detectable effect (F-463), but **every command-side threshold assumes independent pitches**. ⚠️ **The audit is now a `1-beta` audit AND an independence audit.**
+
+---
+
+### **#43 (added 2026-09-27) — IS F-486 THE F-473 FALLACY WEARING PHYSICAL UNITS?** (biomechanist vs anatomist vs coach; **PARTIALLY CONCEDED, OPEN**)
+
+**THE CLAIM AT ISSUE — F-486.** A torque–velocity exponent of 2.12, estimated by manipulating *effort within the fastball* in 24 professional pitchers, is extrapolated *across pitch types* to conclude that a curveball carries 22–30 percentage points more elbow torque than its ball speed predicts.
+
+**🔴 THE BIOMECHANIST.** *"Two days ago this corpus registered F-473 — its newest hazard class — for exactly this move: taking a parameter estimated in one population or on one unit of analysis and applying it to another. Today the coach estimates an exponent on **submaximal fastballs thrown by the same arm** and applies it to **a different pitch thrown by different arms in a different lab**. The fact that the units are N·m and m/s rather than Cohen's d does not change the structure of the error; it only makes it harder to see. **A curveball is not a slow fastball — that is the whole premise of the finding — so why would its torque–velocity function be the fastball's?** If the curveball's grip, forearm orientation and release change the moment arm, the exponent is simply a different number and the entire 22–30 point gap could be an artefact of using the wrong curve."*
+
+**🟡 THE COACH CONCEDES THE STRUCTURE AND DEFENDS THE FRAMING.** *"Conceded that it is an extrapolation and that it is the same species of move. Two things make it survivable where F-473's was not. **First, nothing is standardised.** F-473's fatal step was `d = Δ/σ`, which requires assuming the two populations' SDs scale together — an untestable assumption about dispersion. Here both quantities are raw physical measurements and the only assumption is about **functional form**, which is stated in the finding and is directly testable by anyone with a motion lab. **Second, I am not reporting a magnitude as a result; I am reporting a prediction that failed.** The finding's content is not '22–30 points' — it is 'if the breaking ball were a slower fastball, its torque would be ~70% of a fastball's; it is 97%.' That gap is so large that it survives any plausible re-estimate of the exponent."*
+
+**🔵 THE ANATOMIST, FOR THE COACH ON MECHANISM AND AGAINST HIM ON ONE WORD.** *"The direction is mechanically expected and the coach undersells his own case. Peak varus torque occurs at maximum external rotation, **before the grip and the wrist have done anything pitch-specific**. The arm gets to the same place in the cocking phase whether the fingers are going to stay behind the ball or come around it; the ball speed difference is manufactured **later**, at and after release, by the hand. **So there is no reason to expect peak varus torque to track ball speed across pitch types at all — the two are generated at different instants.** That is a stronger argument than the coach's arithmetic and it does not need the poster's numbers. **But it also undercuts his framing:** if torque and ball speed are generated at different instants, then a 'prediction' built on a velocity exponent was never the right null in the first place. The honest statement is **'peak elbow torque is largely indifferent to pitch type because it is set before the pitch becomes a pitch'** — which is a cleaner finding and needs no extrapolation."*
+
+**🟡 THE COACH ACCEPTS THE REFRAME.** *"Taken. F-486's usable content is the anatomist's sentence, and the arithmetic is the demonstration rather than the evidence."*
+
+**STATUS: PARTIALLY CONCEDED.** F-486 is retained at **EMERGING** with the extrapolation flagged **inside the finding's own CAUSALITY field**, and the anatomist's mechanism recorded as the stronger support. The biomechanist does not withdraw the objection to the 22–30 point number specifically.
+
+**WHAT WOULD SETTLE IT.** A single motion-capture session in which one professional throws **fastballs at 100%, 85% and 70% effort AND curveballs at 100% effort**, with peak varus torque and ball speed on every pitch. **If the curveballs sit off the fastball's own torque–velocity curve, F-486 is confirmed within the athlete and the extrapolation is unnecessary.** ⚠️ **Roughly thirty pitches and one afternoon. This corpus keeps finding questions of this price.**
+
+⚠️ **STANDING FLAG.** F-484 already records that F-486's ratios come from a conference poster. **If the AJSM full text (Hodakowski 2025, 53(3)) reports a materially different CB/FB torque ratio, F-486 and F-487 are both withdrawn with a dated CORRECTED notice.**
+
+---
+
+### **#44 (added 2026-09-27) — IS THE SLIDER'S FOREARM ACCELERATION CLIPPED BY THE SENSOR?** (biomechanist vs anatomist; **OPEN, UNRESOLVABLE FROM PUBLISHED DATA**)
+
+**THE CLAIM AT ISSUE — F-490.** Agresta 2022's forearm peak resultant acceleration for the slider is **1840.5 ± 82.0 m/s²**, against a stated accelerometer range of **±200 g = 1962 m/s² per axis**.
+
+**🔴 THE BIOMECHANIST.** *"The slider mean sits at 94% of a single axis's full scale and carries **the smallest SD of any forearm cell in the table** — 82.0, against 184.1 for the fastball and 243.5 for the curveball. Variance compression at the top of a sensor's range is the textbook signature of clipping. If the resultant is dominated by one axis at those instants, the values at the top of the distribution are censored, which biases means **down** and shrinks SDs. **Every large number in this table is the one most at risk of being wrong.**"*
+
+**🔵 THE ANATOMIST, AGAINST.** *"The resultant of three axes each capable of ±1962 m/s² can reach 3398; 1840 is 54% of that and unremarkable. And there is a mundane explanation for the SD that requires no instrumentation failure: **the slider column is five pitches from ONE pitcher** (F-491), while the fastball column is 184 pitches from ten. **Between-pitcher variance is absent from the slider cell by construction.** The curveball's SD is larger than the fastball's precisely because the curveball is the more variable pitch across ten arms. You are diagnosing a sensor when the answer is a sample."*
+
+**🔴 THE BIOMECHANIST, PARTIALLY CONCEDING.** *"The one-pitcher point is well made and probably accounts for most of the SD gap. It does not account for the **mean**. The curveball's mean plus two SDs is 1938 — at the rail on a single-axis reading. **I will narrow the objection: I no longer claim the slider SD is evidence of clipping; I claim the paper does not report whether any channel saturated, and for a signal this close to full scale that is a reporting omission, not a nitpick.**"*
+
+**STATUS: OPEN, and it cannot be resolved from what is published.** It requires the raw traces or a per-axis saturation count, neither of which appears in the paper or its supplement (which contains only the Rapsodo user manual). **F-490 carries the flag as a question, not as a finding.**
+
+**WHAT WOULD SETTLE IT.** Per-axis peak distributions, or a saturation-flag count, from the authors. **Failing that: any future forearm-IMU study on this population should report its sensor range alongside its peaks, and none of the ones read this cycle does.**
+
+---
+
+## Revisited 2026-09-27 — did today move anything?
+
+**Dispute #27 (🔴 "the field measures the instrument's favourite variable, not the athlete's") — ADVANCED, AND IT IS NOW THE MOST-CONFIRMED PATTERN IN THIS FILE.** F-493 item 3 records the **sixth venue**: the entire pitch-type workload literature — five kinetics studies and two wearable studies — contains **zero accuracy outcomes.** After the mound (F-471), the pre-game warm-up (F-423), caffeine (F-398), sleep, and friction. ⚠️ **Six independent literatures, six times the same absence. This is no longer an observation about baseball research; it is a prediction. The corpus should now expect any new topic to arrive with a velocity or torque outcome and no command outcome, and should say so in advance.**
+
+**Dispute #33's standing flag (🔴 "is 'it is really a COMMAND effect' this corpus's house style?") — CHECKED, AND TODAY DOES NOT ADVANCE IT.** #33's instruction is to record the count whenever a cycle relocates a null to command without a measured accuracy outcome. **Today did not relocate anything to command.** F-493 records the accuracy absence as a *gap in the literature*, and the cycle's recommendation (F-493 COACHING) is measured in **mph of within-outing velocity fade**, not inches. **The count does not advance.**
+
+**The standing F-439 / n ≥ 97 audit — NOT RUN, now six days outstanding, and today added TWO more failing nulls.** F-488's trunk null is n = 10 and is labelled an underpowered null **inside the finding**, as the rule requires. F-491 records a slider "finding" at **n = 1 athlete**. ⚠️ **The audit is now the longest-outstanding structural item in the corpus and each cycle adds to its backlog.**
+
+**Dispute #40 / #40b (the mound) — NOT MOVED.**
+
+**F-303's anatomist caveat — CLOSED, IN F-303's FAVOUR.** The 2026-09-09 cycle shipped the arsenal shift as "the only lever in this corpus with zero tissue cost" with an explicit caveat that a shift beyond ~15 points toward breaking balls left the free regime into "an area the corpus records as entirely uncovered." **That area was covered today and the caveat does not hold at the elbow: a 15-point shift moves mean per-pitch peak varus torque by −0.43% (F-487).** ⚠️ **Closed only at the elbow, only on peak torque, and only on a poster-abstract magnitude (F-484).**
+
+---
+
+## 🚨 FILE INTEGRITY NOTICE — added 2026-09-28
+
+**This file stops at Dispute #40. Disputes #41, #42, #43 and #44 exist in `INDEX.md` and in the 2026-09-25 and 2026-09-27 daily reports and were never merged into this file.** Known references: **#43** (the anatomist's reframe of why peak elbow varus torque should not track ball speed across pitch types, 2026-09-27) and **#44** (reported sensor-saturation in forearm-IMU pitching studies — Agresta 2022's slider forearm mean at 94% of a single axis's ±200 g full scale, 2026-09-27).
+
+**Flagged in place, not reconstructed today.** Whoever runs the next cycle should back-fill #41–#44 from those two daily reports before adding anything new. Today's entries take #45 and #46 so that no number is reused.
+
+---
+
+## Dispute #45 | Is in-season mass loss a PITCHER problem at all?
+**Parties:** Coach vs Biomechanist vs Anatomist · **Status:** 🟡 **NARROWED — added 2026-09-28, and it moved the same day**
+
+**COACH CLAIMS:** every year guys come off the scale lighter in May than in January, and the private-development industry puts a number on it — "as much as 10 mph, almost always accompanied by a weight drop of 6–10 lbs" (F-505).
+
+**BIOMECHANIST CHALLENGES:** the magnitude is uncited, the domain carrying it is unreadable (EGRESS_BLOCKED, not read), and **10 mph is roughly ten times this corpus's start-to-start fastball velocity SD bracket** (F-289, 0.8–1.2 mph) — it would be the largest in-season effect in a 507-finding registry by an order of magnitude. Meanwhile the only NCAA D1 seasonal data split by role says the decline sits with **position players**, with pitchers showing no significant change (F-503). And no mph-per-pound coefficient exists anywhere (F-504), so pairing the two numbers is rhetoric.
+
+**ANATOMIST SUPPORTS THE DIRECTION OF THE BIOMECHANIST'S POINT, ON MECHANISM:** a position player plays five games a week; a starter throws one outing. The weekly energy expenditure gap is large and in the right direction. **A position-player-weighted seasonal mass loss is exactly what the energetics predict**, independent of the statistics.
+
+**ANATOMIST THEN CHALLENGES THE BIOMECHANIST IN TURN:** you quoted "pitchers did not demonstrate significant changes" approvingly, **in the same cycle in which you wrote F-496 about a confidence interval of ±4.4 kg and invoked F-439's n ≥ 97 rule.** That null is in roughly fifteen men. It is consistent with pitchers holding mass and equally consistent with the study being blind to a 4 kg loss.
+
+**→ BIOMECHANIST CONCEDES, fully and in-cycle.** F-503 is graded a **lead, not a finding**, and its confidence line now records that the pitcher null is uninformative at roster size. The mechanism argument survives on its own and is what carries the claim.
+**→ COACH CONCEDES THE MAGNITUDE, DEFENDS THE DIRECTION.** Drops "10 mph." Keeps the concern.
+
+**WHAT WOULD SETTLE IT:** one season of daily morning weights on a fifteen-man pitching staff, split starters vs relievers, against the same staff's radar log. **A scale and a spreadsheet. Free.** It would also produce F-507 item 6 — the within-athlete SD of in-season weekly body mass for a college pitcher — which nobody has published and which this corpus has now been blocked on sixteen times in different guises.
+
+**NARROWED TO:** not *"do pitchers lose weight"* but *"how much, with what within-athlete SD, and does an individual's own loss track his own velocity."* The last clause is F-504 and is unanswerable from the literature.
+
+---
+
+## Dispute #46 | Is "low energy availability" a meaningful category for a pitcher, or a denominator artifact?
+**Parties:** Anatomist vs Biomechanist vs Coach · **Status:** 🔴 **OPEN — added 2026-09-28**
+
+**ANATOMIST CLAIMS:** below some intake the endocrine and recovery consequences are real and mechanistically obligate. The LEAM-Q validation data itself shows the case/control contrasts that separate — RMR 130.8 vs 120.1 kJ/kg FFM, RMR-ratio 1.05 vs 0.95, total testosterone 21.2 vs 17.3 nmol/L, all p < 0.0001 at n = 310 (F-502). Something real is being detected, even if the questionnaire cannot detect it.
+
+**BIOMECHANIST CHALLENGES ON THREE GROUNDS (F-500, F-501, F-502):**
+1. The 30 kcal/kg FFM/day threshold is from short-term lab studies in regularly menstruating women, and the 2026 review surveying it says in its own summary table to use EA *"as a conceptual tool, not a diagnostic cut-off value."* Male induction work has used 15 kcal/kg FFM for 4–6 days. **There is no validated male threshold and none for a power athlete above 90 kg.**
+2. **EA falls on hard training days by construction** — `∂EA/∂EEE = −1/FFM` identically — and empirically *"the number of LEA days were associated with higher EEE."* **A starter's bullpen day is an LEA day by arithmetic.** This is the geometric-identity hazard in a new costume.
+3. In the one dataset with complete 7-day records, ***"none of the body composition nor any of the other physiological measures were associated with the number of LEA days"*** and ***"no participant had clinically low levels of testosterone"*** — though at n = 19 that is an uninformative null and is registered as one.
+
+**COACH:** I cannot act on either position. There is no test I can run on a Tuesday, no validated instrument for my athletes, and no baseball player has ever been studied for energy availability at all.
+
+**NOBODY CONCEDES.** The anatomist's mechanism is not refuted by the construct's measurement problems, and the biomechanist's measurement objections are not refuted by the mechanism.
+
+**WHAT WOULD SETTLE IT:** an EA study in male power-sport athletes above 90 kg with **fixed energy intake and manipulated exercise energy expenditure**, so that the denominator artifact is separated from the physiology. Nobody has run one and it is not cheap.
+
+**WHAT THE PROGRAM DOES IN THE MEANTIME, and all three agree on this:** stop using energy availability. Use **body-mass trend** and **performance**, which are free, directly interpretable, and carry no borrowed threshold. Do not buy a screening instrument.
+
+---
+
+## Carried-forward disputes — status as of 2026-09-28
+
+- **Dispute #13 (stride length: marker or lever?) — STRENGTHENED, not moved.** Body mass is a structurally identical and much larger case (F-504). The three biggest correlates in the velocity file — mass, stride length, extension — have **zero within-athlete manipulations between them.**
+- **Dispute #27 (nobody measures accuracy outcomes) — a SEVENTH venue.** After the mound (F-471), the pre-game warm-up (F-423), ergogenic aids, the pitch clock (F-336), pitch-type workload (F-493) and gaze. **No nutrition, body-composition or energy-availability study in any population has ever used a command outcome** (F-507 item 3). The pattern is now a fact about sports science, not about any one topic.
+- **Dispute #40 / #40b (the mound) — NOT MOVED.**
+- **Dispute #44 (IMU sensor saturation) — NOT MOVED.**
+- **The standing F-439 / n ≥ 97 audit — STILL NOT RUN, now seven days outstanding.** Today added **two** more underpowered nulls (F-496 at n = 12 with a CI of ±4.4 kg; F-501's physiological null at n = 19) and flagged a third (F-503, roster-sized). **This is the largest unpaid debt in the corpus's own method.**
+
+---
+
+## Dispute #47 — 🔴 Is the glove arm a TOPIC, or an epiphenomenon of the trunk wearing the arm's clothes? *(added 2026-09-29)*
+
+**THE CLAIM UNDER DISPUTE:** that glove-arm position is a variable a coach should address at all, as opposed to a visible consequence of trunk rotation that would change on its own if the trunk changed.
+
+**BIOMECHANIST CHALLENGES THE PITCHING-COACH.** Every association in the only dedicated glove-arm study (F-508) is between a glove-arm angle and a **trunk or pelvis** quantity: glove elbow flexion × trunk axial rotation (rs = −0.41), glove elbow flexion × pelvic rotational velocity (rs = −0.45), glove horizontal abduction × torso rotational velocity (rs = +0.40), glove horizontal abduction × pelvis axial rotation at BR (rs = +0.52). **The glove arm is rigidly attached to the trunk.** A pitcher who rotates further will, by geometry alone, present a differently-positioned glove arm at the same instant. **These correlations may contain no information about the glove arm whatsoever** — they may be trunk rotation, measured twice, once badly. This is Check #4 in a new costume: not a geometric identity restated as an R², but a **near-identity restated as a coaching target.**
+
+**PITCHING-COACH DEFENDS, PARTIALLY.** Conceded for the *passive* case. Not conceded in general, because the glove arm is one of a very small number of things a pitcher can consciously place. Trunk rotation is not directly instructable — "rotate your torso 8° further at release" is not a coachable sentence, whereas "finish with your glove over your front knee" is. **If the glove arm is a handle on the trunk, its being downstream is the whole point, not an objection.** The coach's interest is in what can be *grabbed*, and the trunk cannot be.
+
+**ANATOMY-PHYSIOLOGY, ON THE MECHANISM, AGAINST BOTH.** There is a real mechanism and it is not the one either is arguing. The glove arm is roughly 5% of body mass held at a long radius; pulling it toward the axis reduces the trunk-plus-arms moment of inertia, and conservation of angular momentum does the rest. That is Barfield's own stated rationale and it is sound physics. **But the magnitude is the question and nobody has computed it.** A rough order-of-magnitude: for a 90 kg pitcher, moving a ~4 kg arm from a 0.35 m radius to 0.15 m changes that segment's contribution by roughly `4 × (0.35² − 0.15²)` ≈ 0.4 kg·m² against a trunk-plus-arms inertia on the order of 1–2 kg·m². **That is not negligible — but it is also not obviously worth a mile an hour, and it is the sort of thing a free-body model would settle in an afternoon and a coaching argument will not settle in a decade.**
+
+**WHAT WOULD SETTLE IT:** the within-athlete experiment in F-518 item 1. If a glove-arm cue moves velocity or location within an athlete, the glove arm is a lever regardless of what it correlates with. If it moves nothing, the coach's handle argument dies with it. **Twelve arms, a radar gun, one afternoon.**
+
+**STATUS: OPEN.** ⚠️ Note the asymmetry: the biomechanist's objection and the coach's defence both **predict the same null** in a badly-run version of that experiment, so the study must record trunk rotation as well as ball velocity, or it cannot distinguish them.
+
+---
+
+## Dispute #48 — 🟡 Is the front-side CONSISTENCY result the real finding, or Dispute #36 recurring for the fourth time? *(added 2026-09-29)*
+
+**THE CLAIM UNDER DISPUTE:** F-515 — Driveline's report that the *consistency* of glove-shoulder abduction at foot plant correlates with miss distance.
+
+**BIOMECHANIST CHALLENGES, CITING THIS CORPUS AGAINST ITSELF.** **Dispute #36 flagged three consecutive cycles that relocated a dead mean-effect into a variance claim**, and Dispute #33 asked whether "it is really a COMMAND effect" is a finding or this corpus's house style. **F-515 is both patterns at once**: a topic with no velocity effect (F-508, F-517) producing a variance-flavoured command claim instead. **The corpus should be at its most suspicious here, not its most excited.** Worse, the reported result is internally odd: *consistent* glove-shoulder abduction at foot plant is said to help, while *variable* throwing-shoulder horizontal abduction at MER and *variable* pronation rate at release are also said to help. **A result in which both more consistency and more variability improve command, at different joints and instants, needs a sample size before it needs an interpretation — and the n is not published.**
+
+**PITCHING-COACH DEFENDS.** The direction is not arbitrary and the coach would have guessed it. Foot plant is the last instant before the delivery becomes ballistic; variability before that point is correctable, variability after it is not. A pitcher whose front side arrives in a different place each pitch has to solve a different throwing problem each pitch. **And the distal-variability half is exactly what the motor-learning literature would predict** — functional variability in the terminal degrees of freedom is how a skilled performer hits a target, not a defect.
+
+**ANATOMY-PHYSIOLOGY, CONCEDING TO THE BIOMECHANIST ON PROCEDURE.** The mechanism story is plausible and cheap to tell, which is precisely the problem: it would have been equally tellable had the result come out the other way. **Register it as a lead, not a finding.** Its most useful property right now is not its direction but the fact that it is the **first accuracy outcome in eight venues of Dispute #27** — and that it came from a training facility rather than a journal is itself the finding worth keeping.
+
+**WHAT WOULD SETTLE IT:** the n, the population's mean velocity, and the coefficient, none of which are retrievable while `drivelinebaseball.com` is blocked. Failing that, an independent replication on an 85+ staff. ⚠️ **AND F-518 item 5 blocks it first:** no reliability estimate exists for any glove-arm angle in any pitching study, because the one study measured a single pitch per pitcher. **An SD-against-miss-distance correlation cannot be interpreted without the measurement's own SD** — the observed variability could be the marker system.
+
+**STATUS: OPEN, and deliberately parked.** Top of this topic's verification queue; **no coaching action taken on it this cycle** (F-512's recommendation is a constraint cue graded UNPROVEN, not an application of F-515).
+
+---
+
+## Revisiting carried-forward disputes — 2026-09-29
+
+- **Dispute #13 (stride length: marker or lever?) — STRENGTHENED AGAIN, and now with a worse case attached.** F-517 registers the front side as the fourth and weakest member of the family. Stride length, extension and body mass each had a **velocity correlation** to collapse. **The glove arm has never had one**, because the only study of it did not measure velocity (F-508). **The corpus's most-coached variable is the one with the least evidence behind it.**
+- **Dispute #27 (nobody measures accuracy outcomes) — an EIGHTH venue, AND THE FIRST EXCEPTION.** After the mound (F-471), the pre-game warm-up (F-423), ergogenic aids, the pitch clock (F-336), pitch-type workload (F-493), nutrition (F-507) and gaze. ⚠️ **But for the first time the absence is not total** — F-515 exists, unpublished and unverifiable, from a training facility. **The pattern's exception did not come from sports science. Note that.**
+- **Dispute #33 (is "it is really a COMMAND effect" a finding or a house style?) and Dispute #36 (relocating nulls into variance claims) — BOTH DIRECTLY ENGAGED,** see Dispute #48. **This cycle declined to make the move it was warned about**, and registered F-515 as a lead with no coaching action attached. **Recorded so a later cycle can check whether the restraint held.**
+- **Dispute #37 / the F-439 n ≥ 97 audit — STILL NOT RUN, now EIGHT days outstanding.** Today added another: **PMC13431036's entire null table at n = 19, against its own a priori requirement of 42** (F-514). **The largest unpaid debt in the corpus, and it grows every cycle.**
+- **Dispute #44 (IMU sensor saturation) — NOT MOVED.**
+- **Dispute #45 / #46 (in-season mass, energy availability) — NOT MOVED.**
+
+---
+
+## Dispute #49 — 🔴 Is the self-selected stride a MECHANICAL OPTIMUM, or just the only condition with no instruction attached? *(added 2026-09-30)*
 
 **Parties:** Biomechanist vs Coach vs Anatomist
 **Status:** 🔴 OPEN — and it is cheap to settle, which is why it is annoying that nobody has.
 
-**The trigger.** F-468 (source-verified): Matsuda 2025 found normal stride **3.18 mph faster than both ±20% conditions**, by an *identical* margin (d = 0.78 and 0.79, η² = 0.36, US vs OS p = 1.00).
+**The trigger.** F-523 (source-verified): Matsuda 2025 found normal stride **3.18 mph faster than both ±20% conditions**, by an *identical* margin (d = 0.78 and 0.79, η² = 0.36, US vs OS p = 1.00).
 
 **The COACH claims:** the pitcher's delivery self-organised around an optimum over thousands of reps, and the symmetry of the penalty is exactly what an inverted U predicts. **Coach the pitcher accordingly: don't touch the stride.**
 
 **The BIOMECHANIST claims:** the symmetry is *equally* predicted by a completely different mechanism. **In every instructed-stride design ever run, the normal condition is the only one in which the pitcher is not consciously executing an instruction.** Both instructed conditions would carry the same attentional tax, producing the same identical-margin symmetry, with no mechanical optimum required.
 - **Strongest evidence for the biomechanist:** **F-192 — the guidance hypothesis, k = 75, N = 2,228, which PASSES the n ≥ 97 rule** and is one of the best-evidenced things in this registry. Directing attention to the body degrades skilled motor output. That is not a speculative mechanism; it is a large, replicated literature.
-- **And F-472 strengthens it:** Matsuda's own energy model found **total energy outflow to the trunk invariant across conditions (p = 0.59, η² = 0.02).** If the legs delivered the same energy to the trunk in all three conditions, the mechanical story has no obvious channel for a 3.2 mph difference — and an attentional story does not need one.
+- **And F-527 strengthens it:** Matsuda's own energy model found **total energy outflow to the trunk invariant across conditions (p = 0.59, η² = 0.02).** If the legs delivered the same energy to the trunk in all three conditions, the mechanical story has no obvious channel for a 3.2 mph difference — and an attentional story does not need one.
 
 **The ANATOMIST's position:** concedes that the confound is real and unaddressed, but notes the two accounts make **divergent predictions about time course.** A mechanical optimum should persist however long the pitcher trains at the new stride; an attentional tax should **decay with practice.** Nobody has run a stride manipulation longer than a session, so this cannot currently discriminate.
 
@@ -1281,12 +1509,12 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 
 ---
 
-## Dispute #41 — 🔴 If within-pitcher kinetics/velocity relationships aren't stable across outings, does F-449's design measure anything? *(added 2026-09-30)*
+## Dispute #50 — 🔴 If within-pitcher kinetics/velocity relationships aren't stable across outings, does F-449's design measure anything? *(added 2026-09-30)*
 
 **Parties:** Biomechanist vs the corpus's own proposal
 **Status:** 🔴 OPEN — **and blocked on a paper this cycle could not retrieve.**
 
-**The trigger.** F-476 (⚠️ **SNIPPET-ONLY, nothing read at source**): Giordano, Nebel, Lerch & Oliver (2025), *Int J Sports Med*, **183 college pitchers**, in-game markerless capture, multilevel models + ICCs. Reported via search summary as finding that *"pitch velocity and in-game throwing arm kinetics did not have a strong intrapitcher relationship, which is different than the results of previous laboratory analyses,"* and that the relationship *"did not remain constant across multiple outings."*
+**The trigger.** F-531 (⚠️ **SNIPPET-ONLY, nothing read at source**): Giordano, Nebel, Lerch & Oliver (2025), *Int J Sports Med*, **183 college pitchers**, in-game markerless capture, multilevel models + ICCs. Reported via search summary as finding that *"pitch velocity and in-game throwing arm kinetics did not have a strong intrapitcher relationship, which is different than the results of previous laboratory analyses,"* and that the relationship *"did not remain constant across multiple outings."*
 
 **The CHALLENGE.** **F-449** — the corpus's own flagship proposal, and the answer it hands to Dispute #37 — specifies measuring the **within-athlete impulse→velocity slope** from **~85 paired observations over one fall block**, using equipment every D1 program owns. If an intrapitcher kinetics/velocity relationship genuinely **fails to hold constant across outings**, then pooling observations across a block estimates **a slope that may not exist as a stable quantity**. F-449 would return a number with no referent, and it would return it with a confidence interval that looks reassuring.
 
@@ -1306,12 +1534,12 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 
 **Dispute #37 (does correcting F-004's USE reopen the four killed channels?) — 🔴 MOVED, in both directions at once.**
 - **Toward reopening:** the audit found **three MORE nulls failing the same test** (F-005 n = 33, F-015 n = 30, F-431 n = 21), and **F-024's weighted-implement null cannot detect below ~1.6 mph.** The class of "channels closed on a detection floor" is larger than the jump-transfer cycle established.
-- **Against the corpus's proposed remedy:** **Dispute #41** is new and it argues that the within-athlete measurement F-449 offers as the fix may not have a stable target. **The disease is worse and the cure is now also in question.**
+- **Against the corpus's proposed remedy:** **Dispute #50** is new and it argues that the within-athlete measurement F-449 offers as the fix may not have a stable target. **The disease is worse and the cure is now also in question.**
 
 **Dispute #33 (🔴 is "it is really a COMMAND effect" this corpus's house style?) — NOT moved, and today did not commit the offence.** The stride result is a **velocity** finding and was kept as one; no command reinterpretation was attempted. Recorded because three consecutive cycles previously did.
 
-**Dispute #36 (🔴 third consecutive cycle relocating a null into a variance claim) — NOT moved, and today did not commit the offence either.** F-465 and F-467 withdraw two nulls **without** substituting a variance claim for either. F-465 returns grip/velocity to **UNTESTED** and stops; F-467 replaces a null with a **positive, manipulated, source-verified** result (F-468). ✅ **This is the first cycle in four to withdraw a null and NOT reach for variance to fill the hole.**
+**Dispute #36 (🔴 third consecutive cycle relocating a null into a variance claim) — NOT moved, and today did not commit the offence either.** F-520 and F-522 withdraw two nulls **without** substituting a variance claim for either. F-520 returns grip/velocity to **UNTESTED** and stops; F-522 replaces a null with a **positive, manipulated, source-verified** result (F-523). ✅ **This is the first cycle in four to withdraw a null and NOT reach for variance to fill the hole.**
 
-**Dispute #35 (🟡 is friction a "LEVER" at n ≤ 8, 80.8 mph?) — WEAKLY MOVED, against.** F-465 removes F-013 as support for the grip-strength half of the friction file's conclusions. The file's answer to *"should I buy grip trainers?"* now rests on **F-431 alone** (n = 21, 77.9 mph, `r_crit` = 0.433). **The recommendation survives; the evidence behind it is thinner than the file states.**
+**Dispute #35 (🟡 is friction a "LEVER" at n ≤ 8, 80.8 mph?) — WEAKLY MOVED, against.** F-520 removes F-013 as support for the grip-strength half of the friction file's conclusions. The file's answer to *"should I buy grip trainers?"* now rests on **F-431 alone** (n = 21, 77.9 mph, `r_crit` = 0.433). **The recommendation survives; the evidence behind it is thinner than the file states.**
 
-**Standing methodological disputes — one NEW entry.** *Is a power audit sufficient to grade a null?* **Answered: no, and by the audit itself.** See **F-470** and **F-471**: two of the three failure modes are invisible to power arithmetic, and both of today's load-bearing errors were of those two types. **The order is now: (1) dependent variable, (2) contrasts actually run, (3) power.**
+**Standing methodological disputes — one NEW entry.** *Is a power audit sufficient to grade a null?* **Answered: no, and by the audit itself.** See **F-525** and **F-526**: two of the three failure modes are invisible to power arithmetic, and both of today's load-bearing errors were of those two types. **The order is now: (1) dependent variable, (2) contrasts actually run, (3) power.**

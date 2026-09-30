@@ -2,10 +2,10 @@
 ### What this corpus's "don't bother" verdicts are actually made of
 
 **Created 2026-09-30.** Closes the structural item `INDEX.md` has carried as its **top priority since 2026-09-22** and which went unrun for eight days.
-**Findings produced:** F-464 → F-477.
+**Findings produced:** F-519 → F-532.
 **Companion to** `library/jump-transfer-audit.md` (which audits one topic's nulls) — this file audits **the whole registry**.
 
-> **THE ONE-LINE RESULT:** the n ≥ 97 rule works, catches 31 findings, and **would have missed both of the two biggest errors found today.**
+> **THE ONE-LINE RESULT:** the n ≥ 97 rule works, catches 42 findings, and **would have missed both of the two biggest errors found today.**
 
 ---
 
@@ -17,30 +17,32 @@ A null that is wrong does not merely misstate the literature. **It closes a door
 
 ---
 
-## 2. THE TAXONOMY — three ways a registered null fails (F-471)
+## 2. THE TAXONOMY — four ways a registered null fails (F-526)
 
 The audit's main product is not a list. It is the discovery that **"underpowered" is only one of three failure modes**, and the corpus had a procedure for that one only.
 
 | Type | What went wrong | Caught by power arithmetic? | How you actually catch it | Confirmed count |
 |---|---|---|---|---|
-| **A — UNDERPOWERED** | Right variable, right contrast, sample too small to detect a meaningful effect | ✅ **Yes** — F-439's n ≥ 97 / MDE | Compute `r_crit` or MDE from n | **31 of 38** null-bearing findings with an extractable n |
+| **A — UNDERPOWERED** | Right variable, right contrast, sample too small to detect a meaningful effect | ✅ **Yes** — F-439's n ≥ 97 / MDE | Compute `r_crit` or MDE from n | **42 of 49** null-bearing findings with an extractable n |
 | **B — MISSING COMPARISON** | Adequate power, but **the study never ran the contrast the corpus attributes to it** | ❌ **No** | Read the DESIGN section; enumerate conditions; check each against the claim's wording | **1 confirmed (F-044)** |
 | **C — WRONG OUTCOME** | Well-powered analysis on **a different dependent variable** than the claim names | ❌ **No** | Find the sentence in the source; check its **object noun** | **1 confirmed (F-013)** |
+| **D — POOLED GRADIENT** | Slope fitted **across a competition-level gap**; the coefficient describes the gap, not a within-level relationship | ❌ **No** — pooling usually *raises* n | Check whether the sample spans levels; ask for the slope within one | **Unrun.** F-510 estimates **~40 exchange rates exposed** |
 
 **The order of operations is now:**
 1. **What was the dependent variable?**
 2. **Which contrasts were actually run?**
-3. *Then* compute power.
+3. **Was it fitted across a competition-level gap?**
+4. *Then* compute power.
 
-Power is the **third** check. The corpus escalated it to a top structural item for eight days without noticing that the two errors sitting underneath it were not power errors at all (F-470).
+Power is the **third** check. The corpus escalated it to a top structural item for eight days without noticing that the two errors sitting underneath it were not power errors at all (F-525).
 
-> ⚠️ **Types B and C are F-382 with the direction reversed.** F-382 caught a peer-reviewed clinical review miscarrying a citation (wrong leg, wrong variable, wrong population). Types B and C are **this corpus doing the same thing to its own sources.** Every fabrication defence that has caught 16 fabrications — does the journal exist, are the authors real, is the PMID right, is the number correctly transcribed — **passes cleanly on both of today's errors.**
+> ⚠️ **Types B, C and D are F-382 with the direction reversed.** F-382 caught a peer-reviewed clinical review miscarrying a citation (wrong leg, wrong variable, wrong population). Types B and C are **this corpus doing the same thing to its own sources.** Every fabrication defence that has caught 16 fabrications — does the journal exist, are the authors real, is the PMID right, is the number correctly transcribed — **passes cleanly on both of today's errors.**
 
 ---
 
-## 3. THE TYPE A TABLE — detection floors across the registry (F-464)
+## 3. THE TYPE A TABLE — detection floors across the registry (F-519)
 
-Registry parsed at **463 findings**. Null-language sweep over title + CLAIM + EVIDENCE + CAUSALITY returned **57 candidates**, of which **36 carry an explicit NULL/REFUTED tag** and **38 have an extractable `n`**. **31 of those 38 (82%) fail the n ≥ 97 threshold.**
+Registry parsed at **532 findings**. Null-language sweep over title + CLAIM + EVIDENCE + CAUSALITY returned **72 candidates**, of which **49 have an extractable `n`**. **42 of those 49 (86%) fail the n ≥ 97 threshold.**
 
 ### Correlational nulls — α = .05 two-tailed
 
@@ -66,7 +68,7 @@ Registry parsed at **463 findings**. Null-language sweep over title + CLAIM + EV
 | **F-415** PAPE vs general warm-up | 18 | 0.701 | 1.05 mph |
 | **F-386** command within outing | 18 | 0.701 | — |
 | **F-044** stride ±25% | 19 | 0.680 | 1.02 mph |
-| **F-045 / F-468** stride ±20% | 20 | 0.660 | 0.99 mph |
+| **F-045 / F-523** stride ±20% | 20 | 0.660 | 0.99 mph |
 | **F-391** caffeine crossover | 20 | 0.660 | 0.99 mph |
 
 **Read this table as: none of these studies could have detected a 1 mph effect.** A 1 mph gain is worth a training block to an 88 mph arm. **Every one of these nulls is compatible with a change this program would happily pay for.**
@@ -76,13 +78,23 @@ Registry parsed at **463 findings**. Null-language sweep over title + CLAIM + EV
 - **F-024** (weighted implements, SEC D1, 35 vs 21): **MDE d = 0.787.** At a pooled velocity SD of ~2.0 mph, **this study could not have detected anything smaller than ~1.6 mph.** It is described in the registry as "the highest-velocity controlled sample that exists, and it is null." It is the highest-velocity controlled sample that exists, and **it is uninformative below 1.6 mph.**
 - **F-026** (Driveline, n = 17, **no control group**): no MDE is worth printing. **A single-arm pre/post has no counterfactual at any n.**
 
+### ⚠️ The audit was run twice, and the second run is the one above
+
+The working clone was **five cycles stale** (created 2026-09-24; the remote was at **F-518**). The first run used a 463-finding snapshot: 57 candidates, 38 with `n`, 31 failing (82%). The re-run against the merged **532-finding** registry gives **72 / 49 / 42 (86%)**. **The conclusion hardened.**
+
+The five unseen cycles added their own unchecked failing nulls: **F-488 (n = 10, r_crit 0.632)**, **F-496 (n = 12, r_crit 0.576 — that cycle flagged its own ±4.4 kg CI, which is correct behaviour)**, **F-494 (n = 30, r_crit 0.361)**.
+
+⚠️ **Regex false positives are real: F-464 (the mound, n = 21) is a POSITIVE finding caught by null-language.** The candidate count is a floor in **both** directions.
+
+✅ **Independent convergence on Type C:** the 2026-09-29 cycle found **F-508 — *"the only dedicated glove-arm study in baseball never measured ball velocity"*** — the same failure mode as F-520, one day apart, in a different topic, without the taxonomy. **Two Type C errors in two consecutive cycles is a base rate, not a coincidence.**
+
 ### The one null that nearly clears
 
 **F-013 at n = 87** has `r_crit` = 0.211 — the best-powered correlational null in the registry, bounding a correlation inside roughly ±0.21. Under the ±0.20 convention it fails by a hair. **In practice a null that bounds R² below 4.4% is usable.** It is not the power that disqualifies it (§4).
 
 ---
 
-## 4. TYPE C, WORKED — the grip-strength null (F-465, F-466)
+## 4. TYPE C, WORKED — the grip-strength null (F-520, F-521)
 
 **F-013 as written:** *"No significant univariate association exists between any grip-strength variable and **ball velocity** in D1 pitchers."* Graded **ESTABLISHED**, **CONFIDENCE: high**, described as *"the closest sample-to-target match of any cross-sectional study in the corpus."*
 
@@ -96,16 +108,16 @@ Registry parsed at **463 findings**. Null-language sweep over title + CLAIM + EV
 - **57 modifiable variables** entered univariately against EVT. **No multiplicity correction stated.**
 - The paper's a-priori power statement: **R² ≥ 0.16 with 5 predictors, minimum n = 80** — powered for a large effect *on EVT*. Velocity was never the target.
 
-**And the null concealed a positive result (F-466).** Grip strength **symmetry** entered the final model as a predictor of **increased** EVT: **+0.27 N·m per +1 N of asymmetry, 95% CI [0.07, 0.48], P = .008**, controlling for velocity. Individual-arm grip strength entered neither the univariate nor the final model. The authors themselves: *"The relevance of grip strength on the nondominant arm is unclear, making interpretation difficult."*
+**And the null concealed a positive result (F-521).** Grip strength **symmetry** entered the final model as a predictor of **increased** EVT: **+0.27 N·m per +1 N of asymmetry, 95% CI [0.07, 0.48], P = .008**, controlling for velocity. Individual-arm grip strength entered neither the univariate nor the final model. The authors themselves: *"The relevance of grip strength on the nondominant arm is unclear, making interpretation difficult."*
 
-> **Treat F-466 with suspicion proportional to its provenance:** it survived a backward elimination from a 27-variable pool reduced from 57, its CI's lower bound is 0.07, and an asymmetry term entering a model when neither of its components does is more likely an artifact of the reduction than a tissue fact. **It is a screen, not a program, and emphatically not a reason to train the glove hand.**
+> **Treat F-521 with suspicion proportional to its provenance:** it survived a backward elimination from a 27-variable pool reduced from 57, its CI's lower bound is 0.07, and an asymmetry term entering a model when neither of its components does is more likely an artifact of the reduction than a tissue fact. **It is a screen, not a program, and emphatically not a reason to train the glove hand.**
 
 ### Downstream damage
 `library/ball-hand-friction.md` answers *"Should I buy grip trainers?"* with **"No — grip strength is null."** That answer rested on F-013. It now rests only on **F-431** — n = 21, a **77.9 mph** sample, `r_crit` = 0.433. **The recommendation survives on weak grounds; the certainty does not.**
 
 ---
 
-## 5. TYPE B, WORKED — the stride-length crossover (F-467 → F-470)
+## 5. TYPE B, WORKED — the stride-length crossover (F-522 → F-525)
 
 ### 5.1 What F-044 said, and what the study did
 
@@ -121,7 +133,7 @@ Registry parsed at **463 findings**. Null-language sweep over title + CLAIM + EV
 
 Reported stride values: **OS 1.40 ± 0.15 m (0.76 %BH); US 0.95 ± 0.14 m (0.52 %BH); desired 1.24 ± 0.17 m.**
 
-### 5.2 It is not a power problem (F-470)
+### 5.2 It is not a power problem (F-525)
 
 | n | Power to detect *d* = 0.79 |
 |---|---|
@@ -133,7 +145,7 @@ Reported stride values: **OS 1.40 ± 0.15 m (0.76 %BH); US 0.95 ± 0.14 m (0.52 
 
 **The Buffalo study had 90% power to detect the effect that F-045 found. It had the power and lacked the condition.** Applying the n ≥ 97 rule here returns "underpowered, discount it" — the wrong diagnosis, which would have left the real error in place.
 
-### 5.3 The midpoint, supplied (F-468)
+### 5.3 The midpoint, supplied (F-523)
 
 **Matsuda et al. 2025, every figure read at source.** n = 20 college pitchers (age 19.9 ± 1.1, **173.2 ± 5.8 cm, 71.8 ± 6.4 kg**), ±20% conditions.
 
@@ -147,7 +159,7 @@ Reported stride values: **OS 1.40 ± 0.15 m (0.76 %BH); US 0.95 ± 0.14 m (0.52 
 **The penalty is 1.42 m/s = 3.18 mph in both directions, identical to two decimal places.**
 **Power check: MDE at n = 20 is d = 0.660; observed d = 0.79 → 91.8% achieved power. Adequately powered for what it found — rare in this registry.**
 
-### 5.4 The synthesis (F-469)
+### 5.4 The synthesis (F-524)
 
 **The two studies do not conflict. They are one curve seen twice.**
 
@@ -158,7 +170,7 @@ Stride length is an **inverted U with a sharp vertex at the self-selected value.
 
 ⚠️ **F-048 is untouched by this correction.** "A shorter stride cut heart rate 11.1 bpm at no velocity cost" is an **OS-vs-US comparison** — the comparison that study *can* make. Stride as a **stamina** trade survives intact.
 
-### 5.5 The mechanism, and the hole in it (F-472)
+### 5.5 The mechanism, and the hole in it (F-527)
 
 Matsuda's actual purpose was energy flow, and the result is sharper than the velocity finding:
 
@@ -169,7 +181,7 @@ Matsuda's actual purpose was energy flow, and the result is sharper than the vel
 
 > ⚠️ **DO NOT CLOSE THIS LOOP ON THE PAPER'S BEHALF.** If total trunk inflow was invariant, **this model does not explain why NS was 3.2 mph faster.** The velocity effect is real and its mechanism is unaccounted for. Candidates this corpus cannot currently separate: a sequencing effect that summed work integrates away; a distal (trunk→arm) transfer difference nobody measured; or §5.6.
 
-### 5.6 🚨 The confound under every stride study ever run (F-473)
+### 5.6 🚨 The confound under every stride study ever run (F-528)
 
 **In every instructed-stride design, the normal condition is the only one in which the pitcher is not executing a conscious instruction.**
 
@@ -179,7 +191,7 @@ NS beat both extremes by an *identical* margin. That symmetry is equally well ex
 
 The corpus already holds the machinery for (b): **F-192 (guidance hypothesis, k = 75, N = 2,228 — PASSES n ≥ 97)** and the external-focus literature both say directing attention to the body degrades skilled output.
 
-**No stride study in existence contains a sham-instruction condition** — a trial where the pitcher is told to hit a stride target *equal to his own normal stride*. **It costs one extra condition and separates the two explanations completely.** Filed as **Dispute #40**.
+**No stride study in existence contains a sham-instruction condition** — a trial where the pitcher is told to hit a stride target *equal to his own normal stride*. **It costs one extra condition and separates the two explanations completely.** Filed as **Dispute #49**.
 
 **What this changes:** you may say *"instructing a stride change costs about 3 mph acutely."* You may **not** say *"his current stride is mechanically optimal."*
 
@@ -187,7 +199,7 @@ The corpus already holds the machinery for (b): **F-192 (guidance hypothesis, k 
 
 ---
 
-## 6. THE FIELD ITEM THIS CYCLE VERIFIED — grip as a fatigue instrument (F-474, F-475)
+## 6. THE FIELD ITEM THIS CYCLE VERIFIED — grip as a fatigue instrument (F-529, F-530)
 
 **Tremblay et al. 2025** (PMC11877241, *BMJ Open Sport Exerc Med*, read in full), simulated 75-pitch outing, 5 blocks of 15, Rapsodo 2.0, turf mound.
 
@@ -202,7 +214,7 @@ The corpus already holds the machinery for (b): **F-192 (guidance hypothesis, k 
 ### 6.1 The headline
 **Grip falls ~14× more than radar velocity.** Velocity was **not monotonic** — block 2 (120.35) exceeded block 1 (119.87) before declining. Converges with **Crotin & Ramsey 2021**, read the same cycle: **−1.9 kg / 45.1 kg = −4.2% across 80 pitches, p = 0.017, d = 0.28.** Two independent samples, two countries, same direction.
 
-### 6.2 🚨 The unintended control, and the discount (F-475)
+### 6.2 🚨 The unintended control, and the discount (F-530)
 **The non-dominant arm also lost grip — 7.19% — and it threw zero pitches.** It held a glove and performed **six maximal 3-second isometric grip efforts**, exactly as the dominant arm did.
 
 The authors offer **cross-education** and **glove weight**. The parsimonious alternative — **a repeated maximal isometric test is itself fatiguing** — is never considered, and **there is no no-pitch control session** to separate them.
@@ -242,7 +254,7 @@ The authors state the limit themselves:
 
 **The honest accounting, because it is the point of the file.**
 
-- **The audit is begun, not finished.** Type A is now **mechanised** — the script runs against `FINDINGS.md` alone and needs no egress. **Types B and C need a paper read each, and there are ~55 null-bearing candidates to go.**
+- **The audit is begun, not finished.** Type A is now **mechanised** — the script runs against `FINDINGS.md` alone and needs no egress. **Types B and C need a paper read each, and there are ~70 null-bearing candidates to go.**
 - **Two papers were read at source this cycle and BOTH contained a Type B or Type C error in the corpus's own entry.** That is **2-for-2 on a deliberately selected pair** — it is the strongest available argument that the rest are unchecked, and it is **emphatically not a population estimate.**
 - **The 57-candidate sweep is regex-based.** It has false positives (positive findings caught by null-language, e.g. F-043, F-049, F-095, F-400) and certainly false negatives. **It is a floor on the count, not a census.**
 - **No `1 − β` recomputation sweep was run.** F-463's rule — recompute every printed power figure — was applied to the four papers read this cycle (only Barrack printed one, an a-priori target, correctly labelled). **The registry-wide `1 − β` sweep remains unrun.**

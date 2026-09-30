@@ -638,3 +638,23 @@ A search summariser emitted, unprompted and with **no supporting link in its own
 | **The perennial "Driveline vs Tread" methodology debate** | `pitching.dev` | **NOT NEW, AND NOT ABOUT THIS TOPIC.** No content bearing on the interface. Logged only to record that it was checked. |
 
 **What the field is NOT talking about, and should be.** Nothing in the scouted material mentions the two results that actually matter from this cycle's reading: (1) **rosin does not raise friction on a dry hand** (F-427), and (2) **friction sensitivity is a large individual trait measurable in twenty pitches** (F-425, participant f vs b/d). **The industry is selling grip strength, which is null, while ignoring a free screen that works.**
+
+---
+
+## 2026-09-25 — MOTOR IMAGERY / THE MENTAL GAME (F-480)
+
+⚠️ **FULLY EGRESS-BLOCKED CYCLE. WebSearch only; no item below was read at its source.**
+
+**VERDICT ON THE SWEEP AS A WHOLE: this is the most content-farm-polluted topic this corpus has swept**, and it is polluted differently from every previous sweep. The mound (2026-09-24) was quiet because nobody argues about infrastructure. **The mental game is not quiet — it is loud and almost entirely commercial.** All 30 MLB clubs employ mental-performance staff, so there is money in the claim and no measurement discipline attached to it.
+
+| Item | Source & standing | Verdict |
+|---|---|---|
+| "2026 Baseball Mental Training Report: What Actually Works" | `mindandmuscle.ai/research/2026-mental-training-report` — AI content domain publishing under a `/research/` path | **MARKETING** |
+| "How to Improve Baseball Pitching Accuracy in 2026: The Evidence-Based Practice Routine" | `accio.com/biz-sportshealth/` — a **B2B commerce domain** publishing "evidence-based" pitching content | **MARKETING** |
+| "Mental Performance Coach for Baseball Players: The Ultimate 2026 Guide" | `blog.attackletics.com` — service provider | **MARKETING** |
+| **"Visualization of game situations is the highest-ROI activity based on the research"** | unsourced; no research named | **DEBUNKED AS STATED.** F-473 and F-476 show no such ROI is computable — the magnitude cannot be imported and the effect cannot be measured at program scale |
+| **"Ground Rules: Mental Practice" — the MENTAL BULLPEN** (pitchers not throwing that day run a pen in their heads, same time, same tempo) | **ABCA *Inside Pitch*, Sept/Oct 2024 — real trade standing** | **UNPROVEN, and the best idea in the sweep.** Practitioner opinion with zero tests. **Asserts mental reps carry training benefit at no arm cost — the most testable and most commercially loaded claim in the topic (F-482 item 4)** |
+| **"Your Brain Throws the Pitch Before Your Arm Does"** — [velou.substack.com, 24 Jun 2026](https://velou.substack.com/p/your-brain-throws-the-pitch-before) | independent analyst; **correctly cites Exp Brain Res 2026, PMID 41557017** | **Mechanism PROMISING / coaching inference UNPROVEN.** Reports the TMS result accurately, then writes that vivid negative imagery is "the nervous system rehearsing failure" — **a leap from an ACUTE STATE MEASURE to a TRAINING ADAPTATION.** Exactly the marker→lever step. Note this outlet has been accurate on citation and loose on inference before |
+| Industry argument check — Driveline vs Tread, Sept 2026 | trade coverage | **Live dispute remains weighted balls, tech density and rapid-velocity-gain safety. NOBODY IN PITCHING DEVELOPMENT IS ARGUING ABOUT IMAGERY AT ALL** |
+
+**OPERATING RULE ADDED: WHEN A TOPIC HAS HIGH COMMERCIAL VOLUME AND ZERO MEASUREMENT, TREAT EVERY MAGNITUDE YOU MEET IN IT AS MARKETING UNTIL A PRIMARY SOURCE SAYS OTHERWISE.** Cf. F-266 (the sweep-channel limitation), F-472 (the mound's very different silence).
