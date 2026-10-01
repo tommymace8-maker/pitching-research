@@ -22,7 +22,9 @@
 | 7 | Is the lead-leg block worth coaching given that it *raises* torque? | Coach vs Biomech | 🔴 OPEN |
 | 8 | Weighted implements in a mature 85+ arm | Anatomy vs the field | 🔴 OPEN |
 | 9 | Does the "block whips the hips" model deserve full retirement? | Coach vs Biomech | 🟡 NARROWED |
-| 10 | Lower arm slot — universal recommendation or individual? | Coach vs Biomech | 🟡 NARROWED |
+| 10 | Lower arm slot — universal recommendation or individual? | Coach vs Biomech | 🟡 **RE-FRAMED 2026-10-01** — velocity axis resolved (F-538); torque axis WORSENED (F-540 sign contradiction); command is now the binding cost (F-542); superseded in part by #51 |
+| 51 | **Is arm slot a LEVER, or an output of the trunk wearing the arm's clothes?** | Biomech vs Coach vs Anatomy | 🔴 **OPEN — added 2026-10-01. Same shape as #47, two cycles later. Route 1 to settle it is FREE** |
+| 52 | **Is the −0.15 mph within-athlete slot cost real, or survivorship?** | Biomech vs Coach | 🟡 **OPEN — added 2026-10-01. The reversion denominator is published nowhere** |
 | 11 | The kinematic sequence | Coach vs Biomech | ⬜ **CONCEDED by the coach, 2026-08-12** |
 | 12 | **Does the velocity-optimal delivery cost command?** | Command data vs Velocity data | 🔴 **OPEN — added 2026-08-13; revisited same day** |
 | 13 | **Is stride length a velocity LEVER, or only a CORRELATE?** | Coach vs velocity report | 🔴 **OPEN — added 2026-08-13. Two failed manipulations** |
@@ -1543,3 +1545,74 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **Dispute #35 (🟡 is friction a "LEVER" at n ≤ 8, 80.8 mph?) — WEAKLY MOVED, against.** F-520 removes F-013 as support for the grip-strength half of the friction file's conclusions. The file's answer to *"should I buy grip trainers?"* now rests on **F-431 alone** (n = 21, 77.9 mph, `r_crit` = 0.433). **The recommendation survives; the evidence behind it is thinner than the file states.**
 
 **Standing methodological disputes — one NEW entry.** *Is a power audit sufficient to grade a null?* **Answered: no, and by the audit itself.** See **F-525** and **F-526**: two of the three failure modes are invisible to power arithmetic, and both of today's load-bearing errors were of those two types. **The order is now: (1) dependent variable, (2) contrasts actually run, (3) power.**
+
+---
+
+## Dispute #51 — 🔴 Is arm slot a LEVER at all, or an output of the trunk wearing the arm's clothes? *(added 2026-10-01)*
+
+**Parties:** Biomechanist vs Pitching-Coach vs Anatomist
+**Status:** 🔴 OPEN — and it is the **second consecutive topic to arrive at this exact shape** (cf. Dispute #47, the glove arm). That recurrence is itself evidence of something.
+
+**The trigger.** F-533: Statcast arm angle is the inclination of the shoulder→ball line, so it is a composite of **trunk lateral tilt + shoulder abduction + elbow flexion**. F-535 then shows, by arithmetic, that **~75% of the league's release-point decline is the shoulder getting lower, not the arm angle changing.**
+
+**The BIOMECHANIST claims:** arm slot is not a variable, it is a *readout*. The number moves for three reasons and the dominant one is trunk tilt. An industry source reaches the same conclusion independently — *"most of the time, arm slot is much more about the amount and direction of trunk tilt than it is about specific shoulder positioning"* — and so does a public analyst, whose piece is titled, flatly, **"Arm Slot Is Not a Mechanical Choice"**: *trunk tilt is the primary setter of the plane; the arm slot is a downstream output; coaches who try to change arm slot by moving the arm are working backwards.*
+- **Strongest evidence:** F-535's arithmetic, which is source-independent. And F-541: **zero manipulations exist**, so no one has ever demonstrated that the arm *can* be moved independently of the trunk.
+
+**The PITCHING-COACH claims:** the industry is successfully changing this thing on purpose, at scale, with outcomes. **8 of the last 10 seasons** trended lower; whole organizations run coordinated programs; named pitchers moved **9–14°** across seasons and got better pitch shapes out of it (F-544: Hancock 27°→13°, Meyer 46.1°→37.7° with velocity UP on all pitches, Seymour −6.2° with SwStr% 12.1→13.6). *"If it were purely an output of the trunk, it would not be this reliably trainable, and Meyer would not have gained velocity while doing it."*
+
+**The ANATOMIST's position — and this is the most interesting move in the dispute:** both are right, and the dispute is **mis-framed as either/or.** Shoulder abduction and trunk tilt are *both* available routes to the same arm-angle number. **That is precisely why the question matters: they are different routes with opposite cost profiles** (§1 of `arm-slot.md`). The trunk route is cheap to execute and expensive to own (command, F-176; varus torque, F-070's failure mode). The abduction route is the reverse. **"Can you change arm slot?" is the wrong question. "Which of the two did he change?" is the right one — and nobody has been asking it, because nobody could measure it.**
+
+**What would settle it.** Two routes, one free:
+1. **The free one (F-543):** decompose arm-angle change into its abduction and trunk-tilt terms using `z_shoulder = z_ball − L·sin θ` on public Savant data, for the ~N pitchers who dropped ≥5° season over season. **If the shoulder-height term dominates, the biomechanist wins. If arm angle moved with shoulder height held constant, the coach wins.** This needs no new data collection and is apparently unrun.
+2. The expensive one: a slot-change intervention with 3D capture pre/post, reporting trunk lateral tilt and shoulder abduction **separately**. **No such study exists (F-541).**
+
+⚠️ **What is NOT in dispute:** that the arm-angle *number* changes, and that pitch shape changes with it. Nobody disagrees about the readout. The dispute is about **which tissue is doing it**, and therefore **what it costs.**
+
+**Tenth entry in the pattern of F-264, F-289, F-295, F-307, F-320, F-374, F-448, F-449 and Dispute #49: a decisive measurement that needs no new equipment and nobody has made it.** ⚠️ **Note for the next cycle: route 1 is the cheapest high-value analysis this corpus has identified in weeks, and it requires only egress to Savant.**
+
+---
+
+## Dispute #52 — 🟡 Is the −0.15 mph within-athlete slot cost a real estimate, or survivorship? *(added 2026-10-01)*
+
+**Parties:** Biomechanist vs Pitching-Coach
+**Status:** 🟡 OPEN — narrow, decidable, and it attacks the single best number this topic has.
+
+**The trigger.** F-538: "pitchers who lowered their arm slot lost, on average, **0.15 mph** season over season." It is the only within-athlete estimate in the entire topic, and the coaching translation in `arm-slot.md` §6 leans on it.
+
+**The BIOMECHANIST claims it is biased toward zero by survivorship, in two ways at once.**
+1. **Exit.** A pitcher who drops his slot and loses 3 mph does not produce a clean season-over-season pair the following year — he gets demoted, injured, or he **reverts**. And reversion is documented: **Skenes reverted within a single season; Gilbert reverted after three years** (F-544). Reverters are exactly the pitchers for whom the change went badly, and a season-over-season design either drops them or records them at their *reverted* slot.
+2. **Selection in.** These are not assigned changers, they are **self-selected** ones — pitchers (and orgs) who had reason to believe it would work for them. **F-528's confound, in a new topic: "chose to change" is perfectly confounded with "expected to benefit."**
+
+> **The claim: −0.15 mph is the velocity cost among pitchers for whom dropping the slot worked out. That is not the number a coach needs.**
+
+**The PITCHING-COACH concedes the direction and disputes that it matters.** Grant the bias; the question is magnitude. For the bias to overturn the practical conclusion, the true cost would have to be an order of magnitude larger — ~1.5 mph rather than 0.15 — and **the between-subject evidence independently argues against that**: two professional samples find **no velocity difference at all** across established slot groups (F-538, n = 207 at 86.3 mph; and the 49-pitch four-group study where only *underhand* was slower). *"If arm slot carried a real velocity price, the sidearmers would be the soft-tossers. They are not."*
+
+**The BIOMECHANIST's rebuttal — and it is the crux.** That between-subject null is **itself a survivorship argument**, and a stronger one. **A sidearmer who could not throw 86 mph sidearm is not in a professional sample.** The null says "among professionals, slot does not predict velocity" — which is what restriction of range predicts (Luera 2020: r collapses to .17–.29 in all-hard-throwing samples, F-standing). **The two pieces of evidence the coach is combining are the same bias measured twice, not two independent confirmations.**
+
+**What would settle it.** Any one of:
+- **The denominator (F-544).** How many pitchers attempted a ≥2° slot change and how many reverted or exited? **Published nowhere.** If the reversion rate is 5%, the bias is small; if it is 40%, −0.15 mph is meaningless.
+- **Intent-to-treat accounting:** recompute the season-over-season velocity delta **including reverters at their attempted slot and including pitchers who left the sample.**
+- The actual experiment (F-541), which does not exist.
+
+**Practical status while it is open — and both parties agree on this.** The coaching sentence in `arm-slot.md` §6 survives, because **it was never resting on the velocity number**: the stated price is *command*, not velocity, and the velocity line is phrased as "a tenth or two, which neither of us will be able to see." ⚠️ **What must NOT be said is "it's basically free," full stop.** The honest version is: **"the average cost among guys it worked for was about a tenth of a mile an hour, and nobody has published what it cost the guys who went back."**
+
+---
+
+## Revisited 2026-10-01 — did today move anything?
+
+**Dispute #10 (🟡 lower arm slot — universal or individual?) — MOVED, substantially, and for the first time in weeks.** The dispute has been 🟡 NARROWED on the basis of four axes pointing different ways (velocity, torque, command, platoon). Today:
+- **The VELOCITY axis is effectively resolved and should be retired from the dispute.** F-538 separates the between-subject null (no difference, 2 samples) from the within-athlete cost (−0.15 mph). **Velocity is not what makes this decision hard.** ⚠️ Subject to Dispute #52.
+- **The TORQUE axis got WORSE, not better.** F-540 finds F-070's own two clauses contradicting each other, with a sign-convention flip the likely cause. **The axis that was considered the most settled is now the least.**
+- **The COMMAND axis is now the binding constraint** (F-542), which inverts the usual framing of the conversation.
+- **And a new, better question replaced the old one** (Dispute #51): not "should he drop down?" but **"which tissue did he drop it with?"** — because F-535 shows the two routes have opposite cost profiles and the sport has been conflating them.
+- **Status: 🟡 → 🟡 RE-FRAMED.** Not closed. But the axes are no longer symmetric: three of four now have a stated resolution path, and one of them (F-543's decomposition) is **free**.
+
+**Dispute #47 (🔴 is the glove arm a topic, or the trunk wearing the arm's clothes?) — MOVED, by analogy, and this is worth flagging as a pattern.** Dispute #51 is the *same dispute about a different limb*, arrived at independently two cycles later. **Two consecutive limb topics have both reduced to trunk variables.** ⚠️ **That is now a hypothesis about this corpus's topic structure, not a coincidence: the question "is this variable just the trunk?" should be asked FIRST on any future limb topic, not discovered at the end of the cycle.**
+
+**Dispute #33 (🔴 is "it is really a COMMAND effect" this corpus's house style?) — 🚨 TODAY COMMITTED THE OFFENCE, and it must be recorded.** F-542 concludes that **command, not velocity, is the real cost of a slot change** — which is precisely the move Dispute #33 exists to police: a velocity null relocated into a command claim. **In mitigation, and it is real mitigation:** (a) the command side rests on **F-176, an ESTABLISHED velocity-matched n = 338 contrast**, not on a reinterpreted null; (b) F-542 explicitly grades its own causal status CROSS_SECTIONAL and states "do not say 'raise his slot to improve command'"; (c) the velocity side was not nullified, it was *measured* (−0.15 mph). **But the pattern is the pattern. Fourth occurrence. Dispute #33 is upgraded from "recorded" to 🔴 ACTIVE and the next cycle that reaches for a command reinterpretation should be required to state why it is not this.**
+
+**Dispute #36 (🔴 relocating a null into a variance claim) — NOT moved, and today did not commit the offence.** The between-subject velocity null (F-538) was kept as a null about a *different question*, not converted into a claim about variability.
+
+**Dispute #49 / #50 (stride instruction confound; within-pitcher kinetic stability) — NOT moved.** Neither was touched. ⚠️ **F-528's confound did, however, appear in a new topic:** Dispute #52's "self-selected changers are confounded with expected beneficiaries" is F-528's structure transplanted from stride instruction to slot change. **That is the second venue for that confound and it suggests it is general, not stride-specific.**
+
+**Standing methodological disputes — one NEW entry.** *Is a domain blacklist sufficient protection against a content farm?* **Answered: no, decisively.** See **F-539**: accio.com's fabricated figures were restated by the search layer as findings of the Journal of Applied Biomechanics, the NCAA and the University of Florida **with no byline attached**. A blacklist only works if the byline travels with the claim. **The replacement is behavioural, not list-based: read the URL set, and re-query any number lacking author/title/DOI.** The re-query test caught a fabrication today at a cost of one search.
