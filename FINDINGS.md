@@ -919,7 +919,15 @@ CAUSALITY: CROSS_SECTIONAL
 SOURCE: Fleisig GS, Slowik JS, Kutz CB, Escamilla RF (2024), AJSM; Escamilla RF, Slowik JS, Imamura R, et al. (2026), J Appl Biomech (dirt-mound replication)
 COACHING: "You lose velo from the stretch" is RETIRED at the professional level.
 CONFIDENCE: medium-high — replicated
-SEE ALSO: F-229
+SEE ALSO: F-229, F-547, F-548, F-550, F-554, F-556, F-557
+
+> ### ⚠️ CORRECTED 2026-10-02 — TWO ERRORS, NEITHER OF THEM IN THE PROFESSIONAL CLAIM. Annotated, not overwritten.
+>
+> **(1) THE CAUSALITY TAG IS WRONG (F-548).** `CROSS_SECTIONAL` is incorrect. Every windup/stretch comparison in the literature had **the same pitcher throw both deliveries in the same session**, compared with paired within-subject tests. The variable was **manipulated**. The correct tag is **MANIPULATED, WITHIN-SUBJECT, ACUTE** — the tag F-323 already carries for the slide step, which is the same class of comparison. **This error understated the entry: read correctly, the professional results are MANIPULATED_NULLs, the strongest grade in this file.**
+>
+> **(2) THE SCOPE IS NARROWER THAN THE ENTRY READS (F-547).** There are **four** within-subject comparisons, not the two recorded here, and **the two that found a velocity difference are both COLLEGIATE** — this program's population. PMID 38687464 (n = 221): fastball velocity statistically greater from the windup **for the collegiate subgroup only**, below the authors' 0.5 m/s MCID. PMID 41722544 (n = 18, dirt mound): ball velocity **≈1% greater from the windup**, significant. ⚠️ **The "replicated on dirt mounds" phrase in NUMBERS is misleading: the dirt-mound study did NOT replicate the null — it found a significant windup advantage.**
+>
+> **What survives unchanged:** the professional claim, now on two studies (PMID 17986632, PMID 39295086, n = 52), and the retired cue **at the professional level**. **What does NOT survive:** using this entry to tell a college pitcher that the stretch is free. See F-547, F-550, F-558.
 
 ### F-070 | Lower arm slot: less torque, more run value, slightly less velocity — but it is not universal
 TOPIC: arm slot, arm angle, torque, VAA, run value, spin rate, platoon, sidearm
@@ -7156,3 +7164,184 @@ SOURCE: this cycle's own tool results, 2026-10-01
 COACHING: For the corpus, not the mound. **The lesson of two blind cycles is consistent and worth acting on: a blocked cycle should spend its time on arithmetic against numbers already in the registry, not on accumulating more snippets.** F-535 corrected a conflation in F-070 using nothing but two numbers already registered and a trig function — **that was available on any day, and it took a blocked day to go looking for it. There is a backlog of this kind of work (see the three live structural items in INDEX §5) and it is immune to egress.**
 CONFIDENCE: high
 SEE ALSO: F-473, F-277, F-462, F-539
+
+---
+
+# 32 — THE DELIVERY YOU START FROM: WINDUP VS STRETCH *(added 2026-10-02)*
+
+### F-547 | ⚠️ FLAGS F-069 — there are FOUR within-subject windup/stretch comparisons, not two, and BOTH of the ones that found a velocity difference are COLLEGIATE
+TOPIC: windup, stretch, delivery, velocity, level moderator, within-subject, marker vs lever, F-069
+CLAIM: Across four within-subject comparisons, the two professional samples found no velocity difference between deliveries and the two collegiate samples found a small but statistically significant advantage to the windup — so the registry's "statistically similar" is correct for professionals and does not describe this program's population.
+NUMBERS: **ALL SNIPPET-ONLY, NO PAGE OPENED.** (1) Dun, Kingsley, Fleisig, Loftice, Andrews (2008) AJSM PMID 17986632, professional — no difference. (2) Hodakowski, Dowling, Brusalis, et al. (2024) *Sports Biomechanics* 23(12):3680–3692, PMID 39295086, **n = 52 professional** (189.1 ± 4.8 cm, 92.8 ± 8.4 kg) — "within a pitcher, no significant difference in ball velocity." (3) Fleisig, Slowik, Kutz, Escamilla (2024) AJSM 52(7):1671–1675, PMID 38687464, **n = 221 (105 pro, 52 collegiate, 64 HS)**, 3–10 trials per delivery per pitcher, **MCID set at 0.5 m/s = 1.118 mph** — "fastball velocity was statistically greater from the windup than stretch for the collegiate subgroup but not for the other 2 levels, and the collegiate difference was below the MCID"; 9 of 35 (26%) parameters differed overall. (4) Escamilla, Slowik, Imamura, Thompson, Asuncion, Aguinaldo, Fleisig (2026) *J Appl Biomech* 42(3):165, PMID 41722544, **n = 18 collegiate, dirt-surface mound**, 240 Hz 12-camera, 28 kinematic + 7 kinetic parameters, paired within-subject t-tests (P < .05) — **ball velocity at release significantly greater from the windup, ≈1%**; 74% of comparisons null. **≈1% = 0.80 / 0.85 / 0.90 mph at a sample velocity of 80 / 85 / 90 mph — every value below the 1.118 mph MCID, so the two collegiate results AGREE on magnitude.**
+POPULATION: two professional samples, two collegiate samples, one mixed HS subgroup. ⚠️ **No sample mean velocity is retrievable for ANY of them (F-557).**
+EVIDENCE: EMERGING — four studies, consistent within level, all snippet-only, the cleanest positive is n = 18
+CAUSALITY: MANIPULATED, WITHIN-SUBJECT, ACUTE — the same pitchers threw both deliveries in the same session in every study (see F-548)
+SOURCE: WebSearch, 2026-10-02. PMIDs 17986632, 39295086, 38687464, 41722544. All four PMIDs resolved consistently across independent queries; no fabrication indicators.
+COACHING: **DO NOT repeat "you don't lose anything from the stretch" to a college arm as though it were settled.** It is settled for professionals and it points the other way, weakly, for college pitchers — and a college pitcher is who you are talking to. The defensible sentence is: *"At the big-league level it's a wash. At your level the two studies that looked found about a mile an hour for the windup, and neither one can tell you whether that's you."* Then measure it (F-558).
+CONFIDENCE: medium that the level split is real; low on any magnitude; **nil until a page is opened**
+SEE ALSO: F-069, F-548, F-549, F-550, F-556, F-557, F-323
+
+### F-548 | ⚠️ CORRECTION — F-069 IS MIS-TAGGED `CROSS_SECTIONAL`. Windup vs stretch is a WITHIN-SUBJECT MANIPULATION, and the registry has been underselling its own evidence
+TOPIC: causality, tagging, correction, windup, stretch, within-subject, manipulation, registry integrity, F-069
+CLAIM: Every windup/stretch comparison in the literature had the same pitcher throw both deliveries in one session, compared with paired within-subject tests. The variable was manipulated. F-069's `CAUSALITY: CROSS_SECTIONAL` is wrong, and the correct tag makes both halves of the finding stronger.
+NUMBERS: **SOURCE-INDEPENDENT.** All four studies of F-547 are paired within-subject designs — explicitly so in PMID 41722544 ("paired within-subjects t tests") and PMID 39295086 ("within a pitcher"). Correct tag: **MANIPULATED, WITHIN-SUBJECT, ACUTE** — the same tag F-323 already carries for the slide step, which is the same class of comparison. **Consequence: the two professional results are MANIPULATED_NULLs — the strongest grade in this file — and the two collegiate results are small genuine interventions.**
+POPULATION: n/a — a registry correction
+EVIDENCE: ESTABLISHED (the designs are stated in the abstracts)
+CAUSALITY: n/a — this finding is about causality tagging
+SOURCE: Derived in-cycle 2026-10-02 against F-069, F-323. `CORRECTED 2026-10-02` — F-069 annotated, not overwritten.
+COACHING: For the corpus, not the mound. **This corpus runs roughly 30:1 cross-sectional to intervention and treats manipulated evidence as its scarcest asset. It has been holding one of its rare manipulations in the cheap drawer since August.** The general lesson: a *between-delivery*, *between-pitch-type* or *between-condition* comparison in which one athlete performs both arms is an intervention, however observational the surrounding paper sounds. **Audit candidate: how many other registry entries describe a within-subject condition comparison and carry a CROSS_SECTIONAL tag?**
+CONFIDENCE: high
+SEE ALSO: F-069, F-547, F-323, F-211, F-519
+
+### F-549 | The 2026 study's "eight significant parameters" are ONE effect in six correlated channels plus a manipulation check
+TOPIC: windup, stretch, multiplicity, collinearity, velocity scaling, biomechanics, method, interpretation
+CLAIM: Of the eight parameters reported greater from the windup, one is a definitional compliance check and six co-vary with ball velocity, so the result is one output difference measured several ways — which both weakens the apparent weight of evidence and weakens the multiplicity objection against it.
+NUMBERS: **SOURCE-INDEPENDENT reasoning on a SNIPPET-ONLY list.** PMID 41722544 reports significantly greater from the windup: maximum shoulder horizontal adduction torque; maximum shoulder anterior force; **maximum lead knee height**; ball velocity at release; forward trunk tilt at release; maximum upper trunk angular velocity; maximum elbow extension angular velocity; maximum shoulder internal rotation angular velocity. **(a) Lead knee height is the definition of a windup — it is a manipulation check, not a finding. (b) Six of the remaining seven scale with output; this corpus prices the tightest such coupling at R² = 0.957 within an athlete (F-213 RULE 1), so if ball velocity is 1% higher these are EXPECTED to be higher. (c) Therefore 8/35 is not 8 independent tests, and the naive multiplicity expectation of ~1.75 false positives at α = .05 across 35 tests does not apply either.** ⚠️ **The significant set forms an ordered proximal-to-distal chain (knee lift → trunk → elbow → shoulder → ball) rather than a scatter, which is weak evidence AGAINST a pure multiple-comparisons artifact.**
+POPULATION: n = 18 collegiate
+EVIDENCE: EMERGING — the reasoning is sound, the input list is snippet-only
+CAUSALITY: MECHANISM — interpretation of a reported result
+SOURCE: Derived in-cycle 2026-10-02. List attributed to PMID 41722544 and re-confirmed by a second independent query naming the same journal and population.
+COACHING: **Never let "eight biomechanical variables improved" be quoted at you without asking which of them are just the ball going faster.** This is the same hazard as the geometric-identity R², one step removed: a bundle of velocity-scaled outputs presented as independent corroboration. The honest summary of the 2026 paper is one sentence: *the windup produced about 1% more ball velocity, and everything that scales with ball velocity scaled with it.*
+CONFIDENCE: high on the collinearity argument; medium on the chain-ordering argument
+SEE ALSO: F-213, F-547, F-561, F-053, F-067
+
+### F-550 | 🧮 PRICING THE WINDUP — abandoning it costs a college starter roughly 0.2 to 2.2 runs a season, centred near 0.8, the same tier as the entire running game
+TOPIC: windup, stretch, run value, priced, derivation, decision, opportunity cost, ladder
+CLAIM: Applying the collegiate windup velocity advantage to the share of pitches thrown with the bases empty, across a 90-inning season, places the stretch-only decision in the same run-value tier as the times-through-the-order question and the whole running game.
+NUMBERS: **DERIVED IN-CYCLE 2026-10-02; no source supports this, the arithmetic does.** `Runs = Δmph × w × k × (IP/9)`. **Δ** = windup advantage, bracketed **0.3 / 0.6 / 0.9 mph** (capped above by the 1.118 mph MCID the published result fell under; the ≈1% point estimate is 0.80–0.90). **w** = share of pitches with bases empty, bracketed **0.45 / 0.55 / 0.60** — ⚠️ **ASSUMED; the corpus holds no NCAA figure.** **k** = runs per mph per 9 IP, **0.15 / 0.25 / 0.40** (corpus bracket, `running-game.md` §5.2). **IP = 90.** LOW 0.3×0.45×0.15×10 = **0.20 R**; CENTRAL 0.6×0.55×0.25×10 = **0.83 R**; HIGH 0.9×0.60×0.40×10 = **2.16 R**. **CROSS-CHECK: F-384 priced a 0.5 mph full-outing average deficit at ≈1 R per 90 IP; the central case here is a 0.33 mph all-pitch average and returns 0.83 R — the two independent derivations agree inside their brackets.** LADDER: 0–2 waste pitch ~0.2 (F-280) < **windup 0.2–2.2** ≈ TTO whole question ~1.0 (F-288) ≈ running game 0.4–1.7 (F-319) < sequencing tendency 0.8–6.4 (F-296) < half an inch of framing ~8 (F-308).
+POPULATION: an 85+ college starter, ~90 IP
+EVIDENCE: ESTABLISHED as arithmetic, conditional on three bracketed inputs, one of which (w) is assumed outright
+CAUSALITY: not applicable — a valuation
+SOURCE: Computed in-cycle, `library/windup-stretch.md` §4.
+COACHING: ⚠️ **Three stacked brackets — the ORDERING is the output, the cells are not quotable** (the F-296 / F-384 discipline). **What the ordering licenses saying: "Giving up the windup is not free, and it is not trivial. It is about the size of the entire running game — which is the thing people think they're buying when they give it up, and they aren't (F-554 note / Dispute #54)."** Decide it per athlete with F-558, not by trend.
+CONFIDENCE: medium — the ordering is robust across the full bracket; the cells are not
+SEE ALSO: F-547, F-551, F-558, F-384, F-319, F-321, F-288, F-296, F-308
+
+### F-551 | ⚠️ "BELOW THE MCID" IS A CATEGORY ERROR WHEN THE DECISION IS A SEASON-LONG DELIVERY CHOICE
+TOPIC: MCID, clinical threshold, method, run value, interpretation, windup, stretch, denominator
+CLAIM: A minimal clinically important difference is a per-observation clinical threshold; the windup/stretch decision applies the same difference to roughly half of every pitch a starter throws for a season, so "below MCID" does not settle it.
+NUMBERS: **SOURCE-INDEPENDENT.** PMID 38687464 set **MCID = 0.5 m/s (1.118 mph)** for fastball velocity and concluded the significant collegiate difference was not clinically meaningful. **The same difference, applied at w = 0.55 across 90 IP at k = 0.25 R/mph/9IP, is worth up to 1.54 runs (F-550's arithmetic at Δ = 1.118).** A quantity can be simultaneously below the threshold at which a clinician calls one pitch different and above the threshold at which a season changes.
+POPULATION: n/a — a method finding
+EVIDENCE: ESTABLISHED as logic
+CAUSALITY: MECHANISM
+SOURCE: Derived in-cycle 2026-10-02.
+COACHING: **Generalize this beyond the windup. Any time a paper declares an effect "not clinically meaningful," ask: meaningful over what denominator?** Clinical MCIDs are calibrated to a patient and an episode. A pitching decision is calibrated to a season and ~1,500 pitches. **The corpus should treat a published "below MCID" as a statement about the authors' threshold, never as a statement about whether a coach should act.** ⚠️ This is the mirror image of the corpus's standing warning against over-reading small effects: here the published literature is UNDER-reading one.
+CONFIDENCE: high
+SEE ALSO: F-550, F-547, F-384, F-289
+
+### F-552 | 🚨 THE FIELD'S ONLY EMPIRICAL ARGUMENT FOR STRETCH-ONLY IS CONFOUNDED BY THE PITCH CLOCK, AND F-328 ACCOUNTS FOR THE WHOLE EFFECT
+TOPIC: windup, stretch, pitch clock, confound, natural experiment, decomposition, debunked, field claim
+CLAIM: The industry's quantitative case — that starters throw ~0.1 mph harder with runners on base than with the bases empty, therefore the stretch costs nothing — uses bases-empty-vs-runners-on as a proxy for windup-vs-stretch, and the corpus's own pitch-clock estimate consumes the entire observed difference, leaving the delivery term unidentified.
+NUMBERS: **DERIVED IN-CYCLE from a SNIPPET-ONLY input.** Reported (FanGraphs, *We Might Be Observing the Decline of the Windup*, domain blocked): **+0.1 mph with runners on vs bases empty** for the average starter. Decomposition: `Observed = Δ_delivery + Δ_clock + Δ_intent`. **F-328 estimates Δ_clock = +0.10 mph for the 5 s difference (15 s bases empty vs 20 s runners on; 0.020 mph per second).** Substituting: `+0.10 = Δ_delivery + 0.10 + Δ_intent` ⇒ **Δ_delivery(stretch − windup) = −Δ_intent ≤ 0**, since F-328 states the intent confound is positive. **DILUTION:** bases-empty pitches are a MIXTURE of windup and stretch throwers, so the observed delivery term is `w × Δ_windup` ⇒ **Δ_windup = Δ_intent / w ≈ 1.7 × Δ_intent at w = 0.6.**
+POPULATION: MLB league aggregate — the argument being examined is an MLB one
+EVIDENCE: WEAK for any magnitude (F-328's own inputs are snippet-only and it self-grades WEAK); **the identification argument does not depend on the magnitude, only on its order**
+CAUSALITY: CROSS_SECTIONAL for the raw comparison; the decomposition is quasi-experimental
+SOURCE: Derived in-cycle 2026-10-02 against F-328. FanGraphs figure SNIPPET-ONLY, domain `blogs.fangraphs.com` EGRESS_BLOCKED, page never opened.
+COACHING: **This does NOT establish that the windup is faster in games, and do not let it be quoted that way.** What it establishes is narrower and more useful: **the field's headline number cannot be read as evidence about deliveries in either direction, because a confound the corpus has already measured is the same size as the whole effect.** Say to anyone who quotes it: *"That gap is the pitch clock. You gave the stretch five extra seconds of rest and then credited the stretch."* ⚠️ **The quantity the argument actually bounds — the runners-on intent premium — has never been measured by anyone, and it would also re-price F-328 and the within-outing fade work.**
+CONFIDENCE: high on the identification problem; nil on any residual magnitude
+SEE ALSO: F-328, F-547, F-553, F-331, F-384
+
+### F-553 | 🚨 GAP — THERE IS NO WINDUP/STRETCH DATABASE. No public source records which delivery any pitch came from, in any league.
+TOPIC: gap, data, windup, stretch, measurement, proxy, Statcast, unmeasured variable
+CLAIM: Delivery type is not a tracked field in any public baseball dataset, which is why every empirical argument in the debate runs through the bases-empty/runners-on proxy, and why that proxy's confound (F-552) is unavoidable rather than lazy.
+NUMBERS: zero datasets. Confirmed across the field sweep and stated outright in the FanGraphs piece: *"there's no such thing as a windup/stretch database."* **Consequence: the sport's most visible current delivery decision is being made on named anecdotes (Strasburg, Darvish, Wood, Peacock, Festa) plus one confounded proxy.**
+POPULATION: n/a
+EVIDENCE: UNSOURCED (as an absence), snippet-level confirmation from one blocked source plus repeated negative search returns
+CAUSALITY: not applicable — a gap
+SOURCE: This cycle's field sweep, 2026-10-02.
+COACHING: For the corpus. **This is a cheap gap to close LOCALLY and an expensive one to close globally.** A college program with its own video already has the field: tag delivery on every pitch for one season and you hold a dataset nobody in the sport has. ⚠️ **Eleventh entry in the pattern of F-264, F-289, F-295, F-307, F-320, F-374, F-448, F-449, F-543 and Disputes #49/#51: a decisive measurement that needs no new equipment and nobody has made it.**
+SEE ALSO: F-552, F-555, F-543, F-324
+
+### F-554 | The stretch-only case rests on a command mechanism this corpus RETIRED in August
+TOPIC: windup, stretch, command, release point variability, repeatability, retired cue, burden of proof, F-175
+CLAIM: The universally stated reason for going stretch-only — a simpler delivery repeats better and therefore commands better — has its final link already refuted in this registry, so the switch currently pairs a measured cost against an unevidenced benefit.
+NUMBERS: **SOURCE-INDEPENDENT, against F-175.** The claimed chain is `simpler delivery → more repeatable release → better command`. **F-175** (Wakamiya et al. 2024, n = 344 MLB starters, 300,884 four-seams): release-point variability predicts K/9 (β = −0.122) and HR/9 (β = +0.168) and has **essentially no relationship with BB/9 (R² = 0.011)**. The cue *"repeat your release point and you'll command the ball"* was **RETIRED 2026-08-13**. **The chain breaks at the step where it would have to pay.** Meanwhile the cost side is priced at 0.2–2.2 R (F-550). ⚠️ **The second stated reason — controlling the running game — is VOID BY INSPECTION: the windup is used only with the bases empty, and with runners on every pitcher is already in the stretch.**
+POPULATION: the refuted link is MLB; the argument is general
+EVIDENCE: ESTABLISHED that the chain's last link is unsupported; **this is NOT a refutation of stretch-only**
+CAUSALITY: MECHANISM — logical, against a registered null
+SOURCE: Derived in-cycle 2026-10-02 against F-175 and F-171.
+COACHING: **Say the burden out loud:** *"Going stretch-only has a price tag we can estimate and a benefit nobody has ever measured — and the usual explanation for the benefit is one we already threw out. If you want to do it, do it because of how it feels and what you'll actually repeat, not because it's going to make you command the ball."* **And kill the running-game reason the moment you hear it** — it is the single most common justification offered and it is void, because it confuses the windup with the slide step (F-321, F-323).
+CONFIDENCE: high on the retired link; high that the running-game rationale is void
+SEE ALSO: F-175, F-171, F-550, F-555, F-321, F-323
+
+### F-555 | GAP — nobody has measured COMMAND from the windup versus the stretch, in any population
+TOPIC: gap, command, windup, stretch, accuracy, strike percentage, location, unmeasured outcome
+CLAIM: Every windup/stretch comparison in existence reports velocity, kinematics and kinetics; none reports strike percentage, location spread, miss distance or any other accuracy outcome.
+NUMBERS: zero accuracy outcomes across four studies (F-547). The claims circulating in the trade press that command "should be as good or better from the stretch" are reasoning from simplicity, not measurement; no supporting data surfaced in the sweep.
+POPULATION: n/a
+EVIDENCE: UNSOURCED (as an absence)
+CAUSALITY: not applicable — a gap
+SOURCE: This cycle's search, 2026-10-02.
+COACHING: **The gap is why the argument never resolves: the side with the measured outcome (velocity) favours the windup, and the side everyone argues about (command) has no outcome at all.** ⚠️ **This is the THIRD consecutive topic to arrive at command with no accuracy outcome measured** (cf. the standing instruction under Dispute #33 — the count of command-relocations was 2 as of 2026-09-25; **today makes 3, and by that instruction the pattern is now METHOD, not physiology**). See F-558 for why a program cannot close this gap either.
+SEE ALSO: F-197, F-186, F-558, F-553, F-493
+
+### F-556 | ⚠️ THE TWO COLLEGIATE POSITIVES MAY NOT BE TWO INDEPENDENT SAMPLES
+TOPIC: independence, replication, sample overlap, windup, stretch, lab orbit, verification queue
+CLAIM: Both studies that found a collegiate windup velocity advantage share authors and a research orbit, and whether their pitcher pools overlap has not been checked — so the corpus may hold one college result wearing two coats.
+NUMBERS: PMID 38687464 (2024) authors Fleisig, Slowik, Kutz, **Escamilla**; PMID 41722544 (2026) authors **Escamilla**, **Slowik**, Imamura, Thompson, Asuncion, Aguinaldo, **Fleisig**. Three shared authors. The 2024 paper analysed data "previously captured" (a retrospective lab archive); the 2026 paper used a dirt-surface mound, n = 18. **Overlap between the 2024 collegiate subgroup (n = 52) and the 2026 sample (n = 18) is UNCHECKED and cannot be checked from abstracts.**
+POPULATION: collegiate
+EVIDENCE: n/a — a flag on independence
+CAUSALITY: not applicable
+SOURCE: Author lists compared in-cycle 2026-10-02.
+COACHING: For the corpus. **"Replicated" is the word that does the most unearned work in this registry.** Two findings from one lab with three shared authors and an overlapping archive are a consistency check, not a replication. **If they overlap, the collegiate windup advantage rests on a single pitcher pool and F-547 should be downgraded.** Verification queue item 3.
+CONFIDENCE: high that the independence is unverified
+SEE ALSO: F-547, F-194, F-510
+
+### F-557 | ⚠️ NO SAMPLE VELOCITY IS RETRIEVABLE FOR ANY COLLEGIATE WINDUP/STRETCH COMPARISON
+TOPIC: sample mismatch, velocity floor, windup, stretch, unknown population, check 1
+CLAIM: Neither collegiate study reports a retrievable mean fastball velocity, so it is unknown whether either sample clears this program's 85 mph floor — and "collegiate" has meant 78 mph in this corpus before.
+NUMBERS: PMID 38687464 collegiate subgroup (n = 52) — mean velocity not retrievable. PMID 41722544 (n = 18) — mean velocity not retrievable; the effect is reported only as **≈1%**, which is scale-free. **At 80 / 85 / 90 mph the ≈1% is 0.80 / 0.85 / 0.90 mph. The PERCENTAGE survives the unknown; any mph conversion of it does not.** For reference, the ASMI professional norms sample (**F-089**, n = 288) sat at **85.2 mph IN LAB**, and lab velocity runs 5–8 mph below game velocity (F-208).
+POPULATION: unknown — the point of the finding
+EVIDENCE: n/a — a flag
+CAUSALITY: not applicable
+SOURCE: This cycle's search, 2026-10-02. Verification queue item 2.
+COACHING: **Quote the percentage, never the miles per hour.** *"About one percent"* is defensible; *"about nine tenths of a mile an hour"* silently asserts a sample velocity nobody has seen. ⚠️ Check 1 of the standing four, applied and FAILED today.
+SEE ALSO: F-547, F-208, F-323, F-483
+
+### F-558 | 🧮 DETECTION — one athlete's windup/stretch velocity gap is settled in ~25 fastballs per delivery; his command gap is not settable at all
+TOPIC: detection, power analysis, windup, stretch, protocol, measurable check, counterbalancing, asymmetry
+CLAIM: The velocity side of the delivery question is cheap to measure on one athlete and the command side is not measurable inside a program, and that asymmetry is the practical finding.
+NUMBERS: **DERIVED IN-CYCLE.** Two-condition detection, α = .05 two-sided, 80% power: `n per condition = 15.70·σ²/Δ²`, with the corpus's within-pitcher fastball SD bracket **σ = 0.8 / 1.0 / 1.2 mph (F-289)**. **Δ = 0.9 mph → 13 / 20 / 28 per delivery. Δ = 0.6 mph → 28 / 44 / 63. Δ = 0.3 mph → 112 / 175 / 251.** *(Formula validated against the corpus's own published cell: 1.0 mph at σ = 1.2 → 23 per condition, `running-game.md` §5.3. ✓)* **COMMAND SIDE: F-186 puts ~200 tracked pitches behind a 2-inch command gain; a two-delivery comparison needs that on each side — ~400 tracked pitches, ten-plus bullpens.** **DESIGN REQUIREMENT, and it is the part that costs nothing: blocks of 5, A-B-B-A order, counterbalanced across sessions** — the published studies' trial order is unknown and is the live objection against them (Dispute #53).
+POPULATION: an 85+ arm
+EVIDENCE: ESTABLISHED as arithmetic, conditional on the σ bracket
+CAUSALITY: not applicable — a protocol
+SOURCE: Computed in-cycle, `library/windup-stretch.md` §6.
+COACHING: **THE ONE THING TO USE THIS WEEK.** Two bullpens, fastballs only at competitive intent, 25 per delivery, alternating in fives, A-B-B-A, radar only. **Under ~0.3 mph or no clear signal → the delivery is not a velocity question for him. Over ~1 mph → he has a real windup advantage; do not let him give it up for a trend. In between → judgement, and F-550's table says which way his innings load pushes it.** **PHASE TWO if the gap is real:** four weeks weighting stretch volume, then re-run the identical test — **gap closes → it was stretch unfamiliarity and it is trainable; gap holds → it is mechanical.** Nobody in the literature has run phase two. **DO NOT evaluate this on command and DO NOT evaluate it in one bullpen** — one bullpen at σ = 1.0 detects about 2 mph, and the effect is half that at most.
+CONFIDENCE: high on the arithmetic; the σ bracket is the corpus's own and is itself bracketed
+SEE ALSO: F-289, F-186, F-321, F-550, F-555, F-385
+
+### F-559 | MECHANISM — the two deliveries diverge only BEFORE the landmark that decides everything, which localizes the whole effect to leg lift — and leg-lift HEIGHT has never been manipulated
+TOPIC: mechanism, windup, stretch, leg lift, knee height, foot contact, momentum, gap, RULE 2
+CLAIM: Windup and stretch differ in lead knee height and in the time from leg lift to foot contact, and are statistically indistinguishable in roughly three quarters of everything else — so whatever the velocity difference is, it is generated before foot contact, and the only non-velocity-scaled variable that differs is knee height, which nobody has ever manipulated on its own.
+NUMBERS: PMID 41722544: **74% of 35 kinematic/kinetic comparisons not significantly different**; the windup showed greater **maximum lead knee height** and required more time from leg-lift initiation to front-foot contact. PMID 38687464: 9 of 35 (26%) differed; the stretch was "significantly quicker to ball release at toe off and maximum knee height." Industry corroboration, **n = 1, vendor-published, snippet-only**: Tread Athletics reports deGrom holding **19–21 frames from peak leg lift to ball release in BOTH deliveries** despite a much slower total time from the windup. **This satisfies F-213 RULE 2 exactly — everything is decided by foot contact — and says the delivery difference is entirely upstream of it.** ⚠️ **GREP RESULT: the corpus holds NO finding on leg-lift HEIGHT as a velocity variable in any population.** The nearest entries (F-060/F-061) concern centre-of-mass velocity generated *before* peak knee height and explicitly label it a measurement, not a cue.
+POPULATION: collegiate (studies); n = 1 professional (the tempo observation)
+EVIDENCE: EMERGING for the localization; **UNSOURCED for any knee-height → velocity relationship, which does not exist**
+CAUSALITY: MECHANISM
+SOURCE: PMIDs 41722544, 38687464 (snippet-only); [treadathletics.com/tempo](https://treadathletics.com/tempo/) (snippet-only).
+COACHING: **Do NOT convert this into "lift your leg higher."** That is the exact move this corpus exists to prevent: knee height is the one variable that differs, and it has never been manipulated in isolation by anyone, so it is a marker. **What it licenses is a cleaner question for tomorrow** — if the whole windup effect lives in momentum built during leg lift, then a stretch-only pitcher may be able to recover it without the windup, by changing what he does *within* the stretch. Nobody has tested that either.
+CONFIDENCE: medium on the localization; high that the knee-height gap in the literature is real
+SEE ALSO: F-213, F-060, F-061, F-547, F-549
+
+### F-560 | 🚨 RUN CONDITION — the THIRD consecutive fully egress-blocked cycle, and the first in which WebSearch alone still produced a registry correction
+TOPIC: run condition, egress, verification, method, corpus integrity, meta
+CLAIM: On 2026-10-02 every outbound channel except WebSearch was closed for the third straight day; no primary text was opened; and the cycle nevertheless produced a causality correction and four source-independent findings using search snippets plus arithmetic against numbers already in the registry.
+NUMBERS: **WebFetch returned EGRESS_BLOCKED for every domain attempted** — `pmc.ncbi.nlm.nih.gov`, `baseballsavant.mlb.com`, `www.frontiersin.org`, `europepmc.org`, `www.jstage.jst.go.jp`, `www.mdpi.com`. **Bash `curl` returned HTTP 000 (no connection established) for all seven domains tested**, including every domain the run brief lists as WORKING. **WebSearch functioned normally and returned consistent, cross-verifiable bibliographic data across eight queries.** Source-independent outputs today: **F-548** (causality correction), **F-550** (the pricing), **F-551** (the MCID category error), **F-552** (the clock decomposition).
+POPULATION: n/a
+EVIDENCE: ESTABLISHED (directly observed)
+CAUSALITY: n/a
+SOURCE: this cycle's own tool results, 2026-10-02
+COACHING: For the corpus. **F-546's lesson held and should now be promoted to a standing rule: a blocked cycle should spend itself on arithmetic against the registry, not on accumulating snippets.** Today the single most valuable output (F-548) required no network at all — it was a tagging error visible from the abstracts the corpus already paraphrased in August. ⚠️ **The run brief's working/blocked domain list has now been wrong for three consecutive days. It should be rewritten to read: assume WebSearch only, and plan the cycle around that.**
+CONFIDENCE: high
+SEE ALSO: F-546, F-473, F-277, F-462
+
+### F-561 | The windup's extra output is paid for in shoulder kinetics — RULE 1, confirmed, and the injury line closed
+TOPIC: windup, stretch, shoulder kinetics, horizontal adduction torque, anterior force, stress cost, RULE 1, injury
+CLAIM: The same study that found more ball velocity from the windup found greater shoulder horizontal adduction torque and greater shoulder anterior force from it, and its authors conclude shoulder injury risk may be slightly lower from the stretch.
+NUMBERS: PMID 41722544, n = 18 collegiate, SNIPPET-ONLY: maximum shoulder horizontal adduction torque and maximum shoulder anterior force both significantly greater from the windup; authors' stated conclusion — "shoulder injury risk may be slightly lower using a stretch delivery ... due to overall lower shoulder kinetics." PMID 38687464 reaches a compatible conclusion. **No magnitude is retrievable for either kinetic variable, and per F-091/F-203 torque is not comparable across labs anyway.**
+POPULATION: collegiate, velocity unknown
+EVIDENCE: EMERGING, snippet-only
+CAUSALITY: MANIPULATED, WITHIN-SUBJECT, ACUTE
+SOURCE: PMID 41722544 (snippet-only).
+COACHING: **One line, as the mission requires: the windup's extra tenth or two comes with a proportionate shoulder bill, which is what RULE 1 predicts and is not a reason to abandon it** — the same bill is payable by any other route to the same velocity. It belongs in the conversation only if the athlete already has a shoulder reason to prefer the stretch. **It does not change F-550's pricing**, which is a performance valuation and does not net out health.
+CONFIDENCE: medium that the kinetic differences are real; nil on magnitude
+SEE ALSO: F-213, F-549, F-547, F-091, F-203

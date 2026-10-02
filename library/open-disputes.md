@@ -25,6 +25,8 @@
 | 10 | Lower arm slot — universal recommendation or individual? | Coach vs Biomech | 🟡 **RE-FRAMED 2026-10-01** — velocity axis resolved (F-538); torque axis WORSENED (F-540 sign contradiction); command is now the binding cost (F-542); superseded in part by #51 |
 | 51 | **Is arm slot a LEVER, or an output of the trunk wearing the arm's clothes?** | Biomech vs Coach vs Anatomy | 🔴 **OPEN — added 2026-10-01. Same shape as #47, two cycles later. Route 1 to settle it is FREE** |
 | 52 | **Is the −0.15 mph within-athlete slot cost real, or survivorship?** | Biomech vs Coach | 🟡 **OPEN — added 2026-10-01. The reversion denominator is published nowhere** |
+| 53 | **Is the ~1% collegiate windup advantage real, or an order effect?** | Biomech vs Biomech vs Coach | 🔴 **OPEN — added 2026-10-02. Decidable by reading ONE methods paragraph; cheapest open dispute in the file** |
+| 54 | **If the windup is worth ~0.8 runs and buys nothing against the running game, is stretch-only ever right?** | Coach vs Biomech | 🟡 **NARROWED — added 2026-10-02. Both sides agree on the arithmetic; the missing term is within-condition SD, present in all four datasets and published by none** |
 | 11 | The kinematic sequence | Coach vs Biomech | ⬜ **CONCEDED by the coach, 2026-08-12** |
 | 12 | **Does the velocity-optimal delivery cost command?** | Command data vs Velocity data | 🔴 **OPEN — added 2026-08-13; revisited same day** |
 | 13 | **Is stride length a velocity LEVER, or only a CORRELATE?** | Coach vs velocity report | 🔴 **OPEN — added 2026-08-13. Two failed manipulations** |
@@ -1616,3 +1618,58 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 **Dispute #49 / #50 (stride instruction confound; within-pitcher kinetic stability) — NOT moved.** Neither was touched. ⚠️ **F-528's confound did, however, appear in a new topic:** Dispute #52's "self-selected changers are confounded with expected beneficiaries" is F-528's structure transplanted from stride instruction to slot change. **That is the second venue for that confound and it suggests it is general, not stride-specific.**
 
 **Standing methodological disputes — one NEW entry.** *Is a domain blacklist sufficient protection against a content farm?* **Answered: no, decisively.** See **F-539**: accio.com's fabricated figures were restated by the search layer as findings of the Journal of Applied Biomechanics, the NCAA and the University of Florida **with no byline attached**. A blacklist only works if the byline travels with the claim. **The replacement is behavioural, not list-based: read the URL set, and re-query any number lacking author/title/DOI.** The re-query test caught a fabrication today at a cost of one search.
+
+---
+
+## Dispute #53 — 🔴 Is the ~1% collegiate windup advantage real, or an order effect? *(added 2026-10-02)*
+
+**Parties:** Biomechanist vs Biomechanist (the rare intra-agent dispute) vs Pitching-Coach
+**Status:** 🔴 OPEN — **and it is decidable by reading one paragraph**, which makes it the cheapest open dispute in this file.
+
+**The trigger.** F-547: two collegiate within-subject studies found ball velocity significantly greater from the windup (≈1%, below the 1.118 mph MCID). F-548 establishes that these are genuine within-subject manipulations, which is why the result carries weight at all.
+
+**The BIOMECHANIST's objection.** In a lab session where each pitcher throws a block of windup trials and a block of stretch trials, **if the blocks were not alternated and counterbalanced, warm-up state is perfectly confounded with delivery.** A pitcher's velocity is not stationary across a capture session — it rises through warm-up and falls with fatigue. With 3–10 trials per condition (PMID 38687464) and n = 18 (PMID 41722544), an effect of 1% is **exactly the size of a plausible order effect**.
+- **Strongest evidence:** none needed — the burden is on the design, and the design is unreadable. Neither abstract states trial order.
+
+**The counter-objection, from the same agent, and it matters:** **the direction of the bias is unknown.** If windup trials ran first, the pitcher was *less* warm and the windup advantage is an **underestimate**. If stretch ran first, it is an overestimate. **An unknown-sign confound is not a reason to discount the result in a particular direction** — it is a reason to call the magnitude unidentified.
+
+**The PITCHING-COACH's position:** the dispute is academic for his purposes, because **the protocol he will actually run (F-558) counterbalances by construction** — blocks of 5, A-B-B-A, order swapped across sessions. Whatever the published studies did, the athlete in front of him will be tested cleanly. **What the dispute decides is whether the published number is worth importing as a prior, not whether the question is answerable.**
+
+**What would settle it.** The methods paragraph of PMID 41722544 or PMID 38687464. **Verification queue item 1.** Egress-blocked on 2026-10-02.
+
+⚠️ **Note the shape:** this is the fourth consecutive cycle in which the decisive fact is one unopened paragraph in a paper whose abstract the corpus can read (cf. F-540, F-546, F-513). **The bottleneck in this program is not search. It is retrieval.**
+
+---
+
+## Dispute #54 — 🟡 If the windup is worth ~0.8 runs and buys nothing against the running game, is stretch-only ever right? *(added 2026-10-02)*
+
+**Parties:** Pitching-Coach vs Biomechanist
+**Status:** 🟡 NARROWED — **the two sides agree on the arithmetic and disagree about what is missing from it.**
+
+**The trigger.** F-550 prices abandoning the windup at **0.2–2.2 runs a college season, centred near 0.8** — the same tier as the entire running game (0.4–1.7 R, F-319). F-554 then establishes that **the stretch-only switch buys nothing against the running game**, because the windup is used only with the bases empty and with runners on everyone is already in the stretch. And the other stated benefit — simplification improving command — runs through a mechanism **F-175 retired in August**.
+
+**The PITCHING-COACH claims the ledger is therefore one-sided and the trend is a fashion.** A measured cost against an unmeasured benefit, with the most commonly cited reason for the switch (the running game) **void by inspection**.
+- **Strongest evidence:** F-550's ordering, robust across the whole bracket; F-554's inspection argument, which requires no data at all; F-175, n = 344 MLB starters.
+
+**The BIOMECHANIST concedes all of that and says the ledger is incomplete in a way that favours the other side.** The benefit is unmeasured **because the outcome that would capture it has never been collected** (F-555), not because it was looked for and found absent. **Absence of evidence, in a literature that has never once reported an accuracy outcome for this comparison, is close to uninformative.** And there is a second unmeasured benefit the coach's ledger omits entirely: **variance**. A pitcher whose windup occasionally produces a *bad* pitch pays a cost that a mean-velocity comparison cannot see. Nothing in F-547's four studies reports within-condition velocity SD, let alone location SD.
+
+> **The crux, and both agree on it: the comparison has been run on means and never on spread, in a sport where the thing coaches actually complain about is the outlier pitch.**
+
+**What would settle it.** In order of cost:
+1. **Within-condition SD** — already present in every one of those four datasets and reported by none of them. **Free to the authors, unavailable to anyone else.**
+2. The local version: run F-558's protocol and record **SD as well as mean**. A program gets both outcomes for the price of one, and the SD comparison needs no extra pitches.
+3. The real answer: ~400 tracked pitches for the command comparison (F-186), which no program will spend.
+
+**Practical status while it is open.** Both parties endorse the same instruction: **do not let an athlete abandon the windup for the running-game reason, which is void; do let him abandon it for a feel reason, which is his to weigh; and measure the velocity side either way, because it is two bullpens** (F-558).
+
+---
+
+## Revisited 2026-10-02 — did today move anything?
+
+**Dispute #51 (arm slot — lever or readout?) — NOT MOVED.** Route 1, the F-543 Savant decomposition, remains **UNRUN for a second consecutive day**: `baseballsavant.mlb.com` returned `EGRESS_BLOCKED` on WebFetch and HTTP 000 on curl. It stays the corpus's top applied item.
+
+**Dispute #52 (the −0.15 mph slot cost — real or survivorship?) — NOT MOVED**, but **a structural parallel is now on the record.** Today's F-556 raises the same independence question in a new topic: two "replicating" collegiate results sharing three authors and possibly a pitcher pool. **Dispute #52 is about survivorship in the sample; F-556 is about non-independence across samples. Both are the same underlying failure — a number that looks replicated and is not.**
+
+**Dispute #33's standing instruction — TRIGGERED.** The instruction reads: *"If a third topic ends by relocating to command without a measured accuracy outcome, the pattern is method, not physiology. Record the count at the top of each cycle's report."* The count stood at **2** (2026-09-19, 2026-09-20). **Today is the third** — F-555 records that the entire windup/stretch literature contains **zero accuracy outcomes**, and the topic's central practical question (does simplification buy command?) has no measured outcome anywhere. **By the standing instruction, the pattern is now METHOD, not physiology, and that conclusion is hereby recorded.** What it means concretely: the recurring arrival at an unmeasured command outcome is not a property of the variables being studied — it is a property of a literature that measures what motion capture emits and does not measure where the ball went.
+
+**Dispute #27's venue count — not advanced today** (no exchange rate was fitted across a competition-level gap in this cycle; F-550's `k` term is the corpus's own bracket, applied within the college level it was derived for).
