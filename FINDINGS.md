@@ -7663,3 +7663,163 @@ SOURCE: In-cycle 2026-10-04. Cross-references F-214, F-580, F-581, F-585, F-197.
 COACHING: 🚨 **NO NEW BETWEEN-START TEMPLATE WAS ISSUED ON 2026-10-04, AND THAT WAS THE POINT.** Dispute #41 was raised against the cycle's own draft recommendations and **conceded in full**: the only prescriptions issued are (a) write down the side session's objective and pitch/intent cap — which is F-185/F-356's already-established declare-the-target rule applied to Tuesday, claiming nothing new — and (b) stop announcing results the sample cannot support (F-586). **This is the first time Dispute #41 has stopped an output rather than merely being noted beside one.**
 CONFIDENCE: high
 SEE ALSO: F-214, F-580, F-581, F-585, F-197, F-586, Dispute #41
+
+---
+
+# 2026-10-05 — VELOCITY-BASED TRAINING: load–velocity profiling, bar-velocity autoregulation, and the precision claim
+
+### F-588 | ⚠️ RUN CONDITION — SIXTH CONSECUTIVE FULLY EGRESS-BLOCKED CYCLE; `peerj.com` and `journals.plos.org` added to the confirmed-blocked list
+TOPIC: run condition, egress, verification, snippet-only, network policy, corpus method
+CLAIM: No primary text was opened on 2026-10-05. Every literature number in the 2026-10-05 cycle is a search-result snippet. Two previously untested domains were confirmed blocked.
+NUMBERS: **`WebFetch` → `EGRESS_BLOCKED` on `pmc.ncbi.nlm.nih.gov`, `peerj.com`, `journals.plos.org`.** Raw `curl` through the proxy → HTTP **`000`** on `pmc.ncbi.nlm.nih.gov`, `nature.com`, `frontiersin.org`, `doi.org`, `sportrxiv.org`, `tandfonline.com` **and `example.com`**. Proxy self-reports `enabled: true`, `recentRelayFailures: []`, `bundleCoversEveryHost: true`, `hasSystemCa: true`. **Six consecutive cycles: F-546 (10-01), F-560 (10-02), F-572 (10-03), the 10-04 cycle, and this one.**
+POPULATION: n/a — a run-condition entry
+EVIDENCE: ESTABLISHED (observed in-cycle)
+CAUSALITY: not applicable
+SOURCE: In-cycle 2026-10-05. Extends F-546, F-560, F-572.
+COACHING: 🚨 **THE PROGRAM'S HIGHEST-VALUE FIX IS STILL NOT A RESEARCH TOPIC — IT IS THE NETWORK POLICY, AND THIS IS THE SIXTH DAY OF SAYING SO.** Three of this registry's recent corrections (F-520, F-522, F-510) came from opening a paper. **Today's single most consequential uncertainty — whether a bar-speed device's mean-velocity error is 0.070 or 0.01 m/s, a 7× swing that moves every number in F-594 — is one page of one paper.** ✅ **MITIGATION THAT WORKED: the cycle's highest-value outputs (F-592, F-594, F-597) are DERIVED ARITHMETIC on snippet inputs and are source-independent in their logic, though not in their inputs.**
+CONFIDENCE: high
+SEE ALSO: F-546, F-560, F-572, F-520, F-522, F-510
+
+### F-589 | VBT vs percentage-based training — the advantage is small where significant and absent on maximal strength and sprint
+TOPIC: VBT, velocity-based training, percentage-based, resistance training, meta-analysis, intervention, effect size
+CLAIM: Across two independent 2025–2026 reviews, velocity-based load prescription produces small advantages over percentage-based or traditional prescription in strength, power and jumping, and no significant advantage in maximal strength or sprint.
+NUMBERS: **Soslu et al. 2026** (*Int J Sports Sci Coach*, doi 10.1177/17479541261452541), **16 controlled trials, N = 330**: VBT > traditional for **strength ES = 0.26 (p = .03)**, **power ES = 0.30 (p = .02)**, **jumping ES = 0.36 (p = .01)**; remaining outcomes small and non-significant. **2025 BMC review** (doi 10.1186/s13102-025-01504-9, PMC12870409), trained individuals: **maximal strength SMD = 0.21, 95% CI [−0.01, 0.43], p = .064 — NOT SIGNIFICANT; sprint — no difference**; small significant advantages for jump and change-of-direction.
+POPULATION: trained individuals, athletes and non-athletes. ⚠️ **ZERO BASEBALL PLAYERS (F-600). Less selected than this program's population, which matters — see Dispute #27 reading in F-597.**
+EVIDENCE: ESTABLISHED that the advantage is small; EMERGING on its magnitude (see F-591)
+CAUSALITY: **INTERVENTION** — pooled controlled trials with real comparison arms. ⭐ **One of the few topics in this registry where the design question is not the problem; the marker/lever complaint does not arise.**
+SOURCE: Soslu et al. 2026, doi 10.1177/17479541261452541; BMC 2025, doi 10.1186/s13102-025-01504-9 (PMC12870409). ⚠️ **BOTH SNIPPET-ONLY (F-588).**
+COACHING: ✅ **THE F-439 n ≥ 97 RULE PASSES AT THE META LEVEL (N = 330, and 8,222 in F-591) — so this corpus's usual escape hatch for an inconvenient null is unavailable. The VBT null is NOT an underpowered null.** That is an unusual position for a finding in this file and it cuts against the method's marketing, not for it. **The direction is probably right because two independent reviews agree; any single NUMBER has no quality warrant behind it (F-591).**
+CONFIDENCE: medium-high on direction, low on magnitude
+SEE ALSO: F-590, F-591, F-592, F-600, F-439, F-038
+
+### F-590 | ⭐ CHECK 3 — the outcome VBT most consistently wins is one whose mph exchange rate cannot be priced in either direction
+TOPIC: VBT, jump height, CMJ, transfer, marker vs lever, check 3, outcome validity, uninformative interval
+CLAIM: VBT's largest and most replicated advantage is in countermovement-jump height. The exchange rate from CMJ height to fastball velocity is unknown, with a confidence interval spanning from meaningfully negative to meaningfully positive, so the effect size cannot be converted into an mph claim in either direction.
+NUMBERS: **VBT's jump advantage: ES = 0.36 (p = .01), Soslu 2026** — the largest of its three significant effects, and replicated as a "small significant advantage" in the 2025 BMC review. **AGAINST WHICH: F-004/F-438, CORRECTED 2026-09-22 — jump height vs fastball velocity, King 2025, n = 33 D1, r = 0.07, but the 95% CI on the population correlation is [−0.280, +0.404], an upper bound at which jump height explains 16.3% of velocity variance; at n = 33 nothing below r = 0.344 could have been reported significant.** **Wong 2023, n = 53 professionals: CMJ R² = 0.10 (p = 0.28); squat jump R² = 0.07 (p = 0.44); drop jump R² = 0.30.**
+POPULATION: VBT effect from mixed trained samples; the jump-velocity link from NCAA D1 (n = 33) and professionals (n = 53)
+EVIDENCE: ESTABLISHED that the conversion is unavailable; the underlying jump channel is an UNINFORMATIVE INTERVAL, not a null
+CAUSALITY: the VBT→jump leg is INTERVENTION; the jump→mph leg is CROSS_SECTIONAL and uninformative. **The chain is broken at the second link.**
+SOURCE: Derived in-cycle 2026-10-05 from F-004/F-438 (King 2025, PMID 39446825) and Wong 2023 (*JSCR* 37(4):823-828), against Soslu 2026.
+COACHING: 🚨 **DO NOT SAY "VBT IMPROVES ATHLETIC PERFORMANCE" TO A PITCHER AND LET HIM HEAR mph.** The number is real, adequately powered, and does not measure what that sentence implies for this sport. ⭐ **AND THE MISMATCH IS SHARPER THAN "UNKNOWN": the ONE jump variable that tracks velocity is the reactive one — drop jump, R² = 0.30 — and no VBT review reports drop jump or RSI as an outcome at all. VBT's measured benefit sits on the jump variable that does not track, and is silent on the one that does.** F-006 (no RSI-training intervention with a velocity outcome, anywhere) is untouched and is the live branch off this dead end.
+CONFIDENCE: high — this is a Check-3 result, not a power complaint
+SEE ALSO: F-004, F-438, F-439, F-006, F-589, F-597
+
+### F-591 | 🚨 94% of the VBT review literature is formally rated 'Critically low' confidence
+TOPIC: VBT, AMSTAR 2, evidence quality, systematic reviews, meta-research, certainty of evidence, publication practice
+CLAIM: A formal appraisal of the entire chronic-VBT review literature rates 16 of 17 reviews at 'Critically low' overall confidence, and only a quarter used any system to grade certainty of evidence.
+NUMBERS: ***PLOS One* 2026, doi 10.1371/journal.pone.0342992 (PMC12915968). 17 systematic reviews of chronic VBT, published 2019–2025, 10 countries, 8,222 participants, appraised with AMSTAR 2. 16 of 17 (94%) rated 'Critically low'; 1 of 17 (6%) rated 'Low'. ZERO rated moderate or high. Only 4 of 17 (24%) used a formal certainty-of-evidence system.** A further reported breakdown: **3% considered decent and clinically useful, 17% decent but not useful.**
+POPULATION: n/a — meta-research on the review layer
+EVIDENCE: ESTABLISHED (a formal appraisal with a validated instrument)
+CAUSALITY: not applicable
+SOURCE: *PLOS One* 2026, doi 10.1371/journal.pone.0342992 — PMC12915968. ⚠️ **SNIPPET-ONLY; `journals.plos.org` and `pmc.ncbi.nlm.nih.gov` both EGRESS_BLOCKED this cycle (F-588).**
+COACHING: ⚠️ **HOLD BOTH FACTS AT ONCE AND NEVER QUOTE ONE WITHOUT THE OTHER: the VBT comparison literature is ADEQUATELY POWERED (F-589) and its review layer is formally rated NEAR-WORTHLESS.** The honest reading: the **direction** is probably right because two independent reviews agree on it; **any number quoted from a VBT review — including F-589's three effect sizes — has no quality warrant behind it.** ⭐ **THIS IS A RARE AND VALUABLE OBJECT FOR THIS CORPUS: a topic where somebody has already done the quality audit this file keeps having to improvise. The 24% figure is the one to remember — three-quarters of the reviews never asked how certain their own evidence was.**
+CONFIDENCE: high on the appraisal's existence and headline; the 3%/17% sub-breakdown is snippet-only and less securely attributed
+SEE ALSO: F-589, F-590, F-439, F-382
+
+### F-592 | ⭐⭐ THE PRECISION CLAIM INVERTED — the velocity-predicted 1RM is roughly TWICE as imprecise as simply testing the lift
+TOPIC: VBT, load-velocity profile, 1RM prediction, standard error of estimate, precision, autoregulation, derived
+CLAIM: VBT's central selling claim is that bar speed knows today's true strength better than a stale tested max. Its own validation literature reports the opposite: the velocity-predicted 1RM carries about twice the error of a directly tested 1RM.
+NUMBERS: **Individualised load–velocity profiles: pooled STANDARD ERROR OF ESTIMATE ≈ 9.8% of 1RM** (*Sports Medicine* 2023, doi 10.1007/s40279-023-01854-9, IPD meta-analysis, **434 participants, 20 studies**). **AGAINST: a tested 1RM's own between-trial individual variation = −5.6% to +4.8%**, while **the best velocity-predicted method's individual variation = −5.5% to +27.8%**. Best-case prediction (5 warm-up sets up to 90% 1RM): **ICC = 0.92, SEM = 8.6 kg, CV = 5.7%.** **DERIVED IN-CYCLE: on a 400 lb squat, ±9.8% is ±39 lb; a 5% load increment is 20 lb; the prediction error is therefore ≈ TWO LOAD STEPS WIDE — which is the entire resolution the method exists to provide.**
+POPULATION: trained resistance-training subjects across 20 studies. ⚠️ **No pitchers; no baseball.**
+EVIDENCE: ESTABLISHED on the SEE (n = 434 pooled, passes F-439 comfortably); the 2× ratio is DERIVED arithmetic
+CAUSALITY: not applicable — a measurement-property finding
+SOURCE: *Sports Medicine* 2023, doi 10.1007/s40279-023-01854-9; PMID 27669192; PMC8309813. ⚠️ **ALL SNIPPET-ONLY (F-588).** Arithmetic derived in-cycle.
+COACHING: **TEST THE MAX. PROGRAM PERCENTAGES. DO NOT PRESCRIBE LOAD OFF A PREDICTED 1RM.** The thing VBT exists to replace is about twice as precise as the replacement. **This is a coach-facing decision and the pitcher should never hear about it.** **On the floor the failure looks like two pitchers on adjacent racks at loads 40 lb apart because the profile fitted differently that morning.** ⚠️ **WHAT IS *NOT* CLAIMED: this says nothing against using the device for within-session fatigue (F-599), which needs no 1RM extrapolation at all.**
+CONFIDENCE: high on the SEE and the direction; medium on the exact 2× ratio, which compares a pooled SEE against a reported individual-variation range rather than two like quantities
+SEE ALSO: F-593, F-594, F-599, F-439
+
+### F-593 | 🚨 The anchor of the entire method is its least reliable number — V₁RM has ICC = 0.42 and CV = 22.5%
+TOPIC: VBT, minimum velocity threshold, V1RM, reliability, ICC, measurement error, mechanism
+CLAIM: Every load–velocity extrapolation to a 1RM passes through the velocity at which a true 1RM moves. That quantity is unreliable between trials, while the submaximal velocities the device measures directly are reliable. The device is trustworthy; its anchor is not.
+NUMBERS: **V₁RM = 0.24 ± 0.06 m/s; ICC = 0.42; SEM = 0.05 m/s; CV = 22.5% between trials.** **CONTRAST, same literature: mean and peak velocity across submaximal test loads — ICC ≥ 0.801, CV ≤ 2.36%.** Reported consequence in the source literature: *"poor within-participant reliability of V₁RM has resulted in large random error in modelled estimates."*
+POPULATION: trained resistance-training subjects. ⚠️ **No pitchers.**
+EVIDENCE: ESTABLISHED — a reported reliability statistic, consistent across the retrieved sources
+CAUSALITY: not applicable — a measurement-property finding
+SOURCE: load–velocity reliability literature as surfaced 2026-10-05 (PMID 27669192; PMC8309813 model comparison). ⚠️ **SNIPPET-ONLY (F-588).**
+COACHING: **ICC = 0.42 is not "acceptable with caveats" — it is a measurement that disagrees with itself.** ⭐ **THIS IS THE MECHANISM UNDER F-592's 9.8%: the profile is reliable everywhere except at the one point it is extrapolated to.** **AND IT IS A PROPERTY OF THE ATHLETE, NOT THE DEVICE** — bar velocity at a fixed load reads out strength PLUS arousal, caffeine, sleep, warm-up completeness, intent, bar-path skill and shoe friction, which are the same inputs this corpus has shown move a countermovement jump 2–5% within a single day. **The method's premise requires the non-strength inputs to be small. CV = 22.5% is those inputs showing up in the data.**
+CONFIDENCE: medium-high — figures consistent across retrieved snippets, no primary text opened, and no n was retrievable for the V₁RM reliability sample specifically (F-439 cannot be applied to it)
+SEE ALSO: F-592, F-594, F-599
+
+### F-594 | ⭐ DERIVED — the device's single-set error EXCEEDS the smallest worthwhile change, and MDC₉₅ is ~4× it
+TOPIC: VBT, measurement error, MDC, smallest worthwhile change, detection, derived, GymAware, linear position transducer
+CLAIM: A bar-speed device's in-use typical error for mean velocity is larger than the published smallest worthwhile change, so a single-set reading cannot resolve a meaningful change. Averaging repetitions fixes it; nothing else does.
+NUMBERS: **GymAware mean-velocity TYPICAL ERROR = 0.070 m/s in use (ICC = 0.91, CV = 7%). Published SMALLEST WORTHWHILE CHANGE = 0.05 m/s for mean velocity** (0.10 m/s for peak velocity), free-weight back squat. **THE ERROR EXCEEDS THE SWC.** **DERIVED IN-CYCLE, same arithmetic as F-566's 6° hip-IR protocol: MDC₉₅ = 1.96 × √2 × TE = 1.96 × 1.414 × 0.070 = 0.194 m/s** — **~4× the SWC**. Scale bar: the usable squat velocity range from ~40% to ~90% 1RM is roughly **0.4–1.2 m/s (~0.8 m/s wide)** and VBT zones run **~0.1 m/s per 5% of 1RM**, so **0.194 m/s ≈ two zones ≈ ~10% of 1RM.** **AVERAGING: MDC shrinks as √k — 3 observations → 0.112 m/s; 8 → 0.069 m/s.**
+POPULATION: n/a — a device property, free-weight back squat and bench press
+EVIDENCE: ESTABLISHED on the input figures; the MDC and the ~10%-of-1RM conversion are DERIVED
+CAUSALITY: not applicable
+SOURCE: GymAware/Kinetic PowerTool validity-reliability reports (PMC6316460; kinetic.com.au/pdf/GA-Report2.pdf); SWC thresholds from the free-weight back-squat velocity literature. ⚠️ **SNIPPET-ONLY (F-588).** MDC arithmetic derived in-cycle.
+COACHING: **NEVER REACT TO ONE SET. The first three reps are the measurement.** At a three-rep average the MDC is **0.112 m/s**, which is readable against a within-set velocity loss of 15–20% (F-599) and still NOT readable against a day-to-day readiness swing. **The failure looks like a coach chasing one slow rep into a deload, or a pitcher who warmed up less thoroughly on Tuesday and reads it as fatigue.** 🚨 **MEASUREMENT FLAG, REGISTERED HONESTLY AND NOT RESOLVED: the searches returned TWO mean-velocity error figures for the same device — 0.070 m/s ("typical error") and 0.01 m/s ("controlled testing") — a 7× discrepancy that moves every number in this entry, and the vendor-facing material quotes the small one.** The reconciliation is almost certainly bench-rig accuracy against a known displacement versus in-use reliability with a human lifting free weights, **but no primary text could be opened to confirm it (F-588).** This entry uses the larger figure because **CV = 7% independently corroborates it** (7% of a 0.7 m/s working velocity ≈ 0.049 m/s). **If 0.01 m/s is the correct in-use figure, this finding is WITHDRAWN. Top of the verification queue.**
+CONFIDENCE: medium-high on the arithmetic given the inputs; the input itself carries an unresolved 7× flag
+SEE ALSO: F-592, F-593, F-599, F-566, F-585
+
+### F-595 | ⚠️ The one VBT trial with a THROWING outcome exists — and it has no control group and reports an implausible magnitude
+TOPIC: VBT, throwing velocity, handball, uncontrolled pre-post, practice effects, sample mismatch, intervention, design error
+CLAIM: Contrary to this cycle's own prior expectation, a controlled VBT trial with a throwing-velocity outcome does exist. It has two active arms and no no-training control, and its reported gain is not physically attributable to the training.
+NUMBERS: **Abuajwa O, Hamlin M, Hafiz E, Razman R (2022), *PeerJ* 10:e14049, PMID 36193438, PMC9526411. n = 22 university handball players**, randomised to two arms, **3×/wk × 5 weeks, NO NO-TRAINING CONTROL.** **G1: bar speed 0.75–0.96 m/s (≈ 60% 1RM). G2: 1.03–1.20 m/s (≈ 40% 1RM).** Results **in both arms**: skeletal muscle mass **+3.1% / +3.5%** (p < .01); 1RM **+15.5% / +15.0%** (p < .01); **throwing velocity +18.7% / +18.3% (p < .01).** Authors' own conclusion: both velocities "elicited similar changes." **DERIVED: 18.7% of 85 mph = +15.9 mph in five weeks. Priced on handball's own velocity (45.9–51.3 mph, Dispute #29) it is still ≈ +9 mph in five weeks in trained collegiate athletes.**
+POPULATION: ⚠️ **SAMPLE MISMATCH — DIRECTIONAL ONLY, AND BARELY THAT. Collegiate handball, ~48 mph, against an 85 mph floor. Dispute #29.**
+EVIDENCE: WEAK — a randomised two-arm comparison with no counterfactual for the within-arm gain
+CAUSALITY: **MANIPULATED but UNCONTROLLED for the pre-post gain; INTERVENTION only for the between-arm contrast, which is null and underpowered.**
+SOURCE: Abuajwa et al. 2022, *PeerJ* 10:e14049, PMID 36193438. ⚠️ **SNIPPET-ONLY — `peerj.com` and `pmc.ncbi.nlm.nih.gov` both EGRESS_BLOCKED this cycle (F-588).**
+COACHING: 🚨 **DO NOT QUOTE +18.7% IN ANY DIRECTION.** Four defects, the first two fatal: **(1) no control group** — the exact design this corpus corrected F-039 for and corrected the Mah 2011 sleep-extension entry for; a two-active-arm pre-post cannot separate training from familiarisation, regression to the mean, or a maximal-throw test the subjects had never performed before baseline. **(2) The magnitude is physically implausible at either population's velocity, and BOTH ARMS PRODUCED IT IDENTICALLY — an effect appearing equally in two arms that differ by 20% of 1RM is not attributable to what distinguishes them.** **(3) It is mislabelled — see F-596.** **(4) n = 22, 11 per arm: the between-arm null fails the F-439 n ≥ 97 rule by a factor of ~9 and is a detection floor, not an absence.** ✅ **WHAT SURVIVES: the existence of the trial, and its own stated conclusion that two load zones 20% of 1RM apart produced indistinguishable throwing gains. Nothing about magnitude.**
+CONFIDENCE: high that the study exists with this design; the magnitude is registered only as a number not to use
+SEE ALSO: F-596, F-039, F-439, F-600, Dispute #29
+
+### F-596 | 🚨 TYPE B — the field's only "VBT improves throwing" citation contains no percentage-based arm
+TOPIC: VBT, type B failure, missing comparison, mislabelled design, null audit taxonomy, citation drift
+CLAIM: Abuajwa 2022 is cited as evidence that velocity-based training improves throwing velocity. Both of its arms were assigned by velocity; what differs between them is load. It never ran the contrast the field attributes to it.
+NUMBERS: **G1 ≈ 60% 1RM (0.75–0.96 m/s) vs G2 ≈ 40% 1RM (1.03–1.20 m/s). NO PERCENTAGE-BASED ARM. NO TRADITIONAL-PRESCRIPTION ARM.** It is a **LOAD-ZONE comparison** in which velocity was merely the assignment mechanism in both arms. **Therefore it cannot answer "is VBT better than percentages" — the comparison is absent, not null.**
+POPULATION: n/a — a design-classification finding
+EVIDENCE: ESTABLISHED from the study's own described arms
+CAUSALITY: not applicable
+SOURCE: Derived in-cycle 2026-10-05 from Abuajwa et al. 2022 (PMID 36193438) against the 2026-09-30 null-audit taxonomy. ⚠️ **SNIPPET-ONLY (F-588).**
+COACHING: ⭐ **THIS IS TYPE B FROM THE 2026-09-30 AUDIT — *the study never ran the comparison the corpus or the field attributes to it* — found in a FRESH literature and against the FIELD rather than against this corpus.** It is the same error as **F-044's missing normal-stride condition**, which was item 2 of "if you only read five things" and referenced 23 times before it was caught. ✅ **AND IT VINDICATES THE AUDIT'S NEW ORDER OF OPERATIONS: (1) what was the dependent variable? (2) WHICH CONTRASTS WERE ACTUALLY RUN? (3) was it fitted across a level gap? (4) then power.** Question 2 caught this in one reading; a power check would have passed it straight through as "a randomised trial, n = 22, underpowered." **Type B is now found in four separate literatures (F-044, F-508, F-510, F-596) in six weeks and should be treated as a BASE RATE, not a curiosity.**
+CONFIDENCE: high
+SEE ALSO: F-595, F-044, F-508, F-510, F-522, F-519
+
+### F-597 | ⭐⭐ The velocity-loss trade-off is real, and the standard reason for choosing a LOW threshold does not apply to a pitcher
+TOPIC: VBT, velocity loss threshold, hypertrophy, CMJ, body mass, trade-off, dose-response, derived, inversion
+CLAIM: Within-set velocity loss trades hypertrophy against jump and sprint, consistently and in a dose-dependent way. The field's standard advice is to choose a low threshold in order to protect jump and sprint. For a pitcher that justification fails, because the protected outcome is the one this corpus cannot price and the sacrificed outcome is the one with the strongest registered link to velocity.
+NUMBERS: **THE TRADE-OFF.** *Sports Medicine* 2022 (doi 10.1007/s40279-022-01754-4): VL threshold choice **does not affect strength or muscle-endurance gains**; **higher VL superior for hypertrophy; lower VL superior for jumping, sprinting and velocity against submaximal loads.** *Int J Sports Sci Coach* 2024 (doi 10.1177/17479541241244581): **VL ≤ 25% > VL > 25% for strength**, primarily when additional exercises were performed alongside. Proximity-to-failure meta: **VL > 25% likely greater hypertrophy than < 20%**, similar to 20–25%. **Rodiles-Guerrero et al., 8 wk, trained men (22.7 ± 1.9 yr), squat 69–85% 1RM: higher VL (> 20%) maximised hypertrophy; 10% and 20% VL gave the GREATEST CMJ gains, while 30% and 40% gave considerably less.** **THE INVERSION, DERIVED: low VL buys CMJ height — mph exchange rate UNKNOWN, 95% CI [−0.280, +0.404] (F-004/F-438) — and sprint, for which NO velocity link is registered anywhere in this corpus. High VL buys hypertrophy, i.e. body mass (r = 0.58, p = .0004) and lean mass (r = 0.52), n = 33 D1 (F-001, F-002) — the strongest physical correlates in the entire velocity literature.**
+POPULATION: ⚠️ **EVERY VL STUDY IS TRAINED NON-THROWERS, mostly 20-something men in squat and bench. NO VL STUDY HAS EVER BEEN RUN IN BASEBALL PLAYERS (F-600).** The mass correlations are NCAA D1, n = 33.
+EVIDENCE: ESTABLISHED on the trade-off's direction (consistent across >2 independent samples); the pitcher-specific inversion is DERIVED
+CAUSALITY: the VL→adaptation leg is **INTERVENTION**; the mass→mph leg is **CROSS_SECTIONAL and never manipulated**
+SOURCE: Derived in-cycle 2026-10-05 from the VL literature above against F-001, F-002, F-004/F-438, F-504. ⚠️ **ALL LITERATURE INPUTS SNIPPET-ONLY (F-588).**
+COACHING: 🚨 **STATED AT ITS CORRECT STRENGTH AND NO STRONGER. THIS IS NOT "CHASE HYPERTROPHY AND YOU WILL THROW HARDER."** F-504 is explicit: **there is no within-athlete mass-change → velocity-change slope of any kind, in any population, at any level.** The mass correlation has **never been manipulated**. **WHAT IS CLAIMED IS STRICTLY NARROWER AND STRICTLY NEGATIVE: the standard reason for paying the cost of a low VL threshold is not a reason for a pitcher. That is a reason to stop paying a cost, not a promise of a return** — and a VL threshold must take SOME value, so there is no null option to default to. ✅ **THE PRESCRIPTION: 20–25% rather than 10–15% on the main lower-body lift in an accumulation block. THE CHECK IS A SCALE AND A DEXA/BodPod, NOT A RADAR GUN** — the mph claim is unavailable at any sample size this program can reach (F-586: ≈32 paired starts for 0.5 mph against 15–17 starts in a season). **AND HE SHOULD HEAR THE CAVEAT OUT LOUD: we are choosing this because the usual reason not to does not apply to pitchers, not because anyone has shown it adds a tick.** → **Dispute #60.**
+CONFIDENCE: medium-high on the trade-off; medium on the inversion, which is an argument about which of two unpriced channels to prefer and is logged as a dispute
+SEE ALSO: F-001, F-002, F-004, F-438, F-504, F-598, F-599, F-586, Dispute #60
+
+### F-598 | ⚠️ CHECK 4 — "low velocity loss improves velocity against submaximal loads" is close to a training-specificity identity
+TOPIC: VBT, velocity loss, check 4, identity, outcome validity, training specificity, circularity
+CLAIM: One of the three outcomes the velocity-loss literature credits to low thresholds is nearly a restatement of the intervention, and should not be counted as independent evidence alongside jump and sprint.
+NUMBERS: The reported low-VL benefit set is **jumping, sprinting, and "velocity against submaximal loads."** **Training at a low velocity-loss threshold means, by construction, spending reps at high bar velocities. The outcome measured is bar velocity at submaximal load. That is the test being the training.**
+POPULATION: n/a — an outcome-validity finding
+EVIDENCE: ESTABLISHED as a structural observation
+CAUSALITY: not applicable
+SOURCE: Derived in-cycle 2026-10-05 from *Sports Medicine* 2022 (doi 10.1007/s40279-022-01754-4). ⚠️ **SNIPPET-ONLY (F-588).**
+COACHING: **COUNT TWO BENEFITS FOR LOW VL, NOT THREE.** This is not a geometric identity in the **F-534** sense — it is not algebraically forced — but it is the same CLASS of error: **an outcome that cannot easily fail to move in the direction of the assignment.** ⚠️ **AND IT MATTERS FOR F-597's LEDGER: strip the circular outcome and the low-VL side of the trade-off is carrying CMJ height (unpriceable for mph) and sprint (no registered velocity link), which is a thinner case than the three-item list makes it look.** **FOURTH Check-4 catch in the registry after F-534 and the R² = .945 identity.**
+CONFIDENCE: medium-high — the reasoning is structural, but no primary text was opened to confirm how that outcome was operationalised, and if it was measured at a FIXED absolute load well below the training zone the circularity weakens
+SEE ALSO: F-597, F-534, F-590
+
+### F-599 | ⭐ The one defensible operational use — velocity loss as a set/session termination cue, and it is F-086 with detection arithmetic
+TOPIC: VBT, velocity loss, autoregulation, session termination, F-086, detection, measurable check, industry practice
+CLAIM: Using a bar-speed device to decide when to end a set or a session is the only use that survives this cycle, because it is the one use where the lever and the measurement are the same physical quantity inside a single session — requiring no 1RM extrapolation, no V₁RM, and no day-to-day stability.
+NUMBERS: **DERIVED IN-CYCLE. At a 0.7 m/s first-rep mean velocity, a 20% velocity loss is a 0.14 m/s difference. Against F-594's single-measure MDC₉₅ of 0.194 m/s that is NOT READABLE. Against a three-rep-averaged MDC of 0.112 m/s it IS readable.** **AGAINST F-086 (Driveline 2025): ~6% weekly velocity-decline target; 1–9% decline = productive stress; ≥ 10% = exhaustion needing 2–3 weeks; session termination at 4–6% (frequency work) or 6–10% (capacity work).** **THE RESEARCH VL THRESHOLDS THAT CHANGE ADAPTATIONS ARE 10–40% WITHIN-SET — an order of magnitude above F-086's 4–10% ACROSS-SESSION figures. THESE ARE DIFFERENT QUANTITIES AND MUST NEVER BE COMPARED DIRECTLY.**
+POPULATION: VL thresholds from trained non-throwers; F-086 from industry practice, population unspecified. **Neither validated in a pitcher.**
+EVIDENCE: EMERGING — the structure is supported, the scale is not transferable, and nothing is validated in this population
+CAUSALITY: **INTERVENTION** for the VL→adaptation link; the detection arithmetic is DERIVED
+SOURCE: Derived in-cycle 2026-10-05 from F-594, the VL literature, and F-086 (Driveline Baseball 2025). ⚠️ **Literature inputs SNIPPET-ONLY (F-588); `drivelinebaseball.com` is a standing blocked domain.**
+COACHING: **"The set ends when the bar slows down by about a fifth, not when you hit a number."** ✅ **THE DRILL: first-three-rep average vs last-three-rep average; terminate at the assigned VL. THREE-REP AVERAGING IS WHAT MAKES THIS USE READABLE — one rep does not (F-594).** **The failure looks like three grinding reps at the end of a set that the rep target demanded and the bar speed had already vetoed.** **THE MEASURABLE CHECK: log the ACTUAL VL at which sets end. If it is scattering 8–35%, you do not have a threshold — you have a rep scheme with a device next to it.** ⭐ **F-086's STATUS UPDATED, NOT OVERWRITTEN: grade unchanged at EMERGING; its "no validation study" clause is narrowed to "no validation study IN A PITCHER," and its across-session scale is now known to be a different quantity from the within-set thresholds the research supports.**
+CONFIDENCE: medium-high on the use case; low on any specific threshold number for this population
+SEE ALSO: F-086, F-594, F-597, F-600
+
+### F-600 | GAP — no velocity-based-training or velocity-loss study has ever been run in baseball players, at any level
+TOPIC: gap, VBT, velocity loss, baseball, confirmed absent, population mismatch, literature absence
+CLAIM: Searched this cycle across four query angles. No VBT or velocity-loss-threshold intervention has ever been run in baseball players of any level, and the only throwing-outcome trial in the whole topic is handball with no control group.
+NUMBERS: **ZERO baseball VBT studies.** The nearest existing objects: **(a)** Abuajwa 2022 — **handball, n = 22, no control group** (F-595, F-596); **(b)** the general VBT comparison literature — **16 trials, N = 330, zero baseball players** (F-589); **(c)** the VL-threshold literature — **trained non-throwers, squat and bench, zero baseball players** (F-597); **(d)** Driveline's 2017 VBT article and 2025 fatigue protocol — **industry practice, no validation study** (F-086). **AND A SEPARATE ABSENCE WORTH NAMING: no within-athlete, day-to-day SD of mean bar velocity at a fixed load has ever been published for a pitcher — SEVENTEENTH entry in the F-264 / F-289 / F-295 / F-307 / F-320 / F-336 / F-348 / F-363 / F-374 / F-385 / F-396 / F-457 / F-471 / F-493 / F-504 / F-507 pattern: already in the data of every program that owns a device, gating the entire readiness-monitoring use case, published by nobody. FOUR WEEKS OF LOGGING ONE LIFT.**
+POPULATION: n/a — a confirmed literature absence
+EVIDENCE: high confidence that the gap exists (four-angle search)
+CAUSALITY: not applicable
+SOURCE: In-cycle four-query sweep 2026-10-05.
+COACHING: **SAY IT OUT LOUD TO ANYONE SELLING THIS: there is no baseball VBT study. Not a weak one — none.** ⚠️ **AND NOTE WHAT IS *NOT* THE PROBLEM HERE, BECAUSE IT BREAKS THIS CORPUS'S USUAL PATTERN: the general VBT literature is adequately powered and correctly designed (F-589). The gap is not that nobody ran the experiment — it is that nobody ran it on a pitcher, and nobody has built the bridge from CMJ height to mph that would let the existing experiments be read across (F-590).** ✅ **THE CHEAPEST THING ANY PROGRAM CAN DO IS (d'): log the actual VL at set termination and the day-to-day SD of first-three-rep bar velocity for one lift, for four weeks. That retires the readiness bracket and costs nothing.**
+CONFIDENCE: high
+SEE ALSO: F-038, F-086, F-589, F-595, F-597, F-599, F-504

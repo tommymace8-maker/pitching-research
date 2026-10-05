@@ -1752,3 +1752,69 @@ Dispute #33 charges the corpus with a reflex: when a topic's headline outcome fa
 - **F-197 (no bullpen-to-game command transfer evidence exists in baseball) — UNMOVED BY THE LITERATURE, MOVED BY THE FIELD.** No study closed it; F-580 widens it to the whole weekly schedule. But the Marlins' program (F-583) is the first organisation-scale attempt to *act* on it, with a stated transfer-specificity rationale from a named director of pitching. **Watch item: if Miami publishes or leaks a staff-level before/after, it becomes the best evidence that will exist on F-197 for years.**
 - **Dispute #43 (the standardized-effect import fallacy) — REACHED AGAIN, AND THE CHALLENGE LANDED AGAIN.** Dispute #58 is #43 in workload clothing: a sublinear curve fitted in n = 10 high-school pitchers, read above its fitted range, converted into a percentage band for an 85+ arm. **Point estimate withdrawn, direction defended on the fact that all three disagreeing datasets share the sign.** Third cycle running that #43 has caught something. It is becoming the corpus's most productive methodological dispute.
 - **Dispute #27 (restriction of range) — NOT REACHED, and the reason is worth recording.** Today's two velocity findings (F-577, F-579) are **differences of means, not correlations.** #27 has nothing to bite on in a difference-of-means design. **That is a quiet argument in favour of preferring such designs in a selected population**, and it is the first time the corpus has reached a cycle where #27 simply does not apply.
+
+---
+
+## Dispute #59 — 🟡 Is the ±10%-of-1RM convergence two independent error routes, or one error counted twice? *(added 2026-10-05)*
+
+**THE PITCHING-COACH'S CHARGE.** F-592 and F-594 are presented as mutually corroborating: **Route A** (the load–velocity profile's pooled SEE, **≈ 9.8% of 1RM**, 434 participants, 20 studies) and **Route B** (the device's single-set **MDC₉₅ = 0.194 m/s**, which converts to **≈ 10% of 1RM** at ~0.1 m/s per 5% 1RM). Landing on the same number from two directions is doing heavy rhetorical work in the 2026-10-05 cycle.
+
+**But they may not be independent.** If Route A's prediction error is substantially *caused* by measurement noise in the very velocities the profile is fitted to, then both routes are measuring the same device error twice and the "convergence" is arithmetic, not corroboration. **This corpus has been burned by precisely this** — a claimed **R² = .945** that turned out to be a geometric identity restated, and F-534's release-height identity. **A number that confirms itself is the failure mode this file exists to catch.**
+
+**THE BIOMECHANIST CONCEDES PART AND DEFENDS PART.**
+
+**CONCEDED: the routes are not fully independent, and the word "convergence" has not earned its keep.** Device noise propagates into the profile fit. Some unknown fraction of the 9.8% is Route B's error wearing Route A's clothes. The cycle's own text has been weakened accordingly.
+
+**DEFENDED: they are not the same number either.** Route A contains at least two error sources Route B does not:
+1. **V₁RM's biological unreliability (F-593: ICC = 0.42, CV = 22.5%)** — a property of the *athlete*, not the instrument. A perfect device would still inherit this.
+2. **Model-form error** from extrapolating a linear or near-linear fit to a load nobody in the session actually lifted.
+
+Route B contains only within-session device-plus-performer noise.
+
+**THE REGISTERED STATEMENT, which is weaker than the cycle's first draft:** both routes land near **±10% of 1RM**; they share an **unknown fraction** of their error; **the fraction cannot be partitioned without opening the papers**, which six consecutive egress-blocked cycles have made impossible (F-588).
+
+**WHY IT IS 🟡 AND NOT 🔴 — the action is robust to the dispute.** The decision this number feeds is *"should I prescribe load off a predicted 1RM or off a tested one?"* **±10% and ±7% both exceed a 5% load step, so the answer (test the max, program percentages) is unchanged under either reading.** Only the ability to quote a clean figure is at stake.
+
+**THIS IS DISPUTE #41's COUSIN.** #41 asks whether an unmeasurable magnitude can license a recommendation. #59 asks whether an *undecomposable* magnitude can license a headline. **The same answer serves both: register the direction, refuse the clean number, and check whether the action moves. Here it does not.**
+
+**WHAT WOULD SETTLE IT.** The IPD meta-analysis (doi 10.1007/s40279-023-01854-9) almost certainly reports a variance decomposition, or at minimum enough per-study detail to estimate how much of the SEE survives when the device is near-perfect. **One paper, one table. Blocked for six days.**
+
+**STATUS: OPEN on the decomposition, CONCEDED on the framing, and the coaching action is unaffected either way.**
+
+---
+
+## Dispute #60 — 🟡 Does F-597's velocity-loss recommendation smuggle a cross-sectional correlation into an instruction? *(added 2026-10-05)*
+
+**THE ANATOMIST'S CHARGE — and it is the most serious challenge raised in the 2026-10-05 cycle.** F-597 recommends a **20–25%** velocity-loss threshold over 10–15%, on the reasoning that low VL protects **CMJ height** (mph exchange rate unpriceable, CI **[−0.280, +0.404]**) while high VL buys **hypertrophy**, i.e. body and lean mass (**r = 0.58** and **r = 0.52** against velocity, n = 33 D1).
+
+**The coach then told a pitcher *"the goal is you weigh more in February."***
+
+**That is F-001 phrased as an instruction.** F-001 is **cross-sectional, n = 33**, and **F-504 is explicit that no within-athlete mass-change → velocity-change slope exists in any population at any level.** **This is the stride-length failure mode exactly, and this corpus exists because of it.** Stride length and extension both collapsed this way. **INDEX.md currently flags F-049 (open pelvis at foot contact) as sitting in the same position.** The charge is that F-597 is the next one in the queue.
+
+**THE COACH'S DEFENCE, and it is narrow on purpose.**
+
+**The instruction issued is not "gain weight to throw harder."** It is: *"between two VL thresholds you must choose anyway, the usual tie-breaker does not apply to you."*
+
+**The load-bearing structural point: a VL threshold must take some value. There is no null option.** Every program already picks one, and the field currently picks low on a justification — protect CMJ and sprint — whose downstream link to mph is an interval spanning zero, and which F-598 shows is carrying only two real outcomes rather than three. **Declining to pay a cost for an unpriceable benefit is not a causal claim about the alternative.**
+
+**CONCEDED ON THE PHRASING, AND THE CYCLE'S TEXT WAS CHANGED BEFORE PUBLICATION.** The pitcher-facing check in the 2026-10-05 report is now a **mass outcome (scale, DEXA/BodPod)**, explicitly **not** a radar gun, and the caveat is **spoken aloud to the athlete** rather than kept in the coach's head: *"we are choosing this because the usual reason not to does not apply to pitchers, not because anyone has shown it adds a tick."*
+
+**WHAT REMAINS GENUINELY UNRESOLVED, and why this stays open.** The defence proves only that **low VL's justification is weak**. It does **not** establish that high VL's is **stronger** — both channels terminate in unmanipulated cross-sectional correlations, and **"the other guy's evidence is worse" is not evidence.** A third reading the cycle could not exclude: **neither threshold matters for pitching at all**, and the whole choice is noise dressed as a decision. **Nothing in the retrieved literature discriminates between that and F-597.**
+
+**WHAT WOULD SETTLE IT.** Two routes, neither requiring new instrumentation:
+1. **The direct one, and it is F-504's missing study:** any within-athlete mass-change → velocity-change slope, in any population. **One season of a scale and a radar gun, pooled across a staff.** Sixteen entries in this corpus's missing-within-athlete-slope pattern have now asked for a version of this.
+2. **The cheap proxy:** a VL-threshold trial in pitchers with **body mass, lean mass AND ball velocity** as co-primary outcomes. **This is F-600's gap and nobody has run it** — but note F-586: **at an assumed between-session fastball SD of ~1.0 mph, 0.5 mph needs ≈ 32 paired observations**, so the velocity arm of such a trial needs a staff, not a pitcher.
+
+**STATUS: OPEN. The phrasing was corrected in-cycle, the structural "no null option" defence holds, and the claim that high VL is positively BETTER for a pitcher is explicitly NOT registered.**
+
+---
+
+## Revisited 2026-10-05 — did today move anything?
+
+- **⭐⭐ F-571 / F-582 (the structural finding: "the interventions exist and all measured the wrong outcome") — TESTED FOR A THIRD CONSECUTIVE CYCLE AND IT DID NOT REPLICATE. REGISTERED AGAINST INTEREST.** The 2026-10-05 cycle went in **expecting** a third instance and did not find one. **The VBT literature ran the right design** — controlled trials, real comparison arms, adequately powered in aggregate (F-589, N = 330; and F-591's appraisal covers 8,222 participants) — **and measured jump, sprint, strength and hypertrophy, which are the CORRECT proximal outcomes for a weight-room method.** The failure here is one layer downstream and categorically different: **the outcomes are right for the intervention and unpriceable for the sport (F-590).** 🚨 **THIS IS A REAL LIMIT ON F-582's PROPOSED REGISTRY-WIDE SWEEP: the sweep will find topics where the outcome is WRONG, and it will also find topics like this one where the outcome is RIGHT and the TRANSLATION is missing. Those are different diagnoses needing different fixes, and a sweep that conflates them will mislabel the second kind.** F-582 remains the **FOURTH unrun structural audit**.
+- **🚨 Dispute #41 (if the magnitude cannot be measured, is "adopt it anyway" a finding or an escape hatch?) — RECURRED FOR THE SEVENTH TIME, AND FOR THE FIRST TIME IT MET A GENUINE LIMIT.** F-597 recommends a VL threshold whose mph effect this program cannot measure. **But unlike every previous recurrence, the choice is between two options one of which MUST be taken — a VL threshold has no "do nothing" arm.** **#41's force depends on the existence of a null option**, and that distinction has not had to be drawn in six previous recurrences. **Logged as the first partial limit on #41, not as a defeat of it:** where a null option exists, #41 stands undiminished.
+- **⚠️ Dispute #27 (restriction of range) — REACHED, AND IT CUT THE UNFAMILIAR WAY.** The VBT comparison literature is **trained non-athletes and mixed athletes — LESS selected than this population.** Restriction of range therefore predicts the already-small VBT advantages would **SHRINK FURTHER** in an 85+ sample, not grow. **For once #27 strengthens a null instead of undermining a positive.** First time in the dispute's history it has been load-bearing in that direction.
+- **⚠️ Dispute #29 (the handball sample mismatch) — PROMOTED FROM FOOTNOTE TO LOAD-BEARING OBJECTION.** F-595's **+18.7% throwing-velocity gain in five weeks** is handball at **45.9–51.3 mph**. **#29 is now the reason a finding cannot be used at all**, rather than a caveat attached to one that can. Combined with the missing control group, it is why the only throwing-outcome trial in the entire topic contributes an existence claim and nothing else.
+- **✅ F-086 (the industry autoregulation protocol) — FIRST EVIDENCE LAYER IN SEVEN WEEKS, AND IT PARTLY SURVIVES.** Structure agrees (velocity loss as a fatigue dial is real and dose-dependent); **scale does not compare — F-086's 4–10% ACROSS-SESSION figures versus the research literature's 10–40% WITHIN-SET thresholds are different quantities and must never be set side by side.** Grade unchanged at EMERGING; the "no validation study" clause narrows to **"no validation study in a pitcher"** (F-599).
+- **❌ Dispute #43 (the standardised-effect import fallacy) — NOT REACHED, AND THAT IS THE DISPUTE WORKING.** No standardised effect was imported into mph today, because **F-590 establishes that the conversion does not exist.** The dispute's own logic is what blocked the import before it was attempted. **That is the best outcome a methodological dispute can have: it stops being invoked because it has been internalised.**
+- **⭐ NEW METHOD NOTE — a Check-4 catch in a literature with no geometry in it (F-598).** "Low velocity loss improves velocity against submaximal loads" is **the test being the training** — not a geometric identity in F-534's algebraic sense, but the same class: **an outcome that cannot easily fail to move with the assignment.** **Check 4 has now caught something in a topic with no kinematic identity available, which widens its scope from "is this R² a restated geometry?" to "can this outcome fail?"**
