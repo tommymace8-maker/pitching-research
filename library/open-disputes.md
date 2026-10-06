@@ -1818,3 +1818,53 @@ Route B contains only within-session device-plus-performer noise.
 - **✅ F-086 (the industry autoregulation protocol) — FIRST EVIDENCE LAYER IN SEVEN WEEKS, AND IT PARTLY SURVIVES.** Structure agrees (velocity loss as a fatigue dial is real and dose-dependent); **scale does not compare — F-086's 4–10% ACROSS-SESSION figures versus the research literature's 10–40% WITHIN-SET thresholds are different quantities and must never be set side by side.** Grade unchanged at EMERGING; the "no validation study" clause narrows to **"no validation study in a pitcher"** (F-599).
 - **❌ Dispute #43 (the standardised-effect import fallacy) — NOT REACHED, AND THAT IS THE DISPUTE WORKING.** No standardised effect was imported into mph today, because **F-590 establishes that the conversion does not exist.** The dispute's own logic is what blocked the import before it was attempted. **That is the best outcome a methodological dispute can have: it stops being invoked because it has been internalised.**
 - **⭐ NEW METHOD NOTE — a Check-4 catch in a literature with no geometry in it (F-598).** "Low velocity loss improves velocity against submaximal loads" is **the test being the training** — not a geometric identity in F-534's algebraic sense, but the same class: **an outcome that cannot easily fail to move with the assignment.** **Check 4 has now caught something in a topic with no kinematic identity available, which widens its scope from "is this R² a restated geometry?" to "can this outcome fail?"**
+
+---
+
+## Dispute #61 — 🔴 Is the whole-body / trained-limb split a real moderator, or a subgroup power artefact? *(added 2026-10-06)*
+
+**Biomechanist vs anatomist. The headline of the 2026-10-06 cycle rests on it.**
+
+**THE CLAIM UNDER DISPUTE (F-603):** that the pooled strength cost of post-exercise CWI is carried by studies immersing only the trained limb (**ES −0.31 [−0.61, −0.01]**), and that whole-body immersion — what an athlete actually does in a tub — is an **uninformative interval (−0.08 [−0.53, +0.38])** rather than an established cost.
+
+**BIOMECHANIST:** A non-significant subgroup is not a different subgroup. As far as an abstract reveals, the two rows were **never compared to each other** — a formal test of the subgroup difference is a separate test, and without a significant interaction the correct statement is *"the smaller subgroup was underpowered,"* not *"whole-body immersion is different."* The intervals overlap across most of their range: **[−0.61, −0.01] against [−0.53, +0.38]**. A −0.23 gap between two estimates that overlap like that is not a finding; it is a subgroup analysis behaving exactly as subgroup analyses behave. Add the power picture — **n = 170 across ten studies, ~17 per study, versus this corpus's n ≥ 97 rule (F-519)** — and the honest grade for the contrast is EMERGING at best.
+
+**ANATOMIST — CONCEDED STATISTICALLY, WITH A MECHANISTIC RIDER:** I will not defend the subgroup as a statistical finding. But there is an independent reason to *expect* the difference, and it is not post hoc: **cooling dose is depth-dependent.** Intramuscular temperature falls as a function of immersion time, water temperature and **tissue depth beneath subcutaneous fat**. A dedicated waist-deep immersion after lower-body training cools a quadriceps far more deeply than a chest-deep dunk cools any one muscle of a 215 lb athlete who just trained everything. **If the dose is depth, the quieter whole-body subgroup may be the mechanism talking rather than the sample size.** And Fyfe 2019 found strength preserved under whole-body conditions in a second, independent design.
+
+**BIOMECHANIST — PARTIALLY ACCEPTS:** The depth argument is legitimate and it is the only non-statistical case for the split. It is also **unmeasured**: not one of these trials reports immersion depth against intramuscular temperature. So the mechanism is an inference supporting an underpowered subgroup, which is weaker than either would be alone.
+
+**WHY IT MATTERS:** it decides the scope of F-610's recommendation. If the split is real, the post-lift plunge is a *mild* concern for a whole-body tub and a serious one only for localised cold. If the split is an artefact, the pooled −0.23 applies to the tub as used and the recommendation strengthens.
+
+**WHAT WOULD SETTLE IT:** **one paragraph.** Grgic 2023's methods and results — whether a between-subgroup (interaction) test was run and its result, plus the **k and n of the whole-body cell**. If that cell is three studies and forty men, the contrast collapses into "underpowered" and F-603 must be rewritten. **Verification priority #1 in the registry.** Separately, and more expensively: any trial reporting immersion depth against intramuscular temperature.
+
+**STATUS: OPEN.** Unresolvable today because `tandfonline.com`, Wiley and PMC were all blocked (F-601).
+
+---
+
+## Dispute #62 — 🔴 Does the cold-water adaptation literature address the behaviour a pitcher actually performs? *(added 2026-10-06)*
+
+**Coach vs biomechanist. Conceded in substance on the day it was raised, and logged because the concession has consequences.**
+
+**THE CHALLENGE (coach):** Every number in F-603→F-609 comes from somebody who **lifted weights and then got in a tub.** My pitchers get in the tub **after they throw.** There is no resistance-training stimulus in that sequence, no hypertrophy signalling to blunt, and the adaptation at stake is tissue recovery for day five — different biology, different outcome. **Why are we confident this literature even addresses the behaviour we are trying to change?**
+
+**BIOMECHANIST — CONCEDED:** It does not. **The literature is directly applicable to the post-LIFT plunge and entirely silent on the post-OUTING plunge.** The only post-outing trial in existence is F-581, and it measured a dynamometer at 48 h and never measured a pitcher (F-582). Registered as F-611.
+
+**SO WHAT REMAINS IN DISPUTE:** not the scope limit, which is granted, but **what follows from it.**
+
+- **Coach's position:** the post-lift recommendation stands and is cheap (F-610), but the registry must not let it drift into post-outing advice. **A pitcher icing after Friday's start is not doing the thing these trials studied, and we have nothing to tell him.**
+- **Biomechanist's position:** partially. The *mechanism* — cold blunts post-exercise anabolic signalling in the cooled tissue — is not specific to barbells, and a high-intent outing is a damaging eccentric load with its own remodelling response. **So the post-outing case is UNSTUDIED rather than mechanistically irrelevant,** and the two should not be conflated in the other direction either.
+- **Anatomist's sharpening:** and note that in every protocol anyone uses, **the throwing arm is not in the water.** The posterior cuff and flexor–pronator mass sit above the water line. Post-outing whole-body immersion cools legs and trunk — which is where the force is produced, so it is not nothing, but it is not the arm the pitcher thinks he is treating.
+
+**WHAT WOULD SETTLE IT:** a trial applying post-outing whole-body CWI to pitchers at or above this corpus's floor, with a **pitching output at the next appearance** — velocity, velocity retention across innings, or command — not a dynamometer. **Cheaper interim step: establish what `NCT06565468` is.** If its sport is baseball it may already be the study.
+
+**STATUS: OPEN.** The scope limit is conceded; the inference from it is not.
+
+---
+
+## Revisited 2026-10-06 — did today move anything?
+
+- **Dispute #60 (velocity loss smuggling a cross-sectional correlation into an instruction) — ⭐ MOVED, in F-597's favour, and on FORM rather than evidence.** Today ran the same inference structure against an independent literature and found it can be stated **with no exchange rate at all**, provided the claim stays negative — *stop paying a cost* rather than *buy a return* (F-610 §5). **The generalisable rule: when neither side of a trade is priceable in the outcome you care about, the deciding question is not "which is bigger" but "which side has a demonstrated cost on a variable plausibly upstream of the outcome."** The dispute's substance is untouched: no mass→mph slope exists and none was found today (F-504 holds). **What moved is the licensed form of argument.**
+- **Dispute #59 (±10%-of-1RM convergence) — NOT MOVED.** Unrelated literature; nothing retrieved bears on it.
+- **Dispute #27 (the accuracy-outcome absence) — ITS NINTH VENUE, AND IT HOLDS WITHOUT EXCEPTION.** Thirteen-plus controlled trials, two meta-analyses and a 22-RCT acute meta-analysis in today's topic. Outcomes: fibre CSA, 1RM, MVIC, CMJ, creatine kinase, soreness. **Accuracy, command and pitch location: zero.** Venues now number nine — the mound, pre-game warm-up, ergogenic aids, the front side, windup/stretch, non-fastball workload, mobility, VBT, and recovery modalities.
+- **F-582 / the "wrong outcome" prior — ⭐ CONFIRMED AT A THIRD LITERATURE AND REGRADED ESTABLISHED (F-614).** Cold moves fibre CSA, so fibre CSA is the endpoint; cold moves soreness, so soreness is the endpoint. Three unrelated literatures in four cycles (mobility 10-03, between-start recovery 10-04, cold water 10-06). **It is now usable as a prior: predict an intervention study's outcome variable before reading the abstract, and you will be right.**
+- **Dispute #50 (within-pitcher stability) — NOT MOVED.** No within-athlete design appeared in today's topic.
