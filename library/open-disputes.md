@@ -1868,3 +1868,57 @@ Route B contains only within-session device-plus-performer noise.
 - **Dispute #27 (the accuracy-outcome absence) — ITS NINTH VENUE, AND IT HOLDS WITHOUT EXCEPTION.** Thirteen-plus controlled trials, two meta-analyses and a 22-RCT acute meta-analysis in today's topic. Outcomes: fibre CSA, 1RM, MVIC, CMJ, creatine kinase, soreness. **Accuracy, command and pitch location: zero.** Venues now number nine — the mound, pre-game warm-up, ergogenic aids, the front side, windup/stretch, non-fastball workload, mobility, VBT, and recovery modalities.
 - **F-582 / the "wrong outcome" prior — ⭐ CONFIRMED AT A THIRD LITERATURE AND REGRADED ESTABLISHED (F-614).** Cold moves fibre CSA, so fibre CSA is the endpoint; cold moves soreness, so soreness is the endpoint. Three unrelated literatures in four cycles (mobility 10-03, between-start recovery 10-04, cold water 10-06). **It is now usable as a prior: predict an intervention study's outcome variable before reading the abstract, and you will be right.**
 - **Dispute #50 (within-pitcher stability) — NOT MOVED.** No within-athlete design appeared in today's topic.
+
+---
+
+## Dispute #63 — 🔴 Is a positive result at its own detection floor evidence of a large effect, or evidence of nothing? *(added 2026-10-08)*
+
+**Biomechanist vs coach. The corpus has a rule for underpowered NULLS (F-439) and has never stated one for underpowered POSITIVES. Today it needed one.**
+
+**THE CHALLENGE (biomechanist):** Lambert 2023 is the only randomised BFR trial ever run on pitchers. At n = 15 vs 13 its minimum detectable effect at 80% power is **d = 1.062**, and every effect it reports is **d = 1.0 to 1.4** (F-616). That is not a study that found large effects. That is a study that could only ever have reported large effects, and did. **The published magnitudes should be treated as inflated by selection, not as estimates.**
+
+**COACH — PARTIALLY DEFENDED:** Grant all of that about the *magnitude* and it still leaves the *direction*. This is a **randomised controlled manipulation** in **my population**, which is rarer in this registry than any magnitude — Check #2 passes, and it passes in a corpus running 30:1 cross-sectional. **F-439's own text says a small-n null means "we could not have found this," not "this is not there." The symmetric reading of a small-n positive is "something is probably there and we cannot size it," not "nothing is there."** Strip the number, keep the sign.
+
+**BIOMECHANIST — COUNTER:** the symmetry fails, and it fails in a specific way. A null at low power is **uninformative**. A *significant* positive at low power is **actively misleading**, because the significance filter guarantees the reported estimate sits in the upper tail of the sampling distribution. **An uninformative result and a biased result are not the same object.** And here the direction is not independently secured: the one independent randomised replication is **null** (F-618), and the positive literature is **one research group** (F-626).
+
+**ANATOMIST — SHARPENING, AND IT CUTS TOWARD THE BIOMECHANIST:** the direction is also not mechanistically secured. The muscle that adapted **was never occluded** (F-620). So we are asked to accept a direction whose mechanism is Level V expert opinion, on a magnitude we agree is inflated, against a null replication. **The sign is not free either.**
+
+**WHERE IT STANDS:** the coach concedes the magnitude entirely; F-036 is annotated and will not be quoted for a size. **What remains in dispute is whether the SIGN survives** — and it is a live question for the corpus's method, not just for BFR, because this registry contains an unknown number of positives at or near their detection floors and has never audited for it.
+
+**WHAT WOULD SETTLE IT:** (a) one adequately powered independent RCT — **n ≈ 198 for d = 0.4** (F-618); or (b) the contralateral-shoulder measurement (F-620 §3), which would secure or destroy the mechanism at no subject cost. **Cheaper interim step: read Lambert's full text for whether the significant findings were pre-registered primary outcomes or selected post hoc. NCT04540367 states the pre-specified outcomes and was not retrieved this cycle.**
+
+🚨 **AND THE STRUCTURAL ITEM THIS DISPUTE GENERATES — THE FIFTH QUEUED AUDIT: run F-439's logic against the registry's POSITIVES.** The null audit (F-519→F-532) found 86% of extractable-n nulls failed the threshold. **Nobody has asked how many registered POSITIVE findings report effect sizes at or within ~20% of their own detection floor.** That is a mechanisable pass — compute d_min from each finding's n, compare to the reported effect — and F-616 is proof the pattern exists.
+
+**STATUS: OPEN.** Magnitude conceded; sign contested.
+
+---
+
+## Dispute #64 — 🔴 Do BFR's recovery benefits exist, or is BFR simply a smaller dose of training? *(added 2026-10-08)*
+
+**Field sweep vs anatomist. Logged because no study located distinguishes the two, and they predict identical data.**
+
+**THE CHALLENGE (from the sweep, Sportsmith "Does it deserve the hype?"):** BFR studies report lower post-exercise stress markers and read that as better recovery. But **BFR is performed at 20–30% of 1RM.** Lower stress markers "may reflect lower training stress itself as a result of using BFR, not better recovery" (F-627). **If the stimulus is smaller, of course the damage markers are smaller — that is not a recovery property, it is arithmetic.**
+
+**ANATOMIST — PARTIALLY DEFENDED:** the confound is real for the *damage-marker* literature and should be granted there. But it does not dispose of the hypertrophy result, which is the one that matters for a pitcher: **§4's pooled finding is that low-load BFR produces hypertrophy EQUIVALENT to high-load training (SMD 0.046, ns) while the load is 20–30% of 1RM.** That is the whole claim, and "it was a smaller dose" is not an objection to it — it is the point of it. **Equal output from a smaller input is the mechanism, not a confound.**
+
+**SWEEP — COUNTER:** granted for hypertrophy, and note what that concession costs: it moves the entire defensible case for BFR onto **hypertrophy**, which is the channel §4 shows is **equivalent**, while the channel BFR **loses** on is **strength** (SMD −0.33). **So the surviving claim is "equal size, less strength, less load" — which is a load-sparing argument and not a recovery argument at all.** The recovery framing, which is what the commercial material sells (F-627), is the part the confound guts.
+
+**BIOMECHANIST — ADDING THE MEASUREMENT POINT:** and the confound is testable cheaply, which is why it should not sit open. **Equate total mechanical work between a BFR arm and a low-load non-BFR arm, then compare stress markers.** If BFR's advantage survives work-matching it is a recovery effect; if it vanishes it was dose. **No study located does this, in any population.**
+
+**WHERE IT STANDS:** the **recovery** framing is conceded as unsupported and confounded. The **load-sparing hypertrophy** framing survives, population-mismatched (§4). **What remains in dispute is whether BFR has any recovery property at all once dose is equated** — and nothing located bears on it.
+
+**WHAT WOULD SETTLE IT:** a work-matched comparison of BFR against low-load non-BFR with stress markers as the outcome. ⚠️ **Note that even if it resolved in BFR's favour it would still not be a pitching finding — Dispute #27's tenth venue holds here too: no BFR study in any population has reported pitch location, command or accuracy.**
+
+**STATUS: OPEN** on the recovery mechanism; **CONCEDED** that the commercial recovery framing is unsupported.
+
+---
+
+## Revisited 2026-10-08 — did today move anything?
+
+- **F-582 / F-614's "wrong outcome" prior — ⭐⭐ MOVED, AND IN A NEW WAY: used PROSPECTIVELY for the first time and it held (F-625).** The previous three instances were retrospective explanations of literatures already read. Today the prior was used to predict an unseen trial's outcome variable *before* retrieving it — a cricket fast-bowler BFR trial was predicted to measure strength rather than ball speed, and it measures strength, arm girth and power. **A prior that predicts before the fact is doing different epistemic work from one that explains after it.** Fourth literature, second country, different institution — so the pattern is a property of applied sport science, not of baseball's literature.
+- **Dispute #27 (the accuracy-outcome absence) — ITS TENTH VENUE, AND IT HOLDS WITHOUT EXCEPTION.** Three baseball studies, four meta-analyses, three trial registrations. Outcomes: lean mass, 1RM, MVIC, tendon thickness, arm girth, power, agility, damage markers. **Pitch location, command and accuracy: zero.** The corpus predicted this in advance for the second consecutive cycle.
+- **Dispute #41 (if the magnitude cannot be measured, is "adopt it anyway" a finding or an escape hatch?) — ⭐ MOVED, and toward a rule rather than a recurrence.** Seventh encounter. F-623 reaches the unmeasurability wall from a third independent direction (after F-506 nutrition, F-476 imagery) and this time the cycle does **not** issue a prescription and call the unmeasurability a limitation — it issues the **decision rule** that a program cannot validate any velocity intervention and should therefore judge on cost, safety and mechanism instead. **That is the first time this dispute has produced a general rule rather than a one-off refusal.** It should still get a dedicated cycle, now flagged three cycles running.
+- **F-439 (the n ≥ 97 null rule) — ⭐ EXTENDED INTO NEW TERRITORY AND IMMEDIATELY CONTESTED.** Applied for the first time to a **positive** result (F-616) rather than a null, which opened Dispute #63 and generated the fifth queued structural audit.
+- **Dispute #62 (the post-outing plunge is unstudied) — ⚠️ INDIRECTLY MOVED, and discouragingly.** F-624 found that the one existing attempt at a post-outing in-season recovery intervention with a *velocity* outcome — BFR after every outing, 60 games, applied by a full-time athletic trainer — **failed on protocol fidelity.** That is evidence about the *feasibility* of the trial #62 asks for, not just its absence.
+- **F-194 (Differential Learning's single-lab problem) — ⭐ ITS TEST REUSED AND IT WORKED.** F-626 applies F-194's provenance reasoning to proximal BFR and gets the same verdict, with the added fact that here the independent replication exists and is null. **Two literatures now downgraded on provenance by the same test.**
+- **Dispute #55 / #49 (marker vs lever, threshold vs linear) — NOT MOVED.** Unrelated literature; nothing retrieved bears on either.
