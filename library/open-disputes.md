@@ -1922,3 +1922,61 @@ Route B contains only within-session device-plus-performer noise.
 - **Dispute #62 (the post-outing plunge is unstudied) — ⚠️ INDIRECTLY MOVED, and discouragingly.** F-624 found that the one existing attempt at a post-outing in-season recovery intervention with a *velocity* outcome — BFR after every outing, 60 games, applied by a full-time athletic trainer — **failed on protocol fidelity.** That is evidence about the *feasibility* of the trial #62 asks for, not just its absence.
 - **F-194 (Differential Learning's single-lab problem) — ⭐ ITS TEST REUSED AND IT WORKED.** F-626 applies F-194's provenance reasoning to proximal BFR and gets the same verdict, with the added fact that here the independent replication exists and is null. **Two literatures now downgraded on provenance by the same test.**
 - **Dispute #55 / #49 (marker vs lever, threshold vs linear) — NOT MOVED.** Unrelated literature; nothing retrieved bears on either.
+
+---
+
+## Dispute #65 — 🟡 Does collagen add anything beyond the training itself? *(added 2026-10-09)*
+
+**Two intervention trials, opposite results, and the discrepancy tracks dose — but dose does not exclude the alternatives.**
+
+**THE POSITIVE (Lee, Robshaw & Erskine 2025, *Exp Physiol*, DOI 10.1113/EP092106, PMC12576002):** n = 11 professional female footballers, pair-matched 6/5, 30 g hydrolysed collagen + 500 mg vitamin C before each session, 3×/wk, 10 wk pre-season alongside high-intensity resistance training. **Patellar tendon stiffness +15.4% vs +4.6%; Young's modulus +14.2% vs +3.4%; P = 0.002.** It is the **only trained-athlete result in the whole cycle that moved** (F-630), which is why it matters disproportionately.
+
+**THE NULL (Jerger et al. 2022, *Scand J Med Sci Sports*, DOI 10.1111/sms.14164):** specific collagen peptides + resistance training, Achilles — **stiffness and strength rose in both groups, no between-group difference.**
+
+**THE PROPOSED RESOLUTION (2025 systematic review, PMC13028264):** dose. *"The two studies using higher doses (15–30 g/day) demonstrated significant between-group improvements favoring collagen, while lower-dose studies (~5 g) showed only within-group effects."*
+
+**BIOMECHANIST — THE RESOLUTION IS TOO CHEAP, TWICE OVER.** First, **"the two studies"** is the entire high-dose between-group evidence base, and one of those two is **n = 11 and reports at its own detection floor** (F-640). A dose-response curve fitted to two points, one of which is inflated by the significance filter, is not a resolution. Second, Jerger used 5 g **of specific collagen peptides**, which is a different compound at a different dose from 30 g of hydrolysate — so **dose and compound are confounded**, and so are **tendon site** (Achilles vs patellar) and **training stimulus**.
+
+**ANATOMIST — PARTIALLY DEFENDED.** The mechanism has a reason to be dose-dependent: the proposed route is substrate availability for collagen synthesis in a tissue with poor perfusion, timed to the pre-exercise window. 5 g is plausibly sub-threshold on substrate grounds alone. **Conceded:** the compound, site and stimulus confounds are real and unexcluded, and the evidence cannot distinguish dose from any of them.
+
+**COACH — THE PRACTICAL POSITION DOES NOT WAIT ON THIS.** The decision is cheap either way: a pitcher who already buys collagen should take **15–30 g with vitamin C before** the session rather than 5 g after, because that is where what little between-group evidence exists sits. **What must not happen is a training block built on it.**
+
+**WHERE IT STANDS:** collagen is the **only lever in this topic that has moved a trained athlete's tendon**, and its evidence is two small trials against one null with three unexcluded confounds. ⚠️ **And note what the whole dispute does NOT touch: no collagen study in any population has a throwing outcome, so even a clean win here would not be a pitching finding (Dispute #27's eleventh venue).**
+
+**WHAT WOULD SETTLE IT:** a dose-matched comparison of 5 g vs 30 g of the **same** compound, same tendon, same training stimulus. Failing that, **any trained-athlete trial at n > 40**, which the entire literature lacks.
+
+**STATUS: OPEN.**
+
+---
+
+## Dispute #66 — 🔴 Is tendon stiffness even the right target for a ballistic skill? *(added 2026-10-09)*
+
+**Anatomist vs the entire commercial framing. Logged because the two sides predict opposite training prescriptions and nobody has measured the outcome that separates them.**
+
+**THE INDUSTRY POSITION (DAC Baseball, VeloU, the physio-education layer, F-644):** stiffer tendon → faster force transmission → more velocity. Prescription: **long-duration isometric holds**, which rank first for static stiffness (SUCRA 89.3%, Fu et al. 2026, F-638).
+
+**ANATOMIST — THE TARGET MAY BE INVERTED.** Three retrieved results point the other way. (1) In a **named** head-to-head (PMC5555899, n = 11/group, 6 wk), both modalities raised static stiffness equally, RFD gains were **trends only**, and *"plyometric training (but **not** isometric training) enhances the extensibility of tendon structures during **ballistic** contractions and active muscle stiffness during fast stretching."* (2) In an equal-work duration comparison, long holds raised **stiffness** while short reps raised **elastic energy output** more — ⚠️ **UNVERIFIED, blog-mediated, no author or journal; a lead, not evidence.** (3) The Achilles literature states the trade-off in review: *"a more compliant tendon stores more elastic energy for a given force... however, compliant tendons also have lower restoring forces, which might attenuate propulsion."* **A pitch is a ballistic contraction. The modality ranked first for static stiffness is the one that did not improve ballistic tendon behaviour.**
+
+**BIOMECHANIST — CHALLENGING THE PROVENANCE, NOT THE LOGIC.** The load-bearing item (2) is unattributed and arrived through a blog, in a cycle where no primary text was opened, and its result is rhetorically convenient. This program has caught **16 named fabrications**. It should be a flagged lead and nothing more. ⚠️ **ANATOMIST CONCEDED:** it is flagged, no magnitude from it is quoted, and **the claim stands on the named sources instead** — PMC5555899 plus the peer-reviewed compliance trade-off. Two independent routes to "static stiffness ≠ ballistic elastic behaviour," one named.
+
+**COACH — AND THIS IS WHY IT CANNOT SIT QUIETLY.** If the divergence is real, **the industry is optimising the wrong number**, and a coach who buys the stiffness pitch is buying the modality that the one named head-to-head says does *not* improve the contraction type he cares about. Note that **VeloU alone says *optimal* rather than *more*** — the marketing is, in that one instance, more careful than the research summary.
+
+**WHERE IT STANDS:** there is almost certainly an **optimum** rather than a monotonic "stiffer is better," the optimum's location is **unknown for throwing**, and nobody selling stiffness mentions that an optimum exists. **Graded EMERGING.**
+
+**WHAT WOULD SETTLE IT:** any intervention reporting **tendon stiffness AND elastic energy output from the same arms** — ideally with a ballistic performance outcome. ⚠️ **Note the recursion: even a clean answer would be in a lower limb, in a non-thrower, because F-636 establishes that no shoulder tendon stiffness has ever been trained in a trial at all.**
+
+**STATUS: OPEN**, and it is the dispute most likely to overturn a coaching practice already being sold.
+
+---
+
+## Revisited 2026-10-09 — did today move anything?
+
+- **F-439 / F-616 (the detection-floor rule) — ⭐⭐ MOVED DECISIVELY, AND IT GENERALISES.** Yesterday the rule was extended from nulls to positives for the first time, which opened **Dispute #63** about whether that extension was legitimate. Today it was applied to a **positive result in a completely unrelated literature** — Lee 2025's collagen trial, n = 11 (F-640) — and produced the same diagnosis it produced for Lambert's BFR trial in pitchers. **Two independent applications across two topics in two days is the first real evidence the rule is a general reading tool rather than a topic-specific rationalisation. Dispute #63 moves toward "legitimate."**
+- **The restriction-of-range rule (Luera 2020) — ⭐⭐ GENERALISED TO A NEW CLASS OF EVIDENCE.** Until today it governed **correlations**. F-631 extends it to **intervention magnitudes**: in a heavily pre-loaded population the *adaptation* collapses for the same reason the *correlation* does. **This is the cycle's most portable output and it generates the sixth queued structural audit, which is mechanisable and free.**
+- **Dispute #41 (if the magnitude cannot be measured, is "adopt it anyway" a finding or an escape hatch?) — ⭐ MOVED, INTO A HARDER FORM.** Eighth encounter. Every prior instance was *we cannot measure the effect*. F-639 is **we cannot measure the DOSE**: the protocol is specified in tendon strain, the field substitutes %MVC, and the substitution is **2:1 invalid between individuals (42–90% MVC for the same 6.4% strain)**. **A protocol whose dose is unverifiable is weaker than one whose outcome is, because you cannot even confirm the intervention happened.**
+- **Dispute #27 (the accuracy-outcome absence) — ELEVENTH VENUE, HOLDS WITHOUT EXCEPTION.** Tendon-adaptation syntheses, the pitcher elastography literature, handball/javelin, the Fu network meta-analysis. Outcomes found: stiffness, modulus, CSA, strain, length, RFD, pain, DASH, time to task failure, ball velocity. **Command: zero.**
+- **F-623's detection wall — NOT MOVED, but given a cheaper way around.** The wall stands (106 pitchers for 1 mph). F-645 adds that **a force-plate braking metric is detectable at squad size where velocity is not** — so the wall is an argument for *changing the outcome variable*, not for abandoning the block.
+- **F-064 — ⚠️ NOT MOVED, BUT NEWLY FLAGGED.** Its architecture survives and its coaching line survives with one word guarded ("a better spring," never "a stiffer tendon"). Its **tissue attribution** — that the −201 J is stored in *tendon* — is now recorded as an untested premise (F-636).
+- **F-445 — ⭐ EXTENDED, AND THE EXTENSION IS THE FINDING.** Its truncated predictor list completed: leg stiffness *was* measured, *did* correlate with velocity, and *dropped out* when braking force entered. **A marker caught in the act of being a marker, inside a pitching sample** (F-642).
+- **F-615 (the egress signature) — ⚠️ ITS REASONING CORRECTED.** Two signatures co-occurred in one cycle from two different clients, so the signature tracks the client, not the policy. The escalation inference is withdrawn; the block stands (F-628).
+- **Dispute #55 / #49 (threshold vs linear; marker vs lever in ROM) — NOT MOVED.** Unrelated literature; nothing retrieved bears on either.
