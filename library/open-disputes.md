@@ -2038,3 +2038,67 @@ Route B contains only within-session device-plus-performer noise.
 - **Dispute #65 / #66 (collagen dose; is stiffness the right target) — NOT MOVED.** Unrelated literature; nothing retrieved bears on either.
 - **Dispute #55 / #49 (threshold vs linear; marker vs lever in ROM) — NOT MOVED.**
 - **F-049 (open pelvis at foot contact) — NOT TOUCHED,** per the standing instruction. Still flagged.
+
+---
+
+## Dispute #69 — 🔴 Is a pitch in the task class hyperthermia spares, and does the pitch clock take it out of that class? *(added 2026-10-11)*
+
+**Who:** ANATOMY–PHYSIOLOGY proposes; BIOMECHANIST challenges. Raised and partly conceded in the same cycle (Challenge 1, `daily/2026-10-11-report.md` §9).
+
+**THE CLAIM (F-662, F-663).** The hyperthermia literature reports that a ~1.5 °C core rise leaves brain activity during **self-initiated** movement unchanged while altering it during **externally triggered** movement. A pitch is the most self-initiated movement in sport. The one measured accuracy decrement in the whole heat literature (Wittbrodt 2018: 69.7% vs 85.1%, P < 0.01, n = 13) was collected on a **22-minute externally PACED** visuomotor task. Therefore the decrement may not transfer to a pitch — **except** under a pitch timer, which converts a pitcher working near the limit into an externally cued performer (F-663).
+
+**EVIDENCE FOR**
+- The pacing is a documented property of the Wittbrodt task, not an inference.
+- Two independent sources state the dissociation (PMC12321350 measured it; PMC13232702 reviews it).
+- A corroborating asymmetry in the same literature: hyperthermia impaired short-term **memory** while **simple attention** was unaffected (Racinais 2008, *J Physiol*) — i.e. the impairment is selective by cognitive demand, not global.
+- The prediction F-663 generates is **specific enough to fail**, which is the property a mechanism claim should have.
+
+**EVIDENCE AGAINST**
+- **Both dissociation studies measure BRAIN ACTIVITY, not performance.** A movement-preparation EEG difference is not a command decrement.
+- n is unknown in both; neither was opened; the "voluntary movements are unaffected" line is a **review's characterisation**, not a measured result.
+- Zero throwers in any of it. Zero athletes specified.
+- The self-paced/externally-cued taxonomy was built for simple laboratory movements. A pitch is a whole-body ballistic skill and may not sit in either bin.
+- F-663's proposed test is observational and **three alternatives produce the same interaction**: faster fatigue accumulation in heat, hurried mechanics under clock pressure independent of temperature, dehydration.
+
+**PARTIAL CONCESSION ALREADY MADE.** The anatomist withdrew *"therefore heat spares pitching"* and now defends only the narrower statement, which is about the measurement rather than about pitchers: **the single largest accuracy decrement in the heat literature was collected on a paced task, and the pacing may be what produced it.** F-662 is graded `MECHANISM`, confidence **low-medium**.
+
+**WHAT WOULD SETTLE IT**
+1. **The cheap version:** one study with a **performance** outcome on a self-paced versus externally paced accuracy task under matched hyperthermia. Darts self-paced vs darts on a 3-second clock, n = 30, core temperature clamped. Nothing like it exists.
+2. **The free version:** run F-663's heat × tempo-pressure interaction on public Statcast data. ⚠️ A positive result is weak (three confounds share its sign); **only the absence of the interaction is decisive.**
+3. ⚠️ **Blocked on ρ**, the within-bullpen location ICC, still unpublished — so option 2 cannot yet be powered.
+
+**STATUS: OPEN, and deliberately so.** Registering this as settled in the cycle that invented it would be the failure state this program exists to avoid.
+
+---
+
+## Dispute #70 — 🟡 Does a starting pitcher accumulate enough thermal strain for any of this to matter? *(added 2026-10-11)*
+
+**Who:** ANATOMY–PHYSIOLOGY (dose says no) versus PITCHING-COACH (the dugout in Oxford in May says yes).
+
+**THE ANATOMIST'S POSITION (F-664).** Every rung of the core-temperature ladder — 37.8 °C force production, 38.3 °C cortical excitability, 38.5 °C motor drive, 38.8 °C complex cognition — was measured under **continuous** exercise or **continuous** passive heating. A starter throws **15–20 minutes of actual work across two hours**, with a passive half-inning between every work bout and a dugout he sits in. **Within a baseball team he is the lowest thermal-strain position on the field**; the catcher is the highest, a corner outfielder is higher than the pitcher. Thermal strain is a **dose**, and continuous-exercise magnitudes do not port to intermittent work with long passive recovery. This is the **F-631/F-650 restriction-of-range rule in a third form**.
+
+**THE COACH'S POSITION.** The dose argument counts only the work bouts and ignores the exposure. In Oxford in May the pitcher is in **30–33 °C and 60–70% RH** for three hours including a pre-game bullpen in direct sun, in a uniform, often in a jacket between innings, standing on a dirt mound that radiates. Solar load and radiant heat are not in any of the laboratory doses either, and they push the other way. **And the one baseball study anybody has ever run thought the thermal problem was real enough to put a vest on somebody.**
+
+**WHERE THEY AGREE** — and it is most of the dispute's practical content:
+- Neither can name a number, because **no core-temperature measurement of a pitcher exists in any game at any level** (F-666 gap 2).
+- Both accept the catcher is the higher-strain position and that the only baseball evidence picked that position.
+- Both accept the **cumulative** exposure argument (F-665 item 4) over the within-game one.
+
+**WHAT WOULD SETTLE IT — and it is the cheapest open item in the file.** **One ingestible telemetric pill (±0.1 °C, 10-second sampling), one starter, one 92 °F game.** A single trace answers it: if he peaks at 37.9 °C the anatomist is right and the topic closes for starters; if he crosses 38.5 °C the coach is right and the whole ladder becomes live. ⚠️ Prefer the pill to a wearable: an elite field-hockey validation found the CORE wearable disagreed with the pill by more than ±0.3 °C for **41–60% of all samples**, worst in hot conditions, and concluded it is not a valid alternative.
+
+**STATUS: OPEN, and uniquely cheap to close.** It is the only dispute in this registry that one athlete, one game and one swallowed sensor would resolve.
+
+---
+
+## Revisited 2026-10-11 — did today move anything?
+
+- **Dispute #27 (the accuracy-outcome absence) — ⭐⭐ MOVED, AND FOR THE FIRST TIME IT BREAKS.** The tally read **twelve consecutive venues, "holds without exception"** yesterday. **Heat is the exception:** Wittbrodt 2018 measured visuomotor accuracy and found **69.7% vs 85.1%, P < 0.01** (F-662). ⭐ **And the exception arrives with a sting that restates the dispute more sharply than the tally did: the one time somebody measured accuracy under a performance stressor, they PACED the task — and the pacing may be what produced the decrement (Dispute #69).** The dispute's premise was never that accuracy is unmeasurable; it was that this corpus's topics never measure it. Today says they can, and that the measurement choice carries a hidden commitment about task class.
+- **F-631 / F-650 (the restriction-of-range rule) — MOVED, a THIRD form.** Correlations → adaptation magnitudes → acute ergogenic magnitudes → now **exposure dose** (F-664). Ask what the sample's actual dose was before importing its magnitude; the heat literature's dose is continuous work and a starter's is intermittent. ⚠️ **The rule is now general enough that it should be examined rather than extended again** — see the next item.
+- **Dispute #68 (is the corpus's own cross-literature prediction legitimate, or extrapolation?) — ⭐ MOVED, AND IT CUTS AGAINST THIS CORPUS.** Yesterday F-406 was used as a prior over an unread field and was right. **Today the same move was made again:** F-004's forbidden conversion was used to discount the entire cooling literature **before any of it was read** (F-661). Twice in two cycles. 🚨 **This is becoming house style and should be audited rather than celebrated: a prior that always discounts is not a prior, it is a policy.** The honest test is whether the method has ever produced a prediction that *raised* this corpus's estimate of an unread literature. **It has not. Queued as a structural item.**
+- **F-004 / F-438 / F-590 (the unpriceable jump) — NOT MOVED, invoked again and decisively.** It killed the entire cooling channel (F-661: +6.7%, g = 0.49, both in lower-body power and endurance). ⚠️ **Count: F-004 has now closed channels in re-warm-up (F-358), pitching fatigue (F-359), sleep, the nap cycle, and cooling. That is five. The escalation note retired on 2026-09-22 after the jump-transfer audit, but the load is accumulating again under a different heading.**
+- **F-628 / F-646 (the egress signature) — ⭐ CONFIRMED A FOURTH TIME, cleanest demonstration yet.** Two clients, two different failure strings, same minute, same policy, **and this time the control host was included**: WebFetch fails at **DNS** (`getaddrinfo ENOTFOUND`), curl fails at the **CONNECT tunnel** (403) on `example.com` itself (F-657). The signature tracks the client.
+- **F-395 (no hydration-and-pitching study exists) — MOVED from a gap note into a priced gap.** F-665's table shows the absence is not academic: the conclusion flips sign across the unmeasured sweat-rate range, and the binding quantity turns out to be a third unmeasured one — **what a starter actually drinks**, unpublished at every level of the sport.
+- **ρ, the within-bullpen location ICC — re-escalated, FIFTH topic blocked.** After F-654, F-408, F-186 and F-482, it now blocks the pricing of **F-663**, the cheapest unrun test in the corpus.
+- **Dispute #67 / #65 / #66 (nap dose; collagen; is stiffness the right target) — NOT MOVED.** No egress, no methods sections, unrelated literature.
+- **Dispute #55 / #49 (threshold vs linear; marker vs lever in ROM) — NOT MOVED.**
+- **F-049 (open pelvis at foot contact) — NOT TOUCHED,** per the standing instruction. Still flagged.
