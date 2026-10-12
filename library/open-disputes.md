@@ -2102,3 +2102,51 @@ Route B contains only within-session device-plus-performer noise.
 - **Dispute #67 / #65 / #66 (nap dose; collagen; is stiffness the right target) — NOT MOVED.** No egress, no methods sections, unrelated literature.
 - **Dispute #55 / #49 (threshold vs linear; marker vs lever in ROM) — NOT MOVED.**
 - **F-049 (open pelvis at foot contact) — NOT TOUCHED,** per the standing instruction. Still flagged.
+
+---
+
+## Dispute #71 — 🔴 Should a pitcher exhale through the delivery, brace against a held breath, or be told nothing at all? *(added 2026-10-12)*
+
+**The claim in contest.** The near-universal pitching cue is *"inhale at the sign, hold at the set, exhale through the delivery,"* often bundled with *"draw the belly button in."* It is given as a mechanical instruction — it is supposed to improve something.
+
+**EVIDENCE THAT THE CUE IS WRONG (biomechanist's position).**
+Kimura et al. (2026), *IJSPT* 21(3):262–271, **crossover randomised, n = 15**: abdominal drawing-in cut intra-abdominal pressure from **96.7 ± 31.4 to 34.9 ± 15.9 mmHg** (−63.9%, d = 2.48) and peak trunk rotation torque from **68.7 ± 20.2 to 49.1 ± 17.7 Nm** (−28.5%, d = 1.03). Lumbar stiffness is **greatest at maximum expiration** and inadequate during tidal breathing (*J Appl Physiol* 2002); in lifting, IAP rises more with breath holding. **Exhalation plus a hollowed abdomen is the low-pressure, low-stiffness state, and the cue puts the pitcher there at front-foot strike — the ~50–80 ms braking event where the lead leg's force must transmit through the trunk (F-642, F-645).**
+
+**EVIDENCE THAT THIS DOES NOT TRANSFER (anatomy-physiology's position).**
+IAP's mechanical function is transmitting torque to an **external resistance**. The dynamometer is a near-infinite resistance; a **145 g baseball is almost none**. In a standing, ballistic, unresisted rotation at **900–1,200 °/s**, high trunk stiffness may be a **cost**: the proximal segments must *decelerate* to pass energy distally, and a rigid trunk impedes that transfer. **The 28.5% may be measuring precisely the quality a pitcher needs less of.** Add: n = 15 untrained-status young men (**SAMPLE MISMATCH**), seated isometric task (**the most severe construct swap since F-564**), and a torque effect only **1.42× above its own detection floor** (F-671).
+
+**WHERE IT STANDS.** Both sides agree the cue has **no supporting evidence of any kind** — it is a mechanical instruction with zero data behind it. They disagree on whether the one manipulated result makes its *opposite* right. **The resolution adopted in-cycle is neither: REMOVE the cue, INSTALL NOTHING** (F-670, and rule 3 of F-681's decision rule).
+
+**WHAT WOULD SETTLE IT.**
+1. **⭐ CHEAPEST, AND IT IS DESCRIPTIVE (F-679): which respiratory phase is an elite pitcher actually in at foot strike and release?** One respiratory belt synced to a session somebody is already running, n ≈ 6 above the 85 floor, 20 pitches each, one afternoon. **If they are all mid-exhale, the cue at least describes reality and this becomes a real contest. If they are all breath-held at the set and through release, the cue describes something nobody does and it dies for free.**
+2. IAP measured during an actual throw against ball velocity. **Does not exist in any population.**
+3. A within-subject manipulation of breath phase against ball velocity in 85+ arms. **Note F-681: detecting 1 mph needs 106 pitchers, so this is not available to a college program and the descriptive study in (1) is the only affordable move.**
+
+---
+
+## Dispute #72 — 🟡 Is an intervention worth installing when its only live outcome is permanently unmeasurable? *(added 2026-10-12)*
+
+**The claim in contest.** Channel C — between-inning slow-paced breathing — has a live mechanism (F-676: in-game HR in a pitcher is an arousal signal, not a metabolic one), a real acute effect on cardiac vagal activity (n = 75 athletes, all slow conditions vs control), one randomised baseball trial showing reduced cognitive anxiety, and **zero pitching outcomes anywhere in its literature**. Its target outcome, command, needs **~392 pitches per condition** to detect a 10-pp zone-rate change, rising to **~1,330** once within-bullpen clustering is accounted for (F-681, F-374). **A pitcher will never generate evidence that it worked for him.**
+
+**FOR INSTALLING IT (coach's position).** The cost is genuinely zero — no equipment (the musician trial found biofeedback added nothing over the breathing itself), no time beyond a budget that already exists, no training load. The mechanism is live and on-population. **A coach must decide for 13 arms, and "wait for n = 1,330" is not a decision.** A process check exists: with an HR strap, did between-inning HR recovery change, yes or no.
+
+**AGAINST (biomechanist's position).** Installing an unmeasurable intervention means a program can never remove it either — it becomes permanent by being unfalsifiable, which is exactly the mechanism by which the long-toss and distance-running folklore survived. **The process check is the specific hazard**: "his HR recovery improved" will be reported up the chain as "the breathing is working," and a proximal measure that cannot fail is worse than no measure.
+
+**WHERE IT STANDS.** Partially resolved, in a way that generalises. **F-681's three-channel decision rule is the resolution: undetectability FORBIDS CLAIMING AN OUTCOME; it does not decide the action. Mechanism and cost decide the action.** Zero cost + live mechanism → act, and label the check a **PROCESS** check explicitly and in writing. The biomechanist's hazard is conceded as real and the labelling requirement is the mitigation.
+
+**WHAT WOULD SETTLE IT.**
+1. **ρ, the within-bullpen location ICC** — one query against any program's TrackMan log. It now blocks **six** topics and would at least tell us how far out of reach the command outcome is.
+2. Any breathing trial, in any population, with a **target-accuracy outcome** alongside its existing HRV battery. ⭐ **This is the same request Dispute #68 makes of the nap literature — a dart board bolted to a trial somebody is already running.** Two unrelated topics now blocked on the identical missing instrument, which makes it a candidate standing recommendation to the field rather than a one-off.
+3. A stated position on whether this corpus accepts process checks at all. **F-681's rule is the first version; it has not been tested against a case where the process check and the outcome disagree.**
+
+---
+
+## Revisited 2026-10-12 — did today move anything?
+
+**Dispute #68 — "is the corpus's own prediction method legitimate, or extrapolation?" — MOVED, AND AGAINST US.** Today is the **third consecutive cycle** in which a registered finding was used as a prior over an unread literature — F-406 (10-10), F-004 (10-11), **F-132 (today, → F-672)** — and the **third consecutive discount**. Three for three in one direction, across three unrelated topics. ⚠️ **And today the method was partially falsified from inside: cross-examination ① found a hole in F-672 (threshold IMT devices load INSPIRATION, while channel B's mechanism is an EXPIRATORY and abdominal-wall story, so the ventilatory argument does not cover the trunk-stiffness channel), and the direction of that error is toward UNDER-estimating.** That is the first time a corpus prediction has been shown to discount for a reason the predictor had not considered. **The prediction audit is now the EIGHTH queued audit and should jump the queue ahead of any new topic.**
+
+**Dispute #41 / the detection wall — MOVED, toward promotion.** F-681 is the **fourth independent arrival** at "a college program cannot validate a performance intervention on its own athletes," after F-506 (nutrition), F-476 (imagery) and F-623 (BFR). ⭐ **Recommend promotion to a STANDING RULE — with F-681's three-channel decision rule attached as its operative half.** Without that half the rule is only a counsel of despair, and today is the first cycle to supply it.
+
+**Disputes #69 / #70 (heat) — NOT MOVED.** Today did not touch them. #70 still turns on one swallowed sensor in one 92 °F game, and it remains the only dispute in the registry that one athlete and one game would resolve outright.
+
+**Disputes #65 / #66 (tendon stiffness) — ADJACENT, NOT MOVED.** F-670's trunk-stiffness question is the same class of question as #66 ("is stiffness even the right target for a ballistic skill?"), now asked of the trunk rather than the lower limb, and the proximal-deceleration objection in Dispute #71 is #66's argument transplanted. **Two disputes now turn on the same unanswered mechanics question, which argues for consolidating them into one.**

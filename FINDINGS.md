@@ -8727,3 +8727,199 @@ SOURCE: WebSearch snippet 2026-10-11 of an independent MLB analysis relayed via 
 COACHING: **NOTHING TO COACH.** ⭐ **This is the cycle's one promising scouted idea and its value is that it can FALSIFY something: F-660's null predicts a zero, and a design whose interesting outcome is a null is a design worth running.** ⚠️ **Note the asymmetry before anyone runs it: travel, sleep and schedule confounds share the sign of the acclimatization effect, so a positive gap proves nothing and only a null is clean.**
 CONFIDENCE: low for the observation; medium-high that the design is the right instrument and that it is nearly free
 SEE ALSO: F-660, F-659, F-420, F-658, F-399, F-412, F-667
+
+---
+
+### F-669 | A THIRTEENTH CONSECUTIVE FULLY EGRESS-BLOCKED CYCLE — and the third clean confirmation that the signature tracks the CLIENT
+TOPIC: infrastructure, egress, network policy, verification, method, run brief, F-657, F-628, F-646
+CLAIM: Outbound HTTPS is totally blocked for both clients. WebFetch and Bash curl return DIFFERENT error strings for THE SAME hosts in the same minute, including the control host and including hosts the run brief designates WORKING. One cause, two signatures, and the signature is a property of the client.
+NUMBERS: 2026-10-12. Bash `curl`: `example.com` → `CONNECT tunnel failed, response 403`, HTTP 000; `www.ncbi.nlm.nih.gov/pmc/` (brief: WORKING) → same. WebFetch: `example.com` → `getaddrinfo ENOTFOUND`; `pmc.ncbi.nlm.nih.gov` (brief: WORKING) → `getaddrinfo ENOTFOUND`; `ijspt.scholasticahq.com` (brief: WORKING) → `getaddrinfo ENOTFOUND`. `$HTTPS_PROXY/__agentproxy/status` logged `kind: connect_rejected`, `detail: "gateway answered 403 to CONNECT (policy denial or upstream failure)"`, `host: example.com:443`, ts 2026-10-12T12:18:34.543Z. WebSearch functioned normally throughout.
+POPULATION: n/a — infrastructure
+EVIDENCE: ESTABLISHED (direct observation, control host included, two clients held against the same hosts)
+CAUSALITY: n/a
+SOURCE: In-cycle observation 2026-10-12, daily/2026-10-12-report.md §0.
+COACHING: **Zero primary texts opened; every literature claim in the 2026-10-12 cycle is SNIPPET-ONLY and is therefore a LEAD, not a finding.** ⚠️ **The run brief's WORKING/BLOCKED domain list is wrong in every entry for an ELEVENTH consecutive cycle, and today it was wrong in the most expensive direction: `ijspt.scholasticahq.com` is listed as WORKING and held the single most decision-relevant paper of the cycle (F-670).** ⭐ **F-657's operating rule is confirmed a third time: when diagnosing infrastructure, hold the CLIENT constant before inferring anything from a changed error string.** The program's highest-value fix is still the network policy, not a research topic.
+CONFIDENCE: high
+SEE ALSO: F-657, F-646, F-628, F-615, F-601, F-572, F-560, F-546
+
+---
+
+### F-670 | ⭐⭐ THE INDUSTRY'S UNIVERSAL BREATHING CUE FOR PITCHERS IS CONTRADICTED IN DIRECTION BY THE ONLY MANIPULATED TRUNK-ROTATION DATA IN EXISTENCE
+TOPIC: breathing, intra-abdominal pressure, IAP, trunk stiffness, abdominal drawing-in, hollowing, bracing, trunk rotation torque, cue retirement, force transmission
+CLAIM: The near-universal pitching cue "inhale at the sign, hold at the set, exhale through the delivery" — frequently bundled with "draw the belly button in" — has no supporting data of any kind, and the one study that ever manipulated abdominal/breath state against rotational output found that the abdominal state that cue produces costs a large share of trunk rotation torque.
+NUMBERS: Kimura et al. (2026), crossover **RANDOMISED**, **n = 15 healthy young adult males**, seated isometric trunk rotation, catheter-type IAP sensor + custom trunk-rotation dynamometer. **IAP: spontaneous rotation 96.7 ± 31.4 mmHg vs drawing-in 34.9 ± 15.9 mmHg (p < 0.01, d = 2.48) — a 63.9% reduction.** **PEAK TORQUE: 68.7 ± 20.2 Nm vs 49.1 ± 17.7 Nm (p < 0.01, d = 1.03) — a 28.5% reduction.** Authors attribute the loss to drawing-in reducing inspiratory volume and abdominal circumference, removing the mechanical basis for pressure generation. CONVERGING: lumbar stiffness rises with respiratory effort and is greatest at MAXIMUM EXPIRATION, while during TIDAL breathing the IAP rise is "not sufficient to improve spinal stiffness" (J Appl Physiol 2002); in lifting, IAP rises "to a greater extent with breath holding."
+POPULATION: ⚠️ **SAMPLE MISMATCH — DIRECTIONAL ONLY.** 15 healthy young adult males, training status unstated, not pitchers, not 85+.
+EVIDENCE: EMERGING (design is good, population and construct are wrong)
+CAUSALITY: **INTERVENTION** — the variable was genuinely MANIPULATED within-subject with randomised order. One of the few in this corpus. ⚠️ **But the OUTCOME is seated isometric trunk rotation torque against a dynamometer, not a pitch.**
+SOURCE: Kimura et al. (2026), Int J Sports Phys Ther 21(3):262–271; PubMed 41777431; https://ijspt.scholasticahq.com/article/156439-the-effects-of-the-abdominal-drawing-in-maneuver-on-intra-abdominal-pressure-and-torque-during-trunk-rotation — ⚠️ **PDF NOT OPENED (F-669). All figures snippet-level, but recovered consistently from TWO independent search summaries that agreed on every value.** Industry cue: https://mindandmuscle.ai/blog/mental-training/breathing-exercises-for-baseball-players (mental-training content site, cites no data). Spinal stiffness: https://journals.physiology.org/doi/full/10.1152/japplphysiol.00939.2002
+COACHING: ⭐ **RETIRE THE CUE. DO NOT INSTALL ITS OPPOSITE.** The defensible action is removal — stop giving a mechanical breathing instruction that never had data behind it — not replacement with "hold your breath through the delivery," which nobody has measured either and which is exactly the kind of instruction that produces a stiff, slow pitcher. ⚠️ **THE DIRECTION IS EXPLICITLY UNRESOLVED (Dispute #71):** IAP's mechanical role is transmitting torque to an EXTERNAL RESISTANCE; a 145 g baseball offers almost none, and in a 900–1,200 °/s unresisted rotation high trunk stiffness may impede the proximal deceleration that passes energy distally. **The 28.5% may be measuring a quality a pitcher needs LESS of.** On video the failure looks like a visible abdominal hollow or rib flare at the set, and an audible exhale beginning BEFORE front-foot strike. **No measurable payoff is claimed: this is a cue retired for never having had evidence, not a treatment.**
+CONFIDENCE: high that the cue is unfounded; medium for the manipulated result itself; **low for its direction in pitching**
+SEE ALSO: F-671, F-679, F-642, F-645, F-564, F-676, Dispute #71
+
+---
+
+### F-671 | THE DETECTION-FLOOR CHECK ON KIMURA 2026 — the IAP result is robust, the torque result (the half that matters to us) clears its floor by 1.42×
+TOPIC: detection floor, power analysis, F-439, F-616, effect size, replication risk, method
+CLAIM: Applying F-439's rule to a positive result, Kimura's two outcomes have very different robustness, and the weaker one is the one load-bearing for pitching.
+NUMBERS: Paired/crossover design, n = 15, α = 0.05 two-tailed, 80% power: **d_min = (1.96 + 0.84)/√15 = 2.80/3.873 = 0.723.** **IAP: d = 2.48 → 3.43× its own detection floor. ROBUST.** **TORQUE: d = 1.03 → 1.42× its own detection floor.** For reference, F-616 withdrew a magnitude sitting at ~1.0× its floor; 1.42× is above that line but not comfortably.
+POPULATION: n/a — arithmetic, conditional only on n and the stated d values
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: not applicable — a detection threshold, not an effect
+SOURCE: Computed in-cycle 2026-10-12 from F-670's reported n and effect sizes. Method per F-439, F-616.
+COACHING: **The pressure half of this paper will replicate; the torque half is the one at risk, and the torque half is the only half that bears on pitching.** Treat the 28.5% as the right sign with an untrustworthy magnitude. ⭐ **Seventh application of F-439's logic to a POSITIVE result in this corpus, and the second to change how a finding is used rather than merely annotating it.**
+CONFIDENCE: high for the arithmetic
+SEE ALSO: F-670, F-439, F-616, F-678, F-623
+
+---
+
+### F-672 | THE VENTILATORY MECHANISM FOR INSPIRATORY MUSCLE TRAINING HAS NO PURCHASE ON A PITCH — predicted from F-132 before reading the literature
+TOPIC: inspiratory muscle training, IMT, RMT, respiratory metaboreflex, diaphragm fatigue, energy systems, mechanism, prediction, F-132
+CLAIM: IMT's performance mechanism is (i) delaying inspiratory muscle fatigue and (ii) attenuating the respiratory metaboreflex — the sympathetically-mediated limb vasoconstriction fatiguing respiratory muscles trigger. Both require ventilation held near maximum for MINUTES. The pitching duty cycle forecloses both.
+NUMBERS: From F-132 (ESTABLISHED): the pitch is phosphagen-dominant; the high-velocity portion from front-foot strike to release lasts **~0.05–0.15 s**; the whole delivery **~1.5–2 s**; between pitches **~15–25 s**; between innings, minutes. PCr resynthesis is ~half-complete in 20–30 s and near-complete in 3–5 min. **A pitcher never sustains the ventilation that generates a metaboreflex and his inspiratory muscles are never the limiting tissue.** PREDICTION: zero velocity effect from IMT in this population.
+POPULATION: an 85+ arm (the prediction's target); F-132's physiology is professional_mixed
+EVIDENCE: MECHANISM (a prediction, not a measurement)
+CAUSALITY: MECHANISM
+SOURCE: Derived in-cycle 2026-10-12 from F-132. IMT mechanism from the respiratory-metaboreflex literature as relayed in search summaries (snippet-only, F-669).
+COACHING: **Decline IMT device work for pitchers on mechanism grounds, reinforced by F-673 (no throwing outcome exists anywhere) and F-680 (it adds training load).** ⚠️ **NARROWED IN-CYCLE BY CROSS-EXAMINATION ①: this finding predicts no effect via the VENTILATORY channel and is SILENT on a possible trunk-stiffness channel** — threshold IMT devices load INSPIRATION, while F-670's mechanism is an EXPIRATORY and abdominal-wall story, so the two do not cleanly overlap and the hole is real. 🚨 **SELF-FLAG — THE CYCLE'S STRUCTURAL CONTRIBUTION: this is the THIRD CONSECUTIVE cycle in which a registered finding was used as a prior over an unread literature (F-406 on 10-10, F-004 on 10-11, F-132 today) AND THE THIRD CONSECUTIVE DISCOUNT. Three-for-three in one direction across three unrelated topics. A prior that always discounts is not a prior, it is a policy.** Logged against Dispute #68. The prediction audit is now the EIGHTH queued audit and should jump the queue.
+CONFIDENCE: high for the metaboreflex half; **the trunk-stiffness hole is conceded and unaddressed**; low confidence that the prediction method itself is unbiased
+SEE ALSO: F-132, F-673, F-680, F-670, F-647, F-661, Dispute #68
+
+---
+
+### F-673 | NO RESPIRATORY MUSCLE TRAINING TRIAL, IN ANY POPULATION, HAS EVER HAD A THROWING OUTCOME — and every pooled performance effect is a time trial
+TOPIC: inspiratory muscle training, IMT, RMT, meta-analysis, outcome class, construct validity, gap, Check 3
+CLAIM: IMT reliably raises maximal inspiratory pressure and shows a moderate pooled effect on "sports performance," but every outcome contributing to that pooled effect is a continuous fixed-distance endurance task. The throwing gap is total.
+NUMBERS: IMT with linear-workload devices in athletes: pooled sports performance **SMD = 0.64 [0.35, 0.92], p < 0.0001**; **MIP MD = −29.42 cmH₂O [−35.65, −23.20], p < 0.001**, independent of sport modality. **NO VO₂max effect across the 13 studies measuring it on an incremental test.** PowerBreathe-specific meta-analyses report MIP and FVC gains with explicitly "disparate" performance effects (individual studies d = 1.81, d = 0.89) and are DEVICE-MANUFACTURER-LINKED. Contributing outcomes located: 400 m, 800 m, swim splits. **Throwing outcomes located: ZERO.** Nearest randomised evidence in overhead athletes is CORE/TRUNK training (10 RCTs, improved STANDING-throw velocity, no benefit for step or jump throws) — a different intervention.
+POPULATION: mixed trained athletes, endurance-dominant. ⚠️ No overhead-throwing population anywhere in the IMT literature.
+EVIDENCE: ESTABLISHED for MIP; the performance pooled effect is a LEAD (snippet-only, F-669); **the throwing gap is ESTABLISHED by absence**
+CAUSALITY: **INTERVENTION** — randomised, controlled throughout. Check #2 passes cleanly. ⚠️ **FAILS CHECK #3 DECISIVELY: the number does not measure what the pitching claim says it measures.**
+SOURCE: https://www.sciencedirect.com/science/article/abs/pii/S1466853X18301652 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9855123/ ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8297193/ ; core-training comparator https://journals.sagepub.com/doi/10.1177/17479541211002977 — **none opened (F-669)**
+COACHING: **MIP is a lever; the thing MIP is supposed to buy moves only in continuous endurance tasks.** Two registered trials in progress (NCT06807957 CrossFit, NCT07083258 wrestlers) have outcomes of respiratory pressures, trunk endurance and balance — **neither has a throwing or accuracy outcome, so the gap will still be open when they finish.**
+CONFIDENCE: high that the throwing gap is total; medium for the pooled magnitudes
+SEE ALSO: F-672, F-680, F-571, F-674
+
+---
+
+### F-674 | APNEA AND CO₂-TOLERANCE TRAINING MOVE THE ONE ENERGY SYSTEM THE PITCH DOES NOT USE — structurally identical to F-660
+TOPIC: apnea training, breath hold, CO2 tolerance, hypoventilation, energy systems, outcome class, F-132, F-660, test-specific adaptation
+CLAIM: The only outcome apnea training has any claim on is glycolytic/peak-lactate capacity. The pitch is alactic. The demonstrated outcome class and the pitcher's outcome class are disjoint.
+NUMBERS: 2022 meta-analysis, **7 studies, n = 126**: apnea training "might increase peak blood lactate concentration," no clear aerobic benefit, "further evidence required." 2025 review: breath-hold training "does not seem to improve haematological variables nor aerobic performance in apnoea novices" and is "questionable in apnoea-trained individuals." A small crossover of breath-hold cycling and running: "no differences were found in performance between apnea and control conditions." Against F-132: the pitch is phosphagen-dominant and **produces little lactate.**
+POPULATION: mixed trained and untrained; no throwing population
+EVIDENCE: EMERGING for the lactate effect; the aerobic null is reasonably ESTABLISHED. All snippet-only (F-669).
+CAUSALITY: INTERVENTION (randomised apnea protocols), with an outcome class irrelevant to the task
+SOURCE: Front Physiol 2022 meta — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9551563/ ; Bouten 2025, Exp Physiol — https://physoc.onlinelibrary.wiley.com/doi/10.1113/EP091905 — **neither opened**
+COACHING: **Decline CO₂-tolerance / breath-hold work for pitchers.** ⭐ **STRUCTURALLY IDENTICAL TO F-660** (heat acclimation improves everything except peak anaerobic power, the one outcome a pitcher sells). **SECOND INSTANCE IN TWO DAYS of an adaptation whose demonstrated outcome class and the pitcher's are disjoint — that is now a pattern worth naming, not a coincidence.** ⭐ **And note the shape of the result: breath-hold CAPACITY improves while performance does not. Test-specific adaptation — the identical pattern to F-571 (every mobility intervention in existence aimed at ROM and measured ROM). THIRD domain in which this corpus has caught it.**
+CONFIDENCE: high for the structural argument; medium for the magnitudes
+SEE ALSO: F-660, F-132, F-571, F-675, F-673
+
+---
+
+### F-675 | ⭐ THE BOLT SCORE IS DEBUNKED FOR PERFORMANCE PREDICTION IN TRAINED ATHLETES — and its thresholds are marketing
+TOPIC: BOLT, body oxygen level test, breath hold, screening, measurement validity, marketing, fabrication-adjacent, field scouting
+CLAIM: The breathing industry's screening instrument for "CO₂ tolerance" has no relationship to exercise performance in a highly-trained sample, has never been validated in sport, and its published cutoffs originate with the test's commercial promoter rather than with any validation study.
+NUMBERS: **n = 49 elite speedskaters.** BOLT tested against a Wingate test and a cardiopulmonary exercise test: **no significant relationship with exercise performance.** Age, somatic indices and training experience also non-significant. Authors' own words: BOLT "has not yet been scientifically validated in sports settings"; its link to "baroreceptor and chemoreceptor function remains to be established"; it "requires developing an appropriate methodology to ensure the validity of the assessment," with reproducibility and robustness outstanding. PROMOTIONAL THRESHOLDS: "<20 s = disproportionate breathlessness during moderate-intensity exercise," >30 s adequate — **traceable to the promoter's blog, not to validation research.**
+POPULATION: **n = 49 HIGHLY-TRAINED athletes.** ⭐ **The rare case where restriction of range works FOR us: the null was found IN a selected sample, not inferred down to one from a mixed sample.**
+EVIDENCE: ESTABLISHED that the association is absent in trained athletes (single study, but in the right population and adequately sized for a correlation: r_crit at n = 49 ≈ 0.28)
+CAUSALITY: CROSS_SECTIONAL (an association test, and it found none)
+SOURCE: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11406178/ — **not opened (F-669)**. Promotional thresholds: https://oxygenadvantage.com/blogs/science/measure-bolt ; https://o2trainer.com/pages/bolt-test
+COACHING: **Do not screen pitchers with BOLT and do not use the 20 s / 30 s thresholds for anything. VERDICT: DEBUNKED for performance prediction; MARKETING for the cutoffs.** ⚠️ These are real pages making unvalidated claims — marketing, not fabrication — but the thresholds are exactly the kind of unsourced numeric that becomes a re-import vector (cf. F-375).
+CONFIDENCE: high
+SEE ALSO: F-674, F-682, F-375, F-571
+
+---
+
+### F-676 | ⭐⭐ 84.8% OF HRmax IN AN ALACTIC TASK MEANS IN-GAME HEART RATE IN A PITCHER IS AN AROUSAL SIGNAL, NOT A METABOLIC ONE — and this reorganises the whole topic
+TOPIC: heart rate, in-game, arousal, autonomic, energy systems, F-132, outcome class, reframe, conditioning folklore
+CLAIM: A task that is phosphagen-dominant, works 0.05–0.15 s at a time and rests 15–25 s between efforts cannot generate a genuine 85% HRmax metabolic demand. Therefore the in-game heart rate of a pitcher is primarily sympathetic/arousal-driven — and the only breathing channel with a live mechanism in pitching is the autonomic one, aimed at COMMAND, not the ventilatory one aimed at velocity.
+NUMBERS: Cornell et al. (2017): **16 professional baseball starting pitchers, 682 innings (381 home / 301 away). In-game HR = 84.8 ± 3.9% of age-predicted HRmax.** Intensity varied by inning only in HOME starts, where innings 1 and 2 exceeded all others; **first inning home 87.3 ± 3.6% vs away 85.8 ± 3.8%.** The authors read the overall figure as evidence pitching is "mainly an anaerobic task." A single-college-pitcher case report: ~87% mean over nine innings, peaks near 95%, authors suggesting arousal and anxiety affect the physiological demands. Against F-132's duty cycle, the metabolic reading is not available.
+POPULATION: 16 professional starting pitchers — **ON POPULATION, which is rare for this corpus**
+EVIDENCE: ESTABLISHED for the dissociation; **the absolute percentage is IMPRECISE** (see caveat)
+CAUSALITY: CROSS_SECTIONAL for the HR values; **MECHANISM for the reframe** (nothing was manipulated)
+SOURCE: Cornell et al. (2017), J Strength Cond Res 31(1) — https://www.ovid.com/jnls/nsca-jscr/fulltext/10.1519/jsc.0000000000001465~in-game-heart-rate-responses-among-professional-baseball — **not opened (F-669)**. Reframe derived in-cycle against F-132.
+COACHING: ⚠️ **DO NOT QUOTE 84.8% AS PRECISE.** It is a measurement divided by a guess: age-predicted HRmax (220 − age) carries an individual SEE of roughly **±10–12 bpm**, which moves "84.8%" to anywhere from ~80% to ~90% at a true HRmax of 195. **The qualitative dissociation survives the whole range** — no denominator in that bracket makes 85% HRmax explicable by an alactic task. ⭐ **THE STRONGER EVIDENCE IS THE HOME/AWAY FIRST-INNING CONTRAST (87.3 vs 85.8%), because it is a within-study, within-subject comparison of two conditions with IDENTICAL metabolic content, and it is a ratio of the same soft denominator so the error cancels.** CONSEQUENCES: (1) reinforces F-132's verdict that conditioning-for-starts is folklore; (2) a pitcher's HR strap is an arousal instrument, usable as a PROCESS check and never as an outcome; (3) the entire respiratory-training literature is built for the channel this task does not have.
+CONFIDENCE: high for the dissociation and the reframe; **low for the absolute percentage**
+SEE ALSO: F-132, F-672, F-677, F-374, F-365, F-369, F-681
+
+---
+
+### F-677 | THE BREATHING LITERATURE THAT IS ABOUT THE RIGHT MECHANISM HAS THE WRONG POPULATIONS AND THE WRONG OUTCOMES — not one study in it has a pitching outcome
+TOPIC: slow-paced breathing, HRV biofeedback, cardiac vagal activity, arousal, command, outcome class, sample mismatch, gap
+CLAIM: Slow-paced breathing reliably raises cardiac vagal activity in athletes and reduces anxiety, which is the one channel with a live mechanism in pitching (F-676). Every study in that channel measures HRV or self-report, in populations that are not 85+ arms, and none has a pitching outcome of any kind.
+NUMBERS: (1) **ACUTE, n = 75 athletes:** cardiac vagal activity "significantly higher in ALL slow-paced breathing conditions compared to control" (RMSSD, LF power). ⚠️ **Significant across all conditions, NOT specifically at 0.1 Hz** — single lab session, outcome is HRV, not performance. (2) **4 weeks slow-paced breathing during recovery from weightlifting, young male baseball players from a regional academy:** improved RESTING HRV; co-primary outcome anaerobic performance. ⚠️ **SAMPLE MISMATCH — "young," academy level, not 85+; and the outcomes are channel-A′ outcomes bolted onto a channel-C intervention.** (3) **HRV biofeedback, 18 Taiwanese university baseball players, 20 min/day × 10 days, RANDOMISED:** cognitive anxiety significantly reduced vs no change in controls; **the performance outcome was BATTING and no performance effect was confirmable.** (4) **Musicians, RANDOMISED:** slow-breathing groups improved HF and LF/HF during performance anticipation, **and adding biofeedback to slow breathing produced NO differential result.**
+POPULATION: mixed athletes; youth/academy baseball; university baseball HITTERS; musicians. ⚠️ **No 85+ pitcher anywhere in this channel.**
+EVIDENCE: ESTABLISHED that slow-paced breathing raises vagal activity acutely; **WEAK for any performance consequence**; all snippet-only (F-669)
+CAUSALITY: INTERVENTION throughout (randomised or within-subject condition comparisons) — **the causal ledger is GOOD and the outcome ledger is useless**
+SOURCE: Acute — https://link.springer.com/article/10.1007/s10484-023-09605-2 ; baseball academy — https://www.sciencedirect.com/science/article/abs/pii/S0765159726000559 ; HRVB baseball — https://pmc.ncbi.nlm.nih.gov/articles/PMC11843864/ ; musicians — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464298/ — **none opened (F-669)**
+COACHING: ⭐ **BUY NOTHING. The musician trial is the operative one for equipment: biofeedback added nothing over the breathing itself.** The prescription is loosened from a fixed count to **"slow your breathing down, make the exhale longer than the inhale, about six breaths, before you pick up the ball"** — because resonance frequency is individual and the acute athlete evidence found vagal elevation across all slow conditions, not specifically at 6/min. **False precision in a cue is the same error as false precision in a number.**
+CONFIDENCE: high that the channel's outcome ledger is empty for pitching; medium for the vagal effect's magnitude
+SEE ALSO: F-676, F-678, F-374, F-368, F-369, F-681, Dispute #72
+
+---
+
+### F-678 | THE DETECTION FLOOR ON THE ONLY RANDOMISED BREATHING TRIAL IN BASEBALL — 9 per arm could only have seen d ≥ 1.32
+TOPIC: detection floor, power analysis, F-439, HRV biofeedback, baseball, effect size, method
+CLAIM: The one randomised breathing trial conducted in baseball players is so small that any effect it reports is at or beyond its own detection floor, and it is therefore uninformative about magnitude whichever way it came out.
+NUMBERS: 18 participants, two arms → **9 per arm.** Two-sample, α = 0.05 two-tailed, 80% power: **d_min = 2.80 × √(2/9) = 2.80 × 0.4714 = 1.32.** For context: a d of 1.32 in an anxiety measure would be among the largest psychological intervention effects in the sport literature. **Either the effect is enormous or the result is a false positive; the trial cannot distinguish these.**
+POPULATION: 18 Taiwanese university baseball players (hitters)
+EVIDENCE: ESTABLISHED (arithmetic)
+CAUSALITY: not applicable — a detection threshold
+SOURCE: Computed in-cycle 2026-10-12 from the trial's reported n. Trial: J Funct Morphol Kinesiol 2025;10(1):65, https://pmc.ncbi.nlm.nih.gov/articles/PMC11843864/ (not opened). Method per F-439.
+COACHING: **Do not carry a magnitude from this trial.** Its anxiety reduction is a direction, not a size. ⭐ **Seventh application of F-439's logic in this corpus and the fourth to a positive result.** The pattern is now routine enough to be a standing step: **before carrying any magnitude, compute the study's own d_min from its n.**
+CONFIDENCE: high
+SEE ALSO: F-677, F-439, F-616, F-671, F-623
+
+---
+
+### F-679 | 🚨 NOBODY HAS MEASURED WHICH RESPIRATORY PHASE A PITCHER IS IN AT FOOT STRIKE OR BALL RELEASE — in any population, and it costs one strap
+TOPIC: gap, respiratory phase, breath timing, measurement, study design, cheapest unrun study, instrumentation
+CLAIM: The industry cue specifies respiratory phase precisely (inhale at the sign, hold at the set, exhale through the delivery). No study in existence has recorded whether pitchers actually do that, whether harder throwers do it differently, or whether it is voluntarily controllable at pitching trunk velocities.
+NUMBERS: Searched; zero studies located. Diaphragm EMG methods exist but are invasive (a 2023 Nature study explicitly declined fine-wire diaphragm EMG on those grounds) and none has been applied to throwing. **THE DESIGN: a strain-gauge or inductance-plethysmography respiratory belt synced to a session somebody is already running — motion capture, a force plate, or even a side-view high-frame-rate camera with a timing pulse. n ≈ 6 arms above the 85 floor, 20 pitches each, DESCRIPTIVE. One afternoon, one strap, no new subjects.**
+POPULATION: target is 85+; the gap is total in every population
+EVIDENCE: n/a — a registered absence plus a design
+CAUSALITY: the proposed study is DESCRIPTIVE/CROSS_SECTIONAL and is correctly so: it establishes what the phenomenon IS before anyone manipulates it
+SOURCE: Gap established by search 2026-10-12. Invasiveness note: https://www.nature.com/articles/s41598-023-37629-5
+COACHING: **NOTHING TO COACH — this is a measurement.** ⭐ **It is the highest-information item in the topic and it is nearly free. If elite pitchers are all mid-exhale at front-foot strike, the industry cue at least describes reality and Dispute #71 becomes a real contest. If they are all breath-held at the set and through release, the cue describes something nobody does and it dies for free.** ⭐ **FOURTEENTH ENTRY IN THIS CORPUS'S STANDING PATTERN: the cheapest unrun study is an extra instrument on a session somebody is already running** (cf. F-571 radar on a ROM trial, F-620 the non-throwing shoulder in existing DXA scans, F-645 braking force off a plate already owned, Dispute #68 a dart board on a nap trial).
+CONFIDENCE: high that the gap is total; high that the design is adequate and cheap
+SEE ALSO: F-670, F-571, F-620, F-645, Dispute #71
+
+---
+
+### F-680 | RESPIRATORY MUSCLE TRAINING ADDS TRAINING LOAD — the cost side the category never prices, and F-610's argument form applies
+TOPIC: inspiratory muscle training, training load, cost, in-season, F-610, decision rule
+CLAIM: RMT is not free. A randomised trial in well-trained athletes found it adds measurable stress and training load, and the authors flagged that its psychophysiological costs are understudied.
+NUMBERS: Randomised controlled trial in **well-trained triathletes**: RMT "induces additional stress and training load"; authors state "psychophysiological costs of RMT remain understudied." ⚠️ Snippet-only; magnitudes not retrieved. Typical device prescription is 2 × 30 breaths daily against inspiratory resistance.
+POPULATION: well-trained triathletes. SAMPLE MISMATCH for load context — a triathlete's baseline load profile is not a pitcher's — but the direction of a cost is the relevant content.
+EVIDENCE: EMERGING; snippet-only (F-669)
+CAUSALITY: INTERVENTION (randomised)
+SOURCE: https://pmc.ncbi.nlm.nih.gov/articles/PMC10576561/ — **not opened (F-669)**
+COACHING: **This closes the decision on channel A.** ⭐ **F-610's form of argument applies directly: a cost can be declined without an exchange rate when neither side of the trade is priceable in the outcome you care about.** There is a demonstrated debit (added in-season load) against a credit that has never been measured in any throwing population (F-673) and whose mechanism is foreclosed (F-672). **Decline it.** Contrast with channel C, whose cost is genuinely near zero and which is therefore accepted under the same framework despite being equally unmeasurable.
+CONFIDENCE: medium-high for the existence of a cost; low for its size
+SEE ALSO: F-610, F-672, F-673, F-677, F-681
+
+---
+
+### F-681 | PRICING A BREATHING INTERVENTION — the only channel with a live mechanism is the one this program cannot measure, and ρ now blocks a SIXTH topic
+TOPIC: detection wall, power analysis, ICC, rho, clustering, design effect, command, velocity, F-623, F-374, decision rule under undetectability
+CLAIM: Validating any breathing protocol on a college staff is impossible for both outcome classes, and the impossibility is asymmetric in the cruellest direction: the channel with a dead mechanism is the nearly-measurable one, and the channel with a live mechanism is the unmeasurable one.
+NUMBERS: **VELOCITY (channels A/B):** using F-623's derived within-pitcher σ = 1.83 mph, a two-arm trial needs **106 pitchers for +1.0 mph** and **422 for +0.5 mph.** **COMMAND (channel C):** per F-374, a 10-percentage-point zone-rate change needs **~392 pitches per condition**; corrected for within-bullpen clustering with design effect 1 + (m−1)ρ at m = 25, ρ = 0.1 → **3.4× → ~1,330 pitches per condition.** ⚠️ ρ is an ASSUMPTION; the figure is a FLOOR.
+POPULATION: an 85+ arm; σ and ρ both bracketed rather than measured
+EVIDENCE: ESTABLISHED (arithmetic, conditional on the bracketed σ and ρ)
+CAUSALITY: not applicable — detection thresholds
+SOURCE: Computed in-cycle 2026-10-12 from F-623 and F-374.
+COACHING: ⭐⭐ **THE DECISION RULE THIS PRODUCES IS THE CYCLE'S MOST PORTABLE OUTPUT, and it answers the standing objection that this corpus only ever says no. Under identical undetectability, three different verdicts: (1) COST ZERO + MECHANISM LIVE → ACT, and label the check a PROCESS check, never an outcome check (channel C). (2) COST NON-ZERO + MECHANISM DEAD → DECLINE (channel A). (3) DIRECTION UNKNOWN → REMOVE the unfounded instruction and INSTALL NOTHING (channel B).** 🚨 **ρ, the within-bullpen location ICC, NOW BLOCKS A SIXTH TOPIC** after F-654, F-408, F-186, F-482 and F-663 — **it is one query against any program's TrackMan log and is now the single most-blocking unmeasured number in this corpus.** 🚨 **FOURTH INDEPENDENT ARRIVAL at "a college program cannot validate a performance intervention on its own athletes"** after F-506 (nutrition), F-476 (imagery) and F-623 (BFR). **RECOMMEND PROMOTING IT TO A STANDING RULE, with the three-channel decision rule above attached as its operative half** — otherwise the rule is only a counsel of despair.
+CONFIDENCE: high for the arithmetic; medium for the σ and ρ brackets it rests on
+SEE ALSO: F-623, F-374, F-506, F-476, F-663, F-654, F-408, F-186, F-482, F-680, Dispute #41, Dispute #72
+
+---
+
+### F-682 | THE FIELD SWEEP CAME BACK NEARLY EMPTY, AND THE EMPTINESS IS THE FINDING — breathing has almost no penetration into elite pitching development
+TOPIC: field scouting, industry, marketing, idea scouting, verdicts, Driveline, Tread Athletics, negative sweep
+CLAIM: Searched coach and biomechanist channels, Driveline and Tread Athletics content, podcasts, forums and Reddit for current industry argument about breathing for pitchers. Almost nothing retrievable exists, and given F-674 and F-675 that is the industry getting one right by neglect.
+NUMBERS: **ZERO retrievable Driveline or Tread Athletics items on breathing for pitchers.** VERDICTS ISSUED: **BOLT as a pitcher screen — DEBUNKED / MARKETING** (F-675, n = 49 elite, no relationship; thresholds promotional). **"Exhale through the delivery" — UNPROVEN and now actively CONTESTED** (F-670, Dispute #71). **Box breathing between innings — UNPROVEN**, its cited salivary alpha-amylase reduction and "resting HR 75–85 bpm" untraceable to any study. **Nasal-only breathing / CO₂ tolerance devices (Airofit-class, O2Trainer, PowerBreathe) — MARKETING for pitching** (F-674). **Short-term breathwork protocol in recreational runners, MDPI Sports 2025;13(2):31 — UNPROVEN for us** (wrong population, aerobic outcome). **NCT06807957 (CrossFit IMT) and NCT07083258 (wrestler IMT) — PENDING, and neither has a throwing or accuracy outcome.**
+POPULATION: n/a — field scouting
+EVIDENCE: n/a — verdicts on scouted ideas
+CAUSALITY: n/a
+SOURCE: WebSearch sweep 2026-10-12. Unsourced blog figures: a coaching site relayed via search, not opened.
+COACHING: **Stated plainly rather than padded: this is the thinnest field sweep in the program's history.** ⚠️ **ONE LIVE RE-IMPORT VECTOR LOGGED: the box-breathing blog's salivary alpha-amylase and 75–85 bpm figures are exactly the F-375 fabrication species — an unsourced physiological number attached to a plausible practice, which defeats the content check because the practice itself is harmless.** DO NOT CITE either figure.
+CONFIDENCE: high
+SEE ALSO: F-675, F-674, F-670, F-375, F-669
