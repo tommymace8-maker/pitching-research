@@ -2150,3 +2150,56 @@ IAP's mechanical function is transmitting torque to an **external resistance**. 
 **Disputes #69 / #70 (heat) — NOT MOVED.** Today did not touch them. #70 still turns on one swallowed sensor in one 92 °F game, and it remains the only dispute in the registry that one athlete and one game would resolve outright.
 
 **Disputes #65 / #66 (tendon stiffness) — ADJACENT, NOT MOVED.** F-670's trunk-stiffness question is the same class of question as #66 ("is stiffness even the right target for a ballistic skill?"), now asked of the trunk rather than the lower limb, and the proximal-deceleration objection in Dispute #71 is #66's argument transplanted. **Two disputes now turn on the same unanswered mechanics question, which argues for consolidating them into one.**
+
+---
+
+## Dispute #73 — 🟡 Is "bike instead of run" a real modality effect, or a 2012 subgroup artefact that two later meta-analyses erased? *(added 2026-10-13)*
+
+**The claim in contest.** The modality prescription that reaches pitching coaches — ride the bike, it spares the legs and the power — is sourced, when it is sourced at all, to Wilson et al. 2012 (PMID 22002517): *"resistance training concurrently with running, but not cycling, resulted in significant decrements in both hypertrophy and strength."*
+
+**FOR THE MODALITY EFFECT (anatomist's position).** The mechanism is not invented. Running is eccentric-loaded and cycling is not; repeated eccentric landings produce muscle damage, and damage competes with the repair and remodelling that resistance training is trying to buy. A pitcher is already paying a large eccentric bill at front-foot strike. If a modality difference exists anywhere, this is the plausible route for it.
+
+**AGAINST (biomechanist's position).** The vote count runs against it: **Wilson 2012 says running is worse; Sabag 2018 is relayed as finding MORE lower-limb attenuation in cyclists — the opposite direction; Schumann 2022 (43 studies, n = 1,090) and the updated SportRxiv meta-analysis both state modality is explicitly NOT a moderator.** That is 1 : 1 : 2. Worse, all four are **between-study subgroup contrasts** — nobody randomised the same athletes to run-vs-ride and measured explosive output. Per this corpus's standing rule, a subgroup difference across studies is an observed association between STUDY FEATURES, not a lever. And Wilson 2012's companion moderators (more endurance frequency and duration → worse outcomes) are the kind of dose-response that appears when the heaviest-dose studies happen to be the running studies.
+
+**COACH'S POSITION.** The decision is nearly free either way, so the dispute matters less than it looks — but the SENTENCE matters. Telling a pitcher the bike protects his velocity is an unearned causal claim he will repeat, and the corpus has watched that pattern (stride length, extension) three times.
+
+**WHERE IT STANDS.** Unresolved, and leaning **against** a velocity-relevant modality effect. **What survives: if a program prefers the bike, the defensible reason is lower eccentric landing load on an arm already paying a loading bill — an injury-constraint argument, one line, out of mission scope — NOT velocity preservation.**
+
+**WHAT WOULD SETTLE IT.**
+1. **Read Sabag 2018.** It is the one object in the set whose direction is known only by relay, and it is the only reason this is 1:1:2 rather than 1:0:2. Journal and coefficients were not retrieved. **Cheapest item in the dispute, one abstract.**
+2. **Schumann 2022's own modality subgroup table** — k and n per cell. If the no-moderator conclusion rests on two underpowered cells, it is not a refutation of Wilson, and this collapses into Dispute #63's structure (a null at its own detection floor is evidence of nothing).
+3. A within-trial randomisation of run vs ride at matched work, with an explosive outcome. **Does not exist in any population.**
+
+---
+
+## Dispute #74 — 🔴 Does a pitcher need an aerobic base at all, and has anyone ever measured the thing it is supposed to buy? *(added 2026-10-13)*
+
+**The claim in contest.** The traditionalist case, in its strongest modern form, is not "running builds stamina." It is: PCr resynthesis between efforts is oxidative; a starter makes 80–100 maximal efforts; therefore oxidative capacity sets the floor under late-outing output. The sprint-only case is that the task is alactic, the rest intervals are long, and the aerobic demand is simply low.
+
+**FOR THE AEROBIC BASE (anatomist's position).** The mechanism is real and already registered (F-132): PCr fast phase ~20–30 s, near-complete ~3–5 min, rate governed by oxidative capacity. And the only confirmed-ELITE object in the entire topic supports it — **24 MLB pitchers, starters with higher estimated VO2max better on ERA, WHIP and strikeouts, and the effect specific to STARTERS rather than relievers (F-687)**, which is exactly the role-interaction the mechanism predicts. A corpus that accepts mechanism-plus-direction elsewhere should accept it here.
+
+**AGAINST (biomechanist's position).** Three strikes. **(1)** F-687 is cross-sectional with a median split on 7 vs 7, untested multiplicity across "many pitching metrics" at n = 24, and seven seasons of survivorship — the starter/reliever difference is equally well explained by starters being better pitchers who do more offseason work, i.e. **performance → fitness**. **(2)** The one randomised manipulation in pitchers moved the aerobic adaptation (mile time p = 0.007) and moved **nothing** on velocity, WHIP, fatigue index or soreness (F-684). The adaptation happened; the claimed consequence did not appear. **(3)** F-676 removed the indirect in-game support: 84.8% of HRmax in an alactic task means HR is reading **arousal**, not metabolic demand, so nobody has ever shown a pitcher approaching a metabolic ceiling at all. **And the timing arithmetic cuts the wrong way for the mechanism: 3–5 min restores PCr near-completely, and a half-inning is usually longer than that.**
+
+**COACH'S POSITION.** Both sides are arguing about an outcome neither has measured. The pro-aerobic case does **not** predict more velocity — it predicts **less velocity decay late in an outing**, which is a different column and the one nobody looked in.
+
+**WHERE IT STANDS.** Unresolved, and **the dispute is mis-specified in the literature rather than genuinely balanced.** The reframe is the progress: **F-689 identifies the outcome both sides should have been using, and prices it — within-outing decay, ~16 fastballs per bucket at a 1.0 mph drop (F-289), against ~106 pitchers for 1 mph of MEAN velocity (F-681). Roughly an order of magnitude cheaper, within-athlete, and already sitting in every radar log.**
+
+**WHAT WOULD SETTLE IT.**
+1. ⭐⭐ **F-689's design, run once.** Within-athlete decay before and after a conditioning block. **Prerequisite, and it is free: the individual arm's within-outing fastball SD, which has never been published for an 85+ arm and is a corpus assumption everywhere it appears.**
+2. **Any PCr or ³¹P-MRS recovery measurement in a pitcher.** Does not exist at any level. Without it the mechanism cannot be priced, only asserted.
+3. **A measured HRmax in any pitcher study (F-676).** The field's headline physiological figure is a percentage of an age estimate.
+4. **The mean velocity of Rabena & Moran's 13 pitchers** — one methods sentence. If that sample threw 82, the null is not about this population at all, and the topic has **zero** objects above the floor rather than one.
+
+---
+
+## Revisited 2026-10-13 — did today move anything?
+
+**Dispute #72 — "is an intervention worth installing when its only live outcome is permanently unmeasurable?" — MOVED, AND ITS OWN EXAMPLE CAME TRUE.** #72's AGAINST position argued that installing an unmeasurable intervention makes it permanent by being unfalsifiable, *"which is exactly the mechanism by which the long-toss and distance-running traditions survived."* **Today audited that example directly and found something worse than unfalsifiability: the tradition's REPLACEMENT is also unfalsified.** The sprint-only consensus that displaced poles rests on a 1992 study with three incompatible sample descriptions, an aerobic-dance comparison arm, and magnitudes traceable to a vendor (F-683). **The lesson #72 should absorb: an unmeasurable intervention does not merely persist — it gets replaced by another unmeasurable intervention, and the replacement inherits the same immunity. F-689's outcome swap is the first move in this topic that would break that cycle, and it was available the whole time.**
+
+**Dispute #41 / the detection wall — MOVED, and for the first time in the WRONG DIRECTION FOR THE WALL.** The wall says a college program cannot validate a performance intervention on its own athletes (F-506, F-476, F-623, F-681 — four independent arrivals). **F-689 is the first credible partial exception the corpus has produced: by changing the OUTCOME from mean velocity to within-outing decay, the required sample falls from ~106 pitchers to ~16 fastballs per bucket on one arm.** That does not break the wall — the decay-CHANGE power is still unpriced, and the within-outing SD is still an assumption — but it is the first demonstration that **the wall is partly a function of endpoint choice rather than of program size.** This should be carried into the detection-wall promotion decision rather than promoting the wall unqualified.
+
+**Dispute #63 — "is a positive result at its own detection floor evidence of nothing?" — ADJACENT AND NOW POINTED AT A NULL.** Today supplies the mirror case: **F-684 is a NULL at a sample eight times below its own detection floor**, and the industry reads it (when it reads it at all) as an equivalence. #63's logic applies symmetrically and the corpus should say so: a null below the floor is evidence of nothing, exactly as a positive at the floor is.
+
+**Disputes #65 / #66 (tendon stiffness) — ADJACENT, NOT MOVED.** F-685's SMD −0.28 on explosive strength is the same "proximal test, distal outcome, no transfer coefficient" problem #66 raises about stiffness. **The corpus now holds three topics (stiffness, jump height, concurrent-training interference) whose entire magnitude is expressed in a test nobody has linked to ball velocity in an 85+ arm. That is a candidate sweep.**
+
+**Disputes #69 / #70 (heat), #71 (breath phase), #67 / #68 (nap) — NOT MOVED.** Today did not touch them.
