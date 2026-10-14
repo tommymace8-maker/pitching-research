@@ -2203,3 +2203,59 @@ IAP's mechanical function is transmitting torque to an **external resistance**. 
 **Disputes #65 / #66 (tendon stiffness) — ADJACENT, NOT MOVED.** F-685's SMD −0.28 on explosive strength is the same "proximal test, distal outcome, no transfer coefficient" problem #66 raises about stiffness. **The corpus now holds three topics (stiffness, jump height, concurrent-training interference) whose entire magnitude is expressed in a test nobody has linked to ball velocity in an 85+ arm. That is a candidate sweep.**
 
 **Disputes #69 / #70 (heat), #71 (breath phase), #67 / #68 (nap) — NOT MOVED.** Today did not touch them.
+
+---
+
+## Dispute #75 — 🔴 Is the radar number a training stimulus or a testing artefact — and does the difference change what a coach does? *(added 2026-10-14)*
+
+**THE CLAIM AT ISSUE.** F-696: six weeks of per-throw radar feedback produced **+8.1 ± 3.6 %** throwing velocity vs **+2.7 ± 2.9 %** without it, n = 123, randomised, isolated manipulation, d ≈ 1.65. **F-697: there was no retention test, and the authors say so.**
+
+**POSITION A — IT IS LEARNING (the generous reading).** Per-throw KR over 240 maximal throws shapes a faster movement pattern. The athlete owns the gain. The control arm had the same volume and the same instruction and gained a third as much, so **the number did something to the movement, not merely to the moment.** Install the readout and the gain banks.
+
+**POSITION B — IT IS ACUTE OUTPUT UNDER MEASUREMENT (the parsimonious reading).** F-698 is a within-subject crossover showing a live display buys **+7.9–12.9 %** peak force in trained men **with no training whatsoever**. The magnitudes are the same order. The post-test was run with the contingency still in force. **The control arm was told "maximal effort" and, being unscored, did not give it — so the study may have compared scored throwing to unscored throwing, which is an effort contrast, not a learning contrast.**
+
+**WHY THE OBVIOUS TEST DOES NOT SETTLE IT — and this is the dispute's real content, conceded by the biomechanist on 2026-10-14.** A retention test measured **without** the gun is **not** a clean arbiter. If the mechanism is acute central drive, then six weeks of genuinely higher-intent throwing could produce real neural and tissue adaptation **that a gun-off retention test would fail to express**, because you removed the thing that expresses it. **The missing test cannot distinguish the hypotheses either. Only a 2×2 can: trained with/without the readout × tested with/without it. Nobody has run that cell structure in any throwing task.**
+
+**WHAT RIDES ON IT.** ⭐ **The two positions give the SAME instruction this week and OPPOSITE instructions next season.** Both say "point the gun at him during a velocity block." Only A says the gain is still there in February with the gun off. **And B carries a cost A does not: if the readout works by raising drive on every throw, then a permanent per-pitch display raises the mechanical load of every training throw, including the submaximal ones — a gun on a recovery pen becomes a testing day (F-698).**
+
+**WHERE IT STANDS.** Unresolved, and **genuinely balanced rather than mis-specified** — unusually for this registry, both positions have a manipulated study behind them. A has F-696 (n = 123, randomised, adequately powered, wrong population, no washout). B has F-698 (n = 20, crossover, right mechanism, wrong task, bottom of its ES range below its own detection floor). **Neither study was opened (F-695).**
+
+**WHAT WOULD SETTLE IT.**
+1. ⭐⭐ **The 2×2.** Trained with/without the readout × tested with/without it. The only design that separates learning from rented output.
+2. ⭐ **F-706 run once** — the gun-on/gun-off block test, ~32 fastballs on one arm, counterbalanced ABBA. **It cannot settle the dispute** (it measures the acute effect only) **but it establishes whether the acute effect exists at all in an 85+ arm, which is the prerequisite for caring about the rest.** Pull the within-outing fastball SD off your own log first.
+3. **Štirn's absolute baseline velocity.** One methods sentence at PMC5384067. If that sample threw 45 mph, the whole object is further from this population than the percentage suggests.
+4. **Any test of the guidance hypothesis on a maximal-effort power task.** Does not exist; the literature is accuracy, timing and force-maintenance tasks, so the corpus cannot even borrow a prior on whether dependency is the expected failure mode here.
+
+---
+
+## Dispute #76 — 🟡 Should a pitcher ever be shown his own kinematics? *(added 2026-10-14)*
+
+**THE CLAIM AT ISSUE.** Every D1 program owns a markerless lab and shows pitchers their reports. **F-702: knowledge of PERFORMANCE has never been manipulated in a pitcher, in any population, with any outcome.**
+
+**POSITION A — THE BIOMECHANIST: NOT AS FEEDBACK.** Three strikes. **(1)** Zero evidence in a pitcher (F-702), and the only sport-specific meta-analysis is **g = 0.55 [−0.39, 1.50], five studies, one with n = 1, and no isolated feedback arm anywhere in it** (F-701) — evidence of nothing by Dispute #63's rule. **(2)** The measurement ceiling bites hardest where coaches look: **~5 cm MPJPE, worst in the shoulder rotational variables** (F-703). **(3)** Lerch's split is the damning one for feedback specifically — **variability right, means wrong** — and the report hands the coach the mean. **Use the lab as a screen; feed back the ball.**
+
+**POSITION B — THE COACH: THE ATHLETE ASKS, AND SILENCE IS ALSO AN INTERVENTION.** An 85+ pitcher who has just been in the lab will ask what it said. "Nothing you can use" is itself a message, and it costs buy-in. More substantively: **a one-off descriptive report that reframes what he is trying to do is not the same object as a per-pitch number to chase**, and the guidance-hypothesis literature's dependency worry is about the latter. The KP-vs-KR review (2021, 19 studies) reports **prescriptive KP > KR** while **KR > descriptive KP** — which, if it holds, says the distinction is not body-vs-ball at all but **prescriptive-vs-descriptive**: *"get your front hip through sooner"* beats a radar number, and a radar number beats *"here is a graph of your front hip."* **Nobody has tested that ordering in a pitcher and the pooled effect sizes are not retrievable.**
+
+**POSITION C — THE ANATOMY-PHYSIOLOGY DISSENT, which belongs to neither side.** The question is mis-framed as informational. **If F-698 is right, the dominant effect of ANY readout is on central drive, not on information** — in which case the content of the report matters far less than whether being measured raises intent, and a joint-angle graph and a radar number may do the same physiological thing by different routes. **Untested, and it would reduce both A and B to the same intervention.**
+
+**WHERE IT STANDS.** Unresolved. **A is better evidenced on the narrow question (feeding back a number to chase) and B's prescriptive/descriptive distinction is the strongest argument in the dispute and the least tested.** The corpus's working position, which is a compromise rather than a resolution: **keep the lab as a screen, deliver cues prescriptively and in the athlete's language, feed back ball flight, and do not hand him a joint-angle target.** That is defensible and it is **not** evidence-based — nothing supports or refutes it.
+
+**WHAT WOULD SETTLE IT.**
+1. **Any KP manipulation in a pitcher, with any outcome.** The gap is total and the first study to exist will be the best evidence in the topic by default.
+2. ⭐ **A within-athlete minimal detectable change for the target kinematic variable, on the program's own system.** Prerequisite for item 1: without it, a KP trial cannot interpret its own result, and **no program can currently tell whether a mechanical change it coached actually happened.** Eighteenth entry in the missing-within-athlete-variance pattern.
+3. **The pooled effect sizes from the 2021 KP-vs-KR review** (19 studies, DOI 10.1080/1750984X.2021.1986849). **If prescriptive KP really does beat KR, Position B's reframe is the topic's live hypothesis and the body/ball axis is the wrong axis.** One table.
+4. **A test of Position C** — a readout whose information content is deliberately uninformative (a random number, a bar that moves) against a real one. If drive is the mechanism, they converge.
+
+---
+
+## Revisited 2026-10-14 — did today move anything?
+
+**Dispute #63 — "is a result at its own detection floor evidence of nothing?" — MOVED, and for the first time in the FAVOURABLE direction.** Every prior application of #63's rule has been a demolition. **Today it certified something: Štirn 2017's n = 123 clears the n ≥ 97 floor and its design detects d ≈ 0.51 against an observed d ≈ 1.65 (F-696).** Applied symmetrically in the same cycle, the rule **rejected** Tissera's cricket meta-analysis (5 studies, one n = 1, both CIs straddling zero — F-701) and **discounted the bottom of Stien's ES range** (0.49 at n = 20 paired, below its own floor — F-698). **Three rulings, three directions, one rule. #63 is now demonstrably a two-sided instrument rather than a rejection machine, which strengthens the case for promoting it.**
+
+**Dispute #41 / the detection wall — MOVED, second consecutive cycle, same mechanism.** F-689 breached it on 2026-10-13 by swapping the endpoint from mean velocity to within-outing decay. **F-706 breaches it today by making the athlete his own control across within-session ABBA blocks (~32 fastballs).** **Two independent instances of the same escape route in two days.** The qualifier is now firm enough to attach to the wall when it is promoted: **the wall binds BETWEEN-SUBJECT designs on a college roster, and the escape is always an endpoint on which the athlete serves as his own control.**
+
+**ρ, the within-bullpen location ICC — BLOCKS A SEVENTH TOPIC.** After F-654, F-408, F-186, F-482, F-663 and F-681, it now prices the command half of any feedback trial, and it is **what makes Driveline's 8–20-pitch weekly sample uninterpretable for a command endpoint** (F-705). **Still unpublished.**
+
+**Disputes #71 / #72 (breath), #73 / #74 (conditioning), #69 / #70 (heat), #67 / #68 (nap), #65 / #66 (stiffness) — NOT MOVED.** Today did not touch them.
+
+**F-049 (open pelvis at foot contact) — NOT TOUCHED**, per INDEX's standing flag. ⚠️ **But note the collision: F-049 is exactly the kind of variable a coach reads off a markerless report, and F-703 says shoulder and pelvis rotational variables are where the ~5 cm error concentrates. When F-049 is next revisited, the measurement question should be asked alongside the marker-vs-lever question.**
