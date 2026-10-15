@@ -2259,3 +2259,57 @@ IAP's mechanical function is transmitting torque to an **external resistance**. 
 **Disputes #71 / #72 (breath), #73 / #74 (conditioning), #69 / #70 (heat), #67 / #68 (nap), #65 / #66 (stiffness) — NOT MOVED.** Today did not touch them.
 
 **F-049 (open pelvis at foot contact) — NOT TOUCHED**, per INDEX's standing flag. ⚠️ **But note the collision: F-049 is exactly the kind of variable a coach reads off a markerless report, and F-703 says shoulder and pelvis rotational variables are where the ~5 cm error concentrates. When F-049 is next revisited, the measurement question should be asked alongside the marker-vs-lever question.**
+
+## Dispute #77 — 🔴 Does "intensity is protected, volume is nearly free" hold for a BALLISTIC output in a thrower? *(added 2026-10-15)*
+
+**Anatomy–physiology vs biomechanist vs coach. Three positions, and the literature answers none of them because it never measured power at all.**
+
+**THE CLAIM AT ISSUE.** F-711: the one convergent conclusion in the in-season maintenance literature is that **relative load is the variable you hold and volume is the one you can nearly give away** — Spiering 2021's conclusion, Morehouse 1967 on the strength side, Hickson's series on the endurance side, and the taper literature (volume cuts of 30–70% at maintained intensity) arriving independently at the same shape.
+
+**POSITION A — IT HOLDS, AND IT INVERTS WHAT BASEBALL DOES (anatomy–physiology).** A pitcher throws at maximal intent several times a week in-season, so **the mound already supplies the RFD stimulus**. What the mound does *not* supply is high mechanical load. Therefore the gym's in-season job is **load**, and the programs stacking in-season "power work" (jumps, med-ball circuits, explosive doubles) onto a full throwing week are paying volume for a stimulus they already have — while cutting the relative load, which is the one thing only the gym provides. Holding %1RM at 1–2 sets is the correct allocation on mechanistic grounds.
+
+**POSITION B — THE RULE WAS NEVER TESTED ON POWER, SO IT IS AN EXTRAPOLATION (biomechanist).** F-709: Spiering's second caveat explicitly excludes muscle power, *"as relatively few studies have investigated the minimal dose of exercise necessary to maintain these variables."* Every endpoint in the review is VO2max, 1RM, maximal isometric strength or muscle size. Position A is a prediction into an acknowledged void. Worse, its mechanistic support (F-719) comes from **bed rest and limb immobilisation**, which is a dose no in-season pitcher experiences — the same category of extrapolation Spiering's own authors refused to make across a *smaller* gap (general population → athlete). **Anatomy–physiology partially conceded this on 2026-10-15: the magnitude claim is withdrawn, the direction is regraded from EMERGING to MECHANISM.**
+
+**POSITION C — IT IS THE LEAST-BAD INSTRUCTION AVAILABLE (coach).** Every prescription in actual circulation (F-715's table: Tread, RPP, Coaches Insider, VBT vendors) cuts volume **and** intensity. Whatever the evidentiary status of "hold the load," the alternative on offer cuts the only variable with any supporting evidence at all. Acting on a MECHANISM-grade direction that converges from three literatures beats acting on undated blog consensus that contradicts all three.
+
+**THE COUNTER-COST, raised by anatomy–physiology against the coach and conceded in scope.** Heavy relative load at reduced total volume **concentrates** mechanical stress into fewer, harder exposures, landing on connective tissue already absorbing a full throwing week. Spiering's own ref 30 (Kraemer 2004, *JSCR* 18:121–128) is cited as the *upper* bound: too much supplementary in-season strength work impairs performance. "Cut volume, hold intensity" may be right for the 1RM and wrong for the elbow. **Resolution: the recommendation is scoped to lower-body and trunk compounds; overhead and arm-specific work is governed by F-036 and the arm-care literature and is NOT covered by anything read in this cycle.**
+
+**WHAT WOULD SETTLE IT.** An in-season trial measuring **both** a 1RM and an RFD/IMTP-slope endpoint on the same athletes at the same time points, under two lifting frequencies — ideally crossed with two intensities. **Nobody has run it in any population.** The baseball version with a mound-velocity endpoint needs ~106 arms (F-681, F-289) and is unavailable to any single program.
+
+**WHAT RIDES ON IT.** The two positions give the **same instruction this spring** (hold the load, cut the sets) and **opposite instructions about in-season power work** — A says delete it, B says we have no idea and deleting it on a mechanism is exactly the error this registry exists to catch.
+
+**WHERE IT STANDS.** Unresolved. **Asymmetric:** A has mechanism plus three converging literatures measuring the wrong variable; B has a verbatim scope exclusion from the source everyone cites; C has the practical point that the field's own prescription is worse than either. **Note what makes this dispute unusual for this registry: the underlying designs are genuine INTERVENTIONS. The failure is not cross-sectional inference — it is an uncrossed factorial and an unmeasured endpoint.** See Dispute #75, which this strengthens.
+
+**Findings:** F-709, F-710, F-711, F-712, F-714, F-718, F-719. **Related:** F-004, F-036, F-623, F-681, F-689.
+
+---
+
+## Dispute #78 — 🔴 Is Gdovin 2025's velocity drop a detraining effect or a protocol artifact? *(added 2026-10-15)*
+
+**Coach vs biomechanist, over a study this corpus already corrected once.**
+
+**THE CLAIM AT ISSUE.** F-039 / F-715: 12 NCAA D1 pitchers, 8 weeks, no weight-room access, bullpen volume rising; ball velocity change **p < 0.001** (relayed as **84.3 → 78.0 mph, −6.3 mph**, snippet-only from a vendor blog, unverified against PMID 39495235); **peak elbow varus torque, peak arm velocity and arm slot angle all unchanged (p > .05)**.
+
+**POSITION A — IT IS A PROTOCOL OR CONTEXT ARTIFACT (biomechanist).** F-094 (Slowik 2019, n = 64 pro): **within an individual, velocity → elbow varus torque R² = 0.957**. Both of Gdovin's tests share the same n = 12, so a study powered to find the velocity effect at p < 0.001 should have had comparable power on a variable that near-deterministic against velocity. And F-202 says the IMU sleeve metric is **most** valid exactly in this mode — relative, within-athlete, longitudinal — which makes the torque null harder to dismiss, not easier. The parsimonious reading: pre and post were collected under different intent instructions, bullpen structures, device placements or feedback conditions (F-704), and the "velocity loss" is a measurement contrast rather than a physiological one.
+
+**POSITION B — THAT OVERREADS F-094 (coach).** R² = 0.957 is a **within-session, across-pitch** coupling: how hard *this* pitch was thrown versus what the elbow absorbed on *that* pitch. It is **not established as a longitudinal invariant**. Eight weeks later, in a changed body and a changed training environment, the torque-per-mph mapping could have shifted. F-094's own coaching line warns against treating a within-athlete correlation as an identity. And Position A leans on a null from a sleeve worn for 8 weeks, after quoting F-202's warning that **placement drift degrades exactly that measurement**. Twelve athletes is twelve athletes.
+
+**CONCEDED 2026-10-15 (biomechanist):** the R²-as-identity criticism is fair and is this corpus's own house rule. "Probably an artifact" is withdrawn and replaced with: **the pattern is internally inconsistent and the causal reading is unavailable until somebody reads the methods.**
+
+**NOT CONCEDED, and each is sufficient on its own:** (1) the study has **no control group** — which is why F-039 was corrected in 2026-08-13 and is a complete answer regardless of this dispute; (2) **league velocity rises across a season** (F-082), so the design has no counterfactual; (3) the **84.3 mph baseline is below this program's 85 mph floor**, making the sample off-population whatever the design was.
+
+**WHAT WOULD SETTLE IT — AND IT IS ONE PARAGRAPH.** The methods of **PMID 39495235** (*JSCR* 39(3):347–351): were the pre and post velocities collected under the **same intent instruction, the same bullpen structure, the same device and placement, and the same feedback condition**? That paragraph decides whether this is a detraining result or a protocol change. **Try the object-store route first (F-707) — it is the only route that worked on 2026-10-15.** This is now the cheapest verification item in the corpus.
+
+**WHAT RIDES ON IT.** Not the practice recommendation — the athlete lifts either way, on the correlational case (F-001, F-002, F-003, F-006) and on F-711's allocation argument. What rides on it is **whether a −6.3 mph magnitude enters circulation**, and whether **F-716's consistency audit becomes a standing reading tool**: check any pre-post reporting a large within-athlete velocity change with flat kinetics against F-094's coupling before believing the velocity change.
+
+**WHERE IT STANDS.** Unresolved, and **cheaply resolvable** — unusually for this registry.
+
+**Findings:** F-039, F-094, F-202, F-704, F-715, F-716, F-082.
+
+---
+
+## Carried-forward disputes — did 2026-10-15 move them?
+
+- **Dispute #63 (positives at their own detection floor) — ⭐ MOVED DECISIVELY TOWARD "LEGITIMATE," FIFTH APPLICATION, AND THIS TIME IT HIT A PRACTICE STANDARD RATHER THAN A MAGNITUDE.** Prior applications: Lambert's BFR trial (F-616) and Lee's collagen trial (F-640). Today it landed on **Rønnestad 2011, n = 7 vs 7** (F-712) — the single study carrying the in-season prescription for every strength coach in the sport, and the study a *JSCR* review leans on explicitly to resolve its own 4× internal discrepancy between 1RM and isometric maintenance doses (F-713). The rule's consequence here is not a downgraded effect size; it is that **a near-universal practice standard rests on a positive reported at its own detection floor.** Five applications across five unrelated literatures is strong evidence the rule is a general reading tool rather than a topic-specific rationalisation.
+- **Dispute #75 (the missing 2×2) — ⭐ GENERALISED, SECOND INDEPENDENT INSTANCE IN TWO DAYS.** Yesterday's uncrossed factorial was feedback × training. Today's is **frequency × intensity, in-season**: the review can say frequency is nearly free and asserts intensity is not, but the two were **never crossed** — reduced volume was never isolated at all (F-710) and reduced intensity has a single 1967 study (F-711). Same structural hole, in a literature with no connection to the first. **#75's claim — that this registry's recurrent failure mode is an uncrossed factorial rather than a missing replication — is strengthened.** Dispute #77 is the new instance.
+- **Dispute #73 ("bike, don't run," retired 2026-10-13) — NOT MOVED**, but structurally adjacent: today's result that **intensity is protected and volume is cheap** has the same shape as #73's conclusion about conditioning modality, and both reduce the topic's entire actionable output to a **scheduling and allocation decision** rather than a modality choice. **This is now the sixth topic in the corpus whose sole deployable output is scheduling or logging.** Worth noting as a pattern about the corpus, not about pitching.
