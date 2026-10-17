@@ -2371,3 +2371,44 @@ IAP's mechanical function is transmitting torque to an **external resistance**. 
 - **Dispute #63 (positives at their own detection floor) — ⭐ SIXTH APPLICATION, AND THE STRONGEST INSTANCE YET.** Carter's +2.00 mph against a 1.72–2.29 mph floor; **Cüre's +2.44 mph against a 2.43 mph floor — a match to one hundredth of a mile per hour** (F-723, F-725). And a seventh instance at the meta level: Martínez-García's pooled ES 1.10 is assembled from 16 studies averaging ~13 per arm (F-729). **In this topic the signature is not an occasional artefact; it is the entire evidence base.**
 - **Dispute #66 (is tendon stiffness even the right target for a ballistic skill?) — NOT MOVED, but it gained a second venue.** The plyometric literature is where an optimum, rather than a monotonic "stiffer is better," would show up — **and it does not measure stiffness at all** (F-721, F-636).
 - **Dispute #77 (does "intensity protected, volume nearly free" hold for a BALLISTIC output in a thrower?) — INDIRECTLY TOUCHED, AND IN THE OPPOSITE DIRECTION.** F-728's duration moderator is a volume/duration effect on a ballistic *throwing* outcome — the first retrievable evidence in the registry bearing on the question at all — and **more weeks bought more (ES 1.05 vs 0.29)**. Snippet-only and confounded with total volume and season phase. **Registered as a LEAD on the dispute, not as movement.**
+
+---
+
+# 2026-10-17 — LONG TOSS, PULL-DOWNS AND FLAT GROUND (Cycle 46)
+
+## Dispute #82 — Is the pull-down a velocity STIMULUS, or only a velocity MEASUREMENT?
+
+**ANATOMY-PHYSIOLOGY (stimulus).** A run-up adds translational momentum to the whole system; the arm is carried into layback with more incoming energy and ball speed rises. That is overspeed, it has a coherent mechanism, and supra-competition output is a recognised stimulus class. **Conceded under cross-examination: there is no MEASURED adaptation from it in throwing, in any population, and the nearest analogues are cross-sport imports this registry has twice refused. Registered as MECHANISM, not EMERGING.**
+
+**BIOMECHANIST (measurement only, and not even a valid one).** The added velocity is bought with a translational component the pitching rules forbid — the pitcher must keep contact with the rubber until the stride foot lands, so he cannot run (F-739, Fleisig 2016's own attribution: "running forward while throwing"). **A pull-down is therefore a different task, not a mound throw minus coaching.** Supporting but NOT decisive: in 332 NCAA D1 pitchers measured in games, maximum forward centre-of-mass velocity correlates with pitch velocity at **max r = 0.164, R² ≈ 2.7%** (F-740, Zappa 2026). ⚠️ **The biomechanist states, unprompted, that this is CROSS_SECTIONAL in a range-restricted selected sample and therefore cannot be read as "the run-up doesn't matter" — that is the stride-length error with the sign flipped.**
+
+**PITCHING-COACH (the practice is the same either way).** Whatever it *is*, the pull-down number is *used* as a test — reported on showcase sheets, compared across a staff, and read as a diagnosis. **That usage is what is actually at stake, and it is Dispute #83.**
+
+**WHAT WOULD SETTLE IT:** (a) the **within-athlete slope of forward COM velocity against ball speed**, measured across a block on one roster — never done, and feasible with markerless capture a D1 program may already own; or (b) a pull-down dose trial with a **mound**-velocity outcome — which has never existed in any population (F-738).
+
+**STATE: OPEN.** Anatomy holds the mechanism, the biomechanist holds the task-difference, and both agree the transfer question is unmeasured.
+
+---
+
+## Dispute #83 — Does the pull-down→mound GAP carry per-athlete information, or is it measurement noise?
+
+**THE INDUSTRY'S POSITION (acted on daily, nowhere tested).** A large gap means the athlete "is losing connection and energy transfer in his mound velocity"; a small gap means the pull-down was thrown with low intent. Reported spreads: mean **5.7 mph** (≈23 athletes, replicated) and **"6.1 mph, range 1–10 mph"** (57 pitchers — 🚨 **failed F-727's second pass, UNVERIFIED**); shuffle pull-downs **1–3 mph** (F-741).
+
+**THE BIOMECHANIST'S OBJECTION.** No reliability estimate, within-athlete SD or ICC for the gap exists from any source. **An individual diagnosis requires within-athlete stability, and nobody has measured it.** At the corpus working assumption σ = 1.0 mph per throw, 10 pull-downs + 10 mound fastballs give SE(gap) = 0.45 mph and a minimum detectable between-session change of **≈1.24 mph** (F-746). If a man's own gap wanders ±2 mph session to session, the diagnosis is noise.
+
+**THE COACH'S OBJECTION TO THE OBJECTION, conceded in part by the biomechanist.** *"If the gap turns out reliable, what have I won?"* **A free per-athlete descriptive and nothing more** — reliability is necessary for the diagnosis, not sufficient. **The asymmetry is the whole value: this audit can KILL a near-universal practice and cannot validate one.** Worth one afternoon, not worth a programme.
+
+**WHAT WOULD SETTLE IT:** F-746's protocol — 3 sessions × (10 pull-downs + 10 mound fastballs, order counterbalanced) on 6 arms; compute the within-athlete between-session SD of the gap and compare it to the reported between-athlete spread. **Free, uses the radar log the program already owns, and decisive in the negative direction.**
+
+**STATE: OPEN AND CHEAPLY RESOLVABLE — the cheapest open item in the file.**
+
+---
+
+## Carried-forward disputes — did today move them?
+
+- **Dispute #41 (install the block, refuse the magnitude) — ⭐ MOVED, AND FOR THE FIRST TIME SINCE 2026-10-04 IT REFUSED SOMETHING.** Yesterday's rule: the magnitude is dispensable when the intervention is **free and reversible**. **A pull-down block is not free — it is max-intent throwing load** (static flat ground alone carries mound-level elbow and shoulder load at 82% of the velocity, F-739a; past ≈120 ft long toss is mound-equivalent, F-742). **Therefore the magnitude is NOT dispensable and nothing may be installed on mechanism alone.** Two consecutive cycles, two opposite outcomes, one rule. **The rule is now load-tested in both directions and should be promoted toward ESTABLISHED as a decision procedure.**
+- **Dispute #27 (nobody measures accuracy outcomes) — TENTH VENUE.** Ten retrievable objects in this topic, zero accuracy, command or location outcomes (F-745). ⭐ **The sharpest instance yet: the stated purpose of the pull-down phase is transfer INTO a precision task, and the precision half of its own rationale has never been measured.**
+- **Dispute #40 / #40b (the mound) — NOT MOVED.** Eighteenth egress-blocked cycle; F-464's +2.0 mph still cannot be tested at 85+. ⚠️ **But F-464 did real work today** — it is the entire warrant for "get him on the mound sooner" (F-744), so the dispute's resolution is now load-bearing on a live programming decision rather than only on a magnitude.
+- **Dispute #80 (the registry-wide SMD audit) — NOT MOVED.** No pooled standardised effect appeared anywhere in this topic. **Still unrun; now the seventh queued structural audit.**
+- **Dispute #44 (sensor saturation / IMU validity in pitching studies) — ⭐ MOVED, AND IT ACQUIRED A PUBLISHED ALLY.** Wong, Evans & Meister's 2024 *IJSPT* letter makes the registry's own objection in print — unvalidated device, torque values inconsistent with marker-based capture, and **IMU accuracy decreasing as torque increases** — against the dataset F-137 rests on (F-743). **The corpus's instrument scepticism is no longer only the corpus's.**
+- **Dispute #79 / #81 (is a plyo-ball throw a plyometric; is "measure RSI" a manipulation check or a surrogate?) — NOT MOVED.** No plyometric content this cycle.

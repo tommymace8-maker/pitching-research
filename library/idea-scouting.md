@@ -658,3 +658,27 @@ A search summariser emitted, unprompted and with **no supporting link in its own
 | Industry argument check — Driveline vs Tread, Sept 2026 | trade coverage | **Live dispute remains weighted balls, tech density and rapid-velocity-gain safety. NOBODY IN PITCHING DEVELOPMENT IS ARGUING ABOUT IMAGERY AT ALL** |
 
 **OPERATING RULE ADDED: WHEN A TOPIC HAS HIGH COMMERCIAL VOLUME AND ZERO MEASUREMENT, TREAT EVERY MAGNITUDE YOU MEET IN IT AS MARKETING UNTIL A PRIMARY SOURCE SAYS OTHERWISE.** Cf. F-266 (the sweep-channel limitation), F-472 (the mound's very different silence).
+
+---
+
+## Sweep 2026-10-17 — LONG TOSS, PULL-DOWNS AND FLAT GROUND (F-747)
+
+**SWEEPS RUN:** coach/industry long-toss and pull-down argument 2026; Driveline and Tread current positions; pull-down→mound transfer; velocity-programme phase structure; forums.
+
+🚨 **GENUINELY NEW IN 2026: NOTHING. Said plainly rather than padded — not one 2025 or 2026 artefact surfaced on two passes.** The retrievable debate is 2016–2024 material. **Thinnest sweep since 2026-10-13.**
+
+| Claim | Who, and their standing | Verdict |
+|---|---|---|
+| Pull-downs: "much higher velocity" at a **statistically nonsignificant** torque increase | Driveline, *"Comparison of Elbow Torques Between Pulldowns and Pitching"* — the most instrumented facility in the industry | 🚨 **UNVERIFIED.** The one claim that would make pull-downs a free lunch, and a targeted second pass **failed to locate the study at all.** No n, no N·m, no method. **Do not quote** (F-727's rule) |
+| The biomechanical literature on long toss contradicts itself — one study finds it more stressful than pitching, another finds it similar | Driveline, *"The Facts Behind Long Toss"* | **CORRECT.** It is F-742, stated accurately by a company that sells throwing programmes. **The most restrained vendor position in this topic** |
+| Throw to distance to free the arm up, then compress to 60 ft while holding the arm speed | Alan Jaeger — the originating authority for the pull-down phase | **UNPROVEN.** Coherent and untested; F-739/F-740 identify the specific reason to doubt the compression step — the arm speed at distance is partly bought with a run-up the rubber forbids |
+| Flat ground for "arm balance"; against max-effort-only work on deceleration grounds | Tom House | **UNPROVEN**, and ⚠️ F-739a is a direct problem: static flat ground carries mound-level elbow and shoulder load at **82% of the velocity** |
+| "The run-up supplies energy a static mound throw lacks, so running-throw speed doesn't carry over" | TopVelocity — a vendor selling velocity programmes, and the source this registry caught circulating a fabricated long-toss claim (F-223) | **MECHANISM CORRECT** — it is F-739, arrived at independently. **Right for the right reason, from a source to keep at arm's length** |
+| "A big pull-down gap means he's losing connection and energy transfer" | multiple training facilities, used as an individual diagnosis | **MARKETING** until F-746 is run — an unreliability-unchecked between-athlete number applied to one athlete |
+| Mean pull-down→mound gap 5.7 mph (≈23 athletes, after a blending phase) | VeloU | **LEAD** — replicated on two passes, vendor data, no control, no method |
+| "57 pitchers, mean gap 6.1 mph, range 1–10 mph" | PRP Baseball (2018) | 🚨 **UNVERIFIED — failed the second pass. Do not quote** |
+| Shuffle pull-downs run 1–3 mph above mound velocity | a training provider | **LEAD, and the direction the mechanism predicts** — roughly half the gap of a full run-up |
+
+⭐ **TWO THINGS WORTH CARRYING OUT OF THIS SWEEP.**
+**(a) The vendors are better calibrated on this topic than the journals are.** Driveline states plainly that the literature conflicts; TopVelocity states the run-up mechanism correctly. **Both are more careful than the 2011 paper that generated a decade of "long toss is dangerous" and the 2019 paper that generated "long toss is fine."**
+**(b) The free-lunch claim is the one that vanished under checking.** That is the normal order of events, and it is why the second pass is now mandatory.
