@@ -682,3 +682,28 @@ A search summariser emitted, unprompted and with **no supporting link in its own
 ⭐ **TWO THINGS WORTH CARRYING OUT OF THIS SWEEP.**
 **(a) The vendors are better calibrated on this topic than the journals are.** Driveline states plainly that the literature conflicts; TopVelocity states the run-up mechanism correctly. **Both are more careful than the 2011 paper that generated a decade of "long toss is dangerous" and the 2019 paper that generated "long toss is fine."**
 **(b) The free-lunch claim is the one that vanished under checking.** That is the normal order of events, and it is why the second pass is now mandatory.
+
+---
+
+## 2026-10-18 — ROTATIONAL POWER AND THE MEDICINE BALL THROW (F-760)
+
+**SWEEPS RUN:** rotational med-ball throw × pitch velocity; med-ball training interventions; test reliability; body-mass confounding; 2025–2026 rotational-power research; coach, forum and podcast discourse. Two passes, as F-727 requires.
+
+🚨 **GENUINELY NEW IN 2026: ALMOST NOTHING.** One journal artefact (the *Scientific Reports* normalisation paper) and one vendor dataset. The rest is 2014–2024 material recirculating.
+
+| Claim | Who, and their standing | Verdict |
+|---|---|---|
+| RMBTV correlates with pitch velocity at **r ≈ 0.30–0.44, 10–35% of variance** in their **NAIA** athletes; the throw resembles hitting more than pitching; lower-body power and sequencing matter at least as much | **Tread Athletics** — large remote-development operation with its own database | ⭐ **PROMISING, and the best item in the sweep.** A vendor volunteering a **smaller** number than the published literature — the opposite of the usual direction — and it lands inside the band F-750 derived from Taniyama's own coefficient. ⚠️ unpublished, no n, no method |
+| "Study: Med Ball Throws **Highly** Correlate to Pitching Velocity" | **TopVelocity** (2014, still circulating; plus a 2024 bat-speed-vs-velocity post) | **MARKETING.** "Highly" is r = 0.62 with a 95% CI from 0.16 to 0.86 (F-749) |
+| Med-ball throws are a dose-and-intent question, and the kinetic chain's links should be trained rather than one weight-room number chased | **SimpliFaster** (Donatucci method); **Oates Specialties** | **UNPROVEN but honest.** The most sensible framing in the sweep; no data |
+| Med balls build pitching velocity; "pitchers reached the 90s" | **Integrated Performance Team, Overtime Athletes, Bruce Bolt, Edge360** — training businesses | **MARKETING.** No controlled data anywhere. ⭐ One useful shared note: **introduce high-velocity rotational throws LATE in the offseason** — obliques and posterior shoulder |
+| MB throw distance is "directly confounded by body mass... systematically biasing performance rankings and talent identification protocols"; proposes height-to-mass normalisation | ***Scientific Reports* 2026**, `s41598-026-58353-w` | ⭐ **PROMISING, UNREAD — top verification item in the topic.** The sweep's single most useful sentence, and it came from a journal rather than a blog |
+| Passive external rotation vs internal-rotation **power** as predictors of fastball velocity, **n = 15 collegiate pitchers**, 2025 | **Velo University** | **UNPROVEN, flagged not imported.** n = 15 again, r_crit = 0.514 again (F-749's arithmetic applies unchanged) |
+| How "rotational power" entered the coaching vocabulary (Paul Nyman) | **Joe Eisenmann** Substack | **Context, not evidence** |
+| "r = 0.60–0.85 between rotational MB throw performance and sport-specific skills" | a **testing-calculator website**, uncited | ⚠️ **UNVERIFIED — do not import** |
+
+🚨 **NOT FOUND, and recorded as such:** no 2025–2026 peer-reviewed study relating any rotational-power measure to pitch velocity; **no force-plate rotational-output study in pitchers at all**; **no retrievable Driveline publication on the rotational med-ball throw** (searched directly); **zero Reddit or X threads on two passes.**
+
+⭐ **TWO THINGS WORTH CARRYING OUT OF THIS SWEEP.**
+**(a) The best-calibrated source in the topic is a vendor, and it is calibrated DOWNWARD.** Tread's own data undercuts the paper the whole practice cites. **When a commercial operator volunteers a weaker number than the literature, that number deserves more weight than the literature's, not less** — it is being reported against interest. Second consecutive cycle in which the vendors read the evidence more carefully than the coaching consensus does (see 2026-10-17 item (a)).
+**(b) Nobody is arguing the skeptical side in public.** The "med ball is overrated" position — which is roughly where this brief lands — is essentially unrepresented in coaching discourse, so a coach who stops calling med balls a velocity driver will have **no public cover for it.** The arithmetic in F-749, F-750 and F-751 is that cover, and it is the reason the derivation half of this cycle matters more than the search half.
