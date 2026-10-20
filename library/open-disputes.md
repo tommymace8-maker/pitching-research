@@ -2502,3 +2502,134 @@ IAP's mechanical function is transmitting torque to an **external resistance**. 
 **F-004's jump-height transfer null — 🟢 STRENGTHENED, by a second clean instance.** F-766 is the **second** case in this registry where a trained quality demonstrably moved (eccentric *and* concentric power output rose; jumping improved) and the throw did not, **with the manipulation check passing.** That is a better class of evidence than F-721's plyometric trials, which moved ball velocity without checking whether they moved an SSC quality. ⚠️ **With the limit stated: 11 vs 7 excludes nothing (F-774). It constrains the enthusiasts; it does not settle the question.**
 
 **Dispute #27 (does anybody ever measure accuracy?) — 🔴 TWELFTH VENUE, and the absence is total again.** **Zero accuracy, command or location outcomes in the entire eccentric and flywheel training literature**, in any population. Every outcome is velocity, strength, power or a jump.
+
+---
+
+## Dispute #88 — 🔴 Is the lower-body gap an absence of EFFECT or an absence of STUDY? *(added 2026-10-20)*
+
+**The claim at issue:** the intersection of "lower-body training manipulated" and "throwing-velocity outcome
+measured" contains **two trials in the world** (F-776) — McEvoy & Newton 1998 in nine professionals, with
+lower-body work bundled with bench throws (F-777), and Makni 2024 in 27 pubertal handball players with a
+425 g ball (F-778). **Nothing in baseball isolates the lower body. Nothing at all exists at 85+.**
+
+**BIOMECHANIST claims the gap is an absence of STUDY and refuses to read it as evidence of absence.**
+F-782 is the decisive fact: the archetypal program in this literature is **17 upper-body exercises to 4
+lower-body**, and the field's own 2024 review sorts its entire 17-study evidence base into four categories,
+**none of them lower-body**. You cannot infer "the legs don't matter" from a literature that never pointed a
+camera at the legs. He also notes that the gap claim in **F-038 was partly FALSE** — one sprint-training
+trial does exist — which is the F-042 lesson repeating: *this corpus's gap claims are search-failure claims
+until somebody searches again.*
+
+**ANATOMY–PHYSIOLOGY claims the mechanism survives but concedes the lever, and concedes more than he
+expected to.** The kinetic chain is real and the lead-leg block is served by a ~50–80 ms braking event
+(F-645). But he concedes the inference under cross-examination: **if horizontal impulse were the binding
+constraint at 85+, adding a running start — which adds exactly that — should buy a lot, and it buys
+r = 0.164 at n = 332 in actual games.** He also concedes that **linear sprint training is the wrong plane**
+if F-009's frontal-plane test is the one carrying signal, and he withdraws any velocity claim entirely.
+
+**COACH claims the dispute is already decided for practice by arithmetic, and that the decision is a
+refusal with a number.** F-785: **38–84 arms to establish the marker on an 85+ staff; 126–348 athletes to
+detect the intervention; 8–10 arms for the reliability audit.** Only the third fits on a roster. His
+position: **keep the sprint and lift work on cost/benefit grounds — cheap, low-risk, holds athleticism —
+and stop selling it as a velocity intervention.** He adds the one thing he thinks matters most: *"the
+industry sells sprint work to pitchers as velocity. The honest sentence is that lower-body training is in
+the program because of how hard throwers are built, not because anybody moved a fastball with it."*
+
+**WHAT WOULD SETTLE IT:** **(a)** the trial Makni 2024 proves is runnable — three arms (resisted sprint /
+unresisted sprint / nothing), six weeks, on a college staff, with a mound-velocity outcome. **It has never
+been done in baseball and nothing structural prevents it.** **(b)** McEvoy & Newton 1998's baseline
+velocity — one methods line decides whether the topic's best trial is even on this population. **(c)** any
+trial that isolates lower-body work from upper-body work, which would be the first.
+
+**STATUS: 🔴 OPEN, and all three agents agree on what to do this week (keep the work, drop the claim).** The
+live disagreement is **narrower and sharper than the topic**: the biomechanist holds that the gap licenses
+*no* reading, while the coach holds that F-785's arithmetic licenses a *refusal*, which is itself a reading.
+**Both are defensible and they produce the same instruction, so the dispute is currently inert — but it
+decides something for later: if the biomechanist is right, a single well-designed trial flips the topic, and
+the corpus should be watching for it.**
+
+---
+
+## Dispute #89 — 🔴 Does pitching fatigue lower-body jump output? Three studies, three answers, and the newest splits by competition level *(added 2026-10-20)*
+
+**The claim at issue:** three simulated-game studies disagree about whether an outing fatigues lower-limb
+jump output, and whether that fatigue shows up on the radar.
+
+| Source | n | Jump output | Ball speed |
+|---|---|---|---|
+| **F-359** (Yanai 2018, PMC6028199, **source-verified, read in full**) | 18 collegiate, 117 pitches | **no squat-jump variable moved** | fell |
+| **PMID 40815189** (2025) | 12 collegiate, 7 innings | **fatigue developed** | **stable** |
+| **F-780 / Chang 2026** (DOI 10.1177/17479541261451409) | 20 (10 D1 / 10 D2), 7 innings | **CMJ fell in BOTH** | **D1 −2.9% NS; D2 −5.7% sig. from 3rd inning** |
+
+**BIOMECHANIST claims the contradiction is probably not real and names the resolution.** **F-460 already
+established that F-359's null could only have detected a large effect** — so "no variable moved" means "no
+large effect was detectable in 18 men," not "nothing happened." Three studies agreeing that *something*
+declines, with one underpowered null among them, is weaker evidence of conflict than it looks. What he will
+not concede is the monitoring claim: **Chang's conclusion that CMJ is "more sensitive than ball speed" rests
+on n = 10 per level, one lab, and no reported mean velocity for either group** — and the level contrast is
+**cross-sectional**, a pre-existing group comparison, not an assignment.
+
+**ANATOMY–PHYSIOLOGY claims the level split is the real result and that it is mechanistically plausible.**
+A higher-level arm has more reserve: the same absolute neuromuscular decline eats a smaller fraction of its
+capacity, so velocity holds while the legs tire. **That predicts exactly Chang's pattern — equal CMJ decline,
+velocity loss only in the lower group.** He concedes it is a post-hoc fit and labels it as one.
+
+**COACH claims the whole dispute is blocked by a measurement question that nobody in it addressed.**
+F-781 reports **ICC = 0.36** for Peak Relative Braking Force and Net Positive Impulse, implying
+**MDC₉₅ ≈ 2.22 SD**. *"You are arguing about whether the jump test detects fatigue. I am asking whether the
+jump test detects the same athlete twice."* **If that ICC is anywhere near right, none of these three studies
+can be acted on by a staff, whichever of them is correct** — and the fix is one afternoon, 8–10 arms, three
+CMJs, two days. **He will not monitor anybody until his own ICC comes back.**
+
+**WHAT WOULD SETTLE IT:** **(a) ⭐ the cheapest item, and it is the coach's: a between-day CMJ ICC on your
+own staff.** It gates everything else and needs no literature. **(b)** the mean fastball velocity of Chang
+2026's D1 and D2 groups — the finding turns entirely on whether the D1 arm clears 85. **(c)** a
+sufficiently powered replication of F-359's protocol: F-460's arithmetic says the original could not have
+seen a moderate effect.
+
+**STATUS: 🔴 OPEN, and the coach's challenge has temporarily won on practical grounds.** All three agents
+accept that **the reliability question precedes the fatigue question**, and that until it is answered, the
+three-way contradiction changes nothing a staff does. **This is the first time in this registry that a
+*reliability* objection has blocked a dispute that a *validity* objection could not** — and it is a reusable
+move.
+
+---
+
+## Carried-forward disputes — did 2026-10-20 move them?
+
+**Dispute #85 (does a 425 g handball result transfer to a 145 g baseball?) — 🟡 MOVED, and it now binds a
+THIRD topic.** The single sprint-training-with-throwing-outcome trial in existence is a **425 g handball
+result in 14-year-olds** (F-778), and it is the specific reason that trial licenses nothing at 85+.
+**Yesterday recommended promoting #85 from a topic dispute to a STANDING CONSTRAINT; today is the third
+consecutive cycle in which it is the load-bearing uncertainty, and the recommendation should now be
+executed rather than re-recommended.**
+
+**Dispute #84 (does the rotational med-ball throw measure rotational power or body mass?) — 🟢 MOVED, by
+analogy, and ONE REGRESSION NOW ANSWERS TWO DISPUTES.** F-783 is the identical structure in a new variable:
+an absolute mass-weighted output (**sprint momentum**, p = m·v) correlated with ball speed in a sample whose
+**body mass also correlates with ball speed**, with **the partial correlation unreported in both cases.**
+The decisive test — a partial correlation controlling for body mass — is the same test in both topics.
+**That makes it, by a clear margin, the cheapest decisive item in the file.**
+
+**Dispute #27 (does anybody ever measure accuracy?) — 🔴 THIRTEENTH VENUE, and the absence is total again.**
+Zero accuracy, command or location outcomes in the entire lower-body training literature, in any
+population. Every outcome is velocity, sprint time, jump height or strength.
+
+**F-004's jump-height transfer null — 🟡 MOVED, in an unexpected direction.** F-781 is the **first
+RELIABILITY challenge to the jump-test channel rather than a VALIDITY one.** The question is no longer only
+*"does jump output relate to velocity"* but *"can the force-plate metric be measured twice the same way."*
+**If ICC = 0.36 survives peer review, several registered jump-marker findings are partly measuring noise** —
+and that would be a different and more corrosive problem than an underpowered correlation.
+
+**F-750's restriction-of-range prediction audit — 🟢 FIFTH LANDING, directionally and weakly.** F-009's
+R² = 0.322 (r ≈ 0.567) in a mixed college sample of 42 against a D2 staff reporting "no strong correlation"
+at n = 23 (F-781). **Recorded as a WEAK instance** — conference abstract, small n, wide interval. The audit
+stands at four strong landings plus one weak, **and it has lowered the estimate every time.**
+
+**The pre-post artefact (F-416 → F-769) — 🟢 PROMOTED FROM CANDIDATE TO RUN SWEEP, and it is
+one-directional three for three.** F-779: four registry instances (**F-416, F-754, F-769, and F-037 newly
+identified today**), two new external ones (F-777, F-778), and **one counter-example** — a bench-press VBT
+trial in 22 handball players where **both arms improved and the group × time interaction was NOT
+significant**. In every registry case where a pre-post magnitude was later checked against a between-arm
+contrast, **the estimate went DOWN.** The sweep is not finished: 4 of 116 INTERVENTION-graded findings
+checked.
