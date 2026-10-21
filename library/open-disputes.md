@@ -2633,3 +2633,158 @@ trial in 22 handball players where **both arms improved and the group × time in
 significant**. In every registry case where a pre-post magnitude was later checked against a between-arm
 contrast, **the estimate went DOWN.** The sweep is not finished: 4 of 116 INTERVENTION-graded findings
 checked.
+
+---
+
+## Dispute #90 — 🔴 Is "weightlifting transfers to sport" a transfer claim at all, or a jump-test claim wearing a transfer label? *(added 2026-10-21)*
+
+**The claim at issue:** the NSCA's position statement (Comfort et al. 2023, *JSCR* 37(6):1163–1190)
+grounds weightlifting's transfer case in **biomechanical similarity to jumping and sprinting**, and
+the field's one pooled comparison (Morris 2022, F-789) delivers its only significant transfer effect
+in **CMJ height (*g* = 0.95 [0.04, 1.87])**. For a pitcher, **jump height against fastball velocity
+is r = 0.07 at n = 33 D1 (F-004)**, and the sprint channel has **zero baseball trials with a
+throwing outcome (F-776)**.
+
+**BIOMECHANIST claims the whole literature is a proximal-outcome literature and the label is
+false advertising.** His case is arithmetic and does not need a paper opened: the chain is
+weightlifting → jump → ball, step 1's lower bound is *g* = 0.04 and step 2's correlate is r = 0.07.
+He adds F-790: two of Morris's four transfer outcomes have intervals wider than four standard
+deviations (**5.24 and 2.42 *g* units at k = 2 and k = 4**), and width falls monotonically as k
+rises — the small-study signature, not a dose-response. **His position: there is no transfer finding
+here to argue about, only a jump finding that somebody relabelled.**
+
+**ANATOMY–PHYSIOLOGY defends the mechanism and attacks the test, not the training.** Triple
+extension under load is real force production through the hip, knee and ankle, and a pitcher's drive
+leg does extend. His objection is that **CMJ height is the wrong dependent variable for the
+mechanism** — it is mass-normalised by construction (**h = v²/2g**, F-005), and the pitching task is
+a horizontal, rotational, single-leg-braking event (F-645's 50–80 ms block), not a bilateral vertical
+one. **"You have shown that the jump test doesn't predict the fastball. You have not shown that the
+force production doesn't."** He concedes under cross-examination that this is an argument for a
+better test, not evidence of transfer, and that **he cannot name the test**.
+
+**COACH concedes the science and refuses the programming conclusion, for a reason outside the
+dispute.** He accepts F-791 in full and will not tell a pitcher that cleans add velocity. But he
+notes what the biomechanist's position does not price: **coaching minutes.** The Olympic lifts cost
+teaching time that the plyometric comparison (*g* = 0.31, p = 0.09, F-789) says buys nothing, and
+F-798 says the stimulus may not even be delivered to a technically limited athlete. **His position:
+the velocity claim is dead either way, so the decision turns on opportunity cost, and on opportunity
+cost the clean loses to a trap-bar pull and a jump — not because transfer is absent but because it
+is equally absent in the cheaper option.**
+
+**WHAT WOULD SETTLE IT:** **(a)** the trial that has never been run — three arms, one college staff,
+8–12 weeks, **mound velocity as the outcome.** F-799 prices it at **53 pitchers per arm to see 1
+mph**, which is why it must be multi-program. **(b) ⭐ the anatomist's missing test**: a lower-body
+output measure that is horizontal, rotational and single-leg, validated against ball velocity in an
+85+ sample. **Nobody has proposed one, which is this dispute's real hole.** **(c)** Morris 2022's
+forest plots, to confirm or kill F-790's small-study inference.
+
+**STATUS: 🔴 OPEN, and the disagreement is about what the word "transfer" licenses rather than about
+any number.** All three agents agree on the instruction — **do not sell weightlifting as velocity**
+— so the dispute is inert for this week's programming, exactly as #88 was. **It decides something
+later: if the anatomist is right that the test is wrong rather than the mechanism, then the corpus's
+entire lower-body ledger is mis-specified rather than empty, and the fix is a new measurement, not a
+new trial.**
+
+---
+
+## Dispute #91 — 🔴 Does a failed in-session velocity target invalidate the exercise, or is failing it the normal state of the lift? *(added 2026-10-21)*
+
+**The claim at issue:** weightlifting derivatives are programmed as a **"force and velocity
+overload"** (F-795's trial is titled for it). Pálinkás 2025 (F-796) reports that its Olympic
+weightlifting arm **could not realise the intended maximal velocities because of the players'
+technical proficiency** — and that arm still improved its 5RM squat and its CMJ. F-799 proposes
+gating the exercise on a bar-velocity check.
+
+**COACH claims the check is the right gate and that it is the only free, falsifiable thing in the
+topic.** F-798's rule is now on its fourth arrival and this is its first in-the-wild failure, reported
+by the authors themselves. *"If I prescribe an exercise for speed and the bar isn't moving fast, I
+have not given him the exercise. I've given him a slow pull with extra coaching time."* One
+transducer, three sessions, zero athlete time, and it can come back negative — which is more than
+anything else in this file can claim.
+
+**ANATOMY–PHYSIOLOGY challenges the gate directly and this is the live disagreement.** Pálinkás's
+arm **adapted anyway**: 5RM squat up, CMJ up, control group flat. If the named stimulus was absent and
+the adaptations arrived, then **the velocity target is not the active ingredient** — intent against a
+submaximal load, total force-time exposure, or simply novel heavy triple-extension work is enough.
+**"Your check would have told you to stop an exercise that worked."** He notes this is the same
+structure as F-764's inertia dial: the dial setting that delivers the named mechanism is not
+necessarily the setting that delivers the adaptation.
+
+**BIOMECHANIST declines to arbitrate and says both positions are unmeasurable as stated.** The
+adaptations Pálinkás reports are **5RM and CMJ at n = 7–12 per arm after attrition from 13–14**, in a
+sample the authors call less skilled — an n that excludes almost nothing, in a population where
+anything heavy works. He will not accept "it adapted anyway" from that design. But he also will not
+accept the coach's gate, because **no peer-reviewed velocity band exists for any derivative that this
+corpus has been able to retrieve (F-787, nineteen blocked cycles)** — so the threshold is
+device-dependent and therefore not a standard. **His position: run the check as a DESCRIPTION, log
+it, and do not let it stop anybody until there is a band to compare against.**
+
+**WHAT WOULD SETTLE IT:** **(a) ⭐ the cheapest item in this file — a published mean-concentric-velocity
+band for any common weightlifting derivative at a stated %1RM.** One table. It converts F-799's
+decision rule from device-dependent to citable. **(b)** a trial in which the velocity target is the
+manipulated variable: same exercise, same load, one arm cued and fed back to a velocity floor, one
+arm not. **It has never been run for any derivative. (c)** Pálinkás's per-arm velocity data, if
+recorded, which would say how far below target the arm actually was.
+
+**STATUS: 🔴 OPEN, and the biomechanist's procedural compromise is adopted for this week — run the
+check, log it, do not gate on it yet.** ⭐ **Note what happened here: a RELIABILITY/STANDARDS
+objection again narrowed a dispute that neither a validity nor a mechanism objection could, which is
+the second consecutive cycle in which that move has decided the practical question** (after F-781
+blocked Dispute #89). **It is becoming the registry's most productive form of challenge and should be
+tried first rather than last.**
+
+---
+
+## Carried-forward disputes — did 2026-10-21 move them?
+
+**Dispute #85 (does a 425 g handball result transfer to a 145 g baseball?) — 🟡 MOVED, and it now
+binds a FOURTH topic.** Every throwing-adjacent object in today's barbell topic is handball:
+Hermassi 2019 (F-717, unusable), Pálinkás 2025 (F-796, no throw measured at all), Petruzela 2023
+(F-765). **Promotion from a topic dispute to a STANDING CONSTRAINT has now been recommended for a
+THIRD consecutive cycle. It should be executed, not re-recommended.** ⭐ **And today sharpens it in a
+new way: in the newest handball object the implement-mass question does not even arise, because
+nobody threw anything.** The constraint's real content may be narrower and worse than stated — not
+"does 425 g transfer to 145 g" but **"does any strength study on a throwing population measure the
+throw."**
+
+**Dispute #84 (does the rotational med-ball throw measure rotational power or body mass?) — 🟢 MOVED,
+by a third analogy, and the same regression now answers THREE things.** F-797 is the identical
+structure in a third variable: **CMJ concentric impulse, J = m·√(2gh)**, correlating with ball
+velocity at r = 0.71 while jump height alone gives r = 0.07 — and it is being sold to pitchers as
+evidence for a drive-leg cue. **Med-ball throw velocity, sprint momentum, jump impulse: three
+absolute mass-weighted outputs, three unreported body-mass partials, one regression.** It remains by
+a clear margin **the cheapest decisive item in the file**, and it is now cheaper per dispute than it
+was yesterday.
+
+**Dispute #27 (does anybody ever measure accuracy?) — 🔴 FOURTEENTH VENUE, and the absence has
+widened past accuracy.** Zero accuracy outcomes in the weightlifting, derivative, complex and
+contrast literatures. **But F-796 is the sharper instance: a randomised trial of Olympic weightlifting
+in handball players with no throwing outcome of any kind.** The dispute was about accuracy going
+unmeasured; it is now about **the sport's primary skill** going unmeasured in a trial run on that
+sport's athletes. **Consider restating the dispute at that wider scope.**
+
+**Dispute #80 (does this registry's own use of pooled SMDs have the F-726 defect?) — 🟢 MOVED, with
+two external instances in one cycle.** F-793: Cormier 2020 reports **1RM improvements "from
+baseline"** and compares two modalities' within-arm effect sizes across different studies, with **no
+control group for the contrast arm on change of direction.** F-792: a review that prints the
+pre-post and controlled rates side by side. **The defect is confirmed as a property of the
+literature, not of this registry's reading of it** — which raises rather than lowers the priority of
+auditing the registry's own pooled entries.
+
+**The pre-post artefact (F-416 → F-779) — 🟢 FIFTH AND SIXTH INSTANCES, STILL ONE-DIRECTIONAL, AND
+NOW QUANTIFIED.** F-792 is the first instance that reports the survival rate: **100% of studies
+positive pre-post, 50% positive against their own control.** The sweep's working prior is now a
+number rather than a direction. **4 of 116 INTERVENTION-graded registry findings have been checked;
+the sweep is still unfinished and it is still the top structural item.**
+
+**F-004's jump-height transfer null — 🟡 MOVED, and it is now load-bearing for a whole modality
+rather than a single channel.** F-791 makes F-004 the pivot of the entire weightlifting transfer
+argument: the field's own position statement routes transfer through jumping, and F-004 is the
+measurement of that route in this population. **The null has now killed or blocked five channels**
+(re-warm-up, plyometric transfer, the jump-marker channel, sprint training, and now the weightlifting
+transfer chain). ⚠️ **It is over-loaded again, in exactly the way the 2026-09-20 escalation warned
+about, and the 2026-09-22 audit (`jump-transfer-audit.md`) should be re-opened rather than cited.**
+
+**F-750's restriction-of-range prediction audit — ⚪ NOT TESTED THIS CYCLE.** No on-population
+correlation was retrieved; the topic's objects are non-throwers or handball. The audit stands at four
+strong landings plus one weak.
